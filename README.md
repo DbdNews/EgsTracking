@@ -1,5 +1,5 @@
 # EgsTracking | Dead By Daylight
-<img src="https://i.imgur.com/FhV2qSA.png" align="right" alt="DbdNews" width="256" height="256">
+<img src="https://i.imgur.com/JeL3xbq.jpg" align="right" alt="DbdNews" width="256" height="256">
 
 Repository used to track all changes in Dead By Daylight Pak files only for Epic Games Client.
 
