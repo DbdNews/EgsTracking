@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_K30P01_C",
+    "SuperStruct": {
+      "ObjectName": "Class K30P01",
+      "ObjectPath": "/Script/TheK30"
+    },
+    "ClassFlags": 10749972,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_K30P01_C Default__BP_K30P01_C",
+      "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/BP_K30P01.1"
+    }
+  },
+  {
+    "Type": "BP_K30P01_C",
+    "Name": "Default__BP_K30P01_C",
+    "Properties": {
+      "_revealToKillerEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass BP_K30P01_RevealToKillerEffect_C",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/BP_K30P01_RevealToKillerEffect.0"
+      },
+      "_revealDuration": 3.0,
+      "_revealDuration": 4.0,
+      "_revealDuration": 5.0,
+      "PerkIconStrategyClass": {
+        "ObjectName": "Class ActivationTimerRemainingPercentIconStrategy",
+        "ObjectPath": "/Script/DeadByDaylight"
+      }
+    }
+  }
+]

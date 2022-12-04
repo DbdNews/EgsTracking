@@ -1,0 +1,50 @@
+[DataDrivenPlatformInfo]
+bIsConfidential=true
+IniParent=Windows
+AudioCompressionSettingsIniSectionName=/Script/EGSPlatformEditor.EGSTargetSettings
+Freezing_MaxFieldAlignment=8
+Freezing_bAlignBases=true
+
+[PlatformInfo EGS]
+TargetPlatformName=EGS
+DisplayName=Epic Game Store
+PlatformType=Game
+PlatformFlags=None
+NormalIconPath=/Platforms/EGS/Content/Editor/Slate/Launcher/Platform_EGS_24x
+LargeIconPath=/Platforms/EGS/Content/Editor/Slate/Launcher/Platform_EGS_128x
+XLargeIconPath=
+UATCommandLine=-targetplatform=EGS
+AutoSDKPath=
+TutorialPath=
+Windows:bIsEnabled=true
+Mac:bIsEnabled=false
+Linux:bIsEnabled=false
+BinariesDirectoryName=EGS
+IniPlatformName=EGS
+bUsesHostCompiler=false
+bUATClosesAfterLaunch=false
+bIsConfidential=true
+UBTTargetID=EGS
+PlatformGroupName=Desktop
+
+[PlatformInfo EGSClient]
+TargetPlatformName=EGS
+DisplayName=Epic Game Store
+PlatformType=Client
+PlatformFlags=None
+NormalIconPath=/Platforms/EGS/Content/Editor/Slate/Launcher/Platform_EGS_24x
+LargeIconPath=/Platforms/EGS/Content/Editor/Slate/Launcher/Platform_EGS_128x
+XLargeIconPath=
+UATCommandLine=-client
+AutoSDKPath=
+TutorialPath=
+Windows:bIsEnabled=true
+Mac:bIsEnabled=false
+Linux:bIsEnabled=false
+BinariesDirectoryName=EGS
+IniPlatformName=EGS
+bUsesHostCompiler=false
+bUATClosesAfterLaunch=false
+bIsConfidential=true
+UBTTargetID=EGS
+PlatformGroupName=Desktop

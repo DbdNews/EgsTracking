@@ -1,0 +1,192 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "SM_QTM_ExitGate_Terrain_01",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_GameTraceChannel15",
+        "CollisionProfileName": "Ground",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Interactable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Slasher",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Blood",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "InteractionDetector",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "World",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Walkable",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "A4C0A24742A02CF76509218923E76BCF",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "ElementCount": 56015,
+        "SizeOnDisk": 56015,
+        "OffsetInFile": "0x350494"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3",
+    "Outer": "SM_QTM_ExitGate_Terrain_01",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x35DFAB"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_QTM_ExitGate_Terrain_01",
+    "Properties": {
+      "MinLOD": {
+        "bCooked": true,
+        "Default": 0,
+        "Value": 0
+      },
+      "ShadowMaxLOD": {
+        "PerDetailModeValue": {
+          "Ultra": 3,
+          "High": 3,
+          "Medium": 3,
+          "Low": 3,
+          "Mobile": 3
+        }
+      },
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_QTM_TrimWoodLogsMedieval",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Quantum/Structures/MI_QTM_TrimWoodLogsMedieval.0"
+          },
+          "MaterialSlotName": "MI_QTM_TrimWoodLogsMedieval",
+          "ImportedMaterialSlotName": "MI_QTM_TrimWoodLogsMedieval",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 704.70056,
+            "LocalUVDensities": 15621.93,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_QTM_TrimWoodDamageMedieval_Blood_01",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Quantum/Structures/MI_QTM_TrimWoodDamageMedieval_Blood_01.0"
+          },
+          "MaterialSlotName": "MI_QTM_TrimWoodDamageMedieval_Blood_01",
+          "ImportedMaterialSlotName": "MI_QTM_TrimWoodDamageMedieval_Blood_01",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 459.31128,
+            "LocalUVDensities": 15784.299,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_QTM_GroundMudBattleDryWetRocky_Blend",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Quantum/MI_QTM_GroundMudBattleDryWetRocky_Blend.0"
+          },
+          "MaterialSlotName": "MI_QTM_GroundMudBattleDryWetRocky_Blend",
+          "ImportedMaterialSlotName": "MI_QTM_GroundMudBattleDryWetRocky_Blend",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 2806.5054,
+            "LocalUVDensities": 15965.605,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_QTM_BrickExitGateBlend_01",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Quantum/Structures/MI_QTM_BrickExitGateBlend_01.0"
+          },
+          "MaterialSlotName": "MI_QTM_BrickExitGateBlend_01",
+          "ImportedMaterialSlotName": "MI_QTM_BrickExitGateBlend_01",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 475.24942,
+            "LocalUVDensities": 15714.376,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_QTM_GroundMudBattleNeutral",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Quantum/MI_QTM_GroundMudBattleNeutral.0"
+          },
+          "MaterialSlotName": "MI_QTM_GroundMudBattleNeutral",
+          "ImportedMaterialSlotName": "MI_QTM_GroundMudBattleNeutral",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 292.09482,
+            "LocalUVDensities": 15872.586,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 15811.45,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "LODForCollision": 3,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1895.3147,
+          "Y": -59.63037,
+          "Z": -169.2948
+        },
+        "BoxExtent": {
+          "X": 2351.4487,
+          "Y": 2424.1375,
+          "Z": 627.786
+        },
+        "SphereRadius": 3380.5764
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup SM_QTM_ExitGate_Terrain_01:BodySetup_0",
+      "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Quantum/Structures/SM_QTM_ExitGate_Terrain_01.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision SM_QTM_ExitGate_Terrain_01:NavCollision_3",
+      "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Quantum/Structures/SM_QTM_ExitGate_Terrain_01.1"
+    },
+    "LightingGuid": "CF4BFF50-48413002-22E422B0-553FA00F",
+    "RenderData": null
+  }
+]
