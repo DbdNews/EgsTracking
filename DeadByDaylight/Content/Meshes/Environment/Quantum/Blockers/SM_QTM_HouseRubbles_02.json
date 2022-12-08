@@ -1,0 +1,438 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "SM_QTM_HouseRubbles_02",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -63.717133,
+                "Y": 128.57903,
+                "Z": -4.44016
+              },
+              {
+                "X": -120.2545,
+                "Y": -32.682983,
+                "Z": -4.44016
+              },
+              {
+                "X": -100.72281,
+                "Y": -140.48322,
+                "Z": -4.44016
+              },
+              {
+                "X": -28.8125,
+                "Y": -183.75,
+                "Z": -4.44016
+              },
+              {
+                "X": 52.84046,
+                "Y": -142.70312,
+                "Z": -4.44016
+              },
+              {
+                "X": 99.05065,
+                "Y": 18.66725,
+                "Z": -4.44016
+              },
+              {
+                "X": 60.654068,
+                "Y": 108.61929,
+                "Z": -4.44016
+              },
+              {
+                "X": 14.46785,
+                "Y": 147.88379,
+                "Z": -4.44016
+              },
+              {
+                "X": -120.22418,
+                "Y": -32.85029,
+                "Z": 95.55984
+              },
+              {
+                "X": -63.7379,
+                "Y": 128.57388,
+                "Z": 95.55984
+              },
+              {
+                "X": 14.369434,
+                "Y": 147.8595,
+                "Z": 95.55984
+              },
+              {
+                "X": 60.73368,
+                "Y": 108.43282,
+                "Z": 95.55984
+              },
+              {
+                "X": 99.06874,
+                "Y": 18.624863,
+                "Z": 95.55984
+              },
+              {
+                "X": 52.834,
+                "Y": -142.72574,
+                "Z": 95.55984
+              },
+              {
+                "X": -28.845215,
+                "Y": -183.76038,
+                "Z": 95.55984
+              },
+              {
+                "X": -100.72022,
+                "Y": -140.49759,
+                "Z": 95.55984
+              },
+              {
+                "X": 14.370113,
+                "Y": 147.85965,
+                "Z": -4.4687524
+              },
+              {
+                "X": 60.727455,
+                "Y": 108.44738,
+                "Z": -4.4687505
+              },
+              {
+                "X": -100.73915,
+                "Y": -140.39297,
+                "Z": 95.56117
+              },
+              {
+                "X": -28.625,
+                "Y": -183.8125,
+                "Z": 95.56117
+              },
+              {
+                "X": -120.211845,
+                "Y": -32.918327,
+                "Z": -4.468752
+              },
+              {
+                "X": 60.625,
+                "Y": 108.625,
+                "Z": 95.56117
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              0,
+              3,
+              4,
+              0,
+              4,
+              5,
+              0,
+              5,
+              6,
+              0,
+              6,
+              7,
+              8,
+              9,
+              10,
+              8,
+              10,
+              11,
+              8,
+              11,
+              12,
+              8,
+              12,
+              13,
+              8,
+              13,
+              14,
+              8,
+              14,
+              15,
+              11,
+              10,
+              16,
+              11,
+              16,
+              17,
+              18,
+              19,
+              3,
+              18,
+              3,
+              2,
+              14,
+              13,
+              4,
+              14,
+              4,
+              3,
+              13,
+              12,
+              5,
+              13,
+              5,
+              4,
+              9,
+              8,
+              20,
+              9,
+              20,
+              0,
+              8,
+              15,
+              2,
+              8,
+              2,
+              20,
+              12,
+              21,
+              6,
+              12,
+              6,
+              5,
+              10,
+              9,
+              0,
+              10,
+              0,
+              7
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -120.2545,
+                "Y": -183.8125,
+                "Z": -4.4687524
+              },
+              "Max": {
+                "X": 99.06874,
+                "Y": 147.88379,
+                "Z": 95.56117
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Interactable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Slasher",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Blood",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "InteractionDetector",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "BlinkBlocker",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Walkable",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "1C9D7CD2454831E17F16BEAA55C0E913",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "ElementCount": 42037,
+        "SizeOnDisk": 42037,
+        "OffsetInFile": "0x1BA6F4"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_1",
+    "Outer": "SM_QTM_HouseRubbles_02",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "ElementCount": 937,
+        "SizeOnDisk": 937,
+        "OffsetInFile": "0x1C4B71"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_QTM_HouseRubbles_02",
+    "Properties": {
+      "MinLOD": {
+        "bCooked": true,
+        "Default": 0,
+        "Value": 0
+      },
+      "ShadowMaxLOD": {
+        "PerDetailModeValue": {
+          "Ultra": 3,
+          "High": 3,
+          "Medium": 3,
+          "Low": 3,
+          "Mobile": 3
+        }
+      },
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_COM_TrimWoodDamageMedieval",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Common/Trims/MI_COM_TrimWoodDamageMedieval.0"
+          },
+          "MaterialSlotName": "MI_COM_TrimWoodDamageMedieval",
+          "ImportedMaterialSlotName": "MI_COM_TrimWoodDamageMedieval",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 201.34267,
+            "LocalUVDensities": 1105.46,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_COM_TrimWoodBeamsMedieval",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Common/Trims/MI_COM_TrimWoodBeamsMedieval.0"
+          },
+          "MaterialSlotName": "MI_COM_TrimWoodBeamsMedieval",
+          "ImportedMaterialSlotName": "MI_COM_TrimWoodBeamsMedieval",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 268.7322,
+            "LocalUVDensities": 1108.0883,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_ECL_Debris_04",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Eclipse/Structure/MI_ECL_Debris_04.0"
+          },
+          "MaterialSlotName": "MI_ECL_Debris_04",
+          "ImportedMaterialSlotName": "MI_ECL_Debris_04",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 371.78693,
+            "LocalUVDensities": 1129.1709,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_QTM_PlasterA",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Quantum/Structures/MI_QTM_PlasterA.0"
+          },
+          "MaterialSlotName": "MI_QTM_PlasterA",
+          "ImportedMaterialSlotName": "MI_QTM_PlasterA",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 260.7434,
+            "LocalUVDensities": 1022.6893,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_COM_TrimMetalMedieval",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Common/Trims/MI_COM_TrimMetalMedieval.0"
+          },
+          "MaterialSlotName": "MI_COM_TrimMetalMedieval",
+          "ImportedMaterialSlotName": "MI_COM_TrimMetalMedieval",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 227.98537,
+            "LocalUVDensities": 1105.478,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1105.7277,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "LODForCollision": 3,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -13.183472,
+          "Y": -9.317749,
+          "Z": 43.552258
+        },
+        "BoxExtent": {
+          "X": 118.32243,
+          "Y": 187.26308,
+          "Z": 70.79753
+        },
+        "SphereRadius": 195.54834
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup SM_QTM_HouseRubbles_02:BodySetup_0",
+      "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Quantum/Blockers/SM_QTM_HouseRubbles_02.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision SM_QTM_HouseRubbles_02:NavCollision_1",
+      "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Quantum/Blockers/SM_QTM_HouseRubbles_02.1"
+    },
+    "LightingGuid": "F4A76369-43F6616D-1EB0E48C-FE8C0F2F",
+    "RenderData": null
+  }
+]
