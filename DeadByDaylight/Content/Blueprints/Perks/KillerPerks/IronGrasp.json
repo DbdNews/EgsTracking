@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "IronGrasp_C",
+    "SuperStruct": {
+      "ObjectName": "Class SpawningEffectPerk",
+      "ObjectPath": "/Script/DBDCompetence"
+    },
+    "ClassFlags": 10749972,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "IronGrasp_C Default__IronGrasp_C",
+      "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/IronGrasp.1"
+    }
+  },
+  {
+    "Type": "IronGrasp_C",
+    "Name": "Default__IronGrasp_C",
+    "Properties": {
+      "_perkLevelEffects": {
+        "EffectsToSpawn": [
+          {
+            "DEPRECATED_EffectId": "",
+            "EffectClass": {
+              "ObjectName": "BlueprintGeneratedClass IronGraspStatusEffect_C",
+              "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/IronGraspStatusEffect.2"
+            },
+            "CustomParam": 0.0,
+            "ReceiverStrategy": "EStatusEffectSpawnerReceiverStrategy::PawnType",
+            "PawnType": "EPawnType::VE_Survivor",
+            "SkipOriginatingPlayer": true
+          }
+        ]
+      },
+      "_perkLevelEffects": {
+        "EffectsToSpawn": [
+          {
+            "DEPRECATED_EffectId": "",
+            "EffectClass": {
+              "ObjectName": "BlueprintGeneratedClass IronGraspStatusEffect_C",
+              "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/IronGraspStatusEffect.2"
+            },
+            "CustomParam": 0.0,
+            "ReceiverStrategy": "EStatusEffectSpawnerReceiverStrategy::PawnType",
+            "PawnType": "EPawnType::VE_Survivor",
+            "SkipOriginatingPlayer": true
+          }
+        ]
+      },
+      "_perkLevelEffects": {
+        "EffectsToSpawn": [
+          {
+            "DEPRECATED_EffectId": "",
+            "EffectClass": {
+              "ObjectName": "BlueprintGeneratedClass IronGraspStatusEffect_C",
+              "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/IronGraspStatusEffect.2"
+            },
+            "CustomParam": 0.0,
+            "ReceiverStrategy": "EStatusEffectSpawnerReceiverStrategy::PawnType",
+            "PawnType": "EPawnType::VE_Survivor",
+            "SkipOriginatingPlayer": true
+          }
+        ]
+      },
+      "PerkLevelData": {
+        "Conditions": [
+          {
+            "ObjectName": "BlueprintGeneratedClass KillerIsCarryingSurvivor_C",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/PerkConditions/KillerIsCarryingSurvivor.2"
+          }
+        ],
+        "Modifiers": [
+          {
+            "Type": {
+              "TagName": "GameplayModifierType.ModifyWiggleFreeTimer"
+            },
+            "ModifierValue": -0.04
+          },
+          {
+            "Type": {
+              "TagName": "GameplayModifierType.ModifyWiggleIntensity"
+            },
+            "ModifierValue": -0.75
+          }
+        ]
+      },
+      "PerkLevelData": {
+        "Conditions": [
+          {
+            "ObjectName": "BlueprintGeneratedClass KillerIsCarryingSurvivor_C",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/PerkConditions/KillerIsCarryingSurvivor.2"
+          }
+        ],
+        "Modifiers": [
+          {
+            "Type": {
+              "TagName": "GameplayModifierType.ModifyWiggleFreeTimer"
+            },
+            "ModifierValue": -0.08
+          },
+          {
+            "Type": {
+              "TagName": "GameplayModifierType.ModifyWiggleIntensity"
+            },
+            "ModifierValue": -0.75
+          }
+        ]
+      },
+      "PerkLevelData": {
+        "Conditions": [
+          {
+            "ObjectName": "BlueprintGeneratedClass KillerIsCarryingSurvivor_C",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/PerkConditions/KillerIsCarryingSurvivor.2"
+          }
+        ],
+        "Modifiers": [
+          {
+            "Type": {
+              "TagName": "GameplayModifierType.ModifyWiggleFreeTimer"
+            },
+            "ModifierValue": -0.12
+          },
+          {
+            "Type": {
+              "TagName": "GameplayModifierType.ModifyWiggleIntensity"
+            },
+            "ModifierValue": -0.75
+          }
+        ]
+      },
+      "PerkIconStrategyClass": {
+        "ObjectName": "Class ActiveWhenApplicablePerkIconStrategy",
+        "ObjectPath": "/Script/DeadByDaylight"
+      }
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Breakout_C",
+    "SuperStruct": {
+      "ObjectName": "Class Breakout",
+      "ObjectPath": "/Script/DBDCompetence"
+    },
+    "ClassFlags": 10749972,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Breakout_C Default__BP_Breakout_C",
+      "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/SurvivorPerks/BP_Breakout.1"
+    }
+  },
+  {
+    "Type": "BP_Breakout_C",
+    "Name": "Default__BP_Breakout_C",
+    "Properties": {
+      "_hasteStatusEffect": {
+        "ObjectName": "BlueprintGeneratedClass BreakoutPerkHasteEffect_C",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/BreakoutPerkHasteEffect.3"
+      },
+      "_wiggleStatusEffect": {
+        "ObjectName": "BlueprintGeneratedClass BreakoutPerkWiggleEffect_C",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/BreakoutPerkWiggleEffect.3"
+      },
+      "_hasteEffect": 0.05,
+      "_hasteEffect": 0.06,
+      "_hasteEffect": 0.07,
+      "_wiggleEffect": 0.2,
+      "_survivorDistanceMax": 600.0
+    }
+  }
+]
