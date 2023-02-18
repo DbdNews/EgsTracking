@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Rocket\\",
-   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Rocket\\.cache\\Windows\\",
-   "SoundBanksRoot": "Z:\\DeadByDaylight_Rocket_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_Saturn_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Rocket\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "3259139368",
     "GUID": "{97EF1AF7-AFED-4105-A194-91B7177B0B63}",
     "Language": "SFX",
-    "Hash": "1568735391",
+    "Hash": "2213790726",
     "ObjectPath": "\\SoundBanks\\OBJECT\\OBJECT_GAMEPLAY\\Snowman",
     "ShortName": "Snowman",
     "Path": "Snowman.bnk",
@@ -50,6 +50,16 @@
         "Path": "SFX\\Object\\Obj_Gameplay\\Snowman\\sfx_snowman_destroyed_explosion_01_7FA8D501.wem"
        }
       ]
+     },
+     {
+      "Id": "2072335358",
+      "Name": "AudioEvent_Snowman_Killer_CancelInteraction",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_GAMEPLAY\\Snowman\\AudioEvent_Snowman_Killer_CancelInteraction",
+      "GUID": "{F0D6350A-8EB5-4E33-87B6-F6810128D62D}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "3113207339",

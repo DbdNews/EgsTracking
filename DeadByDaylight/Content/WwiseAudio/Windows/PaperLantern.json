@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Rocket\\",
-   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Rocket\\.cache\\Windows\\",
-   "SoundBanksRoot": "Z:\\DeadByDaylight_Rocket_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_Saturn_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Rocket\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1335603263",
-    "GUID": "{34D245B5-2F31-4F4B-AF16-34D7A7F314E0}",
+    "GUID": "{71478AAD-A44E-4287-9D20-D5B5DCDD52B4}",
     "Language": "SFX",
-    "Hash": "2746415787",
+    "Hash": "3860106239",
     "ObjectPath": "\\SoundBanks\\OBJECT\\OBJECT_GAMEPLAY\\PaperLantern",
     "ShortName": "PaperLantern",
     "Path": "PaperLantern.bnk",
@@ -26,7 +26,7 @@
       "Name": "AudioEvent_PaperLantern_Despawn",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_GAMEPLAY\\PaperLantern\\AudioEvent_PaperLantern_Despawn",
       "GUID": "{FC0ED494-3BA7-46E3-A34A-2349BBDDF8C0}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "850.000000",
       "DurationType": "OneShot",
       "DurationMin": "3.675875",
       "DurationMax": "3.675875",
@@ -44,7 +44,7 @@
       "Name": "AudioEvent_PaperLantern_Interaction",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_GAMEPLAY\\PaperLantern\\AudioEvent_PaperLantern_Interaction",
       "GUID": "{77147B35-A54B-4902-9ECA-D80381293538}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "850.000000",
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
@@ -56,11 +56,21 @@
       ]
      },
      {
+      "Id": "278611424",
+      "Name": "AudioEvent_PaperLantern_Interaction_Stop",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_GAMEPLAY\\PaperLantern\\AudioEvent_PaperLantern_Interaction_Stop",
+      "GUID": "{EDFF27A1-8BC0-4494-B658-3CAC8CB44359}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
       "Id": "3438874013",
       "Name": "AudioEvent_PaperLantern_Loop",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_GAMEPLAY\\PaperLantern\\AudioEvent_PaperLantern_Loop",
       "GUID": "{71869FD6-3560-4FC8-A994-7805639C5954}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "850.000000",
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
@@ -72,11 +82,21 @@
       ]
      },
      {
+      "Id": "3231875760",
+      "Name": "AudioEvent_PaperLantern_Loop_Stop",
+      "ObjectPath": "\\Events\\OBJECT\\OBJ_GAMEPLAY\\PaperLantern\\AudioEvent_PaperLantern_Loop_Stop",
+      "GUID": "{AEA75BCD-4C2B-4041-A5C5-2AED7AA7001E}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
       "Id": "1899208428",
       "Name": "AudioEvent_PaperLantern_Spawn",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_GAMEPLAY\\PaperLantern\\AudioEvent_PaperLantern_Spawn",
       "GUID": "{2A35DB4B-9759-4CA8-A0D9-FE43E2826DD1}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "850.000000",
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {

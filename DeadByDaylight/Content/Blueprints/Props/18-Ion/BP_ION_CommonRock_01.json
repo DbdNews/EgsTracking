@@ -1,0 +1,245 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ION_CommonRock_01_C",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript BP_ION_CommonRock_01_C:SimpleConstructionScript_1",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class Actor",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_CollisionTool",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class ChildActorComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class StaticMeshComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "root",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class SceneComponent",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ION_CommonRock_01_C Default__BP_ION_CommonRock_01_C",
+      "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.1"
+    }
+  },
+  {
+    "Type": "BP_ION_CommonRock_01_C",
+    "Name": "Default__BP_ION_CommonRock_01_C",
+    "Properties": {
+      "PrimaryActorTick": {
+        "bStartWithTickEnabled": false
+      },
+      "NetUpdateFrequency": 0.1,
+      "NetPriority": 0.01
+    }
+  },
+  {
+    "Type": "BP_CollisionTool_C",
+    "Name": "BP_CollisionTool_GEN_VARIABLE_BP_CollisionTool_C_CAT",
+    "Outer": "BP_CollisionTool_GEN_VARIABLE",
+    "Template": "Default__BP_CollisionTool_C"
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "BP_CollisionTool_GEN_VARIABLE",
+    "Outer": "BP_ION_CommonRock_01_C",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass BP_CollisionTool_C",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Collisions/BP_CollisionTool.5"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "BP_CollisionTool_C BP_ION_CommonRock_01_C:BP_CollisionTool_GEN_VARIABLE.BP_CollisionTool_GEN_VARIABLE_BP_CollisionTool_C_CAT",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.2"
+      },
+      "RelativeLocation": {
+        "X": 28.307806,
+        "Y": 6.1856585,
+        "Z": 142.03616
+      },
+      "RelativeRotation": {
+        "Pitch": -0.413878,
+        "Yaw": 92.07085,
+        "Roll": -2.084432
+      },
+      "RelativeScale3D": {
+        "X": 1.9176244,
+        "Y": 1.8245817,
+        "Z": 3.1753485
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_105",
+    "Outer": "BP_ION_CommonRock_01_C"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_110",
+    "Outer": "BP_ION_CommonRock_01_C",
+    "Properties": {
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_1",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class StaticMeshComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent BP_ION_CommonRock_01_C:StaticMesh_GEN_VARIABLE",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.11"
+      },
+      "VariableGuid": "C924B3BB-49EB02A9-6461B189-14DABFF2",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_1",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent BP_ION_CommonRock_01_C:SceneComponent_110",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.5"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node BP_ION_CommonRock_01_C:SimpleConstructionScript_1.SCS_Node_0",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.6"
+        },
+        {
+          "ObjectName": "SCS_Node BP_ION_CommonRock_01_C:SimpleConstructionScript_1.SCS_Node_6",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.8"
+        }
+      ],
+      "VariableGuid": "4EB57E9F-4DC2DE8D-DCCE17B2-A10871B1",
+      "InternalVariableName": "root"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_1",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class ChildActorComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent BP_ION_CommonRock_01_C:BP_CollisionTool_GEN_VARIABLE",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.3"
+      },
+      "VariableGuid": "FAEC8BF6-491520E2-8D02B78E-F5C161A5",
+      "InternalVariableName": "BP_CollisionTool"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_1",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class SceneComponent",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent BP_ION_CommonRock_01_C:SceneComponent_105",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.4"
+      },
+      "VariableGuid": "30AEBCFF-42BE5153-A2CF119D-01511A25",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_1",
+    "Outer": "BP_ION_CommonRock_01_C",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node BP_ION_CommonRock_01_C:SimpleConstructionScript_1.SCS_Node_11",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node BP_ION_CommonRock_01_C:SimpleConstructionScript_1.SCS_Node_11",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.7"
+        },
+        {
+          "ObjectName": "SCS_Node BP_ION_CommonRock_01_C:SimpleConstructionScript_1.SCS_Node_0",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.6"
+        },
+        {
+          "ObjectName": "SCS_Node BP_ION_CommonRock_01_C:SimpleConstructionScript_1.SCS_Node_6",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.8"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node BP_ION_CommonRock_01_C:SimpleConstructionScript_1.SCS_Node_9",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/18-Ion/BP_ION_CommonRock_01.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BP_ION_CommonRock_01_C",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh SM_ION_CommonRock_01",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Ion/Blockers/SM_ION_CommonRock_01.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "CanCharacterStepUpOn": "ECB_No",
+      "Mobility": "EComponentMobility::Static"
+    }
+  }
+]

@@ -61,7 +61,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "IO_001",
         "AssociatedCharacter": -1,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::SpecialEvent",
@@ -112,7 +111,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "IO_001"
       },
       "IO_002": {
         "Category": "ECustomizationCategory::Charm",
@@ -166,7 +166,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "IO_002",
         "AssociatedCharacter": -1,
         "AssociatedRole": "EPlayerRole::VE_Slasher",
         "Rarity": "EItemRarity::SpecialEvent",
@@ -217,7 +216,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "IO_002"
       },
       "IO_003": {
         "Category": "ECustomizationCategory::Charm",
@@ -271,7 +271,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "IO_003",
         "AssociatedCharacter": -1,
         "AssociatedRole": "EPlayerRole::VE_Camper",
         "Rarity": "EItemRarity::SpecialEvent",
@@ -322,7 +321,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "IO_003"
       },
       "IO_004": {
         "Category": "ECustomizationCategory::Charm",
@@ -376,7 +376,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "IO_004",
         "AssociatedCharacter": -1,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::UltraRare",
@@ -427,7 +426,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "IO_004"
       }
     }
   }

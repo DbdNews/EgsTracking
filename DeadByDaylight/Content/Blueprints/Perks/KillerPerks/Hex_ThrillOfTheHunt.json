@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Hex_ThrillOfTheHunt",
+    "Outer": "Hex_ThrillOfTheHunt_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_CreateAndReceiveConditionForBP_conditionReceiver_CastInput",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899906842624,
+        "InterfaceClass": {
+          "ObjectName": "Class ConditionReceiver",
+          "ObjectPath": "/Script/Competence"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateAndReceiveConditionForBP_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class EventDrivenModifierCondition",
+          "ObjectPath": "/Script/Competence"
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "Authority_OnInstantiateModifierConditions",
+    "Outer": "Hex_ThrillOfTheHunt_C",
+    "SuperStruct": {
+      "ObjectName": "Function BaseModifierContainer:Authority_OnInstantiateModifierConditions",
+      "ObjectPath": "/Script/Competence"
+    },
+    "FunctionFlags": 134744068
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Hex_ThrillOfTheHunt_C",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function Hex_ThrillOfTheHunt_C:ExecuteUbergraph_Hex_ThrillOfTheHunt",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/Hex_ThrillOfTheHunt.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class HexThrillOfTheHunt",
+      "ObjectPath": "/Script/DBDCompetence"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function Hex_ThrillOfTheHunt_C:Authority_OnInstantiateModifierConditions",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/Hex_ThrillOfTheHunt.1"
+      },
+      {
+        "ObjectName": "Function Hex_ThrillOfTheHunt_C:ExecuteUbergraph_Hex_ThrillOfTheHunt",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/Hex_ThrillOfTheHunt.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Hex_ThrillOfTheHunt": {
+        "ObjectName": "Function Hex_ThrillOfTheHunt_C:ExecuteUbergraph_Hex_ThrillOfTheHunt",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/Hex_ThrillOfTheHunt.0"
+      },
+      "Authority_OnInstantiateModifierConditions": {
+        "ObjectName": "Function Hex_ThrillOfTheHunt_C:Authority_OnInstantiateModifierConditions",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/Hex_ThrillOfTheHunt.1"
+      }
+    },
+    "ClassFlags": 10749972,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Hex_ThrillOfTheHunt_C Default__Hex_ThrillOfTheHunt_C",
+      "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/Hex_ThrillOfTheHunt.3"
+    }
+  },
+  {
+    "Type": "Hex_ThrillOfTheHunt_C",
+    "Name": "Default__Hex_ThrillOfTheHunt_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "_thrillOfTheHuntStatusEffect": {
+        "ObjectName": "BlueprintGeneratedClass Hex_ThrillOfTheHunt_Effect_C",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/Hex_ThrillOfTheHunt_Effect.2"
+      },
+      "PerkIconStrategyClass": {
+        "ObjectName": "Class ActiveWhenApplicablePerkIconStrategy",
+        "ObjectPath": "/Script/DeadByDaylight"
+      },
+      "_maxTokenCount": 5,
+      "_canOptimizeTickActivation": true
+    }
+  }
+]

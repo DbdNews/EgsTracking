@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ScoreEmitterDB",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct PlayerScoreEmitterData",
+        "ObjectPath": "/Script/DeadByDaylight"
+      }
+    },
+    "Rows": {
+      "InBasementScore": {
+        "PawnSemanticTags": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Semantics.Survivor"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "Survivor",
+          "AutoDescription": " ALL( Semantics.Survivor )"
+        },
+        "Emitter": {
+          "AssetPathName": "/Game/Blueprints/Score/HealthyInBasementScore.HealthyInBasementScore_C",
+          "SubPathString": ""
+        }
+      },
+      "HitSurvivorInK31DroneActiveZone": {
+        "PawnSemanticTags": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Semantics.Killer.K31"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ANY( Semantics.Killer.K31 )"
+        },
+        "Emitter": {
+          "AssetPathName": "/Game/Blueprints/Score/BP_HitPlayerInDroneActiveZoneEmitter.BP_HitPlayerInDroneActiveZoneEmitter_C",
+          "SubPathString": ""
+        }
+      },
+      "K31InspectRadarScoreEmitter": {
+        "PawnSemanticTags": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Semantics.Killer.K31"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Semantics.Killer.K31 )"
+        },
+        "Emitter": {
+          "AssetPathName": "/Script/TheK31.K31InspectRadarScoreEmitter",
+          "SubPathString": ""
+        }
+      },
+      "K31WeakPointScoreEmitter": {
+        "PawnSemanticTags": {
+          "TokenStreamVersion": 0,
+          "TagDictionary": [
+            {
+              "TagName": "Semantics.Killer.K31"
+            }
+          ],
+          "QueryTokenStream": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "UserDescription": "",
+          "AutoDescription": " ALL( Semantics.Killer.K31 )"
+        },
+        "Emitter": {
+          "AssetPathName": "/Script/TheK31.K31WeakPointScoreEmitter",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

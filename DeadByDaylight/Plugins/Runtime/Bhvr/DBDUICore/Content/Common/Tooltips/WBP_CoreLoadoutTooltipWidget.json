@@ -1,0 +1,1157 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_CoreLoadoutTooltipWidget",
+    "Outer": "WBP_CoreLoadoutTooltipWidget_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Event_level",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchInteger_CmpSuccess",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_IntInt_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "SetLoadoutTooltipPerkLevel",
+    "Outer": "WBP_CoreLoadoutTooltipWidget_C",
+    "SuperStruct": {
+      "ObjectName": "Function LoadoutTooltipWidget:SetLoadoutTooltipPerkLevel",
+      "ObjectPath": "/Script/DBDUIViewsCore"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "level",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      }
+    ],
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_CoreLoadoutTooltipWidget_C",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree WBP_CoreLoadoutTooltipWidget_C:WidgetTree",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.45"
+      },
+      "bClassRequiresNativeTick": true,
+      "UberGraphFunction": {
+        "ObjectName": "Function WBP_CoreLoadoutTooltipWidget_C:ExecuteUbergraph_WBP_CoreLoadoutTooltipWidget",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class LoadoutTooltipWidget",
+      "ObjectPath": "/Script/DBDUIViewsCore"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function WBP_CoreLoadoutTooltipWidget_C:SetLoadoutTooltipPerkLevel",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.1"
+      },
+      {
+        "ObjectName": "Function WBP_CoreLoadoutTooltipWidget_C:ExecuteUbergraph_WBP_CoreLoadoutTooltipWidget",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bg",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class DBDImage",
+          "ObjectPath": "/Script/DBDUIViewsCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstructionContainer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class HorizontalBox",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstructionIcon",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class DBDImage",
+          "ObjectPath": "/Script/DBDUIViewsCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpecialEventContainer",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 562952101429260,
+        "PropertyClass": {
+          "ObjectName": "Class Overlay",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_CoreLoadoutTooltipWidget": {
+        "ObjectName": "Function WBP_CoreLoadoutTooltipWidget_C:ExecuteUbergraph_WBP_CoreLoadoutTooltipWidget",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.0"
+      },
+      "SetLoadoutTooltipPerkLevel": {
+        "ObjectName": "Function WBP_CoreLoadoutTooltipWidget_C:SetLoadoutTooltipPerkLevel",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.1"
+      }
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_CoreLoadoutTooltipWidget_C Default__WBP_CoreLoadoutTooltipWidget_C",
+      "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.3"
+    }
+  },
+  {
+    "Type": "WBP_CoreLoadoutTooltipWidget_C",
+    "Name": "Default__WBP_CoreLoadoutTooltipWidget_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "DBDImage",
+    "Name": "Bg",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1024.0,
+          "Y": 512.0
+        },
+        "Margin": {
+          "Top": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D tootip_Bg",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Common/Tooltips/tootip_Bg.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.9,
+        "Hex": "E6FFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.GridPanel_0.GridSlot_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.17"
+      }
+    }
+  },
+  {
+    "Type": "DBDImage",
+    "Name": "InstructionIcon",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D tooltip_infoIcon",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Common/Tooltips/tooltip_infoIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.InstructionContainer.HorizontalBoxSlot_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.21"
+      }
+    }
+  },
+  {
+    "Type": "DBDImage",
+    "Name": "LevelIcon",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D perk_boost3",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Common/loadout/inventory/perk_boost3.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "GridSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.GridPanel_0.GridSlot_4",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.18"
+      }
+    }
+  },
+  {
+    "Type": "DBDImage",
+    "Name": "Line_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1024.0,
+          "Y": 2.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D tootip_Line",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Common/Tooltips/tootip_Line.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.7,
+        "Hex": "B3FFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_5",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.40"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "DBDImage",
+    "Name": "RarityBG",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1024.0,
+          "Y": 156.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Material M_UI_SmokeOneDirection",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Common/Tooltips/M_UI_SmokeOneDirection.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_1.OverlaySlot_1",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.28"
+      }
+    }
+  },
+  {
+    "Type": "DBDRichTextBlock",
+    "Name": "ToolTipDescriptionRTB",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "TextStyle": "Tooltip_Body",
+      "Text": {
+        "Namespace": "",
+        "Key": "4F5DD73840C562015CFF9CA0FAAA26E0",
+        "SourceString": "Description of the character and their stuffs that can go onto lots of multiple lines",
+        "LocalizedString": "Description of the character and their stuffs that can go onto lots of multiple lines"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable CoreRichTextStyle",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Data/RichTexts/CoreRichTextStyle.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class RichTextNestedTagsDecorator",
+          "ObjectPath": "/Script/DBDUIViewsCore"
+        }
+      ],
+      "bOverrideDefaultStyle": true,
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font DBDCoreFont",
+            "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Fonts/DBDCoreFont.0"
+          },
+          "TypefaceFontName": "Condensed",
+          "Size": 28,
+          "LetterSpacing": -1
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          }
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          },
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+        }
+      },
+      "WrapTextAt": 920.0,
+      "LineHeightPercentage": 1.25,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_3",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.38"
+      }
+    }
+  },
+  {
+    "Type": "DBDRichTextBlock",
+    "Name": "ToolTipWarning",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "TextStyle": "TooltipWarning1",
+      "Text": {
+        "Namespace": "",
+        "Key": "DB78121A44CCB2905F218D81299888AE",
+        "SourceString": "Warning",
+        "LocalizedString": "Warning"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable CoreRichTextStyle",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Data/RichTexts/CoreRichTextStyle.0"
+      },
+      "DecoratorClasses": [
+        {
+          "ObjectName": "Class RichTextNestedTagsDecorator",
+          "ObjectPath": "/Script/DBDUIViewsCore"
+        }
+      ],
+      "bOverrideDefaultStyle": true,
+      "DefaultTextStyleOverride": {
+        "Font": {
+          "FontObject": {
+            "ObjectName": "Font DBDCoreFont",
+            "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Fonts/DBDCoreFont.0"
+          },
+          "TypefaceFontName": "Condensed",
+          "Size": 30
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          }
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          },
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+        }
+      },
+      "WrapTextAt": 920.0,
+      "LineHeightPercentage": 1.25,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_4",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.39"
+      }
+    }
+  },
+  {
+    "Type": "DBDTextBlock",
+    "Name": "RarityTypeSubtitle",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "TextStyle": "Tooltip_CustoDesc2",
+      "_isUpperCase": true,
+      "Text": {
+        "Namespace": "",
+        "Key": "2AC3CB254A1766E5198B338E0A7E4E4D",
+        "SourceString": "RARITY + BODY PART",
+        "LocalizedString": "RARITY + BODY PART"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.7,
+          "Hex": "B3FFFFFF"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font DBDCoreFont",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Fonts/DBDCoreFont.0"
+        },
+        "TypefaceFontName": "Regular",
+        "Size": 26
+      },
+      "Justification": "ETextJustify::Right",
+      "WrapTextAt": 920.0,
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_0.OverlaySlot_1",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.26"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "DBDTextBlock",
+    "Name": "SpecialEventDescription",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "0D3C0742411601D06F8996835574B529",
+        "SourceString": "Event desc",
+        "LocalizedString": "Event desc"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font DBDCoreFont",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Fonts/DBDCoreFont.0"
+        },
+        "TypefaceFontName": "Black",
+        "Size": 32
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_2",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.37"
+      }
+    }
+  },
+  {
+    "Type": "DBDTextBlock",
+    "Name": "SpecialEventTitle",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "TextStyle": "Tooltip_CustoDesc",
+      "_isUpperCase": true,
+      "Text": {
+        "Namespace": "",
+        "Key": "8114C8D54F48FA2566717EAB08CDC70D",
+        "SourceString": "SpecialEventTitle",
+        "LocalizedString": "SpecialEventTitle"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.7,
+          "Hex": "B3FFFFFF"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font DBDCoreFont",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Fonts/DBDCoreFont.0"
+        },
+        "TypefaceFontName": "Italic",
+        "Size": 26
+      },
+      "WrapTextAt": 920.0,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.44"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "DBDTextBlock",
+    "Name": "TooltipTitle",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "TextStyle": "Tooltip_Header1",
+      "_isUpperCase": true,
+      "Text": {
+        "Namespace": "",
+        "Key": "7DCB21F342D1F5CBFA88B5A99582D630",
+        "SourceString": "CUSTOMIZATION NAME",
+        "LocalizedString": "CUSTOMIZATION NAME"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font DBDCoreFont",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Fonts/DBDCoreFont.0"
+        },
+        "Size": 45
+      },
+      "WrapTextAt": 920.0,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Header.VerticalBoxSlot_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.42"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "DBDTextBlock",
+    "Name": "UnlockInstructionText",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "TextStyle": "Tooltip_Instruction",
+      "Text": {
+        "Namespace": "",
+        "Key": "6F447DD14AF83DC1675784895E66D9B0",
+        "SourceString": "Instructions",
+        "LocalizedString": "Instructions"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font DBDCoreFont",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Assets/Fonts/DBDCoreFont.0"
+        },
+        "TypefaceFontName": "CondensedItalic",
+        "Size": 26
+      },
+      "WrapTextAt": 920.0,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.InstructionContainer.HorizontalBoxSlot_1",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.22"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "GridPanel",
+    "Name": "GridPanel_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "GridSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.GridPanel_0.GridSlot_0",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.17"
+        },
+        {
+          "ObjectName": "GridSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.GridPanel_0.GridSlot_5",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.19"
+        },
+        {
+          "ObjectName": "GridSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.GridPanel_0.GridSlot_4",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.18"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.ScaleContainer.ScaleBoxSlot_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.31"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_0",
+    "Outer": "GridPanel_0",
+    "Properties": {
+      "Padding": {
+        "Top": -180.0,
+        "Bottom": -180.0
+      },
+      "Parent": {
+        "ObjectName": "GridPanel WBP_CoreLoadoutTooltipWidget_C:WidgetTree.GridPanel_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.16"
+      },
+      "Content": {
+        "ObjectName": "DBDImage WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Bg",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.4"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_4",
+    "Outer": "GridPanel_0",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "GridPanel WBP_CoreLoadoutTooltipWidget_C:WidgetTree.GridPanel_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.16"
+      },
+      "Content": {
+        "ObjectName": "DBDImage WBP_CoreLoadoutTooltipWidget_C:WidgetTree.LevelIcon",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.6"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_5",
+    "Outer": "GridPanel_0",
+    "Properties": {
+      "Padding": {
+        "Left": 30.0,
+        "Top": 44.0,
+        "Right": 50.0
+      },
+      "Parent": {
+        "ObjectName": "GridPanel WBP_CoreLoadoutTooltipWidget_C:WidgetTree.GridPanel_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.16"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.32"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "InstructionContainer",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.InstructionContainer.HorizontalBoxSlot_0",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.21"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.InstructionContainer.HorizontalBoxSlot_1",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_8",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.41"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "InstructionContainer",
+    "Properties": {
+      "Padding": {
+        "Left": -5.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.InstructionContainer",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.20"
+      },
+      "Content": {
+        "ObjectName": "DBDImage WBP_CoreLoadoutTooltipWidget_C:WidgetTree.InstructionIcon",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.5"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "InstructionContainer",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.InstructionContainer",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.20"
+      },
+      "Content": {
+        "ObjectName": "DBDTextBlock WBP_CoreLoadoutTooltipWidget_C:WidgetTree.UnlockInstructionText",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.15"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_0.OverlaySlot_1",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.26"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Header.VerticalBoxSlot_2",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.43"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_1.OverlaySlot_1",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.28"
+        },
+        {
+          "ObjectName": "OverlaySlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_1.OverlaySlot_0",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.27"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.35"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "SpecialEventContainer",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.SpecialEventContainer.OverlaySlot_4",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.29"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_1",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.36"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Properties": {
+      "Padding": {
+        "Right": 5.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.23"
+      },
+      "Content": {
+        "ObjectName": "DBDTextBlock WBP_CoreLoadoutTooltipWidget_C:WidgetTree.RarityTypeSubtitle",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.11"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_1",
+    "Properties": {
+      "Padding": {
+        "Top": 20.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_1",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.24"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Header",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.33"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_1",
+    "Properties": {
+      "Padding": {
+        "Left": -30.0,
+        "Right": -50.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_1",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.24"
+      },
+      "Content": {
+        "ObjectName": "DBDImage WBP_CoreLoadoutTooltipWidget_C:WidgetTree.RarityBG",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.8"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": "SpecialEventContainer",
+    "Properties": {
+      "Padding": {
+        "Left": 30.0,
+        "Top": 40.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay WBP_CoreLoadoutTooltipWidget_C:WidgetTree.SpecialEventContainer",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.25"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.VerticalBox_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.34"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleContainer",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Stretch": "EStretch::UserSpecified",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.ScaleContainer.ScaleBoxSlot_0",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.31"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleContainer",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.ScaleContainer",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.30"
+      },
+      "Content": {
+        "ObjectName": "GridPanel WBP_CoreLoadoutTooltipWidget_C:WidgetTree.GridPanel_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.16"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "Content",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_0",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.35"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_4",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.39"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_3",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.38"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_5",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.40"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_1",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.36"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_2",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.37"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content.VerticalBoxSlot_8",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.41"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "GridSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.GridPanel_0.GridSlot_5",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.19"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "Header",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Header.VerticalBoxSlot_0",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.42"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Header.VerticalBoxSlot_2",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.43"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_1.OverlaySlot_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.27"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Outer": "WidgetTree",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.44"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot WBP_CoreLoadoutTooltipWidget_C:WidgetTree.SpecialEventContainer.OverlaySlot_4",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.29"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "Content",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.32"
+      },
+      "Content": {
+        "ObjectName": "Overlay WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_1",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.24"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "Content",
+    "Properties": {
+      "Padding": {
+        "Left": -28.0,
+        "Right": -48.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.32"
+      },
+      "Content": {
+        "ObjectName": "Overlay WBP_CoreLoadoutTooltipWidget_C:WidgetTree.SpecialEventContainer",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.25"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "Content",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.32"
+      },
+      "Content": {
+        "ObjectName": "DBDTextBlock WBP_CoreLoadoutTooltipWidget_C:WidgetTree.SpecialEventDescription",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.12"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "Content",
+    "Properties": {
+      "Padding": {
+        "Top": 20.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.32"
+      },
+      "Content": {
+        "ObjectName": "DBDRichTextBlock WBP_CoreLoadoutTooltipWidget_C:WidgetTree.ToolTipDescriptionRTB",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.9"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Outer": "Content",
+    "Properties": {
+      "Padding": {
+        "Top": 20.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.32"
+      },
+      "Content": {
+        "ObjectName": "DBDRichTextBlock WBP_CoreLoadoutTooltipWidget_C:WidgetTree.ToolTipWarning",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.10"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Outer": "Content",
+    "Properties": {
+      "Padding": {
+        "Left": -43.0,
+        "Bottom": -20.0
+      },
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.32"
+      },
+      "Content": {
+        "ObjectName": "DBDImage WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Line_1",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.7"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_8",
+    "Outer": "Content",
+    "Properties": {
+      "Padding": {
+        "Top": 20.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Content",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.32"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.InstructionContainer",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.20"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "Header",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Header",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.33"
+      },
+      "Content": {
+        "ObjectName": "DBDTextBlock WBP_CoreLoadoutTooltipWidget_C:WidgetTree.TooltipTitle",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.14"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "Header",
+    "Properties": {
+      "Padding": {
+        "Top": 15.0
+      },
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Header",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.33"
+      },
+      "Content": {
+        "ObjectName": "Overlay WBP_CoreLoadoutTooltipWidget_C:WidgetTree.Overlay_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.23"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_0",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.VerticalBox_0",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.34"
+      },
+      "Content": {
+        "ObjectName": "DBDTextBlock WBP_CoreLoadoutTooltipWidget_C:WidgetTree.SpecialEventTitle",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.13"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_CoreLoadoutTooltipWidget_C",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScaleBox WBP_CoreLoadoutTooltipWidget_C:WidgetTree.ScaleContainer",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/Tooltips/WBP_CoreLoadoutTooltipWidget.30"
+      }
+    }
+  }
+]

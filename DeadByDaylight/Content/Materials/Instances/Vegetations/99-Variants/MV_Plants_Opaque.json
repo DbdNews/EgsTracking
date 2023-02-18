@@ -1,0 +1,182 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MV_Plants_Opaque",
+    "Properties": {
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial PM_Vegetation",
+        "ObjectPath": "DeadByDaylight/Content/Materials/PhysicalMaterials/PM_Vegetation.0"
+      },
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant MI_Plants_Opaque",
+        "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Vegetations/MI_Plants_Opaque.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "R",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.768151,
+            "B": 0.327778,
+            "A": 1.0,
+            "Hex": "FFFFE39B"
+          },
+          "ExpressionGUID": "0FED9812-49BCAF9E-E9996788-AD0F2367"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "G",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.304987,
+            "G": 0.467784,
+            "B": 0.168269,
+            "A": 1.0,
+            "Hex": "FF96B672"
+          },
+          "ExpressionGUID": "2CF3DA6C-449C5576-20218CB1-049FBCDF"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "B",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.144128,
+            "G": 0.0,
+            "B": 0.603827,
+            "A": 1.0,
+            "Hex": "FF6A00CC"
+          },
+          "ExpressionGUID": "C975B1BD-44C84992-369EF2B4-B40DCF16"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "TwoSided": true,
+        "CastMaskedMaterialShadow": true,
+        "BlendMode": "BLEND_Masked",
+        "ShadingModel": "MSM_TwoSidedFoliage",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use_CloseDithering",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "84C5B4F5-48171931-FF17B4A5-5BD87280"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "UseColourTintRGB",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "D5016D77-488DAD3E-54B294A9-B9E63F6D"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "MoveLikeACorn",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "0E175E7C-4A8604ED-4E43CAB0-0B03A4C2"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Atl_UseWorldPositionOffset",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "92B06B21-4476DB37-108CF683-C08E9F1D"
+          }
+        ]
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D T_PlantAtlasAlpha_BC",
+          "ObjectPath": "DeadByDaylight/Content/Textures/Environment/Vegetations/T_PlantAtlasAlpha_BC.0"
+        },
+        {
+          "ObjectName": "Texture2D Good64x64TilingNoiseHighFreq",
+          "ObjectPath": "Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.0"
+        },
+        {
+          "ObjectName": "Texture2D BlendFunc_DefBlend",
+          "ObjectPath": "Engine/Content/EngineMaterials/BlendFunc_DefBlend.0"
+        },
+        {
+          "ObjectName": "Texture2D BlendFunc_DefBase",
+          "ObjectPath": "Engine/Content/EngineMaterials/BlendFunc_DefBase.0"
+        },
+        {
+          "ObjectName": "Texture2D T_treeLeaf01_Atl_MaskRGB",
+          "ObjectPath": "DeadByDaylight/Content/Textures/Environment/Vegetations/Atlanta/T_treeLeaf01_Atl_MaskRGB.0"
+        },
+        {
+          "ObjectName": "Texture2D FlatNormal",
+          "ObjectPath": "Engine/Content/EngineMaterials/FlatNormal.0"
+        },
+        null,
+        {
+          "ObjectName": "Texture2D DefaultDiffuse",
+          "ObjectPath": "Engine/Content/EngineMaterials/DefaultDiffuse.0"
+        },
+        {
+          "ObjectName": "Texture2D Moss_diffuse",
+          "ObjectPath": "DeadByDaylight/Content/Textures/Environment/Vegetations/Moss_diffuse.0"
+        },
+        {
+          "ObjectName": "Texture2D T_CrawlingMoss_Mask_01",
+          "ObjectPath": "DeadByDaylight/Content/Textures/Environment/Vegetations/T_CrawlingMoss_Mask_01.0"
+        },
+        {
+          "ObjectName": "Texture2D Yellow_Linear",
+          "ObjectPath": "DeadByDaylight/Content/Textures/Environment/Tiles/Yellow_Linear.0"
+        }
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_PlantAtlasAlpha_BC"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_treeLeaf01_Atl_MaskRGB"
+        }
+      ]
+    }
+  }
+]

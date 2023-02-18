@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_LF_TubeLight",
+    "Properties": {
+      "EmissiveColor": {
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionMaterialFunctionCall_0",
+        "UseConstant": false,
+        "Constant": {
+          "B": 0,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      },
+      "MaterialDomain": "MD_LightFunction",
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "A507066D-47459C82-126FE5BC-0CB1C592",
+      "CachedExpressionData": {
+        "Parameters": {
+          "RuntimeEntries": {
+            "NameHashes": [
+              9045229393064115478,
+              10621080825331037164,
+              11378423565819430590,
+              13087980805485157029,
+              13574984594942950721
+            ],
+            "ParameterInfos": [
+              {
+                "Name": "Falloff",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Center X offset",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Lenght",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Center Y offset",
+                "Association": "GlobalParameter",
+                "Index": -1
+              },
+              {
+                "Name": "Width",
+                "Association": "GlobalParameter",
+                "Index": -1
+              }
+            ],
+            "ExpressionGuids": [
+              "2955907C-4C3B897E-5FD25889-D6583EF7",
+              "C02C7240-4E6935CD-0C292792-08B74303",
+              "7C3930A7-425A0B64-DECDE688-BC6717AB",
+              "0D52E0C4-4F1F490D-46F0D48E-2AB157BA",
+              "FCE9E577-48B03375-505802B6-E4312F35"
+            ]
+          },
+          "ScalarValues": [
+            0.02,
+            0.0,
+            0.802381,
+            0.0,
+            0.087202
+          ]
+        },
+        "FunctionInfos": [
+          {
+            "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+            "Function": {
+              "ObjectName": "MaterialFunction VectorLength",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+            }
+          },
+          {
+            "StateId": "9DEEF089-488C7FFC-CBA6D499-986AEB61",
+            "Function": {
+              "ObjectName": "MaterialFunction BoxMask-2D",
+              "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BoxMask-2D.0"
+            }
+          }
+        ],
+        "QualityLevelsUsed": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  }
+]

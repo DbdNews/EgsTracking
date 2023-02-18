@@ -69,7 +69,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "DF_Torso04_KingKong",
         "AssociatedCharacter": 0,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::UltraRare",
@@ -120,7 +119,8 @@
           "CloudInventoryId": 3050014,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "DF_Torso04_KingKong"
       },
       "DF_Torso04_KingKongKraken": {
         "Category": "ECustomizationCategory::SurvivorTorso",
@@ -182,7 +182,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "DF_Torso04_KingKongKraken",
         "AssociatedCharacter": 0,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::UltraRare",
@@ -233,7 +232,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "DF_Torso04_KingKongKraken"
       },
       "MT_Torso04_KingKong": {
         "Category": "ECustomizationCategory::SurvivorTorso",
@@ -295,7 +295,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "MT_Torso04_KingKong",
         "AssociatedCharacter": 1,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::UltraRare",
@@ -346,7 +345,8 @@
           "CloudInventoryId": 3050015,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "MT_Torso04_KingKong"
       },
       "MT_Torso04_KingKongKraken": {
         "Category": "ECustomizationCategory::SurvivorTorso",
@@ -408,7 +408,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "MT_Torso04_KingKongKraken",
         "AssociatedCharacter": 1,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::UltraRare",
@@ -459,7 +458,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "MT_Torso04_KingKongKraken"
       }
     }
   }

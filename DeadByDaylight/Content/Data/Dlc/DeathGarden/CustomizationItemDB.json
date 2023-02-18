@@ -97,7 +97,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "MT_Mask_DG_01",
         "AssociatedCharacter": 1,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
@@ -145,7 +144,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "MT_Mask_DG_01"
       },
       "TR_Mask_DG_01": {
         "Category": "ECustomizationCategory::KillerHead",
@@ -202,7 +202,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "TR_Mask_DG_01",
         "AssociatedCharacter": 268435456,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
@@ -250,7 +249,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "TR_Mask_DG_01"
       }
     }
   }

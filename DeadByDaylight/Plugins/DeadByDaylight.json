@@ -2942,6 +2942,38 @@
 			}
 		},
 		{
+			"File": "../../../DeadByDaylight/Plugins/Editor/BhvrBlueprintDiffTool/BhvrBlueprintDiffTool.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Bhvr Blueprint Diff Tool",
+				"Description": "A tool to check diff between a shelved or submitted blueprint asset and its previous version",
+				"Category": "Editor",
+				"CreatedBy": "Behaviour Interactive",
+				"CreatedByURL": "http://www.bhvr.com/",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "BhvrBlueprintDiffTool",
+						"Type": "Editor",
+						"LoadingPhase": "Default"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "EditorScriptingUtilities",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../DeadByDaylight/Plugins/Editor/BhvrBlueprintManipulator/BhvrBlueprintManipulator.uplugin",
 			"Descriptor": 
 			{
@@ -2974,6 +3006,32 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Editor/AssetManagerEditor/AssetManagerEditor.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Asset Manager Editor",
+				"Description": "Editor UI and utilities for managing and auditing Assets on disk",
+				"Category": "Editor",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "AssetManagerEditor",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault"
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../DeadByDaylight/Plugins/Editor/BhvrRulerTool/BhvrRulerTool.uplugin",
 			"Descriptor": 
 			{
@@ -2994,6 +3052,46 @@
 						"Name": "BhvrRulerTool",
 						"Type": "Editor",
 						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../DeadByDaylight/Plugins/Editor/CommandletPlugin/CommandletPlugin.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Commandlet Plugin",
+				"Description": "Plugin that contains many commandlet.",
+				"Category": "Editor",
+				"CreatedBy": "Behaviour Interactive",
+				"CreatedByURL": "http://www.bhvr.com/",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "https://github.com/ue4plugins/CommandletPlugin",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "CommandletPlugin",
+						"Type": "Editor",
+						"LoadingPhase": "Default"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "MirrorsSdk",
+						"Enabled": true
+					},
+					{
+						"Name": "OnlinePresence",
+						"Enabled": true
+					},
+					{
+						"Name": "BhvrBlueprintManipulator",
+						"Enabled": true
 					}
 				]
 			}
@@ -3104,34 +3202,12 @@
 						"Enabled": true
 					},
 					{
+						"Name": "Simplygon",
+						"Enabled": true
+					},
+					{
 						"Name": "TileEditor",
 						"Enabled": true
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Editor/AssetManagerEditor/AssetManagerEditor.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Asset Manager Editor",
-				"Description": "Editor UI and utilities for managing and auditing Assets on disk",
-				"Category": "Editor",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "AssetManagerEditor",
-						"Type": "UncookedOnly",
-						"LoadingPhase": "PreDefault"
 					}
 				]
 			}
@@ -3254,46 +3330,6 @@
 						"Name": "BHVRAnalytics",
 						"Type": "Runtime",
 						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../DeadByDaylight/Plugins/Runtime/Bhvr/CommandletPlugin/CommandletPlugin.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Commandlet Plugin",
-				"Description": "Plugin that contains many commandlet.",
-				"Category": "Other",
-				"CreatedBy": "Behaviour Interactive",
-				"CreatedByURL": "http://www.bhvr.com/",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "https://github.com/ue4plugins/CommandletPlugin",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "CommandletPlugin",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "MirrorsSdk",
-						"Enabled": true
-					},
-					{
-						"Name": "OnlinePresence",
-						"Enabled": true
-					},
-					{
-						"Name": "BhvrBlueprintManipulator",
-						"Enabled": true
 					}
 				]
 			}

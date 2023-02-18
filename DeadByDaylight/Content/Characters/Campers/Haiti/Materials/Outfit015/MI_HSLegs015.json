@@ -177,6 +177,10 @@
         {
           "ObjectName": "Texture2D Blue",
           "ObjectPath": "DeadByDaylight/Content/Textures/Environment/Tiles/Blue.0"
+        },
+        {
+          "ObjectName": "Texture2D T_Halftone",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Textures/K31/T_Halftone.0"
         }
       ],
       "TextureStreamingData": [
@@ -189,11 +193,6 @@
           "SamplingScale": 1.0,
           "UVChannelIndex": 0,
           "TextureName": "T_HSLegs015_BC"
-        },
-        {
-          "SamplingScale": 30.0,
-          "UVChannelIndex": 0,
-          "TextureName": "T_NoiseNormal_01"
         }
       ]
     }

@@ -58,7 +58,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FK_Mask01",
         "AssociatedCharacter": 268435466,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
@@ -109,7 +108,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FK_Mask01"
       },
       "FK_Body01": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -160,7 +160,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FK_Body01",
         "AssociatedCharacter": 268435466,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
@@ -211,7 +210,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FK_Body01"
       },
       "FK_W01": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -262,7 +262,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FK_W01",
         "AssociatedCharacter": 268435466,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
@@ -313,7 +312,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FK_W01"
       },
       "FK_Mask01_P01": {
         "Category": "ECustomizationCategory::KillerHead",
@@ -395,7 +395,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FK_Mask01_P01",
         "AssociatedCharacter": 268435466,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
@@ -446,7 +445,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FK_Mask01_P01"
       },
       "FK_Body01_P01": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -548,7 +548,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FK_Body01_P01",
         "AssociatedCharacter": 268435466,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
@@ -599,7 +598,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FK_Body01_P01"
       },
       "FK_W01_P01": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -671,7 +671,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FK_W01_P01",
         "AssociatedCharacter": 268435466,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
@@ -722,7 +721,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FK_W01_P01"
       },
       "FS_Head01": {
         "Category": "ECustomizationCategory::SurvivorHead",
@@ -806,7 +806,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FS_Head01",
         "AssociatedCharacter": 12,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
@@ -857,7 +856,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FS_Head01"
       },
       "FS_Torso01": {
         "Category": "ECustomizationCategory::SurvivorTorso",
@@ -925,7 +925,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FS_Torso01",
         "AssociatedCharacter": 12,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
@@ -976,7 +975,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FS_Torso01"
       },
       "FS_Legs01": {
         "Category": "ECustomizationCategory::SurvivorLegs",
@@ -1027,7 +1027,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FS_Legs01",
         "AssociatedCharacter": 12,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
@@ -1078,7 +1077,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FS_Legs01"
       },
       "FS_Head01_P01": {
         "Category": "ECustomizationCategory::SurvivorHead",
@@ -1184,7 +1184,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FS_Head01_P01",
         "AssociatedCharacter": 12,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
@@ -1235,7 +1234,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FS_Head01_P01"
       },
       "FS_Torso01_P01": {
         "Category": "ECustomizationCategory::SurvivorTorso",
@@ -1325,7 +1325,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FS_Torso01_P01",
         "AssociatedCharacter": 12,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
@@ -1376,7 +1375,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FS_Torso01_P01"
       },
       "FS_Legs01_P01": {
         "Category": "ECustomizationCategory::SurvivorLegs",
@@ -1438,7 +1438,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FS_Legs01_P01",
         "AssociatedCharacter": 12,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
@@ -1489,7 +1488,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FS_Legs01_P01"
       },
       "FS_Head02": {
         "Category": "ECustomizationCategory::SurvivorHead",
@@ -1557,7 +1557,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FS_Head02",
         "AssociatedCharacter": 12,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
@@ -1608,7 +1607,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FS_Head02"
       },
       "FS_Torso02": {
         "Category": "ECustomizationCategory::SurvivorTorso",
@@ -1661,7 +1661,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FS_Torso02",
         "AssociatedCharacter": 12,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
@@ -1712,7 +1711,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FS_Torso02"
       },
       "FS_Legs02": {
         "Category": "ECustomizationCategory::SurvivorLegs",
@@ -1763,7 +1763,6 @@
             "SubPathString": ""
           }
         },
-        "ID": "FS_Legs02",
         "AssociatedCharacter": 12,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
@@ -1814,7 +1813,8 @@
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
-        "InclusionVersion": "Legacy"
+        "InclusionVersion": "Legacy",
+        "CustomizationId": "FS_Legs02"
       }
     }
   }

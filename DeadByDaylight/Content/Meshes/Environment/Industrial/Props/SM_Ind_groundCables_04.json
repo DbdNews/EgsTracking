@@ -1,0 +1,1033 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Outer": "SM_Ind_groundCables_04",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 89.8056,
+                "Y": 49.900772,
+                "Z": 4.634663
+              },
+              {
+                "X": 105.30962,
+                "Y": 17.022614,
+                "Z": 4.634663
+              },
+              {
+                "X": 92.9043,
+                "Y": -20.843014,
+                "Z": 4.634663
+              },
+              {
+                "X": -34.222656,
+                "Y": -107.375,
+                "Z": 4.634663
+              },
+              {
+                "X": -16.292583,
+                "Y": 187.18726,
+                "Z": 4.634663
+              },
+              {
+                "X": 112.332535,
+                "Y": -20.966965,
+                "Z": -5.034933E-16
+              },
+              {
+                "X": 124.7548,
+                "Y": 16.950388,
+                "Z": 1.928902E-15
+              },
+              {
+                "X": 109.15235,
+                "Y": 50.05875,
+                "Z": 3.947064E-15
+              },
+              {
+                "X": 0.1882076,
+                "Y": 191.05363,
+                "Z": 1.2586839E-14
+              },
+              {
+                "X": -32.75528,
+                "Y": 187.83493,
+                "Z": 1.2037638E-14
+              },
+              {
+                "X": -52.285156,
+                "Y": -133.0,
+                "Z": -8.201773E-15
+              },
+              {
+                "X": -17.588076,
+                "Y": 191.05367,
+                "Z": 4.2317424
+              },
+              {
+                "X": -16.41151,
+                "Y": 187.39368,
+                "Z": 4.625
+              },
+              {
+                "X": -34.36328,
+                "Y": -107.5,
+                "Z": 4.625
+              },
+              {
+                "X": -52.378906,
+                "Y": -133.125,
+                "Z": 0.0
+              },
+              {
+                "X": -34.1875,
+                "Y": -107.5,
+                "Z": 4.6367188
+              },
+              {
+                "X": 92.824554,
+                "Y": -21.060051,
+                "Z": 4.636719
+              },
+              {
+                "X": 109.37276,
+                "Y": 49.77353,
+                "Z": 0.0
+              },
+              {
+                "X": 124.79097,
+                "Y": 17.06078,
+                "Z": 0.0
+              },
+              {
+                "X": 105.27806,
+                "Y": 16.902515,
+                "Z": 4.6328125
+              },
+              {
+                "X": 89.58853,
+                "Y": 50.19174,
+                "Z": 4.6328125
+              },
+              {
+                "X": 89.66818,
+                "Y": 50.0999,
+                "Z": 4.6328125
+              },
+              {
+                "X": 112.40625,
+                "Y": -20.875,
+                "Z": 0.0
+              },
+              {
+                "X": 92.94672,
+                "Y": -20.939453,
+                "Z": 4.625
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              0,
+              3,
+              4,
+              5,
+              6,
+              7,
+              5,
+              7,
+              8,
+              5,
+              8,
+              9,
+              5,
+              9,
+              10,
+              11,
+              12,
+              13,
+              11,
+              13,
+              14,
+              11,
+              14,
+              9,
+              15,
+              16,
+              5,
+              15,
+              5,
+              14,
+              17,
+              18,
+              19,
+              17,
+              19,
+              20,
+              11,
+              8,
+              7,
+              11,
+              7,
+              21,
+              11,
+              21,
+              12,
+              6,
+              22,
+              23,
+              6,
+              23,
+              19,
+              11,
+              9,
+              8
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -52.378906,
+                "Y": -133.125,
+                "Z": -8.201773E-15
+              },
+              "Max": {
+                "X": 124.79097,
+                "Y": 191.05367,
+                "Z": 4.636719
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          },
+          {
+            "VertexData": [
+              {
+                "X": 81.722,
+                "Y": 67.043045,
+                "Z": 4.634663
+              },
+              {
+                "X": 89.8056,
+                "Y": 49.900772,
+                "Z": 4.634663
+              },
+              {
+                "X": 29.9637,
+                "Y": 127.33362,
+                "Z": 4.634663
+              },
+              {
+                "X": 49.43261,
+                "Y": 127.33351,
+                "Z": 8.564282E-15
+              },
+              {
+                "X": 109.15235,
+                "Y": 50.05875,
+                "Z": 3.947064E-15
+              },
+              {
+                "X": 101.09685,
+                "Y": 67.15251,
+                "Z": 4.9890355E-15
+              },
+              {
+                "X": 101.28493,
+                "Y": 66.93344,
+                "Z": 0.0
+              },
+              {
+                "X": 109.37276,
+                "Y": 49.77353,
+                "Z": 0.0
+              },
+              {
+                "X": 89.58853,
+                "Y": 50.19174,
+                "Z": 4.6328125
+              },
+              {
+                "X": 81.5448,
+                "Y": 67.2585,
+                "Z": 4.6328125
+              },
+              {
+                "X": 109.487274,
+                "Y": 49.340275,
+                "Z": 0.0
+              },
+              {
+                "X": 47.402122,
+                "Y": 129.69872,
+                "Z": 0.0
+              },
+              {
+                "X": 29.257565,
+                "Y": 128.20343,
+                "Z": 4.625
+              },
+              {
+                "X": 48.905075,
+                "Y": 128.01611,
+                "Z": 0.0
+              },
+              {
+                "X": 101.01486,
+                "Y": 67.31612,
+                "Z": 0.0
+              },
+              {
+                "X": 29.740002,
+                "Y": 127.6225,
+                "Z": 4.6347656
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              6,
+              8,
+              9,
+              10,
+              11,
+              12,
+              10,
+              12,
+              1,
+              13,
+              14,
+              9,
+              13,
+              9,
+              15
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 29.257565,
+                "Y": 49.340275,
+                "Z": 0.0
+              },
+              "Max": {
+                "X": 109.487274,
+                "Y": 129.69872,
+                "Z": 4.6347656
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          },
+          {
+            "VertexData": [
+              {
+                "X": -23.586117,
+                "Y": -100.13615,
+                "Z": 4.634663
+              },
+              {
+                "X": -28.961403,
+                "Y": -188.4438,
+                "Z": 4.634663
+              },
+              {
+                "X": -39.15625,
+                "Y": -188.4375,
+                "Z": 4.634663
+              },
+              {
+                "X": -34.222656,
+                "Y": -107.375,
+                "Z": 4.634663
+              },
+              {
+                "X": -9.488281,
+                "Y": -188.4375,
+                "Z": -1.1511625E-14
+              },
+              {
+                "X": -4.125,
+                "Y": -100.3125,
+                "Z": -5.953571E-15
+              },
+              {
+                "X": -52.285156,
+                "Y": -133.0,
+                "Z": -8.201773E-15
+              },
+              {
+                "X": -55.66003,
+                "Y": -188.44377,
+                "Z": -1.1699238E-14
+              },
+              {
+                "X": -34.36328,
+                "Y": -107.5,
+                "Z": 4.625
+              },
+              {
+                "X": -39.290344,
+                "Y": -188.44377,
+                "Z": 4.625
+              },
+              {
+                "X": -52.378906,
+                "Y": -133.125,
+                "Z": 0.0
+              },
+              {
+                "X": -52.1875,
+                "Y": -132.9375,
+                "Z": 0.0
+              },
+              {
+                "X": -34.5,
+                "Y": -107.625,
+                "Z": 4.625
+              },
+              {
+                "X": -4.0976562,
+                "Y": -100.125,
+                "Z": 0.0
+              },
+              {
+                "X": -23.660156,
+                "Y": -100.25,
+                "Z": 4.6484385
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              4,
+              6,
+              7,
+              8,
+              9,
+              7,
+              8,
+              7,
+              10,
+              11,
+              5,
+              0,
+              11,
+              0,
+              12,
+              13,
+              4,
+              1,
+              13,
+              1,
+              14,
+              2,
+              1,
+              4,
+              2,
+              4,
+              7
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -55.66003,
+                "Y": -188.4438,
+                "Z": -1.1699238E-14
+              },
+              "Max": {
+                "X": -4.0976562,
+                "Y": -100.125,
+                "Z": 4.6484385
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          },
+          {
+            "VertexData": [
+              {
+                "X": -92.66694,
+                "Y": 122.60759,
+                "Z": 4.634663
+              },
+              {
+                "X": -79.75046,
+                "Y": 181.63423,
+                "Z": 4.634663
+              },
+              {
+                "X": -19.280645,
+                "Y": 191.05363,
+                "Z": 4.634663
+              },
+              {
+                "X": -16.292171,
+                "Y": 187.18669,
+                "Z": 4.634663
+              },
+              {
+                "X": -33.789062,
+                "Y": -100.25,
+                "Z": 4.634663
+              },
+              {
+                "X": -101.01015,
+                "Y": 67.199814,
+                "Z": 4.634663
+              },
+              {
+                "X": -96.1867,
+                "Y": 181.63742,
+                "Z": 1.1397509E-14
+              },
+              {
+                "X": -109.224,
+                "Y": 122.028595,
+                "Z": 7.600545E-15
+              },
+              {
+                "X": -117.48596,
+                "Y": 67.16034,
+                "Z": 4.1201538E-15
+              },
+              {
+                "X": -50.285156,
+                "Y": -100.1875,
+                "Z": -6.133982E-15
+              },
+              {
+                "X": -32.75315,
+                "Y": 187.83517,
+                "Z": 1.2034856E-14
+              },
+              {
+                "X": -33.875,
+                "Y": -100.125,
+                "Z": 4.625
+              },
+              {
+                "X": -16.376457,
+                "Y": 187.34827,
+                "Z": 4.625
+              },
+              {
+                "X": -17.566862,
+                "Y": 191.05365,
+                "Z": 4.2266846
+              },
+              {
+                "X": -33.75,
+                "Y": -100.375,
+                "Z": 4.640625
+              },
+              {
+                "X": -50.25,
+                "Y": -100.375,
+                "Z": 0.0
+              },
+              {
+                "X": -92.65257,
+                "Y": 122.93103,
+                "Z": 4.625
+              },
+              {
+                "X": -109.03963,
+                "Y": 123.25299,
+                "Z": 0.0
+              },
+              {
+                "X": -92.8002,
+                "Y": 121.90668,
+                "Z": 4.640627
+              },
+              {
+                "X": -109.12228,
+                "Y": 122.678955,
+                "Z": 0.0
+              },
+              {
+                "X": -19.849873,
+                "Y": 190.97029,
+                "Z": 4.625
+              },
+              {
+                "X": -19.646835,
+                "Y": 191.0139,
+                "Z": 4.625
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              0,
+              3,
+              4,
+              0,
+              4,
+              5,
+              6,
+              7,
+              8,
+              6,
+              8,
+              9,
+              6,
+              9,
+              10,
+              11,
+              12,
+              13,
+              11,
+              13,
+              10,
+              11,
+              10,
+              9,
+              5,
+              14,
+              15,
+              5,
+              15,
+              8,
+              1,
+              16,
+              17,
+              1,
+              17,
+              6,
+              18,
+              5,
+              8,
+              18,
+              8,
+              19,
+              13,
+              2,
+              20,
+              13,
+              20,
+              6,
+              13,
+              6,
+              6,
+              13,
+              6,
+              10,
+              13,
+              12,
+              2,
+              21,
+              1,
+              6
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -117.48596,
+                "Y": -100.375,
+                "Z": -6.133982E-15
+              },
+              "Max": {
+                "X": -16.292171,
+                "Y": 191.05365,
+                "Z": 4.640627
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Interactable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Slasher",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Blood",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "InteractionDetector",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "BlinkBlocker",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Walkable",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "3468B0DB45B14D97E171FA99F5D37091",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "ElementCount": 15425,
+        "SizeOnDisk": 15425,
+        "OffsetInFile": "0x3F969"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "SM_Ind_groundCables_04",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "ElementCount": 2149,
+        "SizeOnDisk": 2149,
+        "OffsetInFile": "0x435F2"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Ind_groundCables_04",
+    "Properties": {
+      "MinLOD": {
+        "bCooked": true,
+        "Default": 0,
+        "Value": 0
+      },
+      "ShadowMaxLOD": {
+        "PerDetailModeValue": {
+          "Ultra": 3,
+          "High": 3,
+          "Medium": 3,
+          "Low": 3,
+          "Mobile": 3
+        }
+      },
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant MI_Com_TrimCablesAndWires_B",
+            "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Common/Trims/MI_Com_TrimCablesAndWires_B.0"
+          },
+          "MaterialSlotName": "MI_Com_TrimCablesAndWires_B",
+          "ImportedMaterialSlotName": "MI_Com_TrimCablesAndWires_B",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 432.45807,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 432.45807,
+      "LightMapResolution": 64,
+      "LODForCollision": 3,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.19198322
+        },
+        "BoxExtent": {
+          "X": 109.68225,
+          "Y": 187.37813,
+          "Z": 5.5917754
+        },
+        "SphereRadius": 195.79173
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup SM_Ind_groundCables_04:BodySetup_1",
+      "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Industrial/Props/SM_Ind_groundCables_04.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision SM_Ind_groundCables_04:NavCollision_2",
+      "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Industrial/Props/SM_Ind_groundCables_04.1"
+    },
+    "LightingGuid": "E8B7BF51-41FA51EC-5CFF139B-869FB0E0",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 1484,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 852,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 853
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 853,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 1016,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 606,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 607
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 607,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 696,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 429,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 430
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 430,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 404,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 262,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 263
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 263,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.19198322
+        },
+        "BoxExtent": {
+          "X": 109.68225,
+          "Y": 187.37813,
+          "Z": 5.5917754
+        },
+        "SphereRadius": 195.79173
+      },
+      "bLODsShareStaticLighting": false,
+      "ScreenSize": [
+        1.0,
+        0.6,
+        0.3,
+        0.15,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

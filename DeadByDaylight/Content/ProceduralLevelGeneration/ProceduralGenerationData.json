@@ -1,0 +1,589 @@
+[
+  {
+    "Type": "ProceduralGenerationData",
+    "Name": "ProceduralGenerationData",
+    "Properties": {
+      "QuadrantSpawnTypeProperties": [
+        {
+          "QuadrantSpawnType": "EQuadrantSpawnType::Square",
+          "SectionLenghts": [
+            {
+              "Direction": "EDirection::Up",
+              "Length": 1
+            },
+            {
+              "Direction": "EDirection::Right",
+              "Length": 1
+            }
+          ]
+        },
+        {
+          "QuadrantSpawnType": "EQuadrantSpawnType::Rect_X",
+          "SectionLenghts": [
+            {
+              "Direction": "EDirection::Up",
+              "Length": 1
+            },
+            {
+              "Direction": "EDirection::Right",
+              "Length": 2
+            }
+          ]
+        },
+        {
+          "QuadrantSpawnType": "EQuadrantSpawnType::Rect_Y",
+          "SectionLenghts": [
+            {
+              "Direction": "EDirection::Up",
+              "Length": 2
+            },
+            {
+              "Direction": "EDirection::Right",
+              "Length": 1
+            }
+          ]
+        }
+      ],
+      "QuadrantSpawnCategories": [
+        {
+          "QuadrantSpawnTag": "QCT_Base",
+          "Items": [
+            {
+              "Type": "EQuadrantSpawnType::L_Shape",
+              "Elements": [
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/InterTileBase.InterTileBase_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                }
+              ]
+            },
+            {
+              "Type": "EQuadrantSpawnType::Square",
+              "Elements": [
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/InterTileBase.InterTileBase_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                }
+              ]
+            },
+            {
+              "Type": "EQuadrantSpawnType::Rect",
+              "Elements": [
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/InterTileBase.InterTileBase_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "QuadrantSpawnTag": "QCT_Hospital",
+          "Items": [
+            {
+              "Type": "EQuadrantSpawnType::L_Shape",
+              "Elements": [
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Crn_Bath_0P_01.BP_Quad_Hos_Crn_Bath_0P_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Crn_Bath_0P_02.BP_Quad_Hos_Crn_Bath_0P_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Crn_Bed_0P_01.BP_Quad_Hos_Crn_Bed_0P_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Crn_Bed_0P_02.BP_Quad_Hos_Crn_Bed_0P_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Crn_Wait_0P_01.BP_Quad_Hos_Crn_Wait_0P_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                }
+              ]
+            },
+            {
+              "Type": "EQuadrantSpawnType::Square",
+              "Elements": [
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Sqr_Bath_0P_01.BP_Quad_Hos_Sqr_Bath_0P_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Sqr_Bath_0P_02.BP_Quad_Hos_Sqr_Bath_0P_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Sqr_Bath_1P_01.BP_Quad_Hos_Sqr_Bath_1P_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Sqr_Bath_1P_02.BP_Quad_Hos_Sqr_Bath_1P_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Sqr_Bed_0P_01.BP_Quad_Hos_Sqr_Bed_0P_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Sqr_Bed_0P_02.BP_Quad_Hos_Sqr_Bed_0P_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Sqr_Bed_0P_03.BP_Quad_Hos_Sqr_Bed_0P_03_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Sqr_Wait_1P_01.BP_Quad_Hos_Sqr_Wait_1P_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Sqr_Wait_1P_02.BP_Quad_Hos_Sqr_Wait_1P_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                }
+              ]
+            },
+            {
+              "Type": "EQuadrantSpawnType::Rect",
+              "Elements": [
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Rec_Bath_1P_01.BP_Quad_Hos_Rec_Bath_1P_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Rec_Bath_1P_02.BP_Quad_Hos_Rec_Bath_1P_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Rec_Bed_1P_01.BP_Quad_Hos_Rec_Bed_1P_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Rec_Bed_1P_02.BP_Quad_Hos_Rec_Bed_1P_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/07-Hospital_Quads/BP_Quad_Hos_Rec_Wait_1P_01.BP_Quad_Hos_Rec_Wait_1P_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "QuadrantSpawnTag": "QCT_Qatar",
+          "Items": [
+            {
+              "Type": "EQuadrantSpawnType::Square",
+              "Elements": [
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Square_Lab_01.BP_Qat_Quad_Square_Lab_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/Backups/BP_Qat_Quad_Square_Lab_02.BP_Qat_Quad_Square_Lab_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 0.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Square_Lab_03.BP_Qat_Quad_Square_Lab_03_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 3.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Square_Lab_04.BP_Qat_Quad_Square_Lab_04_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 2.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Square_Storage_01.BP_Qat_Quad_Square_Storage_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Square_Storage_02.BP_Qat_Quad_Square_Storage_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Square_Storage_03.BP_Qat_Quad_Square_Storage_03_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                }
+              ]
+            },
+            {
+              "Type": "EQuadrantSpawnType::Rect",
+              "Elements": [
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Rect_Lab_04.BP_Qat_Quad_Rect_Lab_04_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 2.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Rect_Lab_05.BP_Qat_Quad_Rect_Lab_05_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 6.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Rect_Lab_06.BP_Qat_Quad_Rect_Lab_06_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 4.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Rect_Storage_01.BP_Qat_Quad_Rect_Storage_01_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 2.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Rect_Storage_02.BP_Qat_Quad_Rect_Storage_02_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 1.0
+                },
+                {
+                  "Element": {
+                    "AssetPathName": "/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads/BP_Qat_Quad_Rect_Storage_04.BP_Qat_Quad_Rect_Storage_04_C",
+                    "SubPathString": ""
+                  },
+                  "Weight": 3.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "MaxSurvivorCount": 4,
+      "SurvivorItemPopulationProbability": {
+        "ObjectName": "CurveFloat ItemCamperCount",
+        "ObjectPath": "DeadByDaylight/Content/ProceduralLevelGeneration/ProbabilityCurves/ItemCamperCount.0"
+      },
+      "SurvivorItemProperty": [
+        {
+          "Category": "ECollectableCategory::Common",
+          "Weight": 1.0,
+          "MaxPopulation": 4
+        }
+      ],
+      "EscapeStrategyPopulationProbability": {
+        "ObjectName": "CurveFloat EscapeCount",
+        "ObjectPath": "DeadByDaylight/Content/ProceduralLevelGeneration/ProbabilityCurves/EscapeCount.0"
+      },
+      "EscapeStrategyProperties": [
+        {
+          "Type": "EscapeStrategyType::EscapeDoor",
+          "Population": {
+            "ObjectName": "CurveFloat EscapeDoorPopulation",
+            "ObjectPath": "DeadByDaylight/Content/ProceduralLevelGeneration/ProbabilityCurves/EscapeDoorPopulation.0"
+          },
+          "Weight": 1.0
+        },
+        {
+          "Type": "EscapeStrategyType::EscapeHatch",
+          "Population": {
+            "ObjectName": "CurveFloat EscapeHatchPopulation",
+            "ObjectPath": "DeadByDaylight/Content/ProceduralLevelGeneration/ProbabilityCurves/EscapeHatchPopulation.0"
+          },
+          "Weight": 0.0
+        }
+      ],
+      "EscapeTypeActors": [
+        {
+          "Type": "EscapeStrategyType::EscapeDoor",
+          "EscapeObjects": [
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_Escape01.BP_Escape01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_QAT_Escape01.BP_QAT_Escape01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_UKR_Escape01.BP_UKR_Escape01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_WAL_Escape01.BP_WAL_Escape01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_IND_Escape_01.BP_IND_Escape_01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_ASY_Escape_01.BP_ASY_Escape_01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_ECL_Escape_01.BP_ECL_Escape_01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_FRM_Escape01.BP_FRM_Escape01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_ION_Escape_01.BP_ION_Escape_01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_MTR_Escape_01.BP_MTR_Escape_01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_HAD_Escape_01.BP_HAD_Escape_01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_Qtm_Escape01.BP_Qtm_Escape01_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.BP_BRL_Escape01_C",
+              "SubPathString": ""
+            }
+          ]
+        },
+        {
+          "Type": "EscapeStrategyType::EscapeHatch",
+          "EscapeObjects": [
+            {
+              "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Escape/BP_Hatch01.BP_Hatch01_C",
+              "SubPathString": ""
+            }
+          ]
+        }
+      ],
+      "Basements": [
+        {
+          "AssetPathName": "/Game/Blueprints/Floors/BP_ST_Basement01.BP_ST_Basement01_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Blueprints/Environment/17-Eclipse/BP_Ecl_ST_Basement01.BP_Ecl_ST_Basement01_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Blueprints/Floors/BP_ST_HOS_Basement01.BP_ST_HOS_Basement01_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Blueprints/Floors/BP_ST_Hti_Shrine_Basement01.BP_ST_Hti_Shrine_Basement01_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Blueprints/Floors/BP_WAL_Basement01.BP_WAL_Basement01_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Blueprints/Floors/BP_ION_Basement01.BP_ION_Basement01_C",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Blueprints/Floors/BP_UKR_Basement01.BP_UKR_Basement01_C",
+          "SubPathString": ""
+        }
+      ],
+      "ElementsPopulation": [
+        {
+          "Type": "EGameplayElementType::TileLights",
+          "GameplayElementBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MinPopulation": 5,
+          "MaxPopulation": 8,
+          "MinGuaranteePopulation": 0,
+          "SpawnPass": 1,
+          "IterativeWeightAdjustmentStrategyClass": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Type": "EGameplayElementType::LivingWorldObjects",
+          "GameplayElementBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MinPopulation": 15,
+          "MaxPopulation": 25,
+          "MinGuaranteePopulation": 0,
+          "SpawnPass": 1,
+          "IterativeWeightAdjustmentStrategyClass": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Type": "EGameplayElementType::Totems",
+          "GameplayElementBlueprint": {
+            "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/Totem/BP_TotemBase.BP_TotemBase_C",
+            "SubPathString": ""
+          },
+          "MinPopulation": 5,
+          "MaxPopulation": 5,
+          "MinGuaranteePopulation": 0,
+          "SpawnPass": 1,
+          "IterativeWeightAdjustmentStrategyClass": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Type": "EGameplayElementType::ThemeSpawner",
+          "GameplayElementBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MinPopulation": 1000,
+          "MaxPopulation": 1000,
+          "MinGuaranteePopulation": 0,
+          "SpawnPass": 2,
+          "IterativeWeightAdjustmentStrategyClass": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ManagedElementsPopulation": [
+        {
+          "Type": "EGameplayElementType::Bookshelves",
+          "GameplayElementBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MinDistance": 0.875,
+          "MinPopulation": 8,
+          "MaxPopulation": 20
+        },
+        {
+          "Type": "EGameplayElementType::MeatLocker_Small",
+          "GameplayElementBlueprint": {
+            "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/MeatLocker/BP_SmallMeatLocker.BP_SmallMeatLocker_C",
+            "SubPathString": ""
+          },
+          "MinDistance": 1.325,
+          "MinPopulation": 8,
+          "MaxPopulation": 12
+        }
+      ],
+      "SurvivorGroupingProbabilities": [
+        {
+          "Type": "ESurvivorGrouping::Grouped4_0",
+          "Probability": 1.0
+        },
+        {
+          "Type": "ESurvivorGrouping::Grouped3_1",
+          "Probability": 2.0
+        },
+        {
+          "Type": "ESurvivorGrouping::Grouped2_2",
+          "Probability": 3.0
+        },
+        {
+          "Type": "ESurvivorGrouping::Separated",
+          "Probability": 4.0
+        }
+      ],
+      "ProceduralTileWidth": 1600.0,
+      "ProceduralTileHeight": 1600.0,
+      "DifficultyModifier": 1.0,
+      "CharacterCollisionRadius": 125.0
+    }
+  }
+]

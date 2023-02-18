@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BloodWarden",
+    "Outer": "BloodWarden_C",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_CreateAndReceiveConditionForBP_conditionReceiver_CastInput",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 1125899906842624,
+        "InterfaceClass": {
+          "ObjectName": "Class ConditionReceiver",
+          "ObjectPath": "/Script/Competence"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateAndReceiveConditionForBP_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyFlags": 524288,
+        "PropertyClass": {
+          "ObjectName": "Class EventDrivenModifierCondition",
+          "ObjectPath": "/Script/Competence"
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "Authority_OnInstantiateModifierConditions",
+    "Outer": "BloodWarden_C",
+    "SuperStruct": {
+      "ObjectName": "Function BaseModifierContainer:Authority_OnInstantiateModifierConditions",
+      "ObjectPath": "/Script/Competence"
+    },
+    "FunctionFlags": 134744068
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BloodWarden_C",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function BloodWarden_C:ExecuteUbergraph_BloodWarden",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/BloodWarden.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class BloodWarden",
+      "ObjectPath": "/Script/TheNightmare"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function BloodWarden_C:Authority_OnInstantiateModifierConditions",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/BloodWarden.1"
+      },
+      {
+        "ObjectName": "Function BloodWarden_C:ExecuteUbergraph_BloodWarden",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/BloodWarden.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BloodWarden": {
+        "ObjectName": "Function BloodWarden_C:ExecuteUbergraph_BloodWarden",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/BloodWarden.0"
+      },
+      "Authority_OnInstantiateModifierConditions": {
+        "ObjectName": "Function BloodWarden_C:Authority_OnInstantiateModifierConditions",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/BloodWarden.1"
+      }
+    },
+    "ClassFlags": 10749972,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BloodWarden_C Default__BloodWarden_C",
+      "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/KillerPerks/BloodWarden.3"
+    }
+  },
+  {
+    "Type": "BloodWarden_C",
+    "Name": "Default__BloodWarden_C",
+    "Properties": {
+      "UberGraphFrame": {},
+      "_bloodWardenBlockerStatusEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass BP_BloodWardenGateBlockerEffect_C",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/BP_BloodWardenGateBlockerEffect.0"
+      },
+      "_revealPlayerStatusEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass RevealSurvivorInExitArea_C",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/RevealSurvivorInExitArea.0"
+      },
+      "_perkLevelSpikeDurations": 40.0,
+      "_perkLevelSpikeDurations": 50.0,
+      "_perkLevelSpikeDurations": 60.0,
+      "UseApplyFunction": true
+    }
+  }
+]

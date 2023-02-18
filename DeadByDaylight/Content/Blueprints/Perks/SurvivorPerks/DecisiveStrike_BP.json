@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DecisiveStrike_BP_C",
+    "SuperStruct": {
+      "ObjectName": "Class DecisiveStrike",
+      "ObjectPath": "/Script/DBDCompetence"
+    },
+    "ClassFlags": 10749972,
+    "ClassWithin": {
+      "ObjectName": "Class Object",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DecisiveStrike_BP_C Default__DecisiveStrike_BP_C",
+      "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/SurvivorPerks/DecisiveStrike_BP.1"
+    }
+  },
+  {
+    "Type": "DecisiveStrike_BP_C",
+    "Name": "Default__DecisiveStrike_BP_C",
+    "Properties": {
+      "_timeAfterUnhook": 40.0,
+      "_timeAfterUnhook": 50.0,
+      "_timeAfterUnhook": 60.0,
+      "_skillCheckBuffer": 0.25,
+      "_increaseObsessionChanceEffect": {
+        "ObjectName": "BlueprintGeneratedClass IncreaseObsessionChance_C",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/IncreaseObsessionChance.0"
+      },
+      "PerkLevelData": {
+        "Modifiers": [
+          {
+            "Type": {
+              "TagName": "GameplayModifierType.ModifyInteractionExitTime"
+            },
+            "ModifierValue": 3.0
+          }
+        ]
+      },
+      "PerkLevelData": {
+        "Modifiers": [
+          {
+            "Type": {
+              "TagName": "GameplayModifierType.ModifyInteractionExitTime"
+            },
+            "ModifierValue": 3.0
+          }
+        ]
+      },
+      "PerkLevelData": {
+        "Modifiers": [
+          {
+            "Type": {
+              "TagName": "GameplayModifierType.ModifyInteractionExitTime"
+            },
+            "ModifierValue": 3.0
+          }
+        ]
+      }
+    }
+  }
+]
