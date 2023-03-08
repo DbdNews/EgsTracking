@@ -3,6 +3,7 @@
     "Type": "Function",
     "Name": "ExecuteUbergraph_BP_HookSurvivor",
     "Outer": "BP_HookSurvivor_C",
+    "Class": "UScriptClass'Function'",
     "ChildProperties": [
       {
         "Type": "IntProperty",
@@ -18,9 +19,31 @@
         "ElementSize": 20,
         "PropertyFlags": 2,
         "SignatureFunction": {
-          "ObjectName": "DelegateFunction OnAkPostEventCallback__DelegateSignature",
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
           "ObjectPath": "/Script/AkAudio"
         }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_player",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'DBDPlayer'",
+          "ObjectPath": "/Script/DeadByDaylight"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_complete",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
       },
       {
         "Type": "ArrayProperty",
@@ -34,7 +57,7 @@
           "Flags": 1,
           "ElementSize": 56,
           "Struct": {
-            "ObjectName": "ScriptStruct AkExternalSourceInfo",
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
             "ObjectPath": "/Script/AkAudio"
           }
         }
@@ -70,31 +93,9 @@
         "ElementSize": 8,
         "PropertyFlags": 524288,
         "PropertyClass": {
-          "ObjectName": "Class AkComponent",
+          "ObjectName": "Class'AkComponent'",
           "ObjectPath": "/Script/AkAudio"
         }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "K2Node_Event_player",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class DBDPlayer",
-          "ObjectPath": "/Script/DeadByDaylight"
-        }
-      },
-      {
-        "Type": "BoolProperty",
-        "Name": "K2Node_Event_complete",
-        "Flags": 1,
-        "ElementSize": 1,
-        "FieldSize": 1,
-        "ByteOffset": 0,
-        "ByteMask": 1,
-        "FieldMask": 255,
-        "BoolSize": 1,
-        "bIsNativeBool": true
       },
       {
         "Type": "IntProperty",
@@ -109,8 +110,9 @@
     "Type": "Function",
     "Name": "OnInteractionCompletionStateChanged",
     "Outer": "BP_HookSurvivor_C",
+    "Class": "UScriptClass'Function'",
     "SuperStruct": {
-      "ObjectName": "Function ChargeableInteractionDefinition:OnInteractionCompletionStateChanged",
+      "ObjectName": "Function'ChargeableInteractionDefinition:OnInteractionCompletionStateChanged'",
       "ObjectPath": "/Script/DeadByDaylight"
     },
     "ChildProperties": [
@@ -121,7 +123,7 @@
         "ElementSize": 8,
         "PropertyFlags": 148,
         "PropertyClass": {
-          "ObjectName": "Class DBDPlayer",
+          "ObjectName": "Class'DBDPlayer'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
@@ -144,23 +146,24 @@
   {
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_HookSurvivor_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
     "Properties": {
       "UberGraphFunction": {
-        "ObjectName": "Function BP_HookSurvivor_C:ExecuteUbergraph_BP_HookSurvivor",
+        "ObjectName": "Function'BP_HookSurvivor_C:ExecuteUbergraph_BP_HookSurvivor'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/MeatLocker/Interactions/BP_HookSurvivor.0"
       }
     },
     "SuperStruct": {
-      "ObjectName": "Class HookSurvivorDefinition",
+      "ObjectName": "Class'HookSurvivorDefinition'",
       "ObjectPath": "/Script/DBDInteraction"
     },
     "Children": [
       {
-        "ObjectName": "Function BP_HookSurvivor_C:OnInteractionCompletionStateChanged",
+        "ObjectName": "Function'BP_HookSurvivor_C:OnInteractionCompletionStateChanged'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/MeatLocker/Interactions/BP_HookSurvivor.1"
       },
       {
-        "ObjectName": "Function BP_HookSurvivor_C:ExecuteUbergraph_BP_HookSurvivor",
+        "ObjectName": "Function'BP_HookSurvivor_C:ExecuteUbergraph_BP_HookSurvivor'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/MeatLocker/Interactions/BP_HookSurvivor.0"
       }
     ],
@@ -172,36 +175,37 @@
         "ElementSize": 16,
         "PropertyFlags": 2105344,
         "Struct": {
-          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
           "ObjectPath": "/Script/Engine"
         }
       }
     ],
     "FuncMap": {
       "ExecuteUbergraph_BP_HookSurvivor": {
-        "ObjectName": "Function BP_HookSurvivor_C:ExecuteUbergraph_BP_HookSurvivor",
+        "ObjectName": "Function'BP_HookSurvivor_C:ExecuteUbergraph_BP_HookSurvivor'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/MeatLocker/Interactions/BP_HookSurvivor.0"
       },
       "OnInteractionCompletionStateChanged": {
-        "ObjectName": "Function BP_HookSurvivor_C:OnInteractionCompletionStateChanged",
+        "ObjectName": "Function'BP_HookSurvivor_C:OnInteractionCompletionStateChanged'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/MeatLocker/Interactions/BP_HookSurvivor.1"
       }
     },
     "ClassFlags": 10754068,
     "ClassWithin": {
-      "ObjectName": "Class Object",
+      "ObjectName": "Class'Object'",
       "ObjectPath": "/Script/CoreUObject"
     },
     "ClassConfigName": "Engine",
     "bCooked": true,
     "ClassDefaultObject": {
-      "ObjectName": "BP_HookSurvivor_C Default__BP_HookSurvivor_C",
+      "ObjectName": "BP_HookSurvivor_C'Default__BP_HookSurvivor_C'",
       "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/MeatLocker/Interactions/BP_HookSurvivor.3"
     }
   },
   {
     "Type": "BP_HookSurvivor_C",
     "Name": "Default__BP_HookSurvivor_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/MeatLocker/Interactions/BP_HookSurvivor.BP_HookSurvivor_C'",
     "Properties": {
       "UberGraphFrame": {},
       "StopInteractionOnChargeComplete": true,

@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Saturn\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1440782793" GUID="{21FCE409-079C-4C44-A0CC-926D17215091}" Language="SFX" Hash="1781856644">
+		<SoundBank Id="1440782793" GUID="{21FCE409-079C-4C44-A0CC-926D17215091}" Language="SFX" Hash="3540046352">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_31</ObjectPath>
 			<ShortName>KLR_31</ShortName>
 			<Path>KLR_31.bnk</Path>
@@ -19725,9 +19725,9 @@
 				</Event>
 				<Event Id="1475262848" Name="AudioEvent_K31_MORI_KLR_Drone" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_MORI\AudioEvent_K31_MORI_KLR_Drone" GUID="{7F2455DD-EB76-4D10-95E2-DF1E8B6EC0E8}" MaxAttenuation="3400.000000" DurationType="OneShot" DurationMin="14.026730" DurationMax="14.026730">
 					<ExcludedMemoryFiles>
-						<File Id="524759960" Language="SFX">
-							<ShortName>Character\KLR_31\KLR_31_MORI\sfx_k31_mori_klr_drone_01.wav</ShortName>
-							<Path>SFX\Character\KLR_31\KLR_31_MORI\sfx_k31_mori_klr_drone_01_7FA8D501.wem</Path>
+						<File Id="53437158" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_MORI\sfx_k31_mori_klr_drone_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_MORI\sfx_k31_mori_klr_drone_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -19771,11 +19771,19 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="1143297745" Name="AudioEvent_K31_MORI_SVR_Foley_01" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_MORI\AudioEvent_K31_MORI_SVR_Foley_01" GUID="{9231126F-05E6-4D41-A018-59F314BC5158}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="10.000000" DurationMax="10.000000">
+				<Event Id="1143297745" Name="AudioEvent_K31_MORI_SVR_Foley_01" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_MORI\AudioEvent_K31_MORI_SVR_Foley_01" GUID="{9231126F-05E6-4D41-A018-59F314BC5158}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="7.928506" DurationMax="7.928506">
 					<ExcludedMemoryFiles>
 						<File Id="455822972" Language="SFX">
 							<ShortName>Character\KLR_31\KLR_31_MORI\sfx_k31_mori_surv_foley.wav</ShortName>
-							<Path>SFX\Character\KLR_31\KLR_31_MORI\sfx_k31_mori_surv_foley_7FA8D501.wem</Path>
+							<Path>SFX\Character\KLR_31\KLR_31_MORI\sfx_k31_mori_surv_foley_5F82F630.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="1435598549" Name="AudioEvent_K31_MORI_SVR_Foley_Kick_Feet" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_MORI\AudioEvent_K31_MORI_SVR_Foley_Kick_Feet" GUID="{7D69C69D-07B7-4914-80E6-65EF823D5493}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.142000" DurationMax="1.142000">
+					<ExcludedMemoryFiles>
+						<File Id="145182063" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_MORI\sfx_k31_mori_svr_foley_feet_kick_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_MORI\sfx_k31_mori_svr_foley_feet_kick_02_7FA8D501.wem</Path>
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
@@ -22221,6 +22229,445 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
+				<Event Id="4154359115" Name="AudioEvent_K31_WPN_Outfit006_Claws_Arm" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_WPN\WPN_03\AudioEvent_K31_WPN_Outfit006_Claws_Arm" GUID="{2B20D291-B7B5-42D4-9F15-665206FE387D}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.707560" DurationMax="0.861167">
+					<ExcludedMemoryFiles>
+						<File Id="11996131" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_017.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_017_7FA8D501.wem</Path>
+						</File>
+						<File Id="21455672" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_forward_v1_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_forward_v1_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="22644806" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_forward_v1_01.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_forward_v1_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="43023869" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_013.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_013_7FA8D501.wem</Path>
+						</File>
+						<File Id="49119149" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_012.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_012_7FA8D501.wem</Path>
+						</File>
+						<File Id="67266091" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_011.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_011_7FA8D501.wem</Path>
+						</File>
+						<File Id="82212145" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_forward_v1_03.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_forward_v1_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="148932318" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_008.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_008_7FA8D501.wem</Path>
+						</File>
+						<File Id="321834595" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_003.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_003_7FA8D501.wem</Path>
+						</File>
+						<File Id="333688190" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_forward_v1_04.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_forward_v1_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="374335932" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_010.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_010_7FA8D501.wem</Path>
+						</File>
+						<File Id="425902922" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_015.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_015_7FA8D501.wem</Path>
+						</File>
+						<File Id="440914722" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_014.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_014_7FA8D501.wem</Path>
+						</File>
+						<File Id="482368122" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_004.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_004_7FA8D501.wem</Path>
+						</File>
+						<File Id="609303731" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_018.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_018_7FA8D501.wem</Path>
+						</File>
+						<File Id="776182274" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_009.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_009_7FA8D501.wem</Path>
+						</File>
+						<File Id="832326120" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_016.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_016_7FA8D501.wem</Path>
+						</File>
+						<File Id="857928701" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_001.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_001_7FA8D501.wem</Path>
+						</File>
+						<File Id="951902092" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_002.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_002_7FA8D501.wem</Path>
+						</File>
+						<File Id="1042500723" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_007.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_007_7FA8D501.wem</Path>
+						</File>
+						<File Id="1052909767" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_005.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_005_7FA8D501.wem</Path>
+						</File>
+						<File Id="1062964925" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_006.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_BODY\sfx_k31_wpn_arm_bits_006_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="985130099" Name="AudioEvent_K31_WPN_Outfit006_Claws_Attack" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_WPN\WPN_03\AudioEvent_K31_WPN_Outfit006_Claws_Attack" GUID="{97A41953-73EB-4840-8887-97929E773DAA}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.605188" DurationMax="1.701833">
+					<ExcludedMemoryFiles>
+						<File Id="161073155" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_05.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="212261342" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_06.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="225975514" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_04.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="417987381" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="585800183" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_01.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="730119820" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_03.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="3590893850" Name="HAPTIC_KLR_IMPACT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_IMPACT_AUX" GUID="{C9118841-56EA-4AC3-B11C-5A64C8740F9D}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="851642706" Name="AudioEvent_K31_WPN_Outfit006_Claws_Attack_Out" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_WPN\WPN_03\AudioEvent_K31_WPN_Outfit006_Claws_Attack_Out" GUID="{51F9E732-3164-4EDB-965D-74B29D4B536F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.892729" DurationMax="2.037899">
+					<ExcludedMemoryFiles>
+						<File Id="155602323" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_06.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="483270927" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_03.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="947242905" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_04.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="967987374" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="1001890391" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_01.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="1030911983" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_05.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_out_05_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1567547870" Name="AudioEvent_K31_WPN_Outfit006_Claws_Clean" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_WPN\WPN_03\AudioEvent_K31_WPN_Outfit006_Claws_Clean" GUID="{21AC92BC-7F43-4B13-BCAE-735B133A25CC}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.660000" DurationMax="1.948000">
+					<ExcludedMemoryFiles>
+						<File Id="38801253" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_19.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_19_7FA8D501.wem</Path>
+						</File>
+						<File Id="51634984" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_30.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_30_7FA8D501.wem</Path>
+						</File>
+						<File Id="60049742" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_11.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="61998561" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_29.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_29_7FA8D501.wem</Path>
+						</File>
+						<File Id="76997841" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_10.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="84735766" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_10.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_10_7FA8D501.wem</Path>
+						</File>
+						<File Id="87675360" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_04.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="148890503" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_35.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_35_7FA8D501.wem</Path>
+						</File>
+						<File Id="160540665" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_12.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="160635982" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_16.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="161073155" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_05.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="163906943" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_34.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_34_7FA8D501.wem</Path>
+						</File>
+						<File Id="185879215" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_30.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_30_7FA8D501.wem</Path>
+						</File>
+						<File Id="187126041" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_03.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="212261342" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_06.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="225975514" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_04.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="401743765" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_06.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="417987381" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="436004350" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_09.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="440249417" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_29.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_29_7FA8D501.wem</Path>
+						</File>
+						<File Id="476186512" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_01.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="479446936" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_26.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_26_7FA8D501.wem</Path>
+						</File>
+						<File Id="493843963" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_34.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_34_7FA8D501.wem</Path>
+						</File>
+						<File Id="567803368" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_12.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_12_7FA8D501.wem</Path>
+						</File>
+						<File Id="573548608" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_05.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="578616553" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_11.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_11_7FA8D501.wem</Path>
+						</File>
+						<File Id="585800183" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_01.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="620912393" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_06.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="703142760" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_35.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_35_7FA8D501.wem</Path>
+						</File>
+						<File Id="730119820" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_03.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_outfit006_attack_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="730693096" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="764111414" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_16.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_16_7FA8D501.wem</Path>
+						</File>
+						<File Id="785731795" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_01.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="788201008" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_19.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_19_7FA8D501.wem</Path>
+						</File>
+						<File Id="879764114" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_26.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_outfit006_various_satisfaction_26_7FA8D501.wem</Path>
+						</File>
+						<File Id="882949380" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_04.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="920684134" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="927445043" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_06.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="982697009" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_09.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_09_7FA8D501.wem</Path>
+						</File>
+						<File Id="1029396597" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_03.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_clean_blood_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
+						<AuxBus Id="3590893850" Name="HAPTIC_KLR_IMPACT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_IMPACT_AUX" GUID="{C9118841-56EA-4AC3-B11C-5A64C8740F9D}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2187440001" Name="AudioEvent_K31_WPN_Outfit006_Claws_Impact" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_WPN\WPN_03\AudioEvent_K31_WPN_Outfit006_Claws_Impact" GUID="{358F0041-567D-4303-96C9-3331D17F17FE}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.484146" DurationMax="1.532958">
+					<ExcludedMemoryFiles>
+						<File Id="198523276" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_06.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="309218199" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_01.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="595837332" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_05.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="674299663" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_04.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="677384746" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="998008342" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_03.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3590893850" Name="HAPTIC_KLR_IMPACT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_IMPACT_AUX" GUID="{C9118841-56EA-4AC3-B11C-5A64C8740F9D}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2208172746" Name="AudioEvent_K31_WPN_Outfit006_Claws_Impact_Survivor" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_WPN\WPN_03\AudioEvent_K31_WPN_Outfit006_Claws_Impact_Survivor" GUID="{B621013F-F686-4726-BED0-4E2E4C0C2486}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.434708" DurationMax="1.547708">
+					<ExcludedMemoryFiles>
+						<File Id="397055218" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="547317579" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_06.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="659342667" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_04.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="672825474" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_01.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="797470568" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_05.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="889234336" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_03.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_flesh_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3590893850" Name="HAPTIC_KLR_IMPACT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_IMPACT_AUX" GUID="{C9118841-56EA-4AC3-B11C-5A64C8740F9D}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1355212915" Name="AudioEvent_K31_WPN_Outfit006_Claws_Locker" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_WPN\WPN_03\AudioEvent_K31_WPN_Outfit006_Claws_Locker" GUID="{E67CD9E9-7782-4214-90B7-B272E00ABE14}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.484146" DurationMax="1.532958">
+					<ExcludedMemoryFiles>
+						<File Id="198523276" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_06.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_06_7FA8D501.wem</Path>
+						</File>
+						<File Id="309218199" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_01.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="595837332" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_05.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_05_7FA8D501.wem</Path>
+						</File>
+						<File Id="674299663" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_04.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="677384746" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_02_7FA8D501.wem</Path>
+						</File>
+						<File Id="998008342" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_03.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_impact_surface_03_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3590893850" Name="HAPTIC_KLR_IMPACT_AUX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\HAPTIC\HAPTIC_KILLER\HAPTIC_KLR_IMPACT_AUX" GUID="{C9118841-56EA-4AC3-B11C-5A64C8740F9D}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="9010802" Name="AudioEvent_K31_WPN_Outfit006_Claws_PullOut" ObjectPath="\Events\CHARACTER\KILLER\K31_Saturn\K31_WPN\WPN_03\AudioEvent_K31_WPN_Outfit006_Claws_PullOut" GUID="{10D8083B-14D1-4754-8761-575232A2F798}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.596951" DurationMax="0.809667">
+					<ExcludedMemoryFiles>
+						<File Id="87675360" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_04.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_04_7FA8D501.wem</Path>
+						</File>
+						<File Id="187126041" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_03.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_03_7FA8D501.wem</Path>
+						</File>
+						<File Id="476186512" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_01.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_01_7FA8D501.wem</Path>
+						</File>
+						<File Id="920684134" Language="SFX">
+							<ShortName>Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_02.wav</ShortName>
+							<Path>SFX\Character\KLR_31\KLR_31_WPN\sfx_k31_wpn_arm_backward_v1_02_7FA8D501.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="4054268" Language="SFX">
@@ -22358,6 +22805,10 @@
 				<File Id="51634984" Language="SFX">
 					<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_30.wav</ShortName>
 					<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_satisfaction_30_7FA8D501.wem</Path>
+				</File>
+				<File Id="53437158" Language="SFX">
+					<ShortName>Character\KLR_31\KLR_31_MORI\sfx_k31_mori_klr_drone_02.wav</ShortName>
+					<Path>SFX\Character\KLR_31\KLR_31_MORI\sfx_k31_mori_klr_drone_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="54844349" Language="SFX">
 					<ShortName>Character\KLR_31\KLR_31_PWR\sfx_k31_pwr_drones_active_oneshots_13.wav</ShortName>
@@ -22530,6 +22981,10 @@
 				<File Id="143565079" Language="SFX">
 					<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_amused_11.wav</ShortName>
 					<Path>SFX\Character\KLR_31\KLR_31_VO\vo_k31_default_various_amused_11_7FA8D501.wem</Path>
+				</File>
+				<File Id="145182063" Language="SFX">
+					<ShortName>Character\KLR_31\KLR_31_MORI\sfx_k31_mori_svr_foley_feet_kick_02.wav</ShortName>
+					<Path>SFX\Character\KLR_31\KLR_31_MORI\sfx_k31_mori_svr_foley_feet_kick_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="145902398" Language="SFX">
 					<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_default_various_amused_02.wav</ShortName>
@@ -23209,7 +23664,7 @@
 				</File>
 				<File Id="455822972" Language="SFX">
 					<ShortName>Character\KLR_31\KLR_31_MORI\sfx_k31_mori_surv_foley.wav</ShortName>
-					<Path>SFX\Character\KLR_31\KLR_31_MORI\sfx_k31_mori_surv_foley_7FA8D501.wem</Path>
+					<Path>SFX\Character\KLR_31\KLR_31_MORI\sfx_k31_mori_surv_foley_5F82F630.wem</Path>
 				</File>
 				<File Id="458510642" Language="SFX">
 					<ShortName>Character\KLR_31\KLR_31_PWR\sfx_k31_pwr_radar_survivor_detected_04.wav</ShortName>
@@ -23358,10 +23813,6 @@
 				<File Id="523720565" Language="SFX">
 					<ShortName>Character\KLR_31\KLR_31_PWR\sfx_k31_pwr_drones_active_oneshots_22.wav</ShortName>
 					<Path>SFX\Character\KLR_31\KLR_31_PWR\sfx_k31_pwr_drones_active_oneshots_22_7FA8D501.wem</Path>
-				</File>
-				<File Id="524759960" Language="SFX">
-					<ShortName>Character\KLR_31\KLR_31_MORI\sfx_k31_mori_klr_drone_01.wav</ShortName>
-					<Path>SFX\Character\KLR_31\KLR_31_MORI\sfx_k31_mori_klr_drone_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="524789426" Language="SFX">
 					<ShortName>Character\KLR_31\KLR_31_VO\vo_k31_outfit006_grunt_grab_08.wav</ShortName>

@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "CustomizationItemDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct CustomizationItemData",
+        "ObjectName": "ScriptStruct'CustomizationItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -37,7 +38,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -72,7 +73,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -173,7 +174,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -219,7 +220,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -309,7 +310,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -344,7 +345,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -445,7 +446,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -501,7 +502,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -602,7 +603,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -658,7 +659,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -759,7 +760,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -794,7 +795,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -884,7 +885,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -930,7 +931,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1020,7 +1021,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1066,7 +1067,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1167,7 +1168,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1202,7 +1203,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -1218,7 +1219,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1319,7 +1320,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1354,7 +1355,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1444,7 +1445,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1500,7 +1501,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1601,7 +1602,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1654,7 +1655,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1744,7 +1745,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1779,7 +1780,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1880,7 +1881,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1915,7 +1916,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2002,7 +2003,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2034,7 +2035,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2124,7 +2125,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2156,7 +2157,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2257,7 +2258,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2289,7 +2290,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2390,7 +2391,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2422,7 +2423,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2523,7 +2524,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2555,7 +2556,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2656,7 +2657,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2688,7 +2689,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2778,7 +2779,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2821,7 +2822,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2911,7 +2912,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2943,7 +2944,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -3033,7 +3034,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3086,7 +3087,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -3176,7 +3177,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3208,7 +3209,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -3298,7 +3299,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3330,7 +3331,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -3431,7 +3432,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3463,7 +3464,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -3564,7 +3565,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3596,7 +3597,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -3686,7 +3687,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3718,7 +3719,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -3808,7 +3809,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3851,7 +3852,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -3941,7 +3942,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3973,7 +3974,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -3989,7 +3990,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -4079,7 +4080,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -4111,7 +4112,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -4127,7 +4128,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -4217,7 +4218,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -4263,7 +4264,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -4350,7 +4351,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -4396,7 +4397,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -4483,7 +4484,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -4529,7 +4530,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -4616,7 +4617,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -4662,7 +4663,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -4749,7 +4750,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -4795,7 +4796,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -4893,7 +4894,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -4925,7 +4926,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -5026,7 +5027,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -5069,7 +5070,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -5170,7 +5171,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -5202,7 +5203,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -5275,128 +5276,6 @@
         "InclusionVersion": "6.4.0",
         "CustomizationId": "MT_Head021"
       },
-      "MT_Head022": {
-        "Category": "ECustomizationCategory::SurvivorHead",
-        "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Campers/Meg/Models/Heads/MT_Head00_REF.MT_Head00_REF",
-          "SubPathString": ""
-        },
-        "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "ItemBlueprint": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "MaterialsMap": [],
-        "ConditionalMaterialReplacer": {
-          "ItemTag": "None",
-          "ConditionalMaterials": {}
-        },
-        "TexturesMap": [],
-        "SkeletalComponentTags": [],
-        "CosmeticOverrideSemanticTags": [],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "C6ABBA814A76C0C9B96750BF206CAD31",
-          "SourceString": "COLLECTION_MT_022_NAME",
-          "LocalizedString": "Meet Your Maker Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "PrestigeUlockLevel": -1,
-        "PrestigeUnlockDate": "",
-        "EventId": "None",
-        "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [
-          {
-            "AccessoryBlueprint": {
-              "AssetPathName": "/Game/Characters/Campers/Meg/Models/Heads/ACC/Top/Blueprints/BP_MT_Hair_ACC022.BP_MT_Hair_ACC022_C",
-              "SubPathString": ""
-            },
-            "SkeletalMesh": {
-              "AssetPathName": "None",
-              "SubPathString": ""
-            },
-            "SocketName": "None",
-            "MaterialsMap": [],
-            "ConditionalMaterialReplacer": {
-              "ItemTag": "None",
-              "ConditionalMaterials": {}
-            }
-          }
-        ],
-        "UnlockingConditions": [],
-        "IsInStore": true,
-        "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
-        "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
-        "AnimationData": {
-          "MenuAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          },
-          "InGameAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "AssociatedCharacter": 1,
-        "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::VeryRare",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "882118E947CC2532CA280DB08A69C11F",
-            "SourceString": "CUST_MT_Head022_NAME",
-            "LocalizedString": "Snug Piercing"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "2839C0984A8A3A75F41E73AF88C0ABF3",
-            "SourceString": "CUST_MT_Head022_DESC",
-            "LocalizedString": "She customized her earring to match her favorite game’s aesthetics."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/Meg/MT_Head022.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "InclusionVersion": "6.6.0",
-        "CustomizationId": "MT_Head022"
-      },
       "MT_Head03_01": {
         "Category": "ECustomizationCategory::SurvivorHead",
         "ItemMesh": {
@@ -5414,7 +5293,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -5467,7 +5346,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -5568,7 +5447,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -5687,7 +5566,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -5795,7 +5674,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -5924,7 +5803,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -6053,7 +5932,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -6161,7 +6040,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -6290,7 +6169,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -6419,7 +6298,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -6527,7 +6406,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -6646,7 +6525,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -6765,7 +6644,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -6884,7 +6763,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -6989,7 +6868,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -7123,7 +7002,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -7233,7 +7112,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -7349,7 +7228,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -7462,7 +7341,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -7567,7 +7446,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -7672,7 +7551,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -7777,7 +7656,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -7882,7 +7761,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -7914,7 +7793,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -8004,7 +7883,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -8036,7 +7915,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -8126,7 +8005,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -8236,7 +8115,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -8341,7 +8220,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -8373,7 +8252,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -8463,7 +8342,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -8568,7 +8447,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -8600,7 +8479,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -8695,7 +8574,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -8800,7 +8679,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -8832,7 +8711,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -8948,7 +8827,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -9064,7 +8943,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -9180,7 +9059,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -9296,7 +9175,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -9412,7 +9291,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -9528,7 +9407,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -9633,7 +9512,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -9749,7 +9628,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -9854,7 +9733,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -9942,111 +9821,6 @@
         "InclusionVersion": "6.4.0",
         "CustomizationId": "MT_Legs021"
       },
-      "MT_Legs022": {
-        "Category": "ECustomizationCategory::SurvivorLegs",
-        "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Campers/Meg/Models/Legs/MT_Legs022_REF.MT_Legs022_REF",
-          "SubPathString": ""
-        },
-        "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "ItemBlueprint": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "MaterialsMap": [],
-        "ConditionalMaterialReplacer": {
-          "ItemTag": "None",
-          "ConditionalMaterials": {}
-        },
-        "TexturesMap": [],
-        "SkeletalComponentTags": [],
-        "CosmeticOverrideSemanticTags": [],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "D274ADAF4B52F3B26F54B9B0EA7CB089",
-          "SourceString": "COLLECTION_MT_022_NAME",
-          "LocalizedString": "Meet Your Maker Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "PrestigeUlockLevel": -1,
-        "PrestigeUnlockDate": "",
-        "EventId": "None",
-        "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [],
-        "UnlockingConditions": [],
-        "IsInStore": true,
-        "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
-        "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
-        "AnimationData": {
-          "MenuAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          },
-          "InGameAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "AssociatedCharacter": 1,
-        "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::VeryRare",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "DA6E19C04313FB7E646D0CBBC8FA3CCC",
-            "SourceString": "CUST_MT_Legs022_NAME",
-            "LocalizedString": "Customized Trousers"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "0D47152B483ED3AC886C1BB40CC39CE0",
-            "SourceString": "CUST_MT_Legs022_DESC",
-            "LocalizedString": "She spent some time on it, but it was worth it."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/Meg/MT_Legs022.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "InclusionVersion": "6.6.0",
-        "CustomizationId": "MT_Legs022"
-      },
       "MT_Legs03_01": {
         "Category": "ECustomizationCategory::SurvivorLegs",
         "ItemMesh": {
@@ -10075,7 +9849,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -10180,7 +9954,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -10209,7 +9983,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -10225,7 +9999,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -10336,7 +10110,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -10465,7 +10239,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -10573,7 +10347,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -10692,7 +10466,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -10811,7 +10585,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -10930,7 +10704,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -11032,7 +10806,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -11151,7 +10925,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -11270,7 +11044,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -11378,7 +11152,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -11413,7 +11187,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -11524,7 +11298,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -11559,7 +11333,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -11670,7 +11444,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -11705,7 +11479,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -11816,7 +11590,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -11848,7 +11622,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -11938,7 +11712,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -11973,7 +11747,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -12074,7 +11848,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -12106,7 +11880,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -12196,7 +11970,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -12231,7 +12005,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -12318,7 +12092,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -12423,7 +12197,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -12528,7 +12302,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -12560,7 +12334,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -12650,7 +12424,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -12682,7 +12456,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -12772,7 +12546,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -12877,7 +12651,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -12982,7 +12756,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -13087,7 +12861,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -13192,7 +12966,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -13224,7 +12998,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -13314,7 +13088,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -13346,7 +13120,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -13447,7 +13221,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -13552,7 +13326,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -13584,7 +13358,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -13674,7 +13448,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -13706,7 +13480,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -13796,7 +13570,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -13830,7 +13604,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -13946,7 +13720,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -14062,7 +13836,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -14178,7 +13952,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -14294,7 +14068,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -14410,7 +14184,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -14526,7 +14300,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -14631,7 +14405,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -14767,7 +14541,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -14872,7 +14646,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -14904,7 +14678,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -14977,128 +14751,6 @@
         "InclusionVersion": "6.4.0",
         "CustomizationId": "MT_Torso021"
       },
-      "MT_Torso022": {
-        "Category": "ECustomizationCategory::SurvivorTorso",
-        "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Campers/Meg/Models/Torsos/MT_Torso022_REF.MT_Torso022_REF",
-          "SubPathString": ""
-        },
-        "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "ItemBlueprint": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "MaterialsMap": [],
-        "ConditionalMaterialReplacer": {
-          "ItemTag": "None",
-          "ConditionalMaterials": {}
-        },
-        "TexturesMap": [],
-        "SkeletalComponentTags": [],
-        "CosmeticOverrideSemanticTags": [],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "0AF1289146FB492D6BAD798D89F8513D",
-          "SourceString": "COLLECTION_MT_022_NAME",
-          "LocalizedString": "Meet Your Maker Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "PrestigeUlockLevel": -1,
-        "PrestigeUnlockDate": "",
-        "EventId": "None",
-        "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [
-          {
-            "AccessoryBlueprint": {
-              "AssetPathName": "/Game/Characters/Campers/Meg/Models/Torsos/ACC/Body/Blueprint/BP_MT_Tubes_ACC022.BP_MT_Tubes_ACC022_C",
-              "SubPathString": ""
-            },
-            "SkeletalMesh": {
-              "AssetPathName": "None",
-              "SubPathString": ""
-            },
-            "SocketName": "None",
-            "MaterialsMap": [],
-            "ConditionalMaterialReplacer": {
-              "ItemTag": "None",
-              "ConditionalMaterials": {}
-            }
-          }
-        ],
-        "UnlockingConditions": [],
-        "IsInStore": true,
-        "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
-        "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
-        "AnimationData": {
-          "MenuAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          },
-          "InGameAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "AssociatedCharacter": 1,
-        "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::VeryRare",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "FAFDC1D14F57BBDBB4577EB86D115F6F",
-            "SourceString": "CUST_MT_Torso022_NAME",
-            "LocalizedString": "Connected Jacket"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "ADDC1BAC4768E02C89DF53A26009C1F1",
-            "SourceString": "CUST_MT_Torso022_DESC",
-            "LocalizedString": "She sewed cables in an old tee shirt after dyeing it."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/Meg/MT_Torso022.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "InclusionVersion": "6.6.0",
-        "CustomizationId": "MT_Torso022"
-      },
       "MT_Torso03_01": {
         "Category": "ECustomizationCategory::SurvivorTorso",
         "ItemMesh": {
@@ -15137,7 +14789,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -15224,132 +14876,6 @@
         },
         "InclusionVersion": "Legacy",
         "CustomizationId": "MT_Torso03_01"
-      },
-      "MT_Torso04_05": {
-        "Category": "ECustomizationCategory::SurvivorTorso",
-        "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Campers/Meg/Models/Torsos/MT_Torso04_REF.MT_Torso04_REF",
-          "SubPathString": ""
-        },
-        "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "ItemBlueprint": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "MaterialsMap": [
-          {
-            "From": {
-              "AssetPathName": "/Game/Characters/Campers/Meg/Materials/Outfit04/MI_MTTorso04_Twitch.MI_MTTorso04_Twitch",
-              "SubPathString": ""
-            },
-            "To": {
-              "AssetPathName": "/Game/Characters/Campers/Meg/Materials/Outfit04/MI_MTTorso04_05.MI_MTTorso04_05",
-              "SubPathString": ""
-            }
-          },
-          {
-            "From": {
-              "AssetPathName": "/Game/Characters/Campers/Meg/Materials/Outfit00/MI_MTTorso00.MI_MTTorso00",
-              "SubPathString": ""
-            },
-            "To": {
-              "AssetPathName": "/Game/Characters/Campers/Meg/Materials/Outfit00/MI_MTTorso00.MI_MTTorso00",
-              "SubPathString": ""
-            }
-          }
-        ],
-        "ConditionalMaterialReplacer": {
-          "ItemTag": "None",
-          "ConditionalMaterials": {}
-        },
-        "TexturesMap": [],
-        "SkeletalComponentTags": [],
-        "CosmeticOverrideSemanticTags": [],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "1DF5EC5B41C3B1A196DB7AB8AF4C8AA1",
-          "SourceString": "COLLECTION_MT_Torso04_05_NAME",
-          "LocalizedString": "Meet Your Maker Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "PrestigeUlockLevel": -1,
-        "PrestigeUnlockDate": "",
-        "EventId": "None",
-        "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [],
-        "UnlockingConditions": [],
-        "IsInStore": true,
-        "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
-        "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
-        "AnimationData": {
-          "MenuAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          },
-          "InGameAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "AssociatedCharacter": 1,
-        "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::Rare",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "D14EB3AE41CC963680EE06BA3E68677A",
-            "SourceString": "CUST_MT_Torso04_05_NAME",
-            "LocalizedString": "Build And Protect"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "2323F4E046A7B8029402EFBC39274D04",
-            "SourceString": "CUST_MT_Torso04_05_DESC",
-            "LocalizedString": "A shirt made for Outpost builders."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/Meg/MT_Torso04_05.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "InclusionVersion": "6.6.0",
-        "CustomizationId": "MT_Torso04_05"
       }
     }
   }

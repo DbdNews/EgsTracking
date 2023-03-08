@@ -1,12 +1,26 @@
 [
   {
     "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_0",
+    "Outer": "F_K31_Mori01",
+    "Template": "Default__AnimNotify_AkEvent_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'AudioEvent_K31_MORI_SVR_Foley_Kick_Feet'",
+        "ObjectPath": "DeadByDaylight/Content/Audio/AudioEvents/Killer/K31/MORI/AudioEvent_K31_MORI_SVR_Foley_Kick_Feet.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
     "Name": "AnimNotify_AkEvent_C_1",
     "Outer": "F_K31_Mori01",
     "Template": "Default__AnimNotify_AkEvent_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
     "Properties": {
       "Event": {
-        "ObjectName": "AkAudioEvent AudioEvent_K31_MORI_SVR_Body_Fall",
+        "ObjectName": "AkAudioEvent'AudioEvent_K31_MORI_SVR_Body_Fall'",
         "ObjectPath": "DeadByDaylight/Content/Audio/AudioEvents/Killer/K31/MORI/AudioEvent_K31_MORI_SVR_Body_Fall.0"
       }
     }
@@ -16,9 +30,10 @@
     "Name": "AnimNotify_AkEvent_C_5",
     "Outer": "F_K31_Mori01",
     "Template": "Default__AnimNotify_AkEvent_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Plugins/Wwise/Content/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
     "Properties": {
       "Event": {
-        "ObjectName": "AkAudioEvent AudioEvent_K31_MORI_SVR_Foley_01",
+        "ObjectName": "AkAudioEvent'AudioEvent_K31_MORI_SVR_Foley_01'",
         "ObjectPath": "DeadByDaylight/Content/Audio/AudioEvents/Killer/K31/MORI/AudioEvent_K31_MORI_SVR_Foley_01.0"
       }
     }
@@ -26,6 +41,7 @@
   {
     "Type": "AnimSequence",
     "Name": "F_K31_Mori01",
+    "Class": "UScriptClass'AnimSequence'",
     "Properties": {
       "NumFrames": 421,
       "TrackToSkeletonMapTable": [
@@ -391,11 +407,11 @@
         }
       ],
       "BoneCompressionSettings": {
-        "ObjectName": "AnimBoneCompressionSettings DefaultAnimBoneCompressionSettings",
+        "ObjectName": "AnimBoneCompressionSettings'DefaultAnimBoneCompressionSettings'",
         "ObjectPath": "Engine/Content/Animation/DefaultAnimBoneCompressionSettings.0"
       },
       "CurveCompressionSettings": {
-        "ObjectName": "AnimCurveCompressionSettings DefaultAnimCurveCompressionSettings",
+        "ObjectName": "AnimCurveCompressionSettings'DefaultAnimCurveCompressionSettings'",
         "ObjectPath": "Engine/Content/Animation/DefaultAnimCurveCompressionSettings.1"
       },
       "Notifies": [
@@ -435,8 +451,8 @@
           "SegmentLength": 14.0,
           "LinkValue": 0.0006780103,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         },
         {
@@ -445,8 +461,8 @@
           "TriggerWeightThreshold": 1E-05,
           "NotifyName": "AkEvent_C",
           "Notify": {
-            "ObjectName": "AnimNotify_AkEvent_C F_K31_Mori01:AnimNotify_AkEvent_C_5",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.1"
+            "ObjectName": "AnimNotify_AkEvent_C'F_K31_Mori01:AnimNotify_AkEvent_C_5'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
           },
           "NotifyStateClass": null,
           "Duration": 0.0,
@@ -478,8 +494,8 @@
           "SegmentLength": 14.0,
           "LinkValue": 0.038793944,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         },
         {
@@ -518,8 +534,8 @@
           "SegmentLength": 14.0,
           "LinkValue": 0.96513426,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         },
         {
@@ -558,8 +574,8 @@
           "SegmentLength": 14.0,
           "LinkValue": 1.9602476,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         },
         {
@@ -598,8 +614,8 @@
           "SegmentLength": 14.0,
           "LinkValue": 3.031885,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         },
         {
@@ -638,8 +654,8 @@
           "SegmentLength": 14.0,
           "LinkValue": 3.6612592,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         },
         {
@@ -678,8 +694,8 @@
           "SegmentLength": 14.0,
           "LinkValue": 4.460735,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         },
         {
@@ -718,8 +734,8 @@
           "SegmentLength": 14.0,
           "LinkValue": 6.514989,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         },
         {
@@ -758,8 +774,8 @@
           "SegmentLength": 14.0,
           "LinkValue": 7.743687,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         },
         {
@@ -768,7 +784,7 @@
           "TriggerWeightThreshold": 1E-05,
           "NotifyName": "AkEvent_C",
           "Notify": {
-            "ObjectName": "AnimNotify_AkEvent_C F_K31_Mori01:AnimNotify_AkEvent_C_1",
+            "ObjectName": "AnimNotify_AkEvent_C'F_K31_Mori01:AnimNotify_AkEvent_C_0'",
             "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.0"
           },
           "NotifyStateClass": null,
@@ -781,7 +797,7 @@
             "CachedLinkMethod": "EAnimLinkMethod::Absolute",
             "SegmentBeginTime": 0.0,
             "SegmentLength": 0.0,
-            "LinkValue": 10.669427,
+            "LinkValue": 9.019445,
             "LinkedSequence": null
           },
           "bConvertedFromBranchingPoint": false,
@@ -799,10 +815,53 @@
           "CachedLinkMethod": "EAnimLinkMethod::Absolute",
           "SegmentBeginTime": 0.0,
           "SegmentLength": 14.0,
-          "LinkValue": 10.669427,
+          "LinkValue": 9.019445,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent_C",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'F_K31_Mori01:AnimNotify_AkEvent_C_1'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 10.584376,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 14.0,
+          "LinkValue": 10.584376,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         },
         {
@@ -841,14 +900,14 @@
           "SegmentLength": 14.0,
           "LinkValue": 10.692438,
           "LinkedSequence": {
-            "ObjectName": "AnimSequence F_K31_Mori01",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.2"
+            "ObjectName": "AnimSequence'F_K31_Mori01'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Common/Animation/Female/AnimSequences/SlasherInteractions/K31/F_K31_Mori01.3"
           }
         }
       ],
       "SequenceLength": 14.0,
       "Skeleton": {
-        "ObjectName": "Skeleton CamperMale_REF_Skeleton",
+        "ObjectName": "Skeleton'CamperMale_REF_Skeleton'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Models/CamperMale_REF_Skeleton.162"
       }
     },
@@ -986,11 +1045,11 @@
       "ScaleCompressionFormat": "ACF_Identity"
     },
     "BoneCompressionCodec": {
-      "ObjectName": "AnimCompress_PerTrackCompression DefaultAnimBoneCompressionSettings:AnimCompress_PerTrackCompression_3",
+      "ObjectName": "AnimCompress_PerTrackCompression'DefaultAnimBoneCompressionSettings:AnimCompress_PerTrackCompression_3'",
       "ObjectPath": "Engine/Content/Animation/DefaultAnimBoneCompressionSettings"
     },
     "CurveCompressionCodec": {
-      "ObjectName": "AnimCurveCompressionCodec_CompressedRichCurve DefaultAnimCurveCompressionSettings:CurveCompressionCodec",
+      "ObjectName": "AnimCurveCompressionCodec_CompressedRichCurve'DefaultAnimCurveCompressionSettings:CurveCompressionCodec'",
       "ObjectPath": "Engine/Content/Animation/DefaultAnimCurveCompressionSettings"
     },
     "CompressedRawDataSize": 1044000

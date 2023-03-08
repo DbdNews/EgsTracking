@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "K31_TunableValue",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct TunableValue",
+        "ObjectName": "ScriptStruct'TunableValue'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -307,6 +308,12 @@
         "Value": 0.25,
         "AtlantaOverriddenValue": 0.0,
         "Description": "What percent does a trap recharge to when the survivor fails to remove it?",
+        "OverriddenInAtlanta": false
+      },
+      "ClawTrap_RequiredTimeToRemainStillBeforeInteractingDuration": {
+        "Value": 0.3,
+        "AtlantaOverriddenValue": 0.0,
+        "Description": "How many seconds must a survivor remain still before being able to remove their trap?",
         "OverriddenInAtlanta": false
       },
       "=======Movement": {

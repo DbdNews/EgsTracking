@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "StoreBannersDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct StoreBannersData",
+        "ObjectName": "ScriptStruct'StoreBannersData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -6874,6 +6875,30 @@
           "AssociatedDlcId": "Saturn",
           "AssociatedCombinedItemId": "",
           "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_SAT18": {
+        "BannerId": "Banner_SAT18",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "5093BF0A4E6E225B86B2B1AB3D104C07",
+            "SourceString": "Banner_FeaturedSale_SUBTITLE",
+            "LocalizedString": "FEATURED SALE"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "DCCCA7E346113838107F7BBC1D0CB53A",
+            "SourceString": "Banner_70Off_SUBTITLE",
+            "LocalizedString": "Up to 70% Off"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_SAT18.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "NK_outfit_020",
           "TextPosition": "ETextBannerPosition::BottomLeft"
         },
         "UseAsDefault": false,

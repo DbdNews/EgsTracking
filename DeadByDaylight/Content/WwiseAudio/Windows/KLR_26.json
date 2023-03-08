@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>Z:\Wwise\DeadByDaylight\Content_Raw\Audio\Wwise_2021_1_5_Saturn\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1457560509" GUID="{25BF88DE-7FAF-4609-966F-201E526FD098}" Language="SFX" Hash="2992983118">
+		<SoundBank Id="1457560509" GUID="{25BF88DE-7FAF-4609-966F-201E526FD098}" Language="SFX" Hash="1457619888">
 			<ObjectPath>\SoundBanks\CHARACTER\KILLER\KLR_26</ObjectPath>
 			<ShortName>KLR_26</ShortName>
 			<Path>KLR_26.bnk</Path>
@@ -269,27 +269,15 @@
 						</File>
 					</ExcludedMemoryFiles>
 				</Event>
-				<Event Id="4045144369" Name="AudioEvent_K26_GRUNT_CooldownHit" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_CooldownHit" GUID="{9321E2CC-EE11-4D97-9349-6AEC3F9D81A4}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.743625" DurationMax="3.656000">
+				<Event Id="4045144369" Name="AudioEvent_K26_GRUNT_CooldownHit" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_CooldownHit" GUID="{9321E2CC-EE11-4D97-9349-6AEC3F9D81A4}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.052000" DurationMax="3.656000">
 					<ExcludedMemoryFiles>
-						<File Id="198632126" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="256810341" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="338191654" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="379035245" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="414648677" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="456923931" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_05.wav</ShortName>
@@ -303,18 +291,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_03.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="628504409" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="680210932" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="888549464" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="957134447" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_01_7FA8D501.wem</Path>
@@ -323,24 +299,9 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_07.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="1020337082" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_07.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_07_7FA8D501.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="198632126"/>
-								<File Id="338191654"/>
-								<File Id="414648677"/>
-								<File Id="628504409"/>
-								<File Id="680210932"/>
-								<File Id="888549464"/>
-								<File Id="1020337082"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="256810341"/>
@@ -357,7 +318,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1600433063" Name="AudioEvent_K26_GRUNT_Grab" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_Grab" GUID="{3052A276-AB46-4D2D-A776-FF19ECF2A513}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.881979" DurationMax="4.000000">
+				<Event Id="1600433063" Name="AudioEvent_K26_GRUNT_Grab" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_Grab" GUID="{3052A276-AB46-4D2D-A776-FF19ECF2A513}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.633333" DurationMax="4.000000">
 					<ExcludedMemoryFiles>
 						<File Id="9315752" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_07.wav</ShortName>
@@ -371,10 +332,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_06.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="107161889" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="241780659" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_01_7FA8D501.wem</Path>
@@ -387,48 +344,13 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="470114033" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="505413142" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="528496071" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="601704602" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="717804291" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="802402831" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="1044244614" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_07.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_07_7FA8D501.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="107161889"/>
-								<File Id="470114033"/>
-								<File Id="505413142"/>
-								<File Id="528496071"/>
-								<File Id="601704602"/>
-								<File Id="717804291"/>
-								<File Id="1044244614"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="9315752"/>
@@ -445,12 +367,8 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="3301706208" Name="AudioEvent_K26_GRUNT_Hook" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_Hook" GUID="{1D47220A-80B4-43E6-8D48-FD11D486F35F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.261833" DurationMax="3.906667">
+				<Event Id="3301706208" Name="AudioEvent_K26_GRUNT_Hook" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_Hook" GUID="{1D47220A-80B4-43E6-8D48-FD11D486F35F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="3.006667" DurationMax="3.906667">
 					<ExcludedMemoryFiles>
-						<File Id="10872113" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_07.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_07_7FA8D501.wem</Path>
-						</File>
 						<File Id="85720161" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_hook_07.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_hook_07_7FA8D501.wem</Path>
@@ -466,26 +384,6 @@
 						<File Id="243976916" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_hook_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_hook_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="476132882" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="633357307" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="634144575" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="716012442" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="736140605" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="769253728" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_hook_11.wav</ShortName>
@@ -503,14 +401,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_hook_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_hook_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="826857962" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_08.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="907025024" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="1021093377" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_hook_08.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_hook_08_7FA8D501.wem</Path>
@@ -522,18 +412,6 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="10872113"/>
-								<File Id="476132882"/>
-								<File Id="633357307"/>
-								<File Id="634144575"/>
-								<File Id="716012442"/>
-								<File Id="736140605"/>
-								<File Id="826857962"/>
-								<File Id="907025024"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="85720161"/>
@@ -553,7 +431,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="190405649" Name="AudioEvent_K26_GRUNT_Jump" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_Jump" GUID="{447A60A7-ED25-4238-A392-A8CE67905A45}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.092833" DurationMax="2.051301">
+				<Event Id="190405649" Name="AudioEvent_K26_GRUNT_Jump" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_Jump" GUID="{447A60A7-ED25-4238-A392-A8CE67905A45}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.703120" DurationMax="2.051301">
 					<ExcludedMemoryFiles>
 						<File Id="65986725" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_jump_05.wav</ShortName>
@@ -567,42 +445,13 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_jump_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_jump_04_F821C1E3.wem</Path>
 						</File>
-						<File Id="379245515" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="396646450" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="535664407" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_04_7FA8D501.wem</Path>
-						</File>
 						<File Id="628332496" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_jump_03.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_jump_03_ABFECE42.wem</Path>
 						</File>
-						<File Id="792557747" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="855282736" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_01_7FA8D501.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="379245515"/>
-								<File Id="396646450"/>
-								<File Id="535664407"/>
-								<File Id="792557747"/>
-								<File Id="855282736"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="65986725"/>
@@ -616,28 +465,8 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1252502093" Name="AudioEvent_K26_GRUNT_Locker" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_Locker" GUID="{FA3E25D4-0CAF-4A20-B5C8-B27D3EC11145}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.156563" DurationMax="3.565333">
+				<Event Id="1252502093" Name="AudioEvent_K26_GRUNT_Locker" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_Locker" GUID="{FA3E25D4-0CAF-4A20-B5C8-B27D3EC11145}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.652000" DurationMax="3.565333">
 					<ExcludedMemoryFiles>
-						<File Id="97882958" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_07.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="155361723" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_08.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="179846145" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="234962028" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="298781036" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="338737835" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_locker_03.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_locker_03_7FA8D501.wem</Path>
@@ -666,46 +495,17 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_locker_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_locker_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="609830761" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_09.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="849001078" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_locker_08.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_locker_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="887856063" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="985924572" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_locker_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_locker_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="1040846223" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="1067365677" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_06_7FA8D501.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="97882958"/>
-								<File Id="155361723"/>
-								<File Id="179846145"/>
-								<File Id="234962028"/>
-								<File Id="298781036"/>
-								<File Id="609830761"/>
-								<File Id="887856063"/>
-								<File Id="1040846223"/>
-								<File Id="1067365677"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="338737835"/>
@@ -796,12 +596,8 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2940111414" Name="AudioEvent_K26_GRUNT_PWR_SummonCrow_Attack" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_PWR_SummonCrow_Attack" GUID="{0472800B-2735-448B-BCD6-A9909E27122F}" MaxAttenuation="3500.000000" DurationType="OneShot" DurationMin="1.505750" DurationMax="2.599852">
+				<Event Id="2940111414" Name="AudioEvent_K26_GRUNT_PWR_SummonCrow_Attack" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_PWR_SummonCrow_Attack" GUID="{0472800B-2735-448B-BCD6-A9909E27122F}" MaxAttenuation="3500.000000" DurationType="OneShot" DurationMin="1.963403" DurationMax="2.599852">
 					<ExcludedMemoryFiles>
-						<File Id="100601055" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="193753373" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_02_E4F0AC57.wem</Path>
@@ -814,18 +610,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_04_4522A0DF.wem</Path>
 						</File>
-						<File Id="547087113" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="667215579" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="926391434" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="936273371" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_01_DDB111EE.wem</Path>
@@ -836,7 +620,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2401706498" Name="AudioEvent_K26_GRUNT_PWR_SummonCrow_ChargeStart" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_PWR_SummonCrow_ChargeStart" GUID="{4BF1CE26-EF58-4C66-A3A3-7F2F649F1CE3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.873125" DurationMax="2.908000">
+				<Event Id="2401706498" Name="AudioEvent_K26_GRUNT_PWR_SummonCrow_ChargeStart" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_PWR_SummonCrow_ChargeStart" GUID="{4BF1CE26-EF58-4C66-A3A3-7F2F649F1CE3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.522667" DurationMax="2.908000">
 					<ExcludedMemoryFiles>
 						<File Id="135277713" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_03.wav</ShortName>
@@ -846,32 +630,13 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_01_BB21714D.wem</Path>
 						</File>
-						<File Id="219870685" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_02_BB21714D.wem</Path>
-						</File>
 						<File Id="265231685" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_02_BB21714D.wem</Path>
 						</File>
-						<File Id="590898194" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_03_BB21714D.wem</Path>
-						</File>
-						<File Id="745212948" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_01_BB21714D.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="219870685"/>
-								<File Id="590898194"/>
-								<File Id="745212948"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="135277713"/>
@@ -885,7 +650,7 @@
 						<AuxBus Id="400794114" Name="Reverb_2D" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\WORLD\REVERB\Reverb_2D" GUID="{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4235658632" Name="AudioEvent_K26_GRUNT_PWR_SummonCrow_ChargeUnavailable" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_PWR_SummonCrow_ChargeUnavailable" GUID="{944B2068-5720-4B0A-9FF5-BA8C59DF544F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.837396" DurationMax="3.009021">
+				<Event Id="4235658632" Name="AudioEvent_K26_GRUNT_PWR_SummonCrow_ChargeUnavailable" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_PWR_SummonCrow_ChargeUnavailable" GUID="{944B2068-5720-4B0A-9FF5-BA8C59DF544F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.346667" DurationMax="3.009021">
 					<ExcludedMemoryFiles>
 						<File Id="176581732" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_03.wav</ShortName>
@@ -895,22 +660,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="249661275" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="259901688" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="274155002" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="535781110" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="579166460" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_05.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_05_7FA8D501.wem</Path>
@@ -919,10 +668,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="1003250630" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="1058870550" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_04_7FA8D501.wem</Path>
@@ -930,15 +675,6 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="249661275"/>
-								<File Id="259901688"/>
-								<File Id="274155002"/>
-								<File Id="535781110"/>
-								<File Id="1003250630"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="176581732"/>
@@ -953,19 +689,11 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4093559466" Name="AudioEvent_K26_GRUNT_Stunned" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_Stunned" GUID="{8B393CB9-AC6F-4B4B-96BF-B0A7D9A4EDB3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.182725" DurationMax="2.027190">
+				<Event Id="4093559466" Name="AudioEvent_K26_GRUNT_Stunned" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_GRUNT_Stunned" GUID="{8B393CB9-AC6F-4B4B-96BF-B0A7D9A4EDB3}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.635935" DurationMax="2.027190">
 					<ExcludedMemoryFiles>
 						<File Id="271168419" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="292607451" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="325507404" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="341514383" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_05.wav</ShortName>
@@ -979,34 +707,13 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="641425741" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="688375494" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="903841276" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_02_7FA8D501.wem</Path>
 						</File>
-						<File Id="911797762" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_04_7FA8D501.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="292607451"/>
-								<File Id="325507404"/>
-								<File Id="641425741"/>
-								<File Id="688375494"/>
-								<File Id="911797762"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="271168419"/>
@@ -1039,33 +746,13 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_17.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_17_7FA8D501.wem</Path>
 						</File>
-						<File Id="127954864" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_08.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="128214101" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_15.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_15_7FA8D501.wem</Path>
-						</File>
 						<File Id="188160844" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_05.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="210464216" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="212037178" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_14.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_14_7FA8D501.wem</Path>
-						</File>
 						<File Id="253700265" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="353207378" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="370473725" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_04.wav</ShortName>
@@ -1075,26 +762,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_19.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_19_7FA8D501.wem</Path>
 						</File>
-						<File Id="411632281" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_16.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_16_7FA8D501.wem</Path>
-						</File>
-						<File Id="417089035" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="439870147" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_13.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_13_7FA8D501.wem</Path>
-						</File>
-						<File Id="449880092" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_07.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="465045310" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_17.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_17_7FA8D501.wem</Path>
-						</File>
 						<File Id="482842283" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_16.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_16_7FA8D501.wem</Path>
@@ -1103,18 +770,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_10.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_10_7FA8D501.wem</Path>
 						</File>
-						<File Id="498292639" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_19.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_19_7FA8D501.wem</Path>
-						</File>
-						<File Id="530852629" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="547895328" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_09.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_09_7FA8D501.wem</Path>
-						</File>
 						<File Id="551818869" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_15.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_15_7FA8D501.wem</Path>
@@ -1122,10 +777,6 @@
 						<File Id="563109528" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_12.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_12_7FA8D501.wem</Path>
-						</File>
-						<File Id="576110389" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_12.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_12_7FA8D501.wem</Path>
 						</File>
 						<File Id="663256262" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_13.wav</ShortName>
@@ -1139,29 +790,13 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_07.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="742651161" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="744312316" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_10.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="783516157" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_18.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_18_7FA8D501.wem</Path>
 						</File>
-						<File Id="803055046" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_11.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_11_7FA8D501.wem</Path>
-						</File>
 						<File Id="814733764" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_11.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_11_7FA8D501.wem</Path>
-						</File>
-						<File Id="829779100" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="833744364" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_03.wav</ShortName>
@@ -1171,36 +806,9 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_06.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="995681203" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_18.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_18_7FA8D501.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="127954864"/>
-								<File Id="128214101"/>
-								<File Id="210464216"/>
-								<File Id="212037178"/>
-								<File Id="353207378"/>
-								<File Id="411632281"/>
-								<File Id="417089035"/>
-								<File Id="439870147"/>
-								<File Id="449880092"/>
-								<File Id="465045310"/>
-								<File Id="498292639"/>
-								<File Id="530852629"/>
-								<File Id="547895328"/>
-								<File Id="576110389"/>
-								<File Id="742651161"/>
-								<File Id="744312316"/>
-								<File Id="803055046"/>
-								<File Id="829779100"/>
-								<File Id="995681203"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="44142460"/>
@@ -1231,10 +839,6 @@
 				</Event>
 				<Event Id="2788362" Name="AudioEvent_K26_Ion_Status_Start" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_Ion_Status_Start" GUID="{B1FF90F9-935F-444E-A644-BB444D33E18D}" MaxAttenuation="1900.000000" DurationType="Infinite">
 					<ExcludedMemoryFiles>
-						<File Id="14346972" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="39595017" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_15.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_15_7FA8D501.wem</Path>
@@ -1242,10 +846,6 @@
 						<File Id="46804216" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="48101567" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_01_7FA8D501.wem</Path>
 						</File>
 						<File Id="53679493" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_02.wav</ShortName>
@@ -1263,10 +863,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_11.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_11_7FA8D501.wem</Path>
 						</File>
-						<File Id="104385475" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_10.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="127132910" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_06.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_06_7FA8D501.wem</Path>
@@ -1279,17 +875,9 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_17.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_17_7FA8D501.wem</Path>
 						</File>
-						<File Id="152555666" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_04_7FA8D501.wem</Path>
-						</File>
 						<File Id="164308032" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_13.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_13_7FA8D501.wem</Path>
-						</File>
-						<File Id="164970908" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="177121727" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_07.wav</ShortName>
@@ -1299,49 +887,17 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_05.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_short_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="186273255" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="188002581" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_08.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_08_7FA8D501.wem</Path>
-						</File>
 						<File Id="189948301" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="189952674" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_05_7FA8D501.wem</Path>
 						</File>
 						<File Id="232862883" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_short_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="266059990" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_09.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="292814794" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="318789488" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="326796215" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_16.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_16_7FA8D501.wem</Path>
-						</File>
-						<File Id="349943608" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="362929465" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_08.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_08_7FA8D501.wem</Path>
 						</File>
 						<File Id="371019358" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_04.wav</ShortName>
@@ -1351,37 +907,13 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_07.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="376179698" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="385801335" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="391065743" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="409203128" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_06.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_short_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="442775807" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_09.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="465795772" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="490141734" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_08.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_verylong_08_7FA8D501.wem</Path>
-						</File>
-						<File Id="505282628" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="532631236" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_10.wav</ShortName>
@@ -1399,10 +931,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_08.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_08_7FA8D501.wem</Path>
 						</File>
-						<File Id="622568889" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="634246456" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_short_01_7FA8D501.wem</Path>
@@ -1415,29 +943,13 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_05.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="641257165" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="679040663" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="679568145" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_10.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="681796161" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="716298844" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="731426957" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="732956326" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_10.wav</ShortName>
@@ -1447,21 +959,9 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_05.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_verylong_05_7FA8D501.wem</Path>
 						</File>
-						<File Id="743243793" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_07.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="749838857" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="751027087" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_verylong_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="791459368" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="819929847" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_11.wav</ShortName>
@@ -1487,14 +987,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_03.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="909937628" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="929557814" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="934137867" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_06.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_06_7FA8D501.wem</Path>
@@ -1503,21 +995,9 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="969919188" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="975416597" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_06.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_verylong_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="999455821" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_07.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="1004646988" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_03_7FA8D501.wem</Path>
 						</File>
 						<File Id="1017484627" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_14.wav</ShortName>
@@ -1534,42 +1014,6 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="14346972"/>
-								<File Id="48101567"/>
-								<File Id="104385475"/>
-								<File Id="152555666"/>
-								<File Id="164970908"/>
-								<File Id="186273255"/>
-								<File Id="188002581"/>
-								<File Id="189952674"/>
-								<File Id="266059990"/>
-								<File Id="292814794"/>
-								<File Id="318789488"/>
-								<File Id="349943608"/>
-								<File Id="362929465"/>
-								<File Id="376179698"/>
-								<File Id="385801335"/>
-								<File Id="391065743"/>
-								<File Id="442775807"/>
-								<File Id="465795772"/>
-								<File Id="505282628"/>
-								<File Id="622568889"/>
-								<File Id="641257165"/>
-								<File Id="679568145"/>
-								<File Id="716298844"/>
-								<File Id="731426957"/>
-								<File Id="743243793"/>
-								<File Id="749838857"/>
-								<File Id="791459368"/>
-								<File Id="909937628"/>
-								<File Id="929557814"/>
-								<File Id="969919188"/>
-								<File Id="999455821"/>
-								<File Id="1004646988"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="39595017"/>
@@ -1729,10 +1173,6 @@
 				</Event>
 				<Event Id="2611989482" Name="AudioEvent_K26_PWR_SummonCrow_Attack_Stinger" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_POWER\AudioEvent_K26_PWR_SummonCrow_Attack_Stinger" GUID="{047D5E63-005F-4E03-A0DA-2C81364611A0}" DurationType="OneShot" DurationMin="4.554351" DurationMax="4.554351">
 					<ExcludedMemoryFiles>
-						<File Id="100601055" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="193753373" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_02.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_02_E4F0AC57.wem</Path>
@@ -1745,18 +1185,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_04_4522A0DF.wem</Path>
 						</File>
-						<File Id="547087113" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="667215579" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_02_7FA8D501.wem</Path>
-						</File>
-						<File Id="926391434" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="936273371" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_01_DDB111EE.wem</Path>
@@ -1768,14 +1196,6 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="100601055"/>
-								<File Id="547087113"/>
-								<File Id="667215579"/>
-								<File Id="926391434"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="193753373"/>
@@ -2149,7 +1569,7 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="2860265856" Name="AudioEvent_K26_PWR_SummonCrow_ScanState_Stop" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_POWER\AudioEvent_K26_PWR_SummonCrow_ScanState_Stop" GUID="{028A296C-EAD7-4CFD-864E-B88E6BDD4A15}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="326631419" Name="AudioEvent_K26_VO_STATUS_Long" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_VO_STATUS_Long" GUID="{DEB5B22B-4262-4AE1-B1E8-372BAED820CF}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.432542" DurationMax="2.320000">
+				<Event Id="326631419" Name="AudioEvent_K26_VO_STATUS_Long" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_VO_STATUS_Long" GUID="{DEB5B22B-4262-4AE1-B1E8-372BAED820CF}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.724667" DurationMax="2.320000">
 					<ExcludedMemoryFiles>
 						<File Id="85012980" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_11.wav</ShortName>
@@ -2159,49 +1579,17 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_06.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="152555666" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="164970908" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="186273255" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="188002581" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_08.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_08_7FA8D501.wem</Path>
-						</File>
 						<File Id="189948301" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="266059990" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_09.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_09_7FA8D501.wem</Path>
-						</File>
-						<File Id="391065743" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="548814639" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_07.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="622568889" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="638850478" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_05.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="679568145" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_10.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_10_7FA8D501.wem</Path>
 						</File>
 						<File Id="681796161" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_01.wav</ShortName>
@@ -2211,10 +1599,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_10.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_10_7FA8D501.wem</Path>
 						</File>
-						<File Id="743243793" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_07.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_07_7FA8D501.wem</Path>
-						</File>
 						<File Id="889391481" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_08.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_08_7FA8D501.wem</Path>
@@ -2223,27 +1607,9 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_03.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="929557814" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_01_7FA8D501.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="152555666"/>
-								<File Id="164970908"/>
-								<File Id="186273255"/>
-								<File Id="188002581"/>
-								<File Id="266059990"/>
-								<File Id="391065743"/>
-								<File Id="622568889"/>
-								<File Id="679568145"/>
-								<File Id="743243793"/>
-								<File Id="929557814"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="85012980"/>
@@ -2262,7 +1628,7 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="902209368" Name="AudioEvent_K26_VO_STATUS_Medium" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_VO_STATUS_Medium" GUID="{87D292B5-1AD4-4600-9C04-E08BB81992C8}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.122771" DurationMax="1.827833">
+				<Event Id="902209368" Name="AudioEvent_K26_VO_STATUS_Medium" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_VO_STATUS_Medium" GUID="{87D292B5-1AD4-4600-9C04-E08BB81992C8}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.248667" DurationMax="1.827833">
 					<ExcludedMemoryFiles>
 						<File Id="39595017" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_15.wav</ShortName>
@@ -2276,10 +1642,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_03.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_03_7FA8D501.wem</Path>
 						</File>
-						<File Id="104385475" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_10.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_10_7FA8D501.wem</Path>
-						</File>
 						<File Id="140280717" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_05.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_05_7FA8D501.wem</Path>
@@ -2288,33 +1650,13 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_13.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_13_7FA8D501.wem</Path>
 						</File>
-						<File Id="292814794" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_02_7FA8D501.wem</Path>
-						</File>
 						<File Id="326796215" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_16.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_16_7FA8D501.wem</Path>
 						</File>
-						<File Id="362929465" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_08.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_08_7FA8D501.wem</Path>
-						</File>
 						<File Id="374491101" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_07.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_07_7FA8D501.wem</Path>
-						</File>
-						<File Id="376179698" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="385801335" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="442775807" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_09.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_09_7FA8D501.wem</Path>
 						</File>
 						<File Id="532631236" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_10.wav</ShortName>
@@ -2328,14 +1670,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="749838857" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="791459368" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="819929847" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_11.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_11_7FA8D501.wem</Path>
@@ -2344,10 +1678,6 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_09.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_09_7FA8D501.wem</Path>
 						</File>
-						<File Id="909937628" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="934137867" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_06.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_06_7FA8D501.wem</Path>
@@ -2355,10 +1685,6 @@
 						<File Id="950568822" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="999455821" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_07.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_07_7FA8D501.wem</Path>
 						</File>
 						<File Id="1017484627" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_14.wav</ShortName>
@@ -2371,20 +1697,6 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="104385475"/>
-								<File Id="292814794"/>
-								<File Id="362929465"/>
-								<File Id="376179698"/>
-								<File Id="385801335"/>
-								<File Id="442775807"/>
-								<File Id="749838857"/>
-								<File Id="791459368"/>
-								<File Id="909937628"/>
-								<File Id="999455821"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="39595017"/>
@@ -2410,12 +1722,8 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4009253365" Name="AudioEvent_K26_VO_STATUS_Short" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_VO_STATUS_Short" GUID="{B421B843-36CA-4F9E-AEF8-94EC8818415F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="0.898583" DurationMax="1.457375">
+				<Event Id="4009253365" Name="AudioEvent_K26_VO_STATUS_Short" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_VO_STATUS_Short" GUID="{B421B843-36CA-4F9E-AEF8-94EC8818415F}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.038667" DurationMax="1.457375">
 					<ExcludedMemoryFiles>
-						<File Id="14346972" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_05_7FA8D501.wem</Path>
-						</File>
 						<File Id="178690683" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_05.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_short_05_7FA8D501.wem</Path>
@@ -2424,17 +1732,9 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_short_04_7FA8D501.wem</Path>
 						</File>
-						<File Id="318789488" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_03_7FA8D501.wem</Path>
-						</File>
 						<File Id="409203128" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_06.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_short_06_7FA8D501.wem</Path>
-						</File>
-						<File Id="505282628" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_06_7FA8D501.wem</Path>
 						</File>
 						<File Id="558141996" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_02.wav</ShortName>
@@ -2444,21 +1744,9 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_short_01_7FA8D501.wem</Path>
 						</File>
-						<File Id="641257165" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_01_7FA8D501.wem</Path>
-						</File>
-						<File Id="731426957" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_04_7FA8D501.wem</Path>
-						</File>
 						<File Id="842421464" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_03.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_short_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="969919188" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="1060423083" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_07.wav</ShortName>
@@ -2467,16 +1755,6 @@
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="14346972"/>
-								<File Id="318789488"/>
-								<File Id="505282628"/>
-								<File Id="641257165"/>
-								<File Id="731426957"/>
-								<File Id="969919188"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="178690683"/>
@@ -2493,12 +1771,8 @@
 						<AuxBus Id="286574509" Name="MENU_KLR_00_COMMON" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\MASTER\SFX\MENU\MENU_OBJECT\MENU_KILLER\MENU_KLR_00_COMMON" GUID="{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2031924551" Name="AudioEvent_K26_VO_STATUS_VeryLong" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_VO_STATUS_VeryLong" GUID="{580FFC29-022B-45F6-AB5E-A0F0E4CE1C03}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="1.586833" DurationMax="2.801333">
+				<Event Id="2031924551" Name="AudioEvent_K26_VO_STATUS_VeryLong" ObjectPath="\Events\CHARACTER\KILLER\K26_Ion\K26_VO\AudioEvent_K26_VO_STATUS_VeryLong" GUID="{580FFC29-022B-45F6-AB5E-A0F0E4CE1C03}" MaxAttenuation="1900.000000" DurationType="OneShot" DurationMin="2.188667" DurationMax="2.801333">
 					<ExcludedMemoryFiles>
-						<File Id="48101567" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_01.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_01_7FA8D501.wem</Path>
-						</File>
 						<File Id="77826055" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_01.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_verylong_01_7FA8D501.wem</Path>
@@ -2507,21 +1781,9 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_07.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_verylong_07_7FA8D501.wem</Path>
 						</File>
-						<File Id="189952674" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_05.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_05_7FA8D501.wem</Path>
-						</File>
-						<File Id="349943608" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_06.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_06_7FA8D501.wem</Path>
-						</File>
 						<File Id="371019358" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_04.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_verylong_04_7FA8D501.wem</Path>
-						</File>
-						<File Id="465795772" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_02.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_02_7FA8D501.wem</Path>
 						</File>
 						<File Id="490141734" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_08.wav</ShortName>
@@ -2530,10 +1792,6 @@
 						<File Id="635895208" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_03.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_verylong_03_7FA8D501.wem</Path>
-						</File>
-						<File Id="716298844" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_04.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_04_7FA8D501.wem</Path>
 						</File>
 						<File Id="736597049" Language="SFX">
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_05.wav</ShortName>
@@ -2547,23 +1805,9 @@
 							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_06.wav</ShortName>
 							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_verylong_06_7FA8D501.wem</Path>
 						</File>
-						<File Id="1004646988" Language="SFX">
-							<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_03.wav</ShortName>
-							<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_03_7FA8D501.wem</Path>
-						</File>
 					</ExcludedMemoryFiles>
 					<DefaultSwitchValue>{501B18EA-9817-4F09-925D-58C41CFEEF72}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{281BCE0B-43D0-435C-8303-D5BF70353B3E}">
-							<Media>
-								<File Id="48101567"/>
-								<File Id="189952674"/>
-								<File Id="349943608"/>
-								<File Id="465795772"/>
-								<File Id="716298844"/>
-								<File Id="1004646988"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{501B18EA-9817-4F09-925D-58C41CFEEF72}">
 							<Media>
 								<File Id="77826055"/>
@@ -2874,10 +2118,6 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_07.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_07_7FA8D501.wem</Path>
 				</File>
-				<File Id="10872113" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_07.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_07_7FA8D501.wem</Path>
-				</File>
 				<File Id="13520096" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_10.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_10_7FA8D501.wem</Path>
@@ -2885,10 +2125,6 @@
 				<File Id="13724616" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_end_03.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_end_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="14346972" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="16159224" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Mori\sfx_k26_mori_scancrows.wav</ShortName>
@@ -2921,10 +2157,6 @@
 				<File Id="46804216" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="48101567" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="48483344" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_low_12.wav</ShortName>
@@ -3002,25 +2234,9 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_06.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_06_7FA8D501.wem</Path>
 				</File>
-				<File Id="97882958" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_07.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_07_7FA8D501.wem</Path>
-				</File>
 				<File Id="98532296" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_attack_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_attack_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="100601055" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="104385475" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_10.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="107161889" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="108793504" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_06.wav</ShortName>
@@ -3033,14 +2249,6 @@
 				<File Id="127132910" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_06.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="127954864" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_08.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="128214101" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_15.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_15_7FA8D501.wem</Path>
 				</File>
 				<File Id="128485250" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_low_10.wav</ShortName>
@@ -3074,14 +2282,6 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_17.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_17_7FA8D501.wem</Path>
 				</File>
-				<File Id="152555666" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="155361723" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_08.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_08_7FA8D501.wem</Path>
-				</File>
 				<File Id="158074155" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_impact_06.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_impact_06_7FA8D501.wem</Path>
@@ -3089,10 +2289,6 @@
 				<File Id="164308032" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_13.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="164970908" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_06.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="167164236" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_11.wav</ShortName>
@@ -3130,21 +2326,9 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_05.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_short_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="179846145" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_01_7FA8D501.wem</Path>
-				</File>
 				<File Id="181784555" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_crowappear_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_crowappear_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="186273255" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="188002581" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_08.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="188160844" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_05.wav</ShortName>
@@ -3153,10 +2337,6 @@
 				<File Id="189948301" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="189952674" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="192407643" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Mori\sfx_k26_mori_buildup.wav</ShortName>
@@ -3178,10 +2358,6 @@
 					<ShortName>Music\TerrorRadius\mu_terrorradius_k26_layer_04.wav</ShortName>
 					<Path>SFX\Music\TerrorRadius\mu_terrorradius_k26_layer_04_256CDB0F.wem</Path>
 				</File>
-				<File Id="198632126" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_01_7FA8D501.wem</Path>
-				</File>
 				<File Id="199137291" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_17.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_move_17_7FA8D501.wem</Path>
@@ -3194,14 +2370,6 @@
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_14.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_move_14_7FA8D501.wem</Path>
 				</File>
-				<File Id="210464216" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="212037178" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_14.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_14_7FA8D501.wem</Path>
-				</File>
 				<File Id="212299387" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_crow_passby_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_crow_passby_01_AF877CFB.wem</Path>
@@ -3213,10 +2381,6 @@
 				<File Id="214963535" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_jump_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_jump_01_6E8B27D6.wem</Path>
-				</File>
-				<File Id="219870685" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_02_BB21714D.wem</Path>
 				</File>
 				<File Id="222121479" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_hook_09.wav</ShortName>
@@ -3246,10 +2410,6 @@
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scantransition_03.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scantransition_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="234962028" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_05_7FA8D501.wem</Path>
-				</File>
 				<File Id="237404806" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_cooldown_miss_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_cooldown_miss_01_7FA8D501.wem</Path>
@@ -3266,10 +2426,6 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_unavailable_01_7FA8D501.wem</Path>
 				</File>
-				<File Id="249661275" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_05_7FA8D501.wem</Path>
-				</File>
 				<File Id="253700265" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_02_7FA8D501.wem</Path>
@@ -3282,17 +2438,9 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="259901688" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_04_7FA8D501.wem</Path>
-				</File>
 				<File Id="265231685" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_charge_02_BB21714D.wem</Path>
-				</File>
-				<File Id="266059990" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_09.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="266775370" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_end_01.wav</ShortName>
@@ -3305,10 +2453,6 @@
 				<File Id="271168419" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="274155002" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="281839065" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_impact_05.wav</ShortName>
@@ -3330,18 +2474,6 @@
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_19.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_move_19_7FA8D501.wem</Path>
 				</File>
-				<File Id="292607451" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="292814794" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="298781036" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_03_7FA8D501.wem</Path>
-				</File>
 				<File Id="309616519" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_wing_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_wing_01_7FA8D501.wem</Path>
@@ -3358,17 +2490,9 @@
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_cooldown_hit_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_cooldown_hit_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="318789488" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_03_7FA8D501.wem</Path>
-				</File>
 				<File Id="323480325" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_12.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_move_12_7FA8D501.wem</Path>
-				</File>
-				<File Id="325507404" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="326796215" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_16.wav</ShortName>
@@ -3377,10 +2501,6 @@
 				<File Id="334300469" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_attack_crow_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_attack_crow_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="338191654" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="338737835" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_locker_03.wav</ShortName>
@@ -3394,17 +2514,9 @@
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="349943608" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_06.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_06_7FA8D501.wem</Path>
-				</File>
 				<File Id="350664029" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_low_06.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_low_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="353207378" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="353650576" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_03.wav</ShortName>
@@ -3413,10 +2525,6 @@
 				<File Id="362453303" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="362929465" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_08.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_08_7FA8D501.wem</Path>
 				</File>
 				<File Id="363602371" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_end_02.wav</ShortName>
@@ -3454,10 +2562,6 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_03.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_03_653A8B42.wem</Path>
 				</File>
-				<File Id="376179698" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_05_7FA8D501.wem</Path>
-				</File>
 				<File Id="376557937" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_06.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_move_06_7FA8D501.wem</Path>
@@ -3466,29 +2570,13 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="379245515" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_03_7FA8D501.wem</Path>
-				</File>
 				<File Id="380453249" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_locker_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_locker_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="385801335" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_04_7FA8D501.wem</Path>
-				</File>
 				<File Id="390024317" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_09.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="391065743" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="396646450" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="397676717" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_19.wav</ShortName>
@@ -3510,25 +2598,13 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pwr_attack_04_4522A0DF.wem</Path>
 				</File>
-				<File Id="411632281" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_16.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_16_7FA8D501.wem</Path>
-				</File>
 				<File Id="413318080" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_impact_liquid_05.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_impact_liquid_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="414648677" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_06.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_06_7FA8D501.wem</Path>
-				</File>
 				<File Id="415004063" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_magic_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_magic_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="417089035" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="429725840" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_land_02.wav</ShortName>
@@ -3546,14 +2622,6 @@
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_low_05.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_low_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="439870147" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_13.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_13_7FA8D501.wem</Path>
-				</File>
-				<File Id="442775807" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_09.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_09_7FA8D501.wem</Path>
-				</File>
 				<File Id="443222363" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_18.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_move_18_7FA8D501.wem</Path>
@@ -3561,10 +2629,6 @@
 				<File Id="448509271" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_wing_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_wing_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="449880092" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_07.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="456923931" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_05.wav</ShortName>
@@ -3574,14 +2638,6 @@
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_magic_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_magic_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="465045310" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_17.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_17_7FA8D501.wem</Path>
-				</File>
-				<File Id="465795772" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_02_7FA8D501.wem</Path>
-				</File>
 				<File Id="466836137" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_wing_03.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_wing_03_7FA8D501.wem</Path>
@@ -3589,10 +2645,6 @@
 				<File Id="470108670" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_10.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="470114033" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="472630255" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_charge_03.wav</ShortName>
@@ -3605,10 +2657,6 @@
 				<File Id="474602677" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_cooldown_hit_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_cooldown_hit_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="476132882" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="476318236" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_08.wav</ShortName>
@@ -3630,21 +2678,9 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_locker_05.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_locker_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="498292639" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_19.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_19_7FA8D501.wem</Path>
-				</File>
 				<File Id="504608412" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_attack_06.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_attack_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="505282628" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_06.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="505413142" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_03_7FA8D501.wem</Path>
 				</File>
 				<File Id="508502990" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_12.wav</ShortName>
@@ -3670,17 +2706,9 @@
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_magic_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_magic_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="528496071" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_06.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_06_7FA8D501.wem</Path>
-				</File>
 				<File Id="529170246" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_wing_05.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_idle_wing_05_7FA8D501.wem</Path>
-				</File>
-				<File Id="530852629" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_06.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="532631236" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_10.wav</ShortName>
@@ -3689,22 +2717,6 @@
 				<File Id="534965278" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_impact_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_impact_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="535664407" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="535781110" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="547087113" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="547895328" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_09.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_09_7FA8D501.wem</Path>
 				</File>
 				<File Id="548307855" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_cooldown_miss_02.wav</ShortName>
@@ -3774,10 +2786,6 @@
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_charge_spawnready_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_charge_spawnready_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="576110389" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_12.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_12_7FA8D501.wem</Path>
-				</File>
 				<File Id="576941808" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_06.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_06_7FA8D501.wem</Path>
@@ -3794,10 +2802,6 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_03.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="590898194" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_03_BB21714D.wem</Path>
-				</File>
 				<File Id="591509716" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_10.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_move_10_7FA8D501.wem</Path>
@@ -3805,10 +2809,6 @@
 				<File Id="598766607" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_locker_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_locker_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="601704602" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="603125657" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_impact_liquid_03.wav</ShortName>
@@ -3818,10 +2818,6 @@
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_15.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_move_15_7FA8D501.wem</Path>
 				</File>
-				<File Id="609830761" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_09.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_09_7FA8D501.wem</Path>
-				</File>
 				<File Id="614860696" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_08.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_08_7FA8D501.wem</Path>
@@ -3830,10 +2826,6 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_03.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_cooldown_hit_03_7FA8D501.wem</Path>
 				</File>
-				<File Id="622568889" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_05_7FA8D501.wem</Path>
-				</File>
 				<File Id="622972486" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_aim_07.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_aim_07_7FA8D501.wem</Path>
@@ -3841,18 +2833,6 @@
 				<File Id="628332496" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_jump_03.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_jump_03_ABFECE42.wem</Path>
-				</File>
-				<File Id="628504409" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="633357307" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="634144575" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="634246456" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_short_01.wav</ShortName>
@@ -3886,14 +2866,6 @@
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_11.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_11_7FA8D501.wem</Path>
 				</File>
-				<File Id="641257165" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="641425741" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_05_7FA8D501.wem</Path>
-				</File>
 				<File Id="643153288" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_05.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_05_7FA8D501.wem</Path>
@@ -3913,10 +2885,6 @@
 				<File Id="663925217" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_charge_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_charge_01_51F66CC6.wem</Path>
-				</File>
-				<File Id="667215579" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="673164747" Language="SFX">
 					<ShortName>Music\TerrorRadius\mu_terrorradius_k26_layer_02.wav</ShortName>
@@ -3938,14 +2906,6 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="679568145" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_10.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="680210932" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_02_7FA8D501.wem</Path>
-				</File>
 				<File Id="680837444" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Mori\sfx_k26_mori_pullout.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Mori\sfx_k26_mori_pullout_7FA8D501.wem</Path>
@@ -3957,10 +2917,6 @@
 				<File Id="684491307" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_09.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_wpn_attack_09_7FA8D501.wem</Path>
-				</File>
-				<File Id="688375494" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_02_7FA8D501.wem</Path>
 				</File>
 				<File Id="692539797" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_01.wav</ShortName>
@@ -3978,25 +2934,9 @@
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_12.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanstate_12_7FA8D501.wem</Path>
 				</File>
-				<File Id="716012442" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="716298844" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="717804291" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_05_7FA8D501.wem</Path>
-				</File>
 				<File Id="724444094" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_aim_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_aim_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="731426957" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_04_7FA8D501.wem</Path>
 				</File>
 				<File Id="731443972" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Mori\sfx_k26_mori_jumpimpact_b.wav</ShortName>
@@ -4006,37 +2946,13 @@
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_10.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_long_10_7FA8D501.wem</Path>
 				</File>
-				<File Id="736140605" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_03_7FA8D501.wem</Path>
-				</File>
 				<File Id="736597049" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_05.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_verylong_05_7FA8D501.wem</Path>
 				</File>
-				<File Id="742651161" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_04_7FA8D501.wem</Path>
-				</File>
 				<File Id="742868419" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_default_impact_survivor_blunt_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_default_impact_survivor_blunt_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="743243793" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_07.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="744312316" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_10.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_10_7FA8D501.wem</Path>
-				</File>
-				<File Id="745212948" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_01_BB21714D.wem</Path>
-				</File>
-				<File Id="749838857" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_06.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="751027087" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_verylong_02.wav</ShortName>
@@ -4090,14 +3006,6 @@
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_crowappear_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_crowappear_04_7FA8D501.wem</Path>
 				</File>
-				<File Id="791459368" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="792557747" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_05_7FA8D501.wem</Path>
-				</File>
 				<File Id="793489878" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanattractstate_05.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scanattractstate_05_7FA8D501.wem</Path>
@@ -4117,10 +3025,6 @@
 				<File Id="802402831" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_pickup_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="803055046" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_11.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_11_7FA8D501.wem</Path>
 				</File>
 				<File Id="805326988" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_03.wav</ShortName>
@@ -4153,14 +3057,6 @@
 				<File Id="822157823" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_hook_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_hook_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="826857962" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_08.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_08_7FA8D501.wem</Path>
-				</File>
-				<File Id="829779100" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="829939896" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_09.wav</ShortName>
@@ -4198,10 +3094,6 @@
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_crowappear_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_crowappear_02_7FA8D501.wem</Path>
 				</File>
-				<File Id="855282736" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_jump_01_7FA8D501.wem</Path>
-				</File>
 				<File Id="860274108" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_04.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_move_04_7FA8D501.wem</Path>
@@ -4213,14 +3105,6 @@
 				<File Id="864948907" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_low_03.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_low_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="887856063" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="888549464" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_05.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_05_7FA8D501.wem</Path>
 				</File>
 				<File Id="888698622" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_long_09.wav</ShortName>
@@ -4261,26 +3145,6 @@
 				<File Id="903841276" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_stunned_02_7FA8D501.wem</Path>
-				</File>
-				<File Id="907025024" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_06.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_hook_06_7FA8D501.wem</Path>
-				</File>
-				<File Id="909937628" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_01_7FA8D501.wem</Path>
-				</File>
-				<File Id="911797762" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_stunned_04_7FA8D501.wem</Path>
-				</File>
-				<File Id="926391434" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_attack_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="929557814" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_01.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_long_01_7FA8D501.wem</Path>
 				</File>
 				<File Id="930089428" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_charge_handdown_02.wav</ShortName>
@@ -4334,10 +3198,6 @@
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_07.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_high_07_7FA8D501.wem</Path>
 				</File>
-				<File Id="969919188" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_02.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_short_02_7FA8D501.wem</Path>
-				</File>
 				<File Id="973206819" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scantransition_01.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_summoncrow_scantransition_01_7FA8D501.wem</Path>
@@ -4382,33 +3242,13 @@
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_low_08.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Foley\sfx_k26_body_shuffle_low_08_7FA8D501.wem</Path>
 				</File>
-				<File Id="995681203" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_18.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_attack_18_7FA8D501.wem</Path>
-				</File>
-				<File Id="999455821" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_07.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_medium_07_7FA8D501.wem</Path>
-				</File>
 				<File Id="1000080918" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Mori\sfx_k26_mori_impact.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_Mori\sfx_k26_mori_impact_7FA8D501.wem</Path>
 				</File>
-				<File Id="1003250630" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pwr_charge_unavailable_03_7FA8D501.wem</Path>
-				</File>
-				<File Id="1004646988" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_03.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_custom_outfit011_verylong_03_7FA8D501.wem</Path>
-				</File>
 				<File Id="1017484627" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_status_medium_14.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_status_medium_14_7FA8D501.wem</Path>
-				</File>
-				<File Id="1020337082" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_07.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_cooldown_hit_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="1021093377" Language="SFX">
 					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_hook_08.wav</ShortName>
@@ -4418,17 +3258,9 @@
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_default_impact_survivor_blunt_09.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_default_impact_survivor_blunt_09_7FA8D501.wem</Path>
 				</File>
-				<File Id="1040846223" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_04.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_04_7FA8D501.wem</Path>
-				</File>
 				<File Id="1043371230" Language="SFX">
 					<ShortName>Character\KLR_26\K26_PWR\sfx_k26_pwr_crow_passby_02.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_PWR\sfx_k26_pwr_crow_passby_02_27CC8BDD.wem</Path>
-				</File>
-				<File Id="1044244614" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_07.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_pickup_07_7FA8D501.wem</Path>
 				</File>
 				<File Id="1045416993" Language="SFX">
 					<ShortName>Character\KLR_26\K26_Foley\sfx_k26_body_move_20.wav</ShortName>
@@ -4473,10 +3305,6 @@
 				<File Id="1060729305" Language="SFX">
 					<ShortName>Character\KLR_26\K26_WPN\sfx_k26_wpn_attack_07.wav</ShortName>
 					<Path>SFX\Character\KLR_26\K26_WPN\sfx_k26_wpn_attack_07_7FA8D501.wem</Path>
-				</File>
-				<File Id="1067365677" Language="SFX">
-					<ShortName>Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_06.wav</ShortName>
-					<Path>SFX\Character\KLR_26\K26_VO\sfx_k26_grunt_custom_outfit011_locker_06_7FA8D501.wem</Path>
 				</File>
 				<File Id="1068182815" Language="SFX">
 					<ShortName>Music\TerrorRadius\mu_terrorradius_k26_layer_03.wav</ShortName>
