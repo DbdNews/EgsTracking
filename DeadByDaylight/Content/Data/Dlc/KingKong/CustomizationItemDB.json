@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "CustomizationItemDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct CustomizationItemData",
+        "ObjectName": "ScriptStruct'CustomizationItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -37,7 +38,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -150,7 +151,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -263,7 +264,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -376,7 +377,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],

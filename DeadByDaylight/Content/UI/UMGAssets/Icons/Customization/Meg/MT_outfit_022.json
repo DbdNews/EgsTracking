@@ -2,12 +2,13 @@
   {
     "Type": "Texture2D",
     "Name": "MT_outfit_022",
+    "Class": "UScriptClass'Texture2D'",
     "Properties": {
       "ImportedSize": {
         "X": 512,
         "Y": 512
       },
-      "LightingGuid": "65343A93-47634C54-198900AA-6664E20E",
+      "LightingGuid": "20245F88-4C446B50-0882BF95-1EA663DC",
       "LODGroup": "TEXTUREGROUP_UI"
     },
     "SizeX": 512,
@@ -18,7 +19,7 @@
     "Mips": [
       {
         "BulkData": {
-          "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
           "ElementCount": 262144,
           "SizeOnDisk": 262144,
           "OffsetInFile": "0x40878"

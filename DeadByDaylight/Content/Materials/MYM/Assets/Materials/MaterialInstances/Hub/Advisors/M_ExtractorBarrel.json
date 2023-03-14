@@ -2,8 +2,10 @@
   {
     "Type": "Material",
     "Name": "M_ExtractorBarrel",
+    "Class": "UScriptClass'Material'",
     "Properties": {
       "Normal": {
+        "Expression": null,
         "OutputIndex": 0,
         "InputName": "None",
         "Mask": 1,
@@ -20,6 +22,7 @@
         }
       },
       "EmissiveColor": {
+        "Expression": null,
         "OutputIndex": 5,
         "InputName": "None",
         "Mask": 1,
@@ -43,6 +46,7 @@
         "ShadingModelField": 1
       },
       "WorldPositionOffset": {
+        "Expression": null,
         "OutputIndex": 10,
         "InputName": "None",
         "Mask": 1,
@@ -737,62 +741,62 @@
           ],
           "TextureValues": [
             {
-              "ObjectName": "Texture2D T_CausticNoise",
+              "ObjectName": "Texture2D'T_CausticNoise'",
               "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Textures/Tilables/T_CausticNoise.0"
             },
             {
-              "ObjectName": "Texture2D T_Genetic_Material_BC",
+              "ObjectName": "Texture2D'T_Genetic_Material_BC'",
               "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Textures/Hub/Props/T_Genetic_Material_BC.0"
             },
             {
-              "ObjectName": "Texture2D T_FX_DissolveRamp",
+              "ObjectName": "Texture2D'T_FX_DissolveRamp'",
               "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_FX_DissolveRamp.0"
             },
             {
-              "ObjectName": "Texture2D T_Genetic_Material_BC",
+              "ObjectName": "Texture2D'T_Genetic_Material_BC'",
               "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Textures/Hub/Props/T_Genetic_Material_BC.0"
             },
             {
-              "ObjectName": "Texture2D T_Flame",
+              "ObjectName": "Texture2D'T_Flame'",
               "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Textures/Tilables/T_Flame.0"
             },
             {
-              "ObjectName": "Texture2D T_Rust_N",
+              "ObjectName": "Texture2D'T_Rust_N'",
               "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Textures/_Common/Generic/T_Rust_N.0"
             },
             {
-              "ObjectName": "Texture2D T_Genetic_Material_BC",
+              "ObjectName": "Texture2D'T_Genetic_Material_BC'",
               "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Textures/Hub/Props/T_Genetic_Material_BC.0"
             },
             {
-              "ObjectName": "Texture2D T_DissolveTextures",
+              "ObjectName": "Texture2D'T_DissolveTextures'",
               "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_DissolveTextures.0"
             }
           ]
         },
         "ReferencedTextures": [
           {
-            "ObjectName": "Texture2D T_Flame",
+            "ObjectName": "Texture2D'T_Flame'",
             "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Textures/Tilables/T_Flame.0"
           },
           {
-            "ObjectName": "Texture2D T_Rust_N",
+            "ObjectName": "Texture2D'T_Rust_N'",
             "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Textures/_Common/Generic/T_Rust_N.0"
           },
           {
-            "ObjectName": "Texture2D T_Genetic_Material_BC",
+            "ObjectName": "Texture2D'T_Genetic_Material_BC'",
             "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Textures/Hub/Props/T_Genetic_Material_BC.0"
           },
           {
-            "ObjectName": "Texture2D T_CausticNoise",
+            "ObjectName": "Texture2D'T_CausticNoise'",
             "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Textures/Tilables/T_CausticNoise.0"
           },
           {
-            "ObjectName": "Texture2D T_DissolveTextures",
+            "ObjectName": "Texture2D'T_DissolveTextures'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_DissolveTextures.0"
           },
           {
-            "ObjectName": "Texture2D T_FX_DissolveRamp",
+            "ObjectName": "Texture2D'T_FX_DissolveRamp'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_FX_DissolveRamp.0"
           }
         ],
@@ -800,105 +804,105 @@
           {
             "StateId": "D47A58D4-4C17F36B-1DA1AEA3-BFFA902B",
             "Function": {
-              "ObjectName": "MaterialFunction MF_WPO_Bobbing",
+              "ObjectName": "MaterialFunction'MF_WPO_Bobbing'",
               "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Materials/Function/MF_WPO_Bobbing.0"
             }
           },
           {
             "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
             "Function": {
-              "ObjectName": "MaterialFunction MakeFloat2",
+              "ObjectName": "MaterialFunction'MakeFloat2'",
               "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
             }
           },
           {
             "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
             "Function": {
-              "ObjectName": "MaterialFunction MakeFloat2",
+              "ObjectName": "MaterialFunction'MakeFloat2'",
               "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
             }
           },
           {
             "StateId": "82036262-4644DDFB-64C77488-3A8C7C56",
             "Function": {
-              "ObjectName": "MaterialFunction BeersLaw",
+              "ObjectName": "MaterialFunction'BeersLaw'",
               "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Volumetrics/BeersLaw.0"
             }
           },
           {
             "StateId": "E86C3A4B-42CF0427-1B1C1CBA-FE2CD0C5",
             "Function": {
-              "ObjectName": "MaterialFunction MF_FlowmapParameters1",
+              "ObjectName": "MaterialFunction'MF_FlowmapParameters1'",
               "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Materials/Function/MF_FlowmapParameters1.0"
             }
           },
           {
             "StateId": "5E28F255-4817E6E7-2D027C9A-2F7126C6",
             "Function": {
-              "ObjectName": "MaterialFunction VectorToRadialValue",
+              "ObjectName": "MaterialFunction'VectorToRadialValue'",
               "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorToRadialValue.0"
             }
           },
           {
             "StateId": "2FAC684F-4F8791C7-6DC7B786-063DBC37",
             "Function": {
-              "ObjectName": "MaterialFunction MF_MyM_Genmat",
+              "ObjectName": "MaterialFunction'MF_MyM_Genmat'",
               "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Materials/Function/MF_MyM_Genmat.0"
             }
           },
           {
             "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
             "Function": {
-              "ObjectName": "MaterialFunction MakeFloat2",
+              "ObjectName": "MaterialFunction'MakeFloat2'",
               "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
             }
           },
           {
             "StateId": "CEB825F7-49B3784E-3010779E-623B62DB",
             "Function": {
-              "ObjectName": "MaterialFunction ObjectLocalBounds",
+              "ObjectName": "MaterialFunction'ObjectLocalBounds'",
               "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.0"
             }
           },
           {
             "StateId": "32ECE4AE-444F43B6-3E3E05AC-71EDAEBE",
             "Function": {
-              "ObjectName": "MaterialFunction MF_DissolveGradient_Position",
+              "ObjectName": "MaterialFunction'MF_DissolveGradient_Position'",
               "ObjectPath": "DeadByDaylight/Content/Effects/Materials/Functions/Dissolve/MF_DissolveGradient_Position.0"
             }
           },
           {
             "StateId": "4E8F40DE-47DD9671-161711B5-D72075E2",
             "Function": {
-              "ObjectName": "MaterialFunction MF_DissolveOpacityMaskOffset02",
+              "ObjectName": "MaterialFunction'MF_DissolveOpacityMaskOffset02'",
               "ObjectPath": "DeadByDaylight/Content/Effects/Materials/Functions/Dissolve/MF_DissolveOpacityMaskOffset02.0"
             }
           },
           {
             "StateId": "F340F2DE-4E02187D-83B8D68D-F881289B",
             "Function": {
-              "ObjectName": "MaterialFunction MF_DissolveTexture01",
+              "ObjectName": "MaterialFunction'MF_DissolveTexture01'",
               "ObjectPath": "DeadByDaylight/Content/Effects/Materials/Functions/Dissolve/MF_DissolveTexture01.0"
             }
           },
           {
             "StateId": "614BE7F2-4363A694-E95E158A-7B118753",
             "Function": {
-              "ObjectName": "MaterialFunction MF_DissolveBorderGlow01",
+              "ObjectName": "MaterialFunction'MF_DissolveBorderGlow01'",
               "ObjectPath": "DeadByDaylight/Content/Effects/Materials/Functions/Dissolve/MF_DissolveBorderGlow01.0"
             }
           },
           {
             "StateId": "74342386-4DF1D011-096F0E89-67268565",
             "Function": {
-              "ObjectName": "MaterialFunction MF_Dissolve_07",
+              "ObjectName": "MaterialFunction'MF_Dissolve_07'",
               "ObjectPath": "DeadByDaylight/Content/Effects/Materials/Functions/Dissolve/MF_Dissolve_07.0"
             }
           },
           {
             "StateId": "3FBD5DB3-4E617D70-0FC052AA-480B8BA9",
             "Function": {
-              "ObjectName": "MaterialFunction MFN_Char_Dissolve_Barrel",
+              "ObjectName": "MaterialFunction'MFN_Char_Dissolve_Barrel'",
               "ObjectPath": "DeadByDaylight/Content/Effects/Materials/Functions/Dissolve/MFN_Char_Dissolve_Barrel.0"
             }
           }

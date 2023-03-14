@@ -2,17 +2,20 @@
   {
     "Type": "NiagaraDataInterfaceColorCurve",
     "Name": "NiagaraDataInterfaceColorCurve_0",
-    "Outer": "UpdateScript"
+    "Outer": "UpdateScript",
+    "Class": "UScriptClass'NiagaraDataInterfaceColorCurve'"
   },
   {
     "Type": "NiagaraDataInterfaceColorCurve",
     "Name": "NiagaraDataInterfaceColorCurve_2",
-    "Outer": "UpdateScript"
+    "Outer": "UpdateScript",
+    "Class": "UScriptClass'NiagaraDataInterfaceColorCurve'"
   },
   {
     "Type": "NiagaraDataInterfaceColorCurve",
     "Name": "NiagaraDataInterfaceColorCurve_0",
     "Outer": "NS_MyM_BarrelLight",
+    "Class": "UScriptClass'NiagaraDataInterfaceColorCurve'",
     "Properties": {
       "ShaderLUT": [
         20.0,
@@ -517,6 +520,7 @@
     "Type": "NiagaraDataInterfaceCurve",
     "Name": "NiagaraDataInterfaceCurve_0",
     "Outer": "UpdateScript",
+    "Class": "UScriptClass'NiagaraDataInterfaceCurve'",
     "Properties": {
       "ShaderLUT": [
         1.0,
@@ -584,6 +588,7 @@
     "Type": "NiagaraDataInterfaceCurve",
     "Name": "NiagaraDataInterfaceCurve_2",
     "Outer": "UpdateScript",
+    "Class": "UScriptClass'NiagaraDataInterfaceCurve'",
     "Properties": {
       "ShaderLUT": [
         1.0,
@@ -651,9 +656,10 @@
     "Type": "NiagaraDataInterfaceMeshRendererInfo",
     "Name": "NiagaraDataInterfaceMeshRendererInfo_0",
     "Outer": "SpawnScript",
+    "Class": "UScriptClass'NiagaraDataInterfaceMeshRendererInfo'",
     "Properties": {
       "MeshRenderer": {
-        "ObjectName": "NiagaraMeshRendererProperties NS_MyM_BarrelLight:Lightning_1.NiagaraMeshRendererProperties_0",
+        "ObjectName": "NiagaraMeshRendererProperties'NS_MyM_BarrelLight:Lightning_1.NiagaraMeshRendererProperties_0'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.12"
       }
     }
@@ -662,9 +668,10 @@
     "Type": "NiagaraDataInterfaceMeshRendererInfo",
     "Name": "NiagaraDataInterfaceMeshRendererInfo_2",
     "Outer": "SpawnScript",
+    "Class": "UScriptClass'NiagaraDataInterfaceMeshRendererInfo'",
     "Properties": {
       "MeshRenderer": {
-        "ObjectName": "NiagaraMeshRendererProperties NS_MyM_BarrelLight:Lightning_1.NiagaraMeshRendererProperties_0",
+        "ObjectName": "NiagaraMeshRendererProperties'NS_MyM_BarrelLight:Lightning_1.NiagaraMeshRendererProperties_0'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.12"
       }
     }
@@ -673,16 +680,17 @@
     "Type": "NiagaraEmitter",
     "Name": "Light_0",
     "Outer": "NS_MyM_BarrelLight",
+    "Class": "UScriptClass'NiagaraEmitter'",
     "Properties": {
       "UpdateScriptProps": {
         "Script": {
-          "ObjectName": "NiagaraScript NS_MyM_BarrelLight:Light_0.UpdateScript",
+          "ObjectName": "NiagaraScript'NS_MyM_BarrelLight:Light_0.UpdateScript'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.14"
         }
       },
       "SpawnScriptProps": {
         "Script": {
-          "ObjectName": "NiagaraScript NS_MyM_BarrelLight:Light_0.SpawnScript",
+          "ObjectName": "NiagaraScript'NS_MyM_BarrelLight:Light_0.SpawnScript'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.13"
         }
       },
@@ -693,7 +701,7 @@
       "UniqueEmitterName": "Light",
       "RendererProperties": [
         {
-          "ObjectName": "NiagaraLightRendererProperties NS_MyM_BarrelLight:Light_0.NiagaraLightRendererProperties_0",
+          "ObjectName": "NiagaraLightRendererProperties'NS_MyM_BarrelLight:Light_0.NiagaraLightRendererProperties_0'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.10"
         }
       ],
@@ -704,17 +712,18 @@
     "Type": "NiagaraEmitter",
     "Name": "Lightning_1",
     "Outer": "NS_MyM_BarrelLight",
+    "Class": "UScriptClass'NiagaraEmitter'",
     "Properties": {
       "bLocalSpace": true,
       "UpdateScriptProps": {
         "Script": {
-          "ObjectName": "NiagaraScript NS_MyM_BarrelLight:Lightning_1.UpdateScript",
+          "ObjectName": "NiagaraScript'NS_MyM_BarrelLight:Lightning_1.UpdateScript'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.16"
         }
       },
       "SpawnScriptProps": {
         "Script": {
-          "ObjectName": "NiagaraScript NS_MyM_BarrelLight:Lightning_1.SpawnScript",
+          "ObjectName": "NiagaraScript'NS_MyM_BarrelLight:Lightning_1.SpawnScript'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.15"
         }
       },
@@ -724,7 +733,7 @@
       "UniqueEmitterName": "Lightning",
       "RendererProperties": [
         {
-          "ObjectName": "NiagaraMeshRendererProperties NS_MyM_BarrelLight:Lightning_1.NiagaraMeshRendererProperties_0",
+          "ObjectName": "NiagaraMeshRendererProperties'NS_MyM_BarrelLight:Lightning_1.NiagaraMeshRendererProperties_0'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.12"
         }
       ],
@@ -735,16 +744,17 @@
     "Type": "NiagaraEmitter",
     "Name": "Lightning_Light_2",
     "Outer": "NS_MyM_BarrelLight",
+    "Class": "UScriptClass'NiagaraEmitter'",
     "Properties": {
       "UpdateScriptProps": {
         "Script": {
-          "ObjectName": "NiagaraScript NS_MyM_BarrelLight:Lightning_Light_2.UpdateScript",
+          "ObjectName": "NiagaraScript'NS_MyM_BarrelLight:Lightning_Light_2.UpdateScript'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.18"
         }
       },
       "SpawnScriptProps": {
         "Script": {
-          "ObjectName": "NiagaraScript NS_MyM_BarrelLight:Lightning_Light_2.SpawnScript",
+          "ObjectName": "NiagaraScript'NS_MyM_BarrelLight:Lightning_Light_2.SpawnScript'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.17"
         }
       },
@@ -755,7 +765,7 @@
       "UniqueEmitterName": "Lightning_Light",
       "RendererProperties": [
         {
-          "ObjectName": "NiagaraLightRendererProperties NS_MyM_BarrelLight:Lightning_Light_2.NiagaraLightRendererProperties_0",
+          "ObjectName": "NiagaraLightRendererProperties'NS_MyM_BarrelLight:Lightning_Light_2.NiagaraLightRendererProperties_0'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.11"
         }
       ],
@@ -766,6 +776,7 @@
     "Type": "NiagaraLightRendererProperties",
     "Name": "NiagaraLightRendererProperties_0",
     "Outer": "Light_0",
+    "Class": "UScriptClass'NiagaraLightRendererProperties'",
     "Properties": {
       "bUseInverseSquaredFalloff": false,
       "bAlphaScalesBrightness": true,
@@ -790,6 +801,7 @@
     "Type": "NiagaraLightRendererProperties",
     "Name": "NiagaraLightRendererProperties_0",
     "Outer": "Lightning_Light_2",
+    "Class": "UScriptClass'NiagaraLightRendererProperties'",
     "Properties": {
       "bUseInverseSquaredFalloff": false,
       "bAlphaScalesBrightness": true,
@@ -814,11 +826,12 @@
     "Type": "NiagaraMeshRendererProperties",
     "Name": "NiagaraMeshRendererProperties_0",
     "Outer": "Lightning_1",
+    "Class": "UScriptClass'NiagaraMeshRendererProperties'",
     "Properties": {
       "Meshes": [
         {
           "Mesh": {
-            "ObjectName": "StaticMesh SM_Lightning_01_Thick_02",
+            "ObjectName": "StaticMesh'SM_Lightning_01_Thick_02'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Mesh/SM_Lightning_01_Thick_02.2"
           },
           "Scale": {
@@ -835,7 +848,7 @@
         },
         {
           "Mesh": {
-            "ObjectName": "StaticMesh SM_Lightning_02_Thick_02",
+            "ObjectName": "StaticMesh'SM_Lightning_02_Thick_02'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Mesh/SM_Lightning_02_Thick_02.2"
           },
           "Scale": {
@@ -852,7 +865,7 @@
         },
         {
           "Mesh": {
-            "ObjectName": "StaticMesh SM_Lightning_03_Thick_02",
+            "ObjectName": "StaticMesh'SM_Lightning_03_Thick_02'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Mesh/SM_Lightning_03_Thick_02.2"
           },
           "Scale": {
@@ -873,7 +886,7 @@
       "OverrideMaterials": [
         {
           "ExplicitMat": {
-            "ObjectName": "MaterialInstanceConstant MI_Unlit_Masked_Scroll_01_Lightning_Pumpkin",
+            "ObjectName": "MaterialInstanceConstant'MI_Unlit_Masked_Scroll_01_Lightning_Pumpkin'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Materials/MI_Unlit_Masked_Scroll_01_Lightning_Pumpkin.0"
           },
           "UserParamBinding": {
@@ -882,7 +895,7 @@
               "Name": "None",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Class MaterialInterface",
+                  "ObjectName": "Class'MaterialInterface'",
                   "ObjectPath": "/Script/Engine"
                 },
                 "UnderlyingType": 1
@@ -927,6 +940,7 @@
     "Type": "NiagaraScript",
     "Name": "SpawnScript",
     "Outer": "Light_0",
+    "Class": "UScriptClass'NiagaraScript'",
     "Properties": {
       "Usage": "ENiagaraScriptUsage::ParticleSpawnScriptInterpolated",
       "RapidIterationParameters": {},
@@ -939,7 +953,7 @@
             "Name": "Engine.ExecutionCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -950,7 +964,7 @@
             "Name": "Light.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -961,7 +975,7 @@
             "Name": "Light.InterpSpawnStartDt",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -972,7 +986,7 @@
             "Name": "Light.SpawnGroup",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -983,7 +997,7 @@
             "Name": "Light.SpawnInterval",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -994,7 +1008,7 @@
             "Name": "Light.SpawnRate",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1005,7 +1019,7 @@
             "Name": "PREV_Engine.ExecutionCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1016,7 +1030,7 @@
             "Name": "PREV_Light.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1027,7 +1041,7 @@
             "Name": "PREV_Light.InterpSpawnStartDt",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1038,7 +1052,7 @@
             "Name": "PREV_Light.SpawnGroup",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1049,7 +1063,7 @@
             "Name": "PREV_Light.SpawnInterval",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1060,7 +1074,7 @@
             "Name": "PREV_Light.SpawnRate",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1071,7 +1085,7 @@
             "Name": "PREV_User.GenmatLightAlpha",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1082,7 +1096,7 @@
             "Name": "PREV_User.GenmatLightColor",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -1093,7 +1107,7 @@
             "Name": "User.GenmatLightAlpha",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1104,7 +1118,7 @@
             "Name": "User.GenmatLightColor",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -1620,7 +1634,7 @@
               "Name": "bIsInfinitelyLived",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -1634,7 +1648,7 @@
               "Name": "bCanDieWhenEmitterDeactivates",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -1648,7 +1662,7 @@
               "Name": "Particles.MaterialRandom",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -1662,7 +1676,7 @@
               "Name": "Particles.Mass",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -1676,7 +1690,7 @@
               "Name": "Particles.RandomFloat",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -1690,7 +1704,7 @@
               "Name": "Particles.NormalizedAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -1704,7 +1718,7 @@
               "Name": "Particles.RibbonUVDistance",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -1773,7 +1787,7 @@
             "Name": "Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1784,7 +1798,7 @@
             "Name": "Color",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -1795,7 +1809,7 @@
             "Name": "Initial.Color",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -1806,7 +1820,7 @@
             "Name": "Lifetime",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1817,7 +1831,7 @@
             "Name": "LightExponent",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1828,7 +1842,7 @@
             "Name": "LightRadius",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1839,7 +1853,7 @@
             "Name": "LightVolumetricScattering",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1850,7 +1864,7 @@
             "Name": "Position",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -1861,7 +1875,7 @@
             "Name": "UniqueID",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -1914,6 +1928,7 @@
     "Type": "NiagaraScript",
     "Name": "UpdateScript",
     "Outer": "Light_0",
+    "Class": "UScriptClass'NiagaraScript'",
     "Properties": {
       "Usage": "ENiagaraScriptUsage::ParticleUpdateScript",
       "RapidIterationParameters": {},
@@ -1926,7 +1941,7 @@
             "Name": "User.GenmatLightAlpha",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -2344,7 +2359,7 @@
               "Name": "bIsInfinitelyLived",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -2358,7 +2373,7 @@
               "Name": "bCanDieWhenEmitterDeactivates",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -2372,7 +2387,7 @@
               "Name": "Particles.NormalizedAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -2386,7 +2401,7 @@
               "Name": "Particles.MaterialRandom",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -2400,7 +2415,7 @@
               "Name": "Particles.Mass",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -2414,7 +2429,7 @@
               "Name": "Particles.RibbonUVDistance",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -2428,7 +2443,7 @@
               "Name": "Particles.RandomFloat",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -2485,7 +2500,7 @@
             "Name": "Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -2496,7 +2511,7 @@
             "Name": "Color",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -2507,7 +2522,7 @@
             "Name": "Initial.Color",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -2518,7 +2533,7 @@
             "Name": "Lifetime",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -2529,7 +2544,7 @@
             "Name": "LightExponent",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -2540,7 +2555,7 @@
             "Name": "LightRadius",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -2551,7 +2566,7 @@
             "Name": "LightVolumetricScattering",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -2562,7 +2577,7 @@
             "Name": "Position",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -2573,7 +2588,7 @@
             "Name": "UniqueID",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -2610,6 +2625,7 @@
     "Type": "NiagaraScript",
     "Name": "SpawnScript",
     "Outer": "Lightning_1",
+    "Class": "UScriptClass'NiagaraScript'",
     "Properties": {
       "Usage": "ENiagaraScriptUsage::ParticleSpawnScript",
       "RapidIterationParameters": {},
@@ -2622,7 +2638,7 @@
             "Name": "__INTERNAL__.Lightning.InitializeParticle.Mesh Renderer Info",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Class NiagaraDataInterfaceMeshRendererInfo",
+                "ObjectName": "Class'NiagaraDataInterfaceMeshRendererInfo'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 1
@@ -2633,7 +2649,7 @@
             "Name": "Lightning.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -2648,7 +2664,7 @@
         ],
         "DataInterfaces": [
           {
-            "ObjectName": "NiagaraDataInterfaceMeshRendererInfo NS_MyM_BarrelLight:Lightning_1.SpawnScript.NiagaraDataInterfaceMeshRendererInfo_0",
+            "ObjectName": "NiagaraDataInterfaceMeshRendererInfo'NS_MyM_BarrelLight:Lightning_1.SpawnScript.NiagaraDataInterfaceMeshRendererInfo_0'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.5"
           }
         ]
@@ -3941,7 +3957,7 @@
               "Name": "Particles.SpriteRotation",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -3955,7 +3971,7 @@
               "Name": "Particles.InitialRotation",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Quat",
+                  "ObjectName": "ScriptStruct'Quat'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -3969,7 +3985,7 @@
               "Name": "Particles.CylinderLocation.CylinderPosition",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -3983,7 +3999,7 @@
               "Name": "Particles.CylinderLocation.CylinderNormal",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -3997,7 +4013,7 @@
               "Name": "Particles.Presolve.Velocity",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -4011,7 +4027,7 @@
               "Name": "Particles.Presolve.Position",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -4025,7 +4041,7 @@
               "Name": "Particles.Presolve.PhysicsForce",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -4039,7 +4055,7 @@
               "Name": "Particles.DistanceTraveled",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -4053,7 +4069,7 @@
               "Name": "Particles.RibbonUVDistance",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -4067,7 +4083,7 @@
               "Name": "Particles.Initial.Color",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct LinearColor",
+                  "ObjectName": "ScriptStruct'LinearColor'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -4180,7 +4196,7 @@
             "Name": "Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -4191,7 +4207,7 @@
             "Name": "CameraOffset",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -4202,7 +4218,7 @@
             "Name": "Color",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4213,7 +4229,7 @@
             "Name": "Initial.Scale",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4224,7 +4240,7 @@
             "Name": "Lifetime",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -4235,7 +4251,7 @@
             "Name": "Mass",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -4246,7 +4262,7 @@
             "Name": "MaterialRandom",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -4257,7 +4273,7 @@
             "Name": "MeshIndex",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -4268,7 +4284,7 @@
             "Name": "MeshOrientation",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Quat",
+                "ObjectName": "ScriptStruct'Quat'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4279,7 +4295,7 @@
             "Name": "NormalizedAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -4290,7 +4306,7 @@
             "Name": "Position",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4301,7 +4317,7 @@
             "Name": "Previous.CameraOffset",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -4312,7 +4328,7 @@
             "Name": "Previous.MeshOrientation",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Quat",
+                "ObjectName": "ScriptStruct'Quat'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4323,7 +4339,7 @@
             "Name": "Previous.Position",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4334,7 +4350,7 @@
             "Name": "Previous.Scale",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4345,7 +4361,7 @@
             "Name": "Previous.Velocity",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4356,7 +4372,7 @@
             "Name": "Scale",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4367,7 +4383,7 @@
             "Name": "UniqueID",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -4378,7 +4394,7 @@
             "Name": "Velocity",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4391,7 +4407,7 @@
             "UserPtrIdx": -1,
             "Type": {
               "ClassStructOrEnum": {
-                "ObjectName": "Class NiagaraDataInterfaceMeshRendererInfo",
+                "ObjectName": "Class'NiagaraDataInterfaceMeshRendererInfo'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 1
@@ -4441,14 +4457,14 @@
       "CachedDefaultDataInterfaces": [
         {
           "DataInterface": {
-            "ObjectName": "NiagaraDataInterfaceMeshRendererInfo NS_MyM_BarrelLight:Lightning_1.SpawnScript.NiagaraDataInterfaceMeshRendererInfo_0",
+            "ObjectName": "NiagaraDataInterfaceMeshRendererInfo'NS_MyM_BarrelLight:Lightning_1.SpawnScript.NiagaraDataInterfaceMeshRendererInfo_0'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.5"
           },
           "Name": "Lightning.InitializeParticle.Mesh Renderer Info",
           "UserPtrIdx": -1,
           "Type": {
             "ClassStructOrEnum": {
-              "ObjectName": "Class NiagaraDataInterfaceMeshRendererInfo",
+              "ObjectName": "Class'NiagaraDataInterfaceMeshRendererInfo'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 1
@@ -4463,6 +4479,7 @@
     "Type": "NiagaraScript",
     "Name": "UpdateScript",
     "Outer": "Lightning_1",
+    "Class": "UScriptClass'NiagaraScript'",
     "Properties": {
       "Usage": "ENiagaraScriptUsage::ParticleUpdateScript",
       "RapidIterationParameters": {},
@@ -4475,7 +4492,7 @@
             "Name": "__INTERNAL__.Lightning.Scale Alpha.FloatCurve",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Class NiagaraDataInterfaceCurve",
+                "ObjectName": "Class'NiagaraDataInterfaceCurve'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 1
@@ -4486,7 +4503,7 @@
             "Name": "Lightning.AlphaScale",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -4497,7 +4514,7 @@
             "Name": "User.LightningColor",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Class NiagaraDataInterfaceColorCurve",
+                "ObjectName": "Class'NiagaraDataInterfaceColorCurve'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 1
@@ -4508,7 +4525,7 @@
             "Name": "User.LightningSize",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -4535,11 +4552,11 @@
         ],
         "DataInterfaces": [
           {
-            "ObjectName": "NiagaraDataInterfaceColorCurve NS_MyM_BarrelLight:Lightning_1.UpdateScript.NiagaraDataInterfaceColorCurve_0",
+            "ObjectName": "NiagaraDataInterfaceColorCurve'NS_MyM_BarrelLight:Lightning_1.UpdateScript.NiagaraDataInterfaceColorCurve_0'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.0"
           },
           {
-            "ObjectName": "NiagaraDataInterfaceCurve NS_MyM_BarrelLight:Lightning_1.UpdateScript.NiagaraDataInterfaceCurve_0",
+            "ObjectName": "NiagaraDataInterfaceCurve'NS_MyM_BarrelLight:Lightning_1.UpdateScript.NiagaraDataInterfaceCurve_0'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.3"
           }
         ]
@@ -5326,7 +5343,7 @@
               "Name": "bIsInfinitelyLived",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -5340,7 +5357,7 @@
               "Name": "bCanDieWhenEmitterDeactivates",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -5354,7 +5371,7 @@
               "Name": "Particles.Initial.Color",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct LinearColor",
+                  "ObjectName": "ScriptStruct'LinearColor'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -5368,7 +5385,7 @@
               "Name": "Particles.DistanceTraveled",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -5382,7 +5399,7 @@
               "Name": "Particles.Presolve.Velocity",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -5396,7 +5413,7 @@
               "Name": "Particles.Presolve.Position",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -5410,7 +5427,7 @@
               "Name": "Particles.Presolve.PhysicsForce",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -5424,7 +5441,7 @@
               "Name": "Particles.SpriteRotation",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -5438,7 +5455,7 @@
               "Name": "Particles.RibbonUVDistance",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -5452,7 +5469,7 @@
               "Name": "Particles.InitialRotation",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Quat",
+                  "ObjectName": "ScriptStruct'Quat'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -5466,7 +5483,7 @@
               "Name": "Particles.CylinderLocation.CylinderPosition",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -5480,7 +5497,7 @@
               "Name": "Particles.CylinderLocation.CylinderNormal",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -5545,7 +5562,7 @@
             "Name": "Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5556,7 +5573,7 @@
             "Name": "CameraOffset",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5567,7 +5584,7 @@
             "Name": "Color",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -5578,7 +5595,7 @@
             "Name": "Initial.Scale",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -5589,7 +5606,7 @@
             "Name": "Lifetime",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5600,7 +5617,7 @@
             "Name": "Mass",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5611,7 +5628,7 @@
             "Name": "MaterialRandom",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5622,7 +5639,7 @@
             "Name": "MeshIndex",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5633,7 +5650,7 @@
             "Name": "MeshOrientation",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Quat",
+                "ObjectName": "ScriptStruct'Quat'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -5644,7 +5661,7 @@
             "Name": "NormalizedAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5655,7 +5672,7 @@
             "Name": "Position",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -5666,7 +5683,7 @@
             "Name": "Previous.CameraOffset",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5677,7 +5694,7 @@
             "Name": "Previous.MeshOrientation",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Quat",
+                "ObjectName": "ScriptStruct'Quat'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -5688,7 +5705,7 @@
             "Name": "Previous.Position",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -5699,7 +5716,7 @@
             "Name": "Previous.Scale",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -5710,7 +5727,7 @@
             "Name": "Previous.Velocity",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -5721,7 +5738,7 @@
             "Name": "Scale",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -5732,7 +5749,7 @@
             "Name": "UniqueID",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5743,7 +5760,7 @@
             "Name": "Velocity",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -5756,7 +5773,7 @@
             "UserPtrIdx": -1,
             "Type": {
               "ClassStructOrEnum": {
-                "ObjectName": "Class NiagaraDataInterfaceColorCurve",
+                "ObjectName": "Class'NiagaraDataInterfaceColorCurve'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 1
@@ -5770,7 +5787,7 @@
             "UserPtrIdx": -1,
             "Type": {
               "ClassStructOrEnum": {
-                "ObjectName": "Class NiagaraDataInterfaceCurve",
+                "ObjectName": "Class'NiagaraDataInterfaceCurve'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 1
@@ -5834,14 +5851,14 @@
       "CachedDefaultDataInterfaces": [
         {
           "DataInterface": {
-            "ObjectName": "NiagaraDataInterfaceColorCurve NS_MyM_BarrelLight:Lightning_1.UpdateScript.NiagaraDataInterfaceColorCurve_0",
+            "ObjectName": "NiagaraDataInterfaceColorCurve'NS_MyM_BarrelLight:Lightning_1.UpdateScript.NiagaraDataInterfaceColorCurve_0'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.0"
           },
           "Name": "User.LightningColor",
           "UserPtrIdx": -1,
           "Type": {
             "ClassStructOrEnum": {
-              "ObjectName": "Class NiagaraDataInterfaceColorCurve",
+              "ObjectName": "Class'NiagaraDataInterfaceColorCurve'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 1
@@ -5851,14 +5868,14 @@
         },
         {
           "DataInterface": {
-            "ObjectName": "NiagaraDataInterfaceCurve NS_MyM_BarrelLight:Lightning_1.UpdateScript.NiagaraDataInterfaceCurve_0",
+            "ObjectName": "NiagaraDataInterfaceCurve'NS_MyM_BarrelLight:Lightning_1.UpdateScript.NiagaraDataInterfaceCurve_0'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.3"
           },
           "Name": "Lightning.Scale Alpha.FloatCurve",
           "UserPtrIdx": -1,
           "Type": {
             "ClassStructOrEnum": {
-              "ObjectName": "Class NiagaraDataInterfaceCurve",
+              "ObjectName": "Class'NiagaraDataInterfaceCurve'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 1
@@ -5873,6 +5890,7 @@
     "Type": "NiagaraScript",
     "Name": "SpawnScript",
     "Outer": "Lightning_Light_2",
+    "Class": "UScriptClass'NiagaraScript'",
     "Properties": {
       "Usage": "ENiagaraScriptUsage::ParticleSpawnScriptInterpolated",
       "RapidIterationParameters": {},
@@ -5885,7 +5903,7 @@
             "Name": "Engine.ExecutionCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5896,7 +5914,7 @@
             "Name": "Lightning_Light.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5907,7 +5925,7 @@
             "Name": "Lightning_Light.InterpSpawnStartDt",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5918,7 +5936,7 @@
             "Name": "Lightning_Light.SpawnGroup",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5929,7 +5947,7 @@
             "Name": "Lightning_Light.SpawnInterval",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5940,7 +5958,7 @@
             "Name": "Lightning_Light.SpawnRate",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5951,7 +5969,7 @@
             "Name": "PREV_Engine.ExecutionCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5962,7 +5980,7 @@
             "Name": "PREV_Lightning_Light.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5973,7 +5991,7 @@
             "Name": "PREV_Lightning_Light.InterpSpawnStartDt",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5984,7 +6002,7 @@
             "Name": "PREV_Lightning_Light.SpawnGroup",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -5995,7 +6013,7 @@
             "Name": "PREV_Lightning_Light.SpawnInterval",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -6006,7 +6024,7 @@
             "Name": "PREV_Lightning_Light.SpawnRate",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -6017,7 +6035,7 @@
             "Name": "PREV_User.LightningIntensity",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -6028,7 +6046,7 @@
             "Name": "User.LightningIntensity",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -6804,7 +6822,7 @@
               "Name": "bIsInfinitelyLived",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -6818,7 +6836,7 @@
               "Name": "bCanDieWhenEmitterDeactivates",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -6832,7 +6850,7 @@
               "Name": "Particles.MaterialRandom",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -6846,7 +6864,7 @@
               "Name": "Particles.Mass",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -6860,7 +6878,7 @@
               "Name": "Particles.RandomFloat",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -6874,7 +6892,7 @@
               "Name": "Particles.NormalizedAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -6888,7 +6906,7 @@
               "Name": "Particles.RibbonUVDistance",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -7021,7 +7039,7 @@
             "Name": "Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -7032,7 +7050,7 @@
             "Name": "Color",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -7043,7 +7061,7 @@
             "Name": "Initial.Color",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -7054,7 +7072,7 @@
             "Name": "Lifetime",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -7065,7 +7083,7 @@
             "Name": "LightExponent",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -7076,7 +7094,7 @@
             "Name": "LightRadius",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -7087,7 +7105,7 @@
             "Name": "LightVolumetricScattering",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -7098,7 +7116,7 @@
             "Name": "Position",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -7109,7 +7127,7 @@
             "Name": "UniqueID",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -7162,6 +7180,7 @@
     "Type": "NiagaraScript",
     "Name": "UpdateScript",
     "Outer": "Lightning_Light_2",
+    "Class": "UScriptClass'NiagaraScript'",
     "Properties": {
       "Usage": "ENiagaraScriptUsage::ParticleUpdateScript",
       "RapidIterationParameters": {},
@@ -7174,7 +7193,7 @@
             "Name": "User.LightningIntensity",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -7844,7 +7863,7 @@
               "Name": "bIsInfinitelyLived",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -7858,7 +7877,7 @@
               "Name": "bCanDieWhenEmitterDeactivates",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -7872,7 +7891,7 @@
               "Name": "Particles.NormalizedAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -7886,7 +7905,7 @@
               "Name": "Particles.MaterialRandom",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -7900,7 +7919,7 @@
               "Name": "Particles.Mass",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -7914,7 +7933,7 @@
               "Name": "Particles.RibbonUVDistance",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -7928,7 +7947,7 @@
               "Name": "Particles.RandomFloat",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -8021,7 +8040,7 @@
             "Name": "Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8032,7 +8051,7 @@
             "Name": "Color",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -8043,7 +8062,7 @@
             "Name": "Initial.Color",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -8054,7 +8073,7 @@
             "Name": "Lifetime",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8065,7 +8084,7 @@
             "Name": "LightExponent",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8076,7 +8095,7 @@
             "Name": "LightRadius",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8087,7 +8106,7 @@
             "Name": "LightVolumetricScattering",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8098,7 +8117,7 @@
             "Name": "Position",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -8109,7 +8128,7 @@
             "Name": "UniqueID",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8146,6 +8165,7 @@
     "Type": "NiagaraScript",
     "Name": "SystemSpawnScript",
     "Outer": "NS_MyM_BarrelLight",
+    "Class": "UScriptClass'NiagaraScript'",
     "Properties": {
       "Usage": "ENiagaraScriptUsage::SystemSpawnScript",
       "RapidIterationParameters": {},
@@ -8158,7 +8178,7 @@
             "Name": "Emitter.RandomSeed",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8800,7 +8820,7 @@
             "Name": "Emitter.RandomSeed",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8811,7 +8831,7 @@
             "Name": "Light.Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8822,7 +8842,7 @@
             "Name": "Light.CurrentLoopDuration",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8833,7 +8853,7 @@
             "Name": "Light.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8844,7 +8864,7 @@
             "Name": "Light.ExecutionState",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionState",
+                "ObjectName": "Enum'ENiagaraExecutionState'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -8855,7 +8875,7 @@
             "Name": "Light.ExecutionStateSource",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionStateSource",
+                "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -8866,7 +8886,7 @@
             "Name": "Light.Localspace",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraBool",
+                "ObjectName": "ScriptStruct'NiagaraBool'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8877,7 +8897,7 @@
             "Name": "Light.LoopCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8888,7 +8908,7 @@
             "Name": "Light.LoopedAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8899,7 +8919,7 @@
             "Name": "Light.NormalizedLoopAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8910,7 +8930,7 @@
             "Name": "Light.Scalability.DistanceFraction",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8921,7 +8941,7 @@
             "Name": "Light.SpawnRate.SpawnOutputInfo",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraSpawnInfo",
+                "ObjectName": "ScriptStruct'NiagaraSpawnInfo'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8932,7 +8952,7 @@
             "Name": "Light.SpawnRate.SpawnRemainder",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8943,7 +8963,7 @@
             "Name": "Lightning.Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8954,7 +8974,7 @@
             "Name": "Lightning.AlphaScale",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8965,7 +8985,7 @@
             "Name": "Lightning.CurrentLoopDuration",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8976,7 +8996,7 @@
             "Name": "Lightning.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -8987,7 +9007,7 @@
             "Name": "Lightning.ExecutionState",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionState",
+                "ObjectName": "Enum'ENiagaraExecutionState'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -8998,7 +9018,7 @@
             "Name": "Lightning.ExecutionStateSource",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionStateSource",
+                "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -9009,7 +9029,7 @@
             "Name": "Lightning.Localspace",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraBool",
+                "ObjectName": "ScriptStruct'NiagaraBool'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9020,7 +9040,7 @@
             "Name": "Lightning.LoopCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9031,7 +9051,7 @@
             "Name": "Lightning.LoopedAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9042,7 +9062,7 @@
             "Name": "Lightning.NormalizedLoopAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9053,7 +9073,7 @@
             "Name": "Lightning.Scalability.DistanceFraction",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9064,7 +9084,7 @@
             "Name": "Lightning.SpawnRate.SpawnOutputInfo",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraSpawnInfo",
+                "ObjectName": "ScriptStruct'NiagaraSpawnInfo'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9075,7 +9095,7 @@
             "Name": "Lightning.SpawnRate.SpawnRemainder",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9086,7 +9106,7 @@
             "Name": "Lightning_Light.Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9097,7 +9117,7 @@
             "Name": "Lightning_Light.CurrentLoopDuration",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9108,7 +9128,7 @@
             "Name": "Lightning_Light.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9119,7 +9139,7 @@
             "Name": "Lightning_Light.ExecutionState",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionState",
+                "ObjectName": "Enum'ENiagaraExecutionState'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -9130,7 +9150,7 @@
             "Name": "Lightning_Light.ExecutionStateSource",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionStateSource",
+                "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -9141,7 +9161,7 @@
             "Name": "Lightning_Light.Localspace",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraBool",
+                "ObjectName": "ScriptStruct'NiagaraBool'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9152,7 +9172,7 @@
             "Name": "Lightning_Light.LoopCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9163,7 +9183,7 @@
             "Name": "Lightning_Light.LoopedAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9174,7 +9194,7 @@
             "Name": "Lightning_Light.NormalizedLoopAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9185,7 +9205,7 @@
             "Name": "Lightning_Light.Scalability.DistanceFraction",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9196,7 +9216,7 @@
             "Name": "Lightning_Light.SpawnRate.SpawnOutputInfo",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraSpawnInfo",
+                "ObjectName": "ScriptStruct'NiagaraSpawnInfo'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9207,7 +9227,7 @@
             "Name": "Lightning_Light.SpawnRate.SpawnRemainder",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9218,7 +9238,7 @@
             "Name": "System.Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9229,7 +9249,7 @@
             "Name": "System.bCompleteOnInactive",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraBool",
+                "ObjectName": "ScriptStruct'NiagaraBool'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9240,7 +9260,7 @@
             "Name": "System.CurrentLoopDuration",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9251,7 +9271,7 @@
             "Name": "System.ExecutionState",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionState",
+                "ObjectName": "Enum'ENiagaraExecutionState'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -9262,7 +9282,7 @@
             "Name": "System.ExecutionStateSource",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionStateSource",
+                "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -9273,7 +9293,7 @@
             "Name": "System.LoopCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9284,7 +9304,7 @@
             "Name": "System.LoopedAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9295,7 +9315,7 @@
             "Name": "System.NormalizedLoopAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -9336,6 +9356,7 @@
     "Type": "NiagaraScript",
     "Name": "SystemUpdateScript",
     "Outer": "NS_MyM_BarrelLight",
+    "Class": "UScriptClass'NiagaraScript'",
     "Properties": {
       "Usage": "ENiagaraScriptUsage::SystemUpdateScript",
       "RapidIterationParameters": {},
@@ -9348,7 +9369,7 @@
             "Name": "Emitter.RandomSeed",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12365,7 +12386,7 @@
             "Name": "Emitter.RandomSeed",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12376,7 +12397,7 @@
             "Name": "Light.Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12387,7 +12408,7 @@
             "Name": "Light.CurrentLoopDuration",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12398,7 +12419,7 @@
             "Name": "Light.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12409,7 +12430,7 @@
             "Name": "Light.ExecutionState",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionState",
+                "ObjectName": "Enum'ENiagaraExecutionState'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -12420,7 +12441,7 @@
             "Name": "Light.ExecutionStateSource",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionStateSource",
+                "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -12431,7 +12452,7 @@
             "Name": "Light.Localspace",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraBool",
+                "ObjectName": "ScriptStruct'NiagaraBool'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12442,7 +12463,7 @@
             "Name": "Light.LoopCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12453,7 +12474,7 @@
             "Name": "Light.LoopedAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12464,7 +12485,7 @@
             "Name": "Light.NormalizedLoopAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12475,7 +12496,7 @@
             "Name": "Light.Scalability.DistanceFraction",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12486,7 +12507,7 @@
             "Name": "Light.SpawnRate.SpawnOutputInfo",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraSpawnInfo",
+                "ObjectName": "ScriptStruct'NiagaraSpawnInfo'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12497,7 +12518,7 @@
             "Name": "Light.SpawnRate.SpawnRemainder",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12508,7 +12529,7 @@
             "Name": "Lightning.Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12519,7 +12540,7 @@
             "Name": "Lightning.AlphaScale",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12530,7 +12551,7 @@
             "Name": "Lightning.CurrentLoopDuration",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12541,7 +12562,7 @@
             "Name": "Lightning.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12552,7 +12573,7 @@
             "Name": "Lightning.ExecutionState",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionState",
+                "ObjectName": "Enum'ENiagaraExecutionState'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -12563,7 +12584,7 @@
             "Name": "Lightning.ExecutionStateSource",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionStateSource",
+                "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -12574,7 +12595,7 @@
             "Name": "Lightning.Localspace",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraBool",
+                "ObjectName": "ScriptStruct'NiagaraBool'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12585,7 +12606,7 @@
             "Name": "Lightning.LoopCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12596,7 +12617,7 @@
             "Name": "Lightning.LoopedAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12607,7 +12628,7 @@
             "Name": "Lightning.NormalizedLoopAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12618,7 +12639,7 @@
             "Name": "Lightning.Scalability.DistanceFraction",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12629,7 +12650,7 @@
             "Name": "Lightning.SpawnRate.SpawnOutputInfo",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraSpawnInfo",
+                "ObjectName": "ScriptStruct'NiagaraSpawnInfo'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12640,7 +12661,7 @@
             "Name": "Lightning.SpawnRate.SpawnRemainder",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12651,7 +12672,7 @@
             "Name": "Lightning_Light.Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12662,7 +12683,7 @@
             "Name": "Lightning_Light.CurrentLoopDuration",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12673,7 +12694,7 @@
             "Name": "Lightning_Light.DistanceTraveled",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12684,7 +12705,7 @@
             "Name": "Lightning_Light.ExecutionState",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionState",
+                "ObjectName": "Enum'ENiagaraExecutionState'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -12695,7 +12716,7 @@
             "Name": "Lightning_Light.ExecutionStateSource",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionStateSource",
+                "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -12706,7 +12727,7 @@
             "Name": "Lightning_Light.Localspace",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraBool",
+                "ObjectName": "ScriptStruct'NiagaraBool'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12717,7 +12738,7 @@
             "Name": "Lightning_Light.LoopCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12728,7 +12749,7 @@
             "Name": "Lightning_Light.LoopedAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12739,7 +12760,7 @@
             "Name": "Lightning_Light.NormalizedLoopAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12750,7 +12771,7 @@
             "Name": "Lightning_Light.Scalability.DistanceFraction",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12761,7 +12782,7 @@
             "Name": "Lightning_Light.SpawnRate.SpawnOutputInfo",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraSpawnInfo",
+                "ObjectName": "ScriptStruct'NiagaraSpawnInfo'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12772,7 +12793,7 @@
             "Name": "Lightning_Light.SpawnRate.SpawnRemainder",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12783,7 +12804,7 @@
             "Name": "System.Age",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12794,7 +12815,7 @@
             "Name": "System.bCompleteOnInactive",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraBool",
+                "ObjectName": "ScriptStruct'NiagaraBool'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12805,7 +12826,7 @@
             "Name": "System.CurrentLoopDuration",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12816,7 +12837,7 @@
             "Name": "System.ExecutionState",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionState",
+                "ObjectName": "Enum'ENiagaraExecutionState'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -12827,7 +12848,7 @@
             "Name": "System.ExecutionStateSource",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Enum ENiagaraExecutionStateSource",
+                "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 3
@@ -12838,7 +12859,7 @@
             "Name": "System.LoopCount",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraInt32",
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12849,7 +12870,7 @@
             "Name": "System.LoopedAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12860,7 +12881,7 @@
             "Name": "System.NormalizedLoopAge",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -12928,6 +12949,7 @@
   {
     "Type": "NiagaraSystem",
     "Name": "NS_MyM_BarrelLight",
+    "Class": "UScriptClass'NiagaraSystem'",
     "Properties": {
       "EmitterHandles": [
         {
@@ -12936,7 +12958,7 @@
           "bIsEnabled": true,
           "Name": "Light",
           "Instance": {
-            "ObjectName": "NiagaraEmitter NS_MyM_BarrelLight:Light_0",
+            "ObjectName": "NiagaraEmitter'NS_MyM_BarrelLight:Light_0'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.7"
           }
         },
@@ -12946,7 +12968,7 @@
           "bIsEnabled": true,
           "Name": "Lightning",
           "Instance": {
-            "ObjectName": "NiagaraEmitter NS_MyM_BarrelLight:Lightning_1",
+            "ObjectName": "NiagaraEmitter'NS_MyM_BarrelLight:Lightning_1'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.8"
           }
         },
@@ -12956,7 +12978,7 @@
           "bIsEnabled": true,
           "Name": "Lightning_Light",
           "Instance": {
-            "ObjectName": "NiagaraEmitter NS_MyM_BarrelLight:Lightning_Light_2",
+            "ObjectName": "NiagaraEmitter'NS_MyM_BarrelLight:Lightning_Light_2'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.9"
           }
         },
@@ -12969,11 +12991,11 @@
         }
       ],
       "SystemSpawnScript": {
-        "ObjectName": "NiagaraScript NS_MyM_BarrelLight:SystemSpawnScript",
+        "ObjectName": "NiagaraScript'NS_MyM_BarrelLight:SystemSpawnScript'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.19"
       },
       "SystemUpdateScript": {
-        "ObjectName": "NiagaraScript NS_MyM_BarrelLight:SystemUpdateScript",
+        "ObjectName": "NiagaraScript'NS_MyM_BarrelLight:SystemUpdateScript'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.20"
       },
       "SystemCompiledData": {
@@ -12984,7 +13006,7 @@
               "Name": "User.GenmatLightAlpha",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -12995,7 +13017,7 @@
               "Name": "User.GenmatLightColor",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct LinearColor",
+                  "ObjectName": "ScriptStruct'LinearColor'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -13006,7 +13028,7 @@
               "Name": "User.LightningColor",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Class NiagaraDataInterfaceColorCurve",
+                  "ObjectName": "Class'NiagaraDataInterfaceColorCurve'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 1
@@ -13017,7 +13039,7 @@
               "Name": "User.LightningIntensity",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13028,7 +13050,7 @@
               "Name": "User.LightningSize",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -13039,7 +13061,7 @@
               "Name": "User.LightningSpawnRate",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13090,7 +13112,7 @@
           ],
           "DataInterfaces": [
             {
-              "ObjectName": "NiagaraDataInterfaceColorCurve NS_MyM_BarrelLight:NiagaraDataInterfaceColorCurve_0",
+              "ObjectName": "NiagaraDataInterfaceColorCurve'NS_MyM_BarrelLight:NiagaraDataInterfaceColorCurve_0'",
               "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.2"
             }
           ]
@@ -13102,7 +13124,7 @@
               "Name": "Emitter.RandomSeed",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13113,7 +13135,7 @@
               "Name": "Light.Age",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13124,7 +13146,7 @@
               "Name": "Light.CurrentLoopDuration",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13135,7 +13157,7 @@
               "Name": "Light.DistanceTraveled",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13146,7 +13168,7 @@
               "Name": "Light.ExecutionState",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Enum ENiagaraExecutionState",
+                  "ObjectName": "Enum'ENiagaraExecutionState'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 3
@@ -13157,7 +13179,7 @@
               "Name": "Light.ExecutionStateSource",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Enum ENiagaraExecutionStateSource",
+                  "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 3
@@ -13168,7 +13190,7 @@
               "Name": "Light.Localspace",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13179,7 +13201,7 @@
               "Name": "Light.LoopCount",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13190,7 +13212,7 @@
               "Name": "Light.LoopedAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13201,7 +13223,7 @@
               "Name": "Light.NormalizedLoopAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13212,7 +13234,7 @@
               "Name": "Light.Scalability.DistanceFraction",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13223,7 +13245,7 @@
               "Name": "Light.SpawnRate.SpawnOutputInfo",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraSpawnInfo",
+                  "ObjectName": "ScriptStruct'NiagaraSpawnInfo'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13234,7 +13256,7 @@
               "Name": "Light.SpawnRate.SpawnRemainder",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13245,7 +13267,7 @@
               "Name": "Lightning.Age",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13256,7 +13278,7 @@
               "Name": "Lightning.AlphaScale",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13267,7 +13289,7 @@
               "Name": "Lightning.CurrentLoopDuration",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13278,7 +13300,7 @@
               "Name": "Lightning.DistanceTraveled",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13289,7 +13311,7 @@
               "Name": "Lightning.ExecutionState",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Enum ENiagaraExecutionState",
+                  "ObjectName": "Enum'ENiagaraExecutionState'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 3
@@ -13300,7 +13322,7 @@
               "Name": "Lightning.ExecutionStateSource",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Enum ENiagaraExecutionStateSource",
+                  "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 3
@@ -13311,7 +13333,7 @@
               "Name": "Lightning.Localspace",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13322,7 +13344,7 @@
               "Name": "Lightning.LoopCount",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13333,7 +13355,7 @@
               "Name": "Lightning.LoopedAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13344,7 +13366,7 @@
               "Name": "Lightning.NormalizedLoopAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13355,7 +13377,7 @@
               "Name": "Lightning.Scalability.DistanceFraction",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13366,7 +13388,7 @@
               "Name": "Lightning.SpawnRate.SpawnOutputInfo",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraSpawnInfo",
+                  "ObjectName": "ScriptStruct'NiagaraSpawnInfo'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13377,7 +13399,7 @@
               "Name": "Lightning.SpawnRate.SpawnRemainder",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13388,7 +13410,7 @@
               "Name": "Lightning_Light.Age",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13399,7 +13421,7 @@
               "Name": "Lightning_Light.CurrentLoopDuration",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13410,7 +13432,7 @@
               "Name": "Lightning_Light.DistanceTraveled",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13421,7 +13443,7 @@
               "Name": "Lightning_Light.ExecutionState",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Enum ENiagaraExecutionState",
+                  "ObjectName": "Enum'ENiagaraExecutionState'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 3
@@ -13432,7 +13454,7 @@
               "Name": "Lightning_Light.ExecutionStateSource",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Enum ENiagaraExecutionStateSource",
+                  "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 3
@@ -13443,7 +13465,7 @@
               "Name": "Lightning_Light.Localspace",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13454,7 +13476,7 @@
               "Name": "Lightning_Light.LoopCount",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13465,7 +13487,7 @@
               "Name": "Lightning_Light.LoopedAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13476,7 +13498,7 @@
               "Name": "Lightning_Light.NormalizedLoopAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13487,7 +13509,7 @@
               "Name": "Lightning_Light.Scalability.DistanceFraction",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13498,7 +13520,7 @@
               "Name": "Lightning_Light.SpawnRate.SpawnOutputInfo",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraSpawnInfo",
+                  "ObjectName": "ScriptStruct'NiagaraSpawnInfo'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13509,7 +13531,7 @@
               "Name": "Lightning_Light.SpawnRate.SpawnRemainder",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13520,7 +13542,7 @@
               "Name": "System.Age",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13531,7 +13553,7 @@
               "Name": "System.bCompleteOnInactive",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraBool",
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13542,7 +13564,7 @@
               "Name": "System.CurrentLoopDuration",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13553,7 +13575,7 @@
               "Name": "System.ExecutionState",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Enum ENiagaraExecutionState",
+                  "ObjectName": "Enum'ENiagaraExecutionState'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 3
@@ -13564,7 +13586,7 @@
               "Name": "System.ExecutionStateSource",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Enum ENiagaraExecutionStateSource",
+                  "ObjectName": "Enum'ENiagaraExecutionStateSource'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 3
@@ -13575,7 +13597,7 @@
               "Name": "System.LoopCount",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13586,7 +13608,7 @@
               "Name": "System.LoopedAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -13597,7 +13619,7 @@
               "Name": "System.NormalizedLoopAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14422,7 +14444,7 @@
               "Name": "Engine.Emitter.InstanceSeed",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14433,7 +14455,7 @@
               "Name": "Engine.Emitter.TotalSpawnedParticles",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14485,7 +14507,7 @@
               "Name": "Engine.Emitter.InstanceSeed",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14496,7 +14518,7 @@
               "Name": "Engine.Emitter.TotalSpawnedParticles",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14507,7 +14529,7 @@
               "Name": "Engine.Light.NumParticles",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14518,7 +14540,7 @@
               "Name": "Engine.Light.SpawnCountScale",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14529,7 +14551,7 @@
               "Name": "Engine.Lightning.NumParticles",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14540,7 +14562,7 @@
               "Name": "Engine.Lightning.SpawnCountScale",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14551,7 +14573,7 @@
               "Name": "Engine.Lightning_Light.InstanceSeed",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14562,7 +14584,7 @@
               "Name": "Engine.Lightning_Light.NumParticles",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14573,7 +14595,7 @@
               "Name": "Engine.Lightning_Light.SpawnCountScale",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14584,7 +14606,7 @@
               "Name": "Engine.Owner.ExecutionState",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "Enum ENiagaraExecutionState",
+                  "ObjectName": "Enum'ENiagaraExecutionState'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 3
@@ -14595,7 +14617,7 @@
               "Name": "Engine.Owner.LODDistanceFraction",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14606,7 +14628,7 @@
               "Name": "Engine.Owner.Velocity",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -14617,7 +14639,7 @@
               "Name": "Engine.System.TickCount",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14628,7 +14650,7 @@
               "Name": "User.Emitter.RandomSeed",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -14639,7 +14661,7 @@
               "Name": "User.LightningSpawnRate",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15016,14 +15038,159 @@
         ]
       },
       "ExposedParameters": {
-        "UserParameterRedirects": null,
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "GenmatLightAlpha",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.GenmatLightAlpha",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "GenmatLightColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.GenmatLightColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "LightningColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "Class'NiagaraDataInterfaceColorCurve'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 1
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.LightningColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "Class'NiagaraDataInterfaceColorCurve'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 1
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "LightningIntensity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.LightningIntensity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "LightningSize",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.LightningSize",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "LightningSpawnRate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.LightningSpawnRate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
         "SortedParameterOffsets": [
           {
             "Offset": 0,
             "Name": "User.GenmatLightAlpha",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -15034,7 +15201,7 @@
             "Name": "User.GenmatLightColor",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct LinearColor",
+                "ObjectName": "ScriptStruct'LinearColor'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -15045,7 +15212,7 @@
             "Name": "User.LightningColor",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "Class NiagaraDataInterfaceColorCurve",
+                "ObjectName": "Class'NiagaraDataInterfaceColorCurve'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 1
@@ -15056,7 +15223,7 @@
             "Name": "User.LightningIntensity",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -15067,7 +15234,7 @@
             "Name": "User.LightningSize",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct Vector",
+                "ObjectName": "ScriptStruct'Vector'",
                 "ObjectPath": "/Script/CoreUObject"
               },
               "UnderlyingType": 2
@@ -15078,7 +15245,7 @@
             "Name": "User.LightningSpawnRate",
             "TypeDef": {
               "ClassStructOrEnum": {
-                "ObjectName": "ScriptStruct NiagaraFloat",
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
                 "ObjectPath": "/Script/Niagara"
               },
               "UnderlyingType": 2
@@ -15129,7 +15296,7 @@
         ],
         "DataInterfaces": [
           {
-            "ObjectName": "NiagaraDataInterfaceColorCurve NS_MyM_BarrelLight:NiagaraDataInterfaceColorCurve_0",
+            "ObjectName": "NiagaraDataInterfaceColorCurve'NS_MyM_BarrelLight:NiagaraDataInterfaceColorCurve_0'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_BarrelLight.2"
           }
         ]
@@ -15145,7 +15312,7 @@
           "Name": "Light.SpawnInterval",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15156,7 +15323,7 @@
           "Name": "Light.InterpSpawnStartDt",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15167,7 +15334,7 @@
           "Name": "Light.SpawnGroup",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15178,7 +15345,7 @@
           "Name": "Light.Age",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15189,7 +15356,7 @@
           "Name": "Light.RandomSeed",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15200,7 +15367,7 @@
           "Name": "Engine.Light.InstanceSeed",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15211,7 +15378,7 @@
           "Name": "Engine.Light.TotalSpawnedParticles",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15224,7 +15391,7 @@
               "Name": "Age",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15235,7 +15402,7 @@
               "Name": "Color",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct LinearColor",
+                  "ObjectName": "ScriptStruct'LinearColor'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15246,7 +15413,7 @@
               "Name": "Initial.Color",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct LinearColor",
+                  "ObjectName": "ScriptStruct'LinearColor'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15257,7 +15424,7 @@
               "Name": "Lifetime",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15268,7 +15435,7 @@
               "Name": "LightExponent",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15279,7 +15446,7 @@
               "Name": "LightRadius",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15290,7 +15457,7 @@
               "Name": "LightVolumetricScattering",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15301,7 +15468,7 @@
               "Name": "Position",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15312,7 +15479,7 @@
               "Name": "UniqueID",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15510,7 +15677,7 @@
           "Name": "Lightning.SpawnInterval",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15521,7 +15688,7 @@
           "Name": "Lightning.InterpSpawnStartDt",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15532,7 +15699,7 @@
           "Name": "Lightning.SpawnGroup",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15543,7 +15710,7 @@
           "Name": "Lightning.Age",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15554,7 +15721,7 @@
           "Name": "Lightning.RandomSeed",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15565,7 +15732,7 @@
           "Name": "Engine.Lightning.InstanceSeed",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15576,7 +15743,7 @@
           "Name": "Engine.Lightning.TotalSpawnedParticles",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -15589,7 +15756,7 @@
               "Name": "Age",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15600,7 +15767,7 @@
               "Name": "CameraOffset",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15611,7 +15778,7 @@
               "Name": "Color",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct LinearColor",
+                  "ObjectName": "ScriptStruct'LinearColor'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15622,7 +15789,7 @@
               "Name": "Initial.Scale",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15633,7 +15800,7 @@
               "Name": "Lifetime",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15644,7 +15811,7 @@
               "Name": "Mass",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15655,7 +15822,7 @@
               "Name": "MaterialRandom",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15666,7 +15833,7 @@
               "Name": "MeshIndex",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15677,7 +15844,7 @@
               "Name": "MeshOrientation",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Quat",
+                  "ObjectName": "ScriptStruct'Quat'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15688,7 +15855,7 @@
               "Name": "NormalizedAge",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15699,7 +15866,7 @@
               "Name": "Position",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15710,7 +15877,7 @@
               "Name": "Previous.CameraOffset",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15721,7 +15888,7 @@
               "Name": "Previous.MeshOrientation",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Quat",
+                  "ObjectName": "ScriptStruct'Quat'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15732,7 +15899,7 @@
               "Name": "Previous.Position",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15743,7 +15910,7 @@
               "Name": "Previous.Scale",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15754,7 +15921,7 @@
               "Name": "Previous.Velocity",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15765,7 +15932,7 @@
               "Name": "Scale",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -15776,7 +15943,7 @@
               "Name": "UniqueID",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -15787,7 +15954,7 @@
               "Name": "Velocity",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -16185,7 +16352,7 @@
           "Name": "Lightning_Light.SpawnInterval",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16196,7 +16363,7 @@
           "Name": "Lightning_Light.InterpSpawnStartDt",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16207,7 +16374,7 @@
           "Name": "Lightning_Light.SpawnGroup",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16218,7 +16385,7 @@
           "Name": "Lightning_Light.Age",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16229,7 +16396,7 @@
           "Name": "Lightning_Light.RandomSeed",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16240,7 +16407,7 @@
           "Name": "Engine.Lightning_Light.InstanceSeed",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16251,7 +16418,7 @@
           "Name": "Engine.Lightning_Light.TotalSpawnedParticles",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16264,7 +16431,7 @@
               "Name": "Age",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -16275,7 +16442,7 @@
               "Name": "Color",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct LinearColor",
+                  "ObjectName": "ScriptStruct'LinearColor'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -16286,7 +16453,7 @@
               "Name": "Initial.Color",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct LinearColor",
+                  "ObjectName": "ScriptStruct'LinearColor'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -16297,7 +16464,7 @@
               "Name": "Lifetime",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -16308,7 +16475,7 @@
               "Name": "LightExponent",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -16319,7 +16486,7 @@
               "Name": "LightRadius",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -16330,7 +16497,7 @@
               "Name": "LightVolumetricScattering",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraFloat",
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -16341,7 +16508,7 @@
               "Name": "Position",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct Vector",
+                  "ObjectName": "ScriptStruct'Vector'",
                   "ObjectPath": "/Script/CoreUObject"
                 },
                 "UnderlyingType": 2
@@ -16352,7 +16519,7 @@
               "Name": "UniqueID",
               "TypeDef": {
                 "ClassStructOrEnum": {
-                  "ObjectName": "ScriptStruct NiagaraInt32",
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
                   "ObjectPath": "/Script/Niagara"
                 },
                 "UnderlyingType": 2
@@ -16548,7 +16715,7 @@
           "Name": "Lightning_Light001.SpawnInterval",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16559,7 +16726,7 @@
           "Name": "Lightning_Light001.InterpSpawnStartDt",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16570,7 +16737,7 @@
           "Name": "Lightning_Light001.SpawnGroup",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16581,7 +16748,7 @@
           "Name": "Lightning_Light001.Age",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraFloat",
+              "ObjectName": "ScriptStruct'NiagaraFloat'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16592,7 +16759,7 @@
           "Name": "Lightning_Light001.RandomSeed",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16603,7 +16770,7 @@
           "Name": "Engine.Lightning_Light001.InstanceSeed",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2
@@ -16614,7 +16781,7 @@
           "Name": "Engine.Lightning_Light001.TotalSpawnedParticles",
           "TypeDef": {
             "ClassStructOrEnum": {
-              "ObjectName": "ScriptStruct NiagaraInt32",
+              "ObjectName": "ScriptStruct'NiagaraInt32'",
               "ObjectPath": "/Script/Niagara"
             },
             "UnderlyingType": 2

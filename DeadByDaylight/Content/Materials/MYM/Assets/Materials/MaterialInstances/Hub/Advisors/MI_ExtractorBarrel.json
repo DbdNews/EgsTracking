@@ -2,9 +2,10 @@
   {
     "Type": "MaterialInstanceConstant",
     "Name": "MI_ExtractorBarrel",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
     "Properties": {
       "Parent": {
-        "ObjectName": "Material M_ExtractorBarrel",
+        "ObjectName": "Material'M_ExtractorBarrel'",
         "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Materials/MaterialInstances/Hub/Advisors/M_ExtractorBarrel.0"
       },
       "bHasStaticPermutationResource": true,
@@ -572,7 +573,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_FX_DissolveRamp",
+            "ObjectName": "Texture2D'T_FX_DissolveRamp'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_FX_DissolveRamp.0"
           },
           "ExpressionGUID": "97B50842-4AC74C8A-261A789D-F9EAB6BD"
@@ -584,7 +585,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_DissolveTextures",
+            "ObjectName": "Texture2D'T_DissolveTextures'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_DissolveTextures.0"
           },
           "ExpressionGUID": "737F6C86-4452DC74-BB02B98D-63A6C979"
@@ -596,7 +597,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_LightNoise",
+            "ObjectName": "Texture2D'T_LightNoise'",
             "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Textures/Tilables/T_LightNoise.0"
           },
           "ExpressionGUID": "8FB119A9-44C241FD-014EE8A9-D68C98BF"
@@ -608,7 +609,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_Flame",
+            "ObjectName": "Texture2D'T_Flame'",
             "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Textures/Tilables/T_Flame.0"
           },
           "ExpressionGUID": "3F838199-44F6A9D4-025B758C-271E5B0B"
@@ -620,7 +621,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_Noise_Jelly",
+            "ObjectName": "Texture2D'T_Noise_Jelly'",
             "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Textures/Tilables/T_Noise_Jelly.0"
           },
           "ExpressionGUID": "2BD742EE-4E55A3CB-3F488BB3-8F84C5A0"
@@ -632,7 +633,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_Genetic_Material_BC",
+            "ObjectName": "Texture2D'T_Genetic_Material_BC'",
             "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Textures/Hub/Props/T_Genetic_Material_BC.0"
           },
           "ExpressionGUID": "34FBBE04-4D5551BD-3F860998-12BFCBB0"
@@ -726,27 +727,27 @@
       },
       "CachedReferencedTextures": [
         {
-          "ObjectName": "Texture2D T_Flame",
+          "ObjectName": "Texture2D'T_Flame'",
           "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Textures/Tilables/T_Flame.0"
         },
         {
-          "ObjectName": "Texture2D T_Rust_N",
+          "ObjectName": "Texture2D'T_Rust_N'",
           "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Textures/_Common/Generic/T_Rust_N.0"
         },
         {
-          "ObjectName": "Texture2D T_Genetic_Material_BC",
+          "ObjectName": "Texture2D'T_Genetic_Material_BC'",
           "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Textures/Hub/Props/T_Genetic_Material_BC.0"
         },
         {
-          "ObjectName": "Texture2D T_CausticNoise",
+          "ObjectName": "Texture2D'T_CausticNoise'",
           "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/Textures/Tilables/T_CausticNoise.0"
         },
         {
-          "ObjectName": "Texture2D T_DissolveTextures",
+          "ObjectName": "Texture2D'T_DissolveTextures'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_DissolveTextures.0"
         },
         {
-          "ObjectName": "Texture2D T_FX_DissolveRamp",
+          "ObjectName": "Texture2D'T_FX_DissolveRamp'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_FX_DissolveRamp.0"
         }
       ],

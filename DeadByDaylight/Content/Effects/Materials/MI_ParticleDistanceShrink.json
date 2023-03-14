@@ -2,9 +2,10 @@
   {
     "Type": "MaterialInstanceConstant",
     "Name": "MI_ParticleDistanceShrink",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
     "Properties": {
       "Parent": {
-        "ObjectName": "Material M_ParticleDistanceShrink",
+        "ObjectName": "Material'M_ParticleDistanceShrink'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Materials/M_ParticleDistanceShrink.0"
       },
       "ScalarParameterValues": [
@@ -80,11 +81,11 @@
       },
       "CachedReferencedTextures": [
         {
-          "ObjectName": "Texture2D T_BetterSpark",
+          "ObjectName": "Texture2D'T_BetterSpark'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_BetterSpark.0"
         },
         {
-          "ObjectName": "CurveLinearColorAtlas CA_MyM",
+          "ObjectName": "CurveLinearColorAtlas'CA_MyM'",
           "ObjectPath": "DeadByDaylight/Content/Materials/MYM/VFX/CurveAtlas/CA_MyM.0"
         }
       ],

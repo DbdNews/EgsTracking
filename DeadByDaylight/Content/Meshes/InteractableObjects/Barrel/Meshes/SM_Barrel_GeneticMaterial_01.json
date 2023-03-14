@@ -3,6 +3,7 @@
     "Type": "BodySetup",
     "Name": "BodySetup_0",
     "Outer": "SM_Barrel_GeneticMaterial_01",
+    "Class": "UScriptClass'BodySetup'",
     "Properties": {
       "AggGeom": {
         "ConvexElems": [
@@ -168,7 +169,7 @@
     "BodySetupGuid": "DD5C413C48F81D5CE674569AB85674E6",
     "CookedFormatData": {
       "PhysXPC": {
-        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
         "ElementCount": 57098,
         "SizeOnDisk": 57098,
         "OffsetInFile": "0x118E5A"
@@ -179,9 +180,10 @@
     "Type": "NavCollision",
     "Name": "NavCollision_1",
     "Outer": "SM_Barrel_GeneticMaterial_01",
+    "Class": "UScriptClass'NavCollision'",
     "CookedFormatData": {
       "NavCollision_X": {
-        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
         "ElementCount": 457,
         "SizeOnDisk": 457,
         "OffsetInFile": "0x126DAC"
@@ -191,6 +193,7 @@
   {
     "Type": "StaticMesh",
     "Name": "SM_Barrel_GeneticMaterial_01",
+    "Class": "UScriptClass'StaticMesh'",
     "Properties": {
       "MinLOD": {
         "bCooked": true,
@@ -198,18 +201,28 @@
         "Value": 0
       },
       "ShadowMaxLOD": {
-        "PerDetailModeValue": {
-          "Ultra": 3,
-          "High": 3,
-          "Medium": 3,
-          "Low": 3,
-          "Mobile": 3
-        }
+        "PerDetailModeValue": [
+          {
+            "Ultra": 3
+          },
+          {
+            "High": 3
+          },
+          {
+            "Medium": 3
+          },
+          {
+            "Low": 3
+          },
+          {
+            "Mobile": 3
+          }
+        ]
       },
       "StaticMaterials": [
         {
           "MaterialInterface": {
-            "ObjectName": "MaterialInstanceConstant MI_COM_GlassDark",
+            "ObjectName": "MaterialInstanceConstant'MI_COM_GlassDark'",
             "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Common/Tilable/Simple/Glass/MI_COM_GlassDark.0"
           },
           "MaterialSlotName": "MI_COM_GlassDark",
@@ -225,7 +238,7 @@
         },
         {
           "MaterialInterface": {
-            "ObjectName": "MaterialInstanceConstant MI_Barrel_ExtractorPod_01",
+            "ObjectName": "MaterialInstanceConstant'MI_Barrel_ExtractorPod_01'",
             "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/MYM/Materials/MI_Barrel_ExtractorPod_01.0"
           },
           "MaterialSlotName": "MI_MYM_ExtractorPod_01",
@@ -241,7 +254,7 @@
         },
         {
           "MaterialInterface": {
-            "ObjectName": "MaterialInstanceConstant MI_ExtractorBarrel",
+            "ObjectName": "MaterialInstanceConstant'MI_ExtractorBarrel'",
             "ObjectPath": "DeadByDaylight/Content/Materials/MYM/Assets/Materials/MaterialInstances/Hub/Advisors/MI_ExtractorBarrel.0"
           },
           "MaterialSlotName": "M_ExtractorGenmat1_Inst",
@@ -261,7 +274,7 @@
       "LODForCollision": 2,
       "Sockets": [
         {
-          "ObjectName": "StaticMeshSocket SM_Barrel_GeneticMaterial_01:StaticMeshSocket_0",
+          "ObjectName": "StaticMeshSocket'SM_Barrel_GeneticMaterial_01:StaticMeshSocket_0'",
           "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/Barrel/Meshes/SM_Barrel_GeneticMaterial_01.3"
         }
       ],
@@ -280,11 +293,11 @@
       }
     },
     "BodySetup": {
-      "ObjectName": "BodySetup SM_Barrel_GeneticMaterial_01:BodySetup_0",
+      "ObjectName": "BodySetup'SM_Barrel_GeneticMaterial_01:BodySetup_0'",
       "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/Barrel/Meshes/SM_Barrel_GeneticMaterial_01.0"
     },
     "NavCollision": {
-      "ObjectName": "NavCollision SM_Barrel_GeneticMaterial_01:NavCollision_1",
+      "ObjectName": "NavCollision'SM_Barrel_GeneticMaterial_01:NavCollision_1'",
       "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/Barrel/Meshes/SM_Barrel_GeneticMaterial_01.1"
     },
     "LightingGuid": "EA9ACD79-460EB5C5-AAEF4DAC-93B4A18B",
@@ -533,6 +546,7 @@
     "Type": "StaticMeshSocket",
     "Name": "StaticMeshSocket_0",
     "Outer": "SM_Barrel_GeneticMaterial_01",
+    "Class": "UScriptClass'StaticMeshSocket'",
     "Properties": {
       "SocketName": "Socket"
     }

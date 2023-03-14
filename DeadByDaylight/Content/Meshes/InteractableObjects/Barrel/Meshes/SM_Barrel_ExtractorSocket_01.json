@@ -3,6 +3,7 @@
     "Type": "BodySetup",
     "Name": "BodySetup_2",
     "Outer": "SM_Barrel_ExtractorSocket_01",
+    "Class": "UScriptClass'BodySetup'",
     "Properties": {
       "AggGeom": {
         "ConvexElems": [
@@ -900,7 +901,7 @@
     "BodySetupGuid": "D96E774848711E4146FEF98ABAC2FC15",
     "CookedFormatData": {
       "PhysXPC": {
-        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
         "ElementCount": 199368,
         "SizeOnDisk": 199368,
         "OffsetInFile": "0x2FD36C"
@@ -911,9 +912,10 @@
     "Type": "NavCollision",
     "Name": "NavCollision_4",
     "Outer": "SM_Barrel_ExtractorSocket_01",
+    "Class": "UScriptClass'NavCollision'",
     "CookedFormatData": {
       "NavCollision_X": {
-        "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
         "ElementCount": 3357,
         "SizeOnDisk": 3357,
         "OffsetInFile": "0x32DE7C"
@@ -923,6 +925,7 @@
   {
     "Type": "StaticMesh",
     "Name": "SM_Barrel_ExtractorSocket_01",
+    "Class": "UScriptClass'StaticMesh'",
     "Properties": {
       "MinLOD": {
         "bCooked": true,
@@ -930,18 +933,28 @@
         "Value": 0
       },
       "ShadowMaxLOD": {
-        "PerDetailModeValue": {
-          "Ultra": 3,
-          "High": 3,
-          "Medium": 3,
-          "Low": 3,
-          "Mobile": 3
-        }
+        "PerDetailModeValue": [
+          {
+            "Ultra": 3
+          },
+          {
+            "High": 3
+          },
+          {
+            "Medium": 3
+          },
+          {
+            "Low": 3
+          },
+          {
+            "Mobile": 3
+          }
+        ]
       },
       "StaticMaterials": [
         {
           "MaterialInterface": {
-            "ObjectName": "MaterialInstanceConstant MI_Barrel_ExtractorSocket_01",
+            "ObjectName": "MaterialInstanceConstant'MI_Barrel_ExtractorSocket_01'",
             "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/Barrel/Materials/MI_Barrel_ExtractorSocket_01.0"
           },
           "MaterialSlotName": "MI_Barrel_ExtractorSocket_01",
@@ -957,7 +970,7 @@
         },
         {
           "MaterialInterface": {
-            "ObjectName": "MaterialInstanceConstant MI_Barrel_Pipe_01",
+            "ObjectName": "MaterialInstanceConstant'MI_Barrel_Pipe_01'",
             "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/Barrel/Materials/MI_Barrel_Pipe_01.0"
           },
           "MaterialSlotName": "MI_Barrel_Pipe_01",
@@ -973,7 +986,7 @@
         },
         {
           "MaterialInterface": {
-            "ObjectName": "MaterialInstanceConstant MI_Barrel_Entity_01",
+            "ObjectName": "MaterialInstanceConstant'MI_Barrel_Entity_01'",
             "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/Barrel/Materials/MI_Barrel_Entity_01.0"
           },
           "MaterialSlotName": "MI_Barrel_Entity_01",
@@ -1006,11 +1019,11 @@
       }
     },
     "BodySetup": {
-      "ObjectName": "BodySetup SM_Barrel_ExtractorSocket_01:BodySetup_2",
+      "ObjectName": "BodySetup'SM_Barrel_ExtractorSocket_01:BodySetup_2'",
       "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/Barrel/Meshes/SM_Barrel_ExtractorSocket_01.0"
     },
     "NavCollision": {
-      "ObjectName": "NavCollision SM_Barrel_ExtractorSocket_01:NavCollision_4",
+      "ObjectName": "NavCollision'SM_Barrel_ExtractorSocket_01:NavCollision_4'",
       "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/Barrel/Meshes/SM_Barrel_ExtractorSocket_01.1"
     },
     "LightingGuid": "289B2121-434CAF7B-5251148E-754F4528",

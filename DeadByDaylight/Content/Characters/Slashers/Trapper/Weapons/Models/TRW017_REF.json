@@ -2,9 +2,10 @@
   {
     "Type": "SkeletalMesh",
     "Name": "TRW017_REF",
+    "Class": "UScriptClass'SkeletalMesh'",
     "Properties": {
       "Skeleton": {
-        "ObjectName": "Skeleton Machete01_REF_Skeleton",
+        "ObjectName": "Skeleton'Machete01_REF_Skeleton'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Slashers/Trapper/Weapons/Models/Machete01_REF_Skeleton.53"
       },
       "LODInfo": [
@@ -50,7 +51,7 @@
             "bEnforceBoneBoundaries": false,
             "VolumeImportance": 1.0,
             "bLockEdges": false,
-            "bLockColorBounaries": false,
+            "bLockColorBounaries": true,
             "BaseLOD": 0
           },
           "BonesToRemove": [],
@@ -107,7 +108,7 @@
             "bEnforceBoneBoundaries": false,
             "VolumeImportance": 1.0,
             "bLockEdges": false,
-            "bLockColorBounaries": false,
+            "bLockColorBounaries": true,
             "BaseLOD": 0
           },
           "BonesToRemove": [],
@@ -164,7 +165,7 @@
             "bEnforceBoneBoundaries": false,
             "VolumeImportance": 1.0,
             "bLockEdges": false,
-            "bLockColorBounaries": false,
+            "bLockColorBounaries": true,
             "BaseLOD": 0
           },
           "BonesToRemove": [],
@@ -293,7 +294,7 @@
     },
     "Materials": [
       {
-        "ObjectName": "MaterialInstanceConstant MI_TRW017",
+        "ObjectName": "MaterialInstanceConstant'MI_TRW017'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Slashers/Trapper/Weapons/Materials/TR_W017/MI_TRW017.0"
       }
     ],

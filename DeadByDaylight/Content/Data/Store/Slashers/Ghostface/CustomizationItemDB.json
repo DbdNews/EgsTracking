@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "CustomizationItemDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct CustomizationItemData",
+        "ObjectName": "ScriptStruct'CustomizationItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -26,7 +27,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "HornedMask",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -131,7 +132,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -236,7 +237,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -372,22 +373,24 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {
-            "HornedMask": {
-              "MaterialsMap": [
-                {
-                  "From": {
-                    "AssetPathName": "/Game/Characters/Slashers/Oman/Materials/Outfit01/MI_OKHood01_02.MI_OKHood01_02",
-                    "SubPathString": ""
-                  },
-                  "To": {
-                    "AssetPathName": "/Game/Characters/Slashers/Oman/Materials/Outfit01/MI_OKHood01_02_Horn.MI_OKHood01_02_Horn",
-                    "SubPathString": ""
+          "ConditionalMaterials": [
+            {
+              "HornedMask": {
+                "MaterialsMap": [
+                  {
+                    "From": {
+                      "AssetPathName": "/Game/Characters/Slashers/Oman/Materials/Outfit01/MI_OKHood01_02.MI_OKHood01_02",
+                      "SubPathString": ""
+                    },
+                    "To": {
+                      "AssetPathName": "/Game/Characters/Slashers/Oman/Materials/Outfit01/MI_OKHood01_02_Horn.MI_OKHood01_02_Horn",
+                      "SubPathString": ""
+                    }
                   }
-                }
-              ]
+                ]
+              }
             }
-          }
+          ]
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -492,7 +495,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -535,7 +538,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -656,22 +659,24 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {
-            "HornedMask": {
-              "MaterialsMap": [
-                {
-                  "From": {
-                    "AssetPathName": "/Game/Characters/Slashers/Oman/Materials/Outfit01/MI_OKHood01_03.MI_OKHood01_03",
-                    "SubPathString": ""
-                  },
-                  "To": {
-                    "AssetPathName": "/Game/Characters/Slashers/Oman/Materials/Outfit01/MI_OKHood01_03_Horn.MI_OKHood01_03_Horn",
-                    "SubPathString": ""
+          "ConditionalMaterials": [
+            {
+              "HornedMask": {
+                "MaterialsMap": [
+                  {
+                    "From": {
+                      "AssetPathName": "/Game/Characters/Slashers/Oman/Materials/Outfit01/MI_OKHood01_03.MI_OKHood01_03",
+                      "SubPathString": ""
+                    },
+                    "To": {
+                      "AssetPathName": "/Game/Characters/Slashers/Oman/Materials/Outfit01/MI_OKHood01_03_Horn.MI_OKHood01_03_Horn",
+                      "SubPathString": ""
+                    }
                   }
-                }
-              ]
+                ]
+              }
             }
-          }
+          ]
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -776,7 +781,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -819,7 +824,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -909,7 +914,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1014,7 +1019,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1119,7 +1124,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1235,7 +1240,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1340,7 +1345,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1372,7 +1377,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1462,7 +1467,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1567,7 +1572,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1672,7 +1677,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1777,7 +1782,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1882,7 +1887,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1987,7 +1992,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2019,7 +2024,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2109,7 +2114,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2214,7 +2219,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2319,7 +2324,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2424,7 +2429,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2529,7 +2534,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2634,7 +2639,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2739,7 +2744,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2771,7 +2776,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2872,7 +2877,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2988,7 +2993,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3093,7 +3098,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3198,7 +3203,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3314,7 +3319,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3450,7 +3455,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3566,7 +3571,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -3609,7 +3614,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],

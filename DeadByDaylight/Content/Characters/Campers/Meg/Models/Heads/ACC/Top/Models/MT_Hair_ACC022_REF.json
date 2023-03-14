@@ -2,9 +2,10 @@
   {
     "Type": "SkeletalMesh",
     "Name": "MT_Hair_ACC022_REF",
+    "Class": "UScriptClass'SkeletalMesh'",
     "Properties": {
       "Skeleton": {
-        "ObjectName": "Skeleton MT_Hair_ACC022_REF_Skeleton",
+        "ObjectName": "Skeleton'MT_Hair_ACC022_REF_Skeleton'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Models/Heads/ACC/Top/Skeletons/MT_Hair_ACC022_REF_Skeleton.0"
       },
       "LODInfo": [
@@ -251,7 +252,7 @@
       },
       "bHasBeenSimplified": true,
       "PhysicsAsset": {
-        "ObjectName": "PhysicsAsset MT_Hair_ACC022_REF_PhysicsAsset",
+        "ObjectName": "PhysicsAsset'MT_Hair_ACC022_REF_PhysicsAsset'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Models/Heads/ACC/Top/Physics/MT_Hair_ACC022_REF_PhysicsAsset.0"
       },
       "SamplingInfo": {
@@ -291,28 +292,28 @@
     },
     "ImportedBounds": {
       "Origin": {
-        "X": -0.49995422,
-        "Y": 2.623805,
-        "Z": 152.98862
+        "X": -1.221859,
+        "Y": 2.2591534,
+        "Z": 153.21698
       },
       "BoxExtent": {
-        "X": 12.485948,
-        "Y": 12.540307,
-        "Z": 14.109245
+        "X": 12.47007,
+        "Y": 12.881192,
+        "Z": 14.364128
       },
-      "SphereRadius": 22.632477
+      "SphereRadius": 22.972939
     },
     "Materials": [
       {
-        "ObjectName": "MaterialInstanceConstant MI_MTHairLock022",
+        "ObjectName": "MaterialInstanceConstant'MI_MTHairLock022'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Materials/Outfit022/MI_MTHairLock022.0"
       },
       {
-        "ObjectName": "MaterialInstanceConstant MI_MTHair022",
+        "ObjectName": "MaterialInstanceConstant'MI_MTHair022'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Materials/Outfit022/MI_MTHair022.0"
       },
       {
-        "ObjectName": "MaterialInstanceConstant MI_MTHeadAcc022",
+        "ObjectName": "MaterialInstanceConstant'MI_MTHeadAcc022'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Materials/Outfit022/MI_MTHeadAcc022.0"
       }
     ],
@@ -322,7 +323,7 @@
           {
             "MaterialIndex": 0,
             "BaseIndex": 0,
-            "NumTriangles": 232,
+            "NumTriangles": 346,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
@@ -330,7 +331,7 @@
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
             "BaseVertexIndex": 0,
-            "NumVertices": 198,
+            "NumVertices": 323,
             "MaxBoneInfluences": 1,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
@@ -341,17 +342,17 @@
           },
           {
             "MaterialIndex": 1,
-            "BaseIndex": 696,
-            "NumTriangles": 2876,
+            "BaseIndex": 1038,
+            "NumTriangles": 5410,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
             "bVisibleInRayTracing": true,
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
-            "BaseVertexIndex": 198,
-            "NumVertices": 2466,
-            "MaxBoneInfluences": 3,
+            "BaseVertexIndex": 323,
+            "NumVertices": 4177,
+            "MaxBoneInfluences": 4,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
             "bDisabled": false,
@@ -361,7 +362,7 @@
           },
           {
             "MaterialIndex": 2,
-            "BaseIndex": 9324,
+            "BaseIndex": 17268,
             "NumTriangles": 512,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
@@ -369,7 +370,7 @@
             "bVisibleInRayTracing": true,
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
-            "BaseVertexIndex": 2664,
+            "BaseVertexIndex": 4500,
             "NumVertices": 468,
             "MaxBoneInfluences": 1,
             "bUse16BitBoneIndex": false,
@@ -380,7 +381,7 @@
             "ChunkedParentSectionIndex": -1
           }
         ],
-        "NumVertices": 3132,
+        "NumVertices": 4968,
         "NumTexCoords": 1,
         "VertexBufferGPUSkin": {
           "NumTexCoords": 0,
@@ -403,7 +404,7 @@
           {
             "MaterialIndex": 0,
             "BaseIndex": 0,
-            "NumTriangles": 107,
+            "NumTriangles": 169,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
@@ -411,7 +412,7 @@
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
             "BaseVertexIndex": 0,
-            "NumVertices": 105,
+            "NumVertices": 176,
             "MaxBoneInfluences": 1,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
@@ -422,16 +423,16 @@
           },
           {
             "MaterialIndex": 1,
-            "BaseIndex": 321,
-            "NumTriangles": 1581,
+            "BaseIndex": 507,
+            "NumTriangles": 2781,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
             "bVisibleInRayTracing": true,
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
-            "BaseVertexIndex": 105,
-            "NumVertices": 1517,
+            "BaseVertexIndex": 176,
+            "NumVertices": 2366,
             "MaxBoneInfluences": 3,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
@@ -442,16 +443,16 @@
           },
           {
             "MaterialIndex": 2,
-            "BaseIndex": 5064,
-            "NumTriangles": 120,
+            "BaseIndex": 8850,
+            "NumTriangles": 182,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
             "bVisibleInRayTracing": true,
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
-            "BaseVertexIndex": 1622,
-            "NumVertices": 138,
+            "BaseVertexIndex": 2542,
+            "NumVertices": 189,
             "MaxBoneInfluences": 1,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
@@ -461,7 +462,7 @@
             "ChunkedParentSectionIndex": -1
           }
         ],
-        "NumVertices": 1760,
+        "NumVertices": 2731,
         "NumTexCoords": 1,
         "VertexBufferGPUSkin": {
           "NumTexCoords": 0,
@@ -484,7 +485,7 @@
           {
             "MaterialIndex": 0,
             "BaseIndex": 0,
-            "NumTriangles": 29,
+            "NumTriangles": 64,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
@@ -492,7 +493,7 @@
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
             "BaseVertexIndex": 0,
-            "NumVertices": 43,
+            "NumVertices": 82,
             "MaxBoneInfluences": 1,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
@@ -503,16 +504,16 @@
           },
           {
             "MaterialIndex": 1,
-            "BaseIndex": 87,
-            "NumTriangles": 489,
+            "BaseIndex": 192,
+            "NumTriangles": 824,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
             "bVisibleInRayTracing": true,
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
-            "BaseVertexIndex": 43,
-            "NumVertices": 688,
+            "BaseVertexIndex": 82,
+            "NumVertices": 984,
             "MaxBoneInfluences": 2,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
@@ -523,16 +524,16 @@
           },
           {
             "MaterialIndex": 2,
-            "BaseIndex": 1554,
-            "NumTriangles": 24,
+            "BaseIndex": 2664,
+            "NumTriangles": 52,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
             "bVisibleInRayTracing": true,
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
-            "BaseVertexIndex": 731,
-            "NumVertices": 39,
+            "BaseVertexIndex": 1066,
+            "NumVertices": 81,
             "MaxBoneInfluences": 1,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
@@ -542,7 +543,7 @@
             "ChunkedParentSectionIndex": -1
           }
         ],
-        "NumVertices": 770,
+        "NumVertices": 1147,
         "NumTexCoords": 1,
         "VertexBufferGPUSkin": {
           "NumTexCoords": 0,
@@ -565,7 +566,7 @@
           {
             "MaterialIndex": 0,
             "BaseIndex": 0,
-            "NumTriangles": 1,
+            "NumTriangles": 12,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
@@ -573,7 +574,7 @@
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
             "BaseVertexIndex": 0,
-            "NumVertices": 3,
+            "NumVertices": 30,
             "MaxBoneInfluences": 1,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
@@ -584,16 +585,16 @@
           },
           {
             "MaterialIndex": 1,
-            "BaseIndex": 3,
-            "NumTriangles": 157,
+            "BaseIndex": 36,
+            "NumTriangles": 261,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
             "bVisibleInRayTracing": true,
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
-            "BaseVertexIndex": 3,
-            "NumVertices": 315,
+            "BaseVertexIndex": 30,
+            "NumVertices": 457,
             "MaxBoneInfluences": 1,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
@@ -604,16 +605,16 @@
           },
           {
             "MaterialIndex": 2,
-            "BaseIndex": 474,
-            "NumTriangles": 4,
+            "BaseIndex": 819,
+            "NumTriangles": 8,
             "bRecomputeTangent": false,
             "RecomputeTangentsVertexMaskChannel": "Green",
             "bCastShadow": true,
             "bVisibleInRayTracing": true,
             "bLegacyClothingSection": false,
             "CorrespondClothSectionIndex": -1,
-            "BaseVertexIndex": 318,
-            "NumVertices": 6,
+            "BaseVertexIndex": 487,
+            "NumVertices": 14,
             "MaxBoneInfluences": 1,
             "bUse16BitBoneIndex": false,
             "CorrespondClothAssetIndex": -1,
@@ -623,7 +624,7 @@
             "ChunkedParentSectionIndex": -1
           }
         ],
-        "NumVertices": 324,
+        "NumVertices": 501,
         "NumTexCoords": 1,
         "VertexBufferGPUSkin": {
           "NumTexCoords": 0,

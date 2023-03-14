@@ -2,9 +2,10 @@
   {
     "Type": "MaterialInstanceConstant",
     "Name": "MI_MTHairLock022",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
     "Properties": {
       "Parent": {
-        "ObjectName": "MaterialInstanceConstant MI_HairTAA",
+        "ObjectName": "MaterialInstanceConstant'MI_HairTAA'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Materials/Instances/MI_HairTAA.0"
       },
       "bHasStaticPermutationResource": true,
@@ -15,7 +16,7 @@
             "Association": "GlobalParameter",
             "Index": -1
           },
-          "ParameterValue": 1.657899,
+          "ParameterValue": 1.260407,
           "ExpressionGUID": "A9B17786-4DDD6658-CB6CA392-DEDEB3F9"
         },
         {
@@ -24,7 +25,7 @@
             "Association": "GlobalParameter",
             "Index": -1
           },
-          "ParameterValue": -0.361755,
+          "ParameterValue": 1.0,
           "ExpressionGUID": "3FD82DB0-460CEFA1-C31FF5A9-FE8795DF"
         },
         {
@@ -33,8 +34,17 @@
             "Association": "GlobalParameter",
             "Index": -1
           },
-          "ParameterValue": 0.466667,
+          "ParameterValue": 1.1133,
           "ExpressionGUID": "9B1BDC59-4E3FFAEF-C0AAF4B9-D24116FD"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Low_Dither Amount",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "741ED6B3-475F8FE7-B00483BF-045A6000"
         },
         {
           "ParameterInfo": {
@@ -42,7 +52,7 @@
             "Association": "GlobalParameter",
             "Index": -1
           },
-          "ParameterValue": 0.466666,
+          "ParameterValue": 0.914286,
           "ExpressionGUID": "2A1E6E0B-425C9F86-49074AA3-0F33CE67"
         },
         {
@@ -69,7 +79,7 @@
             "Association": "GlobalParameter",
             "Index": -1
           },
-          "ParameterValue": 40.0,
+          "ParameterValue": 0.1,
           "ExpressionGUID": "EA516826-45F99417-26CCF1B9-AF7BDB50"
         },
         {
@@ -87,7 +97,7 @@
             "Association": "GlobalParameter",
             "Index": -1
           },
-          "ParameterValue": 1.0,
+          "ParameterValue": 0.333333,
           "ExpressionGUID": "D18675FD-4A4B3556-8DE8D9AD-754BCC46"
         },
         {
@@ -138,11 +148,11 @@
             "Index": -1
           },
           "ParameterValue": {
-            "R": 0.59375,
-            "G": 0.457905,
-            "B": 0.380371,
+            "R": 0.307292,
+            "G": 0.236986,
+            "B": 0.196859,
             "A": 1.0,
-            "Hex": "FFCBB4A6"
+            "Hex": "FF97867B"
           },
           "ExpressionGUID": "B6F73768-4332D437-0396EBB0-CA624040"
         },
@@ -170,7 +180,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_CMMHair_03_A",
+            "ObjectName": "Texture2D'T_CMMHair_03_A'",
             "ObjectPath": "DeadByDaylight/Content/Characters/Campers/CommonAcc/Textures/Top/T_CMMHair_03_A.0"
           },
           "ExpressionGUID": "39A9C32C-46E2E00D-568AB3BD-9F933A15"
@@ -182,7 +192,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_CMMHair_03_Heigth",
+            "ObjectName": "Texture2D'T_CMMHair_03_Heigth'",
             "ObjectPath": "DeadByDaylight/Content/Characters/Campers/CommonAcc/Textures/Top/T_CMMHair_03_Heigth.0"
           },
           "ExpressionGUID": "389AAB9E-4236D7EE-901180AB-1691B780"
@@ -194,8 +204,8 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_CMMHair_04_BC",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/CommonAcc/Textures/Top/T_CMMHair_04_BC.0"
+            "ObjectName": "Texture2D'T_MTHairStrand022_BC'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Textures/Outfit022/T_MTHairStrand022_BC.0"
           },
           "ExpressionGUID": "3C31A915-4E36AEAB-1659B296-6CB2F00F"
         },
@@ -206,8 +216,8 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_CMMHair_03_N",
-            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/CommonAcc/Textures/Top/T_CMMHair_03_N.0"
+            "ObjectName": "Texture2D'T_CMMHair_03_Soft_N'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/CommonAcc/Textures/Top/T_CMMHair_03_Soft_N.0"
           },
           "ExpressionGUID": "50DE2B57-46C82BB8-DA48ACA0-8E46ECBC"
         },
@@ -218,8 +228,8 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D Fxt_verticalGradient",
-            "ObjectPath": "DeadByDaylight/Content/Effects/Textures/Fxt_verticalGradient.0"
+            "ObjectName": "Texture2D'T_CMMHair_03_Gradiant'",
+            "ObjectPath": "DeadByDaylight/Content/Characters/Campers/CommonAcc/Textures/Top/T_CMMHair_03_Gradiant.0"
           },
           "ExpressionGUID": "B2FFA19F-4A18CFC8-817B648C-098BD54D"
         }
@@ -235,47 +245,47 @@
       },
       "CachedReferencedTextures": [
         {
-          "ObjectName": "Texture2D T_CMMHair000_M",
+          "ObjectName": "Texture2D'T_CMMHair000_M'",
           "ObjectPath": "DeadByDaylight/Content/Characters/Campers/CommonAcc/Textures/Top/T_CMMHair000_M.0"
         },
         {
-          "ObjectName": "Texture2D Black",
+          "ObjectName": "Texture2D'Black'",
           "ObjectPath": "DeadByDaylight/Content/Textures/Environment/Tiles/Black.0"
         },
         {
-          "ObjectName": "Texture2D T_CMMHair000_N",
+          "ObjectName": "Texture2D'T_CMMHair000_N'",
           "ObjectPath": "DeadByDaylight/Content/Characters/Campers/CommonAcc/Textures/Top/T_CMMHair000_N.0"
         },
         {
-          "ObjectName": "Texture2D BlendFunc_DefBase",
+          "ObjectName": "Texture2D'BlendFunc_DefBase'",
           "ObjectPath": "Engine/Content/EngineMaterials/BlendFunc_DefBase.0"
         },
         {
-          "ObjectName": "Texture2D BlendFunc_DefBlend",
+          "ObjectName": "Texture2D'BlendFunc_DefBlend'",
           "ObjectPath": "Engine/Content/EngineMaterials/BlendFunc_DefBlend.0"
         },
         {
-          "ObjectName": "Texture2D Fxt_verticalGradient",
+          "ObjectName": "Texture2D'Fxt_verticalGradient'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/Fxt_verticalGradient.0"
         },
         {
-          "ObjectName": "Texture2D T_GS_FrontSign_Flickerama",
+          "ObjectName": "Texture2D'T_GS_FrontSign_Flickerama'",
           "ObjectPath": "DeadByDaylight/Content/Textures/Environment/Junkyard/Structures/T_GS_FrontSign_Flickerama.0"
         },
         {
-          "ObjectName": "Texture2D T_TileNoise",
+          "ObjectName": "Texture2D'T_TileNoise'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/Noise/T_TileNoise.0"
         },
         {
-          "ObjectName": "Texture2D T_DissolveTextures",
+          "ObjectName": "Texture2D'T_DissolveTextures'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_DissolveTextures.0"
         },
         {
-          "ObjectName": "Texture2D T_FX_DissolveRamp",
+          "ObjectName": "Texture2D'T_FX_DissolveRamp'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_FX_DissolveRamp.0"
         },
         {
-          "ObjectName": "Texture2D T_Halftone",
+          "ObjectName": "Texture2D'T_Halftone'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/K31/T_Halftone.0"
         }
       ],
@@ -288,17 +298,17 @@
         {
           "SamplingScale": 1.0,
           "UVChannelIndex": 0,
-          "TextureName": "Fxt_verticalGradient"
-        },
-        {
-          "SamplingScale": 1.0,
-          "UVChannelIndex": 0,
           "TextureName": "T_CMMHair_03_A"
         },
         {
           "SamplingScale": 1.0,
           "UVChannelIndex": 0,
-          "TextureName": "T_CMMHair_03_N"
+          "TextureName": "T_CMMHair_03_Gradiant"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_CMMHair_03_Soft_N"
         }
       ]
     }

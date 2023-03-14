@@ -2,9 +2,10 @@
   {
     "Type": "SkeletalMesh",
     "Name": "MT_Tubes_ACC022_REF",
+    "Class": "UScriptClass'SkeletalMesh'",
     "Properties": {
       "Skeleton": {
-        "ObjectName": "Skeleton MT_Tubes_ACC022_REF_Skeleton",
+        "ObjectName": "Skeleton'MT_Tubes_ACC022_REF_Skeleton'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Models/Torsos/ACC/Body/Skeletons/MT_Tubes_ACC022_REF_Skeleton.0"
       },
       "LODInfo": [
@@ -244,7 +245,7 @@
       },
       "bHasBeenSimplified": true,
       "PhysicsAsset": {
-        "ObjectName": "PhysicsAsset MT_Tubes_ACC022_REF_PhysicsAsset",
+        "ObjectName": "PhysicsAsset'MT_Tubes_ACC022_REF_PhysicsAsset'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Models/Torsos/ACC/Body/Physics/MT_Tubes_ACC022_REF_PhysicsAsset.0"
       },
       "SamplingInfo": {
@@ -297,7 +298,7 @@
     },
     "Materials": [
       {
-        "ObjectName": "MaterialInstanceConstant MI_MTTorsoAcc022",
+        "ObjectName": "MaterialInstanceConstant'MI_MTTorsoAcc022'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Materials/Outfit022/MI_MTTorsoAcc022.0"
       }
     ],

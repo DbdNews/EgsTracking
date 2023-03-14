@@ -2,9 +2,10 @@
   {
     "Type": "MaterialInstanceConstant",
     "Name": "MI_Unlit_Masked_01_VoidEnergyOrb_03",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
     "Properties": {
       "Parent": {
-        "ObjectName": "Material M_Unlit_Translucent_Refraction_01",
+        "ObjectName": "Material'M_Unlit_Translucent_Refraction_01'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Materials/M_Unlit_Translucent_Refraction_01.0"
       },
       "bHasStaticPermutationResource": true,
@@ -189,7 +190,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D DefaultTexture",
+            "ObjectName": "Texture2D'DefaultTexture'",
             "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
           },
           "ExpressionGUID": "51D48D06-4A96D88F-4B53DBB8-C71DED2F"
@@ -201,7 +202,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D T_TilingClouds_01",
+            "ObjectName": "Texture2D'T_TilingClouds_01'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_TilingClouds_01.0"
           },
           "ExpressionGUID": "66DEAA1E-4AF53DDE-59881293-177E8327"
@@ -213,7 +214,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D CMM_Soft_Gradient",
+            "ObjectName": "Texture2D'CMM_Soft_Gradient'",
             "ObjectPath": "DeadByDaylight/Content/Characters/Campers/CommonAcc/Textures/Top/CMM_Soft_Gradient.0"
           },
           "ExpressionGUID": "A01810CE-4B7249CD-ABEA64B0-9F4BC07D"
@@ -225,7 +226,7 @@
             "Index": -1
           },
           "ParameterValue": {
-            "ObjectName": "Texture2D Fx_radialGradient",
+            "ObjectName": "Texture2D'Fx_radialGradient'",
             "ObjectPath": "DeadByDaylight/Content/Effects/Textures/Fx_radialGradient.0"
           },
           "ExpressionGUID": "423949DB-4F569FD2-2DB2A887-60390AB6"
@@ -323,19 +324,19 @@
       "CachedReferencedTextures": [
         null,
         {
-          "ObjectName": "Texture2D T_Tiling_Caustics_02",
+          "ObjectName": "Texture2D'T_Tiling_Caustics_02'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_Tiling_Caustics_02.0"
         },
         {
-          "ObjectName": "Texture2D DefaultTexture",
+          "ObjectName": "Texture2D'DefaultTexture'",
           "ObjectPath": "Engine/Content/EngineResources/DefaultTexture.0"
         },
         {
-          "ObjectName": "Texture2D T_Gradient_Halloween2022_01",
+          "ObjectName": "Texture2D'T_Gradient_Halloween2022_01'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_Gradient_Halloween2022_01.0"
         },
         {
-          "ObjectName": "Texture2D T_blood_cloud_01",
+          "ObjectName": "Texture2D'T_blood_cloud_01'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Textures/T_blood_cloud_01.0"
         }
       ],

@@ -3,6 +3,7 @@
     "Type": "Function",
     "Name": "ExecuteUbergraph_BP_BarrelPlayerComponent",
     "Outer": "BP_BarrelPlayerComponent_C",
+    "Class": "UScriptClass'Function'",
     "ChildProperties": [
       {
         "Type": "IntProperty",
@@ -18,7 +19,7 @@
         "ElementSize": 8,
         "PropertyFlags": 2,
         "PropertyClass": {
-          "ObjectName": "Class DBDPlayer",
+          "ObjectName": "Class'DBDPlayer'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
@@ -29,7 +30,7 @@
         "ElementSize": 1,
         "PropertyFlags": 2,
         "Enum": {
-          "ObjectName": "Enum EBarrelType",
+          "ObjectName": "Enum'EBarrelType'",
           "ObjectPath": "/Script/Barrel2023"
         },
         "UnderlyingProp": {
@@ -59,8 +60,9 @@
     "Type": "Function",
     "Name": "Cosmetic_TriggerPlayerVignette",
     "Outer": "BP_BarrelPlayerComponent_C",
+    "Class": "UScriptClass'Function'",
     "SuperStruct": {
-      "ObjectName": "Function BarrelPlayerComponent:Cosmetic_TriggerPlayerVignette",
+      "ObjectName": "Function'BarrelPlayerComponent:Cosmetic_TriggerPlayerVignette'",
       "ObjectPath": "/Script/Barrel2023"
     },
     "ChildProperties": [
@@ -71,7 +73,7 @@
         "ElementSize": 8,
         "PropertyFlags": 150,
         "PropertyClass": {
-          "ObjectName": "Class DBDPlayer",
+          "ObjectName": "Class'DBDPlayer'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
@@ -82,7 +84,7 @@
         "ElementSize": 1,
         "PropertyFlags": 150,
         "Enum": {
-          "ObjectName": "Enum EBarrelType",
+          "ObjectName": "Enum'EBarrelType'",
           "ObjectPath": "/Script/Barrel2023"
         },
         "UnderlyingProp": {
@@ -99,23 +101,24 @@
   {
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_BarrelPlayerComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
     "Properties": {
       "UberGraphFunction": {
-        "ObjectName": "Function BP_BarrelPlayerComponent_C:ExecuteUbergraph_BP_BarrelPlayerComponent",
+        "ObjectName": "Function'BP_BarrelPlayerComponent_C:ExecuteUbergraph_BP_BarrelPlayerComponent'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelPlayerComponent.0"
       }
     },
     "SuperStruct": {
-      "ObjectName": "Class BarrelPlayerComponent",
+      "ObjectName": "Class'BarrelPlayerComponent'",
       "ObjectPath": "/Script/Barrel2023"
     },
     "Children": [
       {
-        "ObjectName": "Function BP_BarrelPlayerComponent_C:Cosmetic_TriggerPlayerVignette",
+        "ObjectName": "Function'BP_BarrelPlayerComponent_C:Cosmetic_TriggerPlayerVignette'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelPlayerComponent.1"
       },
       {
-        "ObjectName": "Function BP_BarrelPlayerComponent_C:ExecuteUbergraph_BP_BarrelPlayerComponent",
+        "ObjectName": "Function'BP_BarrelPlayerComponent_C:ExecuteUbergraph_BP_BarrelPlayerComponent'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelPlayerComponent.0"
       }
     ],
@@ -127,7 +130,7 @@
         "ElementSize": 16,
         "PropertyFlags": 2105344,
         "Struct": {
-          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
           "ObjectPath": "/Script/Engine"
         }
       },
@@ -144,7 +147,7 @@
           "ElementSize": 8,
           "PropertyFlags": 524288,
           "PropertyClass": {
-            "ObjectName": "Class NiagaraComponent",
+            "ObjectName": "Class'NiagaraComponent'",
             "ObjectPath": "/Script/Niagara"
           }
         }
@@ -162,7 +165,7 @@
           "ElementSize": 8,
           "PropertyFlags": 524288,
           "PropertyClass": {
-            "ObjectName": "Class NiagaraComponent",
+            "ObjectName": "Class'NiagaraComponent'",
             "ObjectPath": "/Script/Niagara"
           }
         }
@@ -170,29 +173,30 @@
     ],
     "FuncMap": {
       "ExecuteUbergraph_BP_BarrelPlayerComponent": {
-        "ObjectName": "Function BP_BarrelPlayerComponent_C:ExecuteUbergraph_BP_BarrelPlayerComponent",
+        "ObjectName": "Function'BP_BarrelPlayerComponent_C:ExecuteUbergraph_BP_BarrelPlayerComponent'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelPlayerComponent.0"
       },
       "Cosmetic_TriggerPlayerVignette": {
-        "ObjectName": "Function BP_BarrelPlayerComponent_C:Cosmetic_TriggerPlayerVignette",
+        "ObjectName": "Function'BP_BarrelPlayerComponent_C:Cosmetic_TriggerPlayerVignette'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelPlayerComponent.1"
       }
     },
     "ClassFlags": 10749972,
     "ClassWithin": {
-      "ObjectName": "Class Object",
+      "ObjectName": "Class'Object'",
       "ObjectPath": "/Script/CoreUObject"
     },
     "ClassConfigName": "Engine",
     "bCooked": true,
     "ClassDefaultObject": {
-      "ObjectName": "BP_BarrelPlayerComponent_C Default__BP_BarrelPlayerComponent_C",
+      "ObjectName": "BP_BarrelPlayerComponent_C'Default__BP_BarrelPlayerComponent_C'",
       "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelPlayerComponent.3"
     }
   },
   {
     "Type": "BP_BarrelPlayerComponent_C",
     "Name": "Default__BP_BarrelPlayerComponent_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelPlayerComponent.BP_BarrelPlayerComponent_C'",
     "Properties": {
       "UberGraphFrame": {}
     }

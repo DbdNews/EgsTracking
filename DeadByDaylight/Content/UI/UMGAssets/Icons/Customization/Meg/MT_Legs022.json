@@ -2,12 +2,13 @@
   {
     "Type": "Texture2D",
     "Name": "MT_Legs022",
+    "Class": "UScriptClass'Texture2D'",
     "Properties": {
       "ImportedSize": {
         "X": 512,
         "Y": 512
       },
-      "LightingGuid": "B4C2576B-42B0D60E-99F64590-028C0E2B",
+      "LightingGuid": "C892115E-46CD7623-E07C5597-7B9C0A59",
       "LODGroup": "TEXTUREGROUP_UI"
     },
     "SizeX": 512,
@@ -18,7 +19,7 @@
     "Mips": [
       {
         "BulkData": {
-          "BulkDataFlags": "BULKDATA_ForceInlinePayload",
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
           "ElementCount": 262144,
           "SizeOnDisk": 262144,
           "OffsetInFile": "0x4086C"

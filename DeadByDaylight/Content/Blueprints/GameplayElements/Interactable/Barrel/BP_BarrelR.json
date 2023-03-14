@@ -3,6 +3,7 @@
     "Type": "Function",
     "Name": "ExecuteUbergraph_BP_BarrelR",
     "Outer": "BP_BarrelR_C",
+    "Class": "UScriptClass'Function'",
     "ChildProperties": [
       {
         "Type": "IntProperty",
@@ -23,7 +24,7 @@
           "Flags": 1,
           "ElementSize": 56,
           "Struct": {
-            "ObjectName": "ScriptStruct AkExternalSourceInfo",
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
             "ObjectPath": "/Script/AkAudio"
           }
         }
@@ -35,7 +36,7 @@
         "ElementSize": 20,
         "PropertyFlags": 2,
         "SignatureFunction": {
-          "ObjectName": "DelegateFunction OnAkPostEventCallback__DelegateSignature",
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
           "ObjectPath": "/Script/AkAudio"
         }
       },
@@ -52,8 +53,9 @@
     "Type": "Function",
     "Name": "OnUnhidden",
     "Outer": "BP_BarrelR_C",
+    "Class": "UScriptClass'Function'",
     "SuperStruct": {
-      "ObjectName": "Function RespawnableInteractable:OnUnhidden",
+      "ObjectName": "Function'RespawnableInteractable:OnUnhidden'",
       "ObjectPath": "/Script/SpecialEventUtilities"
     },
     "FunctionFlags": 134744064
@@ -62,31 +64,32 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_BarrelR_C",
     "Super": "BP_Barrel_Base_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
     "Properties": {
       "SimpleConstructionScript": {
-        "ObjectName": "SimpleConstructionScript BP_BarrelR_C:SimpleConstructionScript_0",
+        "ObjectName": "SimpleConstructionScript'BP_BarrelR_C:SimpleConstructionScript_0'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.20"
       },
       "InheritableComponentHandler": {
-        "ObjectName": "InheritableComponentHandler BP_BarrelR_C:InheritableComponentHandler",
+        "ObjectName": "InheritableComponentHandler'BP_BarrelR_C:InheritableComponentHandler'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.10"
       },
       "UberGraphFunction": {
-        "ObjectName": "Function BP_BarrelR_C:ExecuteUbergraph_BP_BarrelR",
+        "ObjectName": "Function'BP_BarrelR_C:ExecuteUbergraph_BP_BarrelR'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.0"
       }
     },
     "SuperStruct": {
-      "ObjectName": "BlueprintGeneratedClass BP_Barrel_Base_C",
+      "ObjectName": "BlueprintGeneratedClass'BP_Barrel_Base_C'",
       "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_Barrel_Base.25"
     },
     "Children": [
       {
-        "ObjectName": "Function BP_BarrelR_C:OnUnhidden",
+        "ObjectName": "Function'BP_BarrelR_C:OnUnhidden'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.1"
       },
       {
-        "ObjectName": "Function BP_BarrelR_C:ExecuteUbergraph_BP_BarrelR",
+        "ObjectName": "Function'BP_BarrelR_C:ExecuteUbergraph_BP_BarrelR'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.0"
       }
     ],
@@ -98,30 +101,30 @@
         "ElementSize": 16,
         "PropertyFlags": 2105344,
         "Struct": {
-          "ObjectName": "ScriptStruct PointerToUberGraphFrame",
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
           "ObjectPath": "/Script/Engine"
         }
       }
     ],
     "FuncMap": {
       "ExecuteUbergraph_BP_BarrelR": {
-        "ObjectName": "Function BP_BarrelR_C:ExecuteUbergraph_BP_BarrelR",
+        "ObjectName": "Function'BP_BarrelR_C:ExecuteUbergraph_BP_BarrelR'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.0"
       },
       "OnUnhidden": {
-        "ObjectName": "Function BP_BarrelR_C:OnUnhidden",
+        "ObjectName": "Function'BP_BarrelR_C:OnUnhidden'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.1"
       }
     },
     "ClassFlags": 8652820,
     "ClassWithin": {
-      "ObjectName": "Class Object",
+      "ObjectName": "Class'Object'",
       "ObjectPath": "/Script/CoreUObject"
     },
     "ClassConfigName": "Engine",
     "bCooked": true,
     "ClassDefaultObject": {
-      "ObjectName": "BP_BarrelR_C Default__BP_BarrelR_C",
+      "ObjectName": "BP_BarrelR_C'Default__BP_BarrelR_C'",
       "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.3"
     }
   },
@@ -129,6 +132,7 @@
     "Type": "BP_BarrelR_C",
     "Name": "Default__BP_BarrelR_C",
     "Template": "Default__BP_Barrel_Base_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.BP_BarrelR_C'",
     "Properties": {
       "UberGraphFrame": {},
       "GenmatColor": {
@@ -146,67 +150,67 @@
         "Hex": "FFFF4646"
       },
       "NS_Survivor_InteractionComplete": {
-        "ObjectName": "NiagaraSystem NS_MyM_Barrel_Complete_Red",
+        "ObjectName": "NiagaraSystem'NS_MyM_Barrel_Complete_Red'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_Barrel_Complete_Red.58"
       },
       "NS_Killer_InteractionComplete": {
-        "ObjectName": "NiagaraSystem NS_MyM_Barrel_KillerComplete_Red",
+        "ObjectName": "NiagaraSystem'NS_MyM_Barrel_KillerComplete_Red'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_Barrel_KillerComplete_Red.49"
       },
       "NS_SurvivorReward": {
-        "ObjectName": "NiagaraSystem NS_MyM_Survivor_CollectableEmbers_Red",
+        "ObjectName": "NiagaraSystem'NS_MyM_Survivor_CollectableEmbers_Red'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_Survivor_CollectableEmbers_Red.135"
       },
       "NS_KillerReward": {
-        "ObjectName": "NiagaraSystem NS_MyM_Barrel_KillerVignette_Red",
+        "ObjectName": "NiagaraSystem'NS_MyM_Barrel_KillerVignette_Red'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Niagara/NiagaraParticleSystem/MyM/NS_MyM_Barrel_KillerVignette_Red.28"
       },
       "_barrelInteraction": {
-        "ObjectName": "BarrelInteraction Default__BP_BarrelR_C:BarrelInteraction",
+        "ObjectName": "BarrelInteraction'Default__BP_BarrelR_C:BarrelInteraction'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.4"
       },
       "_barrelInteractionKiller": {
-        "ObjectName": "BarrelInteraction Default__BP_BarrelR_C:BarrelInteractionKiller",
+        "ObjectName": "BarrelInteraction'Default__BP_BarrelR_C:BarrelInteractionKiller'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.5"
       },
       "_barrelInteractionChargeable": {
-        "ObjectName": "ChargeableComponent Default__BP_BarrelR_C:BarrelInteractionChargeable",
+        "ObjectName": "ChargeableComponent'Default__BP_BarrelR_C:BarrelInteractionChargeable'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.7"
       },
       "_barrelInteractionChargeableKiller": {
-        "ObjectName": "ChargeableComponent Default__BP_BarrelR_C:BarrelInteractionChargeableKiller",
+        "ObjectName": "ChargeableComponent'Default__BP_BarrelR_C:BarrelInteractionChargeableKiller'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.8"
       },
       "_barrelInteractionZone": {
-        "ObjectName": "BoxComponent Default__BP_BarrelR_C:BarrelInteractionZone",
+        "ObjectName": "BoxComponent'Default__BP_BarrelR_C:BarrelInteractionZone'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.6"
       },
       "_barrelInteractor": {
-        "ObjectName": "Interactor Default__BP_BarrelR_C:BarrelInteractor",
+        "ObjectName": "Interactor'Default__BP_BarrelR_C:BarrelInteractor'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.12"
       },
       "_barrelStaticMesh": {
-        "ObjectName": "StaticMeshComponent Default__BP_BarrelR_C:BarrelStaticMesh",
+        "ObjectName": "StaticMeshComponent'Default__BP_BarrelR_C:BarrelStaticMesh'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.21"
       },
       "_extractorStaticMesh": {
-        "ObjectName": "StaticMeshComponent Default__BP_BarrelR_C:ExtractorStaticMesh",
+        "ObjectName": "StaticMeshComponent'Default__BP_BarrelR_C:ExtractorStaticMesh'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.22"
       },
       "_barrelType": "EBarrelType::RedBarrel",
       "_outlineComponent": {
-        "ObjectName": "DBDOutlineComponent Default__BP_BarrelR_C:OutlineComponent",
+        "ObjectName": "DBDOutlineComponent'Default__BP_BarrelR_C:OutlineComponent'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.9"
       },
       "_scoreTag": {
         "TagName": "GameEvent.ScoreEvent.Barrel.BarrelR"
       },
       "_transformOptimizer": {
-        "ObjectName": "InteractableTransformOptimizer Default__BP_BarrelR_C:InteractableOptimizer",
+        "ObjectName": "InteractableTransformOptimizer'Default__BP_BarrelR_C:InteractableOptimizer'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.11"
       },
       "RootComponent": {
-        "ObjectName": "SceneComponent Default__BP_BarrelR_C:Root",
+        "ObjectName": "SceneComponent'Default__BP_BarrelR_C:Root'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.18"
       }
     }
@@ -216,17 +220,18 @@
     "Name": "BarrelInteraction",
     "Outer": "Default__BP_BarrelR_C",
     "Template": "BarrelInteraction",
+    "Class": "UScriptClass'BarrelInteraction'",
     "Properties": {
       "_interactor": {
-        "ObjectName": "Interactor Default__BP_BarrelR_C:BarrelInteractor",
+        "ObjectName": "Interactor'Default__BP_BarrelR_C:BarrelInteractor'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.12"
       },
       "_zone": {
-        "ObjectName": "BoxComponent Default__BP_BarrelR_C:BarrelInteractionZone",
+        "ObjectName": "BoxComponent'Default__BP_BarrelR_C:BarrelInteractionZone'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.6"
       },
       "AttachParent": {
-        "ObjectName": "Interactor Default__BP_BarrelR_C:BarrelInteractor",
+        "ObjectName": "Interactor'Default__BP_BarrelR_C:BarrelInteractor'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.12"
       }
     }
@@ -236,17 +241,18 @@
     "Name": "BarrelInteractionKiller",
     "Outer": "Default__BP_BarrelR_C",
     "Template": "BarrelInteractionKiller",
+    "Class": "UScriptClass'BarrelInteraction'",
     "Properties": {
       "_interactor": {
-        "ObjectName": "Interactor Default__BP_BarrelR_C:BarrelInteractor",
+        "ObjectName": "Interactor'Default__BP_BarrelR_C:BarrelInteractor'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.12"
       },
       "_zone": {
-        "ObjectName": "BoxComponent Default__BP_BarrelR_C:BarrelInteractionZone",
+        "ObjectName": "BoxComponent'Default__BP_BarrelR_C:BarrelInteractionZone'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.6"
       },
       "AttachParent": {
-        "ObjectName": "Interactor Default__BP_BarrelR_C:BarrelInteractor",
+        "ObjectName": "Interactor'Default__BP_BarrelR_C:BarrelInteractor'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.12"
       }
     }
@@ -256,9 +262,10 @@
     "Name": "BarrelInteractionZone",
     "Outer": "Default__BP_BarrelR_C",
     "Template": "BarrelInteractionZone",
+    "Class": "UScriptClass'BoxComponent'",
     "Properties": {
       "AttachParent": {
-        "ObjectName": "SceneComponent Default__BP_BarrelR_C:Root",
+        "ObjectName": "SceneComponent'Default__BP_BarrelR_C:Root'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.18"
       }
     }
@@ -267,22 +274,25 @@
     "Type": "ChargeableComponent",
     "Name": "BarrelInteractionChargeable",
     "Outer": "Default__BP_BarrelR_C",
-    "Template": "BarrelInteractionChargeable"
+    "Template": "BarrelInteractionChargeable",
+    "Class": "UScriptClass'ChargeableComponent'"
   },
   {
     "Type": "ChargeableComponent",
     "Name": "BarrelInteractionChargeableKiller",
     "Outer": "Default__BP_BarrelR_C",
-    "Template": "BarrelInteractionChargeableKiller"
+    "Template": "BarrelInteractionChargeableKiller",
+    "Class": "UScriptClass'ChargeableComponent'"
   },
   {
     "Type": "DBDOutlineComponent",
     "Name": "OutlineComponent",
     "Outer": "Default__BP_BarrelR_C",
     "Template": "OutlineComponent",
+    "Class": "UScriptClass'DBDOutlineComponent'",
     "Properties": {
       "AttachParent": {
-        "ObjectName": "StaticMeshComponent Default__BP_BarrelR_C:BarrelStaticMesh",
+        "ObjectName": "StaticMeshComponent'Default__BP_BarrelR_C:BarrelStaticMesh'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.21"
       }
     }
@@ -291,20 +301,21 @@
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
     "Outer": "BP_BarrelR_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
     "Properties": {
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class NiagaraComponent",
+            "ObjectName": "Class'NiagaraComponent'",
             "ObjectPath": "/Script/Niagara"
           },
           "ComponentTemplate": {
-            "ObjectName": "NiagaraComponent BP_BarrelR_C:NS_MyM_BarrelLight_GEN_VARIABLE",
+            "ObjectName": "NiagaraComponent'BP_BarrelR_C:NS_MyM_BarrelLight_GEN_VARIABLE'",
             "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.13"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass BP_Barrel_Base_C",
+              "ObjectName": "BlueprintGeneratedClass'BP_Barrel_Base_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_Barrel_Base.25"
             },
             "SCSVariableName": "NS_MyM_BarrelLight",
@@ -322,16 +333,18 @@
     "Type": "InteractableTransformOptimizer",
     "Name": "InteractableOptimizer",
     "Outer": "Default__BP_BarrelR_C",
-    "Template": "InteractableOptimizer"
+    "Template": "InteractableOptimizer",
+    "Class": "UScriptClass'InteractableTransformOptimizer'"
   },
   {
     "Type": "Interactor",
     "Name": "BarrelInteractor",
     "Outer": "Default__BP_BarrelR_C",
     "Template": "BarrelInteractor",
+    "Class": "UScriptClass'Interactor'",
     "Properties": {
       "AttachParent": {
-        "ObjectName": "BoxComponent Default__BP_BarrelR_C:BarrelInteractionZone",
+        "ObjectName": "BoxComponent'Default__BP_BarrelR_C:BarrelInteractionZone'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.6"
       }
     }
@@ -341,6 +354,7 @@
     "Name": "NS_MyM_BarrelLight_GEN_VARIABLE",
     "Outer": "BP_BarrelR_C",
     "Template": "NS_MyM_BarrelLight_GEN_VARIABLE",
+    "Class": "UScriptClass'NiagaraComponent'",
     "Properties": {
       "OverrideParameters": {
         "ParameterData": [
@@ -391,7 +405,7 @@
         ],
         "DataInterfaces": [
           {
-            "ObjectName": "NiagaraDataInterfaceColorCurve BP_BarrelR_C:NS_MyM_BarrelLight_GEN_VARIABLE.NiagaraDataInterfaceColorCurve_0",
+            "ObjectName": "NiagaraDataInterfaceColorCurve'BP_BarrelR_C:NS_MyM_BarrelLight_GEN_VARIABLE.NiagaraDataInterfaceColorCurve_0'",
             "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.14"
           }
         ]
@@ -403,6 +417,7 @@
     "Name": "NiagaraDataInterfaceColorCurve_0",
     "Outer": "NS_MyM_BarrelLight_GEN_VARIABLE",
     "Template": "NiagaraDataInterfaceColorCurve_0",
+    "Class": "UScriptClass'NiagaraDataInterfaceColorCurve'",
     "Properties": {
       "RedCurve": {
         "Keys": []
@@ -864,6 +879,7 @@
     "Type": "NiagaraDataInterfaceColorCurve",
     "Name": "NiagaraDataInterfaceColorCurve_1",
     "Outer": "NS_MyM_BarrelLight_GEN_VARIABLE",
+    "Class": "UScriptClass'NiagaraDataInterfaceColorCurve'",
     "Properties": {
       "ShaderLUT": [
         20.0,
@@ -1368,6 +1384,7 @@
     "Type": "NiagaraDataInterfaceColorCurve",
     "Name": "NiagaraDataInterfaceColorCurve_159",
     "Outer": "NS_MyM_BarrelLight_GEN_VARIABLE",
+    "Class": "UScriptClass'NiagaraDataInterfaceColorCurve'",
     "Properties": {
       "ShaderLUT": [
         10.0,
@@ -1815,25 +1832,28 @@
   {
     "Type": "SceneComponent",
     "Name": "DefaultSceneRoot_GEN_VARIABLE",
-    "Outer": "BP_BarrelR_C"
+    "Outer": "BP_BarrelR_C",
+    "Class": "UScriptClass'SceneComponent'"
   },
   {
     "Type": "SceneComponent",
     "Name": "Root",
     "Outer": "Default__BP_BarrelR_C",
-    "Template": "Root"
+    "Template": "Root",
+    "Class": "UScriptClass'SceneComponent'"
   },
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_0",
     "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class SceneComponent",
+        "ObjectName": "Class'SceneComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "SceneComponent BP_BarrelR_C:DefaultSceneRoot_GEN_VARIABLE",
+        "ObjectName": "SceneComponent'BP_BarrelR_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.17"
       },
       "VariableGuid": "8936F7A3-4DE4C944-93A48DAD-972C6061",
@@ -1844,9 +1864,10 @@
     "Type": "SimpleConstructionScript",
     "Name": "SimpleConstructionScript_0",
     "Outer": "BP_BarrelR_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
     "Properties": {
       "DefaultSceneRootNode": {
-        "ObjectName": "SCS_Node BP_BarrelR_C:SimpleConstructionScript_0.SCS_Node_0",
+        "ObjectName": "SCS_Node'BP_BarrelR_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.19"
       }
     }
@@ -1856,9 +1877,10 @@
     "Name": "BarrelStaticMesh",
     "Outer": "Default__BP_BarrelR_C",
     "Template": "BarrelStaticMesh",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "AttachParent": {
-        "ObjectName": "SceneComponent Default__BP_BarrelR_C:Root",
+        "ObjectName": "SceneComponent'Default__BP_BarrelR_C:Root'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.18"
       }
     }
@@ -1868,9 +1890,10 @@
     "Name": "ExtractorStaticMesh",
     "Outer": "Default__BP_BarrelR_C",
     "Template": "ExtractorStaticMesh",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "AttachParent": {
-        "ObjectName": "SceneComponent Default__BP_BarrelR_C:Root",
+        "ObjectName": "SceneComponent'Default__BP_BarrelR_C:Root'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Barrel/BP_BarrelR.18"
       }
     }

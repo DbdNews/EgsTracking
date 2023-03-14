@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "CustomizationItemDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct CustomizationItemData",
+        "ObjectName": "ScriptStruct'CustomizationItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -26,7 +27,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -128,7 +129,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -230,7 +231,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -365,7 +366,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -518,7 +519,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -620,7 +621,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -724,7 +725,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -753,7 +754,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -843,7 +844,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -945,7 +946,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1058,7 +1059,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1108,7 +1109,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1219,7 +1220,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1342,7 +1343,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1444,7 +1445,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1470,21 +1471,10 @@
               "SubPathString": ""
             },
             "SocketName": "None",
-            "MaterialsMap": [
-              {
-                "From": {
-                  "AssetPathName": "/Game/Characters/Campers/S36/Materials/Outfit01/MI_S36Hair01.MI_S36Hair01",
-                  "SubPathString": ""
-                },
-                "To": {
-                  "AssetPathName": "/Game/Characters/Campers/S36/Materials/Outfit01/MI_S36Hair01_01.MI_S36Hair01_01",
-                  "SubPathString": ""
-                }
-              }
-            ],
+            "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1574,7 +1564,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1676,7 +1666,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1789,7 +1779,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1829,7 +1819,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1940,7 +1930,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2063,7 +2053,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2176,7 +2166,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2299,7 +2289,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2422,22 +2412,24 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {
-            "None": {
-              "MaterialsMap": [
-                {
-                  "From": {
-                    "AssetPathName": "None",
-                    "SubPathString": ""
-                  },
-                  "To": {
-                    "AssetPathName": "None",
-                    "SubPathString": ""
+          "ConditionalMaterials": [
+            {
+              "None": {
+                "MaterialsMap": [
+                  {
+                    "From": {
+                      "AssetPathName": "None",
+                      "SubPathString": ""
+                    },
+                    "To": {
+                      "AssetPathName": "None",
+                      "SubPathString": ""
+                    }
                   }
-                }
-              ]
+                ]
+              }
             }
-          }
+          ]
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],

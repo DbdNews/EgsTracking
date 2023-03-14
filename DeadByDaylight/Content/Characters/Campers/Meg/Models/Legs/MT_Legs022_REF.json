@@ -2,9 +2,10 @@
   {
     "Type": "SkeletalMesh",
     "Name": "MT_Legs022_REF",
+    "Class": "UScriptClass'SkeletalMesh'",
     "Properties": {
       "Skeleton": {
-        "ObjectName": "Skeleton CamperMale_REF_Skeleton",
+        "ObjectName": "Skeleton'CamperMale_REF_Skeleton'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Models/CamperMale_REF_Skeleton.162"
       },
       "LODInfo": [
@@ -311,11 +312,11 @@
     },
     "Materials": [
       {
-        "ObjectName": "MaterialInstanceConstant MI_MTLegsAcc022",
+        "ObjectName": "MaterialInstanceConstant'MI_MTLegsAcc022'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Materials/Outfit022/MI_MTLegsAcc022.0"
       },
       {
-        "ObjectName": "MaterialInstanceConstant MI_MTPants022",
+        "ObjectName": "MaterialInstanceConstant'MI_MTPants022'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Campers/Meg/Materials/Outfit022/MI_MTPants022.0"
       }
     ],
