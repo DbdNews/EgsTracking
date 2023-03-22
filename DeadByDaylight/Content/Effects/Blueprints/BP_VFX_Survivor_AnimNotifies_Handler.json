@@ -3,8 +3,9 @@
     "Type": "Function",
     "Name": "HandleAnimNotify",
     "Outer": "BP_VFX_Survivor_AnimNotifies_Handler_C",
+    "Class": "UScriptClass'Function'",
     "SuperStruct": {
-      "ObjectName": "Function AnimEffectHandler:HandleAnimNotify",
+      "ObjectName": "Function'AnimEffectHandler:HandleAnimNotify'",
       "ObjectPath": "/Script/AnimationUtilities"
     },
     "ChildProperties": [
@@ -15,7 +16,7 @@
         "ElementSize": 8,
         "PropertyFlags": 148,
         "PropertyClass": {
-          "ObjectName": "Class Actor",
+          "ObjectName": "Class'Actor'",
           "ObjectPath": "/Script/Engine"
         }
       },
@@ -46,7 +47,7 @@
         "ElementSize": 8,
         "PropertyFlags": 2053,
         "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_K27_BrokenBones_Mori_01_Leg_Male_C",
+          "ObjectName": "BlueprintGeneratedClass'BP_K27_BrokenBones_Mori_01_Leg_Male_C'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Leg_Male.2"
         }
       },
@@ -57,7 +58,7 @@
         "ElementSize": 8,
         "PropertyFlags": 2053,
         "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_K27_BrokenBones_Mori_01_Arm_Male_C",
+          "ObjectName": "BlueprintGeneratedClass'BP_K27_BrokenBones_Mori_01_Arm_Male_C'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Arm_Male.2"
         }
       },
@@ -68,7 +69,7 @@
         "ElementSize": 8,
         "PropertyFlags": 2053,
         "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_k27_MiniMori_Vignette_C",
+          "ObjectName": "BlueprintGeneratedClass'BP_k27_MiniMori_Vignette_C'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_k27_MiniMori_Vignette.4"
         }
       },
@@ -79,7 +80,7 @@
         "ElementSize": 8,
         "PropertyFlags": 2053,
         "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_K27_BrokenBones_Mori_01_Leg_Female_C",
+          "ObjectName": "BlueprintGeneratedClass'BP_K27_BrokenBones_Mori_01_Leg_Female_C'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Leg_Female.2"
         }
       },
@@ -90,7 +91,7 @@
         "ElementSize": 8,
         "PropertyFlags": 2053,
         "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_K27_BrokenBones_Mori_01_Arm_Female_C",
+          "ObjectName": "BlueprintGeneratedClass'BP_K27_BrokenBones_Mori_01_Arm_Female_C'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Arm_Female.2"
         }
       },
@@ -136,7 +137,7 @@
         "ElementSize": 8,
         "PropertyFlags": 2053,
         "PropertyClass": {
-          "ObjectName": "Class CamperPlayer",
+          "ObjectName": "Class'CamperPlayer'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
@@ -154,14 +155,10 @@
         "bIsNativeBool": true
       },
       {
-        "Type": "StructProperty",
-        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
         "Flags": 1,
-        "ElementSize": 48,
-        "Struct": {
-          "ObjectName": "ScriptStruct Transform",
-          "ObjectPath": "/Script/CoreUObject"
-        }
+        "ElementSize": 4
       },
       {
         "Type": "BoolProperty",
@@ -176,14 +173,10 @@
         "bIsNativeBool": true
       },
       {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
         "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class Actor",
-          "ObjectPath": "/Script/Engine"
-        }
+        "ElementSize": 4
       },
       {
         "Type": "ObjectProperty",
@@ -191,7 +184,7 @@
         "Flags": 1,
         "ElementSize": 8,
         "PropertyClass": {
-          "ObjectName": "Class Character",
+          "ObjectName": "Class'Character'",
           "ObjectPath": "/Script/Engine"
         }
       },
@@ -209,13 +202,47 @@
       },
       {
         "Type": "ObjectProperty",
-        "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+        "Name": "K2Node_DynamicCast_AsDBDBase_Player",
         "Flags": 1,
         "ElementSize": 8,
         "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_K27_BrokenBones_Mori_01_Leg_Female_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Leg_Female.2"
+          "ObjectName": "Class'DBDBasePlayer'",
+          "ObjectPath": "/Script/DeadByDaylight"
         }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsCamper_Player",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'CamperPlayer'",
+          "ObjectPath": "/Script/DeadByDaylight"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
       },
       {
         "Type": "BoolProperty",
@@ -242,50 +269,6 @@
         "bIsNativeBool": true
       },
       {
-        "Type": "ObjectProperty",
-        "Name": "K2Node_DynamicCast_AsDBDBase_Player",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class DBDBasePlayer",
-          "ObjectPath": "/Script/DeadByDaylight"
-        }
-      },
-      {
-        "Type": "BoolProperty",
-        "Name": "K2Node_DynamicCast_bSuccess_1",
-        "Flags": 1,
-        "ElementSize": 1,
-        "FieldSize": 1,
-        "ByteOffset": 0,
-        "ByteMask": 1,
-        "FieldMask": 255,
-        "BoolSize": 1,
-        "bIsNativeBool": true
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "K2Node_DynamicCast_AsCamper_Player",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class CamperPlayer",
-          "ObjectPath": "/Script/DeadByDaylight"
-        }
-      },
-      {
-        "Type": "BoolProperty",
-        "Name": "K2Node_DynamicCast_bSuccess_2",
-        "Flags": 1,
-        "ElementSize": 1,
-        "FieldSize": 1,
-        "ByteOffset": 0,
-        "ByteMask": 1,
-        "FieldMask": 255,
-        "BoolSize": 1,
-        "bIsNativeBool": true
-      },
-      {
         "Type": "IntProperty",
         "Name": "Temp_int_Array_Index_Variable",
         "Flags": 1,
@@ -293,13 +276,13 @@
       },
       {
         "Type": "IntProperty",
-        "Name": "Temp_int_Loop_Counter_Variable",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
         "Flags": 1,
         "ElementSize": 4
       },
       {
         "Type": "IntProperty",
-        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
         "Flags": 1,
         "ElementSize": 4
       },
@@ -311,9 +294,81 @@
       },
       {
         "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
         "Name": "Temp_int_Array_Index_Variable_2",
         "Flags": 1,
         "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_K27_BrokenBones_Mori_01_Leg_Female_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Leg_Female.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_K27_BrokenBones_Mori_01_Arm_Male_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Arm_Male.2"
+        }
       },
       {
         "Type": "IntProperty",
@@ -333,19 +388,9 @@
           "Flags": 1,
           "ElementSize": 8,
           "PropertyClass": {
-            "ObjectName": "Class SurvivorCosmeticHelperActor",
+            "ObjectName": "Class'SurvivorCosmeticHelperActor'",
             "ObjectPath": "/Script/DBDCosmetic"
           }
-        }
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_MakeTransform_ReturnValue_1",
-        "Flags": 1,
-        "ElementSize": 48,
-        "Struct": {
-          "ObjectName": "ScriptStruct Transform",
-          "ObjectPath": "/Script/CoreUObject"
         }
       },
       {
@@ -354,19 +399,15 @@
         "Flags": 1,
         "ElementSize": 8,
         "PropertyClass": {
-          "ObjectName": "Class SurvivorCosmeticHelperActor",
+          "ObjectName": "Class'SurvivorCosmeticHelperActor'",
           "ObjectPath": "/Script/DBDCosmetic"
         }
       },
       {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_1",
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
         "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class Actor",
-          "ObjectPath": "/Script/Engine"
-        }
+        "ElementSize": 4
       },
       {
         "Type": "InterfaceProperty",
@@ -374,8 +415,8 @@
         "Flags": 1,
         "ElementSize": 16,
         "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_K31_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K31/BPI_K31.3"
+          "ObjectName": "BlueprintGeneratedClass'BPI_K31_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K31/BPI_K31.4"
         }
       },
       {
@@ -391,22 +432,6 @@
         "bIsNativeBool": true
       },
       {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_FinishSpawningActor_ReturnValue_1",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_K27_BrokenBones_Mori_01_Arm_Male_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Arm_Male.2"
-        }
-      },
-      {
-        "Type": "IntProperty",
-        "Name": "CallFunc_Array_Length_ReturnValue",
-        "Flags": 1,
-        "ElementSize": 4
-      },
-      {
         "Type": "ArrayProperty",
         "Name": "CallFunc_GetCosmeticHelperActorsOfSurvivor_ReturnValue_1",
         "Flags": 1,
@@ -418,9 +443,45 @@
           "Flags": 1,
           "ElementSize": 8,
           "PropertyClass": {
-            "ObjectName": "Class SurvivorCosmeticHelperActor",
+            "ObjectName": "Class'SurvivorCosmeticHelperActor'",
             "ObjectPath": "/Script/DBDCosmetic"
           }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_K27_BrokenBones_Mori_01_Leg_Male_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Leg_Male.2"
         }
       },
       {
@@ -435,16 +496,10 @@
           "Flags": 1,
           "ElementSize": 8,
           "PropertyClass": {
-            "ObjectName": "Class SurvivorCosmeticHelperActor",
+            "ObjectName": "Class'SurvivorCosmeticHelperActor'",
             "ObjectPath": "/Script/DBDCosmetic"
           }
         }
-      },
-      {
-        "Type": "IntProperty",
-        "Name": "CallFunc_Array_Length_ReturnValue_1",
-        "Flags": 1,
-        "ElementSize": 4
       },
       {
         "Type": "ObjectProperty",
@@ -452,7 +507,7 @@
         "Flags": 1,
         "ElementSize": 8,
         "PropertyClass": {
-          "ObjectName": "Class SurvivorCosmeticHelperActor",
+          "ObjectName": "Class'SurvivorCosmeticHelperActor'",
           "ObjectPath": "/Script/DBDCosmetic"
         }
       },
@@ -464,12 +519,12 @@
       },
       {
         "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_K29",
+        "Name": "K2Node_DynamicCast_AsBPI_K31_1",
         "Flags": 1,
         "ElementSize": 16,
         "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_K29_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K29/BPI_K29.13"
+          "ObjectName": "BlueprintGeneratedClass'BPI_K31_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K31/BPI_K31.4"
         }
       },
       {
@@ -485,16 +540,6 @@
         "bIsNativeBool": true
       },
       {
-        "Type": "StructProperty",
-        "Name": "CallFunc_MakeTransform_ReturnValue_2",
-        "Flags": 1,
-        "ElementSize": 48,
-        "Struct": {
-          "ObjectName": "ScriptStruct Transform",
-          "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
         "Type": "ArrayProperty",
         "Name": "CallFunc_GetCosmeticHelperActorsOfSurvivor_ReturnValue_3",
         "Flags": 1,
@@ -506,121 +551,14 @@
           "Flags": 1,
           "ElementSize": 8,
           "PropertyClass": {
-            "ObjectName": "Class SurvivorCosmeticHelperActor",
+            "ObjectName": "Class'SurvivorCosmeticHelperActor'",
             "ObjectPath": "/Script/DBDCosmetic"
           }
         }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_2",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class Actor",
-          "ObjectPath": "/Script/Engine"
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_Array_Get_Item_2",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class SurvivorCosmeticHelperActor",
-          "ObjectPath": "/Script/DBDCosmetic"
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_FinishSpawningActor_ReturnValue_2",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_K27_BrokenBones_Mori_01_Leg_Male_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Leg_Male.2"
-        }
-      },
-      {
-        "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_Effect_K27",
-        "Flags": 1,
-        "ElementSize": 16,
-        "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_Effect_K27_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K27/BPI_Effect_K27.4"
-        }
-      },
-      {
-        "Type": "BoolProperty",
-        "Name": "K2Node_DynamicCast_bSuccess_5",
-        "Flags": 1,
-        "ElementSize": 1,
-        "FieldSize": 1,
-        "ByteOffset": 0,
-        "ByteMask": 1,
-        "FieldMask": 255,
-        "BoolSize": 1,
-        "bIsNativeBool": true
       },
       {
         "Type": "IntProperty",
         "Name": "CallFunc_Array_Length_ReturnValue_3",
-        "Flags": 1,
-        "ElementSize": 4
-      },
-      {
-        "Type": "ArrayProperty",
-        "Name": "CallFunc_GetCosmeticHelperActorsOfSurvivor_ReturnValue_4",
-        "Flags": 1,
-        "ElementSize": 16,
-        "PropertyFlags": 134217728,
-        "Inner": {
-          "Type": "ObjectProperty",
-          "Name": "CallFunc_GetCosmeticHelperActorsOfSurvivor_ReturnValue_4",
-          "Flags": 1,
-          "ElementSize": 8,
-          "PropertyClass": {
-            "ObjectName": "Class SurvivorCosmeticHelperActor",
-            "ObjectPath": "/Script/DBDCosmetic"
-          }
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_Array_Get_Item_3",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class SurvivorCosmeticHelperActor",
-          "ObjectPath": "/Script/DBDCosmetic"
-        }
-      },
-      {
-        "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_Effect_K27_1",
-        "Flags": 1,
-        "ElementSize": 16,
-        "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_Effect_K27_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K27/BPI_Effect_K27.4"
-        }
-      },
-      {
-        "Type": "BoolProperty",
-        "Name": "K2Node_DynamicCast_bSuccess_6",
-        "Flags": 1,
-        "ElementSize": 1,
-        "FieldSize": 1,
-        "ByteOffset": 0,
-        "ByteMask": 1,
-        "FieldMask": 255,
-        "BoolSize": 1,
-        "bIsNativeBool": true
-      },
-      {
-        "Type": "IntProperty",
-        "Name": "CallFunc_Array_Length_ReturnValue_4",
         "Flags": 1,
         "ElementSize": 4
       },
@@ -637,10 +575,59 @@
         "bIsNativeBool": true
       },
       {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetCosmeticHelperActorsOfSurvivor_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetCosmeticHelperActorsOfSurvivor_ReturnValue_4",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SurvivorCosmeticHelperActor'",
+            "ObjectPath": "/Script/DBDCosmetic"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_2",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SurvivorCosmeticHelperActor'",
+          "ObjectPath": "/Script/DBDCosmetic"
+        }
+      },
+      {
         "Type": "IntProperty",
-        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Name": "CallFunc_Array_Length_ReturnValue_4",
         "Flags": 1,
         "ElementSize": 4
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsBPI_Effect_K27",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPI_Effect_K27_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K27/BPI_Effect_K27.4"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_5",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
       },
       {
         "Type": "BoolProperty",
@@ -655,24 +642,51 @@
         "bIsNativeBool": true
       },
       {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetCosmeticHelperActorsOfSurvivor_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 16,
+        "PropertyFlags": 134217728,
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetCosmeticHelperActorsOfSurvivor_ReturnValue_5",
+          "Flags": 1,
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SurvivorCosmeticHelperActor'",
+            "ObjectPath": "/Script/DBDCosmetic"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SurvivorCosmeticHelperActor'",
+          "ObjectPath": "/Script/DBDCosmetic"
+        }
+      },
+      {
         "Type": "IntProperty",
-        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Name": "CallFunc_Array_Length_ReturnValue_5",
         "Flags": 1,
         "ElementSize": 4
       },
       {
         "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_Effect_General",
+        "Name": "K2Node_DynamicCast_AsBPI_Effect_K27_1",
         "Flags": 1,
         "ElementSize": 16,
         "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_Effect_General_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/General/BPI_Effect_General.96"
+          "ObjectName": "BlueprintGeneratedClass'BPI_Effect_K27_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K27/BPI_Effect_K27.4"
         }
       },
       {
         "Type": "BoolProperty",
-        "Name": "K2Node_DynamicCast_bSuccess_7",
+        "Name": "K2Node_DynamicCast_bSuccess_6",
         "Flags": 1,
         "ElementSize": 1,
         "FieldSize": 1,
@@ -681,54 +695,6 @@
         "FieldMask": 255,
         "BoolSize": 1,
         "bIsNativeBool": true
-      },
-      {
-        "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_Effect_General_1",
-        "Flags": 1,
-        "ElementSize": 16,
-        "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_Effect_General_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/General/BPI_Effect_General.96"
-        }
-      },
-      {
-        "Type": "BoolProperty",
-        "Name": "K2Node_DynamicCast_bSuccess_8",
-        "Flags": 1,
-        "ElementSize": 1,
-        "FieldSize": 1,
-        "ByteOffset": 0,
-        "ByteMask": 1,
-        "FieldMask": 255,
-        "BoolSize": 1,
-        "bIsNativeBool": true
-      },
-      {
-        "Type": "IntProperty",
-        "Name": "Temp_int_Loop_Counter_Variable_2",
-        "Flags": 1,
-        "ElementSize": 4
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_GetActorForwardVector_ReturnValue",
-        "Flags": 1,
-        "ElementSize": 12,
-        "Struct": {
-          "ObjectName": "ScriptStruct Vector",
-          "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
-        "Flags": 1,
-        "ElementSize": 12,
-        "Struct": {
-          "ObjectName": "ScriptStruct Vector",
-          "ObjectPath": "/Script/CoreUObject"
-        }
       },
       {
         "Type": "BoolProperty",
@@ -741,130 +707,6 @@
         "FieldMask": 255,
         "BoolSize": 1,
         "bIsNativeBool": true
-      },
-      {
-        "Type": "IntProperty",
-        "Name": "CallFunc_Add_IntInt_ReturnValue_2",
-        "Flags": 1,
-        "ElementSize": 4
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_GetActorRightVector_ReturnValue",
-        "Flags": 1,
-        "ElementSize": 12,
-        "Struct": {
-          "ObjectName": "ScriptStruct Vector",
-          "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_GetFeetPosition_ReturnValue",
-        "Flags": 1,
-        "ElementSize": 12,
-        "Struct": {
-          "ObjectName": "ScriptStruct Vector",
-          "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue_1",
-        "Flags": 1,
-        "ElementSize": 12,
-        "Struct": {
-          "ObjectName": "ScriptStruct Vector",
-          "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
-        "Type": "IntProperty",
-        "Name": "Temp_int_Array_Index_Variable_4",
-        "Flags": 1,
-        "ElementSize": 4
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_Add_VectorVector_ReturnValue",
-        "Flags": 1,
-        "ElementSize": 12,
-        "Struct": {
-          "ObjectName": "ScriptStruct Vector",
-          "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_Array_Get_Item_4",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class SurvivorCosmeticHelperActor",
-          "ObjectPath": "/Script/DBDCosmetic"
-        }
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_Add_VectorVector_ReturnValue_1",
-        "Flags": 1,
-        "ElementSize": 12,
-        "Struct": {
-          "ObjectName": "ScriptStruct Vector",
-          "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
-        "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_K31_1",
-        "Flags": 1,
-        "ElementSize": 16,
-        "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_K31_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K31/BPI_K31.3"
-        }
-      },
-      {
-        "Type": "BoolProperty",
-        "Name": "K2Node_DynamicCast_bSuccess_9",
-        "Flags": 1,
-        "ElementSize": 1,
-        "FieldSize": 1,
-        "ByteOffset": 0,
-        "ByteMask": 1,
-        "FieldMask": 255,
-        "BoolSize": 1,
-        "bIsNativeBool": true
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_Conv_VectorToTransform_ReturnValue",
-        "Flags": 1,
-        "ElementSize": 48,
-        "Struct": {
-          "ObjectName": "ScriptStruct Transform",
-          "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_3",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class Actor",
-          "ObjectPath": "/Script/Engine"
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_FinishSpawningActor_ReturnValue_3",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_Blood_Decal_TT_Mori_1_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Decals/BP_Blood_Decal_TT_Mori_1.2"
-        }
       },
       {
         "Type": "IntProperty",
@@ -889,6 +731,280 @@
         "Name": "CallFunc_Add_IntInt_ReturnValue_3",
         "Flags": 1,
         "ElementSize": 4
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsBPI_Effect_General",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPI_Effect_General_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/General/BPI_Effect_General.96"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_7",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsBPI_Effect_General_1",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPI_Effect_General_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/General/BPI_Effect_General.96"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_8",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_4",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetActorForwardVector_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetActorRightVector_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetFeetPosition_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Multiply_VectorFloat_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_4",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SurvivorCosmeticHelperActor'",
+          "ObjectPath": "/Script/DBDCosmetic"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue_1",
+        "Flags": 1,
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsBPI_K31_2",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPI_K31_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K31/BPI_K31.4"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_9",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Conv_VectorToTransform_ReturnValue",
+        "Flags": 1,
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Blood_Decal_TT_Mori_1_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Decals/BP_Blood_Decal_TT_Mori_1.2"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_5",
+        "Flags": 1,
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_5",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SurvivorCosmeticHelperActor'",
+          "ObjectPath": "/Script/DBDCosmetic"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsBPI_K29",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPI_K29_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/K29/BPI_K29.13"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_10",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue_3",
+        "Flags": 1,
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue_4",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_K23_ShowKnife_OnSurvivor_Master_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer23/Mori/BP_K23_ShowKnife_OnSurvivor_Master.12"
+        }
       },
       {
         "Type": "BoolProperty",
@@ -1005,7 +1121,7 @@
         "ElementSize": 8,
         "PropertyFlags": 524288,
         "PropertyClass": {
-          "ObjectName": "Class CamperEndGameComponent",
+          "ObjectName": "Class'CamperEndGameComponent'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
@@ -1016,7 +1132,7 @@
         "ElementSize": 8,
         "PropertyFlags": 524288,
         "PropertyClass": {
-          "ObjectName": "Class CamperEndGameComponent",
+          "ObjectName": "Class'CamperEndGameComponent'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
@@ -1038,29 +1154,7 @@
         "Flags": 1,
         "ElementSize": 16,
         "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_Effect_Camper_Anim_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/Camper/BPI_Effect_Camper_Anim.7"
-        }
-      },
-      {
-        "Type": "BoolProperty",
-        "Name": "K2Node_DynamicCast_bSuccess_10",
-        "Flags": 1,
-        "ElementSize": 1,
-        "FieldSize": 1,
-        "ByteOffset": 0,
-        "ByteMask": 1,
-        "FieldMask": 255,
-        "BoolSize": 1,
-        "bIsNativeBool": true
-      },
-      {
-        "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_Effect_Camper_Anim_1",
-        "Flags": 1,
-        "ElementSize": 16,
-        "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_Effect_Camper_Anim_C",
+          "ObjectName": "BlueprintGeneratedClass'BPI_Effect_Camper_Anim_C'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/Camper/BPI_Effect_Camper_Anim.7"
         }
       },
@@ -1078,11 +1172,11 @@
       },
       {
         "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_Effect_Camper_Anim_2",
+        "Name": "K2Node_DynamicCast_AsBPI_Effect_Camper_Anim_1",
         "Flags": 1,
         "ElementSize": 16,
         "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_Effect_Camper_Anim_C",
+          "ObjectName": "BlueprintGeneratedClass'BPI_Effect_Camper_Anim_C'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/Camper/BPI_Effect_Camper_Anim.7"
         }
       },
@@ -1100,11 +1194,11 @@
       },
       {
         "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_Effect_Camper_Anim_3",
+        "Name": "K2Node_DynamicCast_AsBPI_Effect_Camper_Anim_2",
         "Flags": 1,
         "ElementSize": 16,
         "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_Effect_Camper_Anim_C",
+          "ObjectName": "BlueprintGeneratedClass'BPI_Effect_Camper_Anim_C'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/Camper/BPI_Effect_Camper_Anim.7"
         }
       },
@@ -1122,11 +1216,11 @@
       },
       {
         "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_Effect_Camper_Anim_4",
+        "Name": "K2Node_DynamicCast_AsBPI_Effect_Camper_Anim_3",
         "Flags": 1,
         "ElementSize": 16,
         "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_Effect_Camper_Anim_C",
+          "ObjectName": "BlueprintGeneratedClass'BPI_Effect_Camper_Anim_C'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/Camper/BPI_Effect_Camper_Anim.7"
         }
       },
@@ -1144,12 +1238,12 @@
       },
       {
         "Type": "InterfaceProperty",
-        "Name": "K2Node_DynamicCast_AsBPI_Effect_General_2",
+        "Name": "K2Node_DynamicCast_AsBPI_Effect_Camper_Anim_4",
         "Flags": 1,
         "ElementSize": 16,
         "InterfaceClass": {
-          "ObjectName": "BlueprintGeneratedClass BPI_Effect_General_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/General/BPI_Effect_General.96"
+          "ObjectName": "BlueprintGeneratedClass'BPI_Effect_Camper_Anim_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/Camper/BPI_Effect_Camper_Anim.7"
         }
       },
       {
@@ -1165,43 +1259,35 @@
         "bIsNativeBool": true
       },
       {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsBPI_Effect_General_2",
+        "Flags": 1,
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPI_Effect_General_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Interface/General/BPI_Effect_General.96"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_16",
+        "Flags": 1,
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
         "Type": "StructProperty",
         "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
         "Flags": 1,
         "ElementSize": 12,
         "Struct": {
-          "ObjectName": "ScriptStruct Vector",
+          "ObjectName": "ScriptStruct'Vector'",
           "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_MakeTransform_ReturnValue_3",
-        "Flags": 1,
-        "ElementSize": 48,
-        "Struct": {
-          "ObjectName": "ScriptStruct Transform",
-          "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_4",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class Actor",
-          "ObjectPath": "/Script/Engine"
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_FinishSpawningActor_ReturnValue_4",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_SacrificeSequence_C",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Sacrifice/BP_SacrificeSequence.4"
         }
       },
       {
@@ -1210,7 +1296,7 @@
         "Flags": 1,
         "ElementSize": 48,
         "Struct": {
-          "ObjectName": "ScriptStruct Transform",
+          "ObjectName": "ScriptStruct'Transform'",
           "ObjectPath": "/Script/CoreUObject"
         }
       },
@@ -1220,7 +1306,7 @@
         "Flags": 1,
         "ElementSize": 8,
         "PropertyClass": {
-          "ObjectName": "Class Actor",
+          "ObjectName": "Class'Actor'",
           "ObjectPath": "/Script/Engine"
         }
       },
@@ -1230,19 +1316,49 @@
         "Flags": 1,
         "ElementSize": 8,
         "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_K23_ShowKnife_OnSurvivor_Master_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer23/Mori/BP_K23_ShowKnife_OnSurvivor_Master.12"
+          "ObjectName": "BlueprintGeneratedClass'BP_SacrificeSequence_C'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Sacrifice/BP_SacrificeSequence.4"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue_5",
+        "Flags": 1,
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
         }
       },
       {
         "Type": "IntProperty",
-        "Name": "Temp_int_Loop_Counter_Variable_4",
+        "Name": "Temp_int_Loop_Counter_Variable_5",
         "Flags": 1,
         "ElementSize": 4
       },
       {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_6",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue_6",
+        "Flags": 1,
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_K27_BrokenBones_Mori_01_Arm_Female_C'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Arm_Female.2"
+        }
+      },
+      {
         "Type": "BoolProperty",
-        "Name": "CallFunc_Less_IntInt_ReturnValue_4",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_5",
         "Flags": 1,
         "ElementSize": 1,
         "FieldSize": 1,
@@ -1254,39 +1370,9 @@
       },
       {
         "Type": "IntProperty",
-        "Name": "CallFunc_Add_IntInt_ReturnValue_4",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_5",
         "Flags": 1,
         "ElementSize": 4
-      },
-      {
-        "Type": "StructProperty",
-        "Name": "CallFunc_MakeTransform_ReturnValue_5",
-        "Flags": 1,
-        "ElementSize": 48,
-        "Struct": {
-          "ObjectName": "ScriptStruct Transform",
-          "ObjectPath": "/Script/CoreUObject"
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_6",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "Class Actor",
-          "ObjectPath": "/Script/Engine"
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "CallFunc_FinishSpawningActor_ReturnValue_6",
-        "Flags": 1,
-        "ElementSize": 8,
-        "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_K27_BrokenBones_Mori_01_Arm_Female_C",
-          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Arm_Female.2"
-        }
       }
     ],
     "FunctionFlags": 1287784448
@@ -1294,13 +1380,14 @@
   {
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_VFX_Survivor_AnimNotifies_Handler_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
     "SuperStruct": {
-      "ObjectName": "Class AnimEffectHandler",
+      "ObjectName": "Class'AnimEffectHandler'",
       "ObjectPath": "/Script/AnimationUtilities"
     },
     "Children": [
       {
-        "ObjectName": "Function BP_VFX_Survivor_AnimNotifies_Handler_C:HandleAnimNotify",
+        "ObjectName": "Function'BP_VFX_Survivor_AnimNotifies_Handler_C:HandleAnimNotify'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/BP_VFX_Survivor_AnimNotifies_Handler.0"
       }
     ],
@@ -1312,7 +1399,7 @@
         "ElementSize": 8,
         "PropertyFlags": 67589,
         "PropertyClass": {
-          "ObjectName": "Class SlasherPlayer",
+          "ObjectName": "Class'SlasherPlayer'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
@@ -1323,31 +1410,32 @@
         "ElementSize": 8,
         "PropertyFlags": 67589,
         "PropertyClass": {
-          "ObjectName": "BlueprintGeneratedClass BP_K27_BrokenBones_Mori_01_Arm_Female_C",
+          "ObjectName": "BlueprintGeneratedClass'BP_K27_BrokenBones_Mori_01_Arm_Female_C'",
           "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Killer27/Mori/BP_K27_BrokenBones_Mori_01_Arm_Female.2"
         }
       }
     ],
     "FuncMap": {
       "HandleAnimNotify": {
-        "ObjectName": "Function BP_VFX_Survivor_AnimNotifies_Handler_C:HandleAnimNotify",
+        "ObjectName": "Function'BP_VFX_Survivor_AnimNotifies_Handler_C:HandleAnimNotify'",
         "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/BP_VFX_Survivor_AnimNotifies_Handler.0"
       }
     },
     "ClassFlags": 264208,
     "ClassWithin": {
-      "ObjectName": "Class Object",
+      "ObjectName": "Class'Object'",
       "ObjectPath": "/Script/CoreUObject"
     },
     "ClassConfigName": "Engine",
     "bCooked": true,
     "ClassDefaultObject": {
-      "ObjectName": "BP_VFX_Survivor_AnimNotifies_Handler_C Default__BP_VFX_Survivor_AnimNotifies_Handler_C",
+      "ObjectName": "BP_VFX_Survivor_AnimNotifies_Handler_C'Default__BP_VFX_Survivor_AnimNotifies_Handler_C'",
       "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/BP_VFX_Survivor_AnimNotifies_Handler.2"
     }
   },
   {
     "Type": "BP_VFX_Survivor_AnimNotifies_Handler_C",
-    "Name": "Default__BP_VFX_Survivor_AnimNotifies_Handler_C"
+    "Name": "Default__BP_VFX_Survivor_AnimNotifies_Handler_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Effects/Blueprints/BP_VFX_Survivor_AnimNotifies_Handler.BP_VFX_Survivor_AnimNotifies_Handler_C'"
   }
 ]

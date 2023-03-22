@@ -2,9 +2,10 @@
   {
     "Type": "SkeletalMesh",
     "Name": "BE_Ribbons_ACC020_REF",
+    "Class": "UScriptClass'SkeletalMesh'",
     "Properties": {
       "Skeleton": {
-        "ObjectName": "Skeleton BE_Ribbons_ACC020_REF_Skeleton",
+        "ObjectName": "Skeleton'BE_Ribbons_ACC020_REF_Skeleton'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Slashers/Bear/Models/Bodies/ACC/Skeletons/BE_Ribbons_ACC020_REF_Skeleton.0"
       },
       "LODInfo": [
@@ -50,7 +51,7 @@
             "bEnforceBoneBoundaries": false,
             "VolumeImportance": 1.0,
             "bLockEdges": false,
-            "bLockColorBounaries": false,
+            "bLockColorBounaries": true,
             "BaseLOD": 0
           },
           "BonesToRemove": [],
@@ -107,7 +108,7 @@
             "bEnforceBoneBoundaries": false,
             "VolumeImportance": 1.0,
             "bLockEdges": false,
-            "bLockColorBounaries": false,
+            "bLockColorBounaries": true,
             "BaseLOD": 0
           },
           "BonesToRemove": [],
@@ -164,7 +165,7 @@
             "bEnforceBoneBoundaries": false,
             "VolumeImportance": 1.0,
             "bLockEdges": false,
-            "bLockColorBounaries": false,
+            "bLockColorBounaries": true,
             "BaseLOD": 0
           },
           "BonesToRemove": [],
@@ -244,7 +245,7 @@
       },
       "bHasBeenSimplified": true,
       "PhysicsAsset": {
-        "ObjectName": "PhysicsAsset BE_Ribbons_ACC020_REF_PhysicsAsset",
+        "ObjectName": "PhysicsAsset'BE_Ribbons_ACC020_REF_PhysicsAsset'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Slashers/Bear/Models/Bodies/ACC/Physics/BE_Ribbons_ACC020_REF_PhysicsAsset.0"
       },
       "SamplingInfo": {
@@ -297,7 +298,7 @@
     },
     "Materials": [
       {
-        "ObjectName": "MaterialInstanceConstant MI_BETorsoAcc020",
+        "ObjectName": "MaterialInstanceConstant'MI_BETorsoAcc020'",
         "ObjectPath": "DeadByDaylight/Content/Characters/Slashers/Bear/Materials/Outfit020/MI_BETorsoAcc020.0"
       }
     ],
