@@ -1,0 +1,421 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_UK_Vulture_Standing",
+    "Outer": "BP_UK_Vulture_Standing_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": 1,
+        "ElementSize": 4,
+        "PropertyFlags": 148
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": 1,
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkBankCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_CustomEvent_Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'EAkResult'",
+          "ObjectPath": "/Script/AkAudio"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_UK_Vulture_Standing_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": 134744064
+  },
+  {
+    "Type": "Function",
+    "Name": "CustomEvent_0",
+    "Outer": "BP_UK_Vulture_Standing_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "Result",
+        "Flags": 1,
+        "ElementSize": 1,
+        "PropertyFlags": 148,
+        "Enum": {
+          "ObjectName": "Enum'EAkResult'",
+          "ObjectPath": "/Script/AkAudio"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": 1,
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": 201326592
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_UK_Vulture_Standing_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_UK_Vulture_Standing_C:SimpleConstructionScript_0'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.13"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_UK_Vulture_Standing_C:ExecuteUbergraph_BP_UK_Vulture_Standing'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_UK_Vulture_Standing_C:CustomEvent_0'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.2"
+      },
+      {
+        "ObjectName": "Function'BP_UK_Vulture_Standing_C:ReceiveBeginPlay'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.1"
+      },
+      {
+        "ObjectName": "Function'BP_UK_Vulture_Standing_C:ExecuteUbergraph_BP_UK_Vulture_Standing'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": 2097153,
+        "ElementSize": 16,
+        "PropertyFlags": 2105344,
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Vulture_StandingMesh",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class'DBDSkeletalMeshComponentBudgeted'",
+          "ObjectPath": "/Script/DBDAnimationBudgetAllocator"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Ak_Audio_Vulture_Standing",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class'AkComponent'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": 2097153,
+        "ElementSize": 8,
+        "PropertyFlags": 17180393476,
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_UK_Vulture_Standing": {
+        "ObjectName": "Function'BP_UK_Vulture_Standing_C:ExecuteUbergraph_BP_UK_Vulture_Standing'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_UK_Vulture_Standing_C:ReceiveBeginPlay'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.1"
+      },
+      "CustomEvent_0": {
+        "ObjectName": "Function'BP_UK_Vulture_Standing_C:CustomEvent_0'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.2"
+      }
+    },
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_UK_Vulture_Standing_C'Default__BP_UK_Vulture_Standing_C'",
+      "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.4"
+    }
+  },
+  {
+    "Type": "BP_UK_Vulture_Standing_C",
+    "Name": "Default__BP_UK_Vulture_Standing_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.BP_UK_Vulture_Standing_C'",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_Audio_Vulture_Standing_GEN_VARIABLE",
+    "Outer": "BP_UK_Vulture_Standing_C",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 9.449375,
+        "Y": 39.166496,
+        "Z": 40.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 85.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "DBDSkeletalMeshComponentBudgeted",
+    "Name": "Vulture_StandingMesh_GEN_VARIABLE",
+    "Outer": "BP_UK_Vulture_Standing_C",
+    "Class": "UScriptClass'DBDSkeletalMeshComponentBudgeted'",
+    "Properties": {
+      "_significanceStrategy": {
+        "ObjectName": "LinearSignificanceStrategy'BP_UK_Vulture_Standing_C:Vulture_StandingMesh_GEN_VARIABLE.LinearSignificanceStrategy_0'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.7"
+      },
+      "_animBudgeterSignificanceStrategy": {
+        "ObjectName": "SimpleAnimBudgeterSignificanceStrategy'BP_UK_Vulture_Standing_C:Vulture_StandingMesh_GEN_VARIABLE.SimpleAnimBudgeterSignificanceStrategy_0'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.12"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'Vulture_Idle02'",
+          "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/Animals/Vulture/Animations/Vulture_Idle02.1"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "bUpdateOverlapsOnAnimationFinalize": false,
+      "bEnablePhysicsOnDedicatedServer": false,
+      "bSkipBoundsUpdateWhenInterpolating": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'Vulture_REF'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/Animals/Vulture/Model/Vulture_REF.0"
+      },
+      "bComponentUseFixedSkelBounds": true,
+      "bEnableUpdateRateOptimizations": true,
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Interactable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Slasher",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Blood",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "InteractionDetector",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "BlinkBlocker",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Ground",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Walkable",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "LinearSignificanceStrategy",
+    "Name": "LinearSignificanceStrategy_0",
+    "Outer": "Vulture_StandingMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'LinearSignificanceStrategy'",
+    "Properties": {
+      "_maxDistance": {
+        "PerDetailModeValue": [
+          {
+            "Ultra": 1700.0
+          },
+          {
+            "High": 1700.0
+          },
+          {
+            "Medium": 1700.0
+          },
+          {
+            "Low": 1700.0
+          },
+          {
+            "Mobile": 1700.0
+          }
+        ]
+      },
+      "_updateEvenIfNotRendered": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_UK_Vulture_Standing_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_UK_Vulture_Standing_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.8"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_UK_Vulture_Standing_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_UK_Vulture_Standing_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.10"
+        }
+      ],
+      "VariableGuid": "944B4559-41B20844-90E196AE-1A351E11",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DBDSkeletalMeshComponentBudgeted'",
+        "ObjectPath": "/Script/DBDAnimationBudgetAllocator"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DBDSkeletalMeshComponentBudgeted'BP_UK_Vulture_Standing_C:Vulture_StandingMesh_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.6"
+      },
+      "VariableGuid": "E650324F-4E7D4FC0-F0448D85-BB4EB90D",
+      "InternalVariableName": "Vulture_StandingMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AkComponent'",
+        "ObjectPath": "/Script/AkAudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AkComponent'BP_UK_Vulture_Standing_C:Ak_Audio_Vulture_Standing_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.5"
+      },
+      "VariableGuid": "6A3D380D-4A7090BE-B77AC9A9-7432F0A8",
+      "InternalVariableName": "Ak_Audio_Vulture_Standing"
+    }
+  },
+  {
+    "Type": "SimpleAnimBudgeterSignificanceStrategy",
+    "Name": "SimpleAnimBudgeterSignificanceStrategy_0",
+    "Outer": "Vulture_StandingMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'SimpleAnimBudgeterSignificanceStrategy'",
+    "Properties": {
+      "_tickEvenIfNotRendered": true
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_UK_Vulture_Standing_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_UK_Vulture_Standing_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.9"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_UK_Vulture_Standing_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_UK_Vulture_Standing_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_UK_Vulture_Standing_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_UK_Vulture_Standing_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "DeadByDaylight/Content/Effects/Blueprints/Environment/Ukraine/BP_UK_Vulture_Standing.9"
+      }
+    }
+  }
+]

@@ -2,6 +2,9 @@
 -LocalizationPaths=%GAMEDIR%Content/Localization/Game
 +LocalizationPaths=%GAMEDIR%Content/Localization/DeadByDaylight
 
+[Internationalization]
++LocalizationPaths=%GAMEDIR%Content/Localization/DeadByDaylight
+
 [Wwise.Options]
 LinkedProject="../../../../DeadByDaylight/Content_Raw/Wwise/DeadByDaylight.wproj"
 
@@ -25,7 +28,7 @@ MaxPlayers=5
 [/Script/EngineSettings.GeneralProjectSettings]
 CompanyName=
 CompanyDistinguishedName=
-CopyrightNotice="/*\r\n* Copyright (C) Behaviour Interactive Inc. - All Rights Reserved\r\n* Unauthorized copying of this file, via any medium, is strictly prohibited\r\n* This file is proprietary and confidential\r\n*/"
+CopyrightNotice="(C) Behaviour Interactive Inc. - All Rights Reserved.\r\n// Unauthorized copying of this file, via any medium, is strictly prohibited.\r\n// This file is proprietary and confidential."
 Description=DeadByDaylight
 Homepage=
 LicensingTerms=
@@ -35,9 +38,6 @@ ProjectName=DeadByDaylight
 ProjectVersion=1.0.0.0
 SupportContact=
 ProjectDisplayedTitle=
-
-[Internationalization]
-+LocalizationPaths=%GAMEDIR%Content/Localization/DeadByDaylight
 
 [/Script/MoviePlayer.MoviePlayerSettings]
 bWaitForMoviesToComplete=True
@@ -135,7 +135,6 @@ bCookMapsOnly=False
 bCompressed=True
 bSkipEditorContent=False
 bSkipMovies=False
-+MapsToCook=(FilePath="../../../../DeadByDaylight/Content/Maps/EmptyWorldForPerfTests.umap")
 +MapsToCook=(FilePath="../../../../DeadByDaylight/Content/Maps/ParadiseTransition.umap")
 +MapsToCook=(FilePath="/Game/Maps/Tutorial/Killer_Tutorial")
 +MapsToCook=(FilePath="/Game/Maps/Tutorial/Survivor_Tutorial")
@@ -227,18 +226,31 @@ AdvancedSettings=(AudioAPI=7,GlobalFocus=True,UseHeadMountedDisplayAudioDevice=F
 
 [/Script/AkAudio.AkSettings]
 MaxSimultaneousReverbVolumes=2
-WwiseProjectPath=(FilePath="../../../Wwise/DeadByDaylight/Content_Raw/Audio/Wwise_2021_1_5_Saturn/DeadByDaylight_2021_1_5_Saturn.wproj")
+WwiseProjectPath=(FilePath="../../../Wwise/DeadByDaylight/Content_Raw/Audio/Wwise_2021_1_11_Titan/DeadByDaylight_2021_1_11_Titan.wproj")
 WwiseSoundDataFolder=(Path="WwiseAudio")
-bAutoConnectToWAAPI=False
 DefaultOcclusionCollisionChannel=ECC_Visibility
-AkGeometryMap=()
+DefaultFitToGeometryCollisionChannel=ECC_WorldStatic
+AkGeometryMap=((/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial, ()),(/Engine/EngineMaterials/LandscapeHolePhysicalMaterial.LandscapeHolePhysicalMaterial, ()),(/Engine/EngineMaterials/PhysMat_Carboard.PhysMat_Carboard, ()),(/Engine/EngineMaterials/PhysMat_Ice.PhysMat_Ice, ()),(/Engine/EngineMaterials/PhysMat_Metal.PhysMat_Metal, ()),(/Engine/EngineMaterials/PhysMat_Rubber.PhysMat_Rubber, ()),(/Engine/EngineMaterials/PhysMat_Vehicle.PhysMat_Vehicle, ()),(/Engine/EngineMaterials/PhysMat_VehicleRagdoll.PhysMat_VehicleRagdoll, ()),(/Game/Characters/Campers/Materials/Physics_Mat/Jacket.Jacket, ()),(/Game/Materials/MYM/Assets/Materials/PhysicalMaterials/PM_Water.PM_Water, ()),(/Game/Materials/PhysicalMaterials/PM_Barrel_Metal.PM_Barrel_Metal, ()),(/Game/Materials/PhysicalMaterials/PM_Barrel_Plastic.PM_Barrel_Plastic, ()),(/Game/Materials/PhysicalMaterials/PM_Blood.PM_Blood, ()),(/Game/Materials/PhysicalMaterials/PM_Brick.PM_Brick, ()),(/Game/Materials/PhysicalMaterials/PM_Cardboard.PM_Cardboard, ()),(/Game/Materials/PhysicalMaterials/PM_Carpet.PM_Carpet, ()),(/Game/Materials/PhysicalMaterials/PM_Ceramic.PM_Ceramic, ()),(/Game/Materials/PhysicalMaterials/PM_ChainLinkFence.PM_ChainLinkFence, ()),(/Game/Materials/PhysicalMaterials/PM_Concrete.PM_Concrete, ()),(/Game/Materials/PhysicalMaterials/PM_Corn.PM_Corn, ()),(/Game/Materials/PhysicalMaterials/PM_Default.PM_Default, ()),(/Game/Materials/PhysicalMaterials/PM_Dirt.PM_Dirt, ()),(/Game/Materials/PhysicalMaterials/PM_Drywall.PM_Drywall, ()),(/Game/Materials/PhysicalMaterials/PM_FleshDry.PM_FleshDry, ()),(/Game/Materials/PhysicalMaterials/PM_FleshJuicy.PM_FleshJuicy, ()),(/Game/Materials/PhysicalMaterials/PM_Glass.PM_Glass, ()),(/Game/Materials/PhysicalMaterials/PM_Gravel.PM_Gravel, ()),(/Game/Materials/PhysicalMaterials/PM_Hair.PM_Hair, ()),(/Game/Materials/PhysicalMaterials/PM_HardWood.PM_HardWood, ()),(/Game/Materials/PhysicalMaterials/PM_Leaves.PM_Leaves, ()),(/Game/Materials/PhysicalMaterials/PM_Mannequin.PM_Mannequin, ()),(/Game/Materials/PhysicalMaterials/PM_Metal_Grid.PM_Metal_Grid, ()),(/Game/Materials/PhysicalMaterials/PM_Metal_Hard.PM_Metal_Hard, ()),(/Game/Materials/PhysicalMaterials/PM_Metal_Soft.PM_Metal_Soft, ()),(/Game/Materials/PhysicalMaterials/PM_Mud.PM_Mud, ()),(/Game/Materials/PhysicalMaterials/PM_Plastic.PM_Plastic, ()),(/Game/Materials/PhysicalMaterials/PM_Plexiglass.PM_Plexiglass, ()),(/Game/Materials/PhysicalMaterials/PM_Rock.PM_Rock, ()),(/Game/Materials/PhysicalMaterials/PM_Sand.PM_Sand, ()),(/Game/Materials/PhysicalMaterials/PM_Snow.PM_Snow, ()),(/Game/Materials/PhysicalMaterials/PM_TECH_Debris_Glass.PM_TECH_Debris_Glass, ()),(/Game/Materials/PhysicalMaterials/PM_TECH_Debris_Rock.PM_TECH_Debris_Rock, ()),(/Game/Materials/PhysicalMaterials/PM_TECH_Debris_Trash.PM_TECH_Debris_Trash, ()),(/Game/Materials/PhysicalMaterials/PM_TECH_Occlusion_Floor.PM_TECH_Occlusion_Floor, ()),(/Game/Materials/PhysicalMaterials/PM_TECH_Occlusion_GodWall.PM_TECH_Occlusion_GodWall, ()),(/Game/Materials/PhysicalMaterials/PM_TECH_Occlusion_Wall.PM_TECH_Occlusion_Wall, ()),(/Game/Materials/PhysicalMaterials/PM_Tarp.PM_Tarp, ()),(/Game/Materials/PhysicalMaterials/PM_Tire.PM_Tire, ()),(/Game/Materials/PhysicalMaterials/PM_Tree.PM_Tree, ()),(/Game/Materials/PhysicalMaterials/PM_Typewriter.PM_Typewriter, ()),(/Game/Materials/PhysicalMaterials/PM_Vegetation.PM_Vegetation, ()),(/Game/Materials/PhysicalMaterials/PM_Water.PM_Water, ()),(/Game/Materials/PhysicalMaterials/PM_Wood.PM_Wood, ()),(/Game/Materials/PhysicalMaterials/PM_Wood_WSpace.PM_Wood_WSpace, ()))
+GlobalDecayAbsorption=0.500000
+DefaultReverbAuxBus=None
+EnvironmentDecayAuxBusMap=()
+HFDampingName=
+DecayEstimateName=
+TimeToFirstReflectionName=
+HFDampingRTPC=None
+DecayEstimateRTPC=None
+TimeToFirstReflectionRTPC=None
+AudioInputEvent=None
+AcousticTextureParamsMap=()
 SplitSwitchContainerMedia=False
+SplitMediaPerFolder=False
 UseEventBasedPackaging=False
-EnableAutomaticAssetSynchronization=False
 CommandletCommitMessage=Unreal Wwise Sound Data auto-generation
 UnrealCultureToWwiseCulture=()
 AskedToUseNewAssetManagement=True
 MigratedEnableMultiCoreRendering=True
+FixupRedirectorsDuringMigration=False
+VisualizeRoomsAndPortals=False
 
 [/Script/S3Command.AccessKeys]
 +AccessKeys=(KeyId="4.6.0",Key="uRqLnp6p9WUrTJ6nNXlv7z9VZRjbXvRFKEcF/spEn9k=")
@@ -292,8 +304,17 @@ MigratedEnableMultiCoreRendering=True
 +AccessKeys=(KeyId="6.5.0_stage",Key="U62EwEodvZMTqwj2dPyuLwX/nznIPi5XlsVdwprDWsU=")
 +AccessKeys=(KeyId="6.5.0_cert",Key="lDMoZmg86J/JJ3tnW3rcDYpeZ2meLzlaCWUUSGHT8lo=")
 +AccessKeys=(KeyId="6.5.0_live",Key="2MKDqFlk0pS9JXP8KbRYGFIUu7oY9ZpJGUIpbxI2T28=")
-+AccessKeys=(KeyId="6.6.0_qa",Key="cGJXTfu8cUkIJKqa/6/tZwpPuqtyjL4CgT3fhE85LYU=")
-+AccessKeys=(KeyId="6.6.0_stage",Key="pnxMLD7JdrGBdG9xkK5JTtzp6VTnZNX2lJ5J73ArXN4=")
-+AccessKeys=(KeyId="6.6.0_cert",Key="+/qQTXRFJxhZpRkXIb5sjqAfgs+DcxFXpPxciebDIDs=")
-+AccessKeys=(KeyId="6.6.0_live",Key="LTRpaLqyCv1oplXKTmud9Tx9tXXtXKwfd67+CCC5Jfo=")
++AccessKeys=(KeyId="6.6.0_qa",Key="PpRBHYZUTCZj8o+VbUM8mMkyYLioatv9wRnbdcJ4DIM=")
++AccessKeys=(KeyId="6.6.0_stage",Key="LdE6NNAVuyfvZnMYGcymCqGdZCLADAjc3/05+F06hFI=")
++AccessKeys=(KeyId="6.6.0_cert",Key="kZLRPQKW6NdZYULTUvCVXJmf2PbohJamENiZpBUiZUM=")
++AccessKeys=(KeyId="6.6.0_live",Key="c6KYurOiikoX5kir08IRt1Rpuz5IIey7VAmTlTsG6hY=")
+
++AccessKeys=(KeyId="6.7.0_local",Key="tDPD+nyoDG5Ld+8aMVI+dx3+odEzg9ozOOLc6ScT/kw=")
++AccessKeys=(KeyId="6.7.0_dev",Key="8HDrCi+TbetmH00aCcGGYqhw3TDjyVLJyfIyZeqescA=")
++AccessKeys=(KeyId="6.7.0_qa",Key="ApfqQz1BBLRFn6ks/oLA7bmYzYTnHwQq1iN922UKFJM=")
++AccessKeys=(KeyId="6.7.0_uat",Key="UuMAhf0erIIwE48cBm9hIIBtNJYavUcRuuOT1e7zqxM=")
++AccessKeys=(KeyId="6.7.0_stage",Key="yLt0sEFoNqtAb5zmrdM3nZO2L2xsIYjBxI8T1XU9rSo=")
++AccessKeys=(KeyId="6.7.0_cert",Key="mvofsGrnsYkm+F79gwuMQiRT7uPz7LJo+IJNdZG3HMk=")
++AccessKeys=(KeyId="6.7.0_ptb",Key="tc+8k2SCG2HZxdfgquAdgVOKnCLMTHp0ZtpTOP17cPI=")
++AccessKeys=(KeyId="6.7.0_live",Key="G2y1Ixl5TedkbOr2VOQkgc5PZ4w2dWq+V/+5jS6zH0Q=")
 

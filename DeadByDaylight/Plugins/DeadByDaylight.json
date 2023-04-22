@@ -2075,10 +2075,10 @@
 			"Descriptor": 
 			{
 				"FileVersion": 3,
-				"Version": 202112171,
-				"VersionName": "2021.1.5.7749.2171",
-				"FriendlyName": "Wwise Unreal Engine 4 Integration",
-				"Description": "Wwise integration for Unreal Engine 4",
+				"Version": 202112437,
+				"VersionName": "2021.1.11.7933.2437",
+				"FriendlyName": "Wwise Unreal Engine Integration",
+				"Description": "Wwise integration for Unreal Engine",
 				"Category": "Audio",
 				"CreatedBy": "Audiokinetic, Inc.",
 				"CreatedByURL": "http://audiokinetic.com",
@@ -2848,6 +2848,67 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Media/BinkMedia/BinkMedia.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 2,
+				"VersionName": "2.0",
+				"FriendlyName": "Bink Media",
+				"Description": "Implements a media player using Bink.",
+				"Category": "Media Players",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "https://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "BinkMediaPlayer",
+						"Type": "RuntimeNoCommandlet",
+						"LoadingPhase": "PreLoadingScreen",
+						"BlacklistPlatforms": [
+							"HoloLens",
+							"Lumin",
+							"TVOS"
+						],
+						"BlacklistTargets": [
+							"Server"
+						]
+					},
+					{
+						"Name": "BinkMediaPlayerEditor",
+						"Type": "Editor",
+						"LoadingPhase": "PostEngineInit",
+						"BlacklistTargets": [
+							"Server"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Platforms/EGS/Plugins/Media/BinkMedia/BinkMedia_EGS.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 0,
+				"VersionName": "",
+				"FriendlyName": "",
+				"Description": "",
+				"Category": "",
+				"CreatedBy": "",
+				"CreatedByURL": "",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"CanContainContent": false,
+				"bIsPluginExtension": true
+			}
+		},
+		{
 			"File": "../../../DeadByDaylight/Plugins/AppsFlyer/AppsFlyer.uplugin",
 			"Descriptor": 
 			{
@@ -3032,6 +3093,72 @@
 			}
 		},
 		{
+			"File": "../../../DeadByDaylight/Plugins/Editor/BhvrDlcGenerationPlugin/BhvrDlcGenerationPlugin.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Bhvr Dlc Generation Plugin",
+				"Description": "A plugin to automate most of the steps of adding a new DLC",
+				"Category": "Bhvr DLC Generation",
+				"CreatedBy": "Behaviour Interactive",
+				"CreatedByURL": "http://www.bhvr.com/",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "BhvrDlcGenerationPlugin",
+						"Type": "Editor",
+						"LoadingPhase": "Default"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "BhvrSlateWidgets",
+						"Enabled": true
+					},
+					{
+						"Name": "EditorScriptingUtilities",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../DeadByDaylight/Plugins/Editor/BhvrSlateWidgets/BhvrSlateWidgets.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "BhvrSlateWidgets",
+				"Description": "A library of custom Slate widgets",
+				"Category": "Widgets",
+				"CreatedBy": "Behaviour Interactive",
+				"CreatedByURL": "http://www.bhvr.com/",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "BhvrSlateWidgets",
+						"Type": "Editor",
+						"LoadingPhase": "Default"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "EditorScriptingUtilities",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../DeadByDaylight/Plugins/Editor/BhvrRulerTool/BhvrRulerTool.uplugin",
 			"Descriptor": 
 			{
@@ -3129,6 +3256,37 @@
 			}
 		},
 		{
+			"File": "../../../DeadByDaylight/Plugins/Editor/DBDCharacterCreator/DBDCharacterCreator.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "DBDCharacterCreator",
+				"Description": "Character Creator plugin for DBD",
+				"Category": "Bhvr DLC Generation",
+				"CreatedBy": "Bhvr",
+				"CreatedByURL": "https://www.bhvr.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "DBDCharacterCreator",
+						"Type": "Editor",
+						"LoadingPhase": "PostDefault"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "EditorScriptingUtilities",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../DeadByDaylight/Plugins/Editor/DBDPlugin/DbdPlugin.uplugin",
 			"Descriptor": 
 			{
@@ -3159,6 +3317,10 @@
 					},
 					{
 						"Name": "EditorScriptingUtilities",
+						"Enabled": true
+					},
+					{
+						"Name": "BhvrSlateWidgets",
 						"Enabled": true
 					}
 				]
