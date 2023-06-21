@@ -161,6 +161,7 @@ bSkipMovies=False
 +DirectoriesToNeverCook=(Path="/Game/Blueprints/Tiles/InterTile/14-Qatar_Quads")
 +DirectoriesToNeverCook=(Path="/Game/Blueprints/Tiles/11-GYM")
 +DirectoriesToNeverCook=(Path="/Game/Meshes/InteractableObjects/HookQatar")
++DirectoriesToNeverCook=(Path="/Game/Data/BackendOnlyData")
 +DirectoriesToAlwaysStageAsUFS=(Path="WwiseAudio")
 +DirectoriesToAlwaysStageAsNonUFS=(Path="Version")
 +DirectoriesToAlwaysStageAsNonUFS=(Path="UI/Icons")
@@ -226,7 +227,7 @@ AdvancedSettings=(AudioAPI=7,GlobalFocus=True,UseHeadMountedDisplayAudioDevice=F
 
 [/Script/AkAudio.AkSettings]
 MaxSimultaneousReverbVolumes=2
-WwiseProjectPath=(FilePath="../../../Wwise/DeadByDaylight/Content_Raw/Audio/Wwise_2021_1_11_Titan/DeadByDaylight_2021_1_11_Titan.wproj")
+WwiseProjectPath=(FilePath="../../../Wwise/DeadByDaylight/Content_Raw/Audio/Wwise_2021_1_11_Umbra/DeadByDaylight_2021_1_11_Umbra.wproj")
 WwiseSoundDataFolder=(Path="WwiseAudio")
 DefaultOcclusionCollisionChannel=ECC_Visibility
 DefaultFitToGeometryCollisionChannel=ECC_WorldStatic
@@ -317,4 +318,13 @@ VisualizeRoomsAndPortals=False
 +AccessKeys=(KeyId="6.7.0_cert",Key="mvofsGrnsYkm+F79gwuMQiRT7uPz7LJo+IJNdZG3HMk=")
 +AccessKeys=(KeyId="6.7.0_ptb",Key="tc+8k2SCG2HZxdfgquAdgVOKnCLMTHp0ZtpTOP17cPI=")
 +AccessKeys=(KeyId="6.7.0_live",Key="G2y1Ixl5TedkbOr2VOQkgc5PZ4w2dWq+V/+5jS6zH0Q=")
++AccessKeys=(KeyId="7.0.0_local",Key="+BXxCxjR7m/Ajn9zgKv0xTaJGbm4F7fbkxHeIerOLVE=")
++AccessKeys=(KeyId="7.0.0_dev",Key="agO9dtwCtxWEBU26Qks2UHWIa3sVCXfkTg9nYgaQDxE=")
++AccessKeys=(KeyId="7.0.0_qa",Key="+Co2NgSOqrodsO+lG0rUQHIM8z3AZJr9q+MxtL9RxiU=")
++AccessKeys=(KeyId="7.0.0_uat",Key="0e1UXfVlc2CkkPKAppZGRtY30OFTMx4XkJh55HSonX4=")
++AccessKeys=(KeyId="7.0.0_stage",Key="Q/UOB7BQC6Gcp9hsT1fCBaza1OuqqpbACbo3Jv1hpig=")
++AccessKeys=(KeyId="7.0.0_cert",Key="6xQ+zMHMQoz45h8PjTYgFtwmaWNWSiqIgzjS1+/eODo=")
++AccessKeys=(KeyId="7.0.0_ptb",Key="ccsIaxxPzly6DVixEsPC0qX1I8f/HputfM423IRQGSk=")
++AccessKeys=(KeyId="7.0.0_live",Key="/PVUcFp33ObpOXSic5bVpU+eY4zAQDhEKA/FxP3i5kA=")
 
++AccessKeys=(KeyId="9999.17.0",Key="pGJJqK8oYVFKVSZwynOFAGAYniIZd/ycyFBZc8L7HJk=")

@@ -4,15 +4,16 @@
     "Name": "UserConstructionScript",
     "Outer": "BP_BRL_Escape01_C",
     "Super": "UserConstructionScript",
+    "Class": "UScriptClass'Function'",
     "SuperStruct": {
-      "ObjectName": "Function BP_EscapeBase_C:UserConstructionScript",
+      "ObjectName": "Function'BP_EscapeBase_C:UserConstructionScript'",
       "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_EscapeBase.16"
     },
     "ChildProperties": [
       {
         "Type": "BoolProperty",
         "Name": "CallFunc_K2_AttachToComponent_ReturnValue",
-        "Flags": 1,
+        "Flags": "RF_Public",
         "ElementSize": 1,
         "FieldSize": 1,
         "ByteOffset": 0,
@@ -24,7 +25,7 @@
       {
         "Type": "BoolProperty",
         "Name": "CallFunc_K2_AttachToComponent_ReturnValue_1",
-        "Flags": 1,
+        "Flags": "RF_Public",
         "ElementSize": 1,
         "FieldSize": 1,
         "ByteOffset": 0,
@@ -36,7 +37,7 @@
       {
         "Type": "BoolProperty",
         "Name": "CallFunc_K2_AttachToComponent_ReturnValue_2",
-        "Flags": 1,
+        "Flags": "RF_Public",
         "ElementSize": 1,
         "FieldSize": 1,
         "ByteOffset": 0,
@@ -52,98 +53,121 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_BRL_Escape01_C",
     "Super": "BP_EscapeBase_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
     "Properties": {
       "SimpleConstructionScript": {
-        "ObjectName": "SimpleConstructionScript BP_BRL_Escape01_C:SimpleConstructionScript_2",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.26"
+        "ObjectName": "SimpleConstructionScript'BP_BRL_Escape01_C:SimpleConstructionScript_2'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.35"
       },
       "InheritableComponentHandler": {
-        "ObjectName": "InheritableComponentHandler BP_BRL_Escape01_C:InheritableComponentHandler",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.15"
+        "ObjectName": "InheritableComponentHandler'BP_BRL_Escape01_C:InheritableComponentHandler'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.18"
       }
     },
     "SuperStruct": {
-      "ObjectName": "BlueprintGeneratedClass BP_EscapeBase_C",
+      "ObjectName": "BlueprintGeneratedClass'BP_EscapeBase_C'",
       "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_EscapeBase.31"
     },
     "Children": [
       {
-        "ObjectName": "Function BP_BRL_Escape01_C:UserConstructionScript",
+        "ObjectName": "Function'BP_BRL_Escape01_C:UserConstructionScript'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.0"
       }
     ],
     "ChildProperties": [
       {
         "Type": "ObjectProperty",
-        "Name": "Plane_DirtTerrainBlend_2",
-        "Flags": 2097153,
+        "Name": "K32KillerPodRestrictedZoneBox1",
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'ChildActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K32KillerPodRestrictedZoneBox",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChildActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Plane_DirtTerrainBlend_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "Plane_DirtTerrainBlend_1",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "DoorPanelC",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class BoxComponent",
+          "ObjectName": "Class'BoxComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "DoorPanelB",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class BoxComponent",
+          "ObjectName": "Class'BoxComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "DoorPanelA",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class BoxComponent",
+          "ObjectName": "Class'BoxComponent'",
           "ObjectPath": "/Script/Engine"
         }
       }
     ],
     "FuncMap": {
       "UserConstructionScript": {
-        "ObjectName": "Function BP_BRL_Escape01_C:UserConstructionScript",
+        "ObjectName": "Function'BP_BRL_Escape01_C:UserConstructionScript'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.0"
       }
     },
     "ClassFlags": 8652820,
     "ClassWithin": {
-      "ObjectName": "Class Object",
+      "ObjectName": "Class'Object'",
       "ObjectPath": "/Script/CoreUObject"
     },
     "ClassConfigName": "Engine",
     "bCooked": true,
     "ClassDefaultObject": {
-      "ObjectName": "BP_BRL_Escape01_C Default__BP_BRL_Escape01_C",
+      "ObjectName": "BP_BRL_Escape01_C'Default__BP_BRL_Escape01_C'",
       "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.2"
     }
   },
@@ -151,38 +175,39 @@
     "Type": "BP_BRL_Escape01_C",
     "Name": "Default__BP_BRL_Escape01_C",
     "Template": "Default__BP_EscapeBase_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.BP_BRL_Escape01_C'",
     "Properties": {
       "_killerOpenChargeable": {
-        "ObjectName": "ChargeableComponent Default__BP_BRL_Escape01_C:KillerOpenChargeable",
+        "ObjectName": "ChargeableComponent'Default__BP_BRL_Escape01_C:KillerOpenChargeable'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.12"
       },
       "_openChargeable": {
-        "ObjectName": "ChargeableComponent Default__BP_BRL_Escape01_C:openChargeable",
+        "ObjectName": "ChargeableComponent'Default__BP_BRL_Escape01_C:openChargeable'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.13"
       },
       "_ak_audio_escape": {
-        "ObjectName": "AkComponent Default__BP_BRL_Escape01_C:ak_audio_escape",
+        "ObjectName": "AkComponent'Default__BP_BRL_Escape01_C:ak_audio_escape'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.5"
       },
       "_rootComponent": {
-        "ObjectName": "SceneComponent Default__BP_BRL_Escape01_C:rootComponent",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.19"
+        "ObjectName": "SceneComponent'Default__BP_BRL_Escape01_C:rootComponent'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.25"
       },
       "_perceptionStimuliComponent": {
-        "ObjectName": "AIPerceptionStimuliSourceComponent Default__BP_BRL_Escape01_C:AIPerceptionStimuliSourceComponent",
+        "ObjectName": "AIPerceptionStimuliSourceComponent'Default__BP_BRL_Escape01_C:AIPerceptionStimuliSourceComponent'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.4"
       },
       "_doorSwitchBlockableComponent": {
-        "ObjectName": "BlockableComponent Default__BP_BRL_Escape01_C:DoorSwitchBlockableComponent",
+        "ObjectName": "BlockableComponent'Default__BP_BRL_Escape01_C:DoorSwitchBlockableComponent'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.6"
       },
       "_transformOptimizer": {
-        "ObjectName": "InteractableTransformOptimizer Default__BP_BRL_Escape01_C:InteractableOptimizer",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.16"
+        "ObjectName": "InteractableTransformOptimizer'Default__BP_BRL_Escape01_C:InteractableOptimizer'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.19"
       },
       "RootComponent": {
-        "ObjectName": "SceneComponent Default__BP_BRL_Escape01_C:rootComponent",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.19"
+        "ObjectName": "SceneComponent'Default__BP_BRL_Escape01_C:rootComponent'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.25"
       }
     }
   },
@@ -191,6 +216,7 @@
     "Name": "EscapeBlocker_GEN_VARIABLE",
     "Outer": "BP_BRL_Escape01_C",
     "Template": "EscapeBlocker_GEN_VARIABLE",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "RelativeLocation": {
         "X": 50.0,
@@ -203,17 +229,19 @@
     "Type": "AIPerceptionStimuliSourceComponent",
     "Name": "AIPerceptionStimuliSourceComponent",
     "Outer": "Default__BP_BRL_Escape01_C",
-    "Template": "AIPerceptionStimuliSourceComponent"
+    "Template": "AIPerceptionStimuliSourceComponent",
+    "Class": "UScriptClass'AIPerceptionStimuliSourceComponent'"
   },
   {
     "Type": "AkComponent",
     "Name": "ak_audio_escape",
     "Outer": "Default__BP_BRL_Escape01_C",
     "Template": "ak_audio_escape",
+    "Class": "UScriptClass'AkComponent'",
     "Properties": {
       "AttachParent": {
-        "ObjectName": "SceneComponent Default__BP_BRL_Escape01_C:rootComponent",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.19"
+        "ObjectName": "SceneComponent'Default__BP_BRL_Escape01_C:rootComponent'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.25"
       }
     }
   },
@@ -221,13 +249,15 @@
     "Type": "BlockableComponent",
     "Name": "DoorSwitchBlockableComponent",
     "Outer": "Default__BP_BRL_Escape01_C",
-    "Template": "DoorSwitchBlockableComponent"
+    "Template": "DoorSwitchBlockableComponent",
+    "Class": "UScriptClass'BlockableComponent'"
   },
   {
     "Type": "BoxComponent",
     "Name": "BoxComponent_0",
     "Outer": "BP_BRL_Escape01_C",
     "Template": "BoxComponent_0",
+    "Class": "UScriptClass'BoxComponent'",
     "Properties": {
       "BoxExtent": {
         "X": 300.0,
@@ -245,6 +275,7 @@
     "Type": "BoxComponent",
     "Name": "DoorPanelA_GEN_VARIABLE",
     "Outer": "BP_BRL_Escape01_C",
+    "Class": "UScriptClass'BoxComponent'",
     "Properties": {
       "BoxExtent": {
         "X": 20.0,
@@ -252,7 +283,7 @@
         "Z": 80.0
       },
       "AreaClass": {
-        "ObjectName": "Class NavArea_Obstacle",
+        "ObjectName": "Class'NavArea_Obstacle'",
         "ObjectPath": "/Script/NavigationSystem"
       },
       "DetailLevelBeforeCastShadows": "DM_MAX",
@@ -294,7 +325,7 @@
         },
         "MassInKgOverride": 359.89844,
         "PhysMaterialOverride": {
-          "ObjectName": "PhysicalMaterial PM_Metal_Hard",
+          "ObjectName": "PhysicalMaterial'PM_Metal_Hard'",
           "ObjectPath": "DeadByDaylight/Content/Materials/PhysicalMaterials/PM_Metal_Hard.0"
         }
       },
@@ -309,6 +340,7 @@
     "Type": "BoxComponent",
     "Name": "DoorPanelB_GEN_VARIABLE",
     "Outer": "BP_BRL_Escape01_C",
+    "Class": "UScriptClass'BoxComponent'",
     "Properties": {
       "BoxExtent": {
         "X": 22.0,
@@ -316,7 +348,7 @@
         "Z": 80.0
       },
       "AreaClass": {
-        "ObjectName": "Class NavArea_Obstacle",
+        "ObjectName": "Class'NavArea_Obstacle'",
         "ObjectPath": "/Script/NavigationSystem"
       },
       "DetailLevelBeforeCastShadows": "DM_MAX",
@@ -358,7 +390,7 @@
         },
         "MassInKgOverride": 359.89844,
         "PhysMaterialOverride": {
-          "ObjectName": "PhysicalMaterial PM_Metal_Hard",
+          "ObjectName": "PhysicalMaterial'PM_Metal_Hard'",
           "ObjectPath": "DeadByDaylight/Content/Materials/PhysicalMaterials/PM_Metal_Hard.0"
         }
       },
@@ -373,6 +405,7 @@
     "Type": "BoxComponent",
     "Name": "DoorPanelC_GEN_VARIABLE",
     "Outer": "BP_BRL_Escape01_C",
+    "Class": "UScriptClass'BoxComponent'",
     "Properties": {
       "BoxExtent": {
         "X": 24.0,
@@ -380,7 +413,7 @@
         "Z": 85.0
       },
       "AreaClass": {
-        "ObjectName": "Class NavArea_Obstacle",
+        "ObjectName": "Class'NavArea_Obstacle'",
         "ObjectPath": "/Script/NavigationSystem"
       },
       "DetailLevelBeforeCastShadows": "DM_MAX",
@@ -422,7 +455,7 @@
         },
         "MassInKgOverride": 359.89844,
         "PhysMaterialOverride": {
-          "ObjectName": "PhysicalMaterial PM_Metal_Hard",
+          "ObjectName": "PhysicalMaterial'PM_Metal_Hard'",
           "ObjectPath": "DeadByDaylight/Content/Materials/PhysicalMaterials/PM_Metal_Hard.0"
         }
       },
@@ -437,28 +470,32 @@
     "Type": "BP_TL_ParadiseServer_C",
     "Name": "BP_TL_ParadiseServer_GEN_VARIABLE_BP_TL_ParadiseServer_C_CAT",
     "Outer": "BP_TL_ParadiseServer_GEN_VARIABLE",
-    "Template": "Default__BP_TL_ParadiseServer_C"
+    "Template": "Default__BP_TL_ParadiseServer_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/Tiles/00-Common/BP_TL_ParadiseServer.BP_TL_ParadiseServer_C'"
   },
   {
     "Type": "ChargeableComponent",
     "Name": "KillerOpenChargeable",
     "Outer": "Default__BP_BRL_Escape01_C",
-    "Template": "KillerOpenChargeable"
+    "Template": "KillerOpenChargeable",
+    "Class": "UScriptClass'ChargeableComponent'"
   },
   {
     "Type": "ChargeableComponent",
     "Name": "openChargeable",
     "Outer": "Default__BP_BRL_Escape01_C",
-    "Template": "openChargeable"
+    "Template": "openChargeable",
+    "Class": "UScriptClass'ChargeableComponent'"
   },
   {
     "Type": "ChildActorComponent",
     "Name": "BP_TL_ParadiseServer_GEN_VARIABLE",
     "Outer": "BP_BRL_Escape01_C",
     "Template": "BP_TL_ParadiseServer_GEN_VARIABLE",
+    "Class": "UScriptClass'ChildActorComponent'",
     "Properties": {
       "ChildActorTemplate": {
-        "ObjectName": "BP_TL_ParadiseServer_C BP_BRL_Escape01_C:BP_TL_ParadiseServer_GEN_VARIABLE.BP_TL_ParadiseServer_GEN_VARIABLE_BP_TL_ParadiseServer_C_CAT",
+        "ObjectName": "BP_TL_ParadiseServer_C'BP_BRL_Escape01_C:BP_TL_ParadiseServer_GEN_VARIABLE.BP_TL_ParadiseServer_GEN_VARIABLE_BP_TL_ParadiseServer_C_CAT'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.11"
       },
       "RelativeLocation": {
@@ -469,27 +506,109 @@
     }
   },
   {
+    "Type": "ChildActorComponent",
+    "Name": "K32KillerPodRestrictedZoneBox1_GEN_VARIABLE",
+    "Outer": "BP_BRL_Escape01_C",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'K32KillerPodRestrictedZoneBox_C'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Item/K32Power/K32KillerPodRestrictedZoneBox.1"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "K32KillerPodRestrictedZoneBox_C'BP_BRL_Escape01_C:K32KillerPodRestrictedZoneBox1_GEN_VARIABLE.K32KillerPodRestrictedZoneBox_GEN_VARIABLE_K32KillerPodRestrictedZoneBox_C_CAT'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.20"
+      },
+      "RelativeLocation": {
+        "X": -392.00705,
+        "Y": -371.046,
+        "Z": 135.64749
+      },
+      "RelativeScale3D": {
+        "X": 2.036581,
+        "Y": 2.4913442,
+        "Z": 2.9188986
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "K32KillerPodRestrictedZoneBox_GEN_VARIABLE",
+    "Outer": "BP_BRL_Escape01_C",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'K32KillerPodRestrictedZoneBox_C'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Item/K32Power/K32KillerPodRestrictedZoneBox.1"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "K32KillerPodRestrictedZoneBox_C'BP_BRL_Escape01_C:K32KillerPodRestrictedZoneBox_GEN_VARIABLE.K32KillerPodRestrictedZoneBox_GEN_VARIABLE_K32KillerPodRestrictedZoneBox_C_CAT'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.21"
+      },
+      "RelativeLocation": {
+        "X": 570.3581,
+        "Y": 9.2E-05,
+        "Z": 329.3144
+      },
+      "RelativeScale3D": {
+        "X": 2.544004,
+        "Y": 6.538586,
+        "Z": 8.226859
+      }
+    }
+  },
+  {
+    "Type": "DBDSkeletalMeshComponentBudgeted",
+    "Name": "ExitDoorsMesh_GEN_VARIABLE",
+    "Outer": "BP_BRL_Escape01_C",
+    "Template": "ExitDoorsMesh_GEN_VARIABLE",
+    "Class": "UScriptClass'DBDSkeletalMeshComponentBudgeted'",
+    "Properties": {
+      "_significanceStrategy": {
+        "ObjectName": "LinearSignificanceStrategy'BP_BRL_Escape01_C:ExitDoorsMesh_GEN_VARIABLE.LinearSignificanceStrategy_0'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.22"
+      },
+      "_animBudgeterSignificanceStrategy": {
+        "ObjectName": "SimpleAnimBudgeterSignificanceStrategy'BP_BRL_Escape01_C:ExitDoorsMesh_GEN_VARIABLE.SimpleAnimBudgeterSignificanceStrategy_0'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.34"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_BRL_Exitdoors01_REF'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/ExitDoors/Models/SK_BRL_Exitdoors01_REF.0"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BRL_TrimWoodLogs'",
+          "ObjectPath": "DeadByDaylight/Content/Materials/Instances/InteractableObjects/ExitDoor/MI_BRL_TrimWoodLogs.0"
+        }
+      ],
+      "LDMaxDrawDistance": 7500.0,
+      "CachedMaxDrawDistance": 7500.0
+    }
+  },
+  {
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
     "Outer": "BP_BRL_Escape01_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
     "Properties": {
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class SkeletalMeshComponent",
-            "ObjectPath": "/Script/Engine"
+            "ObjectName": "Class'DBDSkeletalMeshComponentBudgeted'",
+            "ObjectPath": "/Script/DBDAnimationBudgetAllocator"
           },
           "ComponentTemplate": {
-            "ObjectName": "SkeletalMeshComponent BP_BRL_Escape01_C:SkeletalMeshComponent_3",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.27"
+            "ObjectName": "DBDSkeletalMeshComponentBudgeted'BP_BRL_Escape01_C:ExitDoorsMesh_GEN_VARIABLE'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.17"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass BP_EscapeBase_C",
+              "ObjectName": "BlueprintGeneratedClass'BP_EscapeBase_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_EscapeBase.31"
             },
-            "SCSVariableName": "SK_ExitDoors01_REF",
-            "AssociatedGuid": "2520DD16-4543F09B-EFF2B0BF-051DE851"
+            "SCSVariableName": "ExitDoorsMesh",
+            "AssociatedGuid": "275652A5-411137AC-327B80AE-B817B790"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -498,16 +617,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ActorSpawner",
+            "ObjectName": "Class'ActorSpawner'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "ActorSpawner BP_BRL_Escape01_C:EscapeBlocker_GEN_VARIABLE",
+            "ObjectName": "ActorSpawner'BP_BRL_Escape01_C:EscapeBlocker_GEN_VARIABLE'",
             "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.3"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass BP_EscapeBase_C",
+              "ObjectName": "BlueprintGeneratedClass'BP_EscapeBase_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_EscapeBase.31"
             },
             "SCSVariableName": "EscapeBlocker",
@@ -520,16 +639,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class SpotLightComponent",
+            "ObjectName": "Class'SpotLightComponent'",
             "ObjectPath": "/Script/Engine"
           },
           "ComponentTemplate": {
-            "ObjectName": "SpotLightComponent BP_BRL_Escape01_C:SpotLightComponent_198",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.28"
+            "ObjectName": "SpotLightComponent'BP_BRL_Escape01_C:SpotLightComponent_198'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.36"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass BP_EscapeBase_C",
+              "ObjectName": "BlueprintGeneratedClass'BP_EscapeBase_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_EscapeBase.31"
             },
             "SCSVariableName": "SpotLight",
@@ -542,16 +661,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ChildActorComponent",
+            "ObjectName": "Class'ChildActorComponent'",
             "ObjectPath": "/Script/Engine"
           },
           "ComponentTemplate": {
-            "ObjectName": "ChildActorComponent BP_BRL_Escape01_C:BP_TL_ParadiseServer_GEN_VARIABLE",
+            "ObjectName": "ChildActorComponent'BP_BRL_Escape01_C:BP_TL_ParadiseServer_GEN_VARIABLE'",
             "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.14"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass BP_EscapeBase_C",
+              "ObjectName": "BlueprintGeneratedClass'BP_EscapeBase_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_EscapeBase.31"
             },
             "SCSVariableName": "BP_TL_ParadiseServer",
@@ -564,16 +683,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class BoxComponent",
+            "ObjectName": "Class'BoxComponent'",
             "ObjectPath": "/Script/Engine"
           },
           "ComponentTemplate": {
-            "ObjectName": "BoxComponent BP_BRL_Escape01_C:BoxComponent_0",
+            "ObjectName": "BoxComponent'BP_BRL_Escape01_C:BoxComponent_0'",
             "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.7"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass BP_EscapeBase_C",
+              "ObjectName": "BlueprintGeneratedClass'BP_EscapeBase_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_EscapeBase.31"
             },
             "SCSVariableName": "EscapeZone",
@@ -586,16 +705,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class NiagaraComponent",
+            "ObjectName": "Class'NiagaraComponent'",
             "ObjectPath": "/Script/Niagara"
           },
           "ComponentTemplate": {
-            "ObjectName": "NiagaraComponent BP_BRL_Escape01_C:NS_Entity_Blocker_GEN_VARIABLE",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.17"
+            "ObjectName": "NiagaraComponent'BP_BRL_Escape01_C:NS_Entity_Blocker_GEN_VARIABLE'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.23"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass BP_EscapeBase_C",
+              "ObjectName": "BlueprintGeneratedClass'BP_EscapeBase_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_EscapeBase.31"
             },
             "SCSVariableName": "NS_Entity_Blocker",
@@ -613,13 +732,36 @@
     "Type": "InteractableTransformOptimizer",
     "Name": "InteractableOptimizer",
     "Outer": "Default__BP_BRL_Escape01_C",
-    "Template": "InteractableOptimizer"
+    "Template": "InteractableOptimizer",
+    "Class": "UScriptClass'InteractableTransformOptimizer'"
+  },
+  {
+    "Type": "K32KillerPodRestrictedZoneBox_C",
+    "Name": "K32KillerPodRestrictedZoneBox_GEN_VARIABLE_K32KillerPodRestrictedZoneBox_C_CAT",
+    "Outer": "K32KillerPodRestrictedZoneBox1_GEN_VARIABLE",
+    "Template": "Default__K32KillerPodRestrictedZoneBox_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/GameplayElements/Item/K32Power/K32KillerPodRestrictedZoneBox.K32KillerPodRestrictedZoneBox_C'"
+  },
+  {
+    "Type": "K32KillerPodRestrictedZoneBox_C",
+    "Name": "K32KillerPodRestrictedZoneBox_GEN_VARIABLE_K32KillerPodRestrictedZoneBox_C_CAT",
+    "Outer": "K32KillerPodRestrictedZoneBox_GEN_VARIABLE",
+    "Template": "Default__K32KillerPodRestrictedZoneBox_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/GameplayElements/Item/K32Power/K32KillerPodRestrictedZoneBox.K32KillerPodRestrictedZoneBox_C'"
+  },
+  {
+    "Type": "LinearSignificanceStrategy",
+    "Name": "LinearSignificanceStrategy_0",
+    "Outer": "ExitDoorsMesh_GEN_VARIABLE",
+    "Template": "LinearSignificanceStrategy_0",
+    "Class": "UScriptClass'LinearSignificanceStrategy'"
   },
   {
     "Type": "NiagaraComponent",
     "Name": "NS_Entity_Blocker_GEN_VARIABLE",
     "Outer": "BP_BRL_Escape01_C",
     "Template": "NS_Entity_Blocker_GEN_VARIABLE",
+    "Class": "UScriptClass'NiagaraComponent'",
     "Properties": {
       "OverrideParameters": {}
     }
@@ -627,26 +769,29 @@
   {
     "Type": "SceneComponent",
     "Name": "SceneComponent_12",
-    "Outer": "BP_BRL_Escape01_C"
+    "Outer": "BP_BRL_Escape01_C",
+    "Class": "UScriptClass'SceneComponent'"
   },
   {
     "Type": "SceneComponent",
     "Name": "rootComponent",
     "Outer": "Default__BP_BRL_Escape01_C",
-    "Template": "rootComponent"
+    "Template": "rootComponent",
+    "Class": "UScriptClass'SceneComponent'"
   },
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_0",
     "Outer": "SimpleConstructionScript_2",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_BRL_Escape01_C:Plane_DirtTerrainBlend_2_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.30"
+        "ObjectName": "StaticMeshComponent'BP_BRL_Escape01_C:Plane_DirtTerrainBlend_2_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.38"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "BP_EscapeBase_C",
@@ -658,14 +803,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_1",
     "Outer": "SimpleConstructionScript_2",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_BRL_Escape01_C:Plane_DirtTerrainBlend_1_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.29"
+        "ObjectName": "StaticMeshComponent'BP_BRL_Escape01_C:Plane_DirtTerrainBlend_1_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.37"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "BP_EscapeBase_C",
@@ -675,15 +821,56 @@
   },
   {
     "Type": "SCS_Node",
-    "Name": "SCS_Node_38",
+    "Name": "SCS_Node_2",
     "Outer": "SimpleConstructionScript_2",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class BoxComponent",
+        "ObjectName": "Class'ChildActorComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "BoxComponent BP_BRL_Escape01_C:DoorPanelA_GEN_VARIABLE",
+        "ObjectName": "ChildActorComponent'BP_BRL_Escape01_C:K32KillerPodRestrictedZoneBox_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.16"
+      },
+      "ParentComponentOrVariableName": "rootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A3BCEF1B-4A9C0761-A468099E-0D5BDE56",
+      "InternalVariableName": "K32KillerPodRestrictedZoneBox"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_2",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChildActorComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'BP_BRL_Escape01_C:K32KillerPodRestrictedZoneBox1_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.15"
+      },
+      "ParentComponentOrVariableName": "rootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9ABEBFFB-4686F0D8-D62CB1B0-3E288D65",
+      "InternalVariableName": "K32KillerPodRestrictedZoneBox1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_38",
+    "Outer": "SimpleConstructionScript_2",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_BRL_Escape01_C:DoorPanelA_GEN_VARIABLE'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.8"
       },
       "ParentComponentOrVariableName": "rootComponent",
@@ -696,13 +883,14 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_42",
     "Outer": "SimpleConstructionScript_2",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class BoxComponent",
+        "ObjectName": "Class'BoxComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "BoxComponent BP_BRL_Escape01_C:DoorPanelB_GEN_VARIABLE",
+        "ObjectName": "BoxComponent'BP_BRL_Escape01_C:DoorPanelB_GEN_VARIABLE'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.9"
       },
       "ParentComponentOrVariableName": "rootComponent",
@@ -715,13 +903,14 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_43",
     "Outer": "SimpleConstructionScript_2",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class BoxComponent",
+        "ObjectName": "Class'BoxComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "BoxComponent BP_BRL_Escape01_C:DoorPanelC_GEN_VARIABLE",
+        "ObjectName": "BoxComponent'BP_BRL_Escape01_C:DoorPanelC_GEN_VARIABLE'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.10"
       },
       "ParentComponentOrVariableName": "rootComponent",
@@ -734,92 +923,97 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_6",
     "Outer": "SimpleConstructionScript_2",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class SceneComponent",
+        "ObjectName": "Class'SceneComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "SceneComponent BP_BRL_Escape01_C:SceneComponent_12",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.18"
+        "ObjectName": "SceneComponent'BP_BRL_Escape01_C:SceneComponent_12'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.24"
       },
       "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
   {
+    "Type": "SimpleAnimBudgeterSignificanceStrategy",
+    "Name": "SimpleAnimBudgeterSignificanceStrategy_0",
+    "Outer": "ExitDoorsMesh_GEN_VARIABLE",
+    "Template": "SimpleAnimBudgeterSignificanceStrategy_0",
+    "Class": "UScriptClass'SimpleAnimBudgeterSignificanceStrategy'"
+  },
+  {
     "Type": "SimpleConstructionScript",
     "Name": "SimpleConstructionScript_2",
     "Outer": "BP_BRL_Escape01_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
     "Properties": {
       "RootNodes": [
         {
-          "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_38",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.22"
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_38'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.30"
         },
         {
-          "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_42",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.23"
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_42'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.31"
         },
         {
-          "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_43",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.24"
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_43'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.32"
         },
         {
-          "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_1",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.21"
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_1'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.27"
         },
         {
-          "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_0",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.20"
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_0'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_2'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_3'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.29"
         }
       ],
       "AllNodes": [
         {
-          "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_38",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.22"
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_38'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.30"
         },
         {
-          "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_42",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.23"
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_42'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.31"
         },
         {
-          "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_43",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.24"
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_43'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.32"
         },
         {
-          "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_1",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.21"
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_1'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.27"
         },
         {
-          "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_0",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.20"
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_0'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_2'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_3'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.29"
         }
       ],
       "DefaultSceneRootNode": {
-        "ObjectName": "SCS_Node BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_6",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.25"
+        "ObjectName": "SCS_Node'BP_BRL_Escape01_C:SimpleConstructionScript_2.SCS_Node_6'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Interactable/Escape/BP_BRL_Escape01.33"
       }
-    }
-  },
-  {
-    "Type": "SkeletalMeshComponent",
-    "Name": "SkeletalMeshComponent_3",
-    "Outer": "BP_BRL_Escape01_C",
-    "Template": "SkeletalMeshComponent_3",
-    "Properties": {
-      "SkeletalMesh": {
-        "ObjectName": "SkeletalMesh SK_BRL_Exitdoors01_REF",
-        "ObjectPath": "DeadByDaylight/Content/Meshes/InteractableObjects/ExitDoors/Models/SK_BRL_Exitdoors01_REF.0"
-      },
-      "OverrideMaterials": [
-        {
-          "ObjectName": "MaterialInstanceConstant MI_BRL_TrimWoodLogs",
-          "ObjectPath": "DeadByDaylight/Content/Materials/Instances/InteractableObjects/ExitDoor/MI_BRL_TrimWoodLogs.0"
-        }
-      ],
-      "LDMaxDrawDistance": 7500.0,
-      "CachedMaxDrawDistance": 7500.0
     }
   },
   {
@@ -827,6 +1021,7 @@
     "Name": "SpotLightComponent_198",
     "Outer": "BP_BRL_Escape01_C",
     "Template": "SpotLightComponent_198",
+    "Class": "UScriptClass'SpotLightComponent'",
     "Properties": {
       "bVisible": false,
       "bHiddenInGame": true
@@ -836,15 +1031,16 @@
     "Type": "StaticMeshComponent",
     "Name": "Plane_DirtTerrainBlend_1_GEN_VARIABLE",
     "Outer": "BP_BRL_Escape01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh Plane",
+        "ObjectName": "StaticMesh'Plane'",
         "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
       },
       "bUseDefaultCollision": false,
       "OverrideMaterials": [
         {
-          "ObjectName": "MaterialInstanceConstant MI_DirtTerrain_Paradise_Decal",
+          "ObjectName": "MaterialInstanceConstant'MI_DirtTerrain_Paradise_Decal'",
           "ObjectPath": "DeadByDaylight/Content/Materials/Substance/MI_DirtTerrain_Paradise_Decal.0"
         }
       ],
@@ -866,15 +1062,16 @@
     "Type": "StaticMeshComponent",
     "Name": "Plane_DirtTerrainBlend_2_GEN_VARIABLE",
     "Outer": "BP_BRL_Escape01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh Plane",
+        "ObjectName": "StaticMesh'Plane'",
         "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
       },
       "bUseDefaultCollision": false,
       "OverrideMaterials": [
         {
-          "ObjectName": "MaterialInstanceConstant MI_DirtTerrain_Paradise_Decal",
+          "ObjectName": "MaterialInstanceConstant'MI_DirtTerrain_Paradise_Decal'",
           "ObjectPath": "DeadByDaylight/Content/Materials/Substance/MI_DirtTerrain_Paradise_Decal.0"
         }
       ],

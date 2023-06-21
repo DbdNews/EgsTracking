@@ -1,0 +1,161 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_CoreExternalEffects_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_CoreExternalEffects_C:WidgetTree'",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.7"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CoreExternalEffectsWidget'",
+      "ObjectPath": "/Script/DBDUIViewsCore"
+    },
+    "ClassFlags": 10754064,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_CoreExternalEffects_C'Default__WBP_CoreExternalEffects_C'",
+      "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.1"
+    }
+  },
+  {
+    "Type": "WBP_CoreExternalEffects_C",
+    "Name": "Default__WBP_CoreExternalEffects_C",
+    "Class": "WidgetBlueprintGeneratedClass'DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.WBP_CoreExternalEffects_C'",
+    "Properties": {
+      "SpacingPerks": -20,
+      "SpacingAddons": 0,
+      "PerkWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CorePerk_C'",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/LoadoutParts/WBP_CorePerk.9"
+      },
+      "AddonWidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CoreAddon_C'",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/Common/LoadoutParts/WBP_CoreAddon.6"
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "ExternalPerksCanvas",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_CoreExternalEffects_C:WidgetTree.ExternalPerksCanvas.CanvasPanelSlot_10'",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "ExternalPerksCanvas",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -590.0,
+          "Top": -113.0,
+          "Right": 690.4012,
+          "Bottom": 148.16049
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_CoreExternalEffects_C:WidgetTree.ExternalPerksCanvas'",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.2"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_CoreExternalEffects_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.5"
+      }
+    }
+  },
+  {
+    "Type": "GridPanel",
+    "Name": "Container",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'GridPanel'",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_CoreExternalEffects_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_1'",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.6"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Properties": {
+      "Stretch": "EStretch::UserSpecified",
+      "UserSpecifiedScale": 0.65,
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_CoreExternalEffects_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_1'",
+          "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.6"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_CoreExternalEffects_C:WidgetTree.ExternalPerksCanvas.CanvasPanelSlot_10'",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.3"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_CoreExternalEffects_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.5"
+      },
+      "Content": {
+        "ObjectName": "GridPanel'WBP_CoreExternalEffects_C:WidgetTree.Container'",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.4"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_CoreExternalEffects_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_CoreExternalEffects_C:WidgetTree.ExternalPerksCanvas'",
+        "ObjectPath": "DeadByDaylight/Plugins/Runtime/Bhvr/DBDUICore/Content/HUD/Perks/WBP_CoreExternalEffects.2"
+      }
+    }
+  }
+]

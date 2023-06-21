@@ -734,17 +734,39 @@
           "profileStats": [
             "DBD_Chapter27_Slasher_Stat1"
           ]
-        }
-      ],
-      "scoreEventSimpleAchievements": [
+        },
         {
-          "scoreTypes": [
-            "EDBDScoreTypes::DBDCamperScore_DodgeAndVault"
+          "gameEvents": [
+            {
+              "TagName": "GameEvent.Camper.VaultInChase.AfterDodge"
+            }
           ],
           "profileStats": [
             "DBD_DLC9_Camper_Stat1"
           ]
         },
+        {
+          "gameEvents": [
+            {
+              "TagName": "GameEvent.ScoreEvent.K32.HitSurvivorAfterTeleport"
+            }
+          ],
+          "profileStats": [
+            "DBD_Chapter28_Slasher_Stat1"
+          ]
+        },
+        {
+          "gameEvents": [
+            {
+              "TagName": "GameEvent.Survivor.EnduranceApplyDeepWound"
+            }
+          ],
+          "profileStats": [
+            "DBD_Chapter28_Slasher_Stat3"
+          ]
+        }
+      ],
+      "scoreEventSimpleAchievements": [
         {
           "scoreTypes": [
             "EDBDScoreTypes::DBDCamperScore_VaultInChase"
@@ -963,6 +985,12 @@
           "achievement": {
             "ObjectName": "BlueprintGeneratedClass'EscapeAsObsessionWithoutInjuryAchievementBP_C'",
             "ObjectPath": "DeadByDaylight/Content/Data/Achievements/EscapeAsObsessionWithoutInjuryAchievementBP.0"
+          }
+        },
+        {
+          "achievement": {
+            "ObjectName": "BlueprintGeneratedClass'KillerDamagedSurvivorWithHinderedAchievement_BP_C'",
+            "ObjectPath": "DeadByDaylight/Content/Data/Achievements/KillerDamagedSurvivorWithHinderedAchievement_BP.0"
           }
         }
       ],

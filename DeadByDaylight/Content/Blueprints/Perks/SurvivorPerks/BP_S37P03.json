@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_S37P03",
+    "Outer": "BP_S37P03_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_CreateAndReceiveConditionForBP_conditionReceiver_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "UObjectWrapper",
+        "InterfaceClass": {
+          "ObjectName": "Class'ConditionReceiver'",
+          "ObjectPath": "/Script/Competence"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateAndReceiveConditionForBP_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'EventDrivenModifierCondition'",
+          "ObjectPath": "/Script/Competence"
+        }
+      }
+    ],
+    "FunctionFlags": 32769
+  },
+  {
+    "Type": "Function",
+    "Name": "Authority_OnInstantiateModifierConditions",
+    "Outer": "BP_S37P03_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'BaseModifierContainer:Authority_OnInstantiateModifierConditions'",
+      "ObjectPath": "/Script/Competence"
+    },
+    "FunctionFlags": 134744068
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_S37P03_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_S37P03_C:ExecuteUbergraph_BP_S37P03'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/SurvivorPerks/BP_S37P03.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'S37P03'",
+      "ObjectPath": "/Script/TheK32"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_S37P03_C:Authority_OnInstantiateModifierConditions'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/SurvivorPerks/BP_S37P03.1"
+      },
+      {
+        "ObjectName": "Function'BP_S37P03_C:ExecuteUbergraph_BP_S37P03'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/SurvivorPerks/BP_S37P03.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_S37P03": {
+        "ObjectName": "Function'BP_S37P03_C:ExecuteUbergraph_BP_S37P03'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/SurvivorPerks/BP_S37P03.0"
+      },
+      "Authority_OnInstantiateModifierConditions": {
+        "ObjectName": "Function'BP_S37P03_C:Authority_OnInstantiateModifierConditions'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/SurvivorPerks/BP_S37P03.1"
+      }
+    },
+    "ClassFlags": 10749972,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_S37P03_C'Default__BP_S37P03_C'",
+      "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/SurvivorPerks/BP_S37P03.3"
+    }
+  },
+  {
+    "Type": "BP_S37P03_C",
+    "Name": "Default__BP_S37P03_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/Perks/SurvivorPerks/BP_S37P03.BP_S37P03_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "_repairSpeedDebuffTime": 40,
+      "_repairSpeedDebuffTime": 35,
+      "_repairSpeedDebuffTime": 30,
+      "_allowSearchChestForToolboxEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'S37P03AllowSearchForToolboxStatusEffect_C'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/S37P03AllowSearchForToolboxStatusEffect.0"
+      },
+      "_repairSpeedDebuffEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'ModifyRepairSpeedEffect_C'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Perks/StatusEffects/ModifyRepairSpeedEffect.2"
+      },
+      "PerkIconStrategyClass": {
+        "ObjectName": "Class'ActiveOnTimerOrApplicablePerkIconStrategy'",
+        "ObjectPath": "/Script/DeadByDaylight"
+      },
+      "_maxTokenCount": 5,
+      "_id": "S37P03"
+    }
+  }
+]
