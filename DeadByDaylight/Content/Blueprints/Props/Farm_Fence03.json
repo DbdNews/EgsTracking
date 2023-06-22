@@ -1,0 +1,1182 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Farm_Fence03_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Farm_Fence03_C:SimpleConstructionScript_1'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.29"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "K32KillerPodRestrictedZoneBox",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChildActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Decal7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DecalComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Decal6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DecalComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Decal5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DecalComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Decal4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DecalComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Farm_WallBricks08",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Farm_WallBricks07",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Farm_WallBricks06",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Farm_WallBricks05",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Farm_WallBricks04",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Farm_WallBricks03",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Farm_WallBricks02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Farm_WallBricks01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Farm_Top_Brick01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Farm_Fence03",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BlinkBlocker",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Scene",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": 8652820,
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Farm_Fence03_C'Default__Farm_Fence03_C'",
+      "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.1"
+    }
+  },
+  {
+    "Type": "Farm_Fence03_C",
+    "Name": "Default__Farm_Fence03_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.Farm_Fence03_C'",
+    "Properties": {
+      "PrimaryActorTick": {
+        "bStartWithTickEnabled": false
+      },
+      "NetUpdateFrequency": 0.1,
+      "NetPriority": 0.01
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box968E2E014E3F0465A00B5CAF477EF05C",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 420.0,
+        "Y": 32.0,
+        "Z": 400.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel14",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "BlinkBlocker",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Slasher",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Spider",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Traps",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "InteractionDetector",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Blink",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Unused",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -370.0,
+        "Y": 0.0007324219,
+        "Z": 826.31134
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.5058925
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "K32KillerPodRestrictedZoneBox_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'K32KillerPodRestrictedZoneBox_C'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/GameplayElements/Item/K32Power/K32KillerPodRestrictedZoneBox.1"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "K32KillerPodRestrictedZoneBox_C'Farm_Fence03_C:K32KillerPodRestrictedZoneBox_GEN_VARIABLE.K32KillerPodRestrictedZoneBox_GEN_VARIABLE_K32KillerPodRestrictedZoneBox_C_CAT'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.8"
+      },
+      "RelativeLocation": {
+        "X": -357.21417,
+        "Y": 15.611328,
+        "Z": 663.7264
+      },
+      "RelativeScale3D": {
+        "X": 12.135898,
+        "Y": 10.38229,
+        "Z": 4.649261
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal4_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Farm_WoodFencedirt01'",
+        "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Farm/Structures/MI_Farm_WoodFencedirt01.0"
+      },
+      "RelativeLocation": {
+        "X": -18.68782,
+        "Y": -13.416664,
+        "Z": 338.57312
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -630.00195,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.092324,
+        "Y": 0.585032,
+        "Z": 0.46420246
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal5_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Farm_WoodFencedirt02'",
+        "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Farm/Structures/MI_Farm_WoodFencedirt02.0"
+      },
+      "RelativeLocation": {
+        "X": -307.2567,
+        "Y": -13.407192,
+        "Z": 303.807
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -630.00195,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.092324,
+        "Y": 0.4550684,
+        "Z": 0.46420246
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal6_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Farm_WoodFencedirt01'",
+        "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Farm/Structures/MI_Farm_WoodFencedirt01.0"
+      },
+      "RelativeLocation": {
+        "X": -747.8826,
+        "Y": 1.7814443,
+        "Z": 273.68323
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -810.00195,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.092324,
+        "Y": 0.585032,
+        "Z": 0.46420246
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal7_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Farm_WoodFencedirt02'",
+        "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Farm/Structures/MI_Farm_WoodFencedirt02.0"
+      },
+      "RelativeLocation": {
+        "X": -47.07599,
+        "Y": 11.361382,
+        "Z": 303.807
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -810.00195,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.092324,
+        "Y": 0.4550684,
+        "Z": 0.46420246
+      }
+    }
+  },
+  {
+    "Type": "K32KillerPodRestrictedZoneBox_C",
+    "Name": "K32KillerPodRestrictedZoneBox_GEN_VARIABLE_K32KillerPodRestrictedZoneBox_C_CAT",
+    "Outer": "K32KillerPodRestrictedZoneBox_GEN_VARIABLE",
+    "Template": "Default__K32KillerPodRestrictedZoneBox_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/GameplayElements/Item/K32Power/K32KillerPodRestrictedZoneBox.K32KillerPodRestrictedZoneBox_C'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_254",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Farm_Fence03_C:SM_Farm_Top_Brick01_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.31"
+      },
+      "VariableGuid": "ED0DFE59-426B63E6-E03E53B3-75F8BC3A",
+      "InternalVariableName": "SM_Farm_Top_Brick01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Farm_Fence03_C:SceneComponent_254'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.10"
+      },
+      "VariableGuid": "4B447BBD-471F6830-D415DDA6-F2E68132",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Farm_Fence03_C:SM_Farm_WallBricks06_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.37"
+      },
+      "VariableGuid": "DF7CF591-4DCEDE77-2A1F93B3-6F3F253E",
+      "InternalVariableName": "SM_Farm_WallBricks06"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Farm_Fence03_C:SM_Farm_WallBricks07_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.38"
+      },
+      "VariableGuid": "25D48F40-4B1D2B8B-2C388E9B-CA5C9B04",
+      "InternalVariableName": "SM_Farm_WallBricks07"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'Farm_Fence03_C:Decal4_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.4"
+      },
+      "VariableGuid": "2C6465E1-4D51AA78-069227B4-100382F1",
+      "InternalVariableName": "Decal4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'Farm_Fence03_C:Decal5_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.5"
+      },
+      "VariableGuid": "C830FE2F-40528055-46662987-05357D57",
+      "InternalVariableName": "Decal5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Farm_Fence03_C:SM_Farm_WallBricks08_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.39"
+      },
+      "VariableGuid": "05EE7A5D-46FF491A-E5A22DB1-141BC940",
+      "InternalVariableName": "SM_Farm_WallBricks08"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'Farm_Fence03_C:Decal6_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.6"
+      },
+      "VariableGuid": "7091610F-4F81EDF5-7A3B139E-74234204",
+      "InternalVariableName": "Decal6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'Farm_Fence03_C:Decal7_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.7"
+      },
+      "VariableGuid": "AD69BBCE-48F95480-B60DEFA5-FD3AFD30",
+      "InternalVariableName": "Decal7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChildActorComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'Farm_Fence03_C:K32KillerPodRestrictedZoneBox_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.3"
+      },
+      "VariableGuid": "F7CB6B0D-41690F3F-45BDB388-75E53117",
+      "InternalVariableName": "K32KillerPodRestrictedZoneBox"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'Farm_Fence03_C:Box968E2E014E3F0465A00B5CAF477EF05C'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.2"
+      },
+      "VariableGuid": "E56F7EB2-48987E03-E508A58C-5B504915",
+      "InternalVariableName": "BlinkBlocker"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Farm_Fence03_C:SM_Farm_WallBricks01_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.32"
+      },
+      "VariableGuid": "CF4C4B56-46AE4756-B777F8BC-C6C645A9",
+      "InternalVariableName": "SM_Farm_WallBricks01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Farm_Fence03_C:SM_Farm_Fence03_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.30"
+      },
+      "VariableGuid": "0DEAD2AB-4119B93A-74669C83-D7B14CCA",
+      "InternalVariableName": "SM_Farm_Fence03"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Farm_Fence03_C:SM_Farm_WallBricks02_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.33"
+      },
+      "VariableGuid": "82968481-4BCE43BE-2476C7B8-C44D6792",
+      "InternalVariableName": "SM_Farm_WallBricks02"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Farm_Fence03_C:SM_Farm_WallBricks03_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.34"
+      },
+      "VariableGuid": "2D02F8B7-4A55CF4C-DCEED482-C4F8012E",
+      "InternalVariableName": "SM_Farm_WallBricks03"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Farm_Fence03_C:SM_Farm_WallBricks04_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.35"
+      },
+      "VariableGuid": "9377E0FB-47E66534-7CDF2289-31C53DEB",
+      "InternalVariableName": "SM_Farm_WallBricks04"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Farm_Fence03_C:SM_Farm_WallBricks05_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.36"
+      },
+      "VariableGuid": "33009B0F-47A4CECD-CC15608C-0B60DD9B",
+      "InternalVariableName": "SM_Farm_WallBricks05"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Farm_Fence03_C:Scene_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.9"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_2'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.21"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_4'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.23"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_0'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.11"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_3'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.22"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_5'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.24"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_6'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.25"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_7'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.26"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_8'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.27"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_10'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.13"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_11'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.14"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_14'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.17"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_12'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.15"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_13'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.16"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_15'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.18"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_16'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.19"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_17'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.20"
+        }
+      ],
+      "VariableGuid": "9BF51199-471FEAAC-C71E1CB9-2800F1F6",
+      "InternalVariableName": "Scene"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_1",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_9'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.28"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_9'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.28"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_2'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.21"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_4'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.23"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_0'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.11"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_3'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.22"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_5'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.24"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_6'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.25"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_7'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.26"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_8'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.27"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_10'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.13"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_11'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.14"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_14'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.17"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_12'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.15"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_13'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.16"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_15'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.18"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_16'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.19"
+        },
+        {
+          "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_17'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.20"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Farm_Fence03_C:SimpleConstructionScript_1.SCS_Node_1'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/Farm_Fence03.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Farm_Fence03_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Farm_Fence03'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Props/Fences/Models/SM_Farm_Fence03.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Farm_Top_Brick01_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Farm_Top_Brick01'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Props/Fences/Models/SM_Farm_Top_Brick01.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.85669017,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Farm_WallBricks01_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Farm_WallBricks01'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Props/Fences/Models/SM_Farm_WallBricks01.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "RelativeLocation": {
+        "X": -38.437977,
+        "Y": 46.849422,
+        "Z": -78.98933
+      },
+      "RelativeRotation": {
+        "Pitch": -5.309509,
+        "Yaw": -89.99908,
+        "Roll": 2.4866127E-05
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Farm_WallBricks02_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Farm_WallBricks01'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Props/Fences/Models/SM_Farm_WallBricks01.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "RelativeLocation": {
+        "X": -163.97813,
+        "Y": 39.85034,
+        "Z": -109.12978
+      },
+      "RelativeRotation": {
+        "Pitch": -3.5285022,
+        "Yaw": -89.99903,
+        "Roll": 2.780485E-05
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Farm_WallBricks03_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Farm_WallBricks01'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Props/Fences/Models/SM_Farm_WallBricks01.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "RelativeLocation": {
+        "X": -507.7071,
+        "Y": 48.158466,
+        "Z": -94.63226
+      },
+      "RelativeRotation": {
+        "Pitch": -5.0081606,
+        "Yaw": -89.99893,
+        "Roll": 1.22128995E-05
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Farm_WallBricks04_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Farm_WallBricks01'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Props/Fences/Models/SM_Farm_WallBricks01.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "RelativeLocation": {
+        "X": -702.0849,
+        "Y": 39.367664,
+        "Z": -96.88742
+      },
+      "RelativeRotation": {
+        "Pitch": 3.427392,
+        "Yaw": 89.97298,
+        "Roll": 1.603695E-06
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Farm_WallBricks05_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Farm_WallBricks01'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Props/Fences/Models/SM_Farm_WallBricks01.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "RelativeLocation": {
+        "X": -105.99659,
+        "Y": -26.855598,
+        "Z": -88.929695
+      },
+      "RelativeRotation": {
+        "Pitch": -1.8092939,
+        "Yaw": 90.00001,
+        "Roll": 8.543422E-07
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Farm_WallBricks06_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Farm_WallBricks01'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Props/Fences/Models/SM_Farm_WallBricks01.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "RelativeLocation": {
+        "X": -274.72263,
+        "Y": -32.070168,
+        "Z": -133.85501
+      },
+      "RelativeRotation": {
+        "Pitch": -2.4393268,
+        "Yaw": 89.999985,
+        "Roll": 9.613664E-07
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Farm_WallBricks07_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Farm_WallBricks01'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Props/Fences/Models/SM_Farm_WallBricks01.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "RelativeLocation": {
+        "X": -420.29047,
+        "Y": -32.070778,
+        "Z": -81.21529
+      },
+      "RelativeRotation": {
+        "Pitch": -2.4393268,
+        "Yaw": 89.99996,
+        "Roll": 9.613664E-07
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Farm_WallBricks08_GEN_VARIABLE",
+    "Outer": "Farm_Fence03_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Farm_WallBricks01'",
+        "ObjectPath": "DeadByDaylight/Content/Meshes/Props/Fences/Models/SM_Farm_WallBricks01.2"
+      },
+      "DetailLevelBeforeCastShadows": "DM_MAX",
+      "RelativeLocation": {
+        "X": -713.09235,
+        "Y": -36.493042,
+        "Z": -86.39786
+      },
+      "RelativeRotation": {
+        "Pitch": -3.490429,
+        "Yaw": 89.99996,
+        "Roll": 1.924562E-06
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  }
+]

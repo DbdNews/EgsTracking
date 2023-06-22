@@ -3,603 +3,604 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_TL_Fr_16x16_MD01_C",
     "Super": "TileBase01_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
     "Properties": {
       "SimpleConstructionScript": {
-        "ObjectName": "SimpleConstructionScript BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.102"
+        "ObjectName": "SimpleConstructionScript'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.101"
       },
       "InheritableComponentHandler": {
-        "ObjectName": "InheritableComponentHandler BP_TL_Fr_16x16_MD01_C:InheritableComponentHandler",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.41"
+        "ObjectName": "InheritableComponentHandler'BP_TL_Fr_16x16_MD01_C:InheritableComponentHandler'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.40"
       }
     },
     "SuperStruct": {
-      "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+      "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
       "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
     },
     "ChildProperties": [
       {
         "Type": "ObjectProperty",
-        "Name": "SM_COM_PlantFern01_9",
-        "Flags": 2097153,
+        "Name": "ActorSpawner8",
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
-          "ObjectPath": "/Script/Engine"
+          "ObjectName": "Class'ActorSpawner'",
+          "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
-        "Name": "BP_FireBarrel01",
-        "Flags": 2097153,
+        "Name": "SM_COM_PlantFern01_9",
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ChildActorComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_Rock02",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "AudioAmbBox_Forest",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class NatAudioAmbienceBox",
+          "ObjectName": "Class'NatAudioAmbienceBox'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "HISM_SM_COM_Grass02",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class HierarchicalInstancedStaticMeshComponent",
+          "ObjectName": "Class'HierarchicalInstancedStaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "HISM_SM_COM_Grass01",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class HierarchicalInstancedStaticMeshComponent",
+          "ObjectName": "Class'HierarchicalInstancedStaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "HISM_SM_COM_FieldGrass_01",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class HierarchicalInstancedStaticMeshComponent",
+          "ObjectName": "Class'HierarchicalInstancedStaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_IND_TallTree04_0",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "HISM_SPLIT_SM_IND_TallTree04_0",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class SceneComponent",
+          "ObjectName": "Class'SceneComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_SmallTree03_6",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_SmallTree03_5",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_SmallTree03_4",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_SmallTree03_3",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_SmallTree03_2",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_SmallTree03_1",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_SmallTree03_0",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "HISM_SPLIT_SM_COM_SmallTree03_0",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class SceneComponent",
+          "ObjectName": "Class'SceneComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_PlantFern01_8",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_PlantFern01_7",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_PlantFern01_6",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_PlantFern01_5",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_PlantFern01_4",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_PlantFern01_3",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_PlantFern01_2",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_PlantFern01_1",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_PlantFern01_0",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "HISM_SPLIT_SM_COM_PlantFern01_0",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class SceneComponent",
+          "ObjectName": "Class'SceneComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "AVS_TreevStump_01",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorVariationSpawner",
+          "ObjectName": "Class'ActorVariationSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "HISM_TallTree04_Leaves_shadow",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class HierarchicalInstancedStaticMeshComponent",
+          "ObjectName": "Class'HierarchicalInstancedStaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "HISM_TallTree04_Leaves",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class HierarchicalInstancedStaticMeshComponent",
+          "ObjectName": "Class'HierarchicalInstancedStaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "ActorSpawner10",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "DBDSphereReflectionCaptureSpawner",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class DBDSphereReflectionCaptureSpawnerComponent",
+          "ObjectName": "Class'DBDSphereReflectionCaptureSpawnerComponent'",
           "ObjectPath": "/Script/GFXUtilities"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "SM_COM_Rock05_01",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "Ground",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class StaticMeshComponent",
+          "ObjectName": "Class'StaticMeshComponent'",
           "ObjectPath": "/Script/Engine"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "N_S_Falling_Pine_Leaves_01",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class NiagaraComponent",
+          "ObjectName": "Class'NiagaraComponent'",
           "ObjectPath": "/Script/Niagara"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "ActorSpawner9",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "ActorSpawner7",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_BigTree01_04",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_MediumTree01_08",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_MediumTree01_07",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_BigTree01_03",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_BigTree01_02",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_MediumTree01_06",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_BigTree01_01",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_MediumTree01_05",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_MediumTree01_04",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_MediumTree01_03",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_BK_Boulder02_02",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_BK_Boulder02_01",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_MediumTree01_02",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "BP_IND_MediumTree01_01",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class ActorSpawner",
+          "ObjectName": "Class'ActorSpawner'",
           "ObjectPath": "/Script/DeadByDaylight"
         }
       },
       {
         "Type": "ObjectProperty",
         "Name": "Scene1",
-        "Flags": 2097153,
+        "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
-        "PropertyFlags": 17180393476,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class SceneComponent",
+          "ObjectName": "Class'SceneComponent'",
           "ObjectPath": "/Script/Engine"
         }
       }
     ],
     "ClassFlags": 8652820,
     "ClassWithin": {
-      "ObjectName": "Class Object",
+      "ObjectName": "Class'Object'",
       "ObjectPath": "/Script/CoreUObject"
     },
     "ClassConfigName": "Engine",
     "bCooked": true,
     "ClassDefaultObject": {
-      "ObjectName": "BP_TL_Fr_16x16_MD01_C Default__BP_TL_Fr_16x16_MD01_C",
+      "ObjectName": "BP_TL_Fr_16x16_MD01_C'Default__BP_TL_Fr_16x16_MD01_C'",
       "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.1"
     }
   },
@@ -607,6 +608,7 @@
     "Type": "BP_TL_Fr_16x16_MD01_C",
     "Name": "Default__BP_TL_Fr_16x16_MD01_C",
     "Template": "Default__TileBase01_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.BP_TL_Fr_16x16_MD01_C'",
     "Properties": {
       "MaximumCount": 4,
       "Dimension": {
@@ -622,6 +624,7 @@
     "Type": "ActorSpawner",
     "Name": "ActorSpawner10_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::LivingWorldObjects",
       "Visualization": {
@@ -654,6 +657,7 @@
     "Type": "ActorSpawner",
     "Name": "ActorSpawner7_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::LivingWorldObjects",
       "Visualization": {
@@ -682,6 +686,7 @@
     "Name": "ActorSpawner836F088848C74DFA83D97DA0FDF090B1",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "ActorSpawner836F088848C74DFA83D97DA0FDF090B1",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "RelativeLocation": {
         "X": 273.79358,
@@ -692,8 +697,37 @@
   },
   {
     "Type": "ActorSpawner",
+    "Name": "ActorSpawner8_GEN_VARIABLE",
+    "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
+    "Properties": {
+      "Type": "EGameplayElementType::TileLights",
+      "Visualization": {
+        "AssetPathName": "/Game/Blueprints/Props/BP_FireBarrel01.BP_FireBarrel01_C",
+        "SubPathString": ""
+      },
+      "ActivatedSceneElement": [
+        {
+          "SceneElement": {
+            "AssetPathName": "/Game/Blueprints/Props/BP_FireBarrel01.BP_FireBarrel01_C",
+            "SubPathString": ""
+          },
+          "Weight": 1.0
+        }
+      ],
+      "RelativeLocation": {
+        "X": 397.6051,
+        "Y": -193.75595,
+        "Z": -6.1E-05
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "ActorSpawner",
     "Name": "ActorSpawner9_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::LivingWorldObjects",
       "Visualization": {
@@ -722,6 +756,7 @@
     "Name": "ActorSpawner_0",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "ActorSpawner_0",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "RelativeLocation": {
         "X": -447.0693,
@@ -740,6 +775,7 @@
     "Name": "ActorSpawner_18",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "ActorSpawner_18",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "RelativeLocation": {
         "X": -577.66504,
@@ -757,6 +793,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_BK_Boulder02_01_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Visualization": {
         "AssetPathName": "/Game/Blueprints/Props/01-Industrial/BP_Ind_Boulder02.BP_Ind_Boulder02_C",
@@ -788,6 +825,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_BK_Boulder02_02_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -820,6 +858,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_BigTree01_01_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -852,6 +891,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_BigTree01_02_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -884,6 +924,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_BigTree01_03_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -916,6 +957,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_BigTree01_04_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -948,6 +990,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_MediumTree01_01_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -980,6 +1023,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_MediumTree01_02_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -1012,6 +1056,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_MediumTree01_03_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -1044,6 +1089,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_MediumTree01_04_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -1076,6 +1122,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_MediumTree01_05_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -1108,6 +1155,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_MediumTree01_06_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -1140,6 +1188,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_MediumTree01_07_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -1172,6 +1221,7 @@
     "Type": "ActorSpawner",
     "Name": "BP_IND_MediumTree01_08_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "Type": "EGameplayElementType::EdgeObjects",
       "Visualization": {
@@ -1205,6 +1255,7 @@
     "Name": "HexSpawnerAB0214EB470864319DD5DFAECFD7ACDE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "HexSpawnerAB0214EB470864319DD5DFAECFD7ACDE",
+    "Class": "UScriptClass'ActorSpawner'",
     "Properties": {
       "RelativeLocation": {
         "X": -34.02335,
@@ -1222,6 +1273,7 @@
     "Type": "ActorVariationSpawner",
     "Name": "AVS_TreevStump_01_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'ActorVariationSpawner'",
     "Properties": {
       "Visualization": {
         "AssetPathName": "/Game/Meshes/Environment/Industrial/Vegetation/BP_IND_BigTree01.BP_IND_BigTree01_C",
@@ -1257,6 +1309,7 @@
     "Name": "ArrowComponent_5",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "ArrowComponent_5",
+    "Class": "UScriptClass'ArrowComponent'",
     "Properties": {
       "RelativeRotation": {
         "Pitch": 0.0,
@@ -1269,41 +1322,40 @@
     "Type": "BP_Effect_Mist_C",
     "Name": "BP_Effect_MistC0C70A5241ED67C308EE5CBBA64F9AF0_BP_Effect_Mist_C_CAT",
     "Outer": "BP_Effect_MistC0C70A5241ED67C308EE5CBBA64F9AF0",
-    "Template": "Default__BP_Effect_Mist_C"
+    "Template": "Default__BP_Effect_Mist_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Effects/Blueprints/BP_Effect_Mist.BP_Effect_Mist_C'"
   },
   {
     "Type": "BP_Effect_Mist_C",
     "Name": "ChildActor23BD091E460EC1DDE3D925A74625A6B9_BP_Effect_Mist_C_CAT",
     "Outer": "ChildActor23BD091E460EC1DDE3D925A74625A6B9",
-    "Template": "Default__BP_Effect_Mist_C"
+    "Template": "Default__BP_Effect_Mist_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Effects/Blueprints/BP_Effect_Mist.BP_Effect_Mist_C'"
   },
   {
     "Type": "BP_Effect_Mist_C",
     "Name": "ChildActor6A6657D944AA8C9BF8BFDC906DBACF23_BP_Effect_Mist_C_CAT",
     "Outer": "ChildActor6A6657D944AA8C9BF8BFDC906DBACF23",
-    "Template": "Default__BP_Effect_Mist_C"
+    "Template": "Default__BP_Effect_Mist_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Effects/Blueprints/BP_Effect_Mist.BP_Effect_Mist_C'"
   },
   {
     "Type": "BP_Effect_Mist_C",
     "Name": "ChildActor7870C468478CD22B85EA62ABDE6B8721_BP_Effect_Mist_C_CAT",
     "Outer": "ChildActor7870C468478CD22B85EA62ABDE6B8721",
-    "Template": "Default__BP_Effect_Mist_C"
-  },
-  {
-    "Type": "BP_FireBarrel01_C",
-    "Name": "BP_FireBarrel01_GEN_VARIABLE_BP_FireBarrel01_C_CAT",
-    "Outer": "BP_FireBarrel01_GEN_VARIABLE",
-    "Template": "Default__BP_FireBarrel01_C"
+    "Template": "Default__BP_Effect_Mist_C",
+    "Class": "BlueprintGeneratedClass'DeadByDaylight/Content/Effects/Blueprints/BP_Effect_Mist.BP_Effect_Mist_C'"
   },
   {
     "Type": "ChildActorComponent",
     "Name": "BP_Effect_MistC0C70A5241ED67C308EE5CBBA64F9AF0",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "BP_Effect_MistC0C70A5241ED67C308EE5CBBA64F9AF0",
+    "Class": "UScriptClass'ChildActorComponent'",
     "Properties": {
       "ChildActorTemplate": {
-        "ObjectName": "BP_Effect_Mist_C BP_TL_Fr_16x16_MD01_C:BP_Effect_MistC0C70A5241ED67C308EE5CBBA64F9AF0.BP_Effect_MistC0C70A5241ED67C308EE5CBBA64F9AF0_BP_Effect_Mist_C_CAT",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.25"
+        "ObjectName": "BP_Effect_Mist_C'BP_TL_Fr_16x16_MD01_C:BP_Effect_MistC0C70A5241ED67C308EE5CBBA64F9AF0.BP_Effect_MistC0C70A5241ED67C308EE5CBBA64F9AF0_BP_Effect_Mist_C_CAT'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.26"
       },
       "RelativeLocation": {
         "X": -400.0,
@@ -1314,34 +1366,14 @@
   },
   {
     "Type": "ChildActorComponent",
-    "Name": "BP_FireBarrel01_GEN_VARIABLE",
-    "Outer": "BP_TL_Fr_16x16_MD01_C",
-    "Properties": {
-      "ChildActorClass": {
-        "ObjectName": "BlueprintGeneratedClass BP_FireBarrel01_C",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Props/BP_FireBarrel01.4"
-      },
-      "ChildActorTemplate": {
-        "ObjectName": "BP_FireBarrel01_C BP_TL_Fr_16x16_MD01_C:BP_FireBarrel01_GEN_VARIABLE.BP_FireBarrel01_GEN_VARIABLE_BP_FireBarrel01_C_CAT",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.29"
-      },
-      "RelativeLocation": {
-        "X": 397.6051,
-        "Y": -193.75595,
-        "Z": -6.1035156E-05
-      },
-      "Mobility": "EComponentMobility::Static"
-    }
-  },
-  {
-    "Type": "ChildActorComponent",
     "Name": "ChildActor23BD091E460EC1DDE3D925A74625A6B9",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "ChildActor23BD091E460EC1DDE3D925A74625A6B9",
+    "Class": "UScriptClass'ChildActorComponent'",
     "Properties": {
       "ChildActorTemplate": {
-        "ObjectName": "BP_Effect_Mist_C BP_TL_Fr_16x16_MD01_C:ChildActor23BD091E460EC1DDE3D925A74625A6B9.ChildActor23BD091E460EC1DDE3D925A74625A6B9_BP_Effect_Mist_C_CAT",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.26"
+        "ObjectName": "BP_Effect_Mist_C'BP_TL_Fr_16x16_MD01_C:ChildActor23BD091E460EC1DDE3D925A74625A6B9.ChildActor23BD091E460EC1DDE3D925A74625A6B9_BP_Effect_Mist_C_CAT'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.27"
       }
     }
   },
@@ -1350,10 +1382,11 @@
     "Name": "ChildActor6A6657D944AA8C9BF8BFDC906DBACF23",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "ChildActor6A6657D944AA8C9BF8BFDC906DBACF23",
+    "Class": "UScriptClass'ChildActorComponent'",
     "Properties": {
       "ChildActorTemplate": {
-        "ObjectName": "BP_Effect_Mist_C BP_TL_Fr_16x16_MD01_C:ChildActor6A6657D944AA8C9BF8BFDC906DBACF23.ChildActor6A6657D944AA8C9BF8BFDC906DBACF23_BP_Effect_Mist_C_CAT",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.27"
+        "ObjectName": "BP_Effect_Mist_C'BP_TL_Fr_16x16_MD01_C:ChildActor6A6657D944AA8C9BF8BFDC906DBACF23.ChildActor6A6657D944AA8C9BF8BFDC906DBACF23_BP_Effect_Mist_C_CAT'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.28"
       }
     }
   },
@@ -1362,10 +1395,11 @@
     "Name": "ChildActor7870C468478CD22B85EA62ABDE6B8721",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "ChildActor7870C468478CD22B85EA62ABDE6B8721",
+    "Class": "UScriptClass'ChildActorComponent'",
     "Properties": {
       "ChildActorTemplate": {
-        "ObjectName": "BP_Effect_Mist_C BP_TL_Fr_16x16_MD01_C:ChildActor7870C468478CD22B85EA62ABDE6B8721.ChildActor7870C468478CD22B85EA62ABDE6B8721_BP_Effect_Mist_C_CAT",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.28"
+        "ObjectName": "BP_Effect_Mist_C'BP_TL_Fr_16x16_MD01_C:ChildActor7870C468478CD22B85EA62ABDE6B8721.ChildActor7870C468478CD22B85EA62ABDE6B8721_BP_Effect_Mist_C_CAT'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.29"
       }
     }
   },
@@ -1373,6 +1407,7 @@
     "Type": "DBDSphereReflectionCaptureSpawnerComponent",
     "Name": "DBDSphereReflectionCaptureSpawner_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'DBDSphereReflectionCaptureSpawnerComponent'",
     "Properties": {
       "InfluenceRadius": 1000.0,
       "RelativeLocation": {
@@ -1388,6 +1423,7 @@
     "Type": "HierarchicalInstancedStaticMeshComponent",
     "Name": "HISM_SM_COM_FieldGrass_01_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'HierarchicalInstancedStaticMeshComponent'",
     "Properties": {
       "UnbuiltInstanceBounds": {
         "Min": {
@@ -4293,7 +4329,7 @@
       "InstanceCountToRender": 222,
       "InstancingRandomSeed": 1264,
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_FieldGrass_01",
+        "ObjectName": "StaticMesh'SM_COM_FieldGrass_01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_FieldGrass_01.1"
       },
       "bUseDefaultCollision": false,
@@ -9732,6 +9768,7 @@
     "Type": "HierarchicalInstancedStaticMeshComponent",
     "Name": "HISM_SM_COM_Grass01_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'HierarchicalInstancedStaticMeshComponent'",
     "Properties": {
       "UnbuiltInstanceBounds": {
         "Min": {
@@ -10518,7 +10555,7 @@
       "InstanceCountToRender": 59,
       "InstancingRandomSeed": 23825,
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_Grass01",
+        "ObjectName": "StaticMesh'SM_COM_Grass01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_Grass01.1"
       },
       "bUseDefaultCollision": false,
@@ -12018,6 +12055,7 @@
     "Type": "HierarchicalInstancedStaticMeshComponent",
     "Name": "HISM_SM_COM_Grass02_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'HierarchicalInstancedStaticMeshComponent'",
     "Properties": {
       "UnbuiltInstanceBounds": {
         "Min": {
@@ -12648,7 +12686,7 @@
       "InstanceCountToRender": 47,
       "InstancingRandomSeed": 6701,
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_Grass01",
+        "ObjectName": "StaticMesh'SM_COM_Grass01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_Grass01.1"
       },
       "bUseDefaultCollision": false,
@@ -13860,6 +13898,7 @@
     "Type": "HierarchicalInstancedStaticMeshComponent",
     "Name": "HISM_TallTree04_Leaves_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'HierarchicalInstancedStaticMeshComponent'",
     "Properties": {
       "BuiltInstanceBounds": {
         "Min": {
@@ -13889,7 +13928,7 @@
       },
       "InstancingRandomSeed": 3884,
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_IND_TallTree04_Leaves",
+        "ObjectName": "StaticMesh'SM_IND_TallTree04_Leaves'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Industrial/Vegetation/SM_IND_TallTree04_Leaves.2"
       },
       "CastShadow": false,
@@ -14017,6 +14056,7 @@
     "Type": "HierarchicalInstancedStaticMeshComponent",
     "Name": "HISM_TallTree04_Leaves_shadow_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'HierarchicalInstancedStaticMeshComponent'",
     "Properties": {
       "BuiltInstanceBounds": {
         "Min": {
@@ -14046,7 +14086,7 @@
       },
       "InstancingRandomSeed": 3884,
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_IND_TallTree04_Leaves",
+        "ObjectName": "StaticMesh'SM_IND_TallTree04_Leaves'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Industrial/Vegetation/SM_IND_TallTree04_Leaves.2"
       },
       "DetailLevelBeforeCastShadows": "DM_MAX",
@@ -14174,20 +14214,21 @@
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
     "Properties": {
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class TileSpawnPoint",
+            "ObjectName": "Class'TileSpawnPoint'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "TileSpawnPoint BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_19",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.128"
+            "ObjectName": "TileSpawnPoint'BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_19'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.127"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "KillerItemSpawn01",
@@ -14200,16 +14241,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class TileSpawnPoint",
+            "ObjectName": "Class'TileSpawnPoint'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "TileSpawnPoint BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_22",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.129"
+            "ObjectName": "TileSpawnPoint'BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_22'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.128"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "InteractableSpawn01",
@@ -14222,16 +14263,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class TileSpawnPoint",
+            "ObjectName": "Class'TileSpawnPoint'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "TileSpawnPoint BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_0",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.124"
+            "ObjectName": "TileSpawnPoint'BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_0'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.123"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "SurvivorSpawn01",
@@ -14244,16 +14285,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class TileSpawnPoint",
+            "ObjectName": "Class'TileSpawnPoint'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "TileSpawnPoint BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_4",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.130"
+            "ObjectName": "TileSpawnPoint'BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_4'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.129"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "SurvivorSpawn02",
@@ -14266,16 +14307,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class TileSpawnPoint",
+            "ObjectName": "Class'TileSpawnPoint'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "TileSpawnPoint BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_10",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.125"
+            "ObjectName": "TileSpawnPoint'BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_10'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.124"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "SurvivorSpawn04",
@@ -14288,16 +14329,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class TileSpawnPoint",
+            "ObjectName": "Class'TileSpawnPoint'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "TileSpawnPoint BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_7",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.131"
+            "ObjectName": "TileSpawnPoint'BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_7'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.130"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "SurvivorSpawn03",
@@ -14310,16 +14351,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class TileSpawnPoint",
+            "ObjectName": "Class'TileSpawnPoint'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "TileSpawnPoint BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_16",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.127"
+            "ObjectName": "TileSpawnPoint'BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_16'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.126"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "SurvivorItemSpawn01",
@@ -14332,16 +14373,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ActorSpawner",
+            "ObjectName": "Class'ActorSpawner'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:ActorSpawner_18",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.7"
+            "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:ActorSpawner_18'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.8"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "SmallMeatLockerSpawner",
@@ -14354,16 +14395,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class TileSpawnPoint",
+            "ObjectName": "Class'TileSpawnPoint'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "TileSpawnPoint BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_13",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.126"
+            "ObjectName": "TileSpawnPoint'BP_TL_Fr_16x16_MD01_C:TileSpawnPoint_13'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.125"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "KillerSpawn01",
@@ -14376,16 +14417,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ActorSpawner",
+            "ObjectName": "Class'ActorSpawner'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:ActorSpawner_0",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.6"
+            "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:ActorSpawner_0'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.7"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "SearchableSpawner",
@@ -14398,16 +14439,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ActorSpawner",
+            "ObjectName": "Class'ActorSpawner'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:ActorSpawner836F088848C74DFA83D97DA0FDF090B1",
+            "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:ActorSpawner836F088848C74DFA83D97DA0FDF090B1'",
             "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.4"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "HatchSpawner",
@@ -14420,16 +14461,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ActorSpawner",
+            "ObjectName": "Class'ActorSpawner'",
             "ObjectPath": "/Script/DeadByDaylight"
           },
           "ComponentTemplate": {
-            "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:HexSpawnerAB0214EB470864319DD5DFAECFD7ACDE",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.22"
+            "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:HexSpawnerAB0214EB470864319DD5DFAECFD7ACDE'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.23"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "HexSpawner01",
@@ -14442,16 +14483,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ArrowComponent",
+            "ObjectName": "Class'ArrowComponent'",
             "ObjectPath": "/Script/Engine"
           },
           "ComponentTemplate": {
-            "ObjectName": "ArrowComponent BP_TL_Fr_16x16_MD01_C:ArrowComponent_5",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.24"
+            "ObjectName": "ArrowComponent'BP_TL_Fr_16x16_MD01_C:ArrowComponent_5'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.25"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "Arrow5",
@@ -14464,16 +14505,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ChildActorComponent",
+            "ObjectName": "Class'ChildActorComponent'",
             "ObjectPath": "/Script/Engine"
           },
           "ComponentTemplate": {
-            "ObjectName": "ChildActorComponent BP_TL_Fr_16x16_MD01_C:BP_Effect_MistC0C70A5241ED67C308EE5CBBA64F9AF0",
+            "ObjectName": "ChildActorComponent'BP_TL_Fr_16x16_MD01_C:BP_Effect_MistC0C70A5241ED67C308EE5CBBA64F9AF0'",
             "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.30"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "BP_Effect_Mist01",
@@ -14486,16 +14527,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ChildActorComponent",
+            "ObjectName": "Class'ChildActorComponent'",
             "ObjectPath": "/Script/Engine"
           },
           "ComponentTemplate": {
-            "ObjectName": "ChildActorComponent BP_TL_Fr_16x16_MD01_C:ChildActor7870C468478CD22B85EA62ABDE6B8721",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.34"
+            "ObjectName": "ChildActorComponent'BP_TL_Fr_16x16_MD01_C:ChildActor7870C468478CD22B85EA62ABDE6B8721'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.33"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "BP_Effect_Mist04",
@@ -14508,16 +14549,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ChildActorComponent",
+            "ObjectName": "Class'ChildActorComponent'",
             "ObjectPath": "/Script/Engine"
           },
           "ComponentTemplate": {
-            "ObjectName": "ChildActorComponent BP_TL_Fr_16x16_MD01_C:ChildActor6A6657D944AA8C9BF8BFDC906DBACF23",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.33"
+            "ObjectName": "ChildActorComponent'BP_TL_Fr_16x16_MD01_C:ChildActor6A6657D944AA8C9BF8BFDC906DBACF23'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.32"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "BP_Effect_Mist03",
@@ -14530,16 +14571,16 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class ChildActorComponent",
+            "ObjectName": "Class'ChildActorComponent'",
             "ObjectPath": "/Script/Engine"
           },
           "ComponentTemplate": {
-            "ObjectName": "ChildActorComponent BP_TL_Fr_16x16_MD01_C:ChildActor23BD091E460EC1DDE3D925A74625A6B9",
-            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.32"
+            "ObjectName": "ChildActorComponent'BP_TL_Fr_16x16_MD01_C:ChildActor23BD091E460EC1DDE3D925A74625A6B9'",
+            "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.31"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass TileBase01_C",
+              "ObjectName": "BlueprintGeneratedClass'TileBase01_C'",
               "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/TileBase01.8"
             },
             "SCSVariableName": "BP_Effect_Mist02",
@@ -14557,9 +14598,10 @@
     "Type": "NatAudioAmbienceBox",
     "Name": "AudioAmbBox_Forest_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'NatAudioAmbienceBox'",
     "Properties": {
       "_onBeginOverlapAudioEvent": {
-        "ObjectName": "AkAudioEvent AudioEvent_AM_T01_Forest",
+        "ObjectName": "AkAudioEvent'AudioEvent_AM_T01_Forest'",
         "ObjectPath": "DeadByDaylight/Content/Audio/AudioEvents/Ambience/01-Industrial/AudioEvent_AM_T01_Forest.0"
       },
       "BoxExtent": {
@@ -14593,9 +14635,10 @@
     "Type": "NiagaraComponent",
     "Name": "N_S_Falling_Pine_Leaves_01_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'NiagaraComponent'",
     "Properties": {
       "Asset": {
-        "ObjectName": "NiagaraSystem N_S_Falling_Pine_Leaves_02",
+        "ObjectName": "NiagaraSystem'N_S_Falling_Pine_Leaves_02'",
         "ObjectPath": "DeadByDaylight/Content/Effects/ParticleSystems/Environment/Leaves/N_S_Falling_Pine_Leaves_02.86"
       },
       "OverrideParameters": {},
@@ -14611,6 +14654,7 @@
     "Type": "SceneComponent",
     "Name": "HISM_SPLIT_SM_COM_PlantFern01_0_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'SceneComponent'",
     "Properties": {
       "Mobility": "EComponentMobility::Static"
     }
@@ -14619,6 +14663,7 @@
     "Type": "SceneComponent",
     "Name": "HISM_SPLIT_SM_COM_SmallTree03_0_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'SceneComponent'",
     "Properties": {
       "Mobility": "EComponentMobility::Static"
     }
@@ -14627,6 +14672,7 @@
     "Type": "SceneComponent",
     "Name": "HISM_SPLIT_SM_IND_TallTree04_0_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'SceneComponent'",
     "Properties": {
       "Mobility": "EComponentMobility::Static"
     }
@@ -14634,12 +14680,14 @@
   {
     "Type": "SceneComponent",
     "Name": "SceneComponent_29",
-    "Outer": "BP_TL_Fr_16x16_MD01_C"
+    "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'SceneComponent'"
   },
   {
     "Type": "SceneComponent",
     "Name": "SceneComponent_30",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'SceneComponent'",
     "Properties": {
       "Mobility": "EComponentMobility::Static"
     }
@@ -14648,14 +14696,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_0",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class NatAudioAmbienceBox",
+        "ObjectName": "Class'NatAudioAmbienceBox'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "NatAudioAmbienceBox BP_TL_Fr_16x16_MD01_C:AudioAmbBox_Forest_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.42"
+        "ObjectName": "NatAudioAmbienceBox'BP_TL_Fr_16x16_MD01_C:AudioAmbBox_Forest_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.41"
       },
       "ParentComponentOrVariableName": "Audio",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -14667,14 +14716,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_1",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorVariationSpawner",
+        "ObjectName": "Class'ActorVariationSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorVariationSpawner BP_TL_Fr_16x16_MD01_C:AVS_TreevStump_01_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.23"
+        "ObjectName": "ActorVariationSpawner'BP_TL_Fr_16x16_MD01_C:AVS_TreevStump_01_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.24"
       },
       "ParentComponentOrVariableName": "Blockers",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -14686,14 +14736,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_11",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_03_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.16"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_03_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.17"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -14705,14 +14756,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_12",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class NiagaraComponent",
+        "ObjectName": "Class'NiagaraComponent'",
         "ObjectPath": "/Script/Niagara"
       },
       "ComponentTemplate": {
-        "ObjectName": "NiagaraComponent BP_TL_Fr_16x16_MD01_C:N_S_Falling_Pine_Leaves_01_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.43"
+        "ObjectName": "NiagaraComponent'BP_TL_Fr_16x16_MD01_C:N_S_Falling_Pine_Leaves_01_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.42"
       },
       "ParentComponentOrVariableName": "FX",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -14724,14 +14776,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_13",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_04_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.17"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_04_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.18"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -14743,13 +14796,14 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_15",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:ActorSpawner7_GEN_VARIABLE",
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:ActorSpawner7_GEN_VARIABLE'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.3"
       },
       "ParentComponentOrVariableName": "Crows",
@@ -14762,14 +14816,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_16",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:ActorSpawner9_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.5"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:ActorSpawner9_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.6"
       },
       "ParentComponentOrVariableName": "Crows",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -14779,35 +14834,17 @@
   },
   {
     "Type": "SCS_Node",
-    "Name": "SCS_Node_17",
-    "Outer": "SimpleConstructionScript_1",
-    "Properties": {
-      "ComponentClass": {
-        "ObjectName": "Class ChildActorComponent",
-        "ObjectPath": "/Script/Engine"
-      },
-      "ComponentTemplate": {
-        "ObjectName": "ChildActorComponent BP_TL_Fr_16x16_MD01_C:BP_FireBarrel01_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.31"
-      },
-      "ParentComponentOrVariableName": "Root",
-      "ParentComponentOwnerClassName": "TileBase01_C",
-      "VariableGuid": "45DB75DE-4697B78F-DE5B56AB-24A1E1A8",
-      "InternalVariableName": "BP_FireBarrel01"
-    }
-  },
-  {
-    "Type": "SCS_Node",
     "Name": "SCS_Node_19",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class SceneComponent",
+        "ObjectName": "Class'SceneComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "SceneComponent BP_TL_Fr_16x16_MD01_C:SceneComponent_29",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.47"
+        "ObjectName": "SceneComponent'BP_TL_Fr_16x16_MD01_C:SceneComponent_29'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.46"
       },
       "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
       "InternalVariableName": "DefaultSceneRoot"
@@ -14817,14 +14854,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_2",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_Rock02_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.114"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_Rock02_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.113"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -14836,21 +14874,22 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_20",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class SceneComponent",
+        "ObjectName": "Class'SceneComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "SceneComponent BP_TL_Fr_16x16_MD01_C:SceneComponent_30",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.48"
+        "ObjectName": "SceneComponent'BP_TL_Fr_16x16_MD01_C:SceneComponent_30'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.47"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "TileBase01_C",
       "ChildNodes": [
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_4",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.93"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_4'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.91"
         }
       ],
       "VariableGuid": "AB2F3414-DE8DE1EA-4898826F-D14390BE",
@@ -14861,14 +14900,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_21",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_05_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.18"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_05_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.19"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -14880,14 +14920,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_23",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_9_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.113"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_9_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.112"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -14899,14 +14940,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_26",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_BigTree01_01_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.10"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_BigTree01_01_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.11"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -14918,53 +14960,54 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_269",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class SceneComponent",
+        "ObjectName": "Class'SceneComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "SceneComponent BP_TL_Fr_16x16_MD01_C:HISM_SPLIT_SM_COM_PlantFern01_0_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.44"
+        "ObjectName": "SceneComponent'BP_TL_Fr_16x16_MD01_C:HISM_SPLIT_SM_COM_PlantFern01_0_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.43"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "TileBase01_C",
       "ChildNodes": [
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_270",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_270'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.62"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_271'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.63"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_272'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.64"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_271",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_273'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.65"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_272",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_274'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.66"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_273",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_275'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.67"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_274",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_276'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.68"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_275",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_277'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.69"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_276",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_278'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.70"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_277",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.71"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_278",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.72"
         }
       ],
       "VariableGuid": "F0480F1B-421E9DFA-DF28CB8C-A8CEE4A1",
@@ -14975,14 +15018,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_270",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_0_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.104"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_0_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.103"
       },
       "VariableGuid": "FE276E99-4168E9F2-1397E2A5-6FFD5F98",
       "InternalVariableName": "SM_COM_PlantFern01_0"
@@ -14992,14 +15036,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_271",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_1_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.105"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_1_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.104"
       },
       "VariableGuid": "E0D1CF47-42130986-11841089-ED92DD4A",
       "InternalVariableName": "SM_COM_PlantFern01_1"
@@ -15009,14 +15054,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_272",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_2_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.106"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_2_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.105"
       },
       "VariableGuid": "FBBD3E18-417EA3D9-D808A8B2-9EB5BE15",
       "InternalVariableName": "SM_COM_PlantFern01_2"
@@ -15026,14 +15072,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_273",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_3_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.107"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_3_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.106"
       },
       "VariableGuid": "855BF7E2-4190BA6D-532FB7A6-473D6C61",
       "InternalVariableName": "SM_COM_PlantFern01_3"
@@ -15043,14 +15090,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_274",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_4_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.108"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_4_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.107"
       },
       "VariableGuid": "1BE19154-4B3B2093-4B6118A2-C4F421D0",
       "InternalVariableName": "SM_COM_PlantFern01_4"
@@ -15060,14 +15108,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_275",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_5_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.109"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_5_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.108"
       },
       "VariableGuid": "FE867F46-4ED39D7A-84A817B5-A697889A",
       "InternalVariableName": "SM_COM_PlantFern01_5"
@@ -15077,14 +15126,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_276",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_6_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.110"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_6_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.109"
       },
       "VariableGuid": "B867DCFE-4915CE38-251309B9-F1F036FA",
       "InternalVariableName": "SM_COM_PlantFern01_6"
@@ -15094,14 +15144,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_277",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_7_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.111"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_7_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.110"
       },
       "VariableGuid": "6E84B88C-495158B6-DE7C1EA3-4EAAB35B",
       "InternalVariableName": "SM_COM_PlantFern01_7"
@@ -15111,14 +15162,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_278",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_8_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.112"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_PlantFern01_8_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.111"
       },
       "VariableGuid": "B5E06390-448E8F11-1E540A9A-92472CFD",
       "InternalVariableName": "SM_COM_PlantFern01_8"
@@ -15128,45 +15180,46 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_279",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class SceneComponent",
+        "ObjectName": "Class'SceneComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "SceneComponent BP_TL_Fr_16x16_MD01_C:HISM_SPLIT_SM_COM_SmallTree03_0_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.45"
+        "ObjectName": "SceneComponent'BP_TL_Fr_16x16_MD01_C:HISM_SPLIT_SM_COM_SmallTree03_0_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.44"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "TileBase01_C",
       "ChildNodes": [
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_280",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_280'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_281'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.74"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_282'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.75"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_281",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_283'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.76"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_282",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_284'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.77"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_283",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_285'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.78"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_284",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_286'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.79"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_285",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.80"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_286",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.81"
         }
       ],
       "VariableGuid": "06DB3D78-4BB94AA5-B605C688-4029C6D5",
@@ -15177,14 +15230,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_28",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_06_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.19"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_06_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.20"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15196,14 +15250,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_280",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_0_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.116"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_0_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.115"
       },
       "VariableGuid": "29CD9295-45030C8C-37804BA9-2E22AA1A",
       "InternalVariableName": "SM_COM_SmallTree03_0"
@@ -15213,14 +15268,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_281",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_1_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.117"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_1_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.116"
       },
       "VariableGuid": "2FEBA6EC-400EA578-167B2F92-F2046B05",
       "InternalVariableName": "SM_COM_SmallTree03_1"
@@ -15230,14 +15286,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_282",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_2_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.118"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_2_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.117"
       },
       "VariableGuid": "E43F0F69-49B907C4-C198C28D-CD54409A",
       "InternalVariableName": "SM_COM_SmallTree03_2"
@@ -15247,14 +15304,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_283",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_3_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.119"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_3_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.118"
       },
       "VariableGuid": "8A45420D-4DC7D26D-7209F8B8-0B38C31C",
       "InternalVariableName": "SM_COM_SmallTree03_3"
@@ -15264,14 +15322,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_284",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_4_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.120"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_4_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.119"
       },
       "VariableGuid": "BBDFB760-4128ECD2-AFB2F481-53584709",
       "InternalVariableName": "SM_COM_SmallTree03_4"
@@ -15281,14 +15340,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_285",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_5_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.121"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_5_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.120"
       },
       "VariableGuid": "8EEEA0DA-4B40B807-7D666D83-786EBAB8",
       "InternalVariableName": "SM_COM_SmallTree03_5"
@@ -15298,14 +15358,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_286",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_6_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.122"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_SmallTree03_6_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.121"
       },
       "VariableGuid": "8FD4848D-498D73A3-ABBD0C9E-CF0918E4",
       "InternalVariableName": "SM_COM_SmallTree03_6"
@@ -15315,14 +15376,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_29",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_BigTree01_02_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.11"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_BigTree01_02_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.12"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15334,14 +15396,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_3",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_BK_Boulder02_02_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.9"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_BK_Boulder02_02_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.10"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15353,14 +15416,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_31",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_BigTree01_03_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.12"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_BigTree01_03_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.13"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15372,14 +15436,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_34",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_07_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.20"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_07_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.21"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15391,14 +15456,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_36",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_08_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.21"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_08_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.22"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15410,21 +15476,22 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_37",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class HierarchicalInstancedStaticMeshComponent",
+        "ObjectName": "Class'HierarchicalInstancedStaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "HierarchicalInstancedStaticMeshComponent BP_TL_Fr_16x16_MD01_C:HISM_TallTree04_Leaves_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.39"
+        "ObjectName": "HierarchicalInstancedStaticMeshComponent'BP_TL_Fr_16x16_MD01_C:HISM_TallTree04_Leaves_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.38"
       },
       "ParentComponentOrVariableName": "Blockers",
       "ParentComponentOwnerClassName": "TileBase01_C",
       "ChildNodes": [
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_39",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.89"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_39'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.87"
         }
       ],
       "VariableGuid": "34553993-49257FE3-9219A0A8-41A3E70D",
@@ -15435,14 +15502,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_38",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_BigTree01_04_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.13"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_BigTree01_04_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.14"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15454,14 +15522,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_39",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class HierarchicalInstancedStaticMeshComponent",
+        "ObjectName": "Class'HierarchicalInstancedStaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "HierarchicalInstancedStaticMeshComponent BP_TL_Fr_16x16_MD01_C:HISM_TallTree04_Leaves_shadow_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.40"
+        "ObjectName": "HierarchicalInstancedStaticMeshComponent'BP_TL_Fr_16x16_MD01_C:HISM_TallTree04_Leaves_shadow_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.39"
       },
       "VariableGuid": "69DF657A-4C3BCCD1-6CEFAE95-2ABA8F5C",
       "InternalVariableName": "HISM_TallTree04_Leaves_shadow"
@@ -15471,21 +15540,22 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_397",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class SceneComponent",
+        "ObjectName": "Class'SceneComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "SceneComponent BP_TL_Fr_16x16_MD01_C:HISM_SPLIT_SM_IND_TallTree04_0_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.46"
+        "ObjectName": "SceneComponent'BP_TL_Fr_16x16_MD01_C:HISM_SPLIT_SM_IND_TallTree04_0_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.45"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "TileBase01_C",
       "ChildNodes": [
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_398",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.91"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_398'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.89"
         }
       ],
       "VariableGuid": "C4E1FA4C-4707A441-0EB03CB3-A3A9A729",
@@ -15496,14 +15566,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_398",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_IND_TallTree04_0_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.123"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_IND_TallTree04_0_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.122"
       },
       "VariableGuid": "0F90EC6A-4381790F-921BD2A1-64C4082B",
       "InternalVariableName": "SM_IND_TallTree04_0"
@@ -15513,14 +15584,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_399",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class HierarchicalInstancedStaticMeshComponent",
+        "ObjectName": "Class'HierarchicalInstancedStaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "HierarchicalInstancedStaticMeshComponent BP_TL_Fr_16x16_MD01_C:HISM_SM_COM_FieldGrass_01_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.36"
+        "ObjectName": "HierarchicalInstancedStaticMeshComponent'BP_TL_Fr_16x16_MD01_C:HISM_SM_COM_FieldGrass_01_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.35"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15532,14 +15604,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_4",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:Ground_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.103"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:Ground_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.102"
       },
       "VariableGuid": "BE6A0C99-473798C6-C94A1494-BF075CF1",
       "InternalVariableName": "Ground"
@@ -15549,14 +15622,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_400",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class HierarchicalInstancedStaticMeshComponent",
+        "ObjectName": "Class'HierarchicalInstancedStaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "HierarchicalInstancedStaticMeshComponent BP_TL_Fr_16x16_MD01_C:HISM_SM_COM_Grass01_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.37"
+        "ObjectName": "HierarchicalInstancedStaticMeshComponent'BP_TL_Fr_16x16_MD01_C:HISM_SM_COM_Grass01_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.36"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15568,14 +15642,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_401",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class HierarchicalInstancedStaticMeshComponent",
+        "ObjectName": "Class'HierarchicalInstancedStaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "HierarchicalInstancedStaticMeshComponent BP_TL_Fr_16x16_MD01_C:HISM_SM_COM_Grass02_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.38"
+        "ObjectName": "HierarchicalInstancedStaticMeshComponent'BP_TL_Fr_16x16_MD01_C:HISM_SM_COM_Grass02_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.37"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15587,14 +15662,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_42",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class StaticMeshComponent",
+        "ObjectName": "Class'StaticMeshComponent'",
         "ObjectPath": "/Script/Engine"
       },
       "ComponentTemplate": {
-        "ObjectName": "StaticMeshComponent BP_TL_Fr_16x16_MD01_C:SM_COM_Rock05_01_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.115"
+        "ObjectName": "StaticMeshComponent'BP_TL_Fr_16x16_MD01_C:SM_COM_Rock05_01_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.114"
       },
       "ParentComponentOrVariableName": "Blockers",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15606,14 +15682,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_43",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_BK_Boulder02_01_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.8"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_BK_Boulder02_01_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.9"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15625,14 +15702,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_44",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_01_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.14"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_01_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.15"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15644,14 +15722,15 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_45",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_02_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.15"
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:BP_IND_MediumTree01_02_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.16"
       },
       "ParentComponentOrVariableName": "EdgeObjects",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15663,13 +15742,14 @@
     "Type": "SCS_Node",
     "Name": "SCS_Node_5",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class ActorSpawner",
+        "ObjectName": "Class'ActorSpawner'",
         "ObjectPath": "/Script/DeadByDaylight"
       },
       "ComponentTemplate": {
-        "ObjectName": "ActorSpawner BP_TL_Fr_16x16_MD01_C:ActorSpawner10_GEN_VARIABLE",
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:ActorSpawner10_GEN_VARIABLE'",
         "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.2"
       },
       "ParentComponentOrVariableName": "Crows",
@@ -15680,16 +15760,37 @@
   },
   {
     "Type": "SCS_Node",
-    "Name": "SCS_Node_8",
+    "Name": "SCS_Node_6",
     "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class DBDSphereReflectionCaptureSpawnerComponent",
+        "ObjectName": "Class'ActorSpawner'",
+        "ObjectPath": "/Script/DeadByDaylight"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ActorSpawner'BP_TL_Fr_16x16_MD01_C:ActorSpawner8_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.5"
+      },
+      "ParentComponentOrVariableName": "Root",
+      "ParentComponentOwnerClassName": "TileBase01_C",
+      "VariableGuid": "3EC94FE3-45274785-AEDAA097-85F4CB7B",
+      "InternalVariableName": "ActorSpawner8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DBDSphereReflectionCaptureSpawnerComponent'",
         "ObjectPath": "/Script/GFXUtilities"
       },
       "ComponentTemplate": {
-        "ObjectName": "DBDSphereReflectionCaptureSpawnerComponent BP_TL_Fr_16x16_MD01_C:DBDSphereReflectionCaptureSpawner_GEN_VARIABLE",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.35"
+        "ObjectName": "DBDSphereReflectionCaptureSpawnerComponent'BP_TL_Fr_16x16_MD01_C:DBDSphereReflectionCaptureSpawner_GEN_VARIABLE'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.34"
       },
       "ParentComponentOrVariableName": "Root",
       "ParentComponentOwnerClassName": "TileBase01_C",
@@ -15701,354 +15802,355 @@
     "Type": "SimpleConstructionScript",
     "Name": "SimpleConstructionScript_1",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
     "Properties": {
       "RootNodes": [
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_20",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.59"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_20'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.57"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_44",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.98"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_45",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.99"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_43",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.97"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_3",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.83"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_11",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.51"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_13",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.53"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_21",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.60"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_26",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.62"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_28",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.74"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_29",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.82"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_31",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.84"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_34",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.85"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_36",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.86"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_38",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.88"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_15",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.54"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_16",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.55"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_12",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.52"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_42",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_44'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.96"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_8",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.101"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_45'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.97"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_5",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.100"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_37",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.87"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_1",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.50"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_269",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.63"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_279",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.73"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_397",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.90"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_399",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.92"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_400",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.94"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_401",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_43'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.95"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_0",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.49"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_3'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.81"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_2",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_11'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_13'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_21'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.58"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_17",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_26'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.60"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_28'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_29'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_31'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_34'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.83"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_36'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.84"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_38'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.86"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_15'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_16'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_12'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_42'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.94"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_8'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.100"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_5'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.98"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_37'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.85"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_1'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_269'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.61"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_279'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_397'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.88"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_399'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.90"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_400'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.92"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_401'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.93"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_0'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_2'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.56"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_23",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.61"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_23'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.59"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_6'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.99"
         }
       ],
       "AllNodes": [
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_20",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.59"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_20'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.57"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_44",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.98"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_45",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.99"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_43",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.97"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_3",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.83"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_11",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.51"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_13",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.53"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_21",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.60"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_26",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.62"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_28",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.74"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_29",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.82"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_31",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.84"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_34",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.85"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_36",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.86"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_38",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.88"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_15",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.54"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_16",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.55"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_12",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.52"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_4",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.93"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_42",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_44'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.96"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_8",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.101"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_45'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.97"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_5",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.100"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_37",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.87"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_39",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.89"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_1",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.50"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_269",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.63"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_270",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.64"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_271",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.65"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_272",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.66"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_273",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.67"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_274",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.68"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_275",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.69"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_276",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.70"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_277",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.71"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_278",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.72"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_279",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.73"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_280",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.75"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_281",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.76"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_282",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.77"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_283",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.78"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_284",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.79"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_285",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.80"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_286",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.81"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_397",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.90"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_398",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.91"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_399",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.92"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_400",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.94"
-        },
-        {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_401",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_43'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.95"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_0",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.49"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_3'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.81"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_2",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_11'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_13'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_21'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.58"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_17",
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_26'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.60"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_28'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_29'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_31'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_34'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.83"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_36'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.84"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_38'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.86"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_15'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_16'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_12'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_4'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.91"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_42'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.94"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_8'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.100"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_5'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.98"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_37'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.85"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_39'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.87"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_1'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_269'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.61"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_270'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.62"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_271'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.63"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_272'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.64"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_273'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_274'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.66"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_275'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.67"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_276'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.68"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_277'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.69"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_278'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_279'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_280'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_281'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.74"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_282'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.75"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_283'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.76"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_284'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.77"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_285'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.78"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_286'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.79"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_397'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.88"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_398'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.89"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_399'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.90"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_400'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.92"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_401'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.93"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_0'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_2'",
           "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.56"
         },
         {
-          "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_23",
-          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.61"
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_23'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.59"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_6'",
+          "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.99"
         }
       ],
       "DefaultSceneRootNode": {
-        "ObjectName": "SCS_Node BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_19",
-        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.57"
+        "ObjectName": "SCS_Node'BP_TL_Fr_16x16_MD01_C:SimpleConstructionScript_1.SCS_Node_19'",
+        "ObjectPath": "DeadByDaylight/Content/Blueprints/Tiles/01-Industrial/BP_TL_Fr_16x16_MD01.55"
       }
     }
   },
@@ -16056,14 +16158,15 @@
     "Type": "StaticMeshComponent",
     "Name": "Ground_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_GT_16x16_Swp_F_Plain01",
+        "ObjectName": "StaticMesh'SM_GT_16x16_Swp_F_Plain01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Swamp/Tiles/SM_GT_16x16_Swp_F_Plain01.2"
       },
       "OverrideMaterials": [
         {
-          "ObjectName": "MaterialInstanceConstant MI_DirtTerrain02",
+          "ObjectName": "MaterialInstanceConstant'MI_DirtTerrain02'",
           "ObjectPath": "DeadByDaylight/Content/Materials/Substance/MI_DirtTerrain02.0"
         }
       ],
@@ -16105,9 +16208,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_PlantFern01_0_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_PlantFern01",
+        "ObjectName": "StaticMesh'SM_COM_PlantFern01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_PlantFern01.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -16199,9 +16303,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_PlantFern01_1_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_PlantFern01",
+        "ObjectName": "StaticMesh'SM_COM_PlantFern01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_PlantFern01.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -16293,9 +16398,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_PlantFern01_2_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_PlantFern01",
+        "ObjectName": "StaticMesh'SM_COM_PlantFern01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_PlantFern01.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -16387,9 +16493,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_PlantFern01_3_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_PlantFern01",
+        "ObjectName": "StaticMesh'SM_COM_PlantFern01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_PlantFern01.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -16486,9 +16593,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_PlantFern01_4_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_PlantFern01",
+        "ObjectName": "StaticMesh'SM_COM_PlantFern01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_PlantFern01.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -16580,9 +16688,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_PlantFern01_5_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_PlantFern01",
+        "ObjectName": "StaticMesh'SM_COM_PlantFern01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_PlantFern01.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -16674,9 +16783,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_PlantFern01_6_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_PlantFern01",
+        "ObjectName": "StaticMesh'SM_COM_PlantFern01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_PlantFern01.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -16768,9 +16878,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_PlantFern01_7_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_PlantFern01",
+        "ObjectName": "StaticMesh'SM_COM_PlantFern01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_PlantFern01.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -16862,9 +16973,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_PlantFern01_8_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_PlantFern01",
+        "ObjectName": "StaticMesh'SM_COM_PlantFern01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_PlantFern01.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -16956,9 +17068,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_PlantFern01_9_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_PlantFern01",
+        "ObjectName": "StaticMesh'SM_COM_PlantFern01'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_PlantFern01.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -17050,14 +17163,15 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_Rock02_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_Rock02",
+        "ObjectName": "StaticMesh'SM_COM_Rock02'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Rocks/Common/SM_COM_Rock02.2"
       },
       "OverrideMaterials": [
         {
-          "ObjectName": "MaterialInstanceConstant MI_Ind_Rock05",
+          "ObjectName": "MaterialInstanceConstant'MI_Ind_Rock05'",
           "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Industrial/Rocks/MI_Ind_Rock05.0"
         }
       ],
@@ -17079,14 +17193,15 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_Rock05_01_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_Rock05",
+        "ObjectName": "StaticMesh'SM_COM_Rock05'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Rocks/Common/SM_COM_Rock05.2"
       },
       "OverrideMaterials": [
         {
-          "ObjectName": "MaterialInstanceConstant MI_Ind_Rock05",
+          "ObjectName": "MaterialInstanceConstant'MI_Ind_Rock05'",
           "ObjectPath": "DeadByDaylight/Content/Materials/Instances/Industrial/Rocks/MI_Ind_Rock05.0"
         }
       ],
@@ -17118,9 +17233,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_SmallTree03_0_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_SmallTree03",
+        "ObjectName": "StaticMesh'SM_COM_SmallTree03'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_SmallTree03.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -17217,9 +17333,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_SmallTree03_1_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_SmallTree03",
+        "ObjectName": "StaticMesh'SM_COM_SmallTree03'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_SmallTree03.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -17316,9 +17433,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_SmallTree03_2_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_SmallTree03",
+        "ObjectName": "StaticMesh'SM_COM_SmallTree03'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_SmallTree03.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -17415,9 +17533,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_SmallTree03_3_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_SmallTree03",
+        "ObjectName": "StaticMesh'SM_COM_SmallTree03'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_SmallTree03.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -17514,9 +17633,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_SmallTree03_4_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_SmallTree03",
+        "ObjectName": "StaticMesh'SM_COM_SmallTree03'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_SmallTree03.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -17613,9 +17733,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_SmallTree03_5_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_SmallTree03",
+        "ObjectName": "StaticMesh'SM_COM_SmallTree03'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_SmallTree03.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -17712,9 +17833,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_COM_SmallTree03_6_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_COM_SmallTree03",
+        "ObjectName": "StaticMesh'SM_COM_SmallTree03'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Vegetations/Common/SM_COM_SmallTree03.1"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -17811,9 +17933,10 @@
     "Type": "StaticMeshComponent",
     "Name": "SM_IND_TallTree04_0_GEN_VARIABLE",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
     "Properties": {
       "StaticMesh": {
-        "ObjectName": "StaticMesh SM_IND_TallTree04",
+        "ObjectName": "StaticMesh'SM_IND_TallTree04'",
         "ObjectPath": "DeadByDaylight/Content/Meshes/Environment/Industrial/Vegetation/SM_IND_TallTree04.2"
       },
       "bDisallowMeshPaintPerInstance": true,
@@ -17840,6 +17963,7 @@
     "Name": "TileSpawnPoint_0",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "TileSpawnPoint_0",
+    "Class": "UScriptClass'TileSpawnPoint'",
     "Properties": {
       "RelativeLocation": {
         "X": 480.5763,
@@ -17858,6 +17982,7 @@
     "Name": "TileSpawnPoint_10",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "TileSpawnPoint_10",
+    "Class": "UScriptClass'TileSpawnPoint'",
     "Properties": {
       "RelativeLocation": {
         "X": -147.84009,
@@ -17876,6 +18001,7 @@
     "Name": "TileSpawnPoint_13",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "TileSpawnPoint_13",
+    "Class": "UScriptClass'TileSpawnPoint'",
     "Properties": {
       "RelativeLocation": {
         "X": -619.9998,
@@ -17894,6 +18020,7 @@
     "Name": "TileSpawnPoint_16",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "TileSpawnPoint_16",
+    "Class": "UScriptClass'TileSpawnPoint'",
     "Properties": {
       "RelativeLocation": {
         "X": -287.5482,
@@ -17912,10 +18039,11 @@
     "Name": "TileSpawnPoint_19",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "TileSpawnPoint_19",
+    "Class": "UScriptClass'TileSpawnPoint'",
     "Properties": {
       "RelativeLocation": {
-        "X": 51.39457,
-        "Y": 135.91371,
+        "X": 320.6694,
+        "Y": 140.5085,
         "Z": 5.9999695
       },
       "RelativeRotation": {
@@ -17930,6 +18058,7 @@
     "Name": "TileSpawnPoint_22",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "TileSpawnPoint_22",
+    "Class": "UScriptClass'TileSpawnPoint'",
     "Properties": {
       "RelativeLocation": {
         "X": 143.23758,
@@ -17948,6 +18077,7 @@
     "Name": "TileSpawnPoint_4",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "TileSpawnPoint_4",
+    "Class": "UScriptClass'TileSpawnPoint'",
     "Properties": {
       "RelativeLocation": {
         "X": 451.84476,
@@ -17966,6 +18096,7 @@
     "Name": "TileSpawnPoint_7",
     "Outer": "BP_TL_Fr_16x16_MD01_C",
     "Template": "TileSpawnPoint_7",
+    "Class": "UScriptClass'TileSpawnPoint'",
     "Properties": {
       "RelativeLocation": {
         "X": -452.71835,
