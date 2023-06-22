@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "SpecialEventsDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct SpecialEventData",
+        "ObjectName": "ScriptStruct'SpecialEventData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -18,7 +19,7 @@
         "EventBannerLabel": "",
         "EventThemeLabel": "",
         "IsTrackedOnline": true,
-        "UseSpecialEventLoadingScreen": true,
+        "UseSpecialEventLoadingScreen": false,
         "Objectives": [],
         "ObjectOutlineColour": {
           "B": 0,
@@ -48,32 +49,11 @@
           "Description": {
             "CultureInvariantString": null
           },
-          "ImagePath": "",
-          "ImageBannerText": {
-            "CultureInvariantString": null
-          }
+          "AdditionalStoreEventsIds": [],
+          "AdditionalStoreItemIds": []
         },
         "EventDependency": "ESpecialEventDependency::None",
         "UseMarketDiscount": false,
-        "Cinematics": {
-          "Intro": {
-            "IsSkippable": true,
-            "HasAudio": true,
-            "Media": {
-              "AssetPathName": "None",
-              "SubPathString": ""
-            }
-          },
-          "Outro": {
-            "IsSkippable": true,
-            "HasAudio": true,
-            "Media": {
-              "AssetPathName": "None",
-              "SubPathString": ""
-            }
-          },
-          "OutroTimespanInHours": 0.0
-        },
         "Bloodweb": {
           "EventChestCondition": "ESpecialEventBloodwebChestCondition::Default"
         },
@@ -94,7 +74,15 @@
             "AssetPathName": "None",
             "SubPathString": ""
           }
-        }
+        },
+        "UiTakeoverData": {
+          "UseRoleSelectionTakeover": false,
+          "UseEventEntryPopupTakeover": false,
+          "UseArchivesTakeover": false,
+          "UseStoreShrineTakeover": false,
+          "UseLobbyTakeover": false
+        },
+        "CommentatorAudioData": null
       }
     }
   }
