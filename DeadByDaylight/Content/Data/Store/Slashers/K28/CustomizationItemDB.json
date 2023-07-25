@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "CustomizationItemDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct CustomizationItemData",
+        "ObjectName": "ScriptStruct'CustomizationItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -26,7 +27,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -60,7 +61,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -76,7 +77,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -148,6 +149,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -171,7 +173,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -205,7 +207,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -221,7 +223,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -293,6 +295,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -316,7 +319,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -350,7 +353,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -366,7 +369,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -433,6 +436,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -456,7 +460,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -490,7 +494,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -506,7 +510,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -582,6 +586,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -636,7 +641,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -670,7 +675,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -697,7 +702,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -769,6 +774,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -823,7 +829,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -857,7 +863,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -884,7 +890,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -956,6 +962,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -1010,7 +1017,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -1044,7 +1051,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -1071,7 +1078,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1143,6 +1150,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -1166,7 +1174,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -1200,7 +1208,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           },
           {
@@ -1216,7 +1224,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1288,6 +1296,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -1311,7 +1320,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1343,7 +1352,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1376,13 +1385,13 @@
             "Namespace": "",
             "Key": "1EA7BD1641C179A860AFB2BC635EC66D",
             "SourceString": "CUST_K28_Head006_NAME",
-            "LocalizedString": "Porcelain Head"
+            "LocalizedString": "Porcelain Dolls"
           },
           "Description": {
             "Namespace": "",
             "Key": "584A746945D1E0598B55B7A9E2D154E9",
             "SourceString": "CUST_K28_Head006_DESC",
-            "LocalizedString": "Atop the dreadful pile of children’s toys sat the most hideous piece of all."
+            "LocalizedString": "A dreadful strand of children’s toys grew from the thing’s side. "
           },
           "IconFilePathList": [
             "UI/Icons/Customization/K28/K28_Head006.png"
@@ -1415,6 +1424,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -1438,7 +1448,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1520,6 +1530,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -1543,7 +1554,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1575,7 +1586,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -1647,6 +1658,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -1670,7 +1682,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1752,6 +1764,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -1786,7 +1799,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1829,7 +1842,7 @@
             "Namespace": "",
             "Key": "09A4EE844BE66888A368E0AA5B08AFA7",
             "SourceString": "CUST_K28_Head01_01_NAME",
-            "LocalizedString": "Verdant Skull"
+            "LocalizedString": "Verdant Limb"
           },
           "Description": {
             "Namespace": "",
@@ -1868,6 +1881,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -1902,7 +1916,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -1945,13 +1959,13 @@
             "Namespace": "",
             "Key": "32139AB14E9D071B2D875CB98CAC2FA3",
             "SourceString": "CUST_K28_Head01_02_NAME",
-            "LocalizedString": "Disfigured Maw"
+            "LocalizedString": "Disfigured Appendage"
           },
           "Description": {
             "Namespace": "",
             "Key": "538768F949BD162BB9C2D18FE4AD1FEC",
             "SourceString": "CUST_K28_Head01_02_DESC",
-            "LocalizedString": "To look upon its horrifying visage is to see beyond the limits of what human flesh could take."
+            "LocalizedString": "To look upon it was to see beyond the limits of what human flesh could endure. "
           },
           "IconFilePathList": [
             "UI/Icons/Customization/K28/K28_Head01_02.png"
@@ -1984,6 +1998,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -2018,7 +2033,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2100,6 +2115,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -2123,7 +2139,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [],
@@ -2166,13 +2182,13 @@
             "Namespace": "",
             "Key": "54C9EFD744C004B4EE1C4289F3345028",
             "SourceString": "CUST_K28_Head02_NAME",
-            "LocalizedString": "Watchful Skull"
+            "LocalizedString": "Jagged Protrusion"
           },
           "Description": {
             "Namespace": "",
             "Key": "0C6798BD4E4FAF188BEDCD84E0ADE16A",
             "SourceString": "CUST_K28_Head02_DESC",
-            "LocalizedString": "No eyes remain in its sockets, but this skull still scans its environment, hungry for prey."
+            "LocalizedString": "The bones of the damned snapped through the gnarled skin."
           },
           "IconFilePathList": [
             "UI/Icons/Customization/K28/K28_Head02.png"
@@ -2205,6 +2221,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -2228,7 +2245,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -2262,7 +2279,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2334,6 +2351,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -2357,7 +2375,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -2446,6 +2464,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -2469,7 +2488,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -2558,6 +2577,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -2581,7 +2601,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -2670,6 +2690,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -2704,7 +2725,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -2749,7 +2770,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2821,6 +2842,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -2855,7 +2877,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -2900,7 +2922,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -2972,6 +2994,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -3006,7 +3029,7 @@
         ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -3051,7 +3074,7 @@
             ],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -3123,6 +3146,7 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
@@ -3146,7 +3170,7 @@
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
-          "ConditionalMaterials": {}
+          "ConditionalMaterials": []
         },
         "TexturesMap": [],
         "SkeletalComponentTags": [
@@ -3180,7 +3204,7 @@
             "MaterialsMap": [],
             "ConditionalMaterialReplacer": {
               "ItemTag": "None",
-              "ConditionalMaterials": {}
+              "ConditionalMaterials": []
             }
           }
         ],
@@ -3252,11 +3276,411 @@
         "Availability": {
           "itemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
+          "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0",
         "CustomizationId": "K28_W02"
+      },
+      "K28_Head010": {
+        "Category": "ECustomizationCategory::KillerHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K28/Models/Heads/K28_Head010_REF.K28_Head010_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "6DBBBD2947CEF6E85A0EC29AB4BA6863",
+          "SourceString": "COLLECTION_K28_010_NAME",
+          "LocalizedString": "Greek Legends"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Slashers/K28/Models/Heads/ACC/Blueprints/BP_K28_LeftArmChains_ACC010.BP_K28_LeftArmChains_ACC010_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 268435483,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "56F9CF294B1AC59CD3CC84BFF877411D",
+            "SourceString": "CUST_K28_Head010_NAME",
+            "LocalizedString": "Spartan Remains"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "2EE059DF40B7E02BB5A2598ABFE4D5EE",
+            "SourceString": "CUST_K28_Head010_DESC",
+            "LocalizedString": "The chains of war could not restrain the abomination. "
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K28/K28_Head010.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.1.0",
+        "CustomizationId": "K28_Head010"
+      },
+      "K28_Body010": {
+        "Category": "ECustomizationCategory::KillerBody",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K28/Models/Bodies/K28_Body010_REF.K28_Body010_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [
+          "BodyB"
+        ],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "C40485E342113E071F7939A1962CE558",
+          "SourceString": "COLLECTION_K28_010_NAME",
+          "LocalizedString": "Greek Legends"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skulls_ACC010.BP_K28_Skulls_ACC010_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          },
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Shadow_ACC.BP_K28_Shadow_ACC_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [
+          {
+            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterClothes",
+            "SwitchState": "K28_CLOTH_Custom_Outfit010"
+          }
+        ],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 268435483,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "D1DF7F6B4F6797AFDB5974B566005F46",
+            "SourceString": "CUST_K28_Body010_NAME",
+            "LocalizedString": "Skull Bearer"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "ED0D531B430B38CA789A768A7E288782",
+            "SourceString": "CUST_K28_Body010_DESC",
+            "LocalizedString": "They kept the soldiers' carcasses as trophies."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K28/K28_Body010.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.1.0",
+        "CustomizationId": "K28_Body010"
+      },
+      "K28_W010": {
+        "Category": "ECustomizationCategory::KillerWeapon",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K28/Models/Weapon/K28_Weapon010_REF.K28_Weapon010_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [
+          "ArmRightA"
+        ],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "A64D48AB403B5C28FFD830A23E59B749",
+          "SourceString": "COLLECTION_K28_010_NAME",
+          "LocalizedString": "Greek Legends"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Slashers/K28/Models/Weapon/ACC/Blueprints/BP_K28_WChains_ACC010.BP_K28_WChains_ACC010_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [
+          {
+            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterWeapon",
+            "SwitchState": "K28_WPN_Custom_Outfit010"
+          }
+        ],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 268435483,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "34C21B9646B8EF51DD59FF93DC74DAA3",
+            "SourceString": "CUST_K28_W010_NAME",
+            "LocalizedString": "Reaper Scythe"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "781670D04F8C16236E25C691DBA775D5",
+            "SourceString": "CUST_K28_W010_DESC",
+            "LocalizedString": "A devastating rusty blade."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K28/K28_W010.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.1.0",
+        "CustomizationId": "K28_W010"
       }
     }
   }

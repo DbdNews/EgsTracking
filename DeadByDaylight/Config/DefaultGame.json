@@ -152,6 +152,7 @@ bSkipMovies=False
 +DirectoriesToAlwaysCook=(Path="/DBDUICore/Assets/Common/ButtonPrompts/PC_Prompts")
 +DirectoriesToAlwaysCook=(Path="/Wwise/WwiseTree")
 +DirectoriesToAlwaysCook=(Path="/Wwise/WwiseTypes")
++DirectoriesToAlwaysCook=(Path="/DBDCheats/Blueprints")
 +DirectoriesToAlwaysCook=(Path="/DBDUICore/Data")
 +DirectoriesToNeverCook=(Path="/Game/Data/Store/NotReleased")
 +DirectoriesToNeverCook=(Path="/Game/Data/DLC/NotReleased")
@@ -227,7 +228,7 @@ AdvancedSettings=(AudioAPI=7,GlobalFocus=True,UseHeadMountedDisplayAudioDevice=F
 
 [/Script/AkAudio.AkSettings]
 MaxSimultaneousReverbVolumes=2
-WwiseProjectPath=(FilePath="../../../Wwise/DeadByDaylight/Content_Raw/Audio/Wwise_2021_1_11_Umbra/DeadByDaylight_2021_1_11_Umbra.wproj")
+WwiseProjectPath=(FilePath="../../../Wwise/DeadByDaylight/Content_Raw/Audio/Wwise_2021_1_12_Venus_Temp/DeadByDaylight_2021_1_12_Venus_Temp.wproj")
 WwiseSoundDataFolder=(Path="WwiseAudio")
 DefaultOcclusionCollisionChannel=ECC_Visibility
 DefaultFitToGeometryCollisionChannel=ECC_WorldStatic
@@ -326,5 +327,14 @@ VisualizeRoomsAndPortals=False
 +AccessKeys=(KeyId="7.0.0_cert",Key="6xQ+zMHMQoz45h8PjTYgFtwmaWNWSiqIgzjS1+/eODo=")
 +AccessKeys=(KeyId="7.0.0_ptb",Key="ccsIaxxPzly6DVixEsPC0qX1I8f/HputfM423IRQGSk=")
 +AccessKeys=(KeyId="7.0.0_live",Key="/PVUcFp33ObpOXSic5bVpU+eY4zAQDhEKA/FxP3i5kA=")
++AccessKeys=(KeyId="7.1.0_local",Key="6JRTZ9N5NZt8Wp5Ey74IYWiWPMxKDCl7Aa5VjWDlOkk=")
++AccessKeys=(KeyId="7.1.0_dev",Key="+MZ+yNgP9GmIREFHxCH+OhpfnABg+zwZjG7bo62NJgU=")
++AccessKeys=(KeyId="7.1.0_qa",Key="JFL1/n0nAL4LKFSlbEWtwguLSL7Jxv/ilu5kmB8ZH4Y=")
++AccessKeys=(KeyId="7.1.0_uat",Key="c+Cdvyy3tvFUEtqI/9rG+Pa+fQ4d3AY7eZbSeDNap3U=")
++AccessKeys=(KeyId="7.1.0_stage",Key="i0vwMnP2OSnKpBv84Wwvqmxq6ak4Cm/BeQG0fdUtzAA=")
++AccessKeys=(KeyId="7.1.0_cert",Key="6Sk+yZgf+93tzXrUWNwLBUSdOUKGkMC1ZB7r2VXbISI=")
++AccessKeys=(KeyId="7.1.0_ptb",Key="VusVbSSbqSapPA8YMWGr8jsk6bIMOh8vsxu4E8LT98c=")
++AccessKeys=(KeyId="7.1.0_live",Key="TawMyQRJZwA6FRT2NzjQGPMslXb7+eUr27VBqG/wUX8=")
 
 +AccessKeys=(KeyId="9999.17.0",Key="pGJJqK8oYVFKVSZwynOFAGAYniIZd/ycyFBZc8L7HJk=")
+
