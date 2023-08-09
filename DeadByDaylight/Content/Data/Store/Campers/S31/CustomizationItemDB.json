@@ -4665,6 +4665,358 @@
         "InclusionVersion": "6.7.0",
         "CustomizationId": "S31_Legs009"
       },
+      "S31_Head010": {
+        "Category": "ECustomizationCategory::SurvivorHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S31/Models/Heads/S31_Head01_REF.S31_Head01_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "A94BB23548EC5CFF3070A79188E2E7F0",
+          "SourceString": "COLLECTION_S31_010_NAME",
+          "LocalizedString": "Monster Slayer Collection "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S31/Models/Heads/ACC/Blueprints/BP_S31_Hair_ACC010.BP_S31_Hair_ACC010_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 30,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "CD6AEA814A24E2C4C7D5E5BEA3320976",
+            "SourceString": "CUST_S31_Head010_NAME",
+            "LocalizedString": "Light Purple Hair"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "A9FE361F4FD650915100A194E064CEE2",
+            "SourceString": "CUST_S31_Head010_DESC",
+            "LocalizedString": "She kind of liked the purple hair."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_Head010.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.1.2",
+        "CustomizationId": "S31_Head010"
+      },
+      "S31_Torso010": {
+        "Category": "ECustomizationCategory::SurvivorTorso",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S31/Models/Torsos/S31_Torso010_REF.S31_Torso010_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "BE7333F2412F516BCC05D781FA7B153C",
+          "SourceString": "COLLECTION_S31_010_NAME",
+          "LocalizedString": "Monster Slayer Collection "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S31/Models/Torsos/ACC/Blueprints/BP_S31_ACC_Laces010.BP_S31_ACC_Laces010_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 30,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "233287CE44E28CD29A8AADB8D5533C48",
+            "SourceString": "CUST_S31_Torso010_NAME",
+            "LocalizedString": "Dusky Pink Tunic"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "97DD50124D653A01D27F76B9D87231B3",
+            "SourceString": "CUST_S31_Torso010_DESC",
+            "LocalizedString": "A traditional tunic she wore proudly."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_Torso010.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.1.2",
+        "CustomizationId": "S31_Torso010"
+      },
+      "S31_Legs010": {
+        "Category": "ECustomizationCategory::SurvivorLegs",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S31/Models/Legs/S31_Legs010_REF.S31_Legs010_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "4D73B8EF4848EC8759AAF69066D18F95",
+          "SourceString": "COLLECTION_S31_010_NAME",
+          "LocalizedString": "Monster Slayer Collection "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 30,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "E90CC889418D6B2F8549A699F8795DC1",
+            "SourceString": "CUST_S31_Legs010_NAME",
+            "LocalizedString": "Tight Jeans "
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "2AC00A0E4A1CAE104D2F8387FD2C36F9",
+            "SourceString": "CUST_S31_Legs010_DESC",
+            "LocalizedString": "She improvised the rest of her outfit with brown patterned trousers."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_Legs010.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.1.2",
+        "CustomizationId": "S31_Legs010"
+      },
       "S31_Head011": {
         "Category": "ECustomizationCategory::SurvivorHead",
         "ItemMesh": {

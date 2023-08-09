@@ -370,7 +370,18 @@
           "AssetPathName": "None",
           "SubPathString": ""
         },
-        "MaterialsMap": [],
+        "MaterialsMap": [
+          {
+            "From": {
+              "AssetPathName": "/Game/Characters/Campers/S38/Materials/Outfit00/MI_S38Head00.MI_S38Head00",
+              "SubPathString": ""
+            },
+            "To": {
+              "AssetPathName": "/Game/Characters/Campers/S38/Materials/Outfit01/MI_S38Head01.MI_S38Head01",
+              "SubPathString": ""
+            }
+          }
+        ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
           "ConditionalMaterials": []

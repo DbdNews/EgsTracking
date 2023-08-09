@@ -834,6 +834,75 @@
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "S31_outfit_009"
       },
+      "S31_outfit_010": {
+        "ID": "S31_outfit_010",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "1392B1284486A84883111BAAA106F0C0",
+            "SourceString": "OUTFIT_S31_010_NAME",
+            "LocalizedString": "Fogchaser"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "8C3620384F9BBF14C8397FA4E1AD19AA",
+            "SourceString": "OUTFIT_S31_010_DESC",
+            "LocalizedString": "An imaginary warrior Haddie created who can manipulate the invisible in an unknown dimension."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_010.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Head010",
+          "S31_Torso010",
+          "S31_Legs010"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "2EBEDD324F8493095605B5B5CDD098D5",
+          "SourceString": "COLLECTION_S31_010_NAME",
+          "LocalizedString": "Monster Slayer Collection "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "7.1.2",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_010"
+      },
       "S31_outfit_011": {
         "ID": "S31_outfit_011",
         "UIData": {

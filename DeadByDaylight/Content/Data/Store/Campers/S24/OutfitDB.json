@@ -1247,6 +1247,75 @@
         "IsAvailableInAtlantaBuild": false,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "S24_outfit_015"
+      },
+      "S24_outfit_016": {
+        "ID": "S24_outfit_016",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "80E89C2B434AB1E6328DE4A4B4A190BB",
+            "SourceString": "OUTFIT_S24_016_NAME",
+            "LocalizedString": "Fashion Night"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "773C006B4C29664AE472EFA750668C26",
+            "SourceString": "OUTFIT_S24_016_DESC",
+            "LocalizedString": "She went undercover at a fashion show to investigate a famous relic collector."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S24/S24_outfit_016.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S24_Head016",
+          "S24_Torso016",
+          "S24_Legs016"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "86A6E67A419C0DBA880578A2AECD968C",
+          "SourceString": "COLLECTION_S24_016_NAME",
+          "LocalizedString": "Modern Baroque Collection "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "7.1.2",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S24_outfit_016"
       }
     }
   }
