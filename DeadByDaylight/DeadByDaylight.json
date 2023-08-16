@@ -33,12 +33,26 @@
 			"LoadingPhase": "Default"
 		},
 		{
+			"Name": "Anniversary2023",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"DBDGameplay"
+			]
+		},
+		{
 			"Name": "Archives",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		},
 		{
 			"Name": "AudioUtilities",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CoreMemory",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		},
@@ -64,19 +78,14 @@
 			]
 		},
 		{
-			"Name": "DBDCheats",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"BlacklistTargetConfigurations": [
-				"Shipping"
-			]
-		},
-		{
 			"Name": "DBDTests",
 			"Type": "Runtime",
 			"LoadingPhase": "PostEngineInit",
 			"BlacklistTargetConfigurations": [
 				"Shipping"
+			],
+			"BlacklistTargets": [
+				"Server"
 			]
 		},
 		{
@@ -85,6 +94,9 @@
 			"LoadingPhase": "PostEngineInit",
 			"BlacklistTargetConfigurations": [
 				"Shipping"
+			],
+			"BlacklistTargets": [
+				"Server"
 			]
 		},
 		{
@@ -250,7 +262,10 @@
 		{
 			"Name": "SpecialEventUtilities",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		},
 		{
 			"Name": "TheBlight",
@@ -386,6 +401,11 @@
 			"LoadingPhase": "Default"
 		},
 		{
+			"Name": "TheK32",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
 			"Name": "TheLegion",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
@@ -426,6 +446,14 @@
 			"Name": "ThePlague",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "TheS38",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"DeadByDaylight"
+			]
 		},
 		{
 			"Name": "TheShape",
@@ -713,14 +741,14 @@
 		},
 		{
 			"Name": "PS4Media",
-			"Enabled": true,
+			"Enabled": false,
 			"WhitelistPlatforms": [
 				"PS4"
 			]
 		},
 		{
 			"Name": "PS5Media",
-			"Enabled": true,
+			"Enabled": false,
 			"WhitelistPlatforms": [
 				"PS5"
 			],
@@ -730,14 +758,14 @@
 		},
 		{
 			"Name": "MfMedia",
-			"Enabled": true,
+			"Enabled": false,
 			"WhitelistPlatforms": [
 				"XboxOne"
 			]
 		},
 		{
 			"Name": "PS4MoviePlayer",
-			"Enabled": true,
+			"Enabled": false,
 			"WhitelistPlatforms": [
 				"PS4"
 			],
@@ -747,7 +775,7 @@
 		},
 		{
 			"Name": "PS5MoviePlayer",
-			"Enabled": true,
+			"Enabled": false,
 			"WhitelistPlatforms": [
 				"PS5"
 			],
@@ -757,7 +785,7 @@
 		},
 		{
 			"Name": "XboxCommonGDKMoviePlayer",
-			"Enabled": true,
+			"Enabled": false,
 			"WhitelistPlatforms": [
 				"XboxOneGDK",
 				"XSX"
@@ -824,7 +852,7 @@
 		},
 		{
 			"Name": "Substance",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2f6439c2f9584f49809d9b13b16c2ba4"
 		},
 		{
@@ -953,6 +981,25 @@
 		{
 			"Name": "CascadeToNiagaraConverter",
 			"Enabled": true
+		},
+		{
+			"Name": "BinkMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "WmfMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "SwitchMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "DBDCheats",
+			"Enabled": true,
+			"BlacklistTargetConfigurations": [
+				"Shipping"
+			]
 		}
 	],
 	"TargetPlatforms": [
@@ -968,6 +1015,7 @@
 		"EGS",
 		"GDK",
 		"WinGDK",
-		"XSX"
+		"XSX",
+		"Switch"
 	]
 }
