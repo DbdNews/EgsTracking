@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "CamperAnimationMappings",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct AnimationMappingRow",
+        "ObjectName": "ScriptStruct'AnimationMappingRow'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -220,6 +221,46 @@
               "K29",
               "K31WeaponB"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Carry_Attack01_BOW_Heavy.AM_M_Carry_Attack01_BOW_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Carry_Attack01_BOW_Heavy.AM_F_Carry_Attack01_BOW_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Attack01_BOW.AM_F_K33_Carry_Attack01_BOW",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Attack01_BOW.AM_M_K33_Carry_Attack01_BOW",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
           }
         ]
       },
@@ -419,6 +460,46 @@
               "K29",
               "K31WeaponB"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Carry_Attack01_SWING_Heavy.AM_M_Carry_Attack01_SWING_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Carry_Attack01_SWING_Heavy.AM_F_Carry_Attack01_SWING_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Attack01_Swing.AM_F_K33_Carry_Attack01_Swing",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Attack01_Swing.AM_M_K33_Carry_Attack01_Swing",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
           }
         ]
       },
@@ -615,6 +696,46 @@
               "AnimTag_Male",
               "K29",
               "K31WeaponB"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Carry_Attack01_OUT_Heavy.AM_M_Carry_Attack01_OUT_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Carry_Attack01_OUT_Heavy.AM_F_Carry_Attack01_OUT_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Attack01_OUT.AM_F_K33_Carry_Attack01_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Attack01_OUT.AM_M_K33_Carry_Attack01_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
             ]
           }
         ]
@@ -831,6 +952,46 @@
               "K29",
               "K31WeaponB"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Carry_Attack01_BOW_Heavy.AM_M_Carry_Attack01_BOW_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Carry_Attack01_BOW_Heavy.AM_F_Carry_Attack01_BOW_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Attack01_BOW.AM_F_K33_Carry_Attack01_BOW",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Attack01_BOW.AM_M_K33_Carry_Attack01_BOW",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
           }
         ]
       },
@@ -1028,6 +1189,46 @@
               "AnimTag_Male",
               "K29",
               "K31WeaponB"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Carry_Attack01_IN_Heavy.AM_M_Carry_Attack01_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Carry_Attack01_IN_Heavy.AM_F_Carry_Attack01_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Attack01_IN.AM_F_K33_Carry_Attack01_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Attack01_IN.AM_M_K33_Carry_Attack01_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
             ]
           }
         ]
@@ -1228,6 +1429,46 @@
               "AnimTag_Male",
               "K29",
               "K31WeaponB"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Carry_Attack01_OUT_Heavy.AM_M_Carry_Attack01_OUT_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Carry_Attack01_OUT_Heavy.AM_F_Carry_Attack01_OUT_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Attack01_OUT.AM_F_K33_Carry_Attack01_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Attack01_OUT.AM_M_K33_Carry_Attack01_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
             ]
           }
         ]
@@ -2104,6 +2345,46 @@
               "AnimTag_Male",
               "K27"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Grab_Generic_Fast_Heavy.AM_M_Grab_Generic_Fast_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Grab_Generic_Fast_Heavy.AM_F_Grab_Generic_Fast_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Grab_Generic_Fast_Light.AM_M_K33_Grab_Generic_Fast_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Grab_Generic_Fast_Light.AM_F_K33_Grab_Generic_Fast_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
           }
         ]
       },
@@ -2165,6 +2446,46 @@
             "Tags": [
               "AnimTag_Male",
               "K27"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Grab_Generic_Fast_IN_Heavy.AM_M_Grab_Generic_Fast_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Grab_Generic_Fast_IN_Heavy.AM_F_Grab_Generic_Fast_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Grab_Generic_Fast_IN_Light.AM_M_K33_Grab_Generic_Fast_IN_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Grab_Generic_Fast_IN_Light.AM_F_K33_Grab_Generic_Fast_IN_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
             ]
           }
         ]
@@ -2274,6 +2595,46 @@
               "AnimTag_Male",
               "K27"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Grab_Locker_Interrupt_Heavy.AM_M_Grab_Locker_Interrupt_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Grab_Locker_Interrupt_Heavy.AM_F_Grab_Locker_Interrupt_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Grab_Locker_Interrupt_Light.AM_M_K33_Carry_Grab_Locker_Interrupt_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Grab_Locker_Interrupt_Light.AM_F_K33_Carry_Grab_Locker_Interrupt_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
           }
         ]
       },
@@ -2357,6 +2718,46 @@
               "AnimTag_Male",
               "Nightmare",
               "Nurse"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Grab_Locker_Interrupt_IN_Heavy.AM_M_Grab_Locker_Interrupt_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Grab_Locker_Interrupt_IN_Heavy.AM_F_Grab_Locker_Interrupt_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Grab_Locker_Interrupt_IN_Light.AM_M_K33_Carry_Grab_Locker_Interrupt_IN_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Grab_Locker_Interrupt_IN_Light.AM_F_K33_Carry_Grab_Locker_Interrupt_IN_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
             ]
           }
         ]
@@ -2502,6 +2903,46 @@
               "AnimTag_Male",
               "Nurse"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Grab_Generic_Fast_Heavy.AM_M_Grab_Generic_Fast_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Grab_Generic_Fast_Heavy.AM_F_Grab_Generic_Fast_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Grab_Locker_Interrupt_Light.AM_M_K33_Carry_Grab_Locker_Interrupt_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Grab_Locker_Interrupt_Light.AM_F_K33_Carry_Grab_Locker_Interrupt_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
           }
         ]
       },
@@ -2585,6 +3026,26 @@
               "AnimTag_Male",
               "Nightmare",
               "Nurse"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Grab_Locker_Interrupt_IN_Light.AM_M_K33_Carry_Grab_Locker_Interrupt_IN_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Grab_Locker_Interrupt_IN_Light.AM_F_K33_Carry_Grab_Locker_Interrupt_IN_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
             ]
           }
         ]
@@ -3299,6 +3760,46 @@
               "AnimTag_Male",
               "K29"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_K32_Hook_IN.AM_M_K32_Hook_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_K32_Hook_IN.AM_F_K32_Hook_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Hook.AM_M_K33_Hook",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Hook.AM_F_K33_Hook",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
           }
         ]
       },
@@ -3331,7 +3832,8 @@
               "Nightmare",
               "AnimTag_Female",
               "K29",
-              "K31"
+              "K31",
+              "K32"
             ]
           },
           {
@@ -3343,7 +3845,8 @@
               "Nightmare",
               "AnimTag_Male",
               "K29",
-              "K31"
+              "K31",
+              "K32"
             ]
           },
           {
@@ -3716,7 +4219,8 @@
               "AnimTag_Male",
               "K28",
               "K29",
-              "K31"
+              "K31",
+              "K32"
             ]
           },
           {
@@ -3729,7 +4233,8 @@
               "AnimTag_Female",
               "K28",
               "K29",
-              "K31"
+              "K31",
+              "K32"
             ]
           },
           {
@@ -3910,6 +4415,46 @@
             "Tags": [
               "AnimTag_Male",
               "K27"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Hook_IN.AM_M_K33_Hook_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Hook_IN.AM_F_K33_Hook_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_K32_Hook_Setup.AM_M_K32_Hook_Setup",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_K32_Hook_Setup.AM_F_K32_Hook_Setup",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
             ]
           }
         ]
@@ -4600,6 +5145,46 @@
               "AnimTag_Female",
               "K31"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K32/AM_M_K32_Mori_01.AM_M_K32_Mori_01",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K32/AM_F_K32_Mori_01.AM_F_K32_Mori_01",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Mori_01.AM_F_K33_Mori_01",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Mori_01.AM_M_K33_Mori_01",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
           }
         ]
       },
@@ -4870,6 +5455,46 @@
             "Tags": [
               "AnimTag_Male",
               "K30"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Grab_Locker_Heavy.AM_M_Grab_Locker_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Grab_Locker_Heavy.AM_F_Grab_Locker_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Grab_Locker_Light.AM_M_K33_Carry_Grab_Locker_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Grab_Locker_Light.AM_F_K33_Carry_Grab_Locker_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
             ]
           }
         ]
@@ -5868,7 +6493,8 @@
               "AnimTag_Male",
               "K28",
               "K29",
-              "K31"
+              "K31",
+              "K32"
             ]
           },
           {
@@ -5881,6 +6507,7 @@
               "AnimTag_Female",
               "K28",
               "K29",
+              "K31",
               "K31"
             ]
           },
@@ -6178,7 +6805,8 @@
               "AnimTag_Male",
               "K28",
               "K29",
-              "K31"
+              "K31",
+              "K32"
             ]
           },
           {
@@ -6191,7 +6819,8 @@
               "AnimTag_Female",
               "K28",
               "K29",
-              "K31"
+              "K31",
+              "K32"
             ]
           },
           {
@@ -6498,6 +7127,46 @@
             "Tags": [
               "K29",
               "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_K32_Drop.AM_M_K32_Drop",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_K32_Drop.AM_F_K32_Drop",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Drop.AM_M_K33_Drop",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Drop.AM_F_K33_Drop",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
             ]
           }
         ]
@@ -6887,6 +7556,46 @@
               "AnimTag_Male",
               "K27"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_PickUp_Heavy.AM_M_PickUp_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_PickUp_Heavy.AM_F_PickUp_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_PickUp.AM_M_K33_PickUp",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_PickUp.AM_F_K33_PickUp",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
           }
         ]
       },
@@ -7113,6 +7822,46 @@
             "Tags": [
               "AnimTag_Female",
               "K27"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_PickUp_IN_Heavy.AM_M_PickUp_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_PickUp_IN_Heavy.AM_F_PickUp_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_PickUp_IN.AM_M_K33_PickUp_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/am_F_K33_PickUp_IN.AM_F_K33_PickUp_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
             ]
           }
         ]
@@ -7637,6 +8386,46 @@
               "K24",
               "AnimTag_Male"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Carry_Wiggle_Heavy.AM_M_Carry_Wiggle_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "K32",
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K32/AM_F_Carry_Wiggle_Heavy.AM_F_Carry_Wiggle_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "K32",
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Wiggle_Light.AM_M_K33_Carry_Wiggle_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "K33",
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Wiggle_Light.AM_F_K33_Carry_Wiggle_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "K33",
+              "AnimTag_Female"
+            ]
           }
         ]
       },
@@ -7891,6 +8680,46 @@
               "AnimTag_Male",
               "K27"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Grab_Obstacles_BK_Heavy.AM_M_Grab_Obstacles_BK_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Grab_Obstacles_BK_Heavy.AM_F_Grab_Obstacles_BK_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Grab_Obstacles_BK_Palet_Light.AM_M_K33_Carry_Grab_Obstacles_BK_Palet_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Grab_Obstacles_BK_Palet_Light.AM_F_K33_Carry_Grab_Obstacles_BK_Palet_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
           }
         ]
       },
@@ -7902,6 +8731,46 @@
               "SubPathString": ""
             },
             "Tags": []
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Grab_Obstacles_BK_IN_Heavy.AM_M_Grab_Obstacles_BK_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Grab_Obstacles_BK_IN_Heavy.AM_F_Grab_Obstacles_BK_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Grab_Obstacles_BK_Palet_IN_Light.AM_M_K33_Carry_Grab_Obstacles_BK_Palet_IN_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Grab_Obstacles_BK_Palet_IN_Light.AM_F_K33_Carry_Grab_Obstacles_BK_Palet_IN_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
           }
         ]
       },
@@ -8166,6 +9035,46 @@
               "AnimTag_Male",
               "K27"
             ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Grab_Obstacles_FT_Heavy.AM_M_Grab_Obstacles_FT_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Grab_Obstacles_FT_Heavy.AM_F_Grab_Obstacles_FT_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Grab_Obstacles_FT_Light.AM_M_K33_Carry_Grab_Obstacles_FT_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Grab_Obstacles_FT_Light.AM_F_K33_Carry_Grab_Obstacles_FT_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
           }
         ]
       },
@@ -8177,6 +9086,46 @@
               "SubPathString": ""
             },
             "Tags": []
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Grab_Obstacles_FT_IN_Heavy.AM_M_Grab_Obstacles_FT_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Grab_Obstacles_FT_IN_Heavy.AM_F_Grab_Obstacles_FT_IN_Heavy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K32"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Carry_Grab_Obstacles_FT_IN_Light.AM_M_K33_Carry_Grab_Obstacles_FT_IN_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male",
+              "K33"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Carry_Grab_Obstacles_FT_IN_Light.AM_F_K33_Carry_Grab_Obstacles_FT_IN_Light",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female",
+              "K33"
+            ]
           }
         ]
       },
@@ -9739,6 +10688,611 @@
           {
             "MontageAsset": {
               "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_BlessLantern_OUT.AM_M_BlessLantern_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "ErasingHagTrap": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_ErasingHagTrap.AM_F_ErasingHagTrap",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_ErasingHagTrap.AM_M_ErasingHagTrap",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "K32_SpeedUpChest": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/AnimSequences/Power/K32/AM_F_K32_SpeedUpToolGeneration.AM_F_K32_SpeedUpToolGeneration",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/AnimSequences/Power/K32/AM_M_K32_SpeedUpToolGeneration.AM_M_K32_SpeedUpToolGeneration",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "K32_PickUpEMP": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/AnimSequences/Power/K32/AM_F_K32_PickingUp.AM_F_K32_PickingUp",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/AnimSequences/Power/K32/AM_M_K32_PickingUp.AM_M_K32_PickingUp",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "LockerQuesitaEnter": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/Quesita/AM_F_Quesita_ClosetHide.AM_F_Quesita_ClosetHide",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/Quesita/AM_M_Quesita_ClosetHide.AM_M_Quesita_ClosetHide",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "K33_TurretCollect": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_TurretCollect.AM_M_TurretCollect",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_TurretCollect.AM_F_TurretCollect",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretCollectCancel": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Turret_CollectCancel.AM_F_K33_Turret_CollectCancel",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Turret_CollectCancel.AM_M_K33_Turret_CollectCancel",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "K33_TurretPickup": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_TurretPickup.AM_M_TurretPickup",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_TurretPickup.AM_F_TurretPickup",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretDrop": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_TurretDrop.AM_M_TurretDrop",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_TurretDrop.AM_F_TurretDrop",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretDeploy": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_TurretDeploy.AM_M_TurretDeploy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_TurretDeploy.AM_F_TurretDeploy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretDeployCancel": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_TurretDeployCancel.AM_M_TurretDeployCancel",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_TurretDeployCancel.AM_F_TurretDeployCancel",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretUndeploy": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Turret_UnDeploy.AM_M_K33_Turret_UnDeploy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Turret_UnDeploy.AM_F_K33_Turret_UnDeploy",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretUndeployCancel": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Turret_UnDeploy_Cancel.AM_M_K33_Turret_UnDeploy_Cancel",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Turret_UnDeploy_Cancel.AM_F_K33_Turret_UnDeploy_Cancel",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretRepair_In": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Turret_Repair_IN.AM_M_K33_Turret_Repair_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Turret_Repair_IN.AM_F_K33_Turret_Repair_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretRepair_Loop": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Turret_Repair.AM_M_K33_Turret_Repair",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Turret_Repair.AM_F_K33_Turret_Repair",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretRepair_Out": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Turret_Repair_Out.AM_M_K33_Turret_Repair_Out",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Turret_Repair_Out.AM_F_K33_Turret_Repair_Out",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretUndeployInterrupted": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_TurretReaction.AM_M_TurretReaction",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_TurretReaction.AM_F_TurretReaction",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretSpawn": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Turret_Spawn.AM_M_K33_Turret_Spawn",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Turret_Spawn.AM_F_K33_Turret_Spawn",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "WrmFatherHackingInteraction_In": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Wormhole_Minigame_IN.AM_F_Wormhole_Minigame_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Wormhole_Minigame_IN.AM_M_Wormhole_Minigame_IN",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "WrmFatherHackingInteraction": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Wormhole_Minigame_Loop.AM_F_Wormhole_Minigame_Loop",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Wormhole_Minigame_Loop.AM_M_Wormhole_Minigame_Loop",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "WrmFatherKeyCard": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/AM_F_Wormhole_Minigame_ButtonPress.AM_F_Wormhole_Minigame_ButtonPress",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_Wormhole_Minigame_ButtonPress.AM_M_Wormhole_Minigame_ButtonPress",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "TrapPalletLeft": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/Perks/AM_F_S39_P02_FireBomb_LT.AM_F_S39_P02_FireBomb_LT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/Perks/AM_M_S39_P02_FireBomb_LT.AM_M_S39_P02_FireBomb_LT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "TrapPalletRight": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/Perks/AM_F_S39_P02_FireBomb_RT.AM_F_S39_P02_FireBomb_RT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/Perks/AM_M_S39_P02_FireBomb_RT.AM_M_S39_P02_FireBomb_RT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "SteamPipeSwitchReset": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_UnlockExit.AM_F_UnlockExit",
+              "SubPathString": ""
+            },
+            "Tags": []
+          }
+        ]
+      },
+      "K33_TurretDeploy_OUT": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_TurretDeploy_OUT.AM_M_TurretDeploy_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_TurretDeploy_OUT.AM_F_TurretDeploy_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretUndeploy_OUT": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_K33_Turret_UnDeploy_OUT.AM_M_K33_Turret_UnDeploy_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_K33_Turret_UnDeploy_OUT.AM_F_K33_Turret_UnDeploy_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "K33_TurretCollect_OUT": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/K33/AM_M_TurretCollect_OUT.AM_M_TurretCollect_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/K33/AM_F_TurretCollect_OUT.AM_F_TurretCollect_OUT",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          }
+        ]
+      },
+      "S38_P03_PlotTwist": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Female/Montage/Perks/AM_F_S38_PlotTwist.AM_F_S38_PlotTwist",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/Perks/AM_M_S38_PlotTwist.AM_M_S38_PlotTwist",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Male"
+            ]
+          }
+        ]
+      },
+      "TrapGenerator": {
+        "Mappings": [
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_FireCracker_Drop.AM_M_FireCracker_Drop",
+              "SubPathString": ""
+            },
+            "Tags": [
+              "AnimTag_Female"
+            ]
+          },
+          {
+            "MontageAsset": {
+              "AssetPathName": "/Game/Characters/Campers/Common/Animation/Male/Montage/AM_M_FireCracker_Drop.AM_M_FireCracker_Drop",
               "SubPathString": ""
             },
             "Tags": [

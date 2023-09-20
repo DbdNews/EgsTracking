@@ -319,13 +319,6 @@
 						"Enabled": false
 					},
 					{
-						"Name": "OnlineSubsystemStadia",
-						"Enabled": true,
-						"WhitelistPlatforms": [
-							"Stadia"
-						]
-					},
-					{
 						"Name": "PlatformsProviders",
 						"Enabled": true
 					},
@@ -1982,22 +1975,34 @@
 					{
 						"Name": "DBDUIManagers",
 						"Type": "Runtime",
-						"LoadingPhase": "Default"
+						"LoadingPhase": "Default",
+						"BlacklistTargets": [
+							"Server"
+						]
 					},
 					{
 						"Name": "DBDUIPresenters",
 						"Type": "Runtime",
-						"LoadingPhase": "Default"
+						"LoadingPhase": "Default",
+						"BlacklistTargets": [
+							"Server"
+						]
 					},
 					{
 						"Name": "DBDUIViewInterfaces",
 						"Type": "Runtime",
-						"LoadingPhase": "Default"
+						"LoadingPhase": "Default",
+						"BlacklistTargets": [
+							"Server"
+						]
 					},
 					{
 						"Name": "UITween",
 						"Type": "Runtime",
-						"LoadingPhase": "Default"
+						"LoadingPhase": "Default",
+						"BlacklistTargets": [
+							"Server"
+						]
 					}
 				],
 				"Plugins": [
@@ -2021,8 +2026,8 @@
 			"Descriptor": 
 			{
 				"FileVersion": 3,
-				"Version": 202112437,
-				"VersionName": "2021.1.11.7933.2437",
+				"Version": 202112505,
+				"VersionName": "2021.1.12.7973.2505",
 				"FriendlyName": "Wwise Unreal Engine Integration",
 				"Description": "Wwise integration for Unreal Engine",
 				"Category": "Audio",
@@ -2116,7 +2121,10 @@
 					{
 						"Name": "DBDUIViewsCore",
 						"Type": "Runtime",
-						"LoadingPhase": "Default"
+						"LoadingPhase": "Default",
+						"BlacklistTargets": [
+							"Server"
+						]
 					}
 				],
 				"Plugins": [
@@ -2855,6 +2863,47 @@
 			}
 		},
 		{
+			"File": "../../../DeadByDaylight/Plugins/Runtime/Bhvr/SentryIo/SentryIo.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "SentryIo",
+				"Description": "Sentry Io Integration",
+				"Category": "Other",
+				"CreatedBy": "Behaviour Interactive Inc.",
+				"CreatedByURL": "",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "SentryIo",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault"
+					},
+					{
+						"Name": "AndroidSentryIo",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault",
+						"WhitelistPlatforms": [
+							"Android"
+						]
+					},
+					{
+						"Name": "IOSSentryIo",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault",
+						"WhitelistPlatforms": [
+							"IOS"
+						]
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../DeadByDaylight/Plugins/AppsFlyer/AppsFlyer.uplugin",
 			"Descriptor": 
 			{
@@ -3032,6 +3081,32 @@
 				"Modules": [
 					{
 						"Name": "AssetManagerEditor",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Editor/GameplayTagsEditor/GameplayTagsEditor.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "GameplayTagsEditor",
+				"Description": "GameplayTagsEditor provides blueprint nodes and editor UI to enable the use of GameplayTags for tagging assets and objects",
+				"Category": "Editor",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "GameplayTagsEditor",
 						"Type": "UncookedOnly",
 						"LoadingPhase": "PreDefault"
 					}
@@ -3273,6 +3348,31 @@
 			}
 		},
 		{
+			"File": "../../../DeadByDaylight/Plugins/Editor/DBDProceduralCamera/DBDProceduralCamera.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "DBDProceduralCamera",
+				"Description": "A plugin that contain the code of the Procedural camera system prototype.",
+				"Category": "Other",
+				"CreatedBy": "lburg",
+				"CreatedByURL": "",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "DBDProceduralCamera",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../DeadByDaylight/Plugins/Editor/Validators/Validators.uplugin",
 			"Descriptor": 
 			{
@@ -3438,47 +3538,6 @@
 						"Name": "BHVRAnalytics",
 						"Type": "Runtime",
 						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../DeadByDaylight/Plugins/Runtime/Bhvr/SentryIo/SentryIo.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "SentryIo",
-				"Description": "Sentry Io Integration",
-				"Category": "Other",
-				"CreatedBy": "Behaviour Interactive Inc.",
-				"CreatedByURL": "",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"CanContainContent": true,
-				"Modules": [
-					{
-						"Name": "SentryIo",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault"
-					},
-					{
-						"Name": "AndroidSentryIo",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault",
-						"WhitelistPlatforms": [
-							"Android"
-						]
-					},
-					{
-						"Name": "IOSSentryIo",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault",
-						"WhitelistPlatforms": [
-							"IOS"
-						]
 					}
 				]
 			}
