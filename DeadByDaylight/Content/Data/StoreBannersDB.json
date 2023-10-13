@@ -4577,7 +4577,7 @@
             "Namespace": "",
             "Key": "5D8AACA7405AF819CC5306A5DD7445FA",
             "SourceString": "ARCHIVES_Journal_TAB",
-            "LocalizedString": "ARCHIVES_Journal_TAB"
+            "LocalizedString": "COLLECTION"
           },
           "Subtitle": {
             "Namespace": "",
@@ -7649,6 +7649,498 @@
           "AssociatedDlcId": "",
           "AssociatedCombinedItemId": "",
           "AssociatedCombinedOutfitId": "S24_outfit_016",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_WMH1_small": {
+        "BannerId": "Banner_WMH1_small",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_WMH1_small.png",
+          "AssociatedDlcId": "Wormhole",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_WMH1": {
+        "BannerId": "Banner_WMH1",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "3A03DA0F4062A318A3121AB5CA129202",
+            "SourceString": "Banner_NewContent_TITLE",
+            "LocalizedString": "NEW CONTENT"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "A10904E8498E85AAA90619B2AC9EAF5D",
+            "SourceString": "Banner_FeaturedOutfits_TITLE",
+            "LocalizedString": "FEATURED OUTFITS"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_WMH1.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "K33_outfit_007",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_WMH2": {
+        "BannerId": "Banner_WMH2",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_WMH2.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_WMH7": {
+        "BannerId": "Banner_WMH7",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "76231192474EE41EE5BFA1BFA4BA9FD0",
+            "SourceString": "Banner_NewContent_TITLE",
+            "LocalizedString": "NEW CONTENT"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "38397BAA42430C7F9EA496AE4D7E2CE1",
+            "SourceString": "Banner_FeaturedOutfits_TITLE",
+            "LocalizedString": "FEATURED OUTFITS"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_WMH7.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "K33_outfit_007",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_WMH8": {
+        "BannerId": "Banner_WMH8",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "DD783F394E1330E2E76BF6AA03DD9B80",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "4691CF6F49213D61C3F571BBDA7E09E4",
+            "SourceString": "Banner_FutureVision_TITLE",
+            "LocalizedString": "Visions of the Future Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_WMH8.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "S28_outfit_019",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_WMH9": {
+        "BannerId": "Banner_WMH9",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "E03ED6474311E7CA6433889AB2EAF791",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "4104D7E04815BB7EA5982181B6095EEE",
+            "SourceString": "Banner_DeadlyGames_SUBTITLE",
+            "LocalizedString": "Deadly Games Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_WMH9.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "SwedenKiller_outfit_017",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_WMH10": {
+        "BannerId": "Banner_WMH10",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "345E24754981444BC81178A2AFD9F6B1",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "8EE046954EA68F450ACDFA88D93C8483",
+            "SourceString": "Banner_NordicFashion_SUBTITLE",
+            "LocalizedString": "Nordic Fashion Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_WMH10.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "DK_outfit_018",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_WMH11": {
+        "BannerId": "Banner_WMH11",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "E0B4C4944871B50D25A960943B33B2E0",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "AA2D8C0F422CB84369FB059A633B9446",
+            "SourceString": "Banner_FireMoon_SUBTITLE",
+            "LocalizedString": "Fire Moon Festival"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_WMH11.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "FM_outfit_026",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_WMH12": {
+        "BannerId": "Banner_WMH12",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "F1C10FD64EB2F25B2A628EAF9802A101",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "10EA49484DC0EACE8C213388C1AF6AFC",
+            "SourceString": "Banner_CatsAndDogs_SUBTITLE",
+            "LocalizedString": "Cats & Dogs Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_WMH12.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "S38_outfit_007",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY1_small": {
+        "BannerId": "Banner_XRAY1_small",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY1": {
+        "BannerId": "Banner_XRAY1",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY2": {
+        "BannerId": "Banner_XRAY2",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY3": {
+        "BannerId": "Banner_XRAY3",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY4": {
+        "BannerId": "Banner_XRAY4",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "2DD558AF4DA4F2323E582A96F02F0728",
+            "SourceString": "Banner_FeaturedSale_SUBTITLE",
+            "LocalizedString": "FEATURED SALE"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "1402AC8C4D0B104B837AC9A81CAE49E2",
+            "SourceString": "Banner_30Off_SUBTITLE",
+            "LocalizedString": "Up to 30% Off"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_XRAY4.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY5": {
+        "BannerId": "Banner_XRAY5",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "376DF0AD4EE939FFF05DCE883CFEEAD1",
+            "SourceString": "Banner_SaleOnSelectOutfits_SUBTITLE",
+            "LocalizedString": "Sale on Select Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "E6729AE0499E6BA47C58629D7C6A2567",
+            "SourceString": "Banner_30Off_SUBTITLE",
+            "LocalizedString": "Up to 30% Off"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_XRAY5.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::TopLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY7": {
+        "BannerId": "Banner_XRAY7",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "C5ABB9DF4C9761EDCC4076B334D5B2A6",
+            "SourceString": "Banner_NewContent_TITLE",
+            "LocalizedString": "NEW CONTENT"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "5FF5323440B194CDC9A0978454286685",
+            "SourceString": "Banner_CursedCats_SUBTITLE",
+            "LocalizedString": "Cursed Cats Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_XRAY7.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "K21_outfit_015",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY8": {
+        "BannerId": "Banner_XRAY8",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "EBE2BB7846B27748D79A42BC09419CA8",
+            "SourceString": "Banner_NewContent_TITLE",
+            "LocalizedString": "NEW CONTENT"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "0B072DB7426A885A1C0917B25B05744F",
+            "SourceString": "Banner_VoidTouched_SUBTITLE",
+            "LocalizedString": "Void Touched Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_XRAY8.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "S25_outfit_019",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY9": {
+        "BannerId": "Banner_XRAY9",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "466A7DCE407AF0B8E1E4F3960DBC8F72",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "08381674401A2960DFF288B3BC23F6FF",
+            "SourceString": "Banner_PLU5_SUBTITLE",
+            "LocalizedString": "Tricks and Treats Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_XRAY9.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "JP_outfit_021",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY10": {
+        "BannerId": "Banner_XRAY10",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "162CB8F344E3FD6717B4EA8E2BC5A40D",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "561DBA17465F8AC8ABC2D2AEBA6A69E2",
+            "SourceString": "Banner_PLU4_SUBTITLE",
+            "LocalizedString": "Hallowed Blight Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_XRAY10.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "K33_outfit_008",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY11": {
+        "BannerId": "Banner_XRAY11",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "052534EC4902106615A8DA924169D215",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "37330033438771425880BC885F685F75",
+            "SourceString": "Banner_PLU4_SUBTITLE",
+            "LocalizedString": "Hallowed Blight Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_XRAY11.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "K27_outfit_007",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY12": {
+        "BannerId": "Banner_XRAY12",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "7CD250DD454DD56DECB48AA4D31E6C16",
+            "SourceString": "Banner_NewContent_TITLE",
+            "LocalizedString": "NEW CONTENT"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "6A0DDDA5452B7AEE745B3F96005155E8",
+            "SourceString": "Banner_NaughtyBear_SUBTITLE",
+            "LocalizedString": "Naughty Bear"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_XRAY12.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "TR_outfit_018",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_XRAY13": {
+        "BannerId": "Banner_XRAY13",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "0B9DAF17461B42705E46D8932E077B6C",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "ACC3E4E14D86FD9C0DE6B7AE74EBEECC",
+            "SourceString": "Banner_CozyBreak_SUBTITLE",
+            "LocalizedString": "Cozy Break Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_XRAY13.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "GS_outfit_026",
           "TextPosition": "ETextBannerPosition::BottomLeft"
         },
         "UseAsDefault": false,
