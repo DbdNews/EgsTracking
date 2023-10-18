@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "LevelGen_SpecialBehavioursDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct SpecialBehaviourPopulation",
+        "ObjectName": "ScriptStruct'SpecialBehaviourPopulation'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -19,6 +20,7 @@
           "AssetPathName": "/Game/Blueprints/Archives/Glyphs/OrangeGlyph0.OrangeGlyph0_C",
           "SubPathString": ""
         },
+        "_tileSpawnPointPriority": 0,
         "IterativeWeightAdjustmentStrategyClass": {
           "AssetPathName": "/Script/Archives.OrangeGlyphAdjustmentStrategy",
           "SubPathString": ""
@@ -34,6 +36,7 @@
           "AssetPathName": "/Game/Blueprints/Archives/Glyphs/OrangeGlyph1.OrangeGlyph1_C",
           "SubPathString": ""
         },
+        "_tileSpawnPointPriority": 0,
         "IterativeWeightAdjustmentStrategyClass": {
           "AssetPathName": "/Script/Archives.OrangeGlyphAdjustmentStrategy",
           "SubPathString": ""
@@ -49,6 +52,7 @@
           "AssetPathName": "/Game/Blueprints/Archives/Glyphs/OrangeGlyph2.OrangeGlyph2_C",
           "SubPathString": ""
         },
+        "_tileSpawnPointPriority": 0,
         "IterativeWeightAdjustmentStrategyClass": {
           "AssetPathName": "/Script/Archives.OrangeGlyphAdjustmentStrategy",
           "SubPathString": ""
@@ -64,6 +68,7 @@
           "AssetPathName": "/Game/Blueprints/Archives/Glyphs/OrangeGlyph3.OrangeGlyph3_C",
           "SubPathString": ""
         },
+        "_tileSpawnPointPriority": 0,
         "IterativeWeightAdjustmentStrategyClass": {
           "AssetPathName": "/Script/Archives.OrangeGlyphAdjustmentStrategy",
           "SubPathString": ""

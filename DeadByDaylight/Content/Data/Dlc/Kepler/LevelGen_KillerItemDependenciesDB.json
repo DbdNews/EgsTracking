@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "LevelGen_KillerItemDependenciesDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct KillerItemDependencies",
+        "ObjectName": "ScriptStruct'KillerItemDependencies'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -18,14 +19,15 @@
               "SubPathString": ""
             },
             "Population": {
-              "ObjectName": "CurveFloat TelevisionsManagementCount",
+              "ObjectName": "CurveFloat'TelevisionsManagementCount'",
               "ObjectPath": "DeadByDaylight/Content/ProceduralLevelGeneration/ProbabilityCurves/TelevisionsManagementCount.0"
             },
             "_gameplayElementType": "EGameplayElementType::Searchable",
             "IterativeWeightAdjustmentStrategyClass": {
               "AssetPathName": "/Game/Blueprints/GameplayElements/Item/K27Power/Television/BP_TelevisionSpawnerWeightStrategy.BP_TelevisionSpawnerWeightStrategy_C",
               "SubPathString": ""
-            }
+            },
+            "_tileSpawnPointPriority": 0
           }
         ]
       }

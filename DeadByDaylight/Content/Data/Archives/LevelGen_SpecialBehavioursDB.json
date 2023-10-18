@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "LevelGen_SpecialBehavioursDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct SpecialBehaviourPopulation",
+        "ObjectName": "ScriptStruct'SpecialBehaviourPopulation'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -19,6 +20,7 @@
           "AssetPathName": "/Game/Blueprints/Archives/Glyphs/RedGlyph.RedGlyph_C",
           "SubPathString": ""
         },
+        "_tileSpawnPointPriority": 0,
         "IterativeWeightAdjustmentStrategyClass": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -34,6 +36,7 @@
           "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/ToxinPlant/BP_ToxinPlant_Halloween2020.BP_ToxinPlant_Halloween2020_C",
           "SubPathString": ""
         },
+        "_tileSpawnPointPriority": 0,
         "IterativeWeightAdjustmentStrategyClass": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -49,6 +52,7 @@
           "AssetPathName": "/Game/Blueprints/Archives/Glyphs/BlueGlyph.BlueGlyph_C",
           "SubPathString": ""
         },
+        "_tileSpawnPointPriority": 0,
         "IterativeWeightAdjustmentStrategyClass": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -64,6 +68,7 @@
           "AssetPathName": "/Game/Blueprints/Archives/Glyphs/YellowGlyph.YellowGlyph_C",
           "SubPathString": ""
         },
+        "_tileSpawnPointPriority": 0,
         "IterativeWeightAdjustmentStrategyClass": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -79,6 +84,7 @@
           "AssetPathName": "/Game/Blueprints/Archives/Glyphs/PurpleGlyph.PurpleGlyph_C",
           "SubPathString": ""
         },
+        "_tileSpawnPointPriority": 0,
         "IterativeWeightAdjustmentStrategyClass": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -94,6 +100,7 @@
           "AssetPathName": "/Game/Blueprints/Archives/Glyphs/WhiteGlyphBasement.WhiteGlyphBasement_C",
           "SubPathString": ""
         },
+        "_tileSpawnPointPriority": 0,
         "IterativeWeightAdjustmentStrategyClass": {
           "AssetPathName": "None",
           "SubPathString": ""
