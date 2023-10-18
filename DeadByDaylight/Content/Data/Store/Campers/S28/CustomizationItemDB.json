@@ -78,6 +78,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -93,6 +94,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -212,6 +214,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -227,6 +230,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::SpecialEvent",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -346,6 +350,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -361,6 +366,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -480,6 +486,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -495,6 +502,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -545,6 +553,163 @@
         },
         "InclusionVersion": "5.7.0",
         "CustomizationId": "S28_Head011"
+      },
+      "S28_Head011_01": {
+        "Category": "ECustomizationCategory::SurvivorHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S28/Models/Heads/S28_Head00_REF.S28_Head00_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [
+          {
+            "From": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit00/MI_S28Head00.MI_S28Head00",
+              "SubPathString": ""
+            },
+            "To": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Head011_01.MI_S28Head011_01",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "08B117F24474BE16E158D2BD3C357ED0",
+          "SourceString": "COLLECTION_S28_011_01_NAME",
+          "LocalizedString": "Night Owl Collection "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Models/Heads/ACC/Blueprints/BP_S28_Hair_ACC011.BP_S28_Hair_ACC011_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [
+              {
+                "From": {
+                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Hair011.MI_S28Hair011",
+                  "SubPathString": ""
+                },
+                "To": {
+                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Hair011_01.MI_S28Hair011_01",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "From": {
+                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Acc011.MI_S28Acc011",
+                  "SubPathString": ""
+                },
+                "To": {
+                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Acc011_01.MI_S28Acc011_01",
+                  "SubPathString": ""
+                }
+              }
+            ],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 27,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "3C2FB4AD42EBBDF93D97D3B07EE8A4BB",
+            "SourceString": "CUST_S28_Head011_01_NAME",
+            "LocalizedString": "Pink Front Strands"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "B59298D64598AF13E42018AC207F8843",
+            "SourceString": "CUST_S28_Head011_01_DESC",
+            "LocalizedString": "She dyed her hair for a special story with a character with pink hair."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S28/S28_Head011_01.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "6.7.0",
+        "CustomizationId": "S28_Head011_01"
       },
       "S28_Head012": {
         "Category": "ECustomizationCategory::SurvivorHead",
@@ -603,6 +768,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -618,6 +784,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -742,6 +909,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -757,6 +925,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::SpecialEvent",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -876,6 +1045,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -891,6 +1061,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1010,6 +1181,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -1025,6 +1197,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1165,6 +1338,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -1180,6 +1354,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1299,6 +1474,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -1314,6 +1490,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1422,6 +1599,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -1437,6 +1615,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1545,6 +1724,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -1560,6 +1740,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1610,6 +1791,142 @@
         },
         "InclusionVersion": "6.6.2",
         "CustomizationId": "S28_Head018"
+      },
+      "S28_Head019": {
+        "Category": "ECustomizationCategory::SurvivorHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S28/Models/Heads/S28_Head00_REF.S28_Head00_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [
+          {
+            "From": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit00/MI_S28Head00.MI_S28Head00",
+              "SubPathString": ""
+            },
+            "To": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit019/MI_S28Head019.MI_S28Head019",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "E49609B94CB6079AF87214861C98749B",
+          "SourceString": "COLLECTION_S28_019_NAME",
+          "LocalizedString": "Visions Of the Future "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Models/Heads/ACC/Blueprints/BP_S28_Hair_ACC019.BP_S28_Hair_ACC019_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 27,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "49D442B14ACA283292BD17B176A5453F",
+            "SourceString": "CUST_S28_Head019_NAME",
+            "LocalizedString": "Fire Ombre Hair"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "AB43E5C34529095E04EBBFA75899369E",
+            "SourceString": "CUST_S28_Head019_DESC",
+            "LocalizedString": "She got the same haircut as one of her fictional characters."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S28/S28_Head019.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.2.0",
+        "CustomizationId": "S28_Head019"
       },
       "S28_Head01_01": {
         "Category": "ECustomizationCategory::SurvivorHead",
@@ -1716,6 +2033,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -1731,6 +2049,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1887,6 +2206,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -1902,6 +2222,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -2058,6 +2379,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -2073,6 +2395,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -2192,6 +2515,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -2207,6 +2531,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -2347,6 +2672,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -2362,6 +2688,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -2453,6 +2780,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -2473,6 +2801,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -2564,6 +2893,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -2584,6 +2914,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::SpecialEvent",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -2692,6 +3023,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -2712,6 +3044,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -2820,6 +3153,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -2835,6 +3169,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -2886,6 +3221,163 @@
         "InclusionVersion": "5.7.0",
         "CustomizationId": "S28_Legs011"
       },
+      "S28_Legs011_01": {
+        "Category": "ECustomizationCategory::SurvivorLegs",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S28/Models/Legs/S28_Legs011_REF.S28_Legs011_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [
+          {
+            "From": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Legs011.MI_S28Legs011",
+              "SubPathString": ""
+            },
+            "To": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Legs011_01.MI_S28Legs011_01",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "E0A1B79F4F7B0035B86A7AB3AEF6408B",
+          "SourceString": "COLLECTION_S28_011_01_NAME",
+          "LocalizedString": "Night Owl Collection "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Models/Legs/ACC/Blueprints/BP_S28_Bag_ACC011.BP_S28_Bag_ACC011_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [
+              {
+                "From": {
+                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Acc011.MI_S28Acc011",
+                  "SubPathString": ""
+                },
+                "To": {
+                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Acc011_01.MI_S28Acc011_01",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "From": {
+                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Legs011.MI_S28Legs011",
+                  "SubPathString": ""
+                },
+                "To": {
+                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Legs011_01.MI_S28Legs011_01",
+                  "SubPathString": ""
+                }
+              }
+            ],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 27,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "8AB0A7B7433DA69AE83D67865DD00A97",
+            "SourceString": "CUST_S28_Legs011_01_NAME",
+            "LocalizedString": "Handmade Skirt"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "BBFE84BA469CBD3ECBC788B9889FC5AC",
+            "SourceString": "CUST_S28_Legs011_01_DESC",
+            "LocalizedString": "She hand-customized her skirt from an old black pixie skirt by adding her favorite printed fabric."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S28/S28_Legs011_01.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "6.7.0",
+        "CustomizationId": "S28_Legs011_01"
+      },
       "S28_Legs012": {
         "Category": "ECustomizationCategory::SurvivorLegs",
         "ItemMesh": {
@@ -2926,6 +3418,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -2941,6 +3434,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -3049,6 +3543,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -3064,6 +3559,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -3155,6 +3651,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -3170,6 +3667,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -3272,6 +3770,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -3287,6 +3786,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -3378,6 +3878,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -3398,6 +3899,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -3489,6 +3991,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -3504,6 +4007,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -3612,6 +4116,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -3627,6 +4132,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -3677,6 +4183,114 @@
         },
         "InclusionVersion": "6.6.2",
         "CustomizationId": "S28_Legs018"
+      },
+      "S28_Legs019": {
+        "Category": "ECustomizationCategory::SurvivorLegs",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S28/Models/Legs/S28_Legs019_REF.S28_Legs019_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "1EA7800E40A0FB791EFE9E905C1583BE",
+          "SourceString": "COLLECTION_S28_019_NAME",
+          "LocalizedString": "Visions Of the Future "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 27,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "AC7F19C1423D5559CB5782BB0DD34007",
+            "SourceString": "CUST_S28_Legs019_NAME",
+            "LocalizedString": "Thigh High Boots"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "C757D20E464E512CEFBFC29E4F4566CA",
+            "SourceString": "CUST_S28_Legs019_DESC",
+            "LocalizedString": "The buckles gave a futuristic rock look she wanted."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S28/S28_Legs019.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.2.0",
+        "CustomizationId": "S28_Legs019"
       },
       "S28_Legs01_01": {
         "Category": "ECustomizationCategory::SurvivorLegs",
@@ -3729,6 +4343,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -3749,6 +4364,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -3851,6 +4467,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -3871,6 +4488,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -3973,6 +4591,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -3993,6 +4612,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -4095,6 +4715,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -4115,6 +4736,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -4217,6 +4839,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -4237,6 +4860,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -4339,6 +4963,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -4359,6 +4984,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -4461,6 +5087,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -4481,6 +5108,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -4589,6 +5217,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -4609,6 +5238,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -4739,6 +5369,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [
           {
@@ -4759,6 +5390,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -4867,6 +5499,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -4882,6 +5515,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -4973,6 +5607,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -4988,6 +5623,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::SpecialEvent",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -5076,6 +5712,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": false,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -5091,6 +5728,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -5203,6 +5841,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": false,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -5218,6 +5857,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -5269,6 +5909,131 @@
         "InclusionVersion": "6.6.1",
         "CustomizationId": "S28_Torso008_01"
       },
+      "S28_Torso008_02": {
+        "Category": "ECustomizationCategory::SurvivorTorso",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S28/Models/Torsos/S28_Torso008_02_REF.S28_Torso008_02_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "60294C9D4AAEC87EDCA969AEB8AE4AE3",
+          "SourceString": "COLLECTION_S28_Torso008_02_NAME",
+          "LocalizedString": "Tricks And Treats"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "Halloween2023",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Models/Torsos/ACC/Blueprints/BP_S28_Bag_ACC008_02.BP_S28_Bag_ACC008_02_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 27,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::SpecialEvent",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "58BDD23B4F39F530C8368C85D78F08D0",
+            "SourceString": "CUST_S28_Torso008_02_NAME",
+            "LocalizedString": "Celestial Skeleton Shirt"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "9725CABC47844D89E091F999071BCDA1",
+            "SourceString": "CUST_S28_Torso008_02_DESC",
+            "LocalizedString": "A t-shirt of a celestial body enclosed within a ribcage she wore for a Halloween open-mic event at the moonstone."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S28/S28_Torso008_02.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.3.0",
+        "CustomizationId": "S28_Torso008_02"
+      },
       "S28_Torso009": {
         "Category": "ECustomizationCategory::SurvivorTorso",
         "ItemMesh": {
@@ -5309,6 +6074,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": false,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -5324,6 +6090,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -5432,6 +6199,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -5447,6 +6215,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -5538,6 +6307,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -5553,6 +6323,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -5603,6 +6374,135 @@
         },
         "InclusionVersion": "5.7.0",
         "CustomizationId": "S28_Torso011"
+      },
+      "S28_Torso011_01": {
+        "Category": "ECustomizationCategory::SurvivorTorso",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S28/Models/Torsos/S28_Torso011_REF.S28_Torso011_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [
+          {
+            "From": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Top011.MI_S28Top011",
+              "SubPathString": ""
+            },
+            "To": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Top011_01.MI_S28Top011_01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "From": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Acc011.MI_S28Acc011",
+              "SubPathString": ""
+            },
+            "To": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Acc011_01.MI_S28Acc011_01",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "7935135B42E92B78884980BCF150A5F8",
+          "SourceString": "COLLECTION_S28_011_01_NAME",
+          "LocalizedString": "Night Owl Collection "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 27,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "12C8F1E7421423D789B3CDBADC1EAF66",
+            "SourceString": "CUST_S28_Torso011_01_NAME",
+            "LocalizedString": "Fancy Turtleneck"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "D400C2A94AD7FBCC693FF7AFF24E634E",
+            "SourceString": "CUST_S28_Torso011_01_DESC",
+            "LocalizedString": "She cleverly chose to wear a light turtleneck to protect herself from the cool breeze of the late summer night"
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S28/S28_Torso011_01.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "6.7.0",
+        "CustomizationId": "S28_Torso011_01"
       },
       "S28_Torso012": {
         "Category": "ECustomizationCategory::SurvivorTorso",
@@ -5661,6 +6561,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -5676,6 +6577,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -5784,6 +6686,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -5799,6 +6702,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -5907,6 +6811,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -5922,6 +6827,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -6052,6 +6958,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -6067,6 +6974,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -6175,6 +7083,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -6190,6 +7099,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -6298,6 +7208,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -6313,6 +7224,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -6404,6 +7316,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -6419,6 +7332,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -6469,6 +7383,133 @@
         },
         "InclusionVersion": "6.6.2",
         "CustomizationId": "S28_Torso018"
+      },
+      "S28_Torso019": {
+        "Category": "ECustomizationCategory::SurvivorTorso",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S28/Models/Torsos/S28_Torso019_REF.S28_Torso019_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [
+          "Longcoat"
+        ],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "94864B254546EA6005AE83B294103EF1",
+          "SourceString": "COLLECTION_S28_019_NAME",
+          "LocalizedString": "Visions Of the Future "
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S28/Models/Torsos/ACC/Blueprints/BP_S28_Belt_ACC019.BP_S28_Belt_ACC019_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 27,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "8048D7D544FC2FEC0BC80E84EF5DC729",
+            "SourceString": "CUST_S28_Torso019_NAME",
+            "LocalizedString": "Well-Detailed Jacket"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "ED08429048F12925CFFA1EA42A0EDC34",
+            "SourceString": "CUST_S28_Torso019_DESC",
+            "LocalizedString": "She was waiting for the right moment to wear this jacket. "
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S28/S28_Torso019.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.2.0",
+        "CustomizationId": "S28_Torso019"
       },
       "S28_Torso01_01": {
         "Category": "ECustomizationCategory::SurvivorTorso",
@@ -6550,6 +7591,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -6565,6 +7607,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -6696,6 +7739,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -6711,6 +7755,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -6842,6 +7887,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -6857,6 +7903,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Uncommon",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -6988,6 +8035,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -7003,6 +8051,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -7134,6 +8183,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -7149,6 +8199,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -7280,6 +8331,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -7295,6 +8347,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -7426,6 +8479,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -7441,6 +8495,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Common",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -7549,6 +8604,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -7564,6 +8620,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -7704,6 +8761,7 @@
         "IsInStore": true,
         "IsInNonViolentBuild": false,
         "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
@@ -7719,6 +8777,7 @@
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
         "Rarity": "EItemRarity::Rare",
+        "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -7769,808 +8828,6 @@
         },
         "InclusionVersion": "Legacy",
         "CustomizationId": "S28_Torso02_01"
-      },
-      "S28_Head011_01": {
-        "Category": "ECustomizationCategory::SurvivorHead",
-        "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Campers/S28/Models/Heads/S28_Head00_REF.S28_Head00_REF",
-          "SubPathString": ""
-        },
-        "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "ItemBlueprint": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "MaterialsMap": [
-          {
-            "From": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit00/MI_S28Head00.MI_S28Head00",
-              "SubPathString": ""
-            },
-            "To": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Head011_01.MI_S28Head011_01",
-              "SubPathString": ""
-            }
-          }
-        ],
-        "ConditionalMaterialReplacer": {
-          "ItemTag": "None",
-          "ConditionalMaterials": []
-        },
-        "TexturesMap": [],
-        "SkeletalComponentTags": [],
-        "CosmeticOverrideSemanticTags": [],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "08B117F24474BE16E158D2BD3C357ED0",
-          "SourceString": "COLLECTION_S28_011_01_NAME",
-          "LocalizedString": "Night Owl Collection "
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "PrestigeUlockLevel": -1,
-        "PrestigeUnlockDate": "",
-        "EventId": "None",
-        "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [
-          {
-            "AccessoryBlueprint": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Models/Heads/ACC/Blueprints/BP_S28_Hair_ACC011.BP_S28_Hair_ACC011_C",
-              "SubPathString": ""
-            },
-            "SkeletalMesh": {
-              "AssetPathName": "None",
-              "SubPathString": ""
-            },
-            "SocketName": "None",
-            "MaterialsMap": [
-              {
-                "From": {
-                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Hair011.MI_S28Hair011",
-                  "SubPathString": ""
-                },
-                "To": {
-                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Hair011_01.MI_S28Hair011_01",
-                  "SubPathString": ""
-                }
-              },
-              {
-                "From": {
-                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Acc011.MI_S28Acc011",
-                  "SubPathString": ""
-                },
-                "To": {
-                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Acc011_01.MI_S28Acc011_01",
-                  "SubPathString": ""
-                }
-              }
-            ],
-            "ConditionalMaterialReplacer": {
-              "ItemTag": "None",
-              "ConditionalMaterials": []
-            }
-          }
-        ],
-        "UnlockingConditions": [],
-        "IsInStore": true,
-        "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
-        "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
-        "AnimationData": {
-          "MenuAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          },
-          "InGameAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "AssociatedCharacter": 27,
-        "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::VeryRare",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "3C2FB4AD42EBBDF93D97D3B07EE8A4BB",
-            "SourceString": "CUST_S28_Head011_01_NAME",
-            "LocalizedString": "Pink Front Strands"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "B59298D64598AF13E42018AC207F8843",
-            "SourceString": "CUST_S28_Head011_01_DESC",
-            "LocalizedString": "She dyed her hair for a special story with a character with pink hair."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S28/S28_Head011_01.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "InclusionVersion": "6.7.0",
-        "CustomizationId": "S28_Head011_01"
-      },
-      "S28_Torso011_01": {
-        "Category": "ECustomizationCategory::SurvivorTorso",
-        "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Campers/S28/Models/Torsos/S28_Torso011_REF.S28_Torso011_REF",
-          "SubPathString": ""
-        },
-        "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "ItemBlueprint": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "MaterialsMap": [
-          {
-            "From": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Top011.MI_S28Top011",
-              "SubPathString": ""
-            },
-            "To": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Top011_01.MI_S28Top011_01",
-              "SubPathString": ""
-            }
-          },
-          {
-            "From": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Acc011.MI_S28Acc011",
-              "SubPathString": ""
-            },
-            "To": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Acc011_01.MI_S28Acc011_01",
-              "SubPathString": ""
-            }
-          }
-        ],
-        "ConditionalMaterialReplacer": {
-          "ItemTag": "None",
-          "ConditionalMaterials": []
-        },
-        "TexturesMap": [],
-        "SkeletalComponentTags": [],
-        "CosmeticOverrideSemanticTags": [],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "7935135B42E92B78884980BCF150A5F8",
-          "SourceString": "COLLECTION_S28_011_01_NAME",
-          "LocalizedString": "Night Owl Collection "
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "PrestigeUlockLevel": -1,
-        "PrestigeUnlockDate": "",
-        "EventId": "None",
-        "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [],
-        "UnlockingConditions": [],
-        "IsInStore": true,
-        "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
-        "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
-        "AnimationData": {
-          "MenuAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          },
-          "InGameAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "AssociatedCharacter": 27,
-        "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::VeryRare",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "12C8F1E7421423D789B3CDBADC1EAF66",
-            "SourceString": "CUST_S28_Torso011_01_NAME",
-            "LocalizedString": "Fancy Turtleneck"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "D400C2A94AD7FBCC693FF7AFF24E634E",
-            "SourceString": "CUST_S28_Torso011_01_DESC",
-            "LocalizedString": "She cleverly chose to wear a light turtleneck to protect herself from the cool breeze of the late summer night"
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S28/S28_Torso011_01.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "InclusionVersion": "6.7.0",
-        "CustomizationId": "S28_Torso011_01"
-      },
-      "S28_Legs011_01": {
-        "Category": "ECustomizationCategory::SurvivorLegs",
-        "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Campers/S28/Models/Legs/S28_Legs011_REF.S28_Legs011_REF",
-          "SubPathString": ""
-        },
-        "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "ItemBlueprint": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "MaterialsMap": [
-          {
-            "From": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Legs011.MI_S28Legs011",
-              "SubPathString": ""
-            },
-            "To": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Legs011_01.MI_S28Legs011_01",
-              "SubPathString": ""
-            }
-          }
-        ],
-        "ConditionalMaterialReplacer": {
-          "ItemTag": "None",
-          "ConditionalMaterials": []
-        },
-        "TexturesMap": [],
-        "SkeletalComponentTags": [],
-        "CosmeticOverrideSemanticTags": [],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "E0A1B79F4F7B0035B86A7AB3AEF6408B",
-          "SourceString": "COLLECTION_S28_011_01_NAME",
-          "LocalizedString": "Night Owl Collection "
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "PrestigeUlockLevel": -1,
-        "PrestigeUnlockDate": "",
-        "EventId": "None",
-        "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [
-          {
-            "AccessoryBlueprint": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Models/Legs/ACC/Blueprints/BP_S28_Bag_ACC011.BP_S28_Bag_ACC011_C",
-              "SubPathString": ""
-            },
-            "SkeletalMesh": {
-              "AssetPathName": "None",
-              "SubPathString": ""
-            },
-            "SocketName": "None",
-            "MaterialsMap": [
-              {
-                "From": {
-                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Acc011.MI_S28Acc011",
-                  "SubPathString": ""
-                },
-                "To": {
-                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Acc011_01.MI_S28Acc011_01",
-                  "SubPathString": ""
-                }
-              },
-              {
-                "From": {
-                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011/MI_S28Legs011.MI_S28Legs011",
-                  "SubPathString": ""
-                },
-                "To": {
-                  "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit011_01/MI_S28Legs011_01.MI_S28Legs011_01",
-                  "SubPathString": ""
-                }
-              }
-            ],
-            "ConditionalMaterialReplacer": {
-              "ItemTag": "None",
-              "ConditionalMaterials": []
-            }
-          }
-        ],
-        "UnlockingConditions": [],
-        "IsInStore": true,
-        "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
-        "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
-        "AnimationData": {
-          "MenuAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          },
-          "InGameAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "AssociatedCharacter": 27,
-        "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::VeryRare",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "8AB0A7B7433DA69AE83D67865DD00A97",
-            "SourceString": "CUST_S28_Legs011_01_NAME",
-            "LocalizedString": "Handmade Skirt"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "BBFE84BA469CBD3ECBC788B9889FC5AC",
-            "SourceString": "CUST_S28_Legs011_01_DESC",
-            "LocalizedString": "She hand-customized her skirt from an old black pixie skirt by adding her favorite printed fabric."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S28/S28_Legs011_01.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "InclusionVersion": "6.7.0",
-        "CustomizationId": "S28_Legs011_01"
-      },
-      "S28_Head019": {
-        "Category": "ECustomizationCategory::SurvivorHead",
-        "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Campers/S28/Models/Heads/S28_Head00_REF.S28_Head00_REF",
-          "SubPathString": ""
-        },
-        "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "ItemBlueprint": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "MaterialsMap": [
-          {
-            "From": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit00/MI_S28Head00.MI_S28Head00",
-              "SubPathString": ""
-            },
-            "To": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Materials/Outfit019/MI_S28Head019.MI_S28Head019",
-              "SubPathString": ""
-            }
-          }
-        ],
-        "ConditionalMaterialReplacer": {
-          "ItemTag": "None",
-          "ConditionalMaterials": []
-        },
-        "TexturesMap": [],
-        "SkeletalComponentTags": [],
-        "CosmeticOverrideSemanticTags": [],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "E49609B94CB6079AF87214861C98749B",
-          "SourceString": "COLLECTION_S28_019_NAME",
-          "LocalizedString": "Visions Of the Future "
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "PrestigeUlockLevel": -1,
-        "PrestigeUnlockDate": "",
-        "EventId": "None",
-        "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [
-          {
-            "AccessoryBlueprint": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Models/Heads/ACC/Blueprints/BP_S28_Hair_ACC019.BP_S28_Hair_ACC019_C",
-              "SubPathString": ""
-            },
-            "SkeletalMesh": {
-              "AssetPathName": "None",
-              "SubPathString": ""
-            },
-            "SocketName": "None",
-            "MaterialsMap": [],
-            "ConditionalMaterialReplacer": {
-              "ItemTag": "None",
-              "ConditionalMaterials": []
-            }
-          }
-        ],
-        "UnlockingConditions": [],
-        "IsInStore": true,
-        "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
-        "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
-        "AnimationData": {
-          "MenuAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          },
-          "InGameAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "AssociatedCharacter": 27,
-        "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::VeryRare",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "49D442B14ACA283292BD17B176A5453F",
-            "SourceString": "CUST_S28_Head019_NAME",
-            "LocalizedString": "Fire Ombre Hair"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "AB43E5C34529095E04EBBFA75899369E",
-            "SourceString": "CUST_S28_Head019_DESC",
-            "LocalizedString": "She got the same haircut as one of her fictional characters."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S28/S28_Head019.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "InclusionVersion": "7.2.0",
-        "CustomizationId": "S28_Head019"
-      },
-      "S28_Torso019": {
-        "Category": "ECustomizationCategory::SurvivorTorso",
-        "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Campers/S28/Models/Torsos/S28_Torso019_REF.S28_Torso019_REF",
-          "SubPathString": ""
-        },
-        "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "ItemBlueprint": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "MaterialsMap": [],
-        "ConditionalMaterialReplacer": {
-          "ItemTag": "None",
-          "ConditionalMaterials": []
-        },
-        "TexturesMap": [],
-        "SkeletalComponentTags": [
-          "Longcoat"
-        ],
-        "CosmeticOverrideSemanticTags": [],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "94864B254546EA6005AE83B294103EF1",
-          "SourceString": "COLLECTION_S28_019_NAME",
-          "LocalizedString": "Visions Of the Future "
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "PrestigeUlockLevel": -1,
-        "PrestigeUnlockDate": "",
-        "EventId": "None",
-        "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [
-          {
-            "AccessoryBlueprint": {
-              "AssetPathName": "/Game/Characters/Campers/S28/Models/Torsos/ACC/Blueprints/BP_S28_Belt_ACC019.BP_S28_Belt_ACC019_C",
-              "SubPathString": ""
-            },
-            "SkeletalMesh": {
-              "AssetPathName": "None",
-              "SubPathString": ""
-            },
-            "SocketName": "None",
-            "MaterialsMap": [],
-            "ConditionalMaterialReplacer": {
-              "ItemTag": "None",
-              "ConditionalMaterials": []
-            }
-          }
-        ],
-        "UnlockingConditions": [],
-        "IsInStore": true,
-        "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
-        "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
-        "AnimationData": {
-          "MenuAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          },
-          "InGameAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "AssociatedCharacter": 27,
-        "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::VeryRare",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "8048D7D544FC2FEC0BC80E84EF5DC729",
-            "SourceString": "CUST_S28_Torso019_NAME",
-            "LocalizedString": "Well-Detailed Jacket"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "ED08429048F12925CFFA1EA42A0EDC34",
-            "SourceString": "CUST_S28_Torso019_DESC",
-            "LocalizedString": "She was waiting for the right moment to wear this jacket. "
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S28/S28_Torso019.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "InclusionVersion": "7.2.0",
-        "CustomizationId": "S28_Torso019"
-      },
-      "S28_Legs019": {
-        "Category": "ECustomizationCategory::SurvivorLegs",
-        "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Campers/S28/Models/Legs/S28_Legs019_REF.S28_Legs019_REF",
-          "SubPathString": ""
-        },
-        "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "ItemBlueprint": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "MaterialsMap": [],
-        "ConditionalMaterialReplacer": {
-          "ItemTag": "None",
-          "ConditionalMaterials": []
-        },
-        "TexturesMap": [],
-        "SkeletalComponentTags": [],
-        "CosmeticOverrideSemanticTags": [],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "1EA7800E40A0FB791EFE9E905C1583BE",
-          "SourceString": "COLLECTION_S28_019_NAME",
-          "LocalizedString": "Visions Of the Future "
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "PrestigeUlockLevel": -1,
-        "PrestigeUnlockDate": "",
-        "EventId": "None",
-        "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [],
-        "UnlockingConditions": [],
-        "IsInStore": true,
-        "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
-        "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
-        "AnimationData": {
-          "MenuAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          },
-          "InGameAnimationBlueprint": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "AssociatedCharacter": 27,
-        "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::VeryRare",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "AC7F19C1423D5559CB5782BB0DD34007",
-            "SourceString": "CUST_S28_Legs019_NAME",
-            "LocalizedString": "Thigh High Boots"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "C757D20E464E512CEFBFC29E4F4566CA",
-            "SourceString": "CUST_S28_Legs019_DESC",
-            "LocalizedString": "The buckles gave a futuristic rock look she wanted."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S28/S28_Legs019.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "InclusionVersion": "7.2.0",
-        "CustomizationId": "S28_Legs019"
       }
     }
   }

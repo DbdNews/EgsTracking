@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "LevelGen_EventSubstitutionsDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct EventSubstitionData",
+        "ObjectName": "ScriptStruct'EventSubstitionData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -77,6 +78,11 @@
             "_type": "ETileSpawnPointType::InteractableObject"
           }
         ],
+        "_tileSubstitutions": {
+          "_replacements": []
+        },
+        "_outOfWorldTiles": [],
+        "_eventTileSuffix": "",
         "_dependencyElementAdditions": [
           {
             "_object": {
@@ -84,7 +90,14 @@
               "SubPathString": ""
             },
             "_type": "ETileSpawnPointType::Survivor",
-            "_numberToAdd": 0
+            "_numberToAdd": 0,
+            "_elementSpawnConditionsName": {
+              "RowValue": "None"
+            },
+            "_elementTag": {
+              "TagName": "None"
+            },
+            "_allowFallback": false
           }
         ],
         "_gameplayElementAdditions": [

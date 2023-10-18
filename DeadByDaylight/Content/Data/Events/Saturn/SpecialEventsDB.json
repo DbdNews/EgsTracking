@@ -61,8 +61,18 @@
           "Description": {
             "CultureInvariantString": null
           },
+          "AdditionalStoreItemIds": [],
           "AdditionalStoreEventsIds": [],
-          "AdditionalStoreItemIds": []
+          "StoreItemIdPriorityOrdering": [],
+          "UseDetailsTab": false,
+          "DetailsTabData": {
+            "Layout": "EDetailsTabLayout::SingleColumn",
+            "Content": [],
+            "Image": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
         },
         "EventDependency": "ESpecialEventDependency::None",
         "UseMarketDiscount": false,

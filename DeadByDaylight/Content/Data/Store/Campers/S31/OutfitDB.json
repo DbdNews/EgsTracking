@@ -10,623 +10,6 @@
       }
     },
     "Rows": {
-      "S31_outfit_01_CV01": {
-        "ID": "S31_outfit_01_CV01",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "40A780B143AF30E8B89C6CB23747F783",
-            "SourceString": "OUTFIT_S31_01_CV01_NAME",
-            "LocalizedString": "Daring Ensemble"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "2672D13A446175EEB02F5FBD2ACA8871",
-            "SourceString": "OUTFIT_S31_01_CV01_DESC",
-            "LocalizedString": "A comfortable and sharp look for exploring and taping the results. "
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S31/S31_outfit_01_CV01.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "OutfitItems": [
-          "S31_Torso01_CV01",
-          "S31_Legs01_CV01"
-        ],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "0EA258DC42967C2DD1D4C593F2022A74",
-          "SourceString": "COLLECTION_S31_01_CV01_NAME",
-          "LocalizedString": "Haddie Essentials Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "InclusionVersion": "6.0.0",
-        "IsAvailableInAtlantaBuild": false,
-        "CustomizedAudioStateCollection": "None",
-        "_outfitId": "S31_outfit_01_CV01"
-      },
-      "S31_outfit_01_CV02": {
-        "ID": "S31_outfit_01_CV02",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "2F64001D492DDB32183A0B8D06B1BD13",
-            "SourceString": "OUTFIT_S31_01_CV02_NAME",
-            "LocalizedString": "Driven Ensemble"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "C148E9C24CC700D976C5BCA1A47DA0BD",
-            "SourceString": "OUTFIT_S31_01_CV02_DESC",
-            "LocalizedString": "A comfortable and sharp look for exploring and taping the results. "
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S31/S31_outfit_01_CV02.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "OutfitItems": [
-          "S31_Torso01_CV02",
-          "S31_Legs01_CV02"
-        ],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "9B0184924DBC174BE9B0C2A80CDA9A73",
-          "SourceString": "COLLECTION_S31_01_CV02_NAME",
-          "LocalizedString": "Haddie Essentials Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "InclusionVersion": "6.0.0",
-        "IsAvailableInAtlantaBuild": false,
-        "CustomizedAudioStateCollection": "None",
-        "_outfitId": "S31_outfit_01_CV02"
-      },
-      "S31_outfit_01_CV03": {
-        "ID": "S31_outfit_01_CV03",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "B1F86BC944A77252E0A5889BE279640C",
-            "SourceString": "OUTFIT_S31_01_CV03_NAME",
-            "LocalizedString": "Inquisitive Ensemble"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "BA39DF5F41500330D90008B614476B95",
-            "SourceString": "OUTFIT_S31_01_CV03_DESC",
-            "LocalizedString": "A comfortable and sharp look for exploring and taping the results. "
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S31/S31_outfit_01_CV03.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "OutfitItems": [
-          "S31_Torso01_CV03",
-          "S31_Legs01_CV03"
-        ],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "DB3CE881420A7E796601F4A06BE78653",
-          "SourceString": "COLLECTION_S31_01_CV03_NAME",
-          "LocalizedString": "Haddie Essentials Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "InclusionVersion": "6.0.0",
-        "IsAvailableInAtlantaBuild": false,
-        "CustomizedAudioStateCollection": "None",
-        "_outfitId": "S31_outfit_01_CV03"
-      },
-      "S31_outfit_01_CV04": {
-        "ID": "S31_outfit_01_CV04",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "B7D2CB3E40C90680EB757C976AD5C34C",
-            "SourceString": "OUTFIT_S31_01_CV04_NAME",
-            "LocalizedString": "Spirited Ensemble"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "2C9DBB11424781D2BDDF36BCB9DD6950",
-            "SourceString": "OUTFIT_S31_01_CV04_DESC",
-            "LocalizedString": "A comfortable and sharp look for exploring and taping the results."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S31/S31_outfit_01_CV04.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "OutfitItems": [
-          "S31_Torso01_CV04",
-          "S31_Legs01_CV04"
-        ],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "91CC3E474B383A5CCBF34981D4A14CED",
-          "SourceString": "COLLECTION_S31_01_CV04_NAME",
-          "LocalizedString": "Haddie Essentials Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "InclusionVersion": "6.0.0",
-        "IsAvailableInAtlantaBuild": false,
-        "CustomizedAudioStateCollection": "None",
-        "_outfitId": "S31_outfit_01_CV04"
-      },
-      "S31_outfit_01_01": {
-        "ID": "S31_outfit_01_01",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "16E39EE1479831CE6244EB95AA29DDC4",
-            "SourceString": "OUTFIT_S31_01_01_NAME",
-            "LocalizedString": "Rendering Outfit"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "F98255814679314D4350C8A2265C5F21",
-            "SourceString": "OUTFIT_S31_01_01_DESC",
-            "LocalizedString": "Ensemble she wore while spending countless hours into the night editing grainy camera footage."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S31/S31_outfit_01_01.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "OutfitItems": [
-          "S31_Head01_01",
-          "S31_Torso01_01",
-          "S31_Legs01_01"
-        ],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "C7608F594C24D612CA1954A45B1A8E4A",
-          "SourceString": "COLLECTION_S31_01_01_NAME",
-          "LocalizedString": "Content Creator Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "InclusionVersion": "6.0.0",
-        "IsAvailableInAtlantaBuild": false,
-        "CustomizedAudioStateCollection": "None",
-        "_outfitId": "S31_outfit_01_01"
-      },
-      "S31_outfit_01_02": {
-        "ID": "S31_outfit_01_02",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "23B2AA9445502329EED200BE85859A99",
-            "SourceString": "OUTFIT_S31_01_02_NAME",
-            "LocalizedString": "Production Outfit"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "DF242ECB41028102E50D9A87ED38A0A2",
-            "SourceString": "OUTFIT_S31_01_02_DESC",
-            "LocalizedString": "Ensemble she wore while spending countless hours into the night editing grainy camera footage."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S31/S31_outfit_01_02.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "OutfitItems": [
-          "S31_Head01_02",
-          "S31_Torso01_02",
-          "S31_Legs01_02"
-        ],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "8EE01587476818C169EAA49AFB6D16AF",
-          "SourceString": "COLLECTION_S31_01_02_NAME",
-          "LocalizedString": "Content Creator Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "InclusionVersion": "6.0.0",
-        "IsAvailableInAtlantaBuild": false,
-        "CustomizedAudioStateCollection": "None",
-        "_outfitId": "S31_outfit_01_02"
-      },
-      "S31_outfit_01_03": {
-        "ID": "S31_outfit_01_03",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "6C1AEF0F46139A7733D34195504FF423",
-            "SourceString": "OUTFIT_S31_01_03_NAME",
-            "LocalizedString": "Editing Outfit"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "9B34A9E44031AD13D0E40B80BBDBF980",
-            "SourceString": "OUTFIT_S31_01_03_DESC",
-            "LocalizedString": "Ensemble she wore while spending countless hours into the night editing grainy camera footage."
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S31/S31_outfit_01_03.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "OutfitItems": [
-          "S31_Head01_03",
-          "S31_Torso01_03",
-          "S31_Legs01_03"
-        ],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "DF952C364D778C4E7C599EB5EE103DF0",
-          "SourceString": "COLLECTION_S31_01_03_NAME",
-          "LocalizedString": "Content Creator Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "InclusionVersion": "6.0.0",
-        "IsAvailableInAtlantaBuild": false,
-        "CustomizedAudioStateCollection": "None",
-        "_outfitId": "S31_outfit_01_03"
-      },
-      "S31_outfit_02": {
-        "ID": "S31_outfit_02",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "0E070B2A44B39557C87CF69CEDF4B44C",
-            "SourceString": "OUTFIT_S31_02_NAME",
-            "LocalizedString": "Subscriber Q&A Get-Up"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "E05B1E1C4B156B3DF50DCF9412A8788F",
-            "SourceString": "OUTFIT_S31_02_DESC",
-            "LocalizedString": "She liked to get dressed up before going live, to answer questions or talk to press online. "
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S31/S31_outfit_02.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "OutfitItems": [
-          "S31_Head02",
-          "S31_Torso02",
-          "S31_Legs02"
-        ],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "586F6DE64B130E44A9E43298F6DC39D2",
-          "SourceString": "COLLECTION_S31_02_NAME",
-          "LocalizedString": "Reporting Live Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "InclusionVersion": "6.0.0",
-        "IsAvailableInAtlantaBuild": false,
-        "CustomizedAudioStateCollection": "None",
-        "_outfitId": "S31_outfit_02"
-      },
-      "S31_outfit_02_01": {
-        "ID": "S31_outfit_02_01",
-        "UIData": {
-          "DisplayName": {
-            "Namespace": "",
-            "Key": "BE93556D480BDC7D0E7BA2BD15B8F9DF",
-            "SourceString": "OUTFIT_S31_02_01_NAME",
-            "LocalizedString": "Online Interview Get-Up"
-          },
-          "Description": {
-            "Namespace": "",
-            "Key": "5A02B84A43373311C2E2539CAAD0BA72",
-            "SourceString": "OUTFIT_S31_02_01_DESC",
-            "LocalizedString": "She liked to get dressed up before going live, to answer questions or talk to press online. "
-          },
-          "IconFilePathList": [
-            "UI/Icons/Customization/S31/S31_outfit_02_01.png"
-          ],
-          "IconAssetList": [],
-          "CustomTransformation": {
-            "UseCustomTransformation": false,
-            "CustomScale": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "CustomTranslation": {
-              "X": 0.0,
-              "Y": 0.0
-            }
-          },
-          "PlatformsUnlicensedNameOverride": 0,
-          "PlatformsUnlicensedDescriptionOverride": 0,
-          "PlatformsForIconUnlicensedFilePathListOverride": 0,
-          "IconUnlicensedFilePathListOverride": [],
-          "LicenseExpirationOverride": false,
-          "DisplayNameUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "DescriptionUnlicensedOverride": {
-            "CultureInvariantString": null
-          },
-          "AssociatedCharacterIndex": -1
-        },
-        "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
-          "DLCId": "0",
-          "AdditionalDlcIds": [],
-          "CloudInventoryId": -1,
-          "CommunityId": "0"
-        },
-        "OutfitItems": [
-          "S31_Head02_01",
-          "S31_Torso02_01",
-          "S31_Legs02_01"
-        ],
-        "CollectionName": {
-          "Namespace": "",
-          "Key": "07F60562496D0497823E7E9C02DC401E",
-          "SourceString": "COLLECTION_S31_02_01_NAME",
-          "LocalizedString": "Reporting Live Collection"
-        },
-        "CollectionDescription": {
-          "CultureInvariantString": null
-        },
-        "InclusionVersion": "6.0.0",
-        "IsAvailableInAtlantaBuild": false,
-        "CustomizedAudioStateCollection": "None",
-        "_outfitId": "S31_outfit_02_01"
-      },
       "S31_outfit_006": {
         "ID": "S31_outfit_006",
         "UIData": {
@@ -1040,6 +423,692 @@
         "IsAvailableInAtlantaBuild": false,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "S31_outfit_011_01"
+      },
+      "S31_outfit_013": {
+        "ID": "S31_outfit_013",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "B4BC66C34E8E41B9916C79B9007D4889",
+            "SourceString": "OUTFIT_S31_013_NAME",
+            "LocalizedString": "Silent Breach"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "E92B32F24E8152CA27735589470AE184",
+            "SourceString": "OUTFIT_S31_013_DESC",
+            "LocalizedString": "Haddie felt a jolt, a disturbing shriek like nails on a chalkboard that only she could hear."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_013.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Head013",
+          "S31_Torso013",
+          "S31_Legs013"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "33E88F424657F3699ABABABD76C1A0E4",
+          "SourceString": "COLLECTION_S31_013_NAME",
+          "LocalizedString": "The Void Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "7.3.0",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_013"
+      },
+      "S31_outfit_01_01": {
+        "ID": "S31_outfit_01_01",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "16E39EE1479831CE6244EB95AA29DDC4",
+            "SourceString": "OUTFIT_S31_01_01_NAME",
+            "LocalizedString": "Rendering Outfit"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "F98255814679314D4350C8A2265C5F21",
+            "SourceString": "OUTFIT_S31_01_01_DESC",
+            "LocalizedString": "Ensemble she wore while spending countless hours into the night editing grainy camera footage."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_01_01.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Head01_01",
+          "S31_Torso01_01",
+          "S31_Legs01_01"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "C7608F594C24D612CA1954A45B1A8E4A",
+          "SourceString": "COLLECTION_S31_01_01_NAME",
+          "LocalizedString": "Content Creator Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "6.0.0",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_01_01"
+      },
+      "S31_outfit_01_02": {
+        "ID": "S31_outfit_01_02",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "23B2AA9445502329EED200BE85859A99",
+            "SourceString": "OUTFIT_S31_01_02_NAME",
+            "LocalizedString": "Production Outfit"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "DF242ECB41028102E50D9A87ED38A0A2",
+            "SourceString": "OUTFIT_S31_01_02_DESC",
+            "LocalizedString": "Ensemble she wore while spending countless hours into the night editing grainy camera footage."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_01_02.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Head01_02",
+          "S31_Torso01_02",
+          "S31_Legs01_02"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "8EE01587476818C169EAA49AFB6D16AF",
+          "SourceString": "COLLECTION_S31_01_02_NAME",
+          "LocalizedString": "Content Creator Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "6.0.0",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_01_02"
+      },
+      "S31_outfit_01_03": {
+        "ID": "S31_outfit_01_03",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "6C1AEF0F46139A7733D34195504FF423",
+            "SourceString": "OUTFIT_S31_01_03_NAME",
+            "LocalizedString": "Editing Outfit"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "9B34A9E44031AD13D0E40B80BBDBF980",
+            "SourceString": "OUTFIT_S31_01_03_DESC",
+            "LocalizedString": "Ensemble she wore while spending countless hours into the night editing grainy camera footage."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_01_03.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Head01_03",
+          "S31_Torso01_03",
+          "S31_Legs01_03"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "DF952C364D778C4E7C599EB5EE103DF0",
+          "SourceString": "COLLECTION_S31_01_03_NAME",
+          "LocalizedString": "Content Creator Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "6.0.0",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_01_03"
+      },
+      "S31_outfit_01_CV01": {
+        "ID": "S31_outfit_01_CV01",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "40A780B143AF30E8B89C6CB23747F783",
+            "SourceString": "OUTFIT_S31_01_CV01_NAME",
+            "LocalizedString": "Daring Ensemble"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "2672D13A446175EEB02F5FBD2ACA8871",
+            "SourceString": "OUTFIT_S31_01_CV01_DESC",
+            "LocalizedString": "A comfortable and sharp look for exploring and taping the results. "
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_01_CV01.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Torso01_CV01",
+          "S31_Legs01_CV01"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "0EA258DC42967C2DD1D4C593F2022A74",
+          "SourceString": "COLLECTION_S31_01_CV01_NAME",
+          "LocalizedString": "Haddie Essentials Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "6.0.0",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_01_CV01"
+      },
+      "S31_outfit_01_CV02": {
+        "ID": "S31_outfit_01_CV02",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "2F64001D492DDB32183A0B8D06B1BD13",
+            "SourceString": "OUTFIT_S31_01_CV02_NAME",
+            "LocalizedString": "Driven Ensemble"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "C148E9C24CC700D976C5BCA1A47DA0BD",
+            "SourceString": "OUTFIT_S31_01_CV02_DESC",
+            "LocalizedString": "A comfortable and sharp look for exploring and taping the results. "
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_01_CV02.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Torso01_CV02",
+          "S31_Legs01_CV02"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "9B0184924DBC174BE9B0C2A80CDA9A73",
+          "SourceString": "COLLECTION_S31_01_CV02_NAME",
+          "LocalizedString": "Haddie Essentials Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "6.0.0",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_01_CV02"
+      },
+      "S31_outfit_01_CV03": {
+        "ID": "S31_outfit_01_CV03",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "B1F86BC944A77252E0A5889BE279640C",
+            "SourceString": "OUTFIT_S31_01_CV03_NAME",
+            "LocalizedString": "Inquisitive Ensemble"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "BA39DF5F41500330D90008B614476B95",
+            "SourceString": "OUTFIT_S31_01_CV03_DESC",
+            "LocalizedString": "A comfortable and sharp look for exploring and taping the results. "
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_01_CV03.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Torso01_CV03",
+          "S31_Legs01_CV03"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "DB3CE881420A7E796601F4A06BE78653",
+          "SourceString": "COLLECTION_S31_01_CV03_NAME",
+          "LocalizedString": "Haddie Essentials Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "6.0.0",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_01_CV03"
+      },
+      "S31_outfit_01_CV04": {
+        "ID": "S31_outfit_01_CV04",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "B7D2CB3E40C90680EB757C976AD5C34C",
+            "SourceString": "OUTFIT_S31_01_CV04_NAME",
+            "LocalizedString": "Spirited Ensemble"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "2C9DBB11424781D2BDDF36BCB9DD6950",
+            "SourceString": "OUTFIT_S31_01_CV04_DESC",
+            "LocalizedString": "A comfortable and sharp look for exploring and taping the results."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_01_CV04.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Torso01_CV04",
+          "S31_Legs01_CV04"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "91CC3E474B383A5CCBF34981D4A14CED",
+          "SourceString": "COLLECTION_S31_01_CV04_NAME",
+          "LocalizedString": "Haddie Essentials Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "6.0.0",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_01_CV04"
+      },
+      "S31_outfit_02": {
+        "ID": "S31_outfit_02",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "0E070B2A44B39557C87CF69CEDF4B44C",
+            "SourceString": "OUTFIT_S31_02_NAME",
+            "LocalizedString": "Subscriber Q&A Get-Up"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "E05B1E1C4B156B3DF50DCF9412A8788F",
+            "SourceString": "OUTFIT_S31_02_DESC",
+            "LocalizedString": "She liked to get dressed up before going live, to answer questions or talk to press online. "
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_02.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Head02",
+          "S31_Torso02",
+          "S31_Legs02"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "586F6DE64B130E44A9E43298F6DC39D2",
+          "SourceString": "COLLECTION_S31_02_NAME",
+          "LocalizedString": "Reporting Live Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "6.0.0",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_02"
+      },
+      "S31_outfit_02_01": {
+        "ID": "S31_outfit_02_01",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "BE93556D480BDC7D0E7BA2BD15B8F9DF",
+            "SourceString": "OUTFIT_S31_02_01_NAME",
+            "LocalizedString": "Online Interview Get-Up"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "5A02B84A43373311C2E2539CAAD0BA72",
+            "SourceString": "OUTFIT_S31_02_01_DESC",
+            "LocalizedString": "She liked to get dressed up before going live, to answer questions or talk to press online. "
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_02_01.png"
+          ],
+          "IconAssetList": [],
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S31_Head02_01",
+          "S31_Torso02_01",
+          "S31_Legs02_01"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "07F60562496D0497823E7E9C02DC401E",
+          "SourceString": "COLLECTION_S31_02_01_NAME",
+          "LocalizedString": "Reporting Live Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "6.0.0",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_02_01"
       }
     }
   }
