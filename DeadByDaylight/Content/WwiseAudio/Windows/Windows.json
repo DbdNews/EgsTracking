@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\",
-   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\.cache\\Windows\\",
-   "SoundBanksRoot": "Z:\\DeadByDaylight_Saturn_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_XRay_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "270908044",
     "GUID": "{5E8C2553-25BC-4AE1-8D0E-F1B5387E0FF6}",
     "Language": "SFX",
-    "Hash": "4161031364",
+    "Hash": "2506468021",
     "ObjectPath": "\\SoundBanks\\OBJECT\\OBJECT_DECO\\Windows",
     "ShortName": "Windows",
     "Path": "Windows.bnk",
@@ -26,7 +26,7 @@
       "Name": "AudioEvent_ukr_Windows_Slam_Small",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_DECO\\Windows_Ukr\\AudioEvent_ukr_Windows_Slam_Small",
       "GUID": "{8954907B-FA75-4F82-BBC3-71B8D85A6D60}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
       "DurationMin": "0.519004",
       "DurationMax": "1.950979",
@@ -74,7 +74,7 @@
       "Name": "AudioEvent_ukr_Windows_Wind_Play",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_DECO\\Windows_Ukr\\AudioEvent_ukr_Windows_Wind_Play",
       "GUID": "{F6D1D71B-9598-4E00-AF88-B7B838FD11BB}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
       "DurationMin": "45.650002",
       "DurationMax": "45.650002",
@@ -92,27 +92,27 @@
       "Name": "AudioEvent_ukr_Windows_Wind_Stop",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_DECO\\Windows_Ukr\\AudioEvent_ukr_Windows_Wind_Stop",
       "GUID": "{8026919C-713B-4866-B6E0-C10D5E6E7A5F}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "1085748199",
       "Name": "AudioEvent_Windows_Slam_Small",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_DECO\\Windows_Hos\\AudioEvent_Windows_Slam_Small",
       "GUID": "{2A579680-7DCC-4AC3-8C60-55FE678DC919}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "1908233259",
       "Name": "AudioEvent_Windows_Wind_Play",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_DECO\\Windows_Hos\\AudioEvent_Windows_Wind_Play",
       "GUID": "{28E6CCFC-A733-4B5A-B954-7511A9C3EE52}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
@@ -200,10 +200,10 @@
       "Name": "AudioEvent_Windows_Wind_Stop",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_DECO\\Windows_Hos\\AudioEvent_Windows_Wind_Stop",
       "GUID": "{B69E1EB0-B1FC-4DF1-8A49-8DA934BDF1AF}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      }
     ],
     "IncludedMemoryFiles": [

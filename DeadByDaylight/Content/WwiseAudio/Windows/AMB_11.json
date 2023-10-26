@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\",
-   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\.cache\\Windows\\",
-   "SoundBanksRoot": "Z:\\DeadByDaylight_Saturn_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_XRay_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -27,7 +27,7 @@
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T11_Tutorial\\AMB_T11_TILE\\AM_Tile_11_Common_WIP\\AudioEvent_AM_T11_Escape",
       "GUID": "{2331DA91-4B08-42B1-A72E-4E2594549785}",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
+      "DurationMin": "0.",
       "DurationMax": "15.249047",
       "ReferencedStreamedFiles": [
        {
@@ -254,13 +254,13 @@
        {
         "Id": "400794114",
         "Name": "Reverb_2D",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_2D",
         "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
        },
        {
         "Id": "1578973140",
         "Name": "Reverb_OUTDOOR",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
         "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
        }
       ]
@@ -383,13 +383,13 @@
        {
         "Id": "400794114",
         "Name": "Reverb_2D",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_2D",
         "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
        },
        {
         "Id": "1578973140",
         "Name": "Reverb_OUTDOOR",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
         "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
        }
       ]
@@ -400,7 +400,7 @@
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T11_Tutorial\\AMB_T11_TILE\\AM_Tile_11_Common_WIP\\AudioEvent_AM_T11_Forest_High",
       "GUID": "{BD391A05-EBC0-41FE-86E4-CDF717F2EF69}",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
+      "DurationMin": "0.",
       "DurationMax": "11.326944",
       "ExcludedMemoryFiles": [
        {
@@ -452,7 +452,7 @@
        {
         "Id": "1578973140",
         "Name": "Reverb_OUTDOOR",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
         "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
        }
       ]
@@ -463,7 +463,7 @@
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T11_Tutorial\\AMB_T11_TILE\\AM_Tile_11_Common_WIP\\AudioEvent_AM_T11_Forest_Low",
       "GUID": "{AE7CD03E-4D03-40D6-8E7A-588087CB26AD}",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
+      "DurationMin": "0.",
       "DurationMax": "16.592697",
       "ReferencedStreamedFiles": [
        {
@@ -571,7 +571,7 @@
        {
         "Id": "1578973140",
         "Name": "Reverb_OUTDOOR",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
         "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
        }
       ]
@@ -582,7 +582,7 @@
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T11_Tutorial\\AMB_T11_TILE\\AM_Tile_11_Common_WIP\\AudioEvent_AM_T11_Forest_Med",
       "GUID": "{AB890FB4-422D-4985-B41F-4CAD3BB401AE}",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
+      "DurationMin": "0.",
       "DurationMax": "16.592697",
       "ReferencedStreamedFiles": [
        {
@@ -690,7 +690,7 @@
        {
         "Id": "1578973140",
         "Name": "Reverb_OUTDOOR",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
         "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
        }
       ]
@@ -701,7 +701,7 @@
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T11_Tutorial\\AMB_T11_TILE\\AM_Tile_11_Common_WIP\\AudioEvent_AM_T11_Shack",
       "GUID": "{C7B32F3B-ADCC-4960-B9F3-9D84F79E7EA1}",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
+      "DurationMin": "0.",
       "DurationMax": "15.249047",
       "ReferencedStreamedFiles": [
        {
@@ -882,7 +882,7 @@
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T11_Tutorial\\AMB_T11_TILE\\AudioEvent_AM_Tutorial_Yard",
       "GUID": "{9924C4E1-FF3A-4C81-B015-27C30BE1420B}",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
+      "DurationMin": "0.",
       "DurationMax": "16.592697",
       "ReferencedStreamedFiles": [
        {
@@ -1026,7 +1026,7 @@
        {
         "Id": "1578973140",
         "Name": "Reverb_OUTDOOR",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
         "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
        }
       ]
@@ -1036,10 +1036,10 @@
       "Name": "AudioEvent_Rev_Int_11_Tutorial_Shack",
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T11_Tutorial\\AMB_T11_TILE\\AM_Reverb_11_Tutorial\\AudioEvent_Rev_Int_11_Tutorial_Shack",
       "GUID": "{96C33306-183E-41A8-9424-7DF88FE84657}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      }
     ],
     "ReferencedStreamedFiles": [

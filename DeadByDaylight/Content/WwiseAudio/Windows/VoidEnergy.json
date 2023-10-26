@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\",
-   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\.cache\\Windows\\",
-   "SoundBanksRoot": "Z:\\DeadByDaylight_Saturn_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_XRay_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1085620571",
     "GUID": "{2CDCF4AD-6444-43E8-B259-3A607B25123B}",
     "Language": "SFX",
-    "Hash": "1953516379",
+    "Hash": "909992715",
     "ObjectPath": "\\SoundBanks\\OBJECT\\OBJECT_VFX\\VoidEnergy",
     "ShortName": "VoidEnergy",
     "Path": "VoidEnergy.bnk",
@@ -26,11 +26,23 @@
       "Name": "AudioEvent_VoidEnergy_Absorb",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\VoidEnergy\\AudioEvent_VoidEnergy_Absorb",
       "GUID": "{FFE3FE64-9E82-40D7-9F4F-6E0006C04CC6}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "850.",
       "DurationType": "OneShot",
-      "DurationMin": "0.458502",
-      "DurationMax": "0.522137",
+      "DurationMin": "0.917004",
+      "DurationMax": "1.044274",
       "IncludedMemoryFiles": [
+       {
+        "Id": "308230711",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_09.wav",
+        "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_09_7FA8D501.wem"
+       },
+       {
+        "Id": "663446192",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_07.wav",
+        "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_07_7FA8D501.wem"
+       },
        {
         "Id": "706378812",
         "Language": "SFX",
@@ -38,10 +50,40 @@
         "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_04_7FA8D501.wem"
        },
        {
+        "Id": "712671468",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_06.wav",
+        "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_06_7FA8D501.wem"
+       },
+       {
+        "Id": "860666445",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_05.wav",
+        "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_05_7FA8D501.wem"
+       },
+       {
+        "Id": "928607320",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_01.wav",
+        "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_01_7FA8D501.wem"
+       },
+       {
+        "Id": "1033759025",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_02.wav",
+        "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_02_7FA8D501.wem"
+       },
+       {
         "Id": "1060665015",
         "Language": "SFX",
         "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_03.wav",
         "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_03_7FA8D501.wem"
+       },
+       {
+        "Id": "1073167917",
+        "Language": "SFX",
+        "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_08.wav",
+        "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_08_7FA8D501.wem"
        }
       ]
      },
@@ -50,7 +92,7 @@
       "Name": "AudioEvent_VoidEnergy_Deposit",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\VoidEnergy\\AudioEvent_VoidEnergy_Deposit",
       "GUID": "{91DE4350-D28C-473C-949C-23C1BB6C6540}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "850.",
       "DurationType": "OneShot",
       "DurationMin": "4.370833",
       "DurationMax": "5.497334",
@@ -92,17 +134,17 @@
       "Name": "AudioEvent_VoidEnergy_Deposit_Stop",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\VoidEnergy\\AudioEvent_VoidEnergy_Deposit_Stop",
       "GUID": "{73C81115-6A54-4F15-ACCE-2D4D86035460}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "1464320589",
       "Name": "AudioEvent_VoidEnergy_Emerging",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\VoidEnergy\\AudioEvent_VoidEnergy_Emerging",
       "GUID": "{F994A821-7DB8-4C62-A0F7-2100234553B2}",
-      "MaxAttenuation": "850.000000",
+      "MaxAttenuation": "850.",
       "DurationType": "OneShot",
       "DurationMin": "2.529749",
       "DurationMax": "2.948265",
@@ -144,7 +186,7 @@
       "Name": "AudioEvent_VoidEnergy_Emerging_Generator",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\VoidEnergy\\AudioEvent_VoidEnergy_Emerging_Generator",
       "GUID": "{7900795F-F40D-4F37-B8A6-135B5C66DEDB}",
-      "MaxAttenuation": "850.000000",
+      "MaxAttenuation": "850.",
       "DurationType": "OneShot",
       "DurationMin": "2.529749",
       "DurationMax": "2.948265",
@@ -186,7 +228,7 @@
       "Name": "AudioEvent_VoidEnergy_Emerging_Hook",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\VoidEnergy\\AudioEvent_VoidEnergy_Emerging_Hook",
       "GUID": "{BBAC162E-635D-46F8-BDAE-98679065FB97}",
-      "MaxAttenuation": "850.000000",
+      "MaxAttenuation": "850.",
       "DurationType": "OneShot",
       "DurationMin": "2.529749",
       "DurationMax": "2.948265",
@@ -228,7 +270,7 @@
       "Name": "AudioEvent_VoidEnergy_Lose",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_VFX\\VoidEnergy\\AudioEvent_VoidEnergy_Lose",
       "GUID": "{5D5D9C7E-464C-4127-A9D2-40D97DF930A8}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "850.",
       "DurationType": "OneShot",
       "DurationMin": "2.647868",
       "DurationMax": "3.148864",
@@ -262,6 +304,12 @@
       "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_deposit_02_7FA8D501.wem"
      },
      {
+      "Id": "308230711",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_09.wav",
+      "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_09_7FA8D501.wem"
+     },
+     {
       "Id": "364428433",
       "Language": "SFX",
       "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_deposit_03.wav",
@@ -280,6 +328,12 @@
       "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_deposit_04_7FA8D501.wem"
      },
      {
+      "Id": "663446192",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_07.wav",
+      "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_07_7FA8D501.wem"
+     },
+     {
       "Id": "690612405",
       "Language": "SFX",
       "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_deposit_05.wav",
@@ -290,6 +344,12 @@
       "Language": "SFX",
       "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_04.wav",
       "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_04_7FA8D501.wem"
+     },
+     {
+      "Id": "712671468",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_06.wav",
+      "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_06_7FA8D501.wem"
      },
      {
       "Id": "799578875",
@@ -304,10 +364,22 @@
       "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_emerging_02_7FA8D501.wem"
      },
      {
+      "Id": "860666445",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_05.wav",
+      "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_05_7FA8D501.wem"
+     },
+     {
       "Id": "878743933",
       "Language": "SFX",
       "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_emerging_04.wav",
       "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_emerging_04_7FA8D501.wem"
+     },
+     {
+      "Id": "928607320",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_01.wav",
+      "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_01_7FA8D501.wem"
      },
      {
       "Id": "951854437",
@@ -322,6 +394,12 @@
       "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_emerging_05_7FA8D501.wem"
      },
      {
+      "Id": "1033759025",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_02.wav",
+      "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_02_7FA8D501.wem"
+     },
+     {
       "Id": "1037011092",
       "Language": "SFX",
       "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_emerging_01.wav",
@@ -332,6 +410,12 @@
       "Language": "SFX",
       "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_03.wav",
       "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_03_7FA8D501.wem"
+     },
+     {
+      "Id": "1073167917",
+      "Language": "SFX",
+      "ShortName": "Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_08.wav",
+      "Path": "SFX\\Object\\Obj_VFX\\VoidEnergy\\sfx_voidenergy_absorb_08_7FA8D501.wem"
      }
     ]
    }

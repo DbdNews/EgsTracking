@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\",
-   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\.cache\\Windows\\",
-   "SoundBanksRoot": "Z:\\DeadByDaylight_Saturn_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_XRay_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "3103425443",
     "GUID": "{E22B9183-DCDE-4A1C-B850-7164CED0299D}",
     "Language": "SFX",
-    "Hash": "4045194343",
+    "Hash": "1246533916",
     "ObjectPath": "\\SoundBanks\\OBJECT\\OBJECT_KILLER\\RBTRemover",
     "ShortName": "RBTRemover",
     "Path": "RBTRemover.bnk",
@@ -43,7 +43,7 @@
       "Name": "AudioEvent_RBT_Remover_Blood",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_KILLER\\K11_RBTRemover\\AudioEvent_RBT_Remover_Blood",
       "GUID": "{E1E344A5-D4B7-4EE3-A874-55EE1CFAAEB1}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
       "DurationMin": "0.665854",
       "DurationMax": "1.148729",
@@ -115,7 +115,7 @@
       "Name": "AudioEvent_RBT_Remover_Loop",
       "ObjectPath": "\\Events\\OBJECT\\OBJ_KILLER\\K11_RBTRemover\\AudioEvent_RBT_Remover_Loop",
       "GUID": "{CF8670F6-C3AF-448A-8153-DD7070514885}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

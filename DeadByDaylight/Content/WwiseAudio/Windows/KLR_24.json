@@ -5,28 +5,244 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\",
-   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\.cache\\Windows\\",
-   "SoundBanksRoot": "Z:\\DeadByDaylight_Saturn_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_XRay_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1457560511",
     "GUID": "{11006D46-13C9-40AE-AFCB-E208D6BCBC59}",
     "Language": "SFX",
-    "Hash": "1843533294",
+    "Hash": "170088327",
     "ObjectPath": "\\SoundBanks\\CHARACTER\\KILLER\\KLR_24",
     "ShortName": "KLR_24",
     "Path": "KLR_24.bnk",
     "IncludedEvents": [
      {
+      "Id": "1276031299",
+      "Name": "AudioEvent_K24_CLOTH_Custom_Outfit007_Land",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_CLOTH\\AudioEvent_K24_CLOTH_Custom_Outfit007_Land",
+      "GUID": "{BD0F88FC-D9C8-4299-AF1A-F6C52BFA73EF}",
+      "MaxAttenuation": "1900.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.751333",
+      "DurationMax": "1.325333",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "258449271",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_04.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_04_7FA8D501.wem"
+       },
+       {
+        "Id": "350382445",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_02.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_02_7FA8D501.wem"
+       },
+       {
+        "Id": "726838949",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_03.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_03_7FA8D501.wem"
+       },
+       {
+        "Id": "870276621",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_05.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_05_7FA8D501.wem"
+       },
+       {
+        "Id": "874513428",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_06.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_06_7FA8D501.wem"
+       },
+       {
+        "Id": "925249326",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_07.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_07_7FA8D501.wem"
+       },
+       {
+        "Id": "948393172",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_01.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_01_7FA8D501.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2668170179",
+      "Name": "AudioEvent_K24_CLOTH_Custom_Outfit007_Move",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_CLOTH\\AudioEvent_K24_CLOTH_Custom_Outfit007_Move",
+      "GUID": "{5C5D89A2-B703-4BFF-A206-01F6E0139A55}",
+      "MaxAttenuation": "1900.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.989333",
+      "DurationMax": "1.689333",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "248104864",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_01.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_01_7FA8D501.wem"
+       },
+       {
+        "Id": "380313326",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_04.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_04_7FA8D501.wem"
+       },
+       {
+        "Id": "660825233",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_03.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_03_7FA8D501.wem"
+       },
+       {
+        "Id": "685593019",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_02.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_02_7FA8D501.wem"
+       },
+       {
+        "Id": "704145081",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_05.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_05_7FA8D501.wem"
+       },
+       {
+        "Id": "892767721",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_06.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_06_7FA8D501.wem"
+       },
+       {
+        "Id": "945364214",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_07.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_move_07_7FA8D501.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3022782399",
+      "Name": "AudioEvent_K24_CLOTH_Custom_Outfit007_ShuffleHigh",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_CLOTH\\AudioEvent_K24_CLOTH_Custom_Outfit007_ShuffleHigh",
+      "GUID": "{BE64E1A7-EA97-40A5-856C-D7111116973C}",
+      "MaxAttenuation": "1900.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.905333",
+      "DurationMax": "1.512",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "345147528",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_04.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_04_7FA8D501.wem"
+       },
+       {
+        "Id": "672352199",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_06.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_06_7FA8D501.wem"
+       },
+       {
+        "Id": "834015259",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_05.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_05_7FA8D501.wem"
+       },
+       {
+        "Id": "895404472",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_03.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_03_7FA8D501.wem"
+       },
+       {
+        "Id": "988939173",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_01.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_01_7FA8D501.wem"
+       },
+       {
+        "Id": "1072060280",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_02.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_02_7FA8D501.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1251122859",
+      "Name": "AudioEvent_K24_CLOTH_Custom_Outfit007_ShuffleLow",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_CLOTH\\AudioEvent_K24_CLOTH_Custom_Outfit007_ShuffleLow",
+      "GUID": "{171DDFF3-34AA-4FE1-B6F0-33BB8DF8CD3F}",
+      "MaxAttenuation": "1900.",
+      "DurationType": "OneShot",
+      "DurationMin": "1.036",
+      "DurationMax": "1.418667",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "16611987",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_04.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_04_7FA8D501.wem"
+       },
+       {
+        "Id": "91311182",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_05.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_05_7FA8D501.wem"
+       },
+       {
+        "Id": "286096126",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_01.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_01_7FA8D501.wem"
+       },
+       {
+        "Id": "386443995",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_06.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_06_7FA8D501.wem"
+       },
+       {
+        "Id": "494110554",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_03.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_03_7FA8D501.wem"
+       },
+       {
+        "Id": "687637335",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_07.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_07_7FA8D501.wem"
+       },
+       {
+        "Id": "1022650342",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_02.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_02_7FA8D501.wem"
+       },
+       {
+        "Id": "1024560028",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_08.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_low_08_7FA8D501.wem"
+       }
+      ]
+     },
+     {
       "Id": "2541501744",
       "Name": "AudioEvent_K24_CLOTH_Default_Land",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_CLOTH\\AudioEvent_K24_CLOTH_Default_Land",
       "GUID": "{13838777-7979-46C8-8775-E46D7AB91F08}",
-      "MaxAttenuation": "1900.000000",
+      "MaxAttenuation": "1900.",
       "DurationType": "OneShot",
       "DurationMin": "0.751333",
       "DurationMax": "1.325333",
@@ -80,7 +296,7 @@
       "Name": "AudioEvent_K24_CLOTH_Default_Move",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_CLOTH\\AudioEvent_K24_CLOTH_Default_Move",
       "GUID": "{FA7602C2-2C93-453C-84E0-5E0D74865BA6}",
-      "MaxAttenuation": "1900.000000",
+      "MaxAttenuation": "1900.",
       "DurationType": "OneShot",
       "DurationMin": "0.989333",
       "DurationMax": "1.689333",
@@ -134,10 +350,10 @@
       "Name": "AudioEvent_K24_CLOTH_Default_ShuffleHigh",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_CLOTH\\AudioEvent_K24_CLOTH_Default_ShuffleHigh",
       "GUID": "{1D6882A6-39B7-4EAA-969D-DCD34C317D8C}",
-      "MaxAttenuation": "1900.000000",
+      "MaxAttenuation": "1900.",
       "DurationType": "OneShot",
       "DurationMin": "0.905333",
-      "DurationMax": "1.512000",
+      "DurationMax": "1.512",
       "ExcludedMemoryFiles": [
        {
         "Id": "345147528",
@@ -182,9 +398,9 @@
       "Name": "AudioEvent_K24_CLOTH_Default_ShuffleLow",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_CLOTH\\AudioEvent_K24_CLOTH_Default_ShuffleLow",
       "GUID": "{16F4AB5D-E423-48EE-BCD0-262E9C3AA7EA}",
-      "MaxAttenuation": "1900.000000",
+      "MaxAttenuation": "1900.",
       "DurationType": "OneShot",
-      "DurationMin": "1.036000",
+      "DurationMin": "1.036",
       "DurationMax": "1.418667",
       "ExcludedMemoryFiles": [
        {
@@ -242,17 +458,123 @@
       "Name": "AudioEvent_K24_Eclipse_Status_Start",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_START\\AudioEvent_K24_Eclipse_Status_Start",
       "GUID": "{BBAB54E1-9E48-4294-9520-9A7C43D0EB2E}",
-      "MaxAttenuation": "0.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "MaxAttenuation": "1900.",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "21606652",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_04.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_04_7FA8D501.wem"
+       },
+       {
+        "Id": "149231199",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_03.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_03_7FA8D501.wem"
+       },
+       {
+        "Id": "405965477",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_05.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_05_7FA8D501.wem"
+       },
+       {
+        "Id": "549216675",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_02.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_02_7FA8D501.wem"
+       },
+       {
+        "Id": "570426697",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_01.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_01_7FA8D501.wem"
+       },
+       {
+        "Id": "679338087",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_10.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_10_7FA8D501.wem"
+       },
+       {
+        "Id": "821486480",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_09.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_09_7FA8D501.wem"
+       },
+       {
+        "Id": "821991522",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_07.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_07_7FA8D501.wem"
+       },
+       {
+        "Id": "935186180",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_06.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_06_7FA8D501.wem"
+       },
+       {
+        "Id": "948749917",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_08.wav",
+        "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_08_7FA8D501.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{646E4E2D-8DAE-44D2-9DF5-9BC7E2283663}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{EA7025E0-DE5F-4C72-BFA5-C413C396FB43}",
+        "Media": [
+         {
+          "Id": "21606652"
+         },
+         {
+          "Id": "149231199"
+         },
+         {
+          "Id": "405965477"
+         },
+         {
+          "Id": "549216675"
+         },
+         {
+          "Id": "570426697"
+         },
+         {
+          "Id": "679338087"
+         },
+         {
+          "Id": "821486480"
+         },
+         {
+          "Id": "821991522"
+         },
+         {
+          "Id": "935186180"
+         },
+         {
+          "Id": "948749917"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
      },
      {
       "Id": "3880612791",
       "Name": "AudioEvent_K24_GRUNT_Attack",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Attack",
       "GUID": "{3EF20724-6107-421F-8965-E6177F43AF15}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
       "DurationMin": "0.957333",
       "DurationMax": "1.642667",
@@ -318,10 +640,10 @@
       "Name": "AudioEvent_K24_GRUNT_Disinterest",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Disinterest",
       "GUID": "{4952DE3A-E3A6-4811-9998-9AC1AFDD83E7}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
       "DurationMin": "1.166667",
-      "DurationMax": "2.500000",
+      "DurationMax": "2.5",
       "ExcludedMemoryFiles": [
        {
         "Id": "384757715",
@@ -366,9 +688,9 @@
       "Name": "AudioEvent_K24_GRUNT_Grab",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Grab",
       "GUID": "{CA82FD30-3953-4F74-91E3-C87A59D3F7A0}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
-      "DurationMin": "3.592000",
+      "DurationMin": "3.592",
       "DurationMax": "4.833333",
       "ExcludedMemoryFiles": [
        {
@@ -420,9 +742,9 @@
       "Name": "AudioEvent_K24_GRUNT_Hooked",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Hooked",
       "GUID": "{A45E6F13-2335-4E6C-BEB5-588C31F37C5A}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
-      "DurationMin": "2.600000",
+      "DurationMin": "2.6",
       "DurationMax": "3.633333",
       "ExcludedMemoryFiles": [
        {
@@ -468,7 +790,7 @@
       "Name": "AudioEvent_K24_GRUNT_Mori_01_Power",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Mori_01_Power",
       "GUID": "{9E328A8E-BB02-4608-99BE-00DA03F549D9}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
       "DurationMin": "2.383333",
       "DurationMax": "2.383333",
@@ -486,10 +808,10 @@
       "Name": "AudioEvent_K24_GRUNT_Mori_02_Attack",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Mori_02_Attack",
       "GUID": "{20722A9D-F16F-4168-B6C0-FC20A7E76355}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
-      "DurationMin": "1.650000",
-      "DurationMax": "1.650000",
+      "DurationMin": "1.65",
+      "DurationMax": "1.65",
       "ExcludedMemoryFiles": [
        {
         "Id": "522013133",
@@ -504,7 +826,7 @@
       "Name": "AudioEvent_K24_GRUNT_Mori_03_Stomp",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Mori_03_Stomp",
       "GUID": "{2C292646-C717-4245-B494-3A65261DECF9}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
       "DurationMin": "4.238854",
       "DurationMax": "4.238854",
@@ -522,7 +844,7 @@
       "Name": "AudioEvent_K24_GRUNT_PWR_CooldownEnd_Arm",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_PWR_CooldownEnd_Arm",
       "GUID": "{E4493972-4152-4809-A60F-B57C9EDE29D9}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
       "DurationMin": "0.660445",
       "DurationMax": "0.935993",
@@ -564,7 +886,7 @@
       "Name": "AudioEvent_K24_GRUNT_PWR_CooldownEnd_Hit",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_PWR_CooldownEnd_Hit",
       "GUID": "{089E9E92-57BF-4BE4-93C8-C4A76E4630B5}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
       "DurationMin": "0.965333",
       "DurationMax": "1.674667",
@@ -624,9 +946,9 @@
       "Name": "AudioEvent_K24_GRUNT_PWR_CooldownEnd_Miss",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_PWR_CooldownEnd_Miss",
       "GUID": "{DFD7813E-C6F3-4868-BE17-32A18722B5C1}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
-      "DurationMin": "1.176000",
+      "DurationMin": "1.176",
       "DurationMax": "1.482667",
       "ExcludedMemoryFiles": [
        {
@@ -696,9 +1018,9 @@
       "Name": "AudioEvent_K24_GRUNT_Stars",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Stars",
       "GUID": "{4BBE0516-105D-4A43-BF02-A666CF7F3B97}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
-      "DurationMin": "1.800000",
+      "DurationMin": "1.8",
       "DurationMax": "2.159646",
       "ExcludedMemoryFiles": [
        {
@@ -726,9 +1048,9 @@
       "Name": "AudioEvent_K24_GRUNT_Stunned",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Stunned",
       "GUID": "{4018F992-2245-4045-97D0-D4F78ED315EC}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
-      "DurationMin": "1.880000",
+      "DurationMin": "1.88",
       "DurationMax": "2.342667",
       "ExcludedMemoryFiles": [
        {
@@ -786,7 +1108,7 @@
       "Name": "AudioEvent_K24_GRUNT_Wipe",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Wipe",
       "GUID": "{80970F89-66DF-491E-A199-3BC161E62AAC}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
       "DurationMin": "1.833333",
       "DurationMax": "2.333333",
@@ -834,7 +1156,7 @@
       "Name": "AudioEvent_K24_GRUNT_Wipe_Clench",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Wipe_Clench",
       "GUID": "{67E674C1-5C55-4066-8AA1-05FAC76BD827}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
       "DurationMin": "1.833333",
       "DurationMax": "2.333333",
@@ -882,7 +1204,7 @@
       "Name": "AudioEvent_K24_GRUNT_Wipe_Roar",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_GRUNTS\\AudioEvent_K24_GRUNT_Wipe_Roar",
       "GUID": "{5CB5EF27-C2A0-4045-B7A6-D0FE7D6B6620}",
-      "MaxAttenuation": "2200.000000",
+      "MaxAttenuation": "2200.",
       "DurationType": "OneShot",
       "DurationMin": "1.516667",
       "DurationMax": "2.633333",
@@ -918,7 +1240,7 @@
       "Name": "AudioEvent_K24_Mori_Body_Impact",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_MORI\\AudioEvent_K24_Mori_Body_Impact",
       "GUID": "{255EA0CB-CE2D-4B6F-A872-6F977D00AB97}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "1.012063",
       "DurationMax": "1.012063",
@@ -936,7 +1258,7 @@
       "Name": "AudioEvent_K24_Mori_Head_Smash",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_MORI\\AudioEvent_K24_Mori_Head_Smash",
       "GUID": "{57A2DFCC-198F-47B7-87BF-0FD5670CEAC2}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "3.201667",
       "DurationMax": "3.201667",
@@ -954,10 +1276,10 @@
       "Name": "AudioEvent_K24_Mori_Whip_01_Grab",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_MORI\\AudioEvent_K24_Mori_Whip_01_Grab",
       "GUID": "{7C5C55A8-B482-41E2-91C0-81B1619EF2F9}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
-      "DurationMin": "3.048750",
-      "DurationMax": "3.048750",
+      "DurationMin": "3.04875",
+      "DurationMax": "3.04875",
       "ExcludedMemoryFiles": [
        {
         "Id": "657955620",
@@ -972,7 +1294,7 @@
       "Name": "AudioEvent_K24_Mori_Whip_02_Lift",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_MORI\\AudioEvent_K24_Mori_Whip_02_Lift",
       "GUID": "{4DE3F71B-A8A6-4DFA-9E0B-8DB0A2B592BA}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "2.307292",
       "DurationMax": "2.307292",
@@ -990,7 +1312,7 @@
       "Name": "AudioEvent_K24_Mori_Whip_ImpactLayer",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_MORI\\AudioEvent_K24_Mori_Whip_ImpactLayer",
       "GUID": "{4919A2E5-72F6-4E54-A587-1D6A9AF9C23D}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "0.734062",
       "DurationMax": "0.734062",
@@ -1031,7 +1353,7 @@
       "Name": "AudioEvent_K24_OBJECT_Serum_Drop",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_OBJECT\\AudioEvent_K24_OBJECT_Serum_Drop",
       "GUID": "{76646ACE-D6B4-4C57-BAB9-35980FBAB9F6}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
       "DurationMin": "0.373302",
       "DurationMax": "0.683243",
@@ -1067,7 +1389,7 @@
       "Name": "AudioEvent_K24_OBJECT_Serum_Grab",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_OBJECT\\AudioEvent_K24_OBJECT_Serum_Grab",
       "GUID": "{FA2FD292-45F0-4741-9AE9-86630900AFF2}",
-      "MaxAttenuation": "1900.000000",
+      "MaxAttenuation": "1900.",
       "DurationType": "OneShot",
       "DurationMin": "0.406282",
       "DurationMax": "0.565474",
@@ -1115,7 +1437,7 @@
       "Name": "AudioEvent_K24_PWR_Contaminated",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Contaminated",
       "GUID": "{C05BCC1F-327A-41A1-A13F-2A83AE27E8ED}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "0.990333",
       "DurationMax": "0.990333",
@@ -1133,7 +1455,7 @@
       "Name": "AudioEvent_K24_PWR_Contaminated_Stinger",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Contaminated_Stinger",
       "GUID": "{E76A17D1-C815-4CE7-B6C3-4A92F3A87516}",
-      "MaxAttenuation": "3000.000000",
+      "MaxAttenuation": "3000.",
       "DurationType": "OneShot",
       "DurationMin": "3.711827",
       "DurationMax": "3.711827",
@@ -1166,19 +1488,19 @@
       "Name": "AudioEvent_K24_PWR_Contaminated_Survivor_Stop",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Contaminated_Survivor_Stop",
       "GUID": "{015364A7-0EA3-47EC-8700-640C0A5B96D6}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "2303699205",
       "Name": "AudioEvent_K24_PWR_Damage_Generator",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Damage_Generator",
       "GUID": "{2C9571A8-51AD-4675-98E3-29D5978D5307}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
-      "DurationMin": "1.896100",
+      "DurationMin": "1.8961",
       "DurationMax": "2.362944",
       "ExcludedMemoryFiles": [
        {
@@ -1234,7 +1556,7 @@
       "Name": "AudioEvent_K24_PWR_Whip_Arm",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Whip_Arm",
       "GUID": "{9B6C1439-B468-4A95-838C-E77651FF8433}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "1.426667",
       "DurationMax": "2.266667",
@@ -1270,7 +1592,7 @@
       "Name": "AudioEvent_K24_PWR_Whip_Arm_Cooldown",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Whip_Arm_Cooldown",
       "GUID": "{D87C5704-9D2F-4B23-8327-100F6D790B15}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "1.166667",
       "DurationMax": "1.661333",
@@ -1312,10 +1634,10 @@
       "Name": "AudioEvent_K24_PWR_Whip_Attack",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Whip_Attack",
       "GUID": "{D2606F23-A40E-48BA-BAC6-911C5719853D}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "1.830521",
-      "DurationMax": "2.627500",
+      "DurationMax": "2.6275",
       "ExcludedMemoryFiles": [
        {
         "Id": "376575377",
@@ -1352,7 +1674,7 @@
        {
         "Id": "338496385",
         "Name": "HAPTIC_KLR_POWER_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\HAPTIC\\HAPTIC_KILLER\\HAPTIC_KLR_POWER\\HAPTIC_KLR_POWER_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\HAPTIC\\HAPTIC\\HAPTIC_KILLER\\HAPTIC_KLR_POWER\\HAPTIC_KLR_POWER_AUX",
         "GUID": "{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"
        }
       ]
@@ -1362,7 +1684,7 @@
       "Name": "AudioEvent_K24_PWR_Whip_Attack_Cooldown_Lvl1",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Whip_Attack_Cooldown_Lvl1",
       "GUID": "{88CEF5F8-4488-419A-B345-086A9180E95F}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "2.941875",
       "DurationMax": "3.496667",
@@ -1422,9 +1744,9 @@
       "Name": "AudioEvent_K24_PWR_Whip_Attack_Cooldown_Lvl2",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Whip_Attack_Cooldown_Lvl2",
       "GUID": "{BC663116-A8E4-47E9-BCEB-302CB92B140A}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
-      "DurationMin": "2.400000",
+      "DurationMin": "2.4",
       "DurationMax": "2.962167",
       "ExcludedMemoryFiles": [
        {
@@ -1494,10 +1816,10 @@
       "Name": "AudioEvent_K24_PWR_Whip_Attack_Cooldown_Lvl3",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Whip_Attack_Cooldown_Lvl3",
       "GUID": "{7C61D2C2-5E2E-4071-8657-4CE4B55EDAD8}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "1.021333",
-      "DurationMax": "1.220000",
+      "DurationMax": "1.22",
       "ExcludedMemoryFiles": [
        {
         "Id": "150833164",
@@ -1566,9 +1888,9 @@
       "Name": "AudioEvent_K24_PWR_Whip_Cooldown_Grab",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Whip_Cooldown_Grab",
       "GUID": "{9D829A2E-1933-42A0-A253-1E8FE9308428}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
-      "DurationMin": "0.690000",
+      "DurationMin": "0.69",
       "DurationMax": "0.729333",
       "ExcludedMemoryFiles": [
        {
@@ -1596,7 +1918,7 @@
       "Name": "AudioEvent_K24_PWR_Whip_Idle",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Whip_Idle",
       "GUID": "{4C78FF93-0BC9-43E7-85F7-9E29CDFCE52A}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "2.933333",
       "DurationMax": "4.270667",
@@ -1638,7 +1960,7 @@
       "Name": "AudioEvent_K24_PWR_Whip_Impact",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Whip_Impact",
       "GUID": "{D9560E6C-E86D-43BE-A87D-013FFFC80813}",
-      "MaxAttenuation": "2400.000000",
+      "MaxAttenuation": "2400.",
       "DurationType": "OneShot",
       "DurationMin": "0.997208",
       "DurationMax": "1.574312",
@@ -1684,7 +2006,7 @@
        {
         "Id": "338496385",
         "Name": "HAPTIC_KLR_POWER_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\HAPTIC\\HAPTIC_KILLER\\HAPTIC_KLR_POWER\\HAPTIC_KLR_POWER_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\HAPTIC\\HAPTIC\\HAPTIC_KILLER\\HAPTIC_KLR_POWER\\HAPTIC_KLR_POWER_AUX",
         "GUID": "{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"
        }
       ]
@@ -1694,9 +2016,9 @@
       "Name": "AudioEvent_K24_PWR_Whip_Impact_Survivor",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_POWER\\AudioEvent_K24_PWR_Whip_Impact_Survivor",
       "GUID": "{D8A30E84-A21E-4C48-8CF8-07DCE11F921B}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
-      "DurationMin": "0.384000",
+      "DurationMin": "0.384",
       "DurationMax": "1.386667",
       "ExcludedMemoryFiles": [
        {
@@ -1789,10 +2111,10 @@
       "Name": "AudioEvent_K24_STATUS_Breath_In",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_START\\AudioEvent_K24_STATUS_Breath_In",
       "GUID": "{C83263FB-ADA2-443B-B2FC-4C0E1C438DB3}",
-      "MaxAttenuation": "850.000000",
+      "MaxAttenuation": "850.",
       "DurationType": "OneShot",
-      "DurationMin": "1.270000",
-      "DurationMax": "1.896250",
+      "DurationMin": "1.27",
+      "DurationMax": "1.89625",
       "ExcludedMemoryFiles": [
        {
         "Id": "30011715",
@@ -1919,7 +2241,7 @@
        {
         "Id": "286574509",
         "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
         "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
        }
       ]
@@ -1929,7 +2251,7 @@
       "Name": "AudioEvent_K24_STATUS_Breath_Out",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_START\\AudioEvent_K24_STATUS_Breath_Out",
       "GUID": "{A882552E-4F62-4993-AEBF-0E4A63EE128D}",
-      "MaxAttenuation": "850.000000",
+      "MaxAttenuation": "850.",
       "DurationType": "OneShot",
       "DurationMin": "1.418062",
       "DurationMax": "2.247083",
@@ -2059,7 +2381,7 @@
        {
         "Id": "286574509",
         "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
         "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
        }
       ]
@@ -2069,7 +2391,7 @@
       "Name": "AudioEvent_K24_WPN_Default_Fist_Arm",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_WEAPON\\AudioEvent_K24_WPN_Default_Fist_Arm",
       "GUID": "{2E42301E-DF28-4925-B66B-6D881BFDAB15}",
-      "MaxAttenuation": "2300.000000",
+      "MaxAttenuation": "2300.",
       "DurationType": "OneShot",
       "DurationMin": "0.560772",
       "DurationMax": "0.906273",
@@ -2111,7 +2433,7 @@
       "Name": "AudioEvent_K24_WPN_Default_Fist_Attack",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_WEAPON\\AudioEvent_K24_WPN_Default_Fist_Attack",
       "GUID": "{5971E7A1-07EC-4F3E-8D18-C66D12F2BE76}",
-      "MaxAttenuation": "2300.000000",
+      "MaxAttenuation": "2300.",
       "DurationType": "OneShot",
       "DurationMin": "0.560772",
       "DurationMax": "0.906273",
@@ -2153,7 +2475,7 @@
       "Name": "AudioEvent_K24_WPN_Default_Fist_Impact",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_WEAPON\\AudioEvent_K24_WPN_Default_Fist_Impact",
       "GUID": "{864250B4-CE42-405E-8643-7165A6331D4F}",
-      "MaxAttenuation": "2300.000000",
+      "MaxAttenuation": "2300.",
       "DurationType": "OneShot",
       "DurationMin": "0.485875",
       "DurationMax": "1.042833",
@@ -2199,7 +2521,7 @@
        {
         "Id": "338496385",
         "Name": "HAPTIC_KLR_POWER_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\HAPTIC\\HAPTIC_KILLER\\HAPTIC_KLR_POWER\\HAPTIC_KLR_POWER_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\HAPTIC\\HAPTIC\\HAPTIC_KILLER\\HAPTIC_KLR_POWER\\HAPTIC_KLR_POWER_AUX",
         "GUID": "{20AF9A2A-9C4A-4484-96BB-DC3CF4D1322B}"
        }
       ]
@@ -2209,7 +2531,7 @@
       "Name": "AudioEvent_K24_WPN_Default_Fist_Impact_Survivor",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K24_Eclipse\\K24_WEAPON\\AudioEvent_K24_WPN_Default_Fist_Impact_Survivor",
       "GUID": "{B9C36599-F9C8-4504-9DAD-7D2FA1A939A9}",
-      "MaxAttenuation": "2300.000000",
+      "MaxAttenuation": "2300.",
       "DurationType": "OneShot",
       "DurationMin": "0.672699",
       "DurationMax": "1.509012",
@@ -2325,6 +2647,12 @@
       "Language": "SFX",
       "ShortName": "Character\\KLR_24\\K24_PWR\\sfx_k24_pwr_whip_arm_cancel_03.wav",
       "Path": "SFX\\Character\\KLR_24\\K24_PWR\\sfx_k24_pwr_whip_arm_cancel_03_7FA8D501.wem"
+     },
+     {
+      "Id": "21606652",
+      "Language": "SFX",
+      "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_04.wav",
+      "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_04_7FA8D501.wem"
      },
      {
       "Id": "30011715",
@@ -2469,6 +2797,12 @@
       "Language": "SFX",
       "ShortName": "Character\\KLR_24\\K24_PWR\\sfx_k24_pwr_contaminated_01.wav",
       "Path": "SFX\\Character\\KLR_24\\K24_PWR\\sfx_k24_pwr_contaminated_01_7FA8D501.wem"
+     },
+     {
+      "Id": "149231199",
+      "Language": "SFX",
+      "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_03.wav",
+      "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_03_7FA8D501.wem"
      },
      {
       "Id": "149380695",
@@ -2831,6 +3165,12 @@
       "Path": "SFX\\Character\\KLR_24\\K24_WPN\\sfx_k24_wpn_impact_06_7FA8D501.wem"
      },
      {
+      "Id": "405965477",
+      "Language": "SFX",
+      "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_05.wav",
+      "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_05_7FA8D501.wem"
+     },
+     {
       "Id": "406857858",
       "Language": "SFX",
       "ShortName": "Character\\KLR_24\\K24_GRUNTS\\K24_GRUNTS\\sfx_k24_grunt_pwr_arm_cooldown_02.wav",
@@ -3029,6 +3369,12 @@
       "Path": "SFX\\Character\\KLR_24\\K24_STATUS\\sfx_k24_status_out_09_42D80115.wem"
      },
      {
+      "Id": "549216675",
+      "Language": "SFX",
+      "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_02.wav",
+      "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_02_7FA8D501.wem"
+     },
+     {
       "Id": "549426289",
       "Language": "SFX",
       "ShortName": "Character\\KLR_24\\K24_PWR\\sfx_k24_pwr_whip_cooldown_grab_02.wav",
@@ -3045,6 +3391,12 @@
       "Language": "SFX",
       "ShortName": "Character\\KLR_24\\K24_STATUS\\sfx_k24_status_in_18.wav",
       "Path": "SFX\\Character\\KLR_24\\K24_STATUS\\sfx_k24_status_in_18_42D80115.wem"
+     },
+     {
+      "Id": "570426697",
+      "Language": "SFX",
+      "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_01.wav",
+      "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_01_7FA8D501.wem"
      },
      {
       "Id": "573935810",
@@ -3177,6 +3529,12 @@
       "Language": "SFX",
       "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_06.wav",
       "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_shuffle_high_06_7FA8D501.wem"
+     },
+     {
+      "Id": "679338087",
+      "Language": "SFX",
+      "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_10.wav",
+      "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_10_7FA8D501.wem"
      },
      {
       "Id": "680177170",
@@ -3371,6 +3729,18 @@
       "Path": "SFX\\Character\\KLR_24\\K24_STATUS\\sfx_k24_status_out_17_42D80115.wem"
      },
      {
+      "Id": "821486480",
+      "Language": "SFX",
+      "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_09.wav",
+      "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_09_7FA8D501.wem"
+     },
+     {
+      "Id": "821991522",
+      "Language": "SFX",
+      "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_07.wav",
+      "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_07_7FA8D501.wem"
+     },
+     {
       "Id": "823518881",
       "Language": "SFX",
       "ShortName": "Character\\KLR_24\\K24_GRUNTS\\K24_GRUNTS\\sfx_k24_grunt_pwr_miss_cooldown_04.wav",
@@ -3563,6 +3933,12 @@
       "Path": "SFX\\Character\\KLR_24\\K24_GRUNTS\\K24_GRUNTS\\sfx_k24_grunt_wpn_attack_09_7FA8D501.wem"
      },
      {
+      "Id": "935186180",
+      "Language": "SFX",
+      "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_06.wav",
+      "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_06_7FA8D501.wem"
+     },
+     {
       "Id": "935885787",
       "Language": "SFX",
       "ShortName": "Character\\KLR_24\\K24_PWR\\sfx_k24_pwr_whip_attack_new_05.wav",
@@ -3615,6 +3991,12 @@
       "Language": "SFX",
       "ShortName": "Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_01.wav",
       "Path": "SFX\\Character\\KLR_24\\K24_FOLEY\\sfx_k24_body_land_01_7FA8D501.wem"
+     },
+     {
+      "Id": "948749917",
+      "Language": "SFX",
+      "ShortName": "Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_08.wav",
+      "Path": "SFX\\Character\\KLR_24\\K24_CUSTO\\vo_k24_outfit007_status_dribble_08_7FA8D501.wem"
      },
      {
       "Id": "952524598",
@@ -3793,6 +4175,12 @@
       "GUID": "{B6828AC2-999F-4949-B403-36860239171B}"
      },
      {
+      "Id": "1453928853",
+      "Name": "AudioRTPC_VOL_Perk_MachineLearning",
+      "ObjectPath": "\\Game Parameters\\RTPC_VOLUME\\AudioRTPC_VOL_Perk_MachineLearning",
+      "GUID": "{D77939DA-7C46-49DE-8E62-0BB9AF203D7C}"
+     },
+     {
       "Id": "2444086592",
       "Name": "AudioRTPC_Proximity_Terror_Radius",
       "ObjectPath": "\\Game Parameters\\RTPC_CHARACTER\\RTPC_K00_COMMON\\AudioRTPC_Proximity_Terror_Radius",
@@ -3877,6 +4265,446 @@
         "Name": "Dead",
         "ObjectPath": "\\Switches\\SWITCH_SURVIVOR\\AudioSwitchStatesSurvivor\\Dead",
         "GUID": "{85C1C061-8B93-4513-BEF2-DAD54CFF9DC0}"
+       }
+      ]
+     },
+     {
+      "Id": "2095043200",
+      "Name": "AudioSwitchKillerClothes",
+      "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes",
+      "GUID": "{60943264-04D0-45BB-8393-3F12D125971D}",
+      "Switches": [
+       {
+        "Id": "1597592862",
+        "Name": "K01_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K01_CLOTH_Default",
+        "GUID": "{646E4E2D-8DAE-44D2-9DF5-9BC7E2283663}"
+       },
+       {
+        "Id": "2506588901",
+        "Name": "K02_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K02_CLOTH_Default",
+        "GUID": "{852645FB-1A4B-4E68-AE7D-B5532A2B9A8C}"
+       },
+       {
+        "Id": "3951992612",
+        "Name": "K03_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K03_CLOTH_Default",
+        "GUID": "{52059F07-AD7C-443A-B7CD-408A2DF72A73}"
+       },
+       {
+        "Id": "3621773395",
+        "Name": "K04_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K04_CLOTH_Default",
+        "GUID": "{FA85B262-676B-4934-9BAA-6EDDFBE2427A}"
+       },
+       {
+        "Id": "282547442",
+        "Name": "K05_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K05_CLOTH_Default",
+        "GUID": "{85432483-B815-406D-A447-040EBFEB8428}"
+       },
+       {
+        "Id": "3595093161",
+        "Name": "K06_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K06_CLOTH_Default",
+        "GUID": "{FD15A244-6CCB-4DFA-AB31-7944F0A7BEEB}"
+       },
+       {
+        "Id": "3343761752",
+        "Name": "K07_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K07_CLOTH_Default",
+        "GUID": "{C7D29F78-C1AA-4C52-8799-B4F037DAC6D0}"
+       },
+       {
+        "Id": "1255168151",
+        "Name": "K08_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K08_CLOTH_Default",
+        "GUID": "{C1E46461-C9DC-499F-91E9-843456F94804}"
+       },
+       {
+        "Id": "1595572390",
+        "Name": "K09_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K09_CLOTH_Default",
+        "GUID": "{51672655-BA07-49BF-A8C8-1691D245695F}"
+       },
+       {
+        "Id": "1563546100",
+        "Name": "K10_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K10_CLOTH_Default",
+        "GUID": "{3E84E6B2-107B-494E-9CBA-A73BCF8B762E}"
+       },
+       {
+        "Id": "3568432309",
+        "Name": "K11_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K11_CLOTH_Default",
+        "GUID": "{86069E24-7D78-4291-83C1-9E89A0280E9F}"
+       },
+       {
+        "Id": "4291052270",
+        "Name": "K12_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K12_CLOTH_Default",
+        "GUID": "{4F5286A8-142B-4E54-8C21-C4C5EC8B7D21}"
+       },
+       {
+        "Id": "2132863809",
+        "Name": "K13_CLOTH_Custom_Bubbles",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K13_CLOTH_Custom_Bubbles",
+        "GUID": "{935A71B5-DF49-416D-A374-DB953A943D5F}"
+       },
+       {
+        "Id": "2458719007",
+        "Name": "K13_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K13_CLOTH_Default",
+        "GUID": "{D076A5EA-63B7-49D7-8790-5C78D0724A03}"
+       },
+       {
+        "Id": "3839687592",
+        "Name": "K14_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K14_CLOTH_Default",
+        "GUID": "{C82A353A-6DB7-40AA-B76D-3AA0374D1BD1}"
+       },
+       {
+        "Id": "2745510905",
+        "Name": "K15_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K15_CLOTH_Default",
+        "GUID": "{E32D5974-A3C3-4B14-BBCA-ACD07AEB6E0A}"
+       },
+       {
+        "Id": "3914468034",
+        "Name": "K16_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K16_CLOTH_Default",
+        "GUID": "{6801144D-89FD-420D-85C6-F5591AE29FA8}"
+       },
+       {
+        "Id": "266073635",
+        "Name": "K17_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K17_CLOTH_Default",
+        "GUID": "{F24CE2AF-85D8-40DC-A7DA-368B26EFE0AD}"
+       },
+       {
+        "Id": "3464499022",
+        "Name": "K18_CLOTH_Custom_Fur",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K18_CLOTH_Custom_Fur",
+        "GUID": "{5743BD22-F8CA-43C2-BACF-06DCA962788F}"
+       },
+       {
+        "Id": "1807990108",
+        "Name": "K18_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K18_CLOTH_Default",
+        "GUID": "{C1511352-06BA-4963-8BED-996B96F27996}"
+       },
+       {
+        "Id": "3300993853",
+        "Name": "K19_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K19_CLOTH_Default",
+        "GUID": "{A94DC4B7-4B96-483E-8CB5-7D7C372735F2}"
+       },
+       {
+        "Id": "1096780817",
+        "Name": "K20_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K20_CLOTH_Default",
+        "GUID": "{C3418A61-9049-46A5-B208-C1A2FB7A7366}"
+       },
+       {
+        "Id": "2548824896",
+        "Name": "K21_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K21_CLOTH_Default",
+        "GUID": "{B4E52013-C09F-40A5-BD9B-F7E7E572D970}"
+       },
+       {
+        "Id": "797234414",
+        "Name": "K22_CLOTH_Custom_FishAndGuts",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K22_CLOTH_Custom_FishAndGuts",
+        "GUID": "{846DE21D-B297-4392-99F2-E088E4F49C71}"
+       },
+       {
+        "Id": "2210551835",
+        "Name": "K22_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K22_CLOTH_Default",
+        "GUID": "{8A657979-01E3-4185-8A68-3A3F7352FAAE}"
+       },
+       {
+        "Id": "2951853188",
+        "Name": "K22_CLOTH_Default_Twin",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K22_CLOTH_Default_Twin",
+        "GUID": "{B537246C-DEFC-4927-9A9D-55AD22980F1B}"
+       },
+       {
+        "Id": "2848922042",
+        "Name": "K23_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K23_CLOTH_Default",
+        "GUID": "{6D2C8DCA-1207-49A7-9248-94E767297DAD}"
+       },
+       {
+        "Id": "850591949",
+        "Name": "K24_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K24_CLOTH_Default",
+        "GUID": "{4811230D-DB0B-42E6-A63A-9E6679B4901C}"
+       },
+       {
+        "Id": "924976172",
+        "Name": "K25_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K25_CLOTH_Default",
+        "GUID": "{5AE5642C-B420-478F-B5E6-701E17CE413E}"
+       },
+       {
+        "Id": "1929999991",
+        "Name": "K26_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K26_CLOTH_Default",
+        "GUID": "{B1ED8674-7C0A-4008-BD2B-9433988D7FB7}"
+       },
+       {
+        "Id": "2346445888",
+        "Name": "K23_CLOTH_Custom_Valentines",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K23_CLOTH_Custom_Valentines",
+        "GUID": "{D5EA5C56-CB06-41B4-9410-BC84CC832F07}"
+       },
+       {
+        "Id": "522129414",
+        "Name": "K27_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K27_CLOTH_Default",
+        "GUID": "{8D5E8A81-E2EE-4497-9351-E5E5041370CC}"
+       },
+       {
+        "Id": "3229799049",
+        "Name": "K28_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K28_CLOTH_Default",
+        "GUID": "{D5F36BA7-38E7-4230-81D8-589ECDFF396B}"
+       },
+       {
+        "Id": "632232018",
+        "Name": "K28_CLOTH_Custom_6thAnniversary",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K28_CLOTH_Custom_6thAnniversary",
+        "GUID": "{ABDB3AB2-164F-409E-BB61-969651379ACC}"
+       },
+       {
+        "Id": "786316536",
+        "Name": "K28_CLOTH_Custom_Dolls",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K28_CLOTH_Custom_Dolls",
+        "GUID": "{4D113732-C992-4942-B38D-E9DC2FEC6A5C}"
+       },
+       {
+        "Id": "2605755275",
+        "Name": "K28_CLOTH_Custom_SkeletonMass",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K28_CLOTH_Custom_SkeletonMass",
+        "GUID": "{79A76B3F-7636-46D9-A973-0115DF295A6E}"
+       },
+       {
+        "Id": "507559864",
+        "Name": "K29_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K29_CLOTH_Default",
+        "GUID": "{5A74A9A3-72DB-413A-9B4A-234E56C38A9C}"
+       },
+       {
+        "Id": "202068782",
+        "Name": "K29_CLOTH_Custom_Stars",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K29_CLOTH_Custom_Stars",
+        "GUID": "{B94B102D-235A-43F4-96E5-2EE40E7081FC}"
+       },
+       {
+        "Id": "3395721558",
+        "Name": "K30_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K30_CLOTH_Default",
+        "GUID": "{10717295-6CE4-4024-A2AB-8E1DD27E6D1E}"
+       },
+       {
+        "Id": "4271573973",
+        "Name": "K30_CLOTH_Default_TheAssassin",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K30_CLOTH_Default_TheAssassin",
+        "GUID": "{824848EA-13DD-4F24-9BB7-A68A58018D92}"
+       },
+       {
+        "Id": "3257950157",
+        "Name": "K30_CLOTH_Default_TheExecutioner",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K30_CLOTH_Default_TheExecutioner",
+        "GUID": "{571A1577-771B-4FD5-8313-19C8B587E1ED}"
+       },
+       {
+        "Id": "1741194691",
+        "Name": "K30_CLOTH_Default_TheJailer",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K30_CLOTH_Default_TheJailer",
+        "GUID": "{7B9F14E5-29D9-450A-A39D-FA7A9FBE6FAE}"
+       },
+       {
+        "Id": "320279088",
+        "Name": "K30_CLOTH_Custom_EnchantedPlates",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K30_CLOTH_Custom_EnchantedPlates",
+        "GUID": "{047E2196-6E44-4A65-B02D-09D934AE1618}"
+       },
+       {
+        "Id": "217115922",
+        "Name": "K23_CLOTH_Custom_Sweets",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K23_CLOTH_Custom_Sweets",
+        "GUID": "{ADCCE966-A19D-4937-A92F-73E9681CCC26}"
+       },
+       {
+        "Id": "3867504989",
+        "Name": "K28_CLOTH_Custom_Frosty",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K28_CLOTH_Custom_Frosty",
+        "GUID": "{3F9AF9FE-2AEA-482C-9B0F-725EED31644F}"
+       },
+       {
+        "Id": "367360899",
+        "Name": "K21_CLOTH_Custom_Outfit12",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K21_CLOTH_Custom_Outfit12",
+        "GUID": "{9CA0D4C0-864B-47FF-A015-52281155E188}"
+       },
+       {
+        "Id": "3650961415",
+        "Name": "K31_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K31_CLOTH_Default",
+        "GUID": "{CB57DC9F-80AC-4FF8-A4A6-1F3298C68457}"
+       },
+       {
+        "Id": "2648649944",
+        "Name": "K28_CLOTH_Custom_Outfit009",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K28_CLOTH_Custom_Outfit009",
+        "GUID": "{C5DDEE66-B2C5-43CB-B598-E386486901F7}"
+       },
+       {
+        "Id": "3426764220",
+        "Name": "K32_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K32_CLOTH_Default",
+        "GUID": "{706C637C-A566-4352-A035-4797EEDF6312}"
+       },
+       {
+        "Id": "3020971308",
+        "Name": "K14_CLOTH_Custom_Outfit020",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K14_CLOTH_Custom_Outfit020",
+        "GUID": "{63647251-0448-4651-9CC8-73065ADC7B57}"
+       },
+       {
+        "Id": "3020971300",
+        "Name": "K14_CLOTH_Custom_Outfit028",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K14_CLOTH_Custom_Outfit028",
+        "GUID": "{3DD9F5DE-AB95-444D-8CED-7DB5BAAB18E5}"
+       },
+       {
+        "Id": "2631872382",
+        "Name": "K28_CLOTH_Custom_Outfit010",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K28_CLOTH_Custom_Outfit010",
+        "GUID": "{FDC8B8B6-5095-4C76-9EB2-F36FA0F8645E}"
+       },
+       {
+        "Id": "1526034717",
+        "Name": "K33_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K33_CLOTH_Default",
+        "GUID": "{3C7BD11A-F5FE-4AB0-9D94-6C29BFE4D633}"
+       },
+       {
+        "Id": "2308336598",
+        "Name": "K01b_CLOTH_Default",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K01b_CLOTH_Default",
+        "GUID": "{AAC22BCC-47DF-4F23-ABD3-C15DAA3C45B8}"
+       },
+       {
+        "Id": "2631872383",
+        "Name": "K28_CLOTH_Custom_Outfit011",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K28_CLOTH_Custom_Outfit011",
+        "GUID": "{8C42735D-E539-4F9E-90A2-3249A9A96AE3}"
+       },
+       {
+        "Id": "1419253348",
+        "Name": "K01_CLOTH_Outfit006",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K01_CLOTH_Outfit006",
+        "GUID": "{9E6C8F4C-2A47-410D-AFD5-91D314690556}"
+       },
+       {
+        "Id": "3424114",
+        "Name": "K18_CLOTH_Custom_Outfit013",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K18_CLOTH_Custom_Outfit013",
+        "GUID": "{A948B31B-9930-4FCD-ABC2-BEC2BCBE3067}"
+       },
+       {
+        "Id": "1711454565",
+        "Name": "K29_CLOTH_Custom_Outfit007",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K29_CLOTH_Custom_Outfit007",
+        "GUID": "{157382E1-22A5-45B9-BB47-0A9DA10563AA}"
+       },
+       {
+        "Id": "4028594209",
+        "Name": "K20_CLOTH_Custom_Outfit008",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K20_CLOTH_Custom_Outfit008",
+        "GUID": "{771FF13A-2472-452E-ACB1-391327A3787C}"
+       },
+       {
+        "Id": "3071304173",
+        "Name": "K14_CLOTH_Custom_Outfit018",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K14_CLOTH_Custom_Outfit018",
+        "GUID": "{CF375B2F-58B5-48C7-B9A3-A110ACF6C447}"
+       },
+       {
+        "Id": "2115572893",
+        "Name": "K16_CLOTH_Custom_Outfit009",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K16_CLOTH_Custom_Outfit009",
+        "GUID": "{A590F9BB-5EF2-48BC-A777-F6CE1AD09A0D}"
+       },
+       {
+        "Id": "3820762490",
+        "Name": "K24_CLOTH_Custom_Outfit007",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K24_CLOTH_Custom_Outfit007",
+        "GUID": "{EA7025E0-DE5F-4C72-BFA5-C413C396FB43}"
+       },
+       {
+        "Id": "857836137",
+        "Name": "K15_CLOTH_Custom_Outfit008",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K15_CLOTH_Custom_Outfit008",
+        "GUID": "{5A418ED5-0DC4-45BE-A284-408E135DF205}"
+       },
+       {
+        "Id": "2206340159",
+        "Name": "K13_CLOTH_Custom_Outfit008",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K13_CLOTH_Custom_Outfit008",
+        "GUID": "{21B9BA7E-9D5E-48A9-B894-8724FEA8A684}"
+       },
+       {
+        "Id": "2435638218",
+        "Name": "K04_CLOTH_Custom_Outfit009",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K04_CLOTH_Custom_Outfit009",
+        "GUID": "{6781905E-C8A5-42F4-A769-83ADA371B190}"
+       },
+       {
+        "Id": "4201161644",
+        "Name": "K05_CLOTH_Custom_Outfit008",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K05_CLOTH_Custom_Outfit008",
+        "GUID": "{EC467EAF-849A-4EE1-8C9F-84D450F07F62}"
+       },
+       {
+        "Id": "2328900577",
+        "Name": "K12_CLOTH_Custom_Outfit009",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K12_CLOTH_Custom_Outfit009",
+        "GUID": "{D29F8891-CC63-4888-9AE6-71FD0E6C241C}"
+       },
+       {
+        "Id": "4117447193",
+        "Name": "K08_CLOTH_Custom_Outfit006",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K08_CLOTH_Custom_Outfit006",
+        "GUID": "{833C6208-D129-4BDE-A0F7-18AE36743488}"
+       },
+       {
+        "Id": "2390126006",
+        "Name": "K07_CLOTH_Custom_Outfit013",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K07_CLOTH_Custom_Outfit013",
+        "GUID": "{F6607132-365D-4414-B0A9-55359C8E8CA9}"
+       },
+       {
+        "Id": "319360873",
+        "Name": "K03_CLOTH_Custom_Outfit010",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K03_CLOTH_Custom_Outfit010",
+        "GUID": "{23B11BF9-E471-4DE1-ADE4-180DB6788001}"
+       },
+       {
+        "Id": "607815762",
+        "Name": "K02_CLOTH_Custom_Outfit010",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K02_CLOTH_Custom_Outfit010",
+        "GUID": "{11DEEF2A-7791-4CC3-9C10-E68B18576D85}"
+       },
+       {
+        "Id": "1355720765",
+        "Name": "K27_CLOTH_Default_Custom_Outfit007",
+        "ObjectPath": "\\Switches\\SWITCH_KILLER\\AudioSwitchKillerClothes\\K27_CLOTH_Default_Custom_Outfit007",
+        "GUID": "{38062467-CE92-4006-93E2-3CBC59C91069}"
        }
       ]
      },

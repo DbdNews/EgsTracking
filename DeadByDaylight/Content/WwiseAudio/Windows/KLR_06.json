@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\",
-   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\.cache\\Windows\\",
-   "SoundBanksRoot": "Z:\\DeadByDaylight_Saturn_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_XRay_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1491115655",
     "GUID": "{921CB804-A936-48D6-A65A-AFE657136EC2}",
     "Language": "SFX",
-    "Hash": "2977050567",
+    "Hash": "1546768458",
     "ObjectPath": "\\SoundBanks\\CHARACTER\\KILLER\\KLR_06",
     "ShortName": "KLR_06",
     "Path": "KLR_06.bnk",
@@ -26,15 +26,15 @@
       "Name": "AudioEvent_K06_CLOTH_Default_Land",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_CLOTH\\AudioEvent_K06_CLOTH_Default_Land",
       "GUID": "{BBAEE83D-A3F3-4B12-9D5B-B05DDE7F4C9B}",
-      "MaxAttenuation": "1900.000000",
+      "MaxAttenuation": "1900.",
       "DurationType": "OneShot",
-      "DurationMin": "0.001000",
-      "DurationMax": "0.001000",
+      "DurationMin": "0.001",
+      "DurationMax": "0.001",
       "AuxBusSends": [
        {
         "Id": "286574509",
         "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
         "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
        }
       ]
@@ -44,7 +44,7 @@
       "Name": "AudioEvent_K06_CLOTH_Default_Move",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_CLOTH\\AudioEvent_K06_CLOTH_Default_Move",
       "GUID": "{B1831FA7-A0B7-4520-AE85-93B3008B9657}",
-      "MaxAttenuation": "1900.000000",
+      "MaxAttenuation": "1900.",
       "DurationType": "OneShot",
       "DurationMin": "0.501995",
       "DurationMax": "0.995964",
@@ -116,27 +116,246 @@
       "Name": "AudioEvent_K06_CLOTH_Default_ShuffleHigh",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_CLOTH\\AudioEvent_K06_CLOTH_Default_ShuffleHigh",
       "GUID": "{A7C9E91A-0FB4-4210-B9CA-2FD7F1DE9C8E}",
-      "MaxAttenuation": "1900.000000",
+      "MaxAttenuation": "1900.",
       "DurationType": "OneShot",
-      "DurationMin": "0.001000",
-      "DurationMax": "0.001000"
+      "DurationMin": "0.001",
+      "DurationMax": "0.001"
      },
      {
       "Id": "2464838120",
       "Name": "AudioEvent_K06_CLOTH_Default_ShuffleLow",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_CLOTH\\AudioEvent_K06_CLOTH_Default_ShuffleLow",
       "GUID": "{BE4796B2-3243-4709-B043-D20A5AD51C5D}",
-      "MaxAttenuation": "1900.000000",
+      "MaxAttenuation": "1900.",
       "DurationType": "OneShot",
-      "DurationMin": "0.001000",
-      "DurationMax": "0.001000"
+      "DurationMin": "0.001",
+      "DurationMax": "0.001"
+     },
+     {
+      "Id": "4229461480",
+      "Name": "AudioEvent_K06_GRUNT_Hurt",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_GRUNT\\AudioEvent_K06_GRUNT_Hurt",
+      "GUID": "{298DB761-8EF0-4EC7-B4E6-21BA877D21C8}",
+      "MaxAttenuation": "1900.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.633878",
+      "DurationMax": "0.826599",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "62327273",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_04.wav",
+        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_04_67368C31.wem"
+       },
+       {
+        "Id": "186076858",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_01.wav",
+        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_01_67368C31.wem"
+       },
+       {
+        "Id": "388917116",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_03.wav",
+        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_03_67368C31.wem"
+       },
+       {
+        "Id": "569893328",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_06.wav",
+        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_06_67368C31.wem"
+       },
+       {
+        "Id": "765526899",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_02.wav",
+        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_02_67368C31.wem"
+       },
+       {
+        "Id": "861632769",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_05.wav",
+        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_05_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
+     },
+     {
+      "Id": "4014632576",
+      "Name": "AudioEvent_K06_MENU_Stinger",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_MENU\\AudioEvent_K06_MENU_Stinger",
+      "GUID": "{3E4661E1-DE90-4F5E-9D73-AF690175E2D0}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.193537",
+      "DurationMax": "12.193537",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "453803155",
+        "Language": "SFX",
+        "ShortName": "Music\\Killer\\mu_k06_menu.wav",
+        "Path": "SFX\\Music\\Killer\\mu_k06_menu_0BC91DCF.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3370981647",
+      "Name": "AudioEvent_K06_PWR_Stalk_Completed",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_POWER\\AudioEvent_K06_PWR_Stalk_Completed",
+      "GUID": "{7A4E8E09-0B59-4767-8277-67307FC1CF77}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.977959",
+      "DurationMax": "8.977959",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "59404082",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\Stalk\\sfx_stalk_level_up_01.wav",
+        "Path": "SFX\\Character\\KLR_06\\Stalk\\sfx_stalk_level_up_01_67368C31.wem"
+       },
+       {
+        "Id": "502856163",
+        "Language": "SFX",
+        "ShortName": "Music\\Killer\\mu_k06_stinger_stalk_level_03.wav",
+        "Path": "SFX\\Music\\Killer\\mu_k06_stinger_stalk_level_03_0BC91DCF.wem"
+       },
+       {
+        "Id": "764745674",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\Stalk\\sfx_stalk_level_up_02.wav",
+        "Path": "SFX\\Character\\KLR_06\\Stalk\\sfx_stalk_level_up_02_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "633139576",
+      "Name": "AudioEvent_K06_PWR_Stalk_Lv2",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_POWER\\AudioEvent_K06_PWR_Stalk_Lv2",
+      "GUID": "{12717FE4-DD26-47DD-963B-84814766011D}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.081542",
+      "DurationMax": "7.081542",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "59404082",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\Stalk\\sfx_stalk_level_up_01.wav",
+        "Path": "SFX\\Character\\KLR_06\\Stalk\\sfx_stalk_level_up_01_67368C31.wem"
+       },
+       {
+        "Id": "170943028",
+        "Language": "SFX",
+        "ShortName": "Music\\Killer\\mu_k06_stinger_stalk_level_02.wav",
+        "Path": "SFX\\Music\\Killer\\mu_k06_stinger_stalk_level_02_0BC91DCF.wem"
+       },
+       {
+        "Id": "764745674",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\Stalk\\sfx_stalk_level_up_02.wav",
+        "Path": "SFX\\Character\\KLR_06\\Stalk\\sfx_stalk_level_up_02_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "667136083",
+      "Name": "AudioEvent_K06_PWR_Stalk_OFF",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_POWER\\AudioEvent_K06_PWR_Stalk_OFF",
+      "GUID": "{466BBB27-24F4-46F6-BCF0-4E3CF6FB1698}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.493333",
+      "DurationMax": "1.493333",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "323521007",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\Stalk\\PWR_Stalk_OFF_Bounce.wav",
+        "Path": "SFX\\Character\\KLR_06\\Stalk\\PWR_Stalk_OFF_Bounce_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1737868319",
+      "Name": "AudioEvent_K06_PWR_Stalk_ON",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_POWER\\AudioEvent_K06_PWR_Stalk_ON",
+      "GUID": "{623D73EC-BA0D-4334-A2B0-2BF5EB9847B1}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.101333",
+      "DurationMax": "2.101333",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "704578110",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\Stalk\\PWR_Stalk_ON_Bounce.wav",
+        "Path": "SFX\\Character\\KLR_06\\Stalk\\PWR_Stalk_ON_Bounce_67368C31.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2524575085",
+      "Name": "AudioEvent_K06_Status_Start",
+      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_STATUS\\AudioEvent_K06_Status_Start",
+      "GUID": "{484A3FC7-4211-43E7-859F-1CBC48CB3D7F}",
+      "MaxAttenuation": "850.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "276967249",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_02.wav",
+        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_02_67368C31.wem"
+       },
+       {
+        "Id": "319946048",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_01.wav",
+        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_01_67368C31.wem"
+       },
+       {
+        "Id": "863493941",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_05.wav",
+        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_05_67368C31.wem"
+       },
+       {
+        "Id": "992050503",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_04.wav",
+        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_04_67368C31.wem"
+       },
+       {
+        "Id": "1020252653",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_06.wav",
+        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_06_67368C31.wem"
+       },
+       {
+        "Id": "1029368884",
+        "Language": "SFX",
+        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_03.wav",
+        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_03_67368C31.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "286574509",
+        "Name": "MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
+       }
+      ]
      },
      {
       "Id": "3346072904",
       "Name": "AudioEvent_K06_WPN_Default_Knife_Arm",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_WEAPON\\AudioEvent_K06_WPN_Default_Knife_Arm",
       "GUID": "{7052F2DE-DF82-491C-BA10-94D2320023B9}",
-      "MaxAttenuation": "850.000000",
+      "MaxAttenuation": "850.",
       "DurationType": "OneShot",
       "DurationMin": "0.163109",
       "DurationMax": "0.283471",
@@ -164,7 +383,7 @@
        {
         "Id": "286574509",
         "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
         "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
        }
       ]
@@ -174,7 +393,7 @@
       "Name": "AudioEvent_K06_WPN_Default_Knife_Attack",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_WEAPON\\AudioEvent_K06_WPN_Default_Knife_Attack",
       "GUID": "{EA27B192-1810-4E11-A08F-641A7D07703B}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
       "DurationMin": "0.285088",
       "DurationMax": "0.351608",
@@ -220,7 +439,7 @@
        {
         "Id": "286574509",
         "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
         "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
        }
       ]
@@ -230,7 +449,7 @@
       "Name": "AudioEvent_K06_WPN_Default_Knife_Clean",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_WEAPON\\AudioEvent_K06_WPN_Default_Knife_Clean",
       "GUID": "{83B8B1F9-720A-456B-B693-2DA979556CB8}",
-      "MaxAttenuation": "850.000000",
+      "MaxAttenuation": "850.",
       "DurationType": "OneShot",
       "DurationMin": "0.183084",
       "DurationMax": "0.318186",
@@ -258,7 +477,7 @@
        {
         "Id": "286574509",
         "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
         "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
        }
       ]
@@ -268,10 +487,10 @@
       "Name": "AudioEvent_K06_WPN_Default_Knife_Impact",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_WEAPON\\AudioEvent_K06_WPN_Default_Knife_Impact",
       "GUID": "{A7F054A5-EB56-4951-8181-44B00CB27F32}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
-      "DurationMin": "0.297330",
-      "DurationMax": "1.000000",
+      "DurationMin": "0.29733",
+      "DurationMax": "1.",
       "IncludedMemoryFiles": [
        {
         "Id": "421429048",
@@ -591,7 +810,7 @@
        {
         "Id": "286574509",
         "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
         "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
        }
       ]
@@ -601,7 +820,7 @@
       "Name": "AudioEvent_K06_WPN_Default_Knife_Impact_Survivor",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_WEAPON\\AudioEvent_K06_WPN_Default_Knife_Impact_Survivor",
       "GUID": "{4AA1EBB2-4E41-4A4A-94BF-F0ACB3C04AB5}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
       "DurationMin": "0.672699",
       "DurationMax": "1.509012",
@@ -665,7 +884,7 @@
        {
         "Id": "286574509",
         "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
         "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
        }
       ]
@@ -675,7 +894,7 @@
       "Name": "AudioEvent_K06_WPN_Default_Knife_PullOut",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_WEAPON\\AudioEvent_K06_WPN_Default_Knife_PullOut",
       "GUID": "{4AF5E8ED-2938-4D73-98D3-3B83EA84887F}",
-      "MaxAttenuation": "1700.000000",
+      "MaxAttenuation": "1700.",
       "DurationType": "OneShot",
       "DurationMin": "0.183084",
       "DurationMax": "0.318186",
@@ -703,164 +922,8 @@
        {
         "Id": "286574509",
         "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\MENU\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
         "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
-       }
-      ]
-     },
-     {
-      "Id": "2383798711",
-      "Name": "AudioEvent_Killer_Stalker_Grunt_Hurt",
-      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_GRUNT\\AudioEvent_Killer_Stalker_Grunt_Hurt",
-      "GUID": "{298DB761-8EF0-4EC7-B4E6-21BA877D21C8}",
-      "MaxAttenuation": "1900.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "0.633878",
-      "DurationMax": "0.826599",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "62327273",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_04.wav",
-        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_04_67368C31.wem"
-       },
-       {
-        "Id": "186076858",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_01.wav",
-        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_01_67368C31.wem"
-       },
-       {
-        "Id": "388917116",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_03.wav",
-        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_03_67368C31.wem"
-       },
-       {
-        "Id": "569893328",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_06.wav",
-        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_06_67368C31.wem"
-       },
-       {
-        "Id": "765526899",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_02.wav",
-        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_02_67368C31.wem"
-       },
-       {
-        "Id": "861632769",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\vo_killer_stalker_grunt_hurt_05.wav",
-        "Path": "SFX\\Character\\KLR_06\\vo_killer_stalker_grunt_hurt_05_67368C31.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "286574509",
-        "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
-        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
-       }
-      ]
-     },
-     {
-      "Id": "1537754648",
-      "Name": "AudioEvent_KLR_06_Status_Start",
-      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_STATUS\\AudioEvent_KLR_06_Status_Start",
-      "GUID": "{484A3FC7-4211-43E7-859F-1CBC48CB3D7F}",
-      "MaxAttenuation": "850.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "276967249",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_02.wav",
-        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_02_67368C31.wem"
-       },
-       {
-        "Id": "319946048",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_01.wav",
-        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_01_67368C31.wem"
-       },
-       {
-        "Id": "863493941",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_05.wav",
-        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_05_67368C31.wem"
-       },
-       {
-        "Id": "992050503",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_04.wav",
-        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_04_67368C31.wem"
-       },
-       {
-        "Id": "1020252653",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_06.wav",
-        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_06_67368C31.wem"
-       },
-       {
-        "Id": "1029368884",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\sfx_killer_stalker_normal_breath_03.wav",
-        "Path": "SFX\\Character\\KLR_06\\sfx_killer_stalker_normal_breath_03_67368C31.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "286574509",
-        "Name": "MENU_KLR_00_COMMON",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\MENU\\MENU_OBJECT\\MENU_KILLER\\MENU_KLR_00_COMMON",
-        "GUID": "{E64B324D-8F4B-4D04-AAC1-282FD4D9B765}"
-       }
-      ]
-     },
-     {
-      "Id": "323300019",
-      "Name": "AudioEvent_KLR_06_Stinger_Menu",
-      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_STATUS\\AudioEvent_KLR_06_Stinger_Menu",
-      "GUID": "{3E4661E1-DE90-4F5E-9D73-AF690175E2D0}",
-      "DurationType": "OneShot",
-      "DurationMin": "12.193537",
-      "DurationMax": "12.193537",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "453803155",
-        "Language": "SFX",
-        "ShortName": "Music\\Killer\\mu_k06_menu.wav",
-        "Path": "SFX\\Music\\Killer\\mu_k06_menu_0BC91DCF.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2760063061",
-      "Name": "AudioEvent_Stalk_Completed",
-      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_POWER\\AudioEvent_Stalk_Completed",
-      "GUID": "{7A4E8E09-0B59-4767-8277-67307FC1CF77}",
-      "DurationType": "OneShot",
-      "DurationMin": "8.977959",
-      "DurationMax": "8.977959",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "59404082",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\Stalk\\sfx_stalk_level_up_01.wav",
-        "Path": "SFX\\Character\\KLR_06\\Stalk\\sfx_stalk_level_up_01_67368C31.wem"
-       },
-       {
-        "Id": "502856163",
-        "Language": "SFX",
-        "ShortName": "Music\\Killer\\mu_k06_stinger_stalk_level_03.wav",
-        "Path": "SFX\\Music\\Killer\\mu_k06_stinger_stalk_level_03_0BC91DCF.wem"
-       },
-       {
-        "Id": "764745674",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\Stalk\\sfx_stalk_level_up_02.wav",
-        "Path": "SFX\\Character\\KLR_06\\Stalk\\sfx_stalk_level_up_02_67368C31.wem"
        }
       ]
      },
@@ -894,76 +957,13 @@
       ]
      },
      {
-      "Id": "3434491342",
-      "Name": "AudioEvent_Stalk_Lv2",
-      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_POWER\\AudioEvent_Stalk_Lv2",
-      "GUID": "{12717FE4-DD26-47DD-963B-84814766011D}",
-      "DurationType": "OneShot",
-      "DurationMin": "7.081542",
-      "DurationMax": "7.081542",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "59404082",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\Stalk\\sfx_stalk_level_up_01.wav",
-        "Path": "SFX\\Character\\KLR_06\\Stalk\\sfx_stalk_level_up_01_67368C31.wem"
-       },
-       {
-        "Id": "170943028",
-        "Language": "SFX",
-        "ShortName": "Music\\Killer\\mu_k06_stinger_stalk_level_02.wav",
-        "Path": "SFX\\Music\\Killer\\mu_k06_stinger_stalk_level_02_0BC91DCF.wem"
-       },
-       {
-        "Id": "764745674",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\Stalk\\sfx_stalk_level_up_02.wav",
-        "Path": "SFX\\Character\\KLR_06\\Stalk\\sfx_stalk_level_up_02_67368C31.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3467899629",
-      "Name": "AudioEvent_Stalk_OFF",
-      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_POWER\\AudioEvent_Stalk_OFF",
-      "GUID": "{466BBB27-24F4-46F6-BCF0-4E3CF6FB1698}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.493333",
-      "DurationMax": "1.493333",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "323521007",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\Stalk\\PWR_Stalk_OFF_Bounce.wav",
-        "Path": "SFX\\Character\\KLR_06\\Stalk\\PWR_Stalk_OFF_Bounce_67368C31.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2266285601",
-      "Name": "AudioEvent_Stalk_ON",
-      "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_POWER\\AudioEvent_Stalk_ON",
-      "GUID": "{623D73EC-BA0D-4334-A2B0-2BF5EB9847B1}",
-      "DurationType": "OneShot",
-      "DurationMin": "2.101333",
-      "DurationMax": "2.101333",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "704578110",
-        "Language": "SFX",
-        "ShortName": "Character\\KLR_06\\Stalk\\PWR_Stalk_ON_Bounce.wav",
-        "Path": "SFX\\Character\\KLR_06\\Stalk\\PWR_Stalk_ON_Bounce_67368C31.wem"
-       }
-      ]
-     },
-     {
       "Id": "1026953698",
       "Name": "AudioEvent_Stalk_Warning",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_POWER\\AudioEvent_Stalk_Warning",
       "GUID": "{71433B91-0907-400F-8CFD-041354AB099E}",
       "DurationType": "OneShot",
-      "DurationMin": "3.200000",
-      "DurationMax": "3.200000",
+      "DurationMin": "3.2",
+      "DurationMax": "3.2",
       "IncludedMemoryFiles": [
        {
         "Id": "45844618",
@@ -978,10 +978,10 @@
       "Name": "AudioEvent_Stalk_Warning_Off",
       "ObjectPath": "\\Events\\CHARACTER\\KILLER\\K06_Stalker\\K06_POWER\\AudioEvent_Stalk_Warning_Off",
       "GUID": "{460B3DD4-4E3B-4472-BEE6-1F5DD8CE7353}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3035922738",

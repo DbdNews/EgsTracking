@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\",
-   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\.cache\\Windows\\",
-   "SoundBanksRoot": "Z:\\DeadByDaylight_Saturn_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\",
+   "SourceFilesRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\DeadByDaylight_XRay_UGS\\UnrealEngine\\DeadByDaylight\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_5_Saturn\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\DeadByDaylight\\Content_Raw\\Audio\\Wwise_2021_1_12_Xray\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "2215970222",
     "GUID": "{1D2D9CC7-80DA-4A69-B642-1A92545DA5D9}",
     "Language": "SFX",
-    "Hash": "3807144561",
+    "Hash": "2596205444",
     "ObjectPath": "\\SoundBanks\\AMBIANCE\\AMB_13",
     "ShortName": "AMB_13",
     "Path": "AMB_13.bnk",
@@ -176,13 +176,13 @@
        {
         "Id": "400794114",
         "Name": "Reverb_2D",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_2D",
         "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
        },
        {
         "Id": "603224157",
         "Name": "Reverb_INDOOR",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_INDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_INDOOR",
         "GUID": "{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"
        }
       ]
@@ -193,7 +193,7 @@
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AudioEvent_AM_T13_Escape",
       "GUID": "{3DEE7FA7-B9A5-4199-957B-7CA6A065FBCA}",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
+      "DurationMin": "0.",
       "DurationMax": "15.249047",
       "ReferencedStreamedFiles": [
        {
@@ -254,7 +254,7 @@
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AudioEvent_AM_T13_Exterior_Main",
       "GUID": "{552DA96D-ADEC-4EBB-B302-D5FBAD354B64}",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
+      "DurationMin": "0.",
       "DurationMax": "16.592697",
       "ReferencedStreamedFiles": [
        {
@@ -398,7 +398,7 @@
        {
         "Id": "1578973140",
         "Name": "Reverb_OUTDOOR",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
         "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
        }
       ]
@@ -575,13 +575,13 @@
        {
         "Id": "400794114",
         "Name": "Reverb_2D",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_2D",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_2D",
         "GUID": "{F65D823E-1109-47BF-B7D8-6003E62AFAEB}"
        },
        {
         "Id": "1578973140",
         "Name": "Reverb_OUTDOOR",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_OUTDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_OUTDOOR",
         "GUID": "{E369FC82-AC57-4622-9D4B-6D47A15CFD19}"
        }
       ]
@@ -592,7 +592,7 @@
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AudioEvent_AM_T13_Shack",
       "GUID": "{68B9041F-EE53-43A4-9B8E-5795C93EE5E6}",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
+      "DurationMin": "0.",
       "DurationMax": "15.249047",
       "ReferencedStreamedFiles": [
        {
@@ -661,7 +661,7 @@
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AudioEvent_AM_T13_SmallCabin",
       "GUID": "{45455ACC-F27F-483D-9338-8D535CD0D48A}",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
+      "DurationMin": "0.",
       "DurationMax": "15.249047",
       "ReferencedStreamedFiles": [
        {
@@ -873,7 +873,7 @@
        {
         "Id": "603224157",
         "Name": "Reverb_INDOOR",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\WORLD\\REVERB\\Reverb_INDOOR",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\MASTER\\SFX\\SFX\\WORLD\\WORLD\\REVERB\\Reverb_INDOOR",
         "GUID": "{BB9D5F38-1766-481C-867C-E1AE6C761DE3}"
        }
       ]
@@ -883,70 +883,70 @@
       "Name": "AudioEvent_Rev_Int_13_Kenya_Chalet",
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AM_Reverb_13_Kenya\\AudioEvent_Rev_Int_13_Kenya_Chalet",
       "GUID": "{B1DDB6CE-F4D4-4DDA-A1F7-178D02B6E316}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3507163649",
       "Name": "AudioEvent_Rev_Int_13_Kenya_Chalet_BigRoom",
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AM_Reverb_13_Kenya\\AudioEvent_Rev_Int_13_Kenya_Chalet_BigRoom",
       "GUID": "{C39676B2-DDE3-49F7-9271-4B148462B840}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3832684016",
       "Name": "AudioEvent_Rev_Int_13_Kenya_Chalet_Corridor",
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AM_Reverb_13_Kenya\\AudioEvent_Rev_Int_13_Kenya_Chalet_Corridor",
       "GUID": "{C4926C35-DA4F-41B6-984E-5F1BC01A0E22}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "2181384374",
       "Name": "AudioEvent_Rev_Int_13_Kenya_Chalet_Rooms",
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AM_Reverb_13_Kenya\\AudioEvent_Rev_Int_13_Kenya_Chalet_Rooms",
       "GUID": "{2779FC29-1B38-425F-849E-528FBD8BC7BB}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3161055266",
       "Name": "AudioEvent_Rev_Int_13_Kenya_Shack",
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AM_Reverb_13_Kenya\\AudioEvent_Rev_Int_13_Kenya_Shack",
       "GUID": "{428F45D3-8FF9-4F38-821C-C5F6AF2EBABE}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "2792890554",
       "Name": "AudioEvent_Rev_Int_13_Kenya_SmallCabin",
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AM_Reverb_13_Kenya\\AudioEvent_Rev_Int_13_Kenya_SmallCabin",
       "GUID": "{BE02DFA7-715A-48E5-86ED-A2BCF83F7C92}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "418243589",
       "Name": "AudioEvent_Rev_Int_13_Kenya_SnowCat",
       "ObjectPath": "\\Events\\AMBIENCE\\AMB_THEME\\AMB_T13_Kenya\\AMB_T13_TILE\\AM_Reverb_13_Kenya\\AudioEvent_Rev_Int_13_Kenya_SnowCat",
       "GUID": "{F16AA885-5404-42F0-B82D-0A1905979F81}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      }
     ],
     "ReferencedStreamedFiles": [
