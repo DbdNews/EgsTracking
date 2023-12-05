@@ -1311,6 +1311,256 @@
         "InclusionVersion": "6.4.2",
         "CustomizationId": "K30_Head01_WinterEvent2022"
       },
+      "K31_Head01_WinterEvent2023": {
+        "Category": "ECustomizationCategory::KillerHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K31/Models/Head/K31_head01_REF.K31_head01_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "/Game/Effects/Blueprints/Killer31/BP_Effect_K31_FrostyEyes_WinterEvent2023.BP_Effect_K31_FrostyEyes_WinterEvent2023_C",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "49973D064EDD7492AAC2BFB983867565",
+          "SourceString": "COLLECTION_FRSTEYE_NAME",
+          "LocalizedString": "Bone Chill 2023"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "Winter2023",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 268435486,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::SpecialEvent",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "006D224A496EC70953BC22AE1FFBDFBA",
+            "SourceString": "CUST_K31_Head01_WinterEvent2023_NAME",
+            "LocalizedString": "Frosty eyes"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "C8988C5641816506CEB967B1665866A1",
+            "SourceString": "CUST_K31_Head01_WinterEvent2023_DESC",
+            "LocalizedString": "Heart-chilling eyes of the cold-blooded.<br><br><span class=\"FlavorText\">\"Have a fantastic Winter season 2023!\"<br>– The Dead by Daylight Team</span>"
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/WinterEvent/K31_Head01_WinterEvent2023.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.4.1",
+        "CustomizationId": "K31_Head01_WinterEvent2023"
+      },
+      "K32_Head01_WinterEvent2023": {
+        "Category": "ECustomizationCategory::KillerHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K32/Models/Heads/K32_Head01_REF.K32_Head01_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_FrostyEyes_WinterEvent2023.BP_Effect_K32_FrostyEyes_WinterEvent2023_C",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "1470F732445BBF0EBAB4CC9F19849C92",
+          "SourceString": "COLLECTION_FRSTEYE_NAME",
+          "LocalizedString": "Bone Chill 2023"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "Winter2023",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Slashers/K32/Models/Heads/ACC/Blueprints/BP_K32_Head01_ACC.BP_K32_Head01_ACC_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [
+              {
+                "From": {
+                  "AssetPathName": "/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32HeadMetal01.MI_K32HeadMetal01",
+                  "SubPathString": ""
+                },
+                "To": {
+                  "AssetPathName": "/Game/Characters/Slashers/K32/Materials/Outfit01/MI_K32HeadMetal01_WinterEvent.MI_K32HeadMetal01_WinterEvent",
+                  "SubPathString": ""
+                }
+              }
+            ],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 268435487,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::SpecialEvent",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "807D58DC4EF824E6A66E2B98AE085A29",
+            "SourceString": "CUST_K32_Head01_WinterEvent2023_NAME",
+            "LocalizedString": "Frosty Eyes"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "BA99E16F45FDBA3EE007B7B018CF1D16",
+            "SourceString": "CUST_K32_Head01_WinterEvent2023_DESC",
+            "LocalizedString": "Heart-chilling eyes of the cold-blooded.<br><br><span class=\"FlavorText\">\"Have a fantastic Winter season 2023!\"<br>– The Dead by Daylight Team</span>"
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/WinterEvent/K32_Head01_WinterEvent2023.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.4.1",
+        "CustomizationId": "K32_Head01_WinterEvent2023"
+      },
       "KK_Head01_WinterEvent2018": {
         "Category": "ECustomizationCategory::KillerHead",
         "ItemMesh": {
