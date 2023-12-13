@@ -5268,7 +5268,12 @@
         "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
+        "CustomSFXs": [
+          {
+            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterShoes",
+            "SwitchState": "HighHeels"
+          }
+        ],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",

@@ -29,6 +29,9 @@
             "UI/Icons/Customization/S24_outfit_006.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -98,6 +101,9 @@
             "UI/Icons/Customization/S24_outfit_008.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -167,6 +173,9 @@
             "UI/Icons/Customization/S24_outfit_009.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -236,6 +245,9 @@
             "UI/Icons/Customization/S24_outfit_010.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -305,6 +317,9 @@
             "UI/Icons/Customization/S24_outfit_011.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -374,6 +389,9 @@
             "UI/Icons/Customization/S24_outfit_012.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -443,6 +461,9 @@
             "UI/Icons/Customization/S24/S24_outfit_013.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -512,6 +533,9 @@
             "UI/Icons/Customization/S24/S24_outfit_015.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -581,6 +605,9 @@
             "UI/Icons/Customization/S24/S24_outfit_016.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -650,6 +677,9 @@
             "UI/Icons/Customization/S24/S24_outfit_017.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -719,6 +749,9 @@
             "UI/Icons/Customization/S24/S24_outfit_018.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -769,6 +802,78 @@
         "CustomizedAudioStateCollection": "CozyBreak",
         "_outfitId": "S24_outfit_018"
       },
+      "S24_outfit_019": {
+        "ID": "S24_outfit_019",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "93606C61467AA28D76E974A975255D3C",
+            "SourceString": "OUTFIT_S24_019_NAME",
+            "LocalizedString": "Explore The City"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "4088CF4F40F567E891EBA8966FC436F7",
+            "SourceString": "OUTFIT_S24_019_DESC",
+            "LocalizedString": "Inspired by a memory of her trip to Montreal. <b>Designed by Domrebel.</b> "
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S24/S24_outfit_019.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "OutfitItems": [
+          "S24_Head019",
+          "S24_Torso019",
+          "S24_Legs019"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "24BE6ABE47D100CFF030E08DAE3145DF",
+          "SourceString": "COLLECTION_FASHION_NAME",
+          "LocalizedString": "Domrebel Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "7.4.2",
+        "IsAvailableInAtlantaBuild": false,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S24_outfit_019"
+      },
       "S24_outfit_01_02": {
         "ID": "S24_outfit_01_02",
         "UIData": {
@@ -788,6 +893,9 @@
             "UI/Icons/Customization/S24_outfit_01_02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -857,6 +965,9 @@
             "UI/Icons/Customization/S24_outfit_01_03.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -926,6 +1037,9 @@
             "UI/Icons/Customization/S24_outfit_01_04.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -995,6 +1109,9 @@
             "UI/Icons/Customization/S24_outfit_01_CV01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1063,6 +1180,9 @@
             "UI/Icons/Customization/S24_outfit_01_CV02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1131,6 +1251,9 @@
             "UI/Icons/Customization/S24_outfit_01_CV03.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1199,6 +1322,9 @@
             "UI/Icons/Customization/S24_outfit_01_CV04.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1267,6 +1393,9 @@
             "UI/Icons/Customization/S24_outfit_02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1336,6 +1465,9 @@
             "UI/Icons/Customization/S24_outfit_02_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1405,6 +1537,9 @@
             "UI/Icons/Customization/S24_outfit_02_02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {

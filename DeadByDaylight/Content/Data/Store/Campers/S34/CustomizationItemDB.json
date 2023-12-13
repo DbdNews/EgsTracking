@@ -112,6 +112,9 @@
             "UI/Icons/Customization/S34/S34_Head006.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -259,6 +262,9 @@
             "UI/Icons/Customization/S34/S34_Head006_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -384,6 +390,9 @@
             "UI/Icons/Customization/S34/S34_Head009.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -520,6 +529,9 @@
             "UI/Icons/Customization/S34/S34_Head010.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -656,6 +668,9 @@
             "UI/Icons/Customization/S34/S34_Head010_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -781,6 +796,9 @@
             "UI/Icons/Customization/S34/S34_Head011.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -906,6 +924,9 @@
             "UI/Icons/Customization/S34/S34_Head012.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -939,6 +960,134 @@
         },
         "InclusionVersion": "7.1.0",
         "CustomizationId": "S34_Head012"
+      },
+      "S34_Head014": {
+        "Category": "ECustomizationCategory::SurvivorHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S34/Models/Heads/S34_Head00_REF.S34_Head00_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "D87409874FBBC67C1E507D86A94DCEDA",
+          "SourceString": "COLLECTION_FASHION_NAME",
+          "LocalizedString": "Domrebel Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S34/Models/Heads/ACC/Blueprints/BP_S34_Hair_ACC014.BP_S34_Hair_ACC014_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 33,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "7ADD4CFB40F145455F0F1BB6EA43E0B4",
+            "SourceString": "CUST_S34_Head014_NAME",
+            "LocalizedString": "Eye-Patch"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "48DFB46345B786185BF307B48BEF2928",
+            "SourceString": "CUST_S34_Head014_DESC",
+            "LocalizedString": "He picked up the eye patch from the floor, reminiscing about an old friend who used to wear one."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S34/S34_Head014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.4.2",
+        "CustomizationId": "S34_Head014"
       },
       "S34_Head01_01": {
         "Category": "ECustomizationCategory::SurvivorHead",
@@ -1053,6 +1202,9 @@
             "UI/Icons/Customization/S34/S34_Head01_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1200,6 +1352,9 @@
             "UI/Icons/Customization/S34/S34_Head01_02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1347,6 +1502,9 @@
             "UI/Icons/Customization/S34/S34_Head01_03.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1483,6 +1641,9 @@
             "UI/Icons/Customization/S34/S34_Head02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1630,6 +1791,9 @@
             "UI/Icons/Customization/S34/S34_Head02_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1755,6 +1919,9 @@
             "UI/Icons/Customization/S34/S34_Legs006.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1901,6 +2068,9 @@
             "UI/Icons/Customization/S34/S34_Legs006_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2009,6 +2179,9 @@
             "UI/Icons/Customization/S34/S34_Legs009.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2134,6 +2307,9 @@
             "UI/Icons/Customization/S34/S34_Legs010.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2270,6 +2446,9 @@
             "UI/Icons/Customization/S34/S34_Legs010_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2395,6 +2574,9 @@
             "UI/Icons/Customization/S34/S34_Legs011.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2503,6 +2685,9 @@
             "UI/Icons/Customization/S34/S34_Legs012.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2536,6 +2721,139 @@
         },
         "InclusionVersion": "7.1.0",
         "CustomizationId": "S34_Legs012"
+      },
+      "S34_Legs014": {
+        "Category": "ECustomizationCategory::SurvivorLegs",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S34/Models/Legs/S34_Legs014_REF.S34_Legs014_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "C88D685B41F8A35C2B56BEA31C139597",
+          "SourceString": "COLLECTION_FASHION_NAME",
+          "LocalizedString": "Domrebel Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S34/Models/Legs/ACC/Blueprints/BP_S34_Straps_ACC014.BP_S34_Straps_ACC014_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [
+          {
+            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterShoes",
+            "SwitchState": "Boots"
+          }
+        ],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 33,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "9DB8A5B84414A61DD1FBFC80882217B3",
+            "SourceString": "CUST_S34_Legs014_NAME",
+            "LocalizedString": "Biker Boots"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "2D92FE4641AB55C27819C7BE4210527F",
+            "SourceString": "CUST_S34_Legs014_DESC",
+            "LocalizedString": "The boots looked well made, but there were some signs of use."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S34/S34_Legs014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.4.2",
+        "CustomizationId": "S34_Legs014"
       },
       "S34_Legs01_01": {
         "Category": "ECustomizationCategory::SurvivorLegs",
@@ -2650,6 +2968,9 @@
             "UI/Icons/Customization/S34/S34_Legs01_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2797,6 +3118,9 @@
             "UI/Icons/Customization/S34/S34_Legs01_02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2944,6 +3268,9 @@
             "UI/Icons/Customization/S34/S34_Legs01_03.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3091,6 +3418,9 @@
             "UI/Icons/Customization/S34/S34_Legs01_CV01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3238,6 +3568,9 @@
             "UI/Icons/Customization/S34/S34_Legs01_CV02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3385,6 +3718,9 @@
             "UI/Icons/Customization/S34/S34_Legs01_CV03.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3532,6 +3868,9 @@
             "UI/Icons/Customization/S34/S34_Legs01_CV04.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3657,6 +3996,9 @@
             "UI/Icons/Customization/S34/S34_Legs02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3793,6 +4135,9 @@
             "UI/Icons/Customization/S34/S34_Legs02_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3918,6 +4263,9 @@
             "UI/Icons/Customization/S34/S34_Torso006.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4075,6 +4423,9 @@
             "UI/Icons/Customization/S34/S34_Torso006_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4180,6 +4531,9 @@
             "UI/Icons/Customization/S34/S34_Torso007.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4319,6 +4673,9 @@
             "UI/Icons/Customization/S34/S34_Torso007_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4427,6 +4784,9 @@
             "UI/Icons/Customization/S34/S34_Torso008.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4546,6 +4906,9 @@
             "UI/Icons/Customization/S34/S34_Torso008_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4654,6 +5017,9 @@
             "UI/Icons/Customization/S34/S34_Torso009.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4762,6 +5128,9 @@
             "UI/Icons/Customization/S34/S34_Torso010.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4881,6 +5250,9 @@
             "UI/Icons/Customization/S34/S34_Torso010_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5011,6 +5383,9 @@
             "UI/Icons/Customization/S34/S34_Torso011.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5141,6 +5516,9 @@
             "UI/Icons/Customization/S34/S34_Torso012.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5249,6 +5627,9 @@
             "UI/Icons/Customization/S34/S34_Torso013.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5282,6 +5663,134 @@
         },
         "InclusionVersion": "7.2.2",
         "CustomizationId": "S34_Torso013"
+      },
+      "S34_Torso014": {
+        "Category": "ECustomizationCategory::SurvivorTorso",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S34/Models/Torsos/S34_Torso014_REF.S34_Torso014_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "C8A5E92E4465B431491283A7EF988A37",
+          "SourceString": "COLLECTION_FASHION_NAME",
+          "LocalizedString": "Domrebel Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S34/Models/Torsos/ACC/Blueprints/BP_S34_Chains_ACC014.BP_S34_Chains_ACC014_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 33,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "EE570A164DB928C92E154E8B1D27E532",
+            "SourceString": "CUST_S34_Torso014_NAME",
+            "LocalizedString": "Skull Leather"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "2E2C7CF2415E4D4A34D531824FF531A4",
+            "SourceString": "CUST_S34_Torso014_DESC",
+            "LocalizedString": "The suit was left covered in dust on a musty wooden bench."
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S34/S34_Torso014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "itemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0"
+        },
+        "InclusionVersion": "7.4.2",
+        "CustomizationId": "S34_Torso014"
       },
       "S34_Torso01_01": {
         "Category": "ECustomizationCategory::SurvivorTorso",
@@ -5416,6 +5925,9 @@
             "UI/Icons/Customization/S34/S34_Torso01_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5583,6 +6095,9 @@
             "UI/Icons/Customization/S34/S34_Torso01_02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5750,6 +6265,9 @@
             "UI/Icons/Customization/S34/S34_Torso01_03.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5917,6 +6435,9 @@
             "UI/Icons/Customization/S34/S34_Torso01_CV01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6084,6 +6605,9 @@
             "UI/Icons/Customization/S34/S34_Torso01_CV02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6251,6 +6775,9 @@
             "UI/Icons/Customization/S34/S34_Torso01_CV03.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6418,6 +6945,9 @@
             "UI/Icons/Customization/S34/S34_Torso01_CV04.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6543,6 +7073,9 @@
             "UI/Icons/Customization/S34/S34_Torso02.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6710,6 +7243,9 @@
             "UI/Icons/Customization/S34/S34_Torso02_01.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "animationWidgetRef": null,
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
