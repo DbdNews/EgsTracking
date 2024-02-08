@@ -28,7 +28,10 @@
         {
           "gameEvents": [
             {
-              "TagName": "GameEvent.Camper.SkillCheck.Success"
+              "TagName": "GameEvent.Camper.SkillCheck.Success.Good"
+            },
+            {
+              "TagName": "GameEvent.Camper.SkillCheck.Success.Bonus"
             }
           ],
           "profileStats": [
@@ -301,7 +304,7 @@
         {
           "gameEvents": [
             {
-              "TagName": "GameEvent.ScoreEvent.Hillbilly.Chainsaw.Hit"
+              "TagName": "GameEvent.Slasher.Hillbilly.Chainsaw.Hit"
             }
           ],
           "profileStats": [
@@ -797,6 +800,36 @@
           "profileStats": [
             "DBD_Chapter29_Slasher_Stat1"
           ]
+        },
+        {
+          "gameEvents": [
+            {
+              "TagName": "GameEvent.ScoreEvent.K34.ScamperAndInjureSurvivor"
+            }
+          ],
+          "profileStats": [
+            "DBD_Chapter30_Slasher_Stat1"
+          ]
+        },
+        {
+          "gameEvents": [
+            {
+              "TagName": "GameEvent.SlasherBasicAttackSuccessWhileUndetectable"
+            }
+          ],
+          "profileStats": [
+            "DBD_Chapter30_Slasher_Stat2"
+          ]
+        },
+        {
+          "gameEvents": [
+            {
+              "TagName": "GameEvent.SlasherBlinded.WithFlashlight"
+            }
+          ],
+          "profileStats": [
+            "DBD_Camper40_Stat2"
+          ]
         }
       ],
       "scoreEventSimpleAchievements": [
@@ -1036,6 +1069,12 @@
           "achievement": {
             "ObjectName": "BlueprintGeneratedClass'BP_PickUpSpecialItemAchievement_C'",
             "ObjectPath": "DeadByDaylight/Content/Data/Achievements/WormholeAchievements/BP_PickUpSpecialItemAchievement.0"
+          }
+        },
+        {
+          "achievement": {
+            "ObjectName": "BlueprintGeneratedClass'GreatSkillCheckWhileInjuredAchievementBP_C'",
+            "ObjectPath": "DeadByDaylight/Content/Data/Achievements/GreatSkillCheckWhileInjuredAchievementBP.0"
           }
         }
       ],
