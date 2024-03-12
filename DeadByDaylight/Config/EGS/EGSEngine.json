@@ -6,7 +6,7 @@ DefaultPlatformService=EPIC
 
 [OnlineSubsystemEpic]
 bEnabled=true
-ProductVersion=7.5.2
+ProductVersion=7.6.0
 
 [ShopManager]
 DefaultItemId=a87c42fd98c5481397681a835cab2c5c
@@ -14,3 +14,6 @@ GeneralItemId=daedda2898b74feeac35f222ef02539a
 SilentHillEditionItemId=3280c01d39a74adc83be41e3fd74b5d1
 UltimateEditionItemId=7f3b3b5e18f04dd0ac73a98af70dd169
 FreeWeekItemId=a9e88f5bd1a047539c772370f15deb48
+
+[==SSL]
++PinnedPublicKeys="egs.live.bhvrdbd.com:++MBgDH5WGvL9Bcn5Be30cRcL0f5O+NyoXuWtQdX1aI=;EXrEe/XXp1o4/nVmcqCaG/BSgVR3OzhVUG8/X4kRCCU="
