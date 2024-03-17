@@ -4485,7 +4485,12 @@
         "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [],
+        "CustomSFXs": [
+          {
+            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterHead",
+            "SwitchState": "K21_HEAD_Custom_Outfit015"
+          }
+        ],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
@@ -9098,7 +9103,7 @@
             "Namespace": "",
             "Key": "A8E66E7E42998E087170319116758D33",
             "SourceString": "CUST_K21_Head010_01_DESC",
-            "LocalizedString": "New life grew and spread across the orifices of his face"
+            "LocalizedString": "New life grew and spread across the orifices of his face."
           },
           "IconFilePathList": [
             "UI/Icons/Customization/K21/K21_Head010_01.png"

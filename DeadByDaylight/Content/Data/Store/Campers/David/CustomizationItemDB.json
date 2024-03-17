@@ -8263,7 +8263,18 @@
           "AssetPathName": "None",
           "SubPathString": ""
         },
-        "MaterialsMap": [],
+        "MaterialsMap": [
+          {
+            "From": {
+              "AssetPathName": "/Game/Characters/Campers/David/Material/Outfit00/MI_DKTorso00.MI_DKTorso00",
+              "SubPathString": ""
+            },
+            "To": {
+              "AssetPathName": "/Game/Characters/Campers/David/Material/Outfit001/MI_DKTorsoA001.MI_DKTorsoA001",
+              "SubPathString": ""
+            }
+          }
+        ],
         "ConditionalMaterialReplacer": {
           "ItemTag": "None",
           "ConditionalMaterials": []
