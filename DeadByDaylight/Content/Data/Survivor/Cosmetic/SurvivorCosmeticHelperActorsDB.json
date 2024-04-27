@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'SurvivorCosmeticHelperActorSpawnInfo'",
+        "ObjectName": "Class'SurvivorCosmeticHelperActorSpawnInfo'",
         "ObjectPath": "/Script/DBDCosmetic"
       }
     },
@@ -55,15 +55,6 @@
           "SubPathString": ""
         }
       },
-      "OnryoSurvivorCosmeticHelperActor": {
-        "KillerPresenceTag": {
-          "TagName": "State.Presence.TheOnryo"
-        },
-        "SurvivorCosmeticActorClass": {
-          "AssetPathName": "/Game/Blueprints/GameplayElements/Item/K27Power/BP_OnryoSurvivorCosmeticHelperActor.BP_OnryoSurvivorCosmeticHelperActor_C",
-          "SubPathString": ""
-        }
-      },
       "K30SurvivorCosmeticHelperActor": {
         "KillerPresenceTag": {
           "TagName": "State.Presence.TheK30"
@@ -97,6 +88,33 @@
         },
         "SurvivorCosmeticActorClass": {
           "AssetPathName": "/Game/Blueprints/GameplayElements/Item/K33Power/BP_K33SurvivorCosmeticHelperActor.BP_K33SurvivorCosmeticHelperActor_C",
+          "SubPathString": ""
+        }
+      },
+      "K34SurvivorCosmeticHelperActor": {
+        "KillerPresenceTag": {
+          "TagName": "State.Presence.TheK34"
+        },
+        "SurvivorCosmeticActorClass": {
+          "AssetPathName": "/Game/Blueprints/GameplayElements/Item/K34Power/BP_K34SurvivorCosmeticHelperActor.BP_K34SurvivorCosmeticHelperActor_C",
+          "SubPathString": ""
+        }
+      },
+      "OnryoSurvivorCosmeticHelperActor": {
+        "KillerPresenceTag": {
+          "TagName": "State.Presence.TheOnryo"
+        },
+        "SurvivorCosmeticActorClass": {
+          "AssetPathName": "/Game/Blueprints/GameplayElements/Item/K27Power/BP_OnryoSurvivorCosmeticHelperActor.BP_OnryoSurvivorCosmeticHelperActor_C",
+          "SubPathString": ""
+        }
+      },
+      "K35SurvivorCosmeticHelperActor": {
+        "KillerPresenceTag": {
+          "TagName": "State.Presence.TheK35"
+        },
+        "SurvivorCosmeticActorClass": {
+          "AssetPathName": "/Game/Blueprints/GameplayElements/Item/K35Power/BP_K35SurvivorCosmeticHelperActor.BP_K35SurvivorCosmeticHelperActor_C",
           "SubPathString": ""
         }
       }

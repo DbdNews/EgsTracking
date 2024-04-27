@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'ItemData'",
+        "ObjectName": "Class'ItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -22,7 +22,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -37,6 +37,7 @@
         "EventId": "Anniversary2023",
         "CanUseAfterEventEnd": true,
         "ItemType": "ELoadoutItemType::Flashlight",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -55,6 +56,13 @@
             "UI/Icons/items/Anniversary/iconItems_flashlight_anniversary2022.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -91,7 +99,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_Flashlight_Anniversary2022"
       },
@@ -107,7 +115,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -122,6 +130,7 @@
         "EventId": "Anniversary2023",
         "CanUseAfterEventEnd": true,
         "ItemType": "ELoadoutItemType::Medkit",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -140,6 +149,13 @@
             "UI/Icons/items/Anniversary/iconItems_medkit_anniversary2022.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -176,7 +192,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_Medkit_Anniversary2022"
       },
@@ -192,7 +208,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -207,6 +223,7 @@
         "EventId": "Anniversary2023",
         "CanUseAfterEventEnd": true,
         "ItemType": "ELoadoutItemType::Toolbox",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -225,6 +242,13 @@
             "UI/Icons/items/Anniversary/iconItems_toolbox_anniversary2022.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -261,7 +285,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_Toolbox_Anniversary2022"
       }

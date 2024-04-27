@@ -5,118 +5,14 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
-      "8": {
-        "CharacterIndex": 8,
-        "Role": "EPlayerRole::VE_Camper",
-        "Difficulty": "ECharacterDifficulty::VE_None",
-        "DisplayName": {
-          "Namespace": "",
-          "Key": "54CA86EC44A6271D6D95C0818DCF4D3E",
-          "SourceString": "SURVIVOR_Feng_NAME",
-          "LocalizedString": "Feng Min"
-        },
-        "BackStory": {
-          "Namespace": "",
-          "Key": "B9EBC48042064DB85CDE05B5C2FA0772",
-          "SourceString": "CharScreenFeng",
-          "LocalizedString": "Feng Min was a young girl when she first picked up computer games, and she was instantly hooked. Her parents saw no wrong with a few minutes in front of the screen, but as minutes turned into hours and sometimes days, they finally decided to pull the plug and force Feng Min to put more efforts into her studies.<br><br>She felt smothered by parents, so she left home and spent her time in internet cafés and LAN parties where the old rules didn’t apply. She spent hours playing, streaming, competing to rise to the top. In the gaming world, she finally found respect. Nicknamed the “Shining Lion,” she was invited to join a prestigious e-sports team where she found a sanctuary free of the misconceptions and prejudice she had felt from her parents and the non-gaming world.<br><br>Feng Min pushed her limits to prove she was the best. Sleep was less important to her than training. She pushed herself too far, slept too little, and her performance began to slip. She started to lose. At night, she would stay up, tormented by the thought of disappointing her parents… and her fans. She spiraled out of control and fell into a pattern of self-destruction. She started wandering the streets and visiting bars, waking up in places she didn’t remember. One day she woke up somewhere completely different…"
-        },
-        "Biography": {
-          "Namespace": "",
-          "Key": "0D8F9AA74E830D783FCA73A506563F1F",
-          "SourceString": "TooltipFeng",
-          "LocalizedString": "An objective-focused competitor who can quickly adapt her strategy to meet a vast range of challenging situations.<BR><BR>Her personal perks, <B>Technician</B>, <B>Lithe</B> and <B>Alert</B>, help her with repairing generators and locating the Killer."
-        },
-        "IconFilePath": "UI/Icons/CharPortraits/DLC4/S09_FengMin_Portrait.png",
-        "HudIcon": {
-          "ObjectName": "Texture2D'FM_charSelect_portrait_HUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/DLC4/FM_charSelect_portrait_HUD.0"
-        },
-        "BackgroundImagePath": "UI/Icons/StoreBackgrounds/storeBackground_FM.png",
-        "CustomizationDescription": [
-          {
-            "Category": "ECustomizationCategory::SurvivorHead",
-            "DefaultItemId": {
-              "RowValue": "FM_Head01"
-            },
-            "SocketName": "None"
-          },
-          {
-            "Category": "ECustomizationCategory::SurvivorTorso",
-            "DefaultItemId": {
-              "RowValue": "FM_Torso01"
-            },
-            "SocketName": "None"
-          },
-          {
-            "Category": "ECustomizationCategory::SurvivorLegs",
-            "DefaultItemId": {
-              "RowValue": "FM_Legs01"
-            },
-            "SocketName": "None"
-          }
-        ],
-        "ChapterDlcId": "sparkofMadness",
-        "AdditionalDlcIds": [
-          "EP2"
-        ],
-        "AvailableIfDlcInstalled": true,
-        "DebugName": "[S09] Feng Ming",
-        "IsInChunk0": false,
-        "IsAvailableInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
-        "PlatformExclusiveFlag": 0,
-        "GamePawn": {
-          "AssetPathName": "/Game/Characters/Campers/Blueprints/BP_CamperFemale05_Character.BP_CamperFemale05_Character_C",
-          "SubPathString": ""
-        },
-        "MenuPawn": {
-          "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale05.BP_Menu_CamperFemale05_C",
-          "SubPathString": ""
-        },
-        "DefaultItem": "None",
-        "DefaultPerk": "None",
-        "Gender": "EGender::VE_Female",
-        "KillerAbilities": [],
-        "TunableDB": {
-          "AssetPtr": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "KillerHeight": "EKillerHeight::Average",
-        "SlideShowDescriptions": {
-          "Id": "None",
-          "Overview": {
-            "Namespace": "",
-            "Key": "16D2244C47586706375AB79713CFF46E",
-            "SourceString": "ATLANTACHARACTERSLIDE_FM_OVERVIEW",
-            "LocalizedString": "Feng can silently work on generators, escaping the notice of the Killer, and being long gone before they arrive."
-          },
-          "Playstyle": {
-            "Namespace": "",
-            "Key": "F0F831B74FAB08B427C601B36F8888DB",
-            "SourceString": "ATLANTACHARACTERSLIDE_FM_PLAYSTYLE",
-            "LocalizedString": "Feng Min is an objective-focused competitor who can quickly adapt her strategy to meet a range of situations."
-          },
-          "ImageFilePath": "UI/Icons/CharacterSlideShowRenders/Atlanta_Slideshow_FM.png",
-          "PerkCategory": [
-            "EPerkCategory::Concealment",
-            "EPerkCategory::Navigation",
-            "EPerkCategory::Perception"
-          ]
-        },
-        "HideStoreCustomizations": false,
-        "CustomizationCategories": [],
-        "CharacterId": "Feng"
-      },
       "268435462": {
         "CharacterIndex": 268435462,
+        "CharacterCodename": "Doctor",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Hard",
         "DisplayName": {
@@ -125,7 +21,7 @@
           "SourceString": "KILLER_07_NAME",
           "LocalizedString": "The Doctor"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "3021864A43DFDA705112DE814AF284A1",
           "SourceString": "CharScreenDoc",
@@ -181,6 +77,7 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher07.BP_Menu_Slasher07_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_Killer07Item",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Male",
@@ -206,8 +103,124 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "3ABF475647FF1E5288B8C49BF786F3EC",
+            "SourceString": "K07_TAG_01",
+            "LocalizedString": "Herman Carter"
+          }
+        ],
         "CustomizationCategories": [],
         "CharacterId": "Killer07"
+      },
+      "8": {
+        "CharacterIndex": 8,
+        "CharacterCodename": "Feng",
+        "Role": "EPlayerRole::VE_Camper",
+        "Difficulty": "ECharacterDifficulty::VE_None",
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "54CA86EC44A6271D6D95C0818DCF4D3E",
+          "SourceString": "SURVIVOR_Feng_NAME",
+          "LocalizedString": "Feng Min"
+        },
+        "Backstory": {
+          "Namespace": "",
+          "Key": "B9EBC48042064DB85CDE05B5C2FA0772",
+          "SourceString": "CharScreenFeng",
+          "LocalizedString": "Feng Min was a young girl when she first picked up computer games, and she was instantly hooked. Her parents saw no wrong with a few minutes in front of the screen, but as minutes turned into hours and sometimes days, they finally decided to pull the plug and force Feng Min to put more efforts into her studies.<br><br>She felt smothered by parents, so she left home and spent her time in internet cafés and LAN parties where the old rules didn’t apply. She spent hours playing, streaming, competing to rise to the top. In the gaming world, she finally found respect. Nicknamed the “Shining Lion,” she was invited to join a prestigious e-sports team where she found a sanctuary free of the misconceptions and prejudice she had felt from her parents and the non-gaming world.<br><br>Feng Min pushed her limits to prove she was the best. Sleep was less important to her than training. She pushed herself too far, slept too little, and her performance began to slip. She started to lose. At night, she would stay up, tormented by the thought of disappointing her parents… and her fans. She spiraled out of control and fell into a pattern of self-destruction. She started wandering the streets and visiting bars, waking up in places she didn’t remember. One day she woke up somewhere completely different…"
+        },
+        "Biography": {
+          "Namespace": "",
+          "Key": "0D8F9AA74E830D783FCA73A506563F1F",
+          "SourceString": "TooltipFeng",
+          "LocalizedString": "An objective-focused competitor who can quickly adapt her strategy to meet a vast range of challenging situations.<BR><BR>Her personal perks, <B>Technician</B>, <B>Lithe</B> and <B>Alert</B>, help her with repairing generators and locating the Killer."
+        },
+        "IconFilePath": "UI/Icons/CharPortraits/DLC4/S09_FengMin_Portrait.png",
+        "HudIcon": {
+          "ObjectName": "Texture2D'FM_charSelect_portrait_HUD'",
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/DLC4/FM_charSelect_portrait_HUD.0"
+        },
+        "BackgroundImagePath": "UI/Icons/StoreBackgrounds/storeBackground_FM.png",
+        "CustomizationDescription": [
+          {
+            "Category": "ECustomizationCategory::SurvivorHead",
+            "DefaultItemId": {
+              "RowValue": "FM_Head01"
+            },
+            "SocketName": "None"
+          },
+          {
+            "Category": "ECustomizationCategory::SurvivorTorso",
+            "DefaultItemId": {
+              "RowValue": "FM_Torso01"
+            },
+            "SocketName": "None"
+          },
+          {
+            "Category": "ECustomizationCategory::SurvivorLegs",
+            "DefaultItemId": {
+              "RowValue": "FM_Legs01"
+            },
+            "SocketName": "None"
+          }
+        ],
+        "ChapterDlcId": "sparkofMadness",
+        "AdditionalDlcIds": [
+          "EP2"
+        ],
+        "AvailableIfDlcInstalled": true,
+        "DebugName": "[S09] Feng Ming",
+        "IsInChunk0": false,
+        "IsAvailableInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "PlatformExclusiveFlag": 0,
+        "GamePawn": {
+          "AssetPathName": "/Game/Characters/Campers/Blueprints/BP_CamperFemale05_Character.BP_CamperFemale05_Character_C",
+          "SubPathString": ""
+        },
+        "MenuPawn": {
+          "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale05.BP_Menu_CamperFemale05_C",
+          "SubPathString": ""
+        },
+        "IsDefaultItemSpawnableInParadise": true,
+        "DefaultItem": "None",
+        "DefaultPerk": "None",
+        "Gender": "EGender::VE_Female",
+        "KillerAbilities": [],
+        "TunableDB": {
+          "AssetPtr": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "KillerHeight": "EKillerHeight::Average",
+        "SlideShowDescriptions": {
+          "Id": "None",
+          "Overview": {
+            "Namespace": "",
+            "Key": "16D2244C47586706375AB79713CFF46E",
+            "SourceString": "ATLANTACHARACTERSLIDE_FM_OVERVIEW",
+            "LocalizedString": "Feng can silently work on generators, escaping the notice of the Killer, and being long gone before they arrive."
+          },
+          "Playstyle": {
+            "Namespace": "",
+            "Key": "F0F831B74FAB08B427C601B36F8888DB",
+            "SourceString": "ATLANTACHARACTERSLIDE_FM_PLAYSTYLE",
+            "LocalizedString": "Feng Min is an objective-focused competitor who can quickly adapt her strategy to meet a range of situations."
+          },
+          "ImageFilePath": "UI/Icons/CharacterSlideShowRenders/Atlanta_Slideshow_FM.png",
+          "PerkCategory": [
+            "EPerkCategory::Concealment",
+            "EPerkCategory::Navigation",
+            "EPerkCategory::Perception"
+          ]
+        },
+        "HideStoreCustomizations": false,
+        "SearchTags": [],
+        "CustomizationCategories": [],
+        "CharacterId": "Feng"
       }
     }
   }

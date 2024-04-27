@@ -5,13 +5,14 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "268435483": {
         "CharacterIndex": 268435483,
+        "CharacterCodename": "K28",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Intermediate",
         "DisplayName": {
@@ -20,7 +21,7 @@
           "SourceString": "KILLER_28_NAME",
           "LocalizedString": "The Dredge"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "596154194436F0E69270658610428156",
           "SourceString": "KILLER_28_BIO",
@@ -35,7 +36,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Meteor/K28_TheDredge_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'Missing'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraits/Missing.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraits/Missing.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Meteor/K28_storeBackground.png",
         "CustomizationDescription": [
@@ -77,6 +78,7 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher28.BP_Menu_Slasher28_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_K28Power",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_NotHuman",
@@ -102,6 +104,7 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [
           "KillerArm",
           "KillerTorso",
@@ -111,6 +114,7 @@
       },
       "30": {
         "CharacterIndex": 30,
+        "CharacterCodename": "S31",
         "Role": "EPlayerRole::VE_Camper",
         "Difficulty": "ECharacterDifficulty::VE_Intermediate",
         "DisplayName": {
@@ -119,7 +123,7 @@
           "SourceString": "SURVIVOR_31_NAME",
           "LocalizedString": "Haddie Kaur"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "E0D72DFE447BB21BC5B7D082FF527EEA",
           "SourceString": "SURVIVOR_31_BIO",
@@ -134,7 +138,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Meteor/S31_HaddieKaur_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'T_S31_charSelect_portraitHUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Meteor/T_S31_charSelect_portraitHUD.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Meteor/T_S31_charSelect_portraitHUD.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Meteor/S31_storeBackground.png",
         "CustomizationDescription": [
@@ -176,6 +180,7 @@
           "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale16.BP_Menu_CamperFemale16_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "None",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Female",
@@ -183,7 +188,7 @@
         "TunableDB": {
           "AssetPtr": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "KillerHeight": "EKillerHeight::Average",
@@ -199,6 +204,7 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "S31"
       }

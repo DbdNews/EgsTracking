@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CustomizationItemData'",
+        "ObjectName": "Class'CustomizationItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -18,11 +18,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -41,6 +41,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -49,18 +50,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -84,6 +84,13 @@
             "UI/Icons/Customization/Charms/AU_001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -109,14 +116,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "Legacy",
-        "CustomizationId": "AU_001"
+        "CustomizationId": "AU_001",
+        "SearchTags": []
       },
       "AU_002": {
         "Category": "ECustomizationCategory::Charm",
@@ -126,11 +134,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -149,6 +157,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -157,18 +166,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -192,6 +200,13 @@
             "UI/Icons/Customization/Charms/AU_002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -217,14 +232,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "Legacy",
-        "CustomizationId": "AU_002"
+        "CustomizationId": "AU_002",
+        "SearchTags": []
       },
       "AU_003": {
         "Category": "ECustomizationCategory::Charm",
@@ -234,11 +250,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -257,6 +273,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -265,18 +282,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -300,6 +316,13 @@
             "UI/Icons/Customization/Charms/AU_003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -325,14 +348,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "Legacy",
-        "CustomizationId": "AU_003"
+        "CustomizationId": "AU_003",
+        "SearchTags": []
       },
       "AU_004": {
         "Category": "ECustomizationCategory::Charm",
@@ -342,11 +366,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -365,6 +389,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -373,18 +398,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -408,6 +432,13 @@
             "UI/Icons/Customization/Charms/AU_004.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -433,14 +464,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "Legacy",
-        "CustomizationId": "AU_004"
+        "CustomizationId": "AU_004",
+        "SearchTags": []
       },
       "AU_005": {
         "Category": "ECustomizationCategory::Charm",
@@ -450,11 +482,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -473,6 +505,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -481,18 +514,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -516,6 +548,13 @@
             "UI/Icons/Customization/Charms/AU_005.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -541,14 +580,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "Legacy",
-        "CustomizationId": "AU_005"
+        "CustomizationId": "AU_005",
+        "SearchTags": []
       }
     }
   }

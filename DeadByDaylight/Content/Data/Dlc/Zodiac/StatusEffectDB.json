@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'StatusEffectProperties'",
+        "ObjectName": "Class'StatusEffectProperties'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -20,7 +20,7 @@
         "ExternalEffectSource": "EExternalEffectSource::Perk",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -29,7 +29,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -44,6 +44,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -59,7 +60,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -92,11 +93,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "HasteWhileShiningEffect"
       },
@@ -110,7 +111,7 @@
         "ExternalEffectSource": "EExternalEffectSource::Perk",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -119,7 +120,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -134,6 +135,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -149,7 +151,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -182,11 +184,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S40P02_BlessedStatusEffect"
       },
@@ -200,7 +202,7 @@
         "ExternalEffectSource": "EExternalEffectSource::Perk",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -209,7 +211,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -224,6 +226,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -239,7 +242,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -272,11 +275,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "DetectionImmunityEffect"
       },
@@ -290,7 +293,7 @@
         "ExternalEffectSource": "EExternalEffectSource::Perk",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -299,7 +302,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -314,6 +317,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -329,7 +333,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -362,11 +366,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S40P01HinderedEffect"
       }

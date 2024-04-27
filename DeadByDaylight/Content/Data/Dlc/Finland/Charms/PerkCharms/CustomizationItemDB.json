@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CustomizationItemData'",
+        "ObjectName": "Class'CustomizationItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -18,11 +18,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -63,6 +63,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -71,18 +72,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -106,6 +106,13 @@
             "UI/Icons/Customization/PerkCharms/K11_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -131,14 +138,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K11_PCharm001"
+        "CustomizationId": "K11_PCharm001",
+        "SearchTags": []
       },
       "K11_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -148,11 +156,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -193,6 +201,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -201,18 +210,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -236,6 +244,13 @@
             "UI/Icons/Customization/PerkCharms/K11_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -261,14 +276,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K11_PCharm002"
+        "CustomizationId": "K11_PCharm002",
+        "SearchTags": []
       },
       "K11_PCharm003": {
         "Category": "ECustomizationCategory::Charm",
@@ -278,11 +294,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -323,6 +339,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -331,18 +348,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -366,6 +382,13 @@
             "UI/Icons/Customization/PerkCharms/K11_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -391,14 +414,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K11_PCharm003"
+        "CustomizationId": "K11_PCharm003",
+        "SearchTags": []
       },
       "S13_PCharm001": {
         "Category": "ECustomizationCategory::Charm",
@@ -408,11 +432,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -453,6 +477,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -461,18 +486,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -496,6 +520,13 @@
             "UI/Icons/Customization/PerkCharms/S13_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -521,14 +552,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S13_PCharm001"
+        "CustomizationId": "S13_PCharm001",
+        "SearchTags": []
       },
       "S13_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -538,11 +570,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -583,6 +615,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -591,18 +624,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -626,6 +658,13 @@
             "UI/Icons/Customization/PerkCharms/S13_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -651,14 +690,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S13_PCharm002"
+        "CustomizationId": "S13_PCharm002",
+        "SearchTags": []
       },
       "S13_PCharm003": {
         "Category": "ECustomizationCategory::Charm",
@@ -668,11 +708,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -713,6 +753,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -721,18 +762,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -756,6 +796,13 @@
             "UI/Icons/Customization/PerkCharms/S13_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -781,14 +828,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S13_PCharm003"
+        "CustomizationId": "S13_PCharm003",
+        "SearchTags": []
       }
     }
   }

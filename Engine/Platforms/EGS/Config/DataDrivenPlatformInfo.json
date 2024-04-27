@@ -2,14 +2,15 @@
 bIsConfidential=true
 IniParent=Windows
 AudioCompressionSettingsIniSectionName=/Script/EGSPlatformEditor.EGSTargetSettings
-Freezing_MaxFieldAlignment=8
+Freezing_MaxFieldAlignment64=8
 Freezing_bAlignBases=true
+GlobalIdentifier=57103E01479C4A7B993C81B8E1D29909
 
-[PlatformInfo EGS]
 TargetPlatformName=EGS
 DisplayName=Epic Game Store
 PlatformType=Game
 PlatformFlags=None
+
 NormalIconPath=/Platforms/EGS/Content/Editor/Slate/Launcher/Platform_EGS_24x
 LargeIconPath=/Platforms/EGS/Content/Editor/Slate/Launcher/Platform_EGS_128x
 XLargeIconPath=
@@ -23,28 +24,5 @@ BinariesDirectoryName=EGS
 IniPlatformName=EGS
 bUsesHostCompiler=false
 bUATClosesAfterLaunch=false
-bIsConfidential=true
-UBTTargetID=EGS
-PlatformGroupName=Desktop
-
-[PlatformInfo EGSClient]
-TargetPlatformName=EGS
-DisplayName=Epic Game Store
-PlatformType=Client
-PlatformFlags=None
-NormalIconPath=/Platforms/EGS/Content/Editor/Slate/Launcher/Platform_EGS_24x
-LargeIconPath=/Platforms/EGS/Content/Editor/Slate/Launcher/Platform_EGS_128x
-XLargeIconPath=
-UATCommandLine=-client
-AutoSDKPath=
-TutorialPath=
-Windows:bIsEnabled=true
-Mac:bIsEnabled=false
-Linux:bIsEnabled=false
-BinariesDirectoryName=EGS
-IniPlatformName=EGS
-bUsesHostCompiler=false
-bUATClosesAfterLaunch=false
-bIsConfidential=true
 UBTTargetID=EGS
 PlatformGroupName=Desktop

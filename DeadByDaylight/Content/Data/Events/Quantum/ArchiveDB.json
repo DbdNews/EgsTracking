@@ -2,23 +2,27 @@
   {
     "Type": "DataTable",
     "Name": "ArchiveDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct ArchiveDefinition",
+        "ObjectName": "Class'ArchiveDefinition'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "Winter2022": {
+        "Number": 0,
         "Title": {
           "Namespace": "",
           "Key": "DE7030FB49758B65343940A6163C0ADF",
-          "SourceString": "BONE CHILL"
+          "SourceString": "ARCHIVE_Winter2022_TITLE",
+          "LocalizedString": "BONE CHILL"
         },
         "Description": {
           "Namespace": "",
           "Key": "3AACE7F9460E6E22563E9B9058C64CDD",
-          "SourceString": "@#ARCHIVE_Winter2022_DESC"
+          "SourceString": "ARCHIVE_Winter2022_DESC",
+          "LocalizedString": "@#ARCHIVE_Winter2022_DESC"
         },
         "PurchasePassPicturePath": "",
         "PurchaseTierPicturePath": "",
@@ -28,7 +32,7 @@
         "EventStyle": "EArchivesEventStyle::None",
         "StoryBookMarkTexture": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "StyleFrameLabel": "Winter",
         "EventStoryLabel": "",

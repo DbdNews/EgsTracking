@@ -5,13 +5,112 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
+      "20": {
+        "CharacterIndex": 20,
+        "CharacterCodename": "Zarina",
+        "Role": "EPlayerRole::VE_Camper",
+        "Difficulty": "ECharacterDifficulty::VE_None",
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "BB0861B449E1BB67A4B2A6BBC69EFE8C",
+          "SourceString": "SURVIVOR_UKRAINE_NAME",
+          "LocalizedString": "Zarina Kassir"
+        },
+        "Backstory": {
+          "Namespace": "",
+          "Key": "C0706484456F8566A1AAC683EE28D272",
+          "SourceString": "SURVIVOR_UKRAINE_BIO",
+          "LocalizedString": "Growing up in a Lebanese household in Brooklyn, Zarina struggled with two unique cultural identities. She felt this cultural difference painted a target on her back. To avoid ridicule and bullies, she observed what popular kids liked and learned to project the image they preferred. At school, she would go by the name \"Karina,\" dye her hair lighter, and trash her “foreign” lunches.<br><br>At home, the news channel was always on. Urgent reports of injustice captivated Zarina, inspiring her to produce her own stories. When she was a teenager, she embraced her real name and roots and borrowed her father’s digital camera to interview members of her community in Bay Ridge. By posting her content online, she slowly built a loyal following. Each week, she picked a new issue and challenged people to speak their mind on camera.<br><br>When she heard a rumor that a fast-food restaurant owner was exploiting workers, she decided to go undercover and produce a hard-hitting film. She modified her look, faked an accent, and secured a waitress position at the restaurant. After three weeks of unpaid work, she was fired for demanding her paycheck. To retaliate, she posted clips of the restaurant owner’s abusive behavior and within hours the news had picked up her story, but somehow spun it to create sympathy for the restaurant owner.<br><br>Embittered by the experience, Zarina committed to become an independent producer and filmmaker. Her first feature film was for a competition at school inspired by an English class poem about Sacco and Vanzetti, two Italian migrants controversially executed for murder. Her film won first prize and launched her as an uncompromising documentary filmmaker.<br><br>Months later, her world turned upside down. A public video surveillance camera filmed her father carrying two coffees at a street corner a few blocks from home. A tall, hooded man stood behind him. The man shouted something at her father who took a step back, startled. Suddenly and unexpectedly, the man pushed him in the street as a car sped by.<br><br>His death sent a shockwave of anger and pain that left Zarina in pieces.<br><br>The perpetrator—Clark Stevenson—was soon arrested and incarcerated for manslaughter.<br><br>Zarina became obsessed with Clark--his gang “IR-28”, his short prison sentence, his apparent lack of remorse. A year went by and she had uncovered enough about Clark to shed more light on his crime. With the last of her inheritance she bought a new camera and a plane ticket to Nebraska and bribed the warden at Hellshire Penitentiary to let her interview Clark.<br><br>She filmed their first meeting and asked him about her father and his gang and his violent tendencies. Clark refused to talk; but, in the weeks that followed, she used her research to push his buttons and finally got a confession of a pre-meditated crime.<br><br>Zarina’s film became a tribute to her father and the trail of blood left by gang violence. When the news finally picked up the story, it was because the film had gained international acclaim.<br><br>Some inmates contacted her when they heard about her documentary. Most of them shared eccentric anecdotes in hopes of being filmed, but one story stood out from the rest: an entire wing in Hellshire Penitentiary was sealed off because of the “Mad Mick Massacre.” The official story was an Irish outlaw had heartlessly slaughtered the warden and his guards.<br><br>From working on her Sacco and Vanzetti film, Zarina knew that the ‘official’ story wasn’t always the ‘true’ story. She investigated Hellshire’s records and found an Irish-American inmate sentenced to twenty years for assault in 1860. According to the penitentiary’s blueprint, the sealed off wing was part of Hellshire’s original infrastructure. If she reached that sealed off section, she could shed some light on the Mad Mick story. All she needed was a way in.<br><br>Next morning, she was joining the Hellshire Penitentiary walking tour. She blended in the crowd of jet-lagged tourists and veered off when they headed toward the kitchen. She’d memorized the blueprint and knew exactly where to go and how to avoid surveyance cameras. An unexpected security detail nearly cut her investigation short, but she was able to hide under an old, dusty prison bed. When the guards disappeared, she continued her search and finally found Mick’s cell.<br><br>Entering the dark, dilapidated cell, Zarina ran her hand across the old brick wall. Her fingers felt a marking and traced the letters: DEATH TO BAYSHORE. A loose brick fell, revealing a gap.<br><br>She inserted her hand. Fingers landed on a piece of cold, cracked metal. She fished it out… an old, rusty wrench. A damp chill ran down her spine and she looked down; a man lay at her feet, bleeding, his limbs contorted and his eyes, dark and terrified—her father’s eyes. A pool of crimson blood on black pavement. Paralyzed, black fog filled the cell and she shut her eyes to push these nightmarish visions out of her mind."
+        },
+        "Biography": {
+          "Namespace": "",
+          "Key": "24113A694DD1C447C36C7FBF9CB02AA0",
+          "SourceString": "SURVIVOR_UKRAINE_TOOLTIP",
+          "LocalizedString": "A plucky documentarian, able to use her street smarts to avoid detection and greatly assist other Survivors.<br><br>Her personal perks, <b>Off The Record</b>, <b>Red Herring</b> and <b>For the People</b>, help her remain hidden in the face of danger, create distractions, and quickly heal others by forgoing her own safety."
+        },
+        "IconFilePath": "UI/Icons/CharPortraits/Ukraine/S21_ZarinaKassir_Portrait.png",
+        "HudIcon": {
+          "ObjectName": "Texture2D'US_charSelect_portrait_HUD'",
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Ukraine/US_charSelect_portrait_HUD.0"
+        },
+        "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Ukraine/US_storeBackground.png",
+        "CustomizationDescription": [
+          {
+            "Category": "ECustomizationCategory::SurvivorHead",
+            "DefaultItemId": {
+              "RowValue": "US_Head01"
+            },
+            "SocketName": "None"
+          },
+          {
+            "Category": "ECustomizationCategory::SurvivorTorso",
+            "DefaultItemId": {
+              "RowValue": "US_Torso01"
+            },
+            "SocketName": "None"
+          },
+          {
+            "Category": "ECustomizationCategory::SurvivorLegs",
+            "DefaultItemId": {
+              "RowValue": "US_Legs01"
+            },
+            "SocketName": "None"
+          }
+        ],
+        "ChapterDlcId": "Ukraine",
+        "AdditionalDlcIds": [
+          "EP2"
+        ],
+        "AvailableIfDlcInstalled": true,
+        "DebugName": "[S21] Zarina Kassir",
+        "IsInChunk0": false,
+        "IsAvailableInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": false,
+        "PlatformExclusiveFlag": 0,
+        "GamePawn": {
+          "AssetPathName": "/Game/Characters/Campers/Blueprints/BP_CamperFemale10_Character.BP_CamperFemale10_Character_C",
+          "SubPathString": ""
+        },
+        "MenuPawn": {
+          "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale10.BP_Menu_CamperFemale10_C",
+          "SubPathString": ""
+        },
+        "IsDefaultItemSpawnableInParadise": true,
+        "DefaultItem": "None",
+        "DefaultPerk": "None",
+        "Gender": "EGender::VE_Female",
+        "KillerAbilities": [],
+        "TunableDB": {
+          "AssetPtr": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "KillerHeight": "EKillerHeight::Short",
+        "SlideShowDescriptions": {
+          "Id": "None",
+          "Overview": {
+            "CultureInvariantString": null
+          },
+          "Playstyle": {
+            "CultureInvariantString": null
+          },
+          "ImageFilePath": "",
+          "PerkCategory": []
+        },
+        "HideStoreCustomizations": false,
+        "SearchTags": [],
+        "CustomizationCategories": [],
+        "CharacterId": "Zarina"
+      },
       "268435474": {
         "CharacterIndex": 268435474,
+        "CharacterCodename": "Gunslinger",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Hard",
         "DisplayName": {
@@ -20,7 +119,7 @@
           "SourceString": "KILLER_UKRAINE_NAME",
           "LocalizedString": "The Deathslinger"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "B6DC8CB747C056247547FA81C184ED3A",
           "SourceString": "KILLER_UKRAINE_BIO",
@@ -76,6 +175,7 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher19.BP_Menu_Slasher19_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_HarpoonRifle",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Male",
@@ -101,103 +201,9 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "Gunslinger"
-      },
-      "20": {
-        "CharacterIndex": 20,
-        "Role": "EPlayerRole::VE_Camper",
-        "Difficulty": "ECharacterDifficulty::VE_None",
-        "DisplayName": {
-          "Namespace": "",
-          "Key": "BB0861B449E1BB67A4B2A6BBC69EFE8C",
-          "SourceString": "SURVIVOR_UKRAINE_NAME",
-          "LocalizedString": "Zarina Kassir"
-        },
-        "BackStory": {
-          "Namespace": "",
-          "Key": "C0706484456F8566A1AAC683EE28D272",
-          "SourceString": "SURVIVOR_UKRAINE_BIO",
-          "LocalizedString": "Growing up in a Lebanese household in Brooklyn, Zarina struggled with two unique cultural identities. She felt this cultural difference painted a target on her back. To avoid ridicule and bullies, she observed what popular kids liked and learned to project the image they preferred. At school, she would go by the name \"Karina,\" dye her hair lighter, and trash her “foreign” lunches.<br><br>At home, the news channel was always on. Urgent reports of injustice captivated Zarina, inspiring her to produce her own stories. When she was a teenager, she embraced her real name and roots and borrowed her father’s digital camera to interview members of her community in Bay Ridge. By posting her content online, she slowly built a loyal following. Each week, she picked a new issue and challenged people to speak their mind on camera.<br><br>When she heard a rumor that a fast-food restaurant owner was exploiting workers, she decided to go undercover and produce a hard-hitting film. She modified her look, faked an accent, and secured a waitress position at the restaurant. After three weeks of unpaid work, she was fired for demanding her paycheck. To retaliate, she posted clips of the restaurant owner’s abusive behavior and within hours the news had picked up her story, but somehow spun it to create sympathy for the restaurant owner.<br><br>Embittered by the experience, Zarina committed to become an independent producer and filmmaker. Her first feature film was for a competition at school inspired by an English class poem about Sacco and Vanzetti, two Italian migrants controversially executed for murder. Her film won first prize and launched her as an uncompromising documentary filmmaker.<br><br>Months later, her world turned upside down. A public video surveillance camera filmed her father carrying two coffees at a street corner a few blocks from home. A tall, hooded man stood behind him. The man shouted something at her father who took a step back, startled. Suddenly and unexpectedly, the man pushed him in the street as a car sped by.<br><br>His death sent a shockwave of anger and pain that left Zarina in pieces.<br><br>The perpetrator—Clark Stevenson—was soon arrested and incarcerated for manslaughter.<br><br>Zarina became obsessed with Clark--his gang “IR-28”, his short prison sentence, his apparent lack of remorse. A year went by and she had uncovered enough about Clark to shed more light on his crime. With the last of her inheritance she bought a new camera and a plane ticket to Nebraska and bribed the warden at Hellshire Penitentiary to let her interview Clark.<br><br>She filmed their first meeting and asked him about her father and his gang and his violent tendencies. Clark refused to talk; but, in the weeks that followed, she used her research to push his buttons and finally got a confession of a pre-meditated crime.<br><br>Zarina’s film became a tribute to her father and the trail of blood left by gang violence. When the news finally picked up the story, it was because the film had gained international acclaim.<br><br>Some inmates contacted her when they heard about her documentary. Most of them shared eccentric anecdotes in hopes of being filmed, but one story stood out from the rest: an entire wing in Hellshire Penitentiary was sealed off because of the “Mad Mick Massacre.” The official story was an Irish outlaw had heartlessly slaughtered the warden and his guards.<br><br>From working on her Sacco and Vanzetti film, Zarina knew that the ‘official’ story wasn’t always the ‘true’ story. She investigated Hellshire’s records and found an Irish-American inmate sentenced to twenty years for assault in 1860. According to the penitentiary’s blueprint, the sealed off wing was part of Hellshire’s original infrastructure. If she reached that sealed off section, she could shed some light on the Mad Mick story. All she needed was a way in.<br><br>Next morning, she was joining the Hellshire Penitentiary walking tour. She blended in the crowd of jet-lagged tourists and veered off when they headed toward the kitchen. She’d memorized the blueprint and knew exactly where to go and how to avoid surveyance cameras. An unexpected security detail nearly cut her investigation short, but she was able to hide under an old, dusty prison bed. When the guards disappeared, she continued her search and finally found Mick’s cell.<br><br>Entering the dark, dilapidated cell, Zarina ran her hand across the old brick wall. Her fingers felt a marking and traced the letters: DEATH TO BAYSHORE. A loose brick fell, revealing a gap.<br><br>She inserted her hand. Fingers landed on a piece of cold, cracked metal. She fished it out… an old, rusty wrench. A damp chill ran down her spine and she looked down; a man lay at her feet, bleeding, his limbs contorted and his eyes, dark and terrified—her father’s eyes. A pool of crimson blood on black pavement. Paralyzed, black fog filled the cell and she shut her eyes to push these nightmarish visions out of her mind."
-        },
-        "Biography": {
-          "Namespace": "",
-          "Key": "24113A694DD1C447C36C7FBF9CB02AA0",
-          "SourceString": "SURVIVOR_UKRAINE_TOOLTIP",
-          "LocalizedString": "A plucky documentarian, able to use her street smarts to avoid detection and greatly assist other Survivors.<br><br>Her personal perks, <b>Off The Record</b>, <b>Red Herring</b> and <b>For the People</b>, help her remain hidden in the face of danger, create distractions, and quickly heal others by forgoing her own safety."
-        },
-        "IconFilePath": "UI/Icons/CharPortraits/Ukraine/S21_ZarinaKassir_Portrait.png",
-        "HudIcon": {
-          "ObjectName": "Texture2D'US_charSelect_portrait_HUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Ukraine/US_charSelect_portrait_HUD.0"
-        },
-        "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Ukraine/US_storeBackground.png",
-        "CustomizationDescription": [
-          {
-            "Category": "ECustomizationCategory::SurvivorHead",
-            "DefaultItemId": {
-              "RowValue": "US_Head01"
-            },
-            "SocketName": "None"
-          },
-          {
-            "Category": "ECustomizationCategory::SurvivorTorso",
-            "DefaultItemId": {
-              "RowValue": "US_Torso01"
-            },
-            "SocketName": "None"
-          },
-          {
-            "Category": "ECustomizationCategory::SurvivorLegs",
-            "DefaultItemId": {
-              "RowValue": "US_Legs01"
-            },
-            "SocketName": "None"
-          }
-        ],
-        "ChapterDlcId": "Ukraine",
-        "AdditionalDlcIds": [
-          "EP2"
-        ],
-        "AvailableIfDlcInstalled": true,
-        "DebugName": "[S21] Zarina Kassir",
-        "IsInChunk0": false,
-        "IsAvailableInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
-        "PlatformExclusiveFlag": 0,
-        "GamePawn": {
-          "AssetPathName": "/Game/Characters/Campers/Blueprints/BP_CamperFemale10_Character.BP_CamperFemale10_Character_C",
-          "SubPathString": ""
-        },
-        "MenuPawn": {
-          "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale10.BP_Menu_CamperFemale10_C",
-          "SubPathString": ""
-        },
-        "DefaultItem": "None",
-        "DefaultPerk": "None",
-        "Gender": "EGender::VE_Female",
-        "KillerAbilities": [],
-        "TunableDB": {
-          "AssetPtr": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "KillerHeight": "EKillerHeight::Short",
-        "SlideShowDescriptions": {
-          "Id": "None",
-          "Overview": {
-            "CultureInvariantString": null
-          },
-          "Playstyle": {
-            "CultureInvariantString": null
-          },
-          "ImageFilePath": "",
-          "PerkCategory": []
-        },
-        "HideStoreCustomizations": false,
-        "CustomizationCategories": [],
-        "CharacterId": "Zarina"
       }
     }
   }

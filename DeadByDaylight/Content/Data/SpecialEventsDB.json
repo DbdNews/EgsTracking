@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'SpecialEventData'",
+        "ObjectName": "Class'SpecialEventData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -23,6 +23,19 @@
         "EventThemeLabel": "Anniversary2019",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbyAnniversary",
         "ShopName": "Shop_Static",
@@ -47,7 +60,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -59,11 +72,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -71,11 +84,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -96,6 +109,19 @@
         "EventThemeLabel": "Anniversary2020",
         "IsTrackedOnline": true,
         "UseSpecialEventLoadingScreen": true,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbyAnniversary2020",
         "ShopName": "Shop_Static",
@@ -120,7 +146,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -132,11 +158,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -144,11 +170,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -169,6 +195,19 @@
         "EventThemeLabel": "Anniversary2021",
         "IsTrackedOnline": true,
         "UseSpecialEventLoadingScreen": true,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "",
         "ShopName": "Shop_Static",
@@ -182,7 +221,8 @@
             },
             "ShouldSpawnOnSurvivor": true,
             "ShouldSpawnOnKiller": true,
-            "ShouldSpawnOnGameState": false
+            "ShouldSpawnOnGameState": false,
+            "ShouldSpawnOnPlayerClasses": []
           },
           {
             "Component": {
@@ -191,7 +231,8 @@
             },
             "ShouldSpawnOnSurvivor": false,
             "ShouldSpawnOnKiller": false,
-            "ShouldSpawnOnGameState": true
+            "ShouldSpawnOnGameState": true,
+            "ShouldSpawnOnPlayerClasses": []
           }
         ],
         "GameMode": "ESpecialEventGameMode::Collection",
@@ -218,7 +259,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -230,11 +271,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -242,11 +283,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -264,6 +305,19 @@
         "EventThemeLabel": "",
         "IsTrackedOnline": true,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "Lobby",
         "ShopName": "Shop_Static",
@@ -277,7 +331,8 @@
             },
             "ShouldSpawnOnSurvivor": true,
             "ShouldSpawnOnKiller": true,
-            "ShouldSpawnOnGameState": false
+            "ShouldSpawnOnGameState": false,
+            "ShouldSpawnOnPlayerClasses": []
           },
           {
             "Component": {
@@ -286,7 +341,8 @@
             },
             "ShouldSpawnOnSurvivor": false,
             "ShouldSpawnOnKiller": false,
-            "ShouldSpawnOnGameState": true
+            "ShouldSpawnOnGameState": true,
+            "ShouldSpawnOnPlayerClasses": []
           }
         ],
         "GameMode": "ESpecialEventGameMode::Collection",
@@ -307,7 +363,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -319,11 +375,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -331,11 +387,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -356,6 +412,19 @@
         "EventThemeLabel": "Halloween",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "Lobby",
         "ShopName": "Shop_Static",
@@ -380,7 +449,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -392,11 +461,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -404,11 +473,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -429,6 +498,19 @@
         "EventThemeLabel": "Halloween",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbyHalloween",
         "ShopName": "Shop_Static",
@@ -453,7 +535,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -465,11 +547,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -477,11 +559,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -502,6 +584,19 @@
         "EventThemeLabel": "Halloween",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbyHalloween2020",
         "ShopName": "Shop_Static",
@@ -526,7 +621,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -538,11 +633,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -550,11 +645,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -575,6 +670,19 @@
         "EventThemeLabel": "Halloween",
         "IsTrackedOnline": true,
         "UseSpecialEventLoadingScreen": true,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbyHalloween2021",
         "ShopName": "Shop_Static",
@@ -605,7 +713,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -617,11 +725,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -629,11 +737,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -654,6 +762,19 @@
         "EventThemeLabel": "Halloween",
         "IsTrackedOnline": true,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [
           {
             "ObjectiveId": "HalloweenKillerVial",
@@ -751,7 +872,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -763,11 +884,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -775,11 +896,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -800,6 +921,19 @@
         "EventThemeLabel": "HalloweenMobile2020",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "Lobby",
         "ShopName": "Shop_Static",
@@ -824,7 +958,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -836,11 +970,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -848,11 +982,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -873,6 +1007,19 @@
         "EventThemeLabel": "Lunar",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbyLunar",
         "ShopName": "Shop_Static",
@@ -897,7 +1044,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -909,11 +1056,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -921,11 +1068,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -946,6 +1093,19 @@
         "EventThemeLabel": "Lunar",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbyLunar2021",
         "ShopName": "Shop_Static",
@@ -970,7 +1130,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -982,11 +1142,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -994,11 +1154,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -1019,6 +1179,19 @@
         "EventThemeLabel": "Lunar",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [
           {
             "ObjectiveId": "BurntCoins",
@@ -1116,7 +1289,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -1128,11 +1301,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -1140,11 +1313,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -1165,6 +1338,19 @@
         "EventThemeLabel": "Lunar",
         "IsTrackedOnline": true,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [
           {
             "ObjectiveId": "LunarLantern",
@@ -1220,7 +1406,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -1232,11 +1418,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -1244,11 +1430,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -1269,6 +1455,19 @@
         "EventThemeLabel": "SummerEvent2018",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [
           {
             "ObjectiveId": "SummerKillerCoins",
@@ -1366,7 +1565,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -1378,11 +1577,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -1390,11 +1589,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -1415,6 +1614,19 @@
         "EventThemeLabel": "Winter",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbySnow",
         "ShopName": "Shop_Static",
@@ -1439,7 +1651,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -1451,11 +1663,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -1463,11 +1675,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,
@@ -1488,6 +1700,19 @@
         "EventThemeLabel": "Winter",
         "IsTrackedOnline": false,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbySnow",
         "ShopName": "Shop_Static_Snow",
@@ -1512,7 +1737,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -1524,11 +1749,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -1536,11 +1761,11 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,

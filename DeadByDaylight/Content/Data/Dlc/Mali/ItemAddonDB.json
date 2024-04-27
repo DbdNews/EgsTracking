@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'ItemAddonProperties'",
+        "ObjectName": "Class'ItemAddonProperties'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -24,7 +24,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -33,7 +33,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -48,6 +48,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -66,6 +67,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_healingSalve.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -95,11 +103,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_HealingSalve"
       },
@@ -117,7 +125,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -126,7 +134,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -141,6 +149,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -159,6 +168,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_prayerTabletFragment.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -188,11 +204,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_PrayerTabletFragment"
       },
@@ -210,7 +226,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -219,7 +235,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -234,6 +250,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -252,6 +269,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_olibanumIncense.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -281,11 +305,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_OlibanumIncense"
       },
@@ -303,7 +327,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -312,7 +336,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -327,6 +351,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -345,6 +370,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_limestoneSeal.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -374,11 +406,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_LimestoneSeal"
       },
@@ -396,7 +428,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -405,7 +437,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -420,6 +452,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -438,6 +471,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_prayerApple.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -467,11 +507,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_PrayerApple"
       },
@@ -491,7 +531,7 @@
         ],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -500,7 +540,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -515,6 +555,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -533,6 +574,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_prophylacticAmulet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -562,11 +610,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_ProphylacticAmulet"
       },
@@ -584,7 +632,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -593,7 +641,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -608,6 +656,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -626,6 +675,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_potentTincture.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -655,11 +711,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_PotentTincture"
       },
@@ -677,7 +733,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -686,7 +742,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -701,6 +757,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -719,6 +776,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_emeticPotion.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -748,11 +812,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_EmeticPotion"
       },
@@ -770,7 +834,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -779,7 +843,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -794,6 +858,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -812,6 +877,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_hematiteSeal.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -841,11 +913,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_HematiteSeal"
       },
@@ -863,7 +935,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -872,7 +944,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -887,6 +959,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -905,6 +978,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_incensedOintment.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -934,11 +1014,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_IncensedOintment"
       },
@@ -956,7 +1036,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -965,7 +1045,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -980,6 +1060,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -998,6 +1079,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_infectedEmetic.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1027,11 +1115,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_InfectedEmetic"
       },
@@ -1051,7 +1139,7 @@
         ],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1060,7 +1148,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1075,6 +1163,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1093,6 +1182,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_ashenApple.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1122,11 +1218,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_AshenApple"
       },
@@ -1144,7 +1240,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1153,7 +1249,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1168,6 +1264,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1186,6 +1283,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_rubbingOil.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1215,11 +1319,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_RubbingOil"
       },
@@ -1237,7 +1341,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1246,7 +1350,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1261,6 +1365,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1279,6 +1384,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_exorcismAmulet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1308,11 +1420,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_ExorcismAmulet"
       },
@@ -1330,7 +1442,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1339,7 +1451,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1354,6 +1466,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1372,6 +1485,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_vileEmetic.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1401,11 +1521,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_VileEmetic"
       },
@@ -1423,7 +1543,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1432,7 +1552,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1447,6 +1567,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1465,6 +1586,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_devoteesAmulet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1494,11 +1622,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_DevoteesAmulet"
       },
@@ -1516,7 +1644,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1525,7 +1653,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1540,6 +1668,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1558,6 +1687,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_worshipTablet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1587,11 +1723,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_WorshipTablet"
       },
@@ -1609,7 +1745,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1618,7 +1754,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1633,6 +1769,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1651,6 +1788,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_severedToe.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1680,11 +1824,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_SeveredToe"
       },
@@ -1702,7 +1846,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1711,7 +1855,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1726,6 +1870,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1744,6 +1889,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_blackIncense.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1773,11 +1925,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_BlackIncense"
       },
@@ -1795,7 +1947,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1804,7 +1956,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Vomit",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1819,6 +1971,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1837,6 +1990,13 @@
             "UI/Icons/ItemAddons/Mali/iconAddon_IridescentSeal.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1866,11 +2026,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Plague_IridescentSeal"
       }

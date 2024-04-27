@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'OfferingProperties'",
+        "ObjectName": "Class'OfferingProperties'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -28,7 +28,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_ardentRavenWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -37,7 +37,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -52,6 +52,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -64,12 +65,19 @@
             "Namespace": "",
             "Key": "CC110D5C41423FFBB48A0DA1F107C9CC",
             "SourceString": "OFFERING_ArdentRavenWreath_DESC",
-            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Deviousness category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Crafted with a fiery, undying passion out of blackened branches and coals, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Deviousness category.<br><span class=\"FlavorText\">\"Crafted with a fiery, undying passion out of blackened branches and coals, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_ardentRavenWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -99,11 +107,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ArdentRavenWreath"
       },
@@ -125,7 +133,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_ardentShrikeWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -134,7 +142,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -149,6 +157,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -161,12 +170,19 @@
             "Namespace": "",
             "Key": "B7ECE091488CAA08821991AC8E3219D3",
             "SourceString": "OFFERING_ArdentShrikeWreath_DESC",
-            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Sacrifice category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Crafted with a fiery, undying passion out of sticks, strings and bones, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Sacrifice category.<br><span class=\"FlavorText\">\"Crafted with a fiery, undying passion out of sticks, strings and bones, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_ardentShrikeWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -196,11 +212,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ArdentShrikeWreath"
       },
@@ -222,7 +238,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_ardentSpottedOwlWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -231,7 +247,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -246,6 +262,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -258,12 +275,19 @@
             "Namespace": "",
             "Key": "1B0F0E4C4FC296D9827A95A9FC0362D2",
             "SourceString": "OFFERING_ArdentSpottedOwlWreath_DESC",
-            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Hunting category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Crafted with a fiery, undying passion out of sharp metals, ropes and feathers, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Hunting category.<br><span class=\"FlavorText\">\"Crafted with a fiery, undying passion out of sharp metals, ropes and feathers, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_ardentSpottedOwlWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -293,11 +317,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ArdentSpottedowlWreath"
       },
@@ -319,7 +343,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_ardentTanagerWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -328,7 +352,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -343,6 +367,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -355,12 +380,19 @@
             "Namespace": "",
             "Key": "207A58A241CDEAF7CD6E1691D3D1878D",
             "SourceString": "OFFERING_ArdentTanagerWreath_DESC",
-            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Brutality category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Crafted with a fiery, undying passion out of bloody sticks and guts, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Brutality category.<br><span class=\"FlavorText\">\"Crafted with a fiery, undying passion out of bloody sticks and guts, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_ardentTanagerWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -390,11 +422,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ArdentTanagerWreath"
       },
@@ -415,7 +447,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_azarovsKey_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -424,7 +456,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -439,6 +471,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -451,12 +484,19 @@
             "Namespace": "",
             "Key": "242A50784042AED7D39113925B5DDC0C",
             "SourceString": "OFFERING_AutohavenWreckers_DESC",
-            "LocalizedString": "<b>Tremendously increases</b> the chances of being sent to the Autohaven Wreckers when burnt.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A broken key belonging to a vehicle of unknown brand. A keychain attached to it identifies the owner as a certain A. Azarov.\"</span>"
+            "LocalizedString": "<b>Tremendously increases</b> the chances of being sent to the Autohaven Wreckers when burnt.<br><br><span class=\"FlavorText\">\"A broken key belonging to a vehicle of unknown brand. A keychain attached to it identifies the owner as a certain A. Azarov.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_azarovsKey.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -486,11 +526,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "AzarovKey"
       },
@@ -511,7 +551,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_blackSaltStatuette_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -520,7 +560,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -535,6 +575,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -547,12 +588,19 @@
             "Namespace": "",
             "Key": "767D9B9247F4864D32061BA08EAAC820",
             "SourceString": "OFFERING_blacksaltstatuette_DESC",
-            "LocalizedString": "<b>Moderately increases</b> luck of <b>all</b> Survivors.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A friable miniature statuette made of black salt representing a woman in a kneeling position offering a gift. Some believe it brings good fortune.\"</span>"
+            "LocalizedString": "<b>Moderately increases</b> luck of <b>all</b> Survivors.<br><span class=\"FlavorText\">\"A friable miniature statuette made of black salt representing a woman in a kneeling position offering a gift. Some believe it brings good fortune.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_blackSaltStatuette.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -582,11 +630,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "BlackSaltStatuette"
       },
@@ -608,7 +656,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_wardBlack_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -617,7 +665,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -632,6 +680,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -650,6 +699,13 @@
             "UI/Icons/Favors/iconFavors_wardBlack.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -679,11 +735,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "BlackWard"
       },
@@ -706,7 +762,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_bogLaurelSachet_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -715,7 +771,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -730,6 +786,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -742,12 +799,19 @@
             "Namespace": "",
             "Key": "3741707C458D54D1B8887ABE42FDD590",
             "SourceString": "OFFERING_BogLaurelSachet_DESC",
-            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Objective category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A palm-sized hand-sewn sachet filled with dry leaves. Releases a faint tea-like aroma.\"</span>"
+            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Objective category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A palm-sized hand-sewn sachet filled with dry leaves. Releases a faint tea-like aroma.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_bogLaurelSachet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -777,11 +841,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "BogLaurelSachet"
       },
@@ -803,7 +867,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_boundEnvelope_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -812,7 +876,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -827,6 +891,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -839,12 +904,19 @@
             "Namespace": "",
             "Key": "24096C2640D508AC697899B8587D61E9",
             "SourceString": "OFFERING_boundenvelope_DESC",
-            "LocalizedString": "Grants <b>25%</b> bonus Bloodpoints in <b>all</b> categories to all Survivors.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"An opened envelope re-sealed and bound with 4 colored ribbons.\"</span>"
+            "LocalizedString": "Grants <b>25%</b> bonus Bloodpoints in <b>all</b> categories to all Survivors.<br><span class=\"FlavorText\">\"An opened envelope re-sealed and bound with 4 colored ribbons.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_boundEnvelope.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -874,11 +946,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "BoundEnvelope"
       },
@@ -900,7 +972,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_cattleTag28_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -909,7 +981,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -924,6 +996,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -942,6 +1015,13 @@
             "UI/Icons/Favors/iconFavors_cattleTag28.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -971,11 +1051,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "CattleTag28"
       },
@@ -997,7 +1077,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_chalkPouch_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -1006,7 +1086,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1021,6 +1101,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1033,12 +1114,19 @@
             "Namespace": "",
             "Key": "30BDF29C41D9FC5FB5387D96A8168484",
             "SourceString": "OFFERING_ChalkPouch_DESC",
-            "LocalizedString": "<b>Slightly increases</b> luck.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A small cotton pouch filled with a white chalky powder of unknown origin. Some believe it brings good fortune.\"</span>"
+            "LocalizedString": "<b>Slightly increases</b> luck.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A small cotton pouch filled with a white chalky powder of unknown origin. Some believe it brings good fortune.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_chalkPouch.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1068,11 +1156,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ChalkPouch"
       },
@@ -1093,7 +1181,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_charredWeddingPhotograph_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -1102,7 +1190,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1117,6 +1205,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1129,12 +1218,19 @@
             "Namespace": "",
             "Key": "F2A5FA074CB6D2C5BFD646BBBE29D84F",
             "SourceString": "offering_desc03",
-            "LocalizedString": "<b>Tremendously increases</b> the chances of being sent to Crotus Prenn Asylum when burnt.<br><span class=\"FlavorText\">\"A burned portrait of a couple on their wedding day, the faces are completely charred and unidentifiable.\"</span>"
+            "LocalizedString": "<b>Tremendously increases</b> the chances of being sent to Crotus Prenn Asylum when burnt.<br><br><span class=\"FlavorText\">\"A burned portrait of a couple on their wedding day, the faces are completely charred and unidentifiable.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_charredWeddingPhotograph.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1164,11 +1260,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "CharredWeddingPhotograph"
       },
@@ -1188,7 +1284,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_clearReagent_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -1197,7 +1293,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1212,6 +1308,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1224,12 +1321,19 @@
             "Namespace": "",
             "Key": "65284D534DDFCCD36E62C69EDABFE08E",
             "SourceString": "OFFERING_ClearReagent_DESC",
-            "LocalizedString": "<b>Slightly lessens</b> the Dark Mist.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"The Mist rolls in, traps all in Its deep madness. There is no running, no escape, no asylum, except for the clear waters of the pond lost in the forest.\" -Unknown, Notebook</span>"
+            "LocalizedString": "<b>Slightly lessens</b> the Dark Mist.<br><span class=\"FlavorText\">\"The Mist rolls in, traps all in Its deep madness. There is no running, no escape, no asylum, except for the clear waters of the pond lost in the forest.\" -Unknown, Notebook</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_clearReagent.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1259,11 +1363,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ClearReagent"
       },
@@ -1285,7 +1389,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_cattleTag81_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -1294,7 +1398,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1309,6 +1413,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1327,6 +1432,13 @@
             "UI/Icons/Favors/iconFavors_cattleTag81.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1356,11 +1468,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ColdwindCattleTag81"
       },
@@ -1382,7 +1494,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_creamChalkPouch_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -1391,7 +1503,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1406,6 +1518,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1418,12 +1531,19 @@
             "Namespace": "",
             "Key": "9D66FAD144545F16FFAE5F9187BC8F2C",
             "SourceString": "OFFERING_creamchalkpouch_DESC",
-            "LocalizedString": "<b>Moderately increases</b> luck.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A small cotton pouch half-filled with a cream colored chalky powder of unknown origin. Releases a faint herbal aroma. Some believe it brings good fortune.\"</span>"
+            "LocalizedString": "<b>Moderately increases</b> luck.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A small cotton pouch half-filled with a cream colored chalky powder of unknown origin. Releases a faint herbal aroma. Some believe it brings good fortune.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_creamChalkPouch.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1453,11 +1573,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "CreamChalkPouch"
       },
@@ -1475,7 +1595,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_crecentMoonBouquet_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -1484,7 +1604,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1499,6 +1619,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1517,6 +1638,13 @@
             "UI/Icons/Favors/iconFavors_crecentMoonBouquet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1546,11 +1674,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "CrescentMoonBouquet"
       },
@@ -1573,7 +1701,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_crispleafAmaranthSachet_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -1582,7 +1710,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1597,6 +1725,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1609,12 +1738,19 @@
             "Namespace": "",
             "Key": "4DE283C841D710A0E88CA597756B4DD4",
             "SourceString": "OFFERING_CrispleadAmaranthSachet_DESC",
-            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Survival category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A palm-sized hand-sewn sachet stuffed with bead-like grain. Amaranth is said to be everlasting.\"</span>"
+            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Survival category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A palm-sized hand-sewn sachet stuffed with bead-like grain. Amaranth is said to be everlasting.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_crispleafAmaranthSachet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1644,11 +1780,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "CrispleafAmaranthSachet"
       },
@@ -1669,7 +1805,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_cutCoin_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1678,7 +1814,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1693,6 +1829,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1705,12 +1842,19 @@
             "Namespace": "",
             "Key": "1AFB72674BADBD3F668762AEF795EDB0",
             "SourceString": "OFFERING_cutcoin_DESC",
-            "LocalizedString": "Calls on The Entity to prevent the appearance of <b>2</b> chests.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Two halves of a thick metallic coin.\"</span>"
+            "LocalizedString": "Calls on The Entity to prevent the appearance of <b>2</b> chests.<br><span class=\"FlavorText\">\"Two halves of a thick metallic coin.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_cutCoin.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1740,11 +1884,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "CutCoin"
       },
@@ -1765,7 +1909,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_momentoMoriCypress_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1774,7 +1918,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1789,6 +1933,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1807,6 +1952,13 @@
             "UI/Icons/Favors/iconFavors_momentoMoriCypress.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1836,11 +1988,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "CypressMementoMori"
       },
@@ -1862,7 +2014,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_devoutRavenWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1871,7 +2023,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1886,6 +2038,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1898,12 +2051,19 @@
             "Namespace": "",
             "Key": "B8CF810B4D33046D18B04685B78E2F15",
             "SourceString": "OFFERING_DevoutRavenWreath_DESC",
-            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Deviousness category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Devoutly crafted out of blackened branches and coals, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Deviousness category.<br><span class=\"FlavorText\">\"Devoutly crafted out of blackened branches and coals, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_devoutRavenWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1933,11 +2093,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "DevoutRavenWreath"
       },
@@ -1959,7 +2119,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_devoutShrikeWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1968,7 +2128,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1983,6 +2143,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1995,12 +2156,19 @@
             "Namespace": "",
             "Key": "CD6CC4FA4627FEB450CBB4AEEF76CC05",
             "SourceString": "OFFERING_DevoutShrikeWreath_DESC",
-            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Sacrifice category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Devoutly crafted out of sticks, strings and bones, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Sacrifice category.<br><span class=\"FlavorText\">\"Devoutly crafted out of sticks, strings and bones, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_devoutShrikeWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2030,11 +2198,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "DevoutShrikeWreath"
       },
@@ -2056,7 +2224,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_devoutSpottedOwlWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -2065,7 +2233,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2080,6 +2248,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -2092,12 +2261,19 @@
             "Namespace": "",
             "Key": "8E3497E349323CE066B3AB8F55210E7C",
             "SourceString": "OFFERING_DevoutSpottedOwlWreath_DESC",
-            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Hunting category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Devoutly crafted out of sharp metals, ropes and feathers, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Hunting category.<br><span class=\"FlavorText\">\"Devoutly crafted out of sharp metals, ropes and feathers, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_devoutSpottedOwlWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2127,11 +2303,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "DevoutSpottedowlWreath"
       },
@@ -2153,7 +2329,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_devoutTanagerWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -2162,7 +2338,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2177,6 +2353,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -2189,12 +2366,19 @@
             "Namespace": "",
             "Key": "C4C2E3834B6A0CC3556FB3936276CB51",
             "SourceString": "OFFERING_DevoutTanagerWreath_DESC",
-            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Brutality category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Devoutly crafted out of bloody sticks and guts, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Brutality category.<br><span class=\"FlavorText\">\"Devoutly crafted out of bloody sticks and guts, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_devoutTanagerWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2224,11 +2408,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "DevoutTanagerWreath"
       },
@@ -2249,7 +2433,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_momentoMoriEbony_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -2258,7 +2442,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2273,6 +2457,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -2291,6 +2476,13 @@
             "UI/Icons/Favors/iconFavors_momentoMoriEbony.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2320,11 +2512,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "EbonyMementoMori"
       },
@@ -2344,7 +2536,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_faintReagent_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -2353,7 +2545,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2368,6 +2560,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -2380,12 +2573,19 @@
             "Namespace": "",
             "Key": "963986AA483E6A65586A3881D116F3F0",
             "SourceString": "OFFERING_FaintReagent_DESC",
-            "LocalizedString": "<b>Slightly thickens</b> the Dark Mist.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Paralyzed, I stand in the cold as death lingers.\"</span>"
+            "LocalizedString": "<b>Slightly thickens</b> the Dark Mist.<br><span class=\"FlavorText\">\"Paralyzed, I stand in the cold as death lingers.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_faintReagent.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2415,11 +2615,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FaintReagent"
       },
@@ -2442,7 +2642,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_fragrantBogLaurel_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -2451,7 +2651,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2466,6 +2666,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -2478,12 +2679,19 @@
             "Namespace": "",
             "Key": "526DA47E40100E4E881B05BC55C48104",
             "SourceString": "OFFERING_FragrantBogLaurel_DESC",
-            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Objective category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A beautiful purple flower that grows in the midst of the tainted swamp. Releases a strong tea-like aroma.\"</span>"
+            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Objective category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A beautiful purple flower that grows in the midst of the tainted swamp. Releases a strong tea-like aroma.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_fragrantBogLaurel.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2513,11 +2721,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FragrantBogLaurel"
       },
@@ -2540,7 +2748,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_fragrantCrispleafAmaranth_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -2549,7 +2757,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2564,6 +2772,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -2576,12 +2785,19 @@
             "Namespace": "",
             "Key": "7DD1B12A449576F39BFF62893E8E7697",
             "SourceString": "OFFERING_FragrantCrispleafAmaranth_DESC",
-            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Survival category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"The pale green leaves are highlighted with peculiar crimson veins. Releases a strong radish aroma.\"</span>"
+            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Survival category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"The pale green leaves are highlighted with peculiar crimson veins. Releases a strong radish aroma.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_fragrantCrispleafAmaranth.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2611,11 +2827,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FragrantCrispleafAmaranth"
       },
@@ -2638,7 +2854,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_fragrantPrimroseBlossoml_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -2647,7 +2863,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2662,6 +2878,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -2674,12 +2891,19 @@
             "Namespace": "",
             "Key": "816DC4D248A7551514DF398D0D1036A9",
             "SourceString": "OFFERING_FragrantPrimroseBlossom_DESC",
-            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Altruism category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"Golden flowers harvested at their peak. Releases a strong earthy and comforting aroma.\"</span>"
+            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Altruism category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"Golden flowers harvested at their peak. Releases a strong earthy and comforting aroma.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_fragrantPrimroseBlossom.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2709,11 +2933,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FragrantPrimroseBlossom"
       },
@@ -2736,7 +2960,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_fragrantSweetWilliam_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -2745,7 +2969,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2760,6 +2984,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -2772,12 +2997,19 @@
             "Namespace": "",
             "Key": "6AA85E5D426F7C594FACB79AC97E71D3",
             "SourceString": "OFFERING_FragrantSweetWilliam_DESC",
-            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Boldness category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A bunch of flowers with pink petals and a blood red core. Releases a strong spicy, clove-like scent.\"</span>"
+            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in the Boldness category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A bunch of flowers with pink petals and a blood red core. Releases a strong spicy, clove-like scent.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_fragrantSweetWilliam.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2807,11 +3039,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FragrantSweetWilliam"
       },
@@ -2834,7 +3066,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_freshBogLaurel_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -2843,7 +3075,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2858,6 +3090,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -2870,12 +3103,19 @@
             "Namespace": "",
             "Key": "88264EE5476A70010AB96BB8873794F7",
             "SourceString": "OFFERING_FreshBogLaurel_DESC",
-            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Objective category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A beautiful purple flower that grows in the midst of the tainted swamp. Releases a mild tea-like aroma.\"</span>"
+            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Objective category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A beautiful purple flower that grows in the midst of the tainted swamp. Releases a mild tea-like aroma.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_freshBogLaurel.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2905,11 +3145,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FreshBogLaurel"
       },
@@ -2932,7 +3172,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_freshCrispleafAmaranth_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -2941,7 +3181,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2956,6 +3196,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -2968,12 +3209,19 @@
             "Namespace": "",
             "Key": "E7D18F72473EFFB34386A1A79A39AB9C",
             "SourceString": "OFFERING_FreshCrispleafAmaranth_DESC",
-            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Survival category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"The pale green leaves are highlighted with peculiar crimson veins. Amaranth is said to be everlasting.\"</span>"
+            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Survival category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"The pale green leaves are highlighted with peculiar crimson veins. Amaranth is said to be everlasting.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_freshCrispleafAmaranth.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3003,11 +3251,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FreshCrispleafAmaranth"
       },
@@ -3030,7 +3278,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_freshPrimroseBlossoml_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -3039,7 +3287,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3054,6 +3302,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -3066,12 +3315,19 @@
             "Namespace": "",
             "Key": "030E18F54925B8B122FEA2ABF7C2E9BA",
             "SourceString": "OFFERING_FreshPrimroseBlossom_DESC",
-            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Altruism category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"Golden flowers harvested at their peak. The primrose opens at the very last moment before the sun gives place to the night.\"</span>"
+            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Altruism category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"Golden flowers harvested at their peak. The primrose opens at the very last moment before the sun gives place to the night.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_freshPrimroseBlossom.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3101,11 +3357,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FreshPrimroseBlossom"
       },
@@ -3128,7 +3384,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_freshSweetWilliam_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -3137,7 +3393,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3152,6 +3408,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -3164,12 +3421,19 @@
             "Namespace": "",
             "Key": "D49BA33948515EF42723F696DA60FB06",
             "SourceString": "OFFERING_FreshSweetWilliam_DESC",
-            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Boldness category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A bunch of flowers with pink petals and a blood red core. Releases a spicy, clove-like scent.\"</span>"
+            "LocalizedString": "Grants <b>75%</b> bonus Bloodpoints in the Boldness category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A bunch of flowers with pink petals and a blood red core. Releases a spicy, clove-like scent.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_freshSweetWilliam.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3199,11 +3463,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FreshSweetWilliam"
       },
@@ -3221,7 +3485,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_fullMoonBouquet_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -3230,7 +3494,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3245,6 +3509,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -3263,6 +3528,13 @@
             "UI/Icons/Favors/iconFavors_fullMoonBouquet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3292,11 +3564,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FullMoonBouquet"
       },
@@ -3316,7 +3588,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_hazyReagent_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -3325,7 +3597,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3340,6 +3612,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -3352,12 +3625,19 @@
             "Namespace": "",
             "Key": "85274FDB4D2EFE7043D02699289BD837",
             "SourceString": "OFFERING_HazyReagent_DESC",
-            "LocalizedString": "<b>Moderately thickens</b> the Dark Mist.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"The Mist is alluring, hypnotizing. I love It and fear It at the same time.\" -Donna's Sketchbook</span>"
+            "LocalizedString": "<b>Moderately thickens</b> the Dark Mist.<br><span class=\"FlavorText\">\"The Mist is alluring, hypnotizing. I love It and fear It at the same time.\" -Donna's Sketchbook</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_hazyReagent.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3387,11 +3667,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "HazyReagent"
       },
@@ -3412,7 +3692,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_heartLocket_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -3421,7 +3701,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3436,6 +3716,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -3448,12 +3729,19 @@
             "Namespace": "",
             "Key": "37AEBC514FA6D06AF9B06989228B4172",
             "SourceString": "OFFERING_ColdwindFarm_DESC",
-            "LocalizedString": "<b>Tremendously increases</b> the chances of being sent to Coldwind Farm when burnt.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A silver heart locket necklace. The simple interior is engraved with the following: 'E+M'.\"</span>"
+            "LocalizedString": "<b>Tremendously increases</b> the chances of being sent to Coldwind Farm when burnt.<br><br><span class=\"FlavorText\">\"A silver heart locket necklace. The simple interior is engraved with the following: 'E+M'.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_heartLocket.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3483,11 +3771,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "HeartLocket"
       },
@@ -3509,7 +3797,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_hollowShell_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -3518,7 +3806,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3533,6 +3821,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -3545,12 +3834,19 @@
             "Namespace": "",
             "Key": "9A8684224E53DAF9F96898B9996EC629",
             "SourceString": "OFFERING_HollowShell_DESC",
-            "LocalizedString": "Grants <b>25%</b> bonus Bloodpoints in all categories.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"An unidentifiable cocoon which was breached by whatever was inside.\"</span>"
+            "LocalizedString": "Grants <b>25%</b> bonus Bloodpoints in all categories.<br><span class=\"FlavorText\">\"An unidentifiable cocoon which was breached by whatever was inside.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_hollowShell.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3580,11 +3876,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "HollowShell"
       },
@@ -3606,7 +3902,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_ivoryChalkPouch_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -3615,7 +3911,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3630,6 +3926,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -3642,12 +3939,19 @@
             "Namespace": "",
             "Key": "E7441EAF4C7CB48C0D3F3A9AAA806EA2",
             "SourceString": "OFFERING_ivorychalkpouch_DESC",
-            "LocalizedString": "<b>Considerably increases</b> luck.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A small leather pouch displaying a straight white line hand-sewn on one of its sides. The bag is filled with an ivory chalky powder that shines under the moonlight. Some believe it brings good fortune.\"</span>"
+            "LocalizedString": "<b>Considerably increases</b> luck.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A small leather pouch displaying a straight white line hand-sewn on one of its sides. The bag is filled with an ivory chalky powder that shines under the moonlight. Some believe it brings good fortune.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_ivoryChalkPouch.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3677,11 +3981,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "IvoryChalkPouch"
       },
@@ -3702,7 +4006,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_momentoMoriIvory_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -3711,7 +4015,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3726,6 +4030,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -3744,6 +4049,13 @@
             "UI/Icons/Favors/iconFavors_momentoMoriIvory.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3773,11 +4085,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "IvoryMementoMori"
       },
@@ -3799,7 +4111,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_lunacyTicket_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -3808,7 +4120,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3823,6 +4135,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -3841,6 +4154,13 @@
             "UI/Icons/Favors/iconFavors_lunacyTicket.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3870,11 +4190,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "LunacyTicket"
       },
@@ -3896,7 +4216,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_macmillianLedgerPage_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -3905,7 +4225,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3920,6 +4240,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -3938,6 +4259,13 @@
             "UI/Icons/Favors/iconFavors_macmillianLedgerPage.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3967,11 +4295,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "MacmillanLedgerPage"
       },
@@ -3992,7 +4320,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_macmilliansPhalanxBone_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -4001,7 +4329,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4016,6 +4344,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4028,12 +4357,19 @@
             "Namespace": "",
             "Key": "4AB56DCE422056A4AEEFB2BC989D0F9C",
             "SourceString": "OFFERING_MacmillanEstate_DESC",
-            "LocalizedString": "<b>Tremendously increases</b> the chances of being sent to the MacMillan Estate when burnt.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"MacMillan's skeletal remains were found in the basement of the mine's storehouse. His leg bones shattered into pieces and a mining hammer lying in his lap.\"</span>"
+            "LocalizedString": "<b>Tremendously increases</b> the chances of being sent to the MacMillan Estate when burnt.<br><br><span class=\"FlavorText\">\"MacMillan's skeletal remains were found in the basement of the mine's storehouse. His leg bones shattered into pieces and a mining hammer lying in his lap.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_macmilliansPhalanxBone.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4063,11 +4399,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "MacMillanPhalanxBone"
       },
@@ -4088,7 +4424,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_moldyOak_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -4097,7 +4433,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4112,6 +4448,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4124,12 +4461,19 @@
             "Namespace": "",
             "Key": "D067E09F4DBD3188B26069A589B19832",
             "SourceString": "OFFERING_moldyoak_DESC",
-            "LocalizedString": "Calls upon The Entity to <b>Slightly decrease</b> the <b>distance</b> between sacrificial hooks appearing in the world.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A damp and decaying piece of oak replete with mold.\"</span>"
+            "LocalizedString": "Calls upon The Entity to <b>Slightly decrease</b> the <b>distance</b> between sacrificial hooks appearing in the world.<br><span class=\"FlavorText\">\"A damp and decaying piece of oak replete with mold.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_moldyOak.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4159,11 +4503,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "MoldyOak"
       },
@@ -4183,7 +4527,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_murkyReagent_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -4192,7 +4536,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4207,6 +4551,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4219,12 +4564,19 @@
             "Namespace": "",
             "Key": "432AC59A4B7646E00038E491874FE417",
             "SourceString": "OFFERING_MurkyReagent_DESC",
-            "LocalizedString": "<b>Greatly thickens</b> the Dark Mist.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"The Mist seems to protect us from the beast, but it is a poison, a cancer, filling us with darkness and insanity.\" -Unknown, Notebook</span>"
+            "LocalizedString": "<b>Greatly thickens</b> the Dark Mist.<br><span class=\"FlavorText\">\"The Mist seems to protect us from the beast, but it is a poison, a cancer, filling us with darkness and insanity.\" -Unknown, Notebook</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_murkyReagent.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4254,11 +4606,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "MurkyReagent"
       },
@@ -4276,7 +4628,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_newMoonBouquet_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -4285,7 +4637,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4300,6 +4652,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4318,6 +4671,13 @@
             "UI/Icons/Favors/iconFavors_newMoonBouquet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4347,11 +4707,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "NewMoonBouquet"
       },
@@ -4373,7 +4733,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_pElliottLunacyTicket_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -4382,7 +4742,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4397,6 +4757,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4415,6 +4776,13 @@
             "UI/Icons/Favors/iconFavors_pElliottLunacyTicket.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4444,11 +4812,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "PElliotLunacyTicket"
       },
@@ -4469,7 +4837,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_petrifiedOak_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -4478,7 +4846,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4493,6 +4861,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4505,12 +4874,19 @@
             "Namespace": "",
             "Key": "20D6966E4784A6C6D4B28D95E21F2C39",
             "SourceString": "OFFERING_petrifiedoak_DESC",
-            "LocalizedString": "Calms The Entity and <b>Slightly increases</b> the <b>distance</b> between sacrificial hooks appearing in the world.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A deteriorating piece of petrified wood.\"</span>"
+            "LocalizedString": "Calms The Entity and <b>Slightly increases</b> the <b>distance</b> between sacrificial hooks appearing in the world.<br><span class=\"FlavorText\">\"A deteriorating piece of petrified wood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_petrifiedOak.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4540,11 +4916,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "PetrifiedOak"
       },
@@ -4567,7 +4943,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_primroseBlossomSachet_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -4576,7 +4952,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4591,6 +4967,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4603,12 +4980,19 @@
             "Namespace": "",
             "Key": "CF03FBA046FB4F07F2AE2DB62575154A",
             "SourceString": "OFFERING_PrimroseBlossomSachet_DESC",
-            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Altruism category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A palm-sized hand-sewn sachet containing 4 gold petals. The primrose opens at the very last moment before the sun gives place to the night.\"</span>"
+            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Altruism category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A palm-sized hand-sewn sachet containing 4 gold petals. The primrose opens at the very last moment before the sun gives place to the night.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_primroseBlossomSachet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4638,11 +5022,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "PrimroseBlossomSachet"
       },
@@ -4663,7 +5047,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_putridOak_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -4672,7 +5056,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4687,6 +5071,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4699,12 +5084,19 @@
             "Namespace": "",
             "Key": "8A05326540193771B44FAF935D841902",
             "SourceString": "OFFERING_putridoak_DESC",
-            "LocalizedString": "Calls upon The Entity to <b>Considerably decrease</b> the <b>distance</b> between sacrificial hooks appearing in the world.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A ruined piece of oak oozing with a black putrescent liquid.\"</span>"
+            "LocalizedString": "Calls upon The Entity to <b>Considerably decrease</b> the <b>distance</b> between sacrificial hooks appearing in the world.<br><span class=\"FlavorText\">\"A ruined piece of oak oozing with a black putrescent liquid.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_putridOak.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4734,11 +5126,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "PutridOak"
       },
@@ -4756,7 +5148,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_quarterMoonBouquet_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -4765,7 +5157,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4780,6 +5172,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4798,6 +5191,13 @@
             "UI/Icons/Favors/iconFavors_quarterMoonBouquet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4827,11 +5227,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "QuarterMoonBouquet"
       },
@@ -4853,7 +5253,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_ravenWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -4862,7 +5262,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4877,6 +5277,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4889,12 +5290,19 @@
             "Namespace": "",
             "Key": "13E7B4E44B624543DB3D4E95A8E88723",
             "SourceString": "OFFERING_RavenWreath_DESC",
-            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Deviousness category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Crafted out of blackened branches and coals, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Deviousness category.<br><span class=\"FlavorText\">\"Crafted out of blackened branches and coals, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_ravenWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -4924,11 +5332,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "RavenWreath"
       },
@@ -4949,7 +5357,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_rottenOak_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -4958,7 +5366,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4973,6 +5381,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -4985,12 +5394,19 @@
             "Namespace": "",
             "Key": "B37F52664D4835C5CC23369D7844150B",
             "SourceString": "OFFERING_rottenoak_DESC",
-            "LocalizedString": "Calls upon The Entity to <b>Moderately decrease</b> the <b>distance</b> between sacrificial hooks appearing in the world.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A decomposing piece of oak in which strange markings have been etched.\"</span>"
+            "LocalizedString": "Calls upon The Entity to <b>Moderately decrease</b> the <b>distance</b> between sacrificial hooks appearing in the world.<br><span class=\"FlavorText\">\"A decomposing piece of oak in which strange markings have been etched.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_rottenOak.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5020,11 +5436,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "RottenOak"
       },
@@ -5045,7 +5461,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_saltPouch_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -5054,7 +5470,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5069,6 +5485,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -5081,12 +5498,19 @@
             "Namespace": "",
             "Key": "C281CE46465B0CDC46AF0A82C9B6FE7E",
             "SourceString": "OFFERING_saltpouch_DESC",
-            "LocalizedString": "<b>Slightly increases</b> luck of <b>all</b> Survivors.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A small cotton pouch filled with black salt crystals. Some believe it brings good fortune. Don't spill it.\"</span>"
+            "LocalizedString": "<b>Slightly increases</b> luck of <b>all</b> Survivors.<br><span class=\"FlavorText\">\"A small cotton pouch filled with black salt crystals. Some believe it brings good fortune. Don't spill it.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_saltPouch.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5116,11 +5540,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "SaltPouch"
       },
@@ -5141,7 +5565,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_scratchedCoin_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -5150,7 +5574,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5165,6 +5589,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -5177,12 +5602,19 @@
             "Namespace": "",
             "Key": "00761DB84DA57DC5A01499A2AA865864",
             "SourceString": "OFFERING_ScratchedCoin_DESC",
-            "LocalizedString": "Calls on The Entity to prevent the appearance of <b>1</b> chest.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A defaced coin of unknown origin.\"</span>"
+            "LocalizedString": "Calls on The Entity to prevent the appearance of <b>1</b> chest.<br><span class=\"FlavorText\">\"A defaced coin of unknown origin.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_scratchedCoin.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5212,11 +5644,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ScratchedCoin"
       },
@@ -5239,7 +5671,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_sealedEnvelope_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -5248,7 +5680,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5263,6 +5695,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -5275,12 +5708,19 @@
             "Namespace": "",
             "Key": "57E01ADC44533E75D2EEFBBE7182E528",
             "SourceString": "OFFERING_SealedEnvelope_DESC",
-            "LocalizedString": "Grants <b>25%</b> bonus Bloodpoints in all categories.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"An unaddressed and unopened envelope yellowed by time. Its message will never be known.\"</span>"
+            "LocalizedString": "Grants <b>25%</b> bonus Bloodpoints in all categories.<br><li>Personal.</li><br><span class=\"FlavorText\">\"An unaddressed and unopened envelope yellowed by time. Its message will never be known.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_sealedEnvelope.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5310,11 +5750,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "SealedEnvelope"
       },
@@ -5335,7 +5775,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_shinyCoin_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -5344,7 +5784,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5359,6 +5799,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -5371,12 +5812,19 @@
             "Namespace": "",
             "Key": "5D3FA7594C850E2CA57CEF95FD4F3C8B",
             "SourceString": "OFFERING_shinycoin_DESC",
-            "LocalizedString": "Calls on The Entity to create <b>2</b> more chests.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A clean and polished piece of gold.\"</span>"
+            "LocalizedString": "Calls on The Entity to create <b>2</b> more chests.<br><span class=\"FlavorText\">\"A clean and polished piece of gold.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_shinyCoin.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5406,11 +5854,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ShinyCoin"
       },
@@ -5432,7 +5880,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_plateShredded_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -5441,7 +5889,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5456,6 +5904,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -5474,6 +5923,13 @@
             "UI/Icons/Favors/iconFavors_plateShredded.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5503,11 +5959,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ShreddedPlate"
       },
@@ -5529,7 +5985,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_shrikeWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -5538,7 +5994,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5553,6 +6009,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -5565,12 +6022,19 @@
             "Namespace": "",
             "Key": "2F79941C46C3E2E80FC7479F13A40A7D",
             "SourceString": "OFFERING_ShrikeWreath_DESC",
-            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Sacrifice category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Crafted out of sticks, strings and bones, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Sacrifice category.<br><span class=\"FlavorText\">\"Crafted out of sticks, strings and bones, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_shrikeWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5600,11 +6064,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ShrikeWreath"
       },
@@ -5625,7 +6089,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_shroudOfBinding_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -5634,7 +6098,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5649,6 +6113,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -5667,6 +6132,13 @@
             "UI/Icons/Favors/iconFavors_shroudOfBinding.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5696,11 +6168,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ShroudofBinding"
       },
@@ -5721,7 +6193,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_shroudOfSeparation_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -5730,7 +6202,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5745,6 +6217,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -5763,6 +6236,13 @@
             "UI/Icons/Favors/iconFavors_shroudOfSeparation.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5792,11 +6272,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ShroudofSeparation"
       },
@@ -5817,7 +6297,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_shroudOfUnion_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -5826,7 +6306,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5841,6 +6321,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -5859,6 +6340,13 @@
             "UI/Icons/Favors/iconFavors_shroudOfUnion.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5888,11 +6376,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "ShroudofUnion"
       },
@@ -5914,7 +6402,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_signedLedgerPage_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -5923,7 +6411,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5938,6 +6426,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -5956,6 +6445,13 @@
             "UI/Icons/Favors/iconFavors_signedLedgerPage.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -5985,11 +6481,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "SignedLedgerPage"
       },
@@ -6011,7 +6507,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_spottedOwlWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -6020,7 +6516,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6035,6 +6531,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -6047,12 +6544,19 @@
             "Namespace": "",
             "Key": "648F1711471A92F0008668949736A0D2",
             "SourceString": "OFFERING_SpottedOwlWreath_DESC",
-            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Hunting category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Crafted out of sharp metals, ropes and feathers, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Hunting category.<br><span class=\"FlavorText\">\"Crafted out of sharp metals, ropes and feathers, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_spottedOwlWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6082,11 +6586,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "SpottedOwlWreath"
       },
@@ -6109,7 +6613,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_sweetWilliamlSachet_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -6118,7 +6622,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6133,6 +6637,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -6145,12 +6650,19 @@
             "Namespace": "",
             "Key": "B2ACE8DB4809C3E055D5C2BF7A5A1F6C",
             "SourceString": "OFFERING_SweetWilliamSachet_DESC",
-            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Boldness category.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A palm-sized hand-sewn sachet containing a mix of pale petals and glaucous bluish leaves. Releases a strong spicy, clove-like scent.\"</span>"
+            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Boldness category.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A palm-sized hand-sewn sachet containing a mix of pale petals and glaucous bluish leaves. Releases a strong spicy, clove-like scent.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_sweetWilliamSachet.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6180,11 +6692,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "SweetWilliamSachet"
       },
@@ -6206,7 +6718,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_tanagerWreath_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -6215,7 +6727,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6230,6 +6742,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -6242,12 +6755,19 @@
             "Namespace": "",
             "Key": "1B15086D4431A4469271F4AEFC805409",
             "SourceString": "OFFERING_TanagerWreath_DESC",
-            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Brutality category.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"Crafted out of bloody sticks and guts, this wreath calls on The Entity's blessing for more blood.\"</span>"
+            "LocalizedString": "Grants <b>50%</b> bonus Bloodpoints in the Brutality category.<br><span class=\"FlavorText\">\"Crafted out of bloody sticks and guts, this wreath calls on The Entity's blessing for more blood.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_tanagerWreath.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6277,11 +6797,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "TanagerWreath"
       },
@@ -6302,7 +6822,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_tarnishedCoin_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -6311,7 +6831,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6326,6 +6846,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -6338,12 +6859,19 @@
             "Namespace": "",
             "Key": "51672DF74E906F572E869C8AB9AF6477",
             "SourceString": "OFFERING_TarnishedCoin_DESC",
-            "LocalizedString": "Calls on The Entity to create <b>1</b> more chest.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A round piece of metal which has lost all sheen.\"</span>"
+            "LocalizedString": "Calls on The Entity to create <b>1</b> more chest.<br><span class=\"FlavorText\">\"A round piece of metal which has lost all sheen.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_tarnishedCoin.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6373,11 +6901,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "TarnishedCoin"
       },
@@ -6399,7 +6927,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_vigosShroud_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -6408,7 +6936,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6423,6 +6951,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -6441,6 +6970,13 @@
             "UI/Icons/Favors/iconFavors_vigosShroud.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6470,11 +7006,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "VigosShroud"
       },
@@ -6496,7 +7032,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_plateVirginia_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -6505,7 +7041,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6520,6 +7056,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -6538,6 +7075,13 @@
             "UI/Icons/Favors/iconFavors_plateVirginia.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6567,11 +7111,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "VirginiaPlate"
       },
@@ -6593,7 +7137,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_wardWhite_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -6602,7 +7146,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6617,6 +7161,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -6635,6 +7180,13 @@
             "UI/Icons/Favors/iconFavors_wardWhite.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6664,11 +7216,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "WhiteWard"
       },
@@ -6689,7 +7241,7 @@
         "BigIconFilePath": "UI/FavorsAssets/iconFavors_jarOfSaltyLips_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -6698,7 +7250,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6713,6 +7265,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -6725,12 +7278,19 @@
             "Namespace": "",
             "Key": "0D52594047F44AB024AC22A518F7C5EA",
             "SourceString": "OFFERING_jaroflips_DESC",
-            "LocalizedString": "<b>Considerably increases</b> luck of <b>all</b> Survivors.<br><li>Stacks.</li><br><span class=\"FlavorText\">\"A tightly sealed glass jar containing torn human lips floating in a murky brine. Some believe it brings good fortune.\"</span>"
+            "LocalizedString": "<b>Considerably increases</b> luck of <b>all</b> Survivors.<br><span class=\"FlavorText\">\"A tightly sealed glass jar containing torn human lips floating in a murky brine. Some believe it brings good fortune.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/iconFavors_jarOfSaltyLips.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6760,11 +7320,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "VigosJarOfSaltyLips"
       },
@@ -6787,7 +7347,7 @@
         "BigIconFilePath": "UI/FavorsAssets/DLC3/iconFavors_muddySplinter_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -6796,7 +7356,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "steamOnly",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6811,6 +7371,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -6829,6 +7390,13 @@
             "UI/Icons/Favors/DLC3/iconFavors_muddySplinter.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6858,11 +7426,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "MuddySplinter"
       },
@@ -6884,7 +7452,7 @@
         "BigIconFilePath": "UI/FavorsAssets/DLC3/iconFavors_fumingCordage_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -6893,7 +7461,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6908,6 +7476,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -6926,6 +7495,13 @@
             "UI/Icons/Favors/DLC3/iconFavors_fumingCordage.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -6955,11 +7531,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FumingCordage"
       },
@@ -6981,7 +7557,7 @@
         "BigIconFilePath": "UI/FavorsAssets/DLC3/iconFavors_fumingWelcomeSign_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -6990,7 +7566,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Retired",
+          "ItemAvailability": "EItemAvailability::Retired",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7005,6 +7581,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -7023,6 +7600,13 @@
             "UI/Icons/Favors/DLC3/iconFavors_fumingWelcomeSign.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -7052,11 +7636,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "FumingWelcomeSign"
       },
@@ -7077,7 +7661,7 @@
         "BigIconFilePath": "UI/FavorsAssets/DLC3/iconFavors_granmasCookbook_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -7086,7 +7670,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7101,6 +7685,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -7113,12 +7698,19 @@
             "Namespace": "",
             "Key": "691FD8194091D91C829C03BA55678F43",
             "SourceString": "OFFERING_granmascookbook_DESC",
-            "LocalizedString": "<b>Tremendously increases</b> the chances of being sent to Backwater Swamp when burnt.<br><span class=\"FlavorText\">\"A leather-bound binder containing horrible human meat recipes such as the granny-slappin’ good chili.\"</span>"
+            "LocalizedString": "<b>Tremendously increases</b> the chances of being sent to Backwater Swamp when burnt.<br><br><span class=\"FlavorText\">\"A leather-bound binder containing horrible human meat recipes such as the granny-slappin’ good chili.\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/DLC3/iconFavors_granmasCookbook.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -7148,11 +7740,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "GranmasCookbook"
       },
@@ -7175,7 +7767,7 @@
         "BigIconFilePath": "UI/FavorsAssets/Anniversary/iconFavors_escapeCake_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -7184,7 +7776,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7199,6 +7791,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -7217,6 +7810,13 @@
             "UI/Icons/Favors/Anniversary/iconFavors_escapeCake.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -7246,11 +7846,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "EscapeCake"
       },
@@ -7273,7 +7873,7 @@
         "BigIconFilePath": "UI/FavorsAssets/Anniversary/iconFavors_survivorPudding_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -7282,7 +7882,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7297,6 +7897,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -7309,12 +7910,19 @@
             "Namespace": "",
             "Key": "CB3AB28D4C4A7BD11DE78F8FF4BA9580",
             "SourceString": "OFFERING_survivorpudding_DESC",
-            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in all categories.<br><li>Personal.</li><li>Stacks.</li><br><span class=\"FlavorText\">\"A heavily salted pudding…\"</span>"
+            "LocalizedString": "Grants <b>100%</b> bonus Bloodpoints in all categories.<br><li>Personal.</li><br><span class=\"FlavorText\">\"A heavily salted pudding…\"</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/Anniversary/iconFavors_survivorPudding.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -7344,11 +7952,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "SurvivorPudding"
       },
@@ -7375,7 +7983,7 @@
         "BigIconFilePath": "UI/FavorsAssets/Anniversary/iconFavors_bloodyPartyStreamers_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -7384,7 +7992,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7399,6 +8007,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -7417,6 +8026,13 @@
             "UI/Icons/Favors/Anniversary/iconFavors_bloodyPartyStreamers.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -7446,11 +8062,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "BloodyPartyStreamers"
       },
@@ -7477,7 +8093,7 @@
         "BigIconFilePath": "UI/FavorsAssets/Anniversary/iconFavors_gruesomeGateau_lg.tga",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -7486,7 +8102,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7501,6 +8117,7 @@
         "EventId": "Anniversary2019",
         "CanUseAfterEventEnd": true,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -7513,12 +8130,19 @@
             "Namespace": "",
             "Key": "B15E4E5B46F2F25E4BE37DAD66E98DEF",
             "SourceString": "OFFERING_anniversary2019offering_DESC",
-            "LocalizedString": "A terrific stomach-churning cake to mark our three years together. Grants <b>103%</b> bonus Bloodpoints in all categories for all players this trial.<br><li>Stacks.</li><br><span class=\"FlavorText\">“Happy Anniversary! Here's to our three years together!\"<br>– The Dead by Daylight Team</span>"
+            "LocalizedString": "A terrific stomach-churning cake to mark our three years together. Grants <b>103%</b> bonus Bloodpoints in all categories for all players this trial.<br><span class=\"FlavorText\">“Happy Anniversary! Here's to our three years together!\"<br>– The Dead by Daylight Team</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Favors/Anniversary/iconFavors_gruesomeGateau.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -7548,11 +8172,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Anniversary2019Offering"
       }

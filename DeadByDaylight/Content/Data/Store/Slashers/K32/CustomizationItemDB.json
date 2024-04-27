@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CustomizationItemData'",
+        "ObjectName": "Class'CustomizationItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -18,7 +18,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_BodyGoo-Outfit_006.BP_Effect_K32_BodyGoo-Outfit_006_C",
@@ -41,6 +41,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -53,7 +54,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -66,18 +67,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -102,7 +102,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -129,14 +133,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Body006"
+        "CustomizationId": "K32_Body006",
+        "SearchTags": []
       },
       "K32_Body008": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -146,7 +151,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_BodyGoo_Outfit_008.BP_Effect_K32_BodyGoo_Outfit_008_C",
@@ -169,6 +174,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -181,7 +187,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -194,18 +200,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -230,7 +235,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -257,14 +266,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.1.0",
-        "CustomizationId": "K32_Body008"
+        "CustomizationId": "K32_Body008",
+        "SearchTags": []
       },
       "K32_Body008_01": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -274,7 +284,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_BodyGoo_Outfit_008.BP_Effect_K32_BodyGoo_Outfit_008_C",
@@ -338,6 +348,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -350,7 +361,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -374,18 +385,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -410,7 +420,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -437,14 +451,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.1.0",
-        "CustomizationId": "K32_Body008_01"
+        "CustomizationId": "K32_Body008_01",
+        "SearchTags": []
       },
       "K32_Body01_01": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -454,7 +469,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_BodyGoo_01.BP_Effect_K32_BodyGoo_01_C",
@@ -488,6 +503,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -500,7 +516,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -544,18 +560,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -580,7 +595,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -607,14 +626,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Body01_01"
+        "CustomizationId": "K32_Body01_01",
+        "SearchTags": []
       },
       "K32_Body01_02": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -624,7 +644,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_BodyGoo_01.BP_Effect_K32_BodyGoo_01_C",
@@ -658,6 +678,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -670,7 +691,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -714,18 +735,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -750,7 +770,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -777,14 +801,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Body01_02"
+        "CustomizationId": "K32_Body01_02",
+        "SearchTags": []
       },
       "K32_Body01_03": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -794,7 +819,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_BodyGoo_01.BP_Effect_K32_BodyGoo_01_C",
@@ -828,6 +853,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -840,7 +866,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -884,18 +910,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -920,7 +945,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -947,14 +976,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Body01_03"
+        "CustomizationId": "K32_Body01_03",
+        "SearchTags": []
       },
       "K32_Body01_CV01": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -964,7 +994,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_BodyGoo_01.BP_Effect_K32_BodyGoo_01_C",
@@ -998,6 +1028,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1010,7 +1041,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -1044,18 +1075,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -1080,7 +1110,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1107,14 +1141,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Body01_CV01"
+        "CustomizationId": "K32_Body01_CV01",
+        "SearchTags": []
       },
       "K32_Body01_CV02": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -1124,7 +1159,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_BodyGoo_01.BP_Effect_K32_BodyGoo_01_C",
@@ -1158,6 +1193,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1170,7 +1206,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -1204,18 +1240,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -1240,7 +1275,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1267,14 +1306,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Body01_CV02"
+        "CustomizationId": "K32_Body01_CV02",
+        "SearchTags": []
       },
       "K32_Body01_CV03": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -1284,7 +1324,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_BodyGoo_01.BP_Effect_K32_BodyGoo_01_C",
@@ -1318,6 +1358,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1330,7 +1371,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -1364,18 +1405,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -1400,7 +1440,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1427,14 +1471,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Body01_CV03"
+        "CustomizationId": "K32_Body01_CV03",
+        "SearchTags": []
       },
       "K32_Body01_CV04": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -1444,7 +1489,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_BodyGoo_01.BP_Effect_K32_BodyGoo_01_C",
@@ -1478,6 +1523,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1490,7 +1536,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -1524,18 +1570,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -1560,7 +1605,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1587,14 +1636,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Body01_CV04"
+        "CustomizationId": "K32_Body01_CV04",
+        "SearchTags": []
       },
       "K32_Head006": {
         "Category": "ECustomizationCategory::KillerHead",
@@ -1604,7 +1654,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32-Head_006.BP_Effect_K32-Head_006_C",
@@ -1627,6 +1677,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1639,7 +1690,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -1652,18 +1703,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -1688,7 +1738,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1715,14 +1769,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Head006"
+        "CustomizationId": "K32_Head006",
+        "SearchTags": []
       },
       "K32_Head007": {
         "Category": "ECustomizationCategory::KillerHead",
@@ -1732,11 +1787,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1755,6 +1810,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Anniversary2023",
@@ -1763,18 +1819,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -1799,7 +1854,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1826,14 +1885,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.1",
-        "CustomizationId": "K32_Head007"
+        "CustomizationId": "K32_Head007",
+        "SearchTags": []
       },
       "K32_Head008": {
         "Category": "ECustomizationCategory::KillerHead",
@@ -1843,7 +1903,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_Head_Outfit_008.BP_Effect_K32_Head_Outfit_008_C",
@@ -1866,6 +1926,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1878,7 +1939,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -1891,18 +1952,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -1927,7 +1987,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1954,14 +2018,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.1.0",
-        "CustomizationId": "K32_Head008"
+        "CustomizationId": "K32_Head008",
+        "SearchTags": []
       },
       "K32_Head008_01": {
         "Category": "ECustomizationCategory::KillerHead",
@@ -1971,7 +2036,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_Head_Outfit_008_01.BP_Effect_K32_Head_Outfit_008_01_C",
@@ -1994,6 +2059,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2006,7 +2072,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -2030,18 +2096,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -2066,7 +2131,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -2093,14 +2162,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.1.0",
-        "CustomizationId": "K32_Head008_01"
+        "CustomizationId": "K32_Head008_01",
+        "SearchTags": []
       },
       "K32_Head01_01": {
         "Category": "ECustomizationCategory::KillerHead",
@@ -2110,7 +2180,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32-Head.BP_Effect_K32-Head_C",
@@ -2135,6 +2205,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2147,7 +2218,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -2164,11 +2235,11 @@
               {
                 "From": {
                   "AssetPathName": "None",
-                  "SubPathString": ""
+                  "SubPathString": null
                 },
                 "To": {
                   "AssetPathName": "None",
-                  "SubPathString": ""
+                  "SubPathString": null
                 }
               }
             ],
@@ -2181,18 +2252,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -2217,7 +2287,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -2244,14 +2318,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Head01_01"
+        "CustomizationId": "K32_Head01_01",
+        "SearchTags": []
       },
       "K32_Head01_02": {
         "Category": "ECustomizationCategory::KillerHead",
@@ -2261,7 +2336,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32-Head.BP_Effect_K32-Head_C",
@@ -2284,6 +2359,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2296,7 +2372,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -2320,18 +2396,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -2356,7 +2431,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -2383,14 +2462,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Head01_02"
+        "CustomizationId": "K32_Head01_02",
+        "SearchTags": []
       },
       "K32_Head01_03": {
         "Category": "ECustomizationCategory::KillerHead",
@@ -2400,7 +2480,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32-Head.BP_Effect_K32-Head_C",
@@ -2423,6 +2503,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2435,7 +2516,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -2459,18 +2540,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -2495,7 +2575,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -2522,14 +2606,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_Head01_03"
+        "CustomizationId": "K32_Head01_03",
+        "SearchTags": []
       },
       "K32_W006": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -2539,11 +2624,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -2562,6 +2647,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2574,7 +2660,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -2587,18 +2673,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -2623,7 +2708,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -2650,14 +2739,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_W006"
+        "CustomizationId": "K32_W006",
+        "SearchTags": []
       },
       "K32_W008": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -2667,11 +2757,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -2690,6 +2780,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2702,7 +2793,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -2715,18 +2806,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -2751,7 +2841,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -2778,14 +2872,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.1.0",
-        "CustomizationId": "K32_W008"
+        "CustomizationId": "K32_W008",
+        "SearchTags": []
       },
       "K32_W008_01": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -2795,11 +2890,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -2829,6 +2924,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2841,7 +2937,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -2854,18 +2950,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -2890,7 +2985,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -2917,14 +3016,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.1.0",
-        "CustomizationId": "K32_W008_01"
+        "CustomizationId": "K32_W008_01",
+        "SearchTags": []
       },
       "K32_W01_01": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -2934,7 +3034,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_WeaponArmGoo_02.BP_Effect_K32_WeaponArmGoo_02_C",
@@ -2957,6 +3057,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2969,7 +3070,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -2993,18 +3094,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -3029,7 +3129,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -3056,14 +3160,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_W01_01"
+        "CustomizationId": "K32_W01_01",
+        "SearchTags": []
       },
       "K32_W01_02": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -3073,7 +3178,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_WeaponArmGoo_02.BP_Effect_K32_WeaponArmGoo_02_C",
@@ -3096,6 +3201,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3108,7 +3214,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -3132,18 +3238,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -3168,7 +3273,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -3195,14 +3304,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_W01_02"
+        "CustomizationId": "K32_W01_02",
+        "SearchTags": []
       },
       "K32_W01_03": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -3212,7 +3322,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_WeaponArmGoo_02.BP_Effect_K32_WeaponArmGoo_02_C",
@@ -3235,6 +3345,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3247,7 +3358,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -3271,18 +3382,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -3307,7 +3417,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -3334,14 +3448,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_W01_03"
+        "CustomizationId": "K32_W01_03",
+        "SearchTags": []
       },
       "K32_W01_CV01": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -3351,7 +3466,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_WeaponArmGoo_02.BP_Effect_K32_WeaponArmGoo_02_C",
@@ -3374,6 +3489,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3386,7 +3502,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -3416,18 +3532,17 @@
         ],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -3452,7 +3567,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -3479,14 +3598,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_W01_CV01"
+        "CustomizationId": "K32_W01_CV01",
+        "SearchTags": []
       },
       "K32_W01_CV02": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -3496,7 +3616,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_WeaponArmGoo_02.BP_Effect_K32_WeaponArmGoo_02_C",
@@ -3519,6 +3639,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3531,7 +3652,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -3555,18 +3676,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -3591,7 +3711,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -3618,14 +3742,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_W01_CV02"
+        "CustomizationId": "K32_W01_CV02",
+        "SearchTags": []
       },
       "K32_W01_CV03": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -3635,7 +3760,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_WeaponArmGoo_02.BP_Effect_K32_WeaponArmGoo_02_C",
@@ -3658,6 +3783,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3670,7 +3796,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -3694,18 +3820,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -3730,7 +3855,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -3757,14 +3886,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_W01_CV03"
+        "CustomizationId": "K32_W01_CV03",
+        "SearchTags": []
       },
       "K32_W01_CV04": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -3774,7 +3904,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/BP_Effect_K32_WeaponArmGoo_02.BP_Effect_K32_WeaponArmGoo_02_C",
@@ -3797,6 +3927,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3809,7 +3940,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -3833,18 +3964,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -3869,7 +3999,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -3896,14 +4030,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.0.0",
-        "CustomizationId": "K32_W01_CV04"
+        "CustomizationId": "K32_W01_CV04",
+        "SearchTags": []
       },
       "K32_W009": {
         "Category": "ECustomizationCategory::KillerWeapon",
@@ -3913,7 +4048,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/Outfit_009/BP_Effect_K32_Weapon_Outfit_009.BP_Effect_K32_Weapon_Outfit_009_C",
@@ -3936,6 +4071,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3944,18 +4080,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -3980,7 +4115,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -4007,14 +4146,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.4.2",
-        "CustomizationId": "K32_W009"
+        "CustomizationId": "K32_W009",
+        "SearchTags": []
       },
       "K32_Head009": {
         "Category": "ECustomizationCategory::KillerHead",
@@ -4024,7 +4164,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/Outfit_009/BP_Effect_K32_Head_Outfit_009.BP_Effect_K32_Head_Outfit_009_C",
@@ -4047,6 +4187,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -4055,18 +4196,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -4091,7 +4231,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -4118,14 +4262,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.4.2",
-        "CustomizationId": "K32_Head009"
+        "CustomizationId": "K32_Head009",
+        "SearchTags": []
       },
       "K32_Body009": {
         "Category": "ECustomizationCategory::KillerBody",
@@ -4135,7 +4280,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer32/Outfit_009/BP_Effect_K32_Body_Outfit_009.BP_Effect_K32_Body_Outfit_009_C",
@@ -4158,6 +4303,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -4170,7 +4316,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -4183,18 +4329,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435487,
@@ -4219,7 +4364,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -4246,14 +4395,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "7.4.2",
-        "CustomizationId": "K32_Body009"
+        "CustomizationId": "K32_Body009",
+        "SearchTags": []
       }
     }
   }

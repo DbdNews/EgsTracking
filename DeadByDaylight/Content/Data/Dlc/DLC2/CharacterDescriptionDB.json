@@ -5,13 +5,14 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "5": {
         "CharacterIndex": 5,
+        "CharacterCodename": "Laurie",
         "Role": "EPlayerRole::VE_Camper",
         "Difficulty": "ECharacterDifficulty::VE_None",
         "DisplayName": {
@@ -20,7 +21,7 @@
           "SourceString": "SURVIVOR_laurie_NAME",
           "LocalizedString": "Laurie Strode"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "8FCE612B4064620C1BDC7EB2230E0943",
           "SourceString": "CharScreenLaurie",
@@ -35,7 +36,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/DLC2/S06_LaurieStrode_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'LS_charSelect_portrait_HUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/DLC2/LS_charSelect_portrait_HUD.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/DLC2/LS_charSelect_portrait_HUD.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/storeBackground_LS.png",
         "CustomizationDescription": [
@@ -77,6 +78,7 @@
           "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale04.BP_Menu_CamperFemale04_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "None",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Female",
@@ -84,7 +86,7 @@
         "TunableDB": {
           "AssetPtr": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "KillerHeight": "EKillerHeight::Average",
@@ -110,11 +112,20 @@
           ]
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "586F68E7475F3CF57835F78EC9D62D81",
+            "SourceString": "DLC_Halloween_TAG_01",
+            "LocalizedString": "Halloween"
+          }
+        ],
         "CustomizationCategories": [],
         "CharacterId": "Laurie"
       },
       "268435461": {
         "CharacterIndex": 268435461,
+        "CharacterCodename": "Myers",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Intermediate",
         "DisplayName": {
@@ -123,7 +134,7 @@
           "SourceString": "KILLER_shape_NAME",
           "LocalizedString": "The Shape"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "C784434E43A9E2BC0940678BE8B4C0D5",
           "SourceString": "CharScreenShape",
@@ -177,6 +188,7 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher06.BP_Menu_Slasher06_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_Stalker",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Male",
@@ -208,6 +220,20 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "6513230F4C9411438C0AE6AAFDF9224F",
+            "SourceString": "shape_TAG_01",
+            "LocalizedString": "Michael Myers"
+          },
+          {
+            "Namespace": "",
+            "Key": "F1EC21A8458CF8C1E1789F921F8A5BC9",
+            "SourceString": "DLC_Halloween_TAG_01",
+            "LocalizedString": "Halloween"
+          }
+        ],
         "CustomizationCategories": [],
         "CharacterId": "Shape"
       }

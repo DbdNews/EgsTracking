@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CustomizationItemData'",
+        "ObjectName": "Class'CustomizationItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -18,11 +18,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -44,6 +44,7 @@
           "SourceString": "CUST_KGK_Torso006_COLLECTION_DESC",
           "LocalizedString": "Don your cherry red stripes and white polka dots to rouse the crowd."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -56,7 +57,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -69,18 +70,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -104,7 +104,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -133,7 +133,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -151,11 +151,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -174,6 +174,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -186,7 +187,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -199,18 +200,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -237,7 +237,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -266,7 +266,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -284,11 +284,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -307,6 +307,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -319,7 +320,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -332,18 +333,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -370,7 +370,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -399,7 +399,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "Pulcinella",
           "AdditionalDlcIds": [
             "XboxPerkNov2020"
@@ -419,7 +419,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer12/Body/BP_Effect_GK_Body_009.BP_Effect_GK_Body_009_C",
@@ -442,6 +442,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Halloween2019",
@@ -454,7 +455,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -470,7 +471,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -483,18 +484,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -521,7 +521,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -550,7 +550,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -568,11 +568,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -591,6 +591,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -603,7 +604,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -616,18 +617,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -654,7 +654,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -683,7 +683,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -701,11 +701,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -724,6 +724,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -736,7 +737,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -749,18 +750,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -787,7 +787,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -816,7 +816,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -834,11 +834,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -857,6 +857,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -869,7 +870,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -882,18 +883,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -920,7 +920,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -949,7 +949,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -967,11 +967,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -1011,6 +1011,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1023,7 +1024,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -1036,18 +1037,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -1074,7 +1074,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -1103,7 +1103,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1121,11 +1121,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1144,6 +1144,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1156,7 +1157,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -1172,7 +1173,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -1185,18 +1186,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -1223,7 +1223,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -1252,7 +1252,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1270,11 +1270,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1293,6 +1293,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1305,7 +1306,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -1318,18 +1319,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -1356,7 +1356,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -1385,7 +1385,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1403,11 +1403,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -1457,6 +1457,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1469,7 +1470,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -1503,18 +1504,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -1541,7 +1541,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -1570,7 +1570,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1588,11 +1588,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1611,6 +1611,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Summer2023",
@@ -1623,7 +1624,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -1639,7 +1640,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -1652,18 +1653,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -1690,7 +1690,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -1719,7 +1719,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1737,11 +1737,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1760,6 +1760,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1772,7 +1773,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -1785,18 +1786,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -1823,7 +1823,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -1852,7 +1852,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1870,11 +1870,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -1927,6 +1927,7 @@
           "SourceString": "CUST_KGK_Torso01_COLLECTION_DESC",
           "LocalizedString": "A hand-stitched lapel tailcoat that carries deceitful devices."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1939,7 +1940,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -1963,18 +1964,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -1998,7 +1998,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -2027,7 +2027,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2045,11 +2045,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -2102,6 +2102,7 @@
           "SourceString": "CUST_KGK_Torso01_COLLECTION_DESC",
           "LocalizedString": "A hand-stitched lapel tailcoat that carries deceitful devices."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2114,7 +2115,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -2138,18 +2139,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -2173,7 +2173,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -2202,7 +2202,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2220,11 +2220,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -2297,6 +2297,7 @@
           "SourceString": "CUST_KCL_TorsoCV1_COLLECTION_DESC",
           "LocalizedString": "A classic tailcoat with button-up shirt pushed far beyond its stretching point."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2309,7 +2310,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -2333,18 +2334,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -2368,7 +2368,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -2397,7 +2397,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2415,11 +2415,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -2492,6 +2492,7 @@
           "SourceString": "CUST_KCL_TorsoCV1_COLLECTION_DESC",
           "LocalizedString": "A classic tailcoat with button-up shirt pushed far beyond its stretching point."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2504,7 +2505,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -2528,18 +2529,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -2563,7 +2563,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -2592,7 +2592,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2610,11 +2610,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -2687,6 +2687,7 @@
           "SourceString": "CUST_KCL_TorsoCV1_COLLECTION_DESC",
           "LocalizedString": "A classic tailcoat with button-up shirt pushed far beyond its stretching point."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2699,7 +2700,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -2723,18 +2724,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -2758,7 +2758,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -2787,7 +2787,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "HeritagePack1",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2805,11 +2805,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -2882,6 +2882,7 @@
           "SourceString": "CUST_KCL_TorsoCV1_COLLECTION_DESC",
           "LocalizedString": "A classic tailcoat with button-up shirt pushed far beyond its stretching point."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2894,7 +2895,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -2918,18 +2919,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -2953,7 +2953,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -2982,7 +2982,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3000,11 +3000,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -3077,6 +3077,7 @@
           "SourceString": "CUST_KCL_TorsoCV1_COLLECTION_DESC",
           "LocalizedString": "A classic tailcoat with button-up shirt pushed far beyond its stretching point."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3089,7 +3090,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -3113,18 +3114,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -3148,7 +3148,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -3177,7 +3177,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3195,11 +3195,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -3221,6 +3221,7 @@
           "SourceString": "CUST_KCL_Torso02_COLLECTION_DESC",
           "LocalizedString": "A classic, colorful clown costume with ruffled collar. Scare kids and grown-ups alike!"
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3233,7 +3234,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -3249,7 +3250,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -3262,18 +3263,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -3300,7 +3300,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -3329,7 +3329,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3347,11 +3347,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -3401,6 +3401,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3413,7 +3414,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -3429,7 +3430,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -3453,18 +3454,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -3491,7 +3491,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -3520,7 +3520,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3538,11 +3538,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -3592,6 +3592,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3604,7 +3605,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -3620,7 +3621,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -3644,18 +3645,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -3682,7 +3682,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -3711,7 +3711,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3729,11 +3729,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -3766,6 +3766,7 @@
           "SourceString": "CUST_KGK_Head006_COLLECTION_DESC",
           "LocalizedString": "A dressy doll hat to adorn the hair you have stapled on for this unique performance."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3778,7 +3779,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -3791,18 +3792,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -3826,7 +3826,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -3855,7 +3855,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -3873,11 +3873,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -3914,6 +3914,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Lunar2022",
@@ -3926,7 +3927,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -3960,18 +3961,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -3998,7 +3998,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -4027,7 +4027,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4045,11 +4045,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -4068,6 +4068,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -4080,7 +4081,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -4093,18 +4094,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -4131,7 +4131,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -4160,7 +4160,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4178,11 +4178,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -4201,6 +4201,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -4213,7 +4214,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -4226,18 +4227,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -4264,7 +4264,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -4293,7 +4293,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "Pulcinella",
           "AdditionalDlcIds": [
             "XboxPerkNov2020"
@@ -4313,7 +4313,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer12/Head/BP_Effect_GK_Head_009.BP_Effect_GK_Head_009_C",
@@ -4336,6 +4336,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Halloween2019",
@@ -4348,7 +4349,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -4361,18 +4362,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -4399,7 +4399,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -4428,7 +4428,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4446,11 +4446,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -4469,6 +4469,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -4481,7 +4482,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -4494,18 +4495,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -4532,7 +4532,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -4561,7 +4561,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4579,11 +4579,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -4602,6 +4602,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -4614,7 +4615,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -4627,18 +4628,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -4665,7 +4665,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -4694,7 +4694,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4712,11 +4712,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -4735,6 +4735,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -4747,7 +4748,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -4760,18 +4761,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -4798,7 +4798,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -4827,7 +4827,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -4845,11 +4845,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -4879,6 +4879,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -4891,7 +4892,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -4925,18 +4926,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -4963,7 +4963,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -4992,7 +4992,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5010,11 +5010,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -5033,6 +5033,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -5045,7 +5046,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -5058,18 +5059,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -5096,7 +5096,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -5125,7 +5125,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5143,11 +5143,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -5166,6 +5166,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -5178,7 +5179,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -5191,18 +5192,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -5229,7 +5229,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -5258,7 +5258,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5276,11 +5276,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -5310,6 +5310,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -5322,7 +5323,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -5356,18 +5357,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -5394,7 +5394,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -5423,7 +5423,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5441,11 +5441,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -5464,6 +5464,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Summer2023",
@@ -5476,7 +5477,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -5489,18 +5490,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -5527,7 +5527,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -5556,7 +5556,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5574,11 +5574,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -5597,6 +5597,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -5609,7 +5610,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -5622,18 +5623,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -5660,7 +5660,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -5689,7 +5689,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5707,11 +5707,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -5744,6 +5744,7 @@
           "SourceString": "CUST_KGK_Head01_COLLECTION_DESC",
           "LocalizedString": "As above, so below. As below, so above."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -5756,7 +5757,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -5769,18 +5770,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -5804,7 +5804,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -5833,7 +5833,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5851,11 +5851,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -5888,6 +5888,7 @@
           "SourceString": "CUST_KGK_Head01_COLLECTION_DESC",
           "LocalizedString": "As above, so below. As below, so above."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -5900,7 +5901,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -5913,18 +5914,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -5948,7 +5948,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -5977,7 +5977,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -5995,11 +5995,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -6018,6 +6018,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Anniversary2020",
@@ -6030,7 +6031,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -6046,7 +6047,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -6059,18 +6060,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -6097,7 +6097,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -6126,7 +6126,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6144,11 +6144,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -6167,6 +6167,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Anniversary2021",
@@ -6179,7 +6180,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -6195,7 +6196,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -6208,18 +6209,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -6246,7 +6246,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -6275,7 +6275,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6293,11 +6293,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -6330,6 +6330,7 @@
           "SourceString": "CUST_KCL_Head02_COLLECTION_DESC",
           "LocalizedString": "Sometimes, one requires a mask to hide the anguish and torment within."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -6342,7 +6343,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -6355,18 +6356,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -6393,7 +6393,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -6422,7 +6422,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6440,11 +6440,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -6474,6 +6474,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -6486,7 +6487,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -6520,18 +6521,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -6558,7 +6558,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -6587,7 +6587,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6605,11 +6605,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -6639,6 +6639,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -6651,7 +6652,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [
@@ -6685,18 +6686,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -6723,7 +6723,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -6752,7 +6752,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6770,11 +6770,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -6796,6 +6796,7 @@
           "SourceString": "CUST_KGK_W006_COLLECTION_DESC",
           "LocalizedString": "A rusty folding pocket knife with a hand-carved rosewood handle."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -6804,18 +6805,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -6839,7 +6839,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -6868,7 +6868,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -6886,11 +6886,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -6909,6 +6909,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -6917,18 +6918,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -6955,7 +6955,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -6984,7 +6984,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7002,11 +7002,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -7025,6 +7025,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -7033,18 +7034,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -7071,7 +7071,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -7100,7 +7100,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "Pulcinella",
           "AdditionalDlcIds": [
             "XboxPerkNov2020"
@@ -7120,7 +7120,7 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "/Game/Effects/Blueprints/Killer12/Weapon/BP_Effect_GK_W009.BP_Effect_GK_W009_C",
@@ -7143,6 +7143,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Halloween2019",
@@ -7151,18 +7152,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -7189,7 +7189,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -7218,7 +7218,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7236,11 +7236,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -7259,6 +7259,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -7267,18 +7268,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -7305,7 +7305,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -7334,7 +7334,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7352,11 +7352,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -7375,6 +7375,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -7383,18 +7384,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -7421,7 +7421,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -7450,7 +7450,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7468,11 +7468,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -7491,6 +7491,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -7499,18 +7500,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -7537,7 +7537,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -7566,7 +7566,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7584,11 +7584,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -7618,6 +7618,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -7626,18 +7627,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -7664,7 +7664,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -7693,7 +7693,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7711,11 +7711,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -7734,6 +7734,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -7742,18 +7743,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -7780,7 +7780,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -7809,7 +7809,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7827,11 +7827,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -7861,6 +7861,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -7869,18 +7870,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -7907,7 +7907,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -7936,7 +7936,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -7954,11 +7954,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -7977,6 +7977,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -7985,18 +7986,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -8023,7 +8023,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -8052,7 +8052,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -8070,11 +8070,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -8104,6 +8104,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -8112,18 +8113,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -8150,7 +8150,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -8179,7 +8179,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -8197,11 +8197,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -8220,6 +8220,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Summer2023",
@@ -8228,18 +8229,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -8266,7 +8266,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -8295,7 +8295,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -8313,11 +8313,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -8336,6 +8336,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -8344,18 +8345,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -8382,7 +8382,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -8411,7 +8411,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -8429,11 +8429,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -8452,6 +8452,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -8460,18 +8461,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -8498,7 +8498,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -8527,7 +8527,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -8545,11 +8545,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -8568,6 +8568,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "Winter2023",
@@ -8576,18 +8577,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -8614,7 +8614,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -8643,7 +8643,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -8661,11 +8661,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -8698,6 +8698,7 @@
           "SourceString": "CUST_KCL_W01_COLLECTION_DESC",
           "LocalizedString": "An oversized switchblade, as accustomed to inflicting torture and pain as it is to removing limbs and appendages."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -8706,18 +8707,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -8741,7 +8741,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -8770,7 +8770,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -8788,11 +8788,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -8825,6 +8825,7 @@
           "SourceString": "CUST_KCL_W01_COLLECTION_DESC",
           "LocalizedString": "An oversized switchblade, as accustomed to inflicting torture and pain as it is to removing limbs and appendages."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -8833,18 +8834,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -8868,7 +8868,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -8897,7 +8897,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -8915,11 +8915,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -8941,6 +8941,7 @@
           "SourceString": "CUST_KCL_W02_COLLECTION_DESC",
           "LocalizedString": "A large, foldable straight razor, used for more than just providing close shaves."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -8949,18 +8950,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -8984,7 +8984,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -9013,7 +9013,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -9031,11 +9031,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -9068,6 +9068,7 @@
           "SourceString": "CUST_KCL_W02_COLLECTION_DESC",
           "LocalizedString": "A large, foldable straight razor, used for more than just providing close shaves."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -9076,18 +9077,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -9111,7 +9111,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -9140,7 +9140,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -9158,11 +9158,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -9195,6 +9195,7 @@
           "SourceString": "CUST_KCL_W02_COLLECTION_DESC",
           "LocalizedString": "A large, foldable straight razor, used for more than just providing close shaves."
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -9203,18 +9204,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -9238,7 +9238,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -9267,7 +9267,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -9285,11 +9285,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [
           {
@@ -9319,6 +9319,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -9327,18 +9328,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -9365,7 +9365,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -9394,7 +9394,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -9412,11 +9412,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -9435,6 +9435,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -9447,7 +9448,7 @@
             },
             "SkeletalMesh": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             },
             "SocketName": "None",
             "MaterialsMap": [],
@@ -9460,18 +9461,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -9498,7 +9498,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -9527,7 +9527,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -9545,11 +9545,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -9568,6 +9568,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -9576,18 +9577,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -9614,7 +9614,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -9643,7 +9643,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -9661,11 +9661,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -9684,6 +9684,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -9692,18 +9693,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": 268435467,
@@ -9730,7 +9730,7 @@
           "SecondaryIcon": "",
           "AnimatedWidgetRef": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "AnimationFilePath": "",
           "AnimationLinkageId": "",
@@ -9759,7 +9759,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,

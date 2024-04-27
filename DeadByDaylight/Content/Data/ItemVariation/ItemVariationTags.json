@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemVariationTags",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": "Variation.Ribbon",
+        "DevComment": ""
+      },
+      "NewRow_0": {
+        "Tag": "Variation.Glass",
+        "DevComment": ""
+      }
+    }
+  }
+]

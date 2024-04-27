@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'ItemAddonProperties'",
+        "ObjectName": "Class'ItemAddonProperties'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -24,7 +24,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -33,7 +33,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -48,6 +48,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -60,12 +61,19 @@
             "Namespace": "",
             "Key": "26482436408F427FFCC7D4A4958B3424",
             "SourceString": "Addon_Hatchet_RustyHead_DESC",
-            "LocalizedString": "These Hatchets' heads are covered with crusty and volatile rust spots that makes injuries particularly difficult to heal.<br><li>Hatchets inflict <b>Mangled</b>.</li><br><span class = \"ReminderText\">Mangled increases time required to heal by 25% and lasts until fully healed.</span>"
+            "LocalizedString": "These Hatchets' heads are covered with crusty and volatile rust spots that makes injuries particularly difficult to heal.<br><li>Hatchets inflict <b>Mangled</b> for <b>70 seconds</b>.</li><br><span class = \"ReminderText\">Mangled increases time required to heal by 25% and lasts for a set duration or until fully healed.</span>"
           },
           "IconFilePathList": [
             "UI/Icons/ItemAddons/DLC5/iconAddon_rustyHead.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -95,11 +103,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_RustyHead"
       },
@@ -117,7 +125,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -126,7 +134,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -141,6 +149,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -153,12 +162,19 @@
             "Namespace": "",
             "Key": "99D68D914AE6AE54BBFA64AACFC04318",
             "SourceString": "Addon_Hatchet_BegrimedHead_DESC",
-            "LocalizedString": "These Hatchets' heads are stained with a foul substance that afflict anyone it touches with debilities.<br><li>Hit target suffers from the <b>Mangled</b> and <b>Hemorrhage</b> status effects until fully healed.</li><br><span class = \"ReminderText\">Hemorrhage regresses healing progress when not healing, and increases blood trails left by injured survivors.<br>\nMangled increases time required to heal by 25% and lasts until fully healed.</span>"
+            "LocalizedString": "These Hatchets' heads are stained with a foul substance that afflict anyone it touches with debilities.<br><li>Hit target suffers from the <b>Mangled</b> and <b>Hemorrhage</b> status effects for <b>80 seconds</b>.</li><br><span class = \"ReminderText\">Hemorrhage regresses healing progress when not healing, and increases blood trails left by injured survivors. This lasts for a set duration or until healed.</span><br><span class = \"ReminderText\">Mangled increases time required to heal by 25% and lasts for a set duration or until fully healed.</span>"
           },
           "IconFilePathList": [
             "UI/Icons/ItemAddons/DLC5/iconAddon_begrimedHead.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -188,11 +204,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_BegrimedHead"
       },
@@ -210,7 +226,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -219,7 +235,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -234,6 +250,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -252,6 +269,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_woodenFox.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -281,11 +305,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_YewSeedBrew"
       },
@@ -303,7 +327,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -312,7 +336,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -327,6 +351,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -345,6 +370,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_roseRoot.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -374,11 +406,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_YewSeedConcoction"
       },
@@ -396,7 +428,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -405,7 +437,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -420,6 +452,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -438,6 +471,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_coarseStone.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -467,11 +507,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_CoarseStone"
       },
@@ -489,7 +529,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -498,7 +538,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -513,6 +553,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -531,6 +572,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_weightedHead.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -560,11 +608,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_FineStone"
       },
@@ -582,7 +630,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -591,7 +639,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -606,6 +654,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -618,12 +667,19 @@
             "Namespace": "",
             "Key": "269EB6A04A3FDBCA90CDB4BA76429CB8",
             "SourceString": "Addon_Hatchet_LeatherLoop_DESC",
-            "LocalizedString": "This leather strip tied into a loop can be attached to a belt to allow easy transportation of tools.<br><li>Start with <b>1 extra</b> Hatchet.</li><li><b>Increases</b> maximum carried Hatchet amount by <b>1</b>.</li>"
+            "LocalizedString": "The right tool in the right hands is key to a successful hunt.<br><li>Hatchet hits grant <b>2% Haste</b> for <b>5 seconds</b>.</li><br><span class = \"ReminderText\">Haste increases Killer movement speed.</span>"
           },
           "IconFilePathList": [
             "UI/Icons/ItemAddons/DLC5/iconAddon_leatherLoop.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -653,11 +709,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_LeatherLoop"
       },
@@ -675,7 +731,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -684,7 +740,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -699,6 +755,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -711,12 +768,19 @@
             "Namespace": "",
             "Key": "C2FD9E504673866B5AAC01B7962265C8",
             "SourceString": "Addon_Hatchet_InfantryBelt_DESC",
-            "LocalizedString": "A sturdy utility belt pillaged from a soldier. Its multiple leather loops and holsters are useful to transport tools.<br><li>Start with <b>2 extra</b> Hatchets.</li><li><b>Increases</b> maximum carried Hatchet amount by <b>2</b>.</li>"
+            "LocalizedString": "A sturdy utility belt pillaged from a soldier. He was quick in combat, but she was quicker.<br><li>Hatchet hits grant <b>3% Haste</b> for <b>5 seconds</b>.</li><br><span class = \"ReminderText\">Haste increases Killer movement speed.</span>"
           },
           "IconFilePathList": [
             "UI/Icons/ItemAddons/DLC5/iconAddon_infantryBelt.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -746,11 +810,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_InfantryBelt"
       },
@@ -768,7 +832,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -777,7 +841,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -792,6 +856,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -810,6 +875,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_yellowedCloth.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -839,11 +911,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_BerusToxin"
       },
@@ -861,7 +933,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -870,7 +942,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -885,6 +957,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -903,6 +976,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_venomousConcoction.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -932,11 +1012,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_VenomousConcoction"
       },
@@ -954,7 +1034,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -963,7 +1043,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -978,6 +1058,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -996,6 +1077,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_iridescentHead.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1025,11 +1113,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_IridescentHead"
       },
@@ -1047,7 +1135,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1056,7 +1144,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1071,6 +1159,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1089,6 +1178,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_bandagedHaft.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1118,11 +1214,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_BandagedHaft"
       },
@@ -1140,7 +1236,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1149,7 +1245,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1164,6 +1260,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1182,6 +1279,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_oakHaft.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1211,11 +1315,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_OakHaft"
       },
@@ -1233,7 +1337,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1242,7 +1346,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1257,6 +1361,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1275,6 +1380,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_deerskinGloves.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1304,11 +1416,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_DeerskinGloves"
       },
@@ -1326,7 +1438,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1335,7 +1447,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1350,6 +1462,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1368,6 +1481,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_shinyPin.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1397,11 +1517,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_ShinyPin"
       },
@@ -1419,7 +1539,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1428,7 +1548,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1443,6 +1563,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1461,6 +1582,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_amanitaToxin.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1490,11 +1618,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_AmanitaToxin"
       },
@@ -1512,7 +1640,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1521,7 +1649,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1536,6 +1664,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1554,6 +1683,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_glowingConcoction.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1583,11 +1719,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_GlowingConcoction"
       },
@@ -1605,7 +1741,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1614,7 +1750,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1629,6 +1765,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1647,6 +1784,13 @@
             "UI/Icons/ItemAddons/DLC5/iconAddon_soldiersPuttee.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1676,11 +1820,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_PungentFiale"
       },
@@ -1698,7 +1842,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1707,7 +1851,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1722,6 +1866,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1734,12 +1879,19 @@
             "Namespace": "",
             "Key": "65782F1E46D58723FDD6B799BD16DFEB",
             "SourceString": "Addon_Hatchet_MannaGrassBraid_DESC",
-            "LocalizedString": "A circular decorative braid made from manna grass. This memory of a lost little one fills the Huntress with rage and focus.<br><li><b>Decreases</b> time required to wind up a Hatchet throw by <b>8%</b>.</li>"
+            "LocalizedString": "A circular decorative braid made from manna grass. This memory of a lost little one fills the Huntress with rage and focus.<br><li><b>Decreases</b> time required to wind up a Hatchet throw by <b>5%</b>.</li>"
           },
           "IconFilePathList": [
             "UI/Icons/ItemAddons/DLC5/iconAddon_mannaGrassBraid.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1769,11 +1921,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_MannaGrassBraid"
       },
@@ -1791,7 +1943,7 @@
         "PreLevelGenerationModifierID": [],
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1800,7 +1952,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Killer08Ability",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1815,6 +1967,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::PowerAddOn",
         "UIData": {
           "DisplayName": {
@@ -1827,12 +1980,19 @@
             "Namespace": "",
             "Key": "2639490540681273209C7A9B11549A59",
             "SourceString": "Addon_Hatchet_FlowerBabushka_DESC",
-            "LocalizedString": "A clean and colorful kerchief adorned with a flower pattern. This memory of a lost little one fills the Huntress with rage and focus.<br><li><b>Decreases</b> time required to wind up a Hatchet throw by <b>12%</b>.</li>"
+            "LocalizedString": "A clean and colorful kerchief adorned with a flower pattern. This memory of a lost little one fills the Huntress with rage and focus.<br><li><b>Decreases</b> time required to wind up a Hatchet throw by <b>10%</b>.</li>"
           },
           "IconFilePathList": [
             "UI/Icons/ItemAddons/DLC5/iconAddon_flowerBabushka.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1862,11 +2022,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Addon_Hatchet_FlowerBabushka"
       }

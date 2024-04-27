@@ -5,13 +5,14 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "268435471": {
         "CharacterIndex": 268435471,
+        "CharacterCodename": "Ghostface",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Hard",
         "DisplayName": {
@@ -20,7 +21,7 @@
           "SourceString": "KILLER_OK_NAME",
           "LocalizedString": "The Ghost Face"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "D525A371477F96BD08ED26B5DFBFB605",
           "SourceString": "KILLER_OK_BIO",
@@ -74,12 +75,12 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher16.BP_Menu_Slasher16_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_GhostPower",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Male",
         "KillerAbilities": [
-          "EKillerAbilities::VE_GhostStalker",
-          "EKillerAbilities::VE_MAX"
+          "EKillerAbilities::VE_GhostStalker"
         ],
         "TunableDB": {
           "AssetPtr": {
@@ -106,6 +107,20 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "694C4BA8440C1A61ED13E29C7F869FCE",
+            "SourceString": "OK_TAG_01",
+            "LocalizedString": "Ghostface"
+          },
+          {
+            "Namespace": "",
+            "Key": "333A195B488EE94B31A474BC79102799",
+            "SourceString": "OK_TAG_02",
+            "LocalizedString": "GF"
+          }
+        ],
         "CustomizationCategories": [
           "KillerMask",
           "KillerTorso",

@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'SpecialEventData'",
+        "ObjectName": "Class'SpecialEventData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -23,6 +23,19 @@
         "EventThemeLabel": "SummerBBQ",
         "IsTrackedOnline": true,
         "UseSpecialEventLoadingScreen": true,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbySummer_2023",
         "ShopName": "Shop_Static",
@@ -53,7 +66,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -81,7 +94,7 @@
           }
         },
         "UiTakeoverData": {
-          "UseRoleSelectionTakeover": false,
+          "UseMainMenuTakeover": false,
           "UseEventEntryPopupTakeover": false,
           "UseArchivesTakeover": false,
           "UseStoreShrineTakeover": false,

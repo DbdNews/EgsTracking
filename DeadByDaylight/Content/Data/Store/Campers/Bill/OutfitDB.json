@@ -5,13 +5,13 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'OutfitData'",
+        "ObjectName": "Class'OutfitData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "BO_outfit007": {
-        "ID": "BO_outfit007",
+        "Id": "BO_outfit007",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -29,6 +29,13 @@
             "UI/Icons/Customization/BO_outfit007.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -54,7 +61,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -75,7 +82,8 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "BO_outfit007"
       }

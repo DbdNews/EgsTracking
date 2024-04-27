@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'ThemeProperties'",
+        "ObjectName": "Class'ThemeProperties'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -16,7 +16,7 @@
         "AudioStateThemes": "AudioStateThemes_15_Ukraine",
         "AudioStateWeather": "AudioStateWeather_Clear",
         "AudioThemeEvent": "AudioEvent_AM_Theme_15_Ukraine",
-        "AudioLimitPointEvent": "None",
+        "AudioLimitPointEvent": "AudioEvent_AM_LimitPoint_15_Ukraine",
         "AudioThemeSoundBank": {
           "AssetPathName": "/Game/Audio/SoundBanks/AMB_15.AMB_15",
           "SubPathString": ""
@@ -38,7 +38,7 @@
               {
                 "_elementToReplace": {
                   "AssetPathName": "None",
-                  "SubPathString": ""
+                  "SubPathString": null
                 },
                 "_elementToReplaceWith": {
                   "AssetPathName": "/Game/Blueprints/GameplayElements/Interactable/MeatLocker/BP_SmallMeatLocker_Gunslinger.BP_SmallMeatLocker_Gunslinger_C",
@@ -49,6 +49,7 @@
             "_type": "EGameplayElementType::MeatLocker_Small"
           }
         ],
+        "AdditionElements": [],
         "DlcIDString": "Ukraine",
         "Blackboard": null,
         "Gesture": false

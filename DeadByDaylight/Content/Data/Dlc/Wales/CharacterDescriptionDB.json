@@ -5,13 +5,123 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
+      "21": {
+        "CharacterIndex": 21,
+        "CharacterCodename": "S22",
+        "Role": "EPlayerRole::VE_Camper",
+        "Difficulty": "ECharacterDifficulty::VE_None",
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "2E41179D4A43D6A87D11FAB6E148EF7E",
+          "SourceString": "SURVIVOR_S22_NAME",
+          "LocalizedString": "Cheryl Mason"
+        },
+        "Backstory": {
+          "Namespace": "",
+          "Key": "C8D35F7942AA28DE579A15BB09B82132",
+          "SourceString": "SURVIVOR_S22_BIO",
+          "LocalizedString": "Caring and impulsive, Cheryl Mason, previously known as Heather, attempted to rebuild her life after the tragic death of her adoptive father, Harry Mason. While she had freed herself from the religious cult that pursued her since birth, she was shackled by the guilt of her father's death. A darkness punished her every night under the guise of abominable nightmares.<br><br>To ease her conscience, she volunteered at a crisis intervention center for troubled youth. Three months later, she aced training and could answer the crisis line without supervision. Yet little could have prepared her for the first call. All she heard was static. The air thickened as black fumes rose from the ground and suddenly she heard the voice of a woman—someone she thought she'd never hear from again. Why do you cling to this corrupt world? You know that only God can save us.<br><br>It couldn't be her—Claudia was dead. Suddenly, the world spun and she dropped on her knees, nauseous. Hot bile traveled up her throat and she retched warm blood on the floor. Then the spinning stopped as swiftly as it began. Cheryl looked up and saw she was somewhere else. A cold, hopeless place."
+        },
+        "Biography": {
+          "Namespace": "",
+          "Key": "AD0820DC40D6FEF9FDFC59AEA040A776",
+          "SourceString": "SURVIVOR_S22_TOOLTIP",
+          "LocalizedString": "Cheryl Mason is a young veteran of terror, emboldening both herself and her team.<br><br>Her personal perks, <b>Soul Guard</b>, <b>Blood Pact</b>, and <b>Repressed Alliance</b>, allow her to survive through immense hardship, stay in contact with team members, and plan objectives."
+        },
+        "IconFilePath": "UI/Icons/CharPortraits/Wales/S22_CherylMason_Portrait.png",
+        "HudIcon": {
+          "ObjectName": "Texture2D'S22_charSelect_portrait_HUD'",
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Wales/S22_charSelect_portrait_HUD.0"
+        },
+        "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Wales/S22_storeBackground.png",
+        "CustomizationDescription": [
+          {
+            "Category": "ECustomizationCategory::SurvivorHead",
+            "DefaultItemId": {
+              "RowValue": "S22_Head01"
+            },
+            "SocketName": "None"
+          },
+          {
+            "Category": "ECustomizationCategory::SurvivorTorso",
+            "DefaultItemId": {
+              "RowValue": "S22_Torso01"
+            },
+            "SocketName": "None"
+          },
+          {
+            "Category": "ECustomizationCategory::SurvivorLegs",
+            "DefaultItemId": {
+              "RowValue": "S22_Legs01"
+            },
+            "SocketName": "None"
+          }
+        ],
+        "ChapterDlcId": "Wales",
+        "AdditionalDlcIds": [],
+        "AvailableIfDlcInstalled": true,
+        "DebugName": "[S22] Cheryl Mason",
+        "IsInChunk0": false,
+        "IsAvailableInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "PlatformExclusiveFlag": 0,
+        "GamePawn": {
+          "AssetPathName": "/Game/Characters/Campers/Blueprints/BP_CamperFemale11_Character.BP_CamperFemale11_Character_C",
+          "SubPathString": ""
+        },
+        "MenuPawn": {
+          "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale11.BP_Menu_CamperFemale11_C",
+          "SubPathString": ""
+        },
+        "IsDefaultItemSpawnableInParadise": true,
+        "DefaultItem": "None",
+        "DefaultPerk": "None",
+        "Gender": "EGender::VE_Female",
+        "KillerAbilities": [],
+        "TunableDB": {
+          "AssetPtr": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "KillerHeight": "EKillerHeight::Short",
+        "SlideShowDescriptions": {
+          "Id": "None",
+          "Overview": {
+            "Namespace": "",
+            "Key": "FB7D582941CC53B08C35469A96B26F54",
+            "SourceString": "ATLANTACHARACTERSLIDE_WS_OVERVIEW",
+            "LocalizedString": "Cheryl Mason is a young veteran of terror, able to call on her past experiences to embolden both herself and her team against what lies ahead."
+          },
+          "Playstyle": {
+            "Namespace": "",
+            "Key": "0C3A6A7247DC9B7F50D985B7CE239B4E",
+            "SourceString": "ATLANTACHARACTERSLIDE_WS_PLAYSTYLE",
+            "LocalizedString": "Cheryl is an expert in keeping herself and other Survivors alive, and has the ability to turn evil against itself."
+          },
+          "ImageFilePath": "UI/Icons/CharacterSlideShowRenders/Atlanta_Slideshow_WS.png",
+          "PerkCategory": []
+        },
+        "HideStoreCustomizations": false,
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "9B2522D74D24ADF3B5D2888186E862A5",
+            "SourceString": "DLC_Wales_TAG_01",
+            "LocalizedString": "Silent Hill"
+          }
+        ],
+        "CustomizationCategories": [],
+        "CharacterId": "S22"
+      },
       "268435475": {
         "CharacterIndex": 268435475,
+        "CharacterCodename": "K20",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_VeryHard",
         "DisplayName": {
@@ -20,7 +130,7 @@
           "SourceString": "KILLER_20_NAME",
           "LocalizedString": "The Executioner"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "195E86B64862FDE661C8F6B6402439BB",
           "SourceString": "KILLER_20_BIO",
@@ -74,6 +184,7 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher20.BP_Menu_Slasher20_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_TormentMode",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Male",
@@ -105,107 +216,28 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
-        "CustomizationCategories": [],
-        "CharacterId": "K20"
-      },
-      "21": {
-        "CharacterIndex": 21,
-        "Role": "EPlayerRole::VE_Camper",
-        "Difficulty": "ECharacterDifficulty::VE_None",
-        "DisplayName": {
-          "Namespace": "",
-          "Key": "2E41179D4A43D6A87D11FAB6E148EF7E",
-          "SourceString": "SURVIVOR_S22_NAME",
-          "LocalizedString": "Cheryl Mason"
-        },
-        "BackStory": {
-          "Namespace": "",
-          "Key": "C8D35F7942AA28DE579A15BB09B82132",
-          "SourceString": "SURVIVOR_S22_BIO",
-          "LocalizedString": "Caring and impulsive, Cheryl Mason, previously known as Heather, attempted to rebuild her life after the tragic death of her adoptive father, Harry Mason. While she had freed herself from the religious cult that pursued her since birth, she was shackled by the guilt of her father's death. A darkness punished her every night under the guise of abominable nightmares.<br><br>To ease her conscience, she volunteered at a crisis intervention center for troubled youth. Three months later, she aced training and could answer the crisis line without supervision. Yet little could have prepared her for the first call. All she heard was static. The air thickened as black fumes rose from the ground and suddenly she heard the voice of a woman—someone she thought she'd never hear from again. Why do you cling to this corrupt world? You know that only God can save us.<br><br>It couldn't be her—Claudia was dead. Suddenly, the world spun and she dropped on her knees, nauseous. Hot bile traveled up her throat and she retched warm blood on the floor. Then the spinning stopped as swiftly as it began. Cheryl looked up and saw she was somewhere else. A cold, hopeless place."
-        },
-        "Biography": {
-          "Namespace": "",
-          "Key": "AD0820DC40D6FEF9FDFC59AEA040A776",
-          "SourceString": "SURVIVOR_S22_TOOLTIP",
-          "LocalizedString": "Cheryl Mason is a young veteran of terror, emboldening both herself and her team.<br><br>Her personal perks, <b>Soul Guard</b>, <b>Blood Pact</b>, and <b>Repressed Alliance</b>, allow her to survive through immense hardship, stay in contact with team members, and plan objectives."
-        },
-        "IconFilePath": "UI/Icons/CharPortraits/Wales/S22_CherylMason_Portrait.png",
-        "HudIcon": {
-          "ObjectName": "Texture2D'S22_charSelect_portrait_HUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Wales/S22_charSelect_portrait_HUD.0"
-        },
-        "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Wales/S22_storeBackground.png",
-        "CustomizationDescription": [
+        "SearchTags": [
           {
-            "Category": "ECustomizationCategory::SurvivorHead",
-            "DefaultItemId": {
-              "RowValue": "S22_Head01"
-            },
-            "SocketName": "None"
+            "Namespace": "",
+            "Key": "5AA7F055489DF2666F36169D116B7175",
+            "SourceString": "K20_TAG_01",
+            "LocalizedString": "Pyramid Head"
           },
           {
-            "Category": "ECustomizationCategory::SurvivorTorso",
-            "DefaultItemId": {
-              "RowValue": "S22_Torso01"
-            },
-            "SocketName": "None"
+            "Namespace": "",
+            "Key": "2BFF20D84DD73CB28BFE02B796A2E164",
+            "SourceString": "DLC_Wales_TAG_01",
+            "LocalizedString": "Silent Hill"
           },
           {
-            "Category": "ECustomizationCategory::SurvivorLegs",
-            "DefaultItemId": {
-              "RowValue": "S22_Legs01"
-            },
-            "SocketName": "None"
+            "Namespace": "",
+            "Key": "7AEDF20D4BC375CEE6B195BA42CFF348",
+            "SourceString": "K20_TAG_02",
+            "LocalizedString": "PH"
           }
         ],
-        "ChapterDlcId": "Wales",
-        "AdditionalDlcIds": [],
-        "AvailableIfDlcInstalled": true,
-        "DebugName": "[S22] Cheryl Mason",
-        "IsInChunk0": false,
-        "IsAvailableInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
-        "PlatformExclusiveFlag": 0,
-        "GamePawn": {
-          "AssetPathName": "/Game/Characters/Campers/Blueprints/BP_CamperFemale11_Character.BP_CamperFemale11_Character_C",
-          "SubPathString": ""
-        },
-        "MenuPawn": {
-          "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale11.BP_Menu_CamperFemale11_C",
-          "SubPathString": ""
-        },
-        "DefaultItem": "None",
-        "DefaultPerk": "None",
-        "Gender": "EGender::VE_Female",
-        "KillerAbilities": [],
-        "TunableDB": {
-          "AssetPtr": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "KillerHeight": "EKillerHeight::Short",
-        "SlideShowDescriptions": {
-          "Id": "None",
-          "Overview": {
-            "Namespace": "",
-            "Key": "FB7D582941CC53B08C35469A96B26F54",
-            "SourceString": "ATLANTACHARACTERSLIDE_WS_OVERVIEW",
-            "LocalizedString": "Cheryl Mason is a young veteran of terror, able to call on her past experiences to embolden both herself and her team against what lies ahead."
-          },
-          "Playstyle": {
-            "Namespace": "",
-            "Key": "0C3A6A7247DC9B7F50D985B7CE239B4E",
-            "SourceString": "ATLANTACHARACTERSLIDE_WS_PLAYSTYLE",
-            "LocalizedString": "Cheryl is an expert in keeping herself and other Survivors alive, and has the ability to turn evil against itself."
-          },
-          "ImageFilePath": "UI/Icons/CharacterSlideShowRenders/Atlanta_Slideshow_WS.png",
-          "PerkCategory": []
-        },
-        "HideStoreCustomizations": false,
         "CustomizationCategories": [],
-        "CharacterId": "S22"
+        "CharacterId": "K20"
       }
     }
   }

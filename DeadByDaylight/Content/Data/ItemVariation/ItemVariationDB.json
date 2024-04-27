@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemVariationDB",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'VariationData'",
+        "ObjectPath": "/Script/DeadByDaylight"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Tag": {
+          "TagName": "Variation.Ribbon"
+        },
+        "Name": {
+          "CultureInvariantString": null
+        }
+      },
+      "NewRow_0": {
+        "Tag": {
+          "TagName": "Variation.Glass"
+        },
+        "Name": {
+          "CultureInvariantString": null
+        }
+      }
+    }
+  }
+]

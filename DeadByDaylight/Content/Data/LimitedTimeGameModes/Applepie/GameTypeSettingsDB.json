@@ -5,16 +5,20 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'GameTypeSettings'",
-        "ObjectPath": "/Script/DBDSharedTypes"
+        "ObjectName": "Class'GameTypeSettings'",
+        "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "Cake": {
-        "GameType": "EGameType::Cake",
+        "GameType": "EGameType::11",
+        "DisplayTitle": {
+          "CultureInvariantString": null
+        },
         "Modifiers": [
           {
-            "EGameTypeModifierName::CanUseActiveSpecialEvent": {
+            "Key": "EGameTypeModifierName::CanUseActiveSpecialEvent",
+            "Value": {
               "setType": "EFlexibleTunableType::BooleanTunable",
               "_boolValue": true,
               "_floatValue": 0.0,
@@ -24,7 +28,8 @@
             }
           },
           {
-            "EGameTypeModifierName::DisabledInventory": {
+            "Key": "EGameTypeModifierName::DisabledInventory",
+            "Value": {
               "setType": "EFlexibleTunableType::StringArrayTunable",
               "_boolValue": false,
               "_floatValue": 0.0,
@@ -88,7 +93,8 @@
             }
           },
           {
-            "EGameTypeModifierName::IsLimitedTimeExperience": {
+            "Key": "EGameTypeModifierName::IsLimitedTimeExperience",
+            "Value": {
               "setType": "EFlexibleTunableType::BooleanTunable",
               "_boolValue": true,
               "_floatValue": 0.0,
@@ -98,7 +104,8 @@
             }
           },
           {
-            "EGameTypeModifierName::DisabledPanelTabs": {
+            "Key": "EGameTypeModifierName::DisabledPanelTabs",
+            "Value": {
               "setType": "EFlexibleTunableType::StringArrayTunable",
               "_boolValue": false,
               "_floatValue": 0.0,
@@ -112,7 +119,8 @@
             }
           },
           {
-            "EGameTypeModifierName::AllowsQuestProgression": {
+            "Key": "EGameTypeModifierName::AllowsQuestProgression",
+            "Value": {
               "setType": "EFlexibleTunableType::BooleanTunable",
               "_boolValue": true,
               "_floatValue": 0.0,
@@ -122,7 +130,8 @@
             }
           },
           {
-            "EGameTypeModifierName::InGameChestCountModifier": {
+            "Key": "EGameTypeModifierName::InGameChestCountModifier",
+            "Value": {
               "setType": "EFlexibleTunableType::IntTunable",
               "_boolValue": false,
               "_floatValue": 0.0,
@@ -132,7 +141,8 @@
             }
           },
           {
-            "EGameTypeModifierName::AudioGroupState": {
+            "Key": "EGameTypeModifierName::AudioGroupState",
+            "Value": {
               "setType": "EFlexibleTunableType::StringTunable",
               "_boolValue": false,
               "_floatValue": 0.0,
@@ -142,7 +152,8 @@
             }
           },
           {
-            "EGameTypeModifierName::GrantedCharacters": {
+            "Key": "EGameTypeModifierName::EGameTypeModifierName_MAX",
+            "Value": {
               "setType": "EFlexibleTunableType::StringArrayTunable",
               "_boolValue": false,
               "_floatValue": 0.0,
@@ -154,7 +165,8 @@
             }
           },
           {
-            "EGameTypeModifierName::ForcesDefaultCustomization": {
+            "Key": "EGameTypeModifierName::ForcesDefaultCustomization",
+            "Value": {
               "setType": "EFlexibleTunableType::BooleanTunable",
               "_boolValue": true,
               "_floatValue": 0.0,
@@ -164,118 +176,42 @@
             }
           }
         ],
-        "Mutators": [
-          {
-            "Component": {
-              "AssetPathName": "/Game/Blueprints/LimitedTimeGameModes/Applepie/Mutators/BP_AddOniStompMoriMutator.BP_AddOniStompMoriMutator_C",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": true,
-            "ShouldSpawnOnKiller": false,
-            "ShouldSpawnOnGameState": false,
-            "CustomParam": 0.0
-          },
-          {
-            "Component": {
-              "AssetPathName": "/Game/Blueprints/LimitedTimeGameModes/Applepie/Mutators/BP_PreventVaultMutator.BP_PreventVaultMutator_C",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": true,
-            "ShouldSpawnOnKiller": true,
-            "ShouldSpawnOnGameState": false,
-            "CustomParam": 0.0
-          },
-          {
-            "Component": {
-              "AssetPathName": "/Script/Mutators.OpenEscapeDoorOnGeneratorCompletionMutator",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": false,
-            "ShouldSpawnOnKiller": false,
-            "ShouldSpawnOnGameState": true,
-            "CustomParam": 0.0
-          },
-          {
-            "Component": {
-              "AssetPathName": "/Game/Blueprints/LimitedTimeGameModes/Applepie/Mutators/BP_ModifySurvivorScaleMutator.BP_ModifySurvivorScaleMutator_C",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": true,
-            "ShouldSpawnOnKiller": false,
-            "ShouldSpawnOnGameState": false,
-            "CustomParam": 0.5
-          },
-          {
-            "Component": {
-              "AssetPathName": "/Game/Blueprints/LimitedTimeGameModes/Applepie/Mutators/BP_ModifyPlayerScaleMutator.BP_ModifyPlayerScaleMutator_C",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": false,
-            "ShouldSpawnOnKiller": true,
-            "ShouldSpawnOnGameState": false,
-            "CustomParam": 2.0
-          },
-          {
-            "Component": {
-              "AssetPathName": "/Script/Mutators.OverrideGeneratorRequirementsMutator",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": false,
-            "ShouldSpawnOnKiller": false,
-            "ShouldSpawnOnGameState": true,
-            "CustomParam": 3.0
-          },
-          {
-            "Component": {
-              "AssetPathName": "/Game/Blueprints/LimitedTimeGameModes/Applepie/Mutators/BP_RevealSurviorsAuraEveryMinuteMutator.BP_RevealSurviorsAuraEveryMinuteMutator_C",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": false,
-            "ShouldSpawnOnKiller": true,
-            "ShouldSpawnOnGameState": false,
-            "CustomParam": 2.0
-          },
-          {
-            "Component": {
-              "AssetPathName": "/Script/Mutators.OverrideGeneratorMaxChargeMutator",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": false,
-            "ShouldSpawnOnKiller": false,
-            "ShouldSpawnOnGameState": true,
-            "CustomParam": 70.0
-          },
-          {
-            "Component": {
-              "AssetPathName": "/Game/Blueprints/LimitedTimeGameModes/Applepie/Mutators/BP_PermanentBrokenEffectMutator.BP_PermanentBrokenEffectMutator_C",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": true,
-            "ShouldSpawnOnKiller": false,
-            "ShouldSpawnOnGameState": false,
-            "CustomParam": 0.0
-          },
-          {
-            "Component": {
-              "AssetPathName": "/Script/Mutators.ForceHookStageMutator",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": true,
-            "ShouldSpawnOnKiller": false,
-            "ShouldSpawnOnGameState": false,
-            "CustomParam": 2.0
-          },
-          {
-            "Component": {
-              "AssetPathName": "/Game/Blueprints/LimitedTimeGameModes/Applepie/Mutators/BP_PreventPickupMutator.BP_PreventPickupMutator_C",
-              "SubPathString": ""
-            },
-            "ShouldSpawnOnSurvivor": false,
-            "ShouldSpawnOnKiller": true,
-            "ShouldSpawnOnGameState": false,
-            "CustomParam": 0.0
-          }
-        ]
+        "MutatorData": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "LockedKillerLoadout": {
+          "offering": "None",
+          "Item": "None",
+          "addon1": "None",
+          "addon2": "None",
+          "Data": [
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_"
+          ]
+        },
+        "LockedSurvivorLoadout": {
+          "offering": "None",
+          "Item": "None",
+          "addon1": "None",
+          "addon2": "None",
+          "Data": [
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_",
+            "_EMPTY_"
+          ]
+        }
       }
     }
   }

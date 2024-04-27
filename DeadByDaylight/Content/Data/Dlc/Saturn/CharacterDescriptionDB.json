@@ -5,13 +5,14 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "268435486": {
         "CharacterIndex": 268435486,
+        "CharacterCodename": "K31",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Hard",
         "DisplayName": {
@@ -20,7 +21,7 @@
           "SourceString": "KILLER_31_NAME",
           "LocalizedString": "The Skull Merchant"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "FA8CB7E64246382BA1D697A74A76627D",
           "SourceString": "KILLER_31_BIO",
@@ -35,7 +36,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Saturn/K31_TheSkullMerchant_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'Missing'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraits/Missing.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraits/Missing.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Saturn/K31_storeBackground.png",
         "CustomizationDescription": [
@@ -77,6 +78,7 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher31.BP_Menu_Slasher31_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_K31Power",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Female",
@@ -102,11 +104,13 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "K31"
       },
       "34": {
         "CharacterIndex": 34,
+        "CharacterCodename": "S35",
         "Role": "EPlayerRole::VE_Camper",
         "Difficulty": "ECharacterDifficulty::VE_Intermediate",
         "DisplayName": {
@@ -115,7 +119,7 @@
           "SourceString": "SURVIVOR_35_NAME",
           "LocalizedString": "Thalita Lyra"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "7984EA6F45845510CD45B3B20046E007",
           "SourceString": "SURVIVOR_35_BIO",
@@ -130,7 +134,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Saturn/S35_ThalitaLyra_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'T_S35_charSelect_portraitHUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Saturn/T_S35_charSelect_portraitHUD.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Saturn/T_S35_charSelect_portraitHUD.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Saturn/S35_storeBackground.png",
         "CustomizationDescription": [
@@ -172,6 +176,7 @@
           "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale19.BP_Menu_CamperFemale19_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "None",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Female",
@@ -179,7 +184,7 @@
         "TunableDB": {
           "AssetPtr": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "KillerHeight": "EKillerHeight::Average",
@@ -195,11 +200,13 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "S35"
       },
       "35": {
         "CharacterIndex": 35,
+        "CharacterCodename": "S36",
         "Role": "EPlayerRole::VE_Camper",
         "Difficulty": "ECharacterDifficulty::VE_Intermediate",
         "DisplayName": {
@@ -208,7 +215,7 @@
           "SourceString": "SURVIVOR_36_NAME",
           "LocalizedString": "Renato Lyra"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "7E698E5D4BF1047CD0D075A154E7E269",
           "SourceString": "SURVIVOR_36_BIO",
@@ -223,7 +230,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Saturn/S36_RenatoLyra_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'T_S36_charSelect_portraitHUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Saturn/T_S36_charSelect_portraitHUD.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Saturn/T_S36_charSelect_portraitHUD.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Saturn/S36_storeBackground.png",
         "CustomizationDescription": [
@@ -265,6 +272,7 @@
           "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperMale17.BP_Menu_CamperMale17_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "None",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Male",
@@ -272,7 +280,7 @@
         "TunableDB": {
           "AssetPtr": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "KillerHeight": "EKillerHeight::Average",
@@ -288,6 +296,7 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "S36"
       }

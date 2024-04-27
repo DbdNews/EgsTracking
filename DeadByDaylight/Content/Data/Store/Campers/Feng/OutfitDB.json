@@ -5,13 +5,13 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'OutfitData'",
+        "ObjectName": "Class'OutfitData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "FM_outfit_008": {
-        "ID": "FM_outfit_008",
+        "Id": "FM_outfit_008",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -30,7 +30,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -57,7 +61,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -78,12 +82,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": true,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_008"
       },
       "FM_outfit_009": {
-        "ID": "FM_outfit_009",
+        "Id": "FM_outfit_009",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -102,7 +107,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -129,7 +138,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -150,12 +159,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": true,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_009"
       },
       "FM_outfit_010": {
-        "ID": "FM_outfit_010",
+        "Id": "FM_outfit_010",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -174,7 +184,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -201,7 +215,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -222,12 +236,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": true,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_010"
       },
       "FM_outfit_011": {
-        "ID": "FM_outfit_011",
+        "Id": "FM_outfit_011",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -246,7 +261,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -273,7 +292,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -294,12 +313,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": true,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_011"
       },
       "FM_outfit_011_01": {
-        "ID": "FM_outfit_011_01",
+        "Id": "FM_outfit_011_01",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -318,7 +338,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -345,7 +369,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -366,12 +390,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": true,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_011_01"
       },
       "FM_outfit_012": {
-        "ID": "FM_outfit_012",
+        "Id": "FM_outfit_012",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -390,7 +415,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -417,7 +446,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -438,12 +467,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": true,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "GreekLegends",
         "_outfitId": "FM_outfit_012"
       },
       "FM_outfit_013": {
-        "ID": "FM_outfit_013",
+        "Id": "FM_outfit_013",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -462,7 +492,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -489,7 +523,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -510,12 +544,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_013"
       },
       "FM_outfit_014": {
-        "ID": "FM_outfit_014",
+        "Id": "FM_outfit_014",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -534,7 +569,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -561,7 +600,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -582,12 +621,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_014"
       },
       "FM_outfit_015": {
-        "ID": "FM_outfit_015",
+        "Id": "FM_outfit_015",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -606,7 +646,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -633,7 +677,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -654,12 +698,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_015"
       },
       "FM_outfit_016": {
-        "ID": "FM_outfit_016",
+        "Id": "FM_outfit_016",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -678,7 +723,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -705,7 +754,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -726,12 +775,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_016"
       },
       "FM_outfit_016_01": {
-        "ID": "FM_outfit_016_01",
+        "Id": "FM_outfit_016_01",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -750,7 +800,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -777,7 +831,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -798,12 +852,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "6.4.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_016_01"
       },
       "FM_outfit_017": {
-        "ID": "FM_outfit_017",
+        "Id": "FM_outfit_017",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -822,7 +877,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -849,7 +908,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -870,12 +929,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "CozyBreak",
         "_outfitId": "FM_outfit_017"
       },
       "FM_outfit_018": {
-        "ID": "FM_outfit_018",
+        "Id": "FM_outfit_018",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -894,7 +954,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -921,7 +985,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -942,12 +1006,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "5.5.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "ModernTale",
         "_outfitId": "FM_outfit_018"
       },
       "FM_outfit_019": {
-        "ID": "FM_outfit_019",
+        "Id": "FM_outfit_019",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -966,7 +1031,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -993,7 +1062,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1014,12 +1083,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "5.7.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_019"
       },
       "FM_outfit_01_04": {
-        "ID": "FM_outfit_01_04",
+        "Id": "FM_outfit_01_04",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1038,7 +1108,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1065,7 +1139,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1086,12 +1160,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_01_04"
       },
       "FM_outfit_01_06": {
-        "ID": "FM_outfit_01_06",
+        "Id": "FM_outfit_01_06",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1110,7 +1185,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1137,7 +1216,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1158,12 +1237,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "Legacy",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_01_06"
       },
       "FM_outfit_020": {
-        "ID": "FM_outfit_020",
+        "Id": "FM_outfit_020",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1182,7 +1262,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1209,7 +1293,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1230,12 +1314,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "6.1.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_020"
       },
       "FM_outfit_021": {
-        "ID": "FM_outfit_021",
+        "Id": "FM_outfit_021",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1254,7 +1339,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1281,7 +1370,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1302,12 +1391,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "6.2.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "RE",
         "_outfitId": "FM_outfit_021"
       },
       "FM_outfit_022": {
-        "ID": "FM_outfit_022",
+        "Id": "FM_outfit_022",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1326,7 +1416,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1353,7 +1447,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1374,12 +1468,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "6.3.2",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "SilentHill",
         "_outfitId": "FM_outfit_022"
       },
       "FM_outfit_023": {
-        "ID": "FM_outfit_023",
+        "Id": "FM_outfit_023",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1398,7 +1493,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1425,7 +1524,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1446,12 +1545,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "6.5.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_023"
       },
       "FM_outfit_024": {
-        "ID": "FM_outfit_024",
+        "Id": "FM_outfit_024",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1470,7 +1570,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1497,7 +1601,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1518,12 +1622,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "6.5.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_024"
       },
       "FM_outfit_024_01": {
-        "ID": "FM_outfit_024_01",
+        "Id": "FM_outfit_024_01",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1542,7 +1647,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1569,7 +1678,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1590,12 +1699,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "6.5.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_024_01"
       },
       "FM_outfit_025": {
-        "ID": "FM_outfit_025",
+        "Id": "FM_outfit_025",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1614,7 +1724,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1641,7 +1755,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1662,12 +1776,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "7.0.1",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_025"
       },
       "FM_outfit_026": {
-        "ID": "FM_outfit_026",
+        "Id": "FM_outfit_026",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1686,7 +1801,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1713,7 +1832,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1734,12 +1853,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "7.2.2",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "FireMoon",
         "_outfitId": "FM_outfit_026"
       },
       "FM_outfit_027": {
-        "ID": "FM_outfit_027",
+        "Id": "FM_outfit_027",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1758,7 +1878,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1785,7 +1909,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1806,12 +1930,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "7.3.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_027"
       },
       "FM_outfit_027_01": {
-        "ID": "FM_outfit_027_01",
+        "Id": "FM_outfit_027_01",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1830,7 +1955,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1857,7 +1986,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1878,12 +2007,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "7.3.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_027_01"
       },
       "FM_outfit_028": {
-        "ID": "FM_outfit_028",
+        "Id": "FM_outfit_028",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1902,7 +2032,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -1929,7 +2063,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1950,12 +2084,13 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "7.3.0",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_028"
       },
       "FM_outfit_029": {
-        "ID": "FM_outfit_029",
+        "Id": "FM_outfit_029",
         "UIData": {
           "DisplayName": {
             "Namespace": "",
@@ -1974,7 +2109,11 @@
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
-          "animationWidgetRef": null,
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
           "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
@@ -2001,7 +2140,7 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -2022,7 +2161,8 @@
           "CultureInvariantString": null
         },
         "InclusionVersion": "7.4.2",
-        "IsAvailableInAtlantaBuild": false,
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_029"
       }

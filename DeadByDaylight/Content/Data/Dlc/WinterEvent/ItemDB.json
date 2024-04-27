@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'ItemData'",
+        "ObjectName": "Class'ItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -22,7 +22,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -34,9 +34,10 @@
         "Bloodweb": true,
         "CanKeepInLoadout": true,
         "IsBotSupported": true,
-        "EventId": "Winter2022",
+        "EventId": "Winter2023",
         "CanUseAfterEventEnd": true,
         "ItemType": "ELoadoutItemType::Firecracker",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -55,6 +56,13 @@
             "UI/Icons/Items/WinterEvent/iconItems_winterEventFirecracker.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -91,7 +99,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_Firecracker_WinterEvent"
       }

@@ -5,13 +5,122 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
+      "13": {
+        "CharacterIndex": 13,
+        "CharacterCodename": "Adam",
+        "Role": "EPlayerRole::VE_Camper",
+        "Difficulty": "ECharacterDifficulty::VE_None",
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E4B814FA40BC50539C7396B78FCB093E",
+          "SourceString": "CHARACTERS_SurvivorAdamFrancis",
+          "LocalizedString": "Adam Francis"
+        },
+        "Backstory": {
+          "Namespace": "",
+          "Key": "A3D90D844D18835CAD7BF5991ABB403B",
+          "SourceString": "SURVIVOR_AF_BIO",
+          "LocalizedString": "Adam was born in Rollington Town in Kingston, Jamaica. His father died in a car accident when he was two, and his uncle took him in. His uncle was a strict, but fair man, who raised him to value education.<br><br>At Kingston College, Adam discovered his father’s published works, which triggered his passion for literature. His campus, however, was known for its focus on athletics. As a shy teenager with his nose stuck in books, he was the perfect prey for bullies. What he lacked in sports, he made up in grit. He learned to defend himself in the thick of it.<br><br>It’s during his years in college that he started to imagine his life elsewhere. While his close friends orbited the music industry, he followed a surer path. His grades granted him admission to higher education, and there was a demand for teachers abroad.<br><br>After graduating university, he taught extra classes to afford applying fees overseas. He had a steady diet of long commutes, grading piles, nightly lesson plans, and early classes. After a year, he managed to apply for a position abroad. His first plane ride took him to Southern Japan for a new start.<br><br>His life in Kagoshima was hectic. There was little time to do everything he took for granted back home. His Japanese was elementary at best, which slowed him down. Buying groceries took hours, long commutes had to be planned, and lesson plans relied on Japanese notions, which he had to learn.<br><br>But after a few months, he found his rhythm. He reflected on it one morning while riding the train to work. He no longer had to study the kanji characters filling the map. He knew his way. His language skills had improved, he felt connected to his students, and he’d treat himself to luxurious restaurants on weekends. He even had his first vacation planned.<br><br>Within seconds, Adam’s world was brought down to a slow motion. Rails hissed, bags came pouring down, and the floor trembled before the hit: Adam crashed forward as the train flipped upside down. He landed on a window pane as an unhinged door came flying at a passenger. He rolled over so that the door would hit him instead of the girl. He shut his eyes as he braced for impact, but nothing happened.<br><br>He squinted one eye open and he saw nothing but darkness. A heavy Fog had taken over the train. Ice seemed to flow through his body, reaching his lips first, then the tip of his fingers before spreading to his legs. Lulled by the warm hum of the dark whisper, he closed his eyes, drifting.<br><br>No one truly knows what happened to Adam Francis. The school teachers imagined the worst when they watched the train derailment on the news and saw he was missing. Their fears seemed to be confirmed when Adam’s bag was recovered from the crash site, but his body was never found. To this day, his uncle believes that Adam took off after the train crash, alive still, somewhere out there."
+        },
+        "Biography": {
+          "Namespace": "",
+          "Key": "1F1DCEEF46B5EE5D98B88B8D0F11BEFA",
+          "SourceString": "SURVIVOR_AF_TOOLTIP",
+          "LocalizedString": "A resourceful teacher, able to adapt to new circumstances and develop strategies accordingly. <br><br>His personal perks, <b>Diversion</b>, <b>Deliverance</b> and <b>Autodidact</b>, help him to distract The Killer, survive desperate situations, and become more skilled as the trial continues."
+        },
+        "IconFilePath": "UI/Icons/CharPortraits/Haiti/S14_AdamFrancis_Portrait.png",
+        "HudIcon": {
+          "ObjectName": "Texture2D'AF_charSelect_portrait_HUD'",
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Haiti/AF_charSelect_portrait_HUD.0"
+        },
+        "BackgroundImagePath": "UI/Icons/StoreBackgrounds/storeBackground_AF.png",
+        "CustomizationDescription": [
+          {
+            "Category": "ECustomizationCategory::SurvivorHead",
+            "DefaultItemId": {
+              "RowValue": "HS_Head01"
+            },
+            "SocketName": "None"
+          },
+          {
+            "Category": "ECustomizationCategory::SurvivorTorso",
+            "DefaultItemId": {
+              "RowValue": "HS_Torso01"
+            },
+            "SocketName": "None"
+          },
+          {
+            "Category": "ECustomizationCategory::SurvivorLegs",
+            "DefaultItemId": {
+              "RowValue": "HS_Legs01"
+            },
+            "SocketName": "None"
+          }
+        ],
+        "ChapterDlcId": "Haiti",
+        "AdditionalDlcIds": [
+          "EP2"
+        ],
+        "AvailableIfDlcInstalled": true,
+        "DebugName": "[S14] Adam Denson",
+        "IsInChunk0": false,
+        "IsAvailableInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "PlatformExclusiveFlag": 0,
+        "GamePawn": {
+          "AssetPathName": "/Game/Characters/Campers/Blueprints/BP_CamperMale08_Character.BP_CamperMale08_Character_C",
+          "SubPathString": ""
+        },
+        "MenuPawn": {
+          "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperMale08.BP_Menu_CamperMale08_C",
+          "SubPathString": ""
+        },
+        "IsDefaultItemSpawnableInParadise": true,
+        "DefaultItem": "None",
+        "DefaultPerk": "None",
+        "Gender": "EGender::VE_Male",
+        "KillerAbilities": [],
+        "TunableDB": {
+          "AssetPtr": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "KillerHeight": "EKillerHeight::Average",
+        "SlideShowDescriptions": {
+          "Id": "None",
+          "Overview": {
+            "Namespace": "",
+            "Key": "A32C8D4D4B9DE203C26673A446C5628E",
+            "SourceString": "ATLANTACHARACTERSLIDE_AF_OVERVIEW",
+            "LocalizedString": "Adam Francis is a resourceful teacher, able to adapt to new circumstances and develop strategies accordingly."
+          },
+          "Playstyle": {
+            "Namespace": "",
+            "Key": "0E0EA53C4099625135AE1CBED349BC33",
+            "SourceString": "ATLANTACHARACTERSLIDE_AF_PLAYSTYLE",
+            "LocalizedString": "Adam can distract the Killer, survive desperate situations, and increase his skill as the trial continues."
+          },
+          "ImageFilePath": "UI/Icons/CharacterSlideShowRenders/Atlanta_Slideshow_AF.png",
+          "PerkCategory": [
+            "EPerkCategory::Concealment",
+            "EPerkCategory::Adaptation",
+            "EPerkCategory::Safeguard"
+          ]
+        },
+        "HideStoreCustomizations": false,
+        "SearchTags": [],
+        "CustomizationCategories": [],
+        "CharacterId": "Adam"
+      },
       "268435468": {
         "CharacterIndex": 268435468,
+        "CharacterCodename": "Spirit",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Hard",
         "DisplayName": {
@@ -20,7 +129,7 @@
           "SourceString": "KILLER_SPIRIT_NAME",
           "LocalizedString": "The Spirit"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "86F0DB7A42F4BD2D93EDBDBE305893B0",
           "SourceString": "KILLER_SPIRIT_BIO",
@@ -76,12 +185,12 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher13.BP_Menu_Slasher13_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_PhaseWalker",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Female",
         "KillerAbilities": [
-          "EKillerAbilities::VE_PhaseWalk",
-          "EKillerAbilities::VE_MAX"
+          "EKillerAbilities::VE_PhaseWalk"
         ],
         "TunableDB": {
           "AssetPtr": {
@@ -108,113 +217,9 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "Spirit"
-      },
-      "13": {
-        "CharacterIndex": 13,
-        "Role": "EPlayerRole::VE_Camper",
-        "Difficulty": "ECharacterDifficulty::VE_None",
-        "DisplayName": {
-          "Namespace": "",
-          "Key": "E4B814FA40BC50539C7396B78FCB093E",
-          "SourceString": "CHARACTERS_SurvivorAdamFrancis",
-          "LocalizedString": "Adam Francis"
-        },
-        "BackStory": {
-          "Namespace": "",
-          "Key": "A3D90D844D18835CAD7BF5991ABB403B",
-          "SourceString": "SURVIVOR_AF_BIO",
-          "LocalizedString": "Adam was born in Rollington Town in Kingston, Jamaica. His father died in a car accident when he was two, and his uncle took him in. His uncle was a strict, but fair man, who raised him to value education.<br><br>At Kingston College, Adam discovered his father’s published works, which triggered his passion for literature. His campus, however, was known for its focus on athletics. As a shy teenager with his nose stuck in books, he was the perfect prey for bullies. What he lacked in sports, he made up in grit. He learned to defend himself in the thick of it.<br><br>It’s during his years in college that he started to imagine his life elsewhere. While his close friends orbited the music industry, he followed a surer path. His grades granted him admission to higher education, and there was a demand for teachers abroad.<br><br>After graduating university, he taught extra classes to afford applying fees overseas. He had a steady diet of long commutes, grading piles, nightly lesson plans, and early classes. After a year, he managed to apply for a position abroad. His first plane ride took him to Southern Japan for a new start.<br><br>His life in Kagoshima was hectic. There was little time to do everything he took for granted back home. His Japanese was elementary at best, which slowed him down. Buying groceries took hours, long commutes had to be planned, and lesson plans relied on Japanese notions, which he had to learn.<br><br>But after a few months, he found his rhythm. He reflected on it one morning while riding the train to work. He no longer had to study the kanji characters filling the map. He knew his way. His language skills had improved, he felt connected to his students, and he’d treat himself to luxurious restaurants on weekends. He even had his first vacation planned.<br><br>Within seconds, Adam’s world was brought down to a slow motion. Rails hissed, bags came pouring down, and the floor trembled before the hit: Adam crashed forward as the train flipped upside down. He landed on a window pane as an unhinged door came flying at a passenger. He rolled over so that the door would hit him instead of the girl. He shut his eyes as he braced for impact, but nothing happened.<br><br>He squinted one eye open and he saw nothing but darkness. A heavy Fog had taken over the train. Ice seemed to flow through his body, reaching his lips first, then the tip of his fingers before spreading to his legs. Lulled by the warm hum of the dark whisper, he closed his eyes, drifting.<br><br>No one truly knows what happened to Adam Francis. The school teachers imagined the worst when they watched the train derailment on the news and saw he was missing. Their fears seemed to be confirmed when Adam’s bag was recovered from the crash site, but his body was never found. To this day, his uncle believes that Adam took off after the train crash, alive still, somewhere out there."
-        },
-        "Biography": {
-          "Namespace": "",
-          "Key": "1F1DCEEF46B5EE5D98B88B8D0F11BEFA",
-          "SourceString": "SURVIVOR_AF_TOOLTIP",
-          "LocalizedString": "A resourceful teacher, able to adapt to new circumstances and develop strategies accordingly. <br><br>His personal perks, <b>Diversion</b>, <b>Deliverance</b> and <b>Autodidact</b>, help him to distract The Killer, survive desperate situations, and become more skilled as the trial continues."
-        },
-        "IconFilePath": "UI/Icons/CharPortraits/Haiti/S14_AdamFrancis_Portrait.png",
-        "HudIcon": {
-          "ObjectName": "Texture2D'AF_charSelect_portrait_HUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Haiti/AF_charSelect_portrait_HUD.0"
-        },
-        "BackgroundImagePath": "UI/Icons/StoreBackgrounds/storeBackground_AF.png",
-        "CustomizationDescription": [
-          {
-            "Category": "ECustomizationCategory::SurvivorHead",
-            "DefaultItemId": {
-              "RowValue": "HS_Head01"
-            },
-            "SocketName": "None"
-          },
-          {
-            "Category": "ECustomizationCategory::SurvivorTorso",
-            "DefaultItemId": {
-              "RowValue": "HS_Torso01"
-            },
-            "SocketName": "None"
-          },
-          {
-            "Category": "ECustomizationCategory::SurvivorLegs",
-            "DefaultItemId": {
-              "RowValue": "HS_Legs01"
-            },
-            "SocketName": "None"
-          }
-        ],
-        "ChapterDlcId": "Haiti",
-        "AdditionalDlcIds": [
-          "EP2"
-        ],
-        "AvailableIfDlcInstalled": true,
-        "DebugName": "[S14] Adam Denson",
-        "IsInChunk0": false,
-        "IsAvailableInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
-        "PlatformExclusiveFlag": 0,
-        "GamePawn": {
-          "AssetPathName": "/Game/Characters/Campers/Blueprints/BP_CamperMale08_Character.BP_CamperMale08_Character_C",
-          "SubPathString": ""
-        },
-        "MenuPawn": {
-          "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperMale08.BP_Menu_CamperMale08_C",
-          "SubPathString": ""
-        },
-        "DefaultItem": "None",
-        "DefaultPerk": "None",
-        "Gender": "EGender::VE_Male",
-        "KillerAbilities": [],
-        "TunableDB": {
-          "AssetPtr": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "KillerHeight": "EKillerHeight::Average",
-        "SlideShowDescriptions": {
-          "Id": "None",
-          "Overview": {
-            "Namespace": "",
-            "Key": "A32C8D4D4B9DE203C26673A446C5628E",
-            "SourceString": "ATLANTACHARACTERSLIDE_AF_OVERVIEW",
-            "LocalizedString": "Adam Francis is a resourceful teacher, able to adapt to new circumstances and develop strategies accordingly."
-          },
-          "Playstyle": {
-            "Namespace": "",
-            "Key": "0E0EA53C4099625135AE1CBED349BC33",
-            "SourceString": "ATLANTACHARACTERSLIDE_AF_PLAYSTYLE",
-            "LocalizedString": "Adam can distract the Killer, survive desperate situations, and increase his skill as the trial continues."
-          },
-          "ImageFilePath": "UI/Icons/CharacterSlideShowRenders/Atlanta_Slideshow_AF.png",
-          "PerkCategory": [
-            "EPerkCategory::Concealment",
-            "EPerkCategory::Adaptation",
-            "EPerkCategory::Safeguard"
-          ]
-        },
-        "HideStoreCustomizations": false,
-        "CustomizationCategories": [],
-        "CharacterId": "Adam"
       }
     }
   }

@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'SpecialEventData'",
+        "ObjectName": "Class'SpecialEventData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -23,6 +23,19 @@
         "EventThemeLabel": "Eddie",
         "IsTrackedOnline": true,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "LobbyZodiac_Eddie",
         "ShopName": "Shop_Static",
@@ -53,7 +66,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -65,11 +78,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -102,6 +115,19 @@
         "EventThemeLabel": "Modifier",
         "IsTrackedOnline": true,
         "UseSpecialEventLoadingScreen": false,
+        "CommunityChallenge": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "CurrencyRewardType": "ECurrencyType::None",
+          "ObjectiveIcon": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
         "Objectives": [],
         "LobbyName": "Lobby",
         "ShopName": "Shop_Static",
@@ -132,7 +158,7 @@
             "Content": [],
             "Image": {
               "AssetPathName": "None",
-              "SubPathString": ""
+              "SubPathString": null
             }
           }
         },
@@ -144,11 +170,11 @@
         "OfferingSequence": {
           "CardClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "ManagerClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "SplashScreen": {
@@ -156,7 +182,7 @@
           "Delay": 0.0,
           "DBDLogoClass": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "UiTakeoverData": {

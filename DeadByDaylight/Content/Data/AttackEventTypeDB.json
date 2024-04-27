@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'AttackEventTypeDetails'",
+        "ObjectName": "Class'AttackEventTypeDetails'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -84,7 +84,7 @@
       },
       "HillbillyChainsawAttempt": {
         "GameplayTag": {
-          "TagName": "GameEvent.ScoreEvent.Hillbilly.Chainsaw.Attempt"
+          "TagName": "GameEvent.Slasher.Hillbilly.Chainsaw.Attempt"
         },
         "AttackEventType": "EAttackEventType::VE_SpecialAttackAttempt",
         "CanBeProtective": false,
@@ -93,7 +93,7 @@
       },
       "HillbillyChainsawHit": {
         "GameplayTag": {
-          "TagName": "GameEvent.ScoreEvent.Hillbilly.Chainsaw.Hit"
+          "TagName": "GameEvent.Slasher.Hillbilly.Chainsaw.Hit"
         },
         "AttackEventType": "EAttackEventType::VE_SpecialAttackHit",
         "CanBeProtective": true,
@@ -177,7 +177,7 @@
           "TagName": "GameEvent.Killer.K26.ScanCrowHitSurvivor"
         },
         "AttackEventType": "EAttackEventType::VE_SpecialAttackHit",
-        "CanBeProtective": true,
+        "CanBeProtective": false,
         "AssociatedCharacter": 268435481,
         "Description": "The Artist - Crow Scan Hit"
       },
@@ -423,6 +423,24 @@
         "CanBeProtective": false,
         "AssociatedCharacter": 268435479,
         "Description": "K24 - k24 whip Attack Hit contaminate"
+      },
+      "K35ShootProjectileAttempt": {
+        "GameplayTag": {
+          "TagName": "GameEvent.K35.KillerShootAreaBlastTravelProjectile"
+        },
+        "AttackEventType": "EAttackEventType::VE_SpecialAttackAttempt",
+        "CanBeProtective": false,
+        "AssociatedCharacter": 268435490,
+        "Description": "K35 - Shoot Projectile Attempt"
+      },
+      "K35ShootProjectileHit": {
+        "GameplayTag": {
+          "TagName": "GameEvent.K35.SurvivorDamagedByAreaBlast"
+        },
+        "AttackEventType": "EAttackEventType::VE_SpecialAttackHit",
+        "CanBeProtective": false,
+        "AssociatedCharacter": 268435490,
+        "Description": "K35 - Shoot Projectile Hit"
       }
     }
   }

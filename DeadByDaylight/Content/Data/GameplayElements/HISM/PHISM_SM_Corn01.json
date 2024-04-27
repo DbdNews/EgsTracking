@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PHISM_SM_Corn01_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'PlayerOverlapHISMComponent'",
+      "ObjectPath": "/Script/DeadByDaylight"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PHISM_SM_Corn01_C'Default__PHISM_SM_Corn01_C'",
+      "ObjectPath": "/Game/Data/GameplayElements/HISM/PHISM_SM_Corn01.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PHISM_SM_Corn01_C",
+    "Name": "Default__PHISM_SM_Corn01_C",
+    "Class": "BlueprintGeneratedClass'/Game/Data/GameplayElements/HISM/PHISM_SM_Corn01.PHISM_SM_Corn01_C'",
+    "Properties": {
+      "_playerOverlapOverrides": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MV_FAR_CornLeaves_01'",
+          "ObjectPath": "/Game/Materials/Instances/Vegetations/99-Variants/MV_FAR_CornLeaves_01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MV_FAR_CornLeaves_02'",
+          "ObjectPath": "/Game/Materials/Instances/Vegetations/99-Variants/MV_FAR_CornLeaves_02.0"
+        }
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Corn01'",
+        "ObjectPath": "/Game/Meshes/Environment/Farm/Vegetations/SM_Corn01.2"
+      },
+      "bUseDefaultCollision": false,
+      "DetailLevelBeforeCastShadows": "EDetailMode::DM_MAX",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  }
+]

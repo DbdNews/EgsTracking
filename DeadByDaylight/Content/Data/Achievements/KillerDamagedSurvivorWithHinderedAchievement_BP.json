@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "KillerDamagedSurvivorWithHinderedAchievement_BP_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'KillerDamagedSurvivorWithHinderedAchievement'",
+      "ObjectPath": "/Script/Achievements"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "KillerDamagedSurvivorWithHinderedAchievement_BP_C'Default__KillerDamagedSurvivorWithHinderedAchievement_BP_C'",
+      "ObjectPath": "/Game/Data/Achievements/KillerDamagedSurvivorWithHinderedAchievement_BP.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "KillerDamagedSurvivorWithHinderedAchievement_BP_C",
+    "Name": "Default__KillerDamagedSurvivorWithHinderedAchievement_BP_C",
+    "Class": "BlueprintGeneratedClass'/Game/Data/Achievements/KillerDamagedSurvivorWithHinderedAchievement_BP.KillerDamagedSurvivorWithHinderedAchievement_BP_C'",
+    "Properties": {
+      "_gameEvents": [
+        {
+          "TagName": "GameEvent.SurvivorDamaged"
+        },
+        {
+          "TagName": "GameEvent.CamperInjuredBySickness"
+        }
+      ]
+    }
+  }
+]

@@ -5,13 +5,14 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "268435459": {
         "CharacterIndex": 268435459,
+        "CharacterCodename": "Nurse",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_VeryHard",
         "DisplayName": {
@@ -20,7 +21,7 @@
           "SourceString": "character_name09",
           "LocalizedString": "The Nurse"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "B7AF6D7741A298B73549439615B03833",
           "SourceString": "CharScreenNurse",
@@ -74,6 +75,7 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher04.BP_Menu_Slasher04_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_Blinker",
         "DefaultPerk": "NurseCalling",
         "Gender": "EGender::VE_Female",
@@ -105,6 +107,7 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "Nurse"
       }

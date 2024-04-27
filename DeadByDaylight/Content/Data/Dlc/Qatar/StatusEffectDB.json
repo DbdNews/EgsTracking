@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'StatusEffectProperties'",
+        "ObjectName": "Class'StatusEffectProperties'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -20,7 +20,7 @@
         "ExternalEffectSource": "EExternalEffectSource::None",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -29,7 +29,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -44,6 +44,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -56,6 +57,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -85,11 +93,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -103,7 +111,7 @@
         "ExternalEffectSource": "EExternalEffectSource::None",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -112,7 +120,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -127,6 +135,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -139,6 +148,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -168,11 +184,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -186,7 +202,7 @@
         "ExternalEffectSource": "EExternalEffectSource::None",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -195,7 +211,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -210,6 +226,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -222,6 +239,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -251,11 +275,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -269,7 +293,7 @@
         "ExternalEffectSource": "EExternalEffectSource::None",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -278,7 +302,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -293,6 +317,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -305,6 +330,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -334,11 +366,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -352,7 +384,7 @@
         "ExternalEffectSource": "EExternalEffectSource::Perk",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -361,7 +393,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -376,6 +408,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -388,6 +421,13 @@
             "UI/Icons/Perks/Qatar/iconPerks_babySitter.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -419,11 +459,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -437,7 +477,7 @@
         "ExternalEffectSource": "EExternalEffectSource::Perk",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -446,7 +486,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -461,6 +501,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -473,6 +514,13 @@
             "UI/Icons/Perks/Qatar/iconPerks_mindBreaker.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -502,11 +550,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -520,7 +568,7 @@
         "ExternalEffectSource": "EExternalEffectSource::Perk",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -529,7 +577,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -544,6 +592,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -556,6 +605,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -585,11 +641,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -603,7 +659,7 @@
         "ExternalEffectSource": "EExternalEffectSource::None",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -612,7 +668,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -627,6 +683,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -639,6 +696,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -668,11 +732,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -686,7 +750,7 @@
         "ExternalEffectSource": "EExternalEffectSource::None",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -695,7 +759,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -710,6 +774,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -722,6 +787,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -751,11 +823,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -769,7 +841,7 @@
         "ExternalEffectSource": "EExternalEffectSource::None",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -778,7 +850,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -793,6 +865,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -805,6 +878,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -834,11 +914,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -852,7 +932,7 @@
         "ExternalEffectSource": "EExternalEffectSource::None",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -861,7 +941,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -876,6 +956,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -888,6 +969,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -917,11 +1005,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -935,7 +1023,7 @@
         "ExternalEffectSource": "EExternalEffectSource::None",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -944,7 +1032,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -959,6 +1047,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -971,6 +1060,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1000,11 +1096,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -1018,7 +1114,7 @@
         "ExternalEffectSource": "EExternalEffectSource::None",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -1027,7 +1123,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1042,6 +1138,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1054,6 +1151,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1083,11 +1187,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -1101,7 +1205,7 @@
         "ExternalEffectSource": "EExternalEffectSource::Addon",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -1110,7 +1214,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1125,6 +1229,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1137,6 +1242,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1166,11 +1278,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       },
@@ -1184,7 +1296,7 @@
         "ExternalEffectSource": "EExternalEffectSource::Addon",
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_None",
@@ -1193,7 +1305,7 @@
         "Chest": false,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1208,6 +1320,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::None",
         "UIData": {
           "DisplayName": {
@@ -1220,6 +1333,13 @@
             "UI/Icons/Customization/Missing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1249,11 +1369,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": ""
       }

@@ -5,19 +5,27 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'PlatformDlcData'",
+        "ObjectName": "Class'PlatformDlcData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "StoreItem": {
-        "ID": "StoreItem",
-        "UnlockDescription": {
+        "Id": "StoreItem",
+        "ContentDescription": {
           "CultureInvariantString": null
         },
-        "Description": "Disable content on console",
+        "DisplayName": {
+          "CultureInvariantString": null
+        },
+        "IsHeritagePack": false,
         "UISortOrder": 0,
-        "HeritageID": "",
+        "BannerImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": "Disable content on console",
+        "HeritageId": "",
         "DlcIdSteam": "1",
         "DlcIdEpic": "FFFFFFFFFFFFFFFF",
         "DlcIdPS4": "ffffffffffffffffffffffffffffffff",

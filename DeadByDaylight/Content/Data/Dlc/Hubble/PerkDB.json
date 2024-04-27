@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'PerkProperties'",
+        "ObjectName": "Class'PerkProperties'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -18,6 +18,7 @@
         "TeachableOnBloodweblevel": 30,
         "AtlantaTeachableLevel": 20,
         "PerkCategory": [],
+        "PerkArchetype": "EPerkArchetype::Default",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/SurvivorPerks/BP_S28P01.BP_S28P01_C",
           "SubPathString": ""
@@ -69,7 +70,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -78,7 +79,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -93,6 +94,14 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "2CE2931741F3069363F3C283FC221779",
+            "SourceString": "PERK_Generic_TAG_01",
+            "LocalizedString": "Gens"
+          }
+        ],
         "Type": "EInventoryItemType::CamperPerk",
         "UIData": {
           "DisplayName": {
@@ -111,6 +120,13 @@
             "UI/Icons/Perks/Hubble/iconPerks_Clairvoyance.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -140,11 +156,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S28P01"
       },
@@ -156,6 +172,7 @@
         "TeachableOnBloodweblevel": 35,
         "AtlantaTeachableLevel": 30,
         "PerkCategory": [],
+        "PerkArchetype": "EPerkArchetype::Boon",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/SurvivorPerks/BP_S28P02.BP_S28P02_C",
           "SubPathString": ""
@@ -207,7 +224,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -216,7 +233,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -231,6 +248,26 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "698A79CE43C421B0FBCE7DA8FA6774D3",
+            "SourceString": "PERK_Generic_TAG_06",
+            "LocalizedString": "Heal Speed"
+          },
+          {
+            "Namespace": "",
+            "Key": "1A725D0B43CD79ABD8B41589740A73EC",
+            "SourceString": "PERK_Generic_TAG_07",
+            "LocalizedString": "Healing Speed"
+          },
+          {
+            "Namespace": "",
+            "Key": "C1A58291490A05BDBE117D9B40CC7B40",
+            "SourceString": "PERK_hexcircleofhealing_TAG_01",
+            "LocalizedString": "COH"
+          }
+        ],
         "Type": "EInventoryItemType::CamperPerk",
         "UIData": {
           "DisplayName": {
@@ -243,12 +280,19 @@
             "Namespace": "",
             "Key": "D6F431C344D00612FBAA4294BA277BC3",
             "SourceString": "PERK_S28P02_DESC",
-            "LocalizedString": "A boon that offers comfort amidst the terror.<br><br>Press and hold the <i>Ability button 1</i> near a Dull or Hex Totem to bless it and create a Boon Totem. Soft chimes ring out in a <span class=\"Highlight1\">{0} meter</span> range.<br><br>Any Survivors within the Boon Totem's range gain a <span class=\"Highlight2\">{1}%</span> healing speed bonus to healing others. Medkits give no bonus to healing in the Boon Totem's range. Injured Survivors have their auras revealed to all other Survivors when inside the Boon Totem’s range.<br><br>You can only bless one Totem at a time. All equipped boon perks are active on your Boon Totem.<br><br><span class=\"FlavorText\">\"Try this, it’s better than anything you’ll find in a pharmacy.\" —Mikaela Reid</span>"
+            "LocalizedString": "A boon that offers comfort amidst the terror.<br><br>Press and hold the <i>Ability button 1</i> near a Dull or Hex Totem to bless it and create a Boon Totem. Soft chimes ring out in a <span class=\"Highlight1\">{0} meter</span> range.<br><br>Any Survivors within the Boon Totem's range gain a <span class=\"Highlight2\">{1}%</span> healing speed bonus to healing others. Med-kits give no bonus to healing in the Boon Totem's range. Injured Survivors have their auras revealed to all other Survivors when inside the Boon Totem’s range.<br><br>You can only bless one Totem at a time. All equipped boon perks are active on your Boon Totem.<br><br><span class=\"FlavorText\">\"Try this, it’s better than anything you’ll find in a pharmacy.\" —Mikaela Reid</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Perks/Hubble/iconPerks_BoonCircleOfHealing.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -278,11 +322,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S28P02"
       },
@@ -294,6 +338,7 @@
         "TeachableOnBloodweblevel": 40,
         "AtlantaTeachableLevel": 40,
         "PerkCategory": [],
+        "PerkArchetype": "EPerkArchetype::Boon",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/SurvivorPerks/BP_S28P03.BP_S28P03_C",
           "SubPathString": ""
@@ -345,7 +390,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -354,7 +399,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -369,6 +414,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::CamperPerk",
         "UIData": {
           "DisplayName": {
@@ -387,6 +433,13 @@
             "UI/Icons/Perks/Hubble/iconPerks_BoonShadowStep.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -416,11 +469,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S28P03"
       }

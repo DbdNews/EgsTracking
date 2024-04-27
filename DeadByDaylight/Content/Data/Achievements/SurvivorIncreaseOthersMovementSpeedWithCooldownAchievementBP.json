@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SurvivorIncreaseOthersMovementSpeedWithCooldownAchievementBP_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SurvivorIncreaseOthersMovementSpeedWithCooldown'",
+      "ObjectPath": "/Script/Achievements"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SurvivorIncreaseOthersMovementSpeedWithCooldownAchievementBP_C'Default__SurvivorIncreaseOthersMovementSpeedWithCooldownAchievementBP_C'",
+      "ObjectPath": "/Game/Data/Achievements/SurvivorIncreaseOthersMovementSpeedWithCooldownAchievementBP.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "SurvivorIncreaseOthersMovementSpeedWithCooldownAchievementBP_C",
+    "Name": "Default__SurvivorIncreaseOthersMovementSpeedWithCooldownAchievementBP_C",
+    "Class": "BlueprintGeneratedClass'/Game/Data/Achievements/SurvivorIncreaseOthersMovementSpeedWithCooldownAchievementBP.SurvivorIncreaseOthersMovementSpeedWithCooldownAchievementBP_C'",
+    "Properties": {
+      "_gameEvents": [
+        {
+          "TagName": "GameEvent.Survivor.IncreaseOthersMovementSpeedWithCooldown"
+        }
+      ]
+    }
+  }
+]

@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'StoreBannersData'",
+        "ObjectName": "Class'StoreBannersData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -8786,15 +8786,21 @@
         "BannerId": "Banner_ZOD10",
         "BannerData": {
           "Title": {
-            "CultureInvariantString": null
+            "Namespace": "",
+            "Key": "59CC86B543DC3CD7A2108B815D9B103F",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
           },
           "Subtitle": {
-            "CultureInvariantString": null
+            "Namespace": "",
+            "Key": "9EDDCE3649D3EBDA106453A20A0F5678",
+            "SourceString": "Banner_NicolasCage_SUBTITLE",
+            "LocalizedString": "Nicolas Cage Essentials"
           },
-          "ImagePath": "",
+          "ImagePath": "UI/Icons/Banners/Banner_ZOD10.png",
           "AssociatedDlcId": "",
           "AssociatedCombinedItemId": "",
-          "AssociatedCombinedOutfitId": "",
+          "AssociatedCombinedOutfitId": "S38_outfit_011",
           "TextPosition": "ETextBannerPosition::BottomLeft"
         },
         "UseAsDefault": false,
@@ -8804,15 +8810,21 @@
         "BannerId": "Banner_ZOD11",
         "BannerData": {
           "Title": {
-            "CultureInvariantString": null
+            "Namespace": "",
+            "Key": "40B6077B45491B25E944AD92A98E716D",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
           },
           "Subtitle": {
-            "CultureInvariantString": null
+            "Namespace": "",
+            "Key": "8F314B3A479B2253F938208CCA150BAE",
+            "SourceString": "Banner_IronMaiden_SUBTITLE",
+            "LocalizedString": "Iron Maiden Collection"
           },
-          "ImagePath": "",
+          "ImagePath": "UI/Icons/Banners/Banner_ZOD11.png",
           "AssociatedDlcId": "",
           "AssociatedCombinedItemId": "",
-          "AssociatedCombinedOutfitId": "",
+          "AssociatedCombinedOutfitId": "K28_outfit_013",
           "TextPosition": "ETextBannerPosition::BottomLeft"
         },
         "UseAsDefault": false,
@@ -8822,15 +8834,21 @@
         "BannerId": "Banner_ZOD12",
         "BannerData": {
           "Title": {
-            "CultureInvariantString": null
+            "Namespace": "",
+            "Key": "3AC5058F4A89D15C5B03368289409ACE",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
           },
           "Subtitle": {
-            "CultureInvariantString": null
+            "Namespace": "",
+            "Key": "BD72C70044015EA970A85694195A0609",
+            "SourceString": "Banner_BioPunk_SUBTITLE",
+            "LocalizedString": "BioPunk Collection"
           },
-          "ImagePath": "",
+          "ImagePath": "UI/Icons/Banners/Banner_ZOD12.png",
           "AssociatedDlcId": "",
           "AssociatedCombinedItemId": "",
-          "AssociatedCombinedOutfitId": "",
+          "AssociatedCombinedOutfitId": "K26_outfit_014",
           "TextPosition": "ETextBannerPosition::BottomLeft"
         },
         "UseAsDefault": false,
@@ -8849,6 +8867,300 @@
           "AssociatedDlcId": "",
           "AssociatedCombinedItemId": "",
           "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP1_small": {
+        "BannerId": "Banner_APP1_small",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_APP1_small.png",
+          "AssociatedDlcId": "ApplePie",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP1": {
+        "BannerId": "Banner_APP1",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP2": {
+        "BannerId": "Banner_APP2",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP3": {
+        "BannerId": "Banner_APP3",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP4": {
+        "BannerId": "Banner_APP4",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP5": {
+        "BannerId": "Banner_APP5",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP6": {
+        "BannerId": "Banner_APP6",
+        "BannerData": {
+          "Title": {
+            "CultureInvariantString": null
+          },
+          "Subtitle": {
+            "CultureInvariantString": null
+          },
+          "ImagePath": "",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP7": {
+        "BannerId": "Banner_APP7",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "61F80AD24C2DF1BA82380F94C37E9FCE",
+            "SourceString": "Banner_NewContent_TITLE",
+            "LocalizedString": "NEW CONTENT"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "2E2D978C40E30140EF5C42B6E86DC0F1",
+            "SourceString": "Banner_FeaturedOutfits_TITLE",
+            "LocalizedString": "FEATURED OUTFITS"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_APP7.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "S41_outfit_006",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP8": {
+        "BannerId": "Banner_APP8",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "41FA4D204D342F39AAF24BB0FE5DA29F",
+            "SourceString": "Banner_NewContent_TITLE",
+            "LocalizedString": "NEW CONTENT"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "BF6FC464419772D6D4592AB7BB58D83F",
+            "SourceString": "Banner_BloodMoon_SUBTITLE",
+            "LocalizedString": "Blood Moon Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_APP8.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "S28_outfit_023",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP9": {
+        "BannerId": "Banner_APP9",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "C1066AE04E9FE9B2737884811B896AFB",
+            "SourceString": "Banner_NewContent_TITLE",
+            "LocalizedString": "NEW CONTENT"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "55C0CAF94151FD8E290CFF8F154EE74B",
+            "SourceString": "Banner_Slipknot_SUBTITLE",
+            "LocalizedString": "Slipknot Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_APP9.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "KK_outfit_033",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP10": {
+        "BannerId": "Banner_APP10",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "36E2E07849D4B23AC8D7B6BD674ED4DA",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "697DA75440687BD862AA1CABDAE4F6A5",
+            "SourceString": "Banner_Techwear_SUBTITLE",
+            "LocalizedString": "Techwear Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_APP10.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "GS_outfit_029",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP11": {
+        "BannerId": "Banner_APP11",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "145392474D886C0FA2030CA89FC21D8C",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "7C42E4CB40F2BAF4EC5EAA8888775EC9",
+            "SourceString": "Banner_GothicTales_SUBTITLE",
+            "LocalizedString": "Gothic Tales Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_APP11.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "S34_outfit_017",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP12": {
+        "BannerId": "Banner_APP12",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "2C0E14944D685083E7EF47AA201C79D6",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "B1B5C356444D0ADFA415169F95E7D9D5",
+            "SourceString": "Banner_DaysGoneBy_SUBTITLE",
+            "LocalizedString": "Days Gone By Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_APP12.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "S25_outfit_023",
+          "TextPosition": "ETextBannerPosition::BottomLeft"
+        },
+        "UseAsDefault": false,
+        "DefaultLocation": "EStoreBannerLocation::Primary"
+      },
+      "Banner_APP13": {
+        "BannerId": "Banner_APP13",
+        "BannerData": {
+          "Title": {
+            "Namespace": "",
+            "Key": "F7A209464F8087ED12E391A49922DABB",
+            "SourceString": "Banner_NewOutfits_SUBTITLE",
+            "LocalizedString": "New Outfits"
+          },
+          "Subtitle": {
+            "Namespace": "",
+            "Key": "5FDD0C2E4E072F5E33C66EBB04381998",
+            "SourceString": "Banner_DaysGoneBy_SUBTITLE",
+            "LocalizedString": "Days Gone By Collection"
+          },
+          "ImagePath": "UI/Icons/Banners/Banner_APP13.png",
+          "AssociatedDlcId": "",
+          "AssociatedCombinedItemId": "",
+          "AssociatedCombinedOutfitId": "TR_outfit_022",
           "TextPosition": "ETextBannerPosition::BottomLeft"
         },
         "UseAsDefault": false,

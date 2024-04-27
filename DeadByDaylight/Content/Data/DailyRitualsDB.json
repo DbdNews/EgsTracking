@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'DailyRitualDefinition'",
+        "ObjectName": "Class'DailyRitualDefinition'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -40,7 +40,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_Demogorgon": {
@@ -73,7 +73,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_Ghost": {
@@ -106,7 +106,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_Gunslinger": {
@@ -139,7 +139,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_K29": {
@@ -178,7 +178,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_Nightmare": {
@@ -211,7 +211,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_Plague": {
@@ -244,7 +244,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_Trap": {
@@ -277,7 +277,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_bear": {
@@ -310,7 +310,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_blight": {
@@ -343,7 +343,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_blink": {
@@ -376,7 +376,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_cenobite": {
@@ -409,7 +409,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_chainsaw": {
@@ -437,12 +437,12 @@
         "TrackedEvents": [],
         "TrackedGameEvents": [
           {
-            "TagName": "GameEvent.ScoreEvent.Hillbilly.Chainsaw.Hit"
+            "TagName": "GameEvent.Slasher.Hillbilly.Chainsaw.Hit"
           }
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_chasekiller": {
@@ -475,7 +475,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_chasesurvivor": {
@@ -508,7 +508,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_clown": {
@@ -541,7 +541,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_coop": {
@@ -574,7 +574,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_doctor": {
@@ -607,7 +607,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_dredge": {
@@ -640,7 +640,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_escape": {
@@ -679,7 +679,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_executioner": {
@@ -712,7 +712,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_hag": {
@@ -745,7 +745,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_healother": {
@@ -784,7 +784,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_invisibility": {
@@ -817,7 +817,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_itemcollect": {
@@ -850,7 +850,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_kill": {
@@ -883,7 +883,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_knight": {
@@ -922,7 +922,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_legion": {
@@ -955,7 +955,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_murder": {
@@ -988,7 +988,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_nemesis": {
@@ -1021,7 +1021,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_oni": {
@@ -1054,7 +1054,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_onryo": {
@@ -1087,7 +1087,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_opengate": {
@@ -1120,7 +1120,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_pig": {
@@ -1153,7 +1153,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_repair": {
@@ -1186,7 +1186,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_rescuehook": {
@@ -1219,7 +1219,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_sabotage": {
@@ -1255,7 +1255,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_sacrifice": {
@@ -1288,7 +1288,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_spirit": {
@@ -1321,7 +1321,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_stalk": {
@@ -1354,7 +1354,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_trickster": {
@@ -1387,7 +1387,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_twins": {
@@ -1420,7 +1420,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_skullmerchant": {
@@ -1429,7 +1429,7 @@
           "Namespace": "",
           "Key": "27D230994A3DE4D8DA27C89B5D645027",
           "SourceString": "RITUAL_K31_NAME",
-          "LocalizedString": "Rite of The Skull Merchant\n\n"
+          "LocalizedString": "Rite of The Skull Merchant"
         },
         "Description": {
           "Namespace": "",
@@ -1453,7 +1453,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_singularity": {
@@ -1462,7 +1462,7 @@
           "Namespace": "",
           "Key": "3B09A20E4899DCEB1EEF32BA21F3BC82",
           "SourceString": "RITUAL_K32_NAME",
-          "LocalizedString": "Rite of the Singularity"
+          "LocalizedString": "Rite of The Singularity"
         },
         "Description": {
           "Namespace": "",
@@ -1486,7 +1486,7 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         }
       },
       "DR_k33": {
@@ -1495,7 +1495,7 @@
           "Namespace": "",
           "Key": "4BE3A5CD437B34952CDB3AA65FB34436",
           "SourceString": "RITUAL_K33_NAME",
-          "LocalizedString": "Rite of the Xenomorph"
+          "LocalizedString": "Rite of The Xenomorph"
         },
         "Description": {
           "Namespace": "",
@@ -1519,7 +1519,73 @@
         ],
         "Evaluator": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
+        }
+      },
+      "DR_k34": {
+        "RitualId": "DR_k34",
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "6CE95D9B4D98826EE3AF688CE1640F0F",
+          "SourceString": "RITUAL_K34_NAME",
+          "LocalizedString": "Rite of The Good Guy"
+        },
+        "Description": {
+          "Namespace": "",
+          "Key": "F1937B7A415CE6768B563EBF896ACA43",
+          "SourceString": "RITUAL_K34_DESC",
+          "LocalizedString": "With The Good Guy, hit a Survivor {1} time(s) with the Slice & Dice."
+        },
+        "IconPath": "UI/Icons/DailyRituals/dailyRitualIcon_deviousness.png",
+        "PossibleCharacters": {
+          "CharacterIDs": [
+            268435489
+          ],
+          "Roles": [],
+          "SelectOneCharacterFromRoles": []
+        },
+        "TrackedEvents": [],
+        "TrackedGameEvents": [
+          {
+            "TagName": "GameEvent.K34.SliceAndDice.HitSurvivor"
+          }
+        ],
+        "Evaluator": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "DR_k35": {
+        "RitualId": "DR_K35",
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "573273BA4AAD35B1117A7B90C391D158",
+          "SourceString": "RITUAL_K35_NAME",
+          "LocalizedString": "Rite of The Unknown"
+        },
+        "Description": {
+          "Namespace": "",
+          "Key": "3255C43049D966EE00D172874A210130",
+          "SourceString": "RITUAL_K35_DESC",
+          "LocalizedString": "With The Unknown, injure a Survivor {1} time(s) with UVX."
+        },
+        "IconPath": "UI/Icons/DailyRituals/dailyRitualIcon_deviousness.png",
+        "PossibleCharacters": {
+          "CharacterIDs": [
+            268435490
+          ],
+          "Roles": [],
+          "SelectOneCharacterFromRoles": []
+        },
+        "TrackedEvents": [],
+        "TrackedGameEvents": [
+          {
+            "TagName": "GameEvent.ScoreEvent.K35.InjureWithAreaBlast"
+          }
+        ],
+        "Evaluator": {
+          "AssetPathName": "None",
+          "SubPathString": null
         }
       }
     }

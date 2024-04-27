@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'PerkProperties'",
+        "ObjectName": "Class'PerkProperties'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -21,6 +21,7 @@
           "EPerkCategory::Enhancement",
           "EPerkCategory::Cruelty"
         ],
+        "PerkArchetype": "EPerkArchetype::Default",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/KillerPerks/BP_K31P01.BP_K31P01_C",
           "SubPathString": ""
@@ -72,7 +73,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -81,7 +82,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -96,6 +97,32 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "D02B8EEF40509EF4C97D6D9A7EFEC723",
+            "SourceString": "PERK_Action_TAG_02",
+            "LocalizedString": "Damaging"
+          },
+          {
+            "Namespace": "",
+            "Key": "08E748A5481625FACCF137BD49DF620B",
+            "SourceString": "PERK_Action_TAG_03",
+            "LocalizedString": "Breaking"
+          },
+          {
+            "Namespace": "",
+            "Key": "F5204F6649B187BEF181A8BB5D29EB8B",
+            "SourceString": "PERK_Action_TAG_04",
+            "LocalizedString": "Kicking"
+          },
+          {
+            "Namespace": "",
+            "Key": "7B02CE634FF2F549673996A80419A26F",
+            "SourceString": "PERK_Generic_TAG_01",
+            "LocalizedString": "Gens"
+          }
+        ],
         "Type": "EInventoryItemType::SlasherPerk",
         "UIData": {
           "DisplayName": {
@@ -108,12 +135,19 @@
             "Namespace": "",
             "Key": "CD073FD5429A0850B0CAF2A76249E11D",
             "SourceString": "PERK_K31P01_DESC",
-            "LocalizedString": "First you pick your prey. Then you pick it apart.<br><br>While you are chasing the Obsession, this perk activates.<br><br>Damaging generators and breaking walls or pallets gives you a <span class=\"Highlight1\">{0}%</span> Haste Status for <span class=\"Highlight2\">{1} seconds</span>.<br><br>Whenever you hit the Survivor with the total most time in chase with a basic attack, they become the obsession.</i><br><br><span class=\"ReminderText\">The Killer can only be <b>obsessed</b> with one Survivor at a time.</span><br><br><span class=\"FlavorText\">“This one might actually be a challenge... ” – Adriana Imai</span>"
+            "LocalizedString": "First you pick your prey. Then you pick it apart.<br><br>While you are chasing the Obsession, this perk activates.<br><br>Damaging generators and breaking walls or pallets gives you a <span class=\"Highlight1\">{0}%</span> <b>Haste</b> Status for <span class=\"Highlight2\">{1} seconds</span>.<br><br>Whenever you hit the Survivor with the total most time in chase with a basic attack, they become the obsession.</i><br><br><span class=\"ReminderText\">The Killer can only be <b>obsessed</b> with one Survivor at a time.</span><br><span class=\"ReminderText\">Haste increases Killer movement speed.</span><br><br><span class=\"FlavorText\">“This one might actually be a challenge... ” – Adriana Imai</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Perks/Saturn/iconPerks_GameAfoot.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -143,11 +177,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "K31P01"
       },
@@ -162,6 +196,7 @@
           "EPerkCategory::Tracking",
           "EPerkCategory::Trickery"
         ],
+        "PerkArchetype": "EPerkArchetype::Default",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/KillerPerks/BP_K31P02.BP_K31P02_C",
           "SubPathString": ""
@@ -216,7 +251,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -225,7 +260,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -240,6 +275,20 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "90B32F9648636AAB3B4FC19A49D7D10D",
+            "SourceString": "PERK_Action_TAG_03",
+            "LocalizedString": "Breaking"
+          },
+          {
+            "Namespace": "",
+            "Key": "84C472314F39D7EC701DBF9F2BC45139",
+            "SourceString": "PERK_Action_TAG_04",
+            "LocalizedString": "Kicking"
+          }
+        ],
         "Type": "EInventoryItemType::SlasherPerk",
         "UIData": {
           "DisplayName": {
@@ -258,6 +307,13 @@
             "UI/Icons/Perks/Saturn/iconPerks_Thwack.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -287,11 +343,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "K31P02"
       },
@@ -305,6 +361,7 @@
         "PerkCategory": [
           "EPerkCategory::Hinderance"
         ],
+        "PerkArchetype": "EPerkArchetype::Default",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/KillerPerks/BP_K31P03.BP_K31P03_C",
           "SubPathString": ""
@@ -362,7 +419,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -371,7 +428,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -386,6 +443,20 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "D1DF92F84DC67FC0AE0065B9C52CA5BD",
+            "SourceString": "PERK_Generic_TAG_06",
+            "LocalizedString": "Heal Speed"
+          },
+          {
+            "Namespace": "",
+            "Key": "DA4ABB244B3244BF45EA778EEE700A00",
+            "SourceString": "PERK_Generic_TAG_07",
+            "LocalizedString": "Healing Speed"
+          }
+        ],
         "Type": "EInventoryItemType::SlasherPerk",
         "UIData": {
           "DisplayName": {
@@ -404,6 +475,13 @@
             "UI/Icons/Perks/Saturn/iconPerks_Leverage.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -433,11 +511,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "K31P03"
       },
@@ -451,6 +529,7 @@
         "PerkCategory": [
           "EPerkCategory::Concealment"
         ],
+        "PerkArchetype": "EPerkArchetype::Default",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/SurvivorPerks/BP_S35P01.BP_S35P01_C",
           "SubPathString": ""
@@ -502,7 +581,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -511,7 +590,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -526,6 +605,20 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "F0EFC7584B626F429377E7B0892A7AA6",
+            "SourceString": "PERK_Action_TAG_06",
+            "LocalizedString": "Quick Vault"
+          },
+          {
+            "Namespace": "",
+            "Key": "2B2B253B425743D09759AE991BECCABF",
+            "SourceString": "PERK_Action_TAG_08",
+            "LocalizedString": "Fast Vault"
+          }
+        ],
         "Type": "EInventoryItemType::CamperPerk",
         "UIData": {
           "DisplayName": {
@@ -538,12 +631,19 @@
             "Namespace": "",
             "Key": "0C3E05D544A566DBD7A4F0B6C03D2209",
             "SourceString": "PERK_S35P01_DESC",
-            "LocalizedString": "You get in enough trouble. You know how to get out of it. <br><br>After performing a rushed vault in a chase, this perk activates.<br>\nWhile this perk is active, your rushed vaults are silent for up to <span class=\"Highlight1\">{0} seconds</span> and successfully performing a rushed vault during that time resets the timer.<br><br>This perk goes on cool-down for <span class=\"Highlight2\">{1} seconds</span>. <br><br><span class=\"FlavorText\">“I know how we can get out of here. Quick, this way.” –Thalita Lyra</span>"
+            "LocalizedString": "You get in enough trouble. You know how to get out of it. <br><br>After performing a rushed vault in a chase, this perk activates.<br>\nWhile this perk is active, your rushed vaults are silent for up to <span class=\"Highlight1\">{0} seconds</span> and successfully performing a rushed vault during that time resets the timer.<br><br>This perk goes on cooldown for <span class=\"Highlight2\">{1} seconds</span>. <br><br><span class=\"FlavorText\">“I know how we can get out of here. Quick, this way.” –Thalita Lyra</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Perks/Saturn/iconPerks_CutLoose.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -573,11 +673,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S35P01"
       },
@@ -591,6 +691,7 @@
         "PerkCategory": [
           "EPerkCategory::Strategy"
         ],
+        "PerkArchetype": "EPerkArchetype::Default",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/SurvivorPerks/BP_S35P02.BP_S35P02_C",
           "SubPathString": ""
@@ -642,7 +743,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -651,7 +752,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -666,6 +767,26 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "25E465754174B8194A5FBC9539BA9E61",
+            "SourceString": "PERK_Generic_TAG_01",
+            "LocalizedString": "Gens"
+          },
+          {
+            "Namespace": "",
+            "Key": "8C5330764610122A740B468DEA0EED91",
+            "SourceString": "PERK_Generic_TAG_08",
+            "LocalizedString": "Gen Speed"
+          },
+          {
+            "Namespace": "",
+            "Key": "8B0A68734DB3E567A66584BE7A0EDA19",
+            "SourceString": "PERK_Generic_TAG_09",
+            "LocalizedString": "Generator Speed"
+          }
+        ],
         "Type": "EInventoryItemType::CamperPerk",
         "UIData": {
           "DisplayName": {
@@ -684,6 +805,13 @@
             "UI/Icons/Perks/Saturn/iconPerks_FriendlyCompetition.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -713,11 +841,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S35P02"
       },
@@ -731,6 +859,7 @@
         "PerkCategory": [
           "EPerkCategory::Support"
         ],
+        "PerkArchetype": "EPerkArchetype::Teamwork",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/SurvivorPerks/BP_S35P03.BP_S35P03_C",
           "SubPathString": ""
@@ -785,7 +914,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -794,7 +923,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -809,6 +938,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::CamperPerk",
         "UIData": {
           "DisplayName": {
@@ -827,6 +957,13 @@
             "UI/Icons/Perks/Saturn/iconPerks_TeamworkPowerOfTwo.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -856,11 +993,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S35P03"
       },
@@ -874,6 +1011,7 @@
         "PerkCategory": [
           "EPerkCategory::Navigation"
         ],
+        "PerkArchetype": "EPerkArchetype::Default",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/SurvivorPerks/BP_S36P01.BP_S36P01_C",
           "SubPathString": ""
@@ -887,8 +1025,8 @@
           {
             "Tunables": [
               "10",
-              "150",
-              "4",
+              "200",
+              "5",
               "60"
             ],
             "TextOverride": {
@@ -898,8 +1036,8 @@
           {
             "Tunables": [
               "10",
-              "150",
-              "4",
+              "200",
+              "5",
               "50"
             ],
             "TextOverride": {
@@ -909,8 +1047,8 @@
           {
             "Tunables": [
               "10",
-              "150",
-              "4",
+              "200",
+              "5",
               "40"
             ],
             "TextOverride": {
@@ -931,7 +1069,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -940,7 +1078,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -955,6 +1093,14 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "74E7A4394078702D6B88A4AC6509789E",
+            "SourceString": "PERK_Generic_TAG_16",
+            "LocalizedString": "Haste"
+          }
+        ],
         "Type": "EInventoryItemType::CamperPerk",
         "UIData": {
           "DisplayName": {
@@ -967,12 +1113,19 @@
             "Namespace": "",
             "Key": "129B8D8F459CD5F32585898E6037F2E5",
             "SourceString": "PERK_S36P01_DESC",
-            "LocalizedString": "You're not usually the center of attention. In some cases, this can be a good thing.<br><br>When the Killer picks-up another Survivor, <i>Background Player</i> activates for <span class=\"Highlight1\">{0} seconds</span>.<br><br>When you start running, break into a sprint at <span class=\"Highlight2\">{1}%</span> of your normal Running Movement speed for <span class=\"Highlight3\">{2} seconds</span>.<br><br><i>This perk cannot be used while Exhausted.</i><br><br>This perk causes the Exhausted status effect for <span class=\"Highlight4\">{3} seconds</span>. <br><br><span class=\"ReminderText\">Exhausted prevents Survivors from activating exhausting perks.</span><br><br><span class=\"FlavorText\">“You forget about me?” –Renato Lyra</span>"
+            "LocalizedString": "You're not usually the center of attention. In some cases, this can be a good thing.<br><br>When the Killer picks-up another Survivor, <i>Background Player</i> activates for <span class=\"Highlight1\">{0} seconds</span>.<br><br>When you start running, break into a sprint at <span class=\"Highlight2\">{1}%</span> of your normal Running Movement speed for <span class=\"Highlight3\">{2} seconds</span>.<br><br><i>This perk cannot be used while <b>Exhausted</b>.</i><br><br>This perk causes the <b>Exhausted</b> status effect for <span class=\"Highlight4\">{3} seconds</span>. <br><br><span class=\"ReminderText\">Exhausted prevents Survivors from activating exhausting perks.</span><br><br><span class=\"FlavorText\">“You forget about me?” –Renato Lyra</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Perks/Saturn/iconPerks_BackgroundPlayer.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1002,11 +1155,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S36P01"
       },
@@ -1020,6 +1173,7 @@
         "PerkCategory": [
           "EPerkCategory::Strategy"
         ],
+        "PerkArchetype": "EPerkArchetype::Default",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/SurvivorPerks/BP_S36P02.BP_S36P02_C",
           "SubPathString": ""
@@ -1071,7 +1225,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -1080,7 +1234,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1095,6 +1249,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::CamperPerk",
         "UIData": {
           "DisplayName": {
@@ -1107,12 +1262,19 @@
             "Namespace": "",
             "Key": "4F0358064DF37D30176C2594975380C9",
             "SourceString": "PERK_S36P02_DESC",
-            "LocalizedString": "Your mind and body are honed for great feats, allowing you to push through with extra effort when necessary.<br><br>This perk activates once you are one hook away from instant death.<br><br>While healthy, running, and suffering from Exhaustion, press the <i>Active Ability Button 1</i> to lose a health state and recover from Exhaustion instantly and gain the Broken status effect for <span class=\"Highlight1\">{0} seconds</span>.<br><br>You are automatically healed from injured to healthy after <span class=\"Highlight2\">{1} seconds</span>. Being put into the dying state will cancel the healing effect.<br><br><i>Activating Blood Rush will disable it for the remainder of the trial.</i><br><br><span class=\"ReminderText\">Exhaustion prevents Survivors from activating other perks that cause Exhaustion.</span><br><br><span class=\"ReminderText\">Broken prevents Survivors from being healed.</span><br><br><span class=\"FlavorText\">“Just gotta… push through.” –Renato Lyra</span>"
+            "LocalizedString": "Your mind and body are honed for great feats, allowing you to push through with extra effort when necessary.<br><br>This perk activates once you are one hook away from instant death.<br><br>While healthy, running, and suffering from <b>Exhausted</b> , press the <i>Active Ability Button 1</i> to lose a health state and recover from <b>Exhausted</b> instantly and gain the <b>Broken</b> status effect for <span class=\"Highlight1\">{0} seconds</span>.<br><br>You are automatically healed from injured to healthy after <span class=\"Highlight2\">{1} seconds</span>. Being put into the dying state will cancel the healing effect.<br><br><i>Activating Blood Rush will disable it for the remainder of the trial.</i><br><br><span class=\"ReminderText\">Exhausted prevents Survivors from activating other perks that cause Exhausted.</span><br><span class=\"ReminderText\">Broken prevents Survivors from being healed.</span><br><br><span class=\"FlavorText\">“Just gotta… push through.” –Renato Lyra</span>"
           },
           "IconFilePathList": [
             "UI/Icons/Perks/Saturn/iconPerks_BloodRush.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1142,11 +1304,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S36P02"
       },
@@ -1160,6 +1322,7 @@
         "PerkCategory": [
           "EPerkCategory::Support"
         ],
+        "PerkArchetype": "EPerkArchetype::Teamwork",
         "PerkBlueprint": {
           "AssetPathName": "/Game/Blueprints/Perks/SurvivorPerks/BP_S36P03.BP_S36P03_C",
           "SubPathString": ""
@@ -1214,7 +1377,7 @@
         "AtlantaLowPriority": false,
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Camper",
@@ -1223,7 +1386,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1238,6 +1401,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::CamperPerk",
         "UIData": {
           "DisplayName": {
@@ -1256,6 +1420,13 @@
             "UI/Icons/Perks/Saturn/iconPerks_TeamworkCollectiveStealth.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1285,11 +1456,11 @@
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "S36P03"
       }

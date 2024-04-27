@@ -5,13 +5,122 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
+      "14": {
+        "CharacterIndex": 14,
+        "CharacterCodename": "Jeff",
+        "Role": "EPlayerRole::VE_Camper",
+        "Difficulty": "ECharacterDifficulty::VE_None",
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "00482151410D93DC3163AB981E429FAC",
+          "SourceString": "Jeff",
+          "LocalizedString": "Jeff Johansen"
+        },
+        "Backstory": {
+          "Namespace": "",
+          "Key": "D159AB7E4F5AA654A2B0EDBE57251AE8",
+          "SourceString": "SURVIVOR_JEFF_BIO",
+          "LocalizedString": "Jeff Johansen was born and raised in Ormond, Alberta. He grew up as a quiet, only child with an aversion for large crowds. During high school, his anxious nature was mislabelled as shyness, which he covered up with a tough, stoic persona that intimidated bullies and teachers alike. At home, he discovered an interest for heavy metal and started a vinyl collection. The evocative symbolism on the covers inspired him to make some art of his own, which helped him cope with his parents’ constant fighting.<br><br>To escape his parents’ increasingly recurrent blow-ups, Jeff started working at a video store. Few customers passed by, so he had a lot of free time to draw. A late-night regular noticed his sketches and asked him to do some artwork for his gang at the abandoned lodge up Mount Ormond. Jeff accepted the challenge and painted a large mural depicting “The Legion” in runny, bloody letters. He was given a fifty-dollar bill and a 12-pack for his hard work. It was his first paid commission, a milestone to be proud of.<br><br>After his parents’ divorce, Jeff was forced to move with his mother to Winkler, Manitoba, which was miles away from his hometown—and his dad. In Winkler, Jeff was more isolated than ever, except for art and music. His solace came shortly after graduating high school when he started working at a local bar with live music performances. He found a roadie gig shortly after, leaving Winkler behind.<br><br>A few years later, Jeff got injured after getting involved in a fight during a concert. He was told he could lose part of his eyesight, so his doctor asked him to stay in town in order to monitor him. It was a difficult time during which Jeff re-assessed his life choices.<br><br>He went back to school—art school. His eyesight slowly returned, but he had to be careful. He took a few courses, experimenting with a wide range of mediums, ultimately choosing oil painting and digital art, the latter of which offered paid internships. He took up a desk job and found his calling in designing labels for microbreweries. He led a quiet, simple life: he brewed beer, took-in a rescue dog, designed tattoos, and freelanced album covers for bands he liked. All until one morning, when he got a phone call from Ormond saying that his father had passed, leaving a few things to sort out.<br><br>Jeff drove all the way back to Ormond. He felt a pang of nostalgia when he reached his late father’s house. Inside, there was an old guitar case sitting in against the wall. It held a black, vintage model with a sticky note that said, “for my boy.”<br><br>He stayed in town longer than he planned to, reminiscing about his childhood. Driving by his former high school, he remembered the mural he painted up Mount Ormond. He bought a 12-pack and headed to the lodge.<br><br>After weeks of not hearing back from Jeff, his colleagues assumed that grief had gotten the better of him. His neighbor got tired of sitting his dog, which became more and more agitated as days went by. The dog became a stray again, erring while seeking the familiar trail of Jeff’s malty scent."
+        },
+        "Biography": {
+          "Namespace": "",
+          "Key": "3642EBBC46D8E378D9904793799BB1D7",
+          "SourceString": "SURVIVOR_JEFF_TOOLTIP",
+          "LocalizedString": "A quiet artist, standing steadfast against impossible odds.<br><br>His personal perks, <b>Breakdown</b>, <b>Aftercare</b> and <b>Distortion</b>, give him observational advantages and help to hide his presence from The Killer."
+        },
+        "IconFilePath": "UI/Icons/CharPortraits/Kenya/S15_JeffJohansen_Portrait.png",
+        "HudIcon": {
+          "ObjectName": "Texture2D'KS_charSelect_portrait_HUD'",
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Kenya/KS_charSelect_portrait_HUD.0"
+        },
+        "BackgroundImagePath": "UI/Icons/StoreBackgrounds/storeBackground_KS.png",
+        "CustomizationDescription": [
+          {
+            "Category": "ECustomizationCategory::SurvivorHead",
+            "DefaultItemId": {
+              "RowValue": "KS_Head01"
+            },
+            "SocketName": "None"
+          },
+          {
+            "Category": "ECustomizationCategory::SurvivorTorso",
+            "DefaultItemId": {
+              "RowValue": "KS_Torso01"
+            },
+            "SocketName": "None"
+          },
+          {
+            "Category": "ECustomizationCategory::SurvivorLegs",
+            "DefaultItemId": {
+              "RowValue": "KS_Legs01"
+            },
+            "SocketName": "None"
+          }
+        ],
+        "ChapterDlcId": "Kenya",
+        "AdditionalDlcIds": [
+          "EP2"
+        ],
+        "AvailableIfDlcInstalled": true,
+        "DebugName": "[S15] Jeff Johansen",
+        "IsInChunk0": false,
+        "IsAvailableInNonViolentBuild": false,
+        "IsAvailableInAtlantaBuild": true,
+        "PlatformExclusiveFlag": 0,
+        "GamePawn": {
+          "AssetPathName": "/Game/Characters/Campers/Blueprints/BP_CamperMale09_Character.BP_CamperMale09_Character_C",
+          "SubPathString": ""
+        },
+        "MenuPawn": {
+          "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperMale09.BP_Menu_CamperMale09_C",
+          "SubPathString": ""
+        },
+        "IsDefaultItemSpawnableInParadise": true,
+        "DefaultItem": "None",
+        "DefaultPerk": "None",
+        "Gender": "EGender::VE_Male",
+        "KillerAbilities": [],
+        "TunableDB": {
+          "AssetPtr": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "KillerHeight": "EKillerHeight::Average",
+        "SlideShowDescriptions": {
+          "Id": "None",
+          "Overview": {
+            "Namespace": "",
+            "Key": "7A5B7E9048B095811F2A9CA169AF6797",
+            "SourceString": "ATLANTACHARACTERSLIDE_Jeff_OVERVIEW",
+            "LocalizedString": "Jeffrey \"Jeff\" Johansen is a quiet artist with a heart of gold, standing steadfast against impossible odds. He has a dark past but led a simple life until his father passed."
+          },
+          "Playstyle": {
+            "Namespace": "",
+            "Key": "63BC0CAA49560B5A1330BF9BF3DAD976",
+            "SourceString": "ATLANTACHARACTERSLIDE_Jeff_PLAYSTYLE",
+            "LocalizedString": "Jeff's keen artistic eyes provide some observational advantages, helping him detect allies and hide from the Killer."
+          },
+          "ImageFilePath": "\"UI/Icons/CharacterSlideShowRenders/Atlanta_Slideshow_Jeff.png",
+          "PerkCategory": [
+            "EPerkCategory::Adaptation",
+            "EPerkCategory::Perception",
+            "EPerkCategory::Concealment"
+          ]
+        },
+        "HideStoreCustomizations": false,
+        "SearchTags": [],
+        "CustomizationCategories": [],
+        "CharacterId": "Jeff"
+      },
       "268435469": {
         "CharacterIndex": 268435469,
+        "CharacterCodename": "Legion",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Easy",
         "DisplayName": {
@@ -20,7 +129,7 @@
           "SourceString": "KILLER_KK_NAME",
           "LocalizedString": "The Legion"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "30C3C3AA4273BC6F7A4425AD83A6F637",
           "SourceString": "KILLER_LEGION_BIO",
@@ -76,12 +185,12 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher14.BP_Menu_Slasher14_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_Frenzy",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Multiple",
         "KillerAbilities": [
-          "EKillerAbilities::VE_Frenzy",
-          "EKillerAbilities::VE_MAX"
+          "EKillerAbilities::VE_Frenzy"
         ],
         "TunableDB": {
           "AssetPtr": {
@@ -108,117 +217,13 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [
           "KillerMask",
           "KillerTorso",
           "KillerPower"
         ],
         "CharacterId": "Legion"
-      },
-      "14": {
-        "CharacterIndex": 14,
-        "Role": "EPlayerRole::VE_Camper",
-        "Difficulty": "ECharacterDifficulty::VE_None",
-        "DisplayName": {
-          "Namespace": "",
-          "Key": "00482151410D93DC3163AB981E429FAC",
-          "SourceString": "Jeff",
-          "LocalizedString": "Jeff Johansen"
-        },
-        "BackStory": {
-          "Namespace": "",
-          "Key": "D159AB7E4F5AA654A2B0EDBE57251AE8",
-          "SourceString": "SURVIVOR_JEFF_BIO",
-          "LocalizedString": "Jeff Johansen was born and raised in Ormond, Alberta. He grew up as a quiet, only child with an aversion for large crowds. During high school, his anxious nature was mislabelled as shyness, which he covered up with a tough, stoic persona that intimidated bullies and teachers alike. At home, he discovered an interest for heavy metal and started a vinyl collection. The evocative symbolism on the covers inspired him to make some art of his own, which helped him cope with his parents’ constant fighting.<br><br>To escape his parents’ increasingly recurrent blow-ups, Jeff started working at a video store. Few customers passed by, so he had a lot of free time to draw. A late-night regular noticed his sketches and asked him to do some artwork for his gang at the abandoned lodge up Mount Ormond. Jeff accepted the challenge and painted a large mural depicting “The Legion” in runny, bloody letters. He was given a fifty-dollar bill and a 12-pack for his hard work. It was his first paid commission, a milestone to be proud of.<br><br>After his parents’ divorce, Jeff was forced to move with his mother to Winkler, Manitoba, which was miles away from his hometown—and his dad. In Winkler, Jeff was more isolated than ever, except for art and music. His solace came shortly after graduating high school when he started working at a local bar with live music performances. He found a roadie gig shortly after, leaving Winkler behind.<br><br>A few years later, Jeff got injured after getting involved in a fight during a concert. He was told he could lose part of his eyesight, so his doctor asked him to stay in town in order to monitor him. It was a difficult time during which Jeff re-assessed his life choices.<br><br>He went back to school—art school. His eyesight slowly returned, but he had to be careful. He took a few courses, experimenting with a wide range of mediums, ultimately choosing oil painting and digital art, the latter of which offered paid internships. He took up a desk job and found his calling in designing labels for microbreweries. He led a quiet, simple life: he brewed beer, took-in a rescue dog, designed tattoos, and freelanced album covers for bands he liked. All until one morning, when he got a phone call from Ormond saying that his father had passed, leaving a few things to sort out.<br><br>Jeff drove all the way back to Ormond. He felt a pang of nostalgia when he reached his late father’s house. Inside, there was an old guitar case sitting in against the wall. It held a black, vintage model with a sticky note that said, “for my boy.”<br><br>He stayed in town longer than he planned to, reminiscing about his childhood. Driving by his former high school, he remembered the mural he painted up Mount Ormond. He bought a 12-pack and headed to the lodge.<br><br>After weeks of not hearing back from Jeff, his colleagues assumed that grief had gotten the better of him. His neighbor got tired of sitting his dog, which became more and more agitated as days went by. The dog became a stray again, erring while seeking the familiar trail of Jeff’s malty scent."
-        },
-        "Biography": {
-          "Namespace": "",
-          "Key": "3642EBBC46D8E378D9904793799BB1D7",
-          "SourceString": "SURVIVOR_JEFF_TOOLTIP",
-          "LocalizedString": "A quiet artist, standing steadfast against impossible odds.<br><br>His personal perks, <b>Breakdown</b>, <b>Aftercare</b> and <b>Distortion</b>, give him observational advantages and help to hide his presence from The Killer."
-        },
-        "IconFilePath": "UI/Icons/CharPortraits/Kenya/S15_JeffJohansen_Portrait.png",
-        "HudIcon": {
-          "ObjectName": "Texture2D'KS_charSelect_portrait_HUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Kenya/KS_charSelect_portrait_HUD.0"
-        },
-        "BackgroundImagePath": "UI/Icons/StoreBackgrounds/storeBackground_KS.png",
-        "CustomizationDescription": [
-          {
-            "Category": "ECustomizationCategory::SurvivorHead",
-            "DefaultItemId": {
-              "RowValue": "KS_Head01"
-            },
-            "SocketName": "None"
-          },
-          {
-            "Category": "ECustomizationCategory::SurvivorTorso",
-            "DefaultItemId": {
-              "RowValue": "KS_Torso01"
-            },
-            "SocketName": "None"
-          },
-          {
-            "Category": "ECustomizationCategory::SurvivorLegs",
-            "DefaultItemId": {
-              "RowValue": "KS_Legs01"
-            },
-            "SocketName": "None"
-          }
-        ],
-        "ChapterDlcId": "Kenya",
-        "AdditionalDlcIds": [
-          "EP2"
-        ],
-        "AvailableIfDlcInstalled": true,
-        "DebugName": "[S15] Jeff Johansen",
-        "IsInChunk0": false,
-        "IsAvailableInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": true,
-        "PlatformExclusiveFlag": 0,
-        "GamePawn": {
-          "AssetPathName": "/Game/Characters/Campers/Blueprints/BP_CamperMale09_Character.BP_CamperMale09_Character_C",
-          "SubPathString": ""
-        },
-        "MenuPawn": {
-          "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperMale09.BP_Menu_CamperMale09_C",
-          "SubPathString": ""
-        },
-        "DefaultItem": "None",
-        "DefaultPerk": "None",
-        "Gender": "EGender::VE_Male",
-        "KillerAbilities": [],
-        "TunableDB": {
-          "AssetPtr": {
-            "AssetPathName": "None",
-            "SubPathString": ""
-          }
-        },
-        "KillerHeight": "EKillerHeight::Average",
-        "SlideShowDescriptions": {
-          "Id": "None",
-          "Overview": {
-            "Namespace": "",
-            "Key": "7A5B7E9048B095811F2A9CA169AF6797",
-            "SourceString": "ATLANTACHARACTERSLIDE_Jeff_OVERVIEW",
-            "LocalizedString": "Jeffrey \"Jeff\" Johansen is a quiet artist with a heart of gold, standing steadfast against impossible odds. He has a dark past but led a simple life until his father passed."
-          },
-          "Playstyle": {
-            "Namespace": "",
-            "Key": "63BC0CAA49560B5A1330BF9BF3DAD976",
-            "SourceString": "ATLANTACHARACTERSLIDE_Jeff_PLAYSTYLE",
-            "LocalizedString": "Jeff's keen artistic eyes provide some observational advantages, helping him detect allies and hide from the Killer."
-          },
-          "ImageFilePath": "\"UI/Icons/CharacterSlideShowRenders/Atlanta_Slideshow_Jeff.png",
-          "PerkCategory": [
-            "EPerkCategory::Adaptation",
-            "EPerkCategory::Perception",
-            "EPerkCategory::Concealment"
-          ]
-        },
-        "HideStoreCustomizations": false,
-        "CustomizationCategories": [],
-        "CharacterId": "Jeff"
       }
     }
   }

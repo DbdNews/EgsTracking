@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "ScoreSlasherGunslingerSlashHarpoonedSurvivorAchievementBP_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'ScoreSlasherGunslingerSlashHarpoonedSurvivorAchievement'",
+      "ObjectPath": "/Script/Achievements"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ScoreSlasherGunslingerSlashHarpoonedSurvivorAchievementBP_C'Default__ScoreSlasherGunslingerSlashHarpoonedSurvivorAchievementBP_C'",
+      "ObjectPath": "/Game/Data/Achievements/ScoreSlasherGunslingerSlashHarpoonedSurvivorAchievementBP.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "ScoreSlasherGunslingerSlashHarpoonedSurvivorAchievementBP_C",
+    "Name": "Default__ScoreSlasherGunslingerSlashHarpoonedSurvivorAchievementBP_C",
+    "Class": "BlueprintGeneratedClass'/Game/Data/Achievements/ScoreSlasherGunslingerSlashHarpoonedSurvivorAchievementBP.ScoreSlasherGunslingerSlashHarpoonedSurvivorAchievementBP_C'",
+    "Properties": {
+      "_gameEvents": [
+        {
+          "TagName": "GameEvent.ScoreEvent.Slasher.Gunslinger.Slash.HarpoonedSurvivor"
+        }
+      ]
+    }
+  }
+]

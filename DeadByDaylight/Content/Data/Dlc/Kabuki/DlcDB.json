@@ -5,19 +5,27 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'PlatformDlcData'",
+        "ObjectName": "Class'PlatformDlcData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "Kabuki": {
-        "ID": "Kabuki",
-        "UnlockDescription": {
+        "Id": "Kabuki",
+        "ContentDescription": {
           "CultureInvariantString": null
         },
-        "Description": "Kabuki",
+        "DisplayName": {
+          "CultureInvariantString": null
+        },
+        "IsHeritagePack": false,
         "UISortOrder": 0,
-        "HeritageID": "",
+        "BannerImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": "Kabuki",
+        "HeritageId": "",
         "DlcIdSteam": "-1",
         "DlcIdEpic": "FFFFFFFFFFFFFFFF",
         "DlcIdPS4": "KABUKI0000000000",

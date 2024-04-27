@@ -2,9 +2,10 @@
   {
     "Type": "DataTable",
     "Name": "SurfaceTypeNameDB",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct SurfaceTypeName",
+        "ObjectName": "Class'SurfaceTypeName'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -134,6 +135,9 @@
       },
       "SurfaceType41": {
         "Name": "Mannequin"
+      },
+      "SurfaceType42": {
+        "Name": "TECH_Debris_Popcorn"
       }
     }
   }

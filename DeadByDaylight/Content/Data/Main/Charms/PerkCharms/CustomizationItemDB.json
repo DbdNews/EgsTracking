@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CustomizationItemData'",
+        "ObjectName": "Class'CustomizationItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -18,11 +18,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -63,6 +63,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -71,18 +72,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -92,13 +92,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "D76145BA4C829E3055012089DCA29056",
+            "Key": "45511D994310B4E124DB12BAB17B4D2A",
             "SourceString": "CUST_K01_PCharm003_NAME",
             "LocalizedString": "Iridescent Agitation Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "588D65204E28033DCCF56DA330612F48",
+            "Key": "E234D7D74DCF49155CAF758571AF5AB9",
             "SourceString": "CUST_K01_PCharm003_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -106,6 +106,13 @@
             "UI/Icons/Customization/PerkCharms/K01_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -131,14 +138,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K01_PCharm003"
+        "CustomizationId": "K01_PCharm003",
+        "SearchTags": []
       },
       "K01_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -148,11 +156,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -193,6 +201,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -201,18 +210,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -222,13 +230,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "5CB82CB042FFDF1661A55BBF4D78031E",
+            "Key": "12E7B00F4E17E4428E729180D12553B8",
             "SourceString": "CUST_K01_PCharm002_NAME",
             "LocalizedString": "Iridescent Brutal Strength Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "4C55ABB24D00C27E4693349636CCB3C5",
+            "Key": "A74109BD4006A82D3C060CBAD575E74C",
             "SourceString": "CUST_K01_PCharm002_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -236,6 +244,13 @@
             "UI/Icons/Customization/PerkCharms/K01_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -261,14 +276,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K01_PCharm002"
+        "CustomizationId": "K01_PCharm002",
+        "SearchTags": []
       },
       "K01_PCharm001": {
         "Category": "ECustomizationCategory::Charm",
@@ -278,11 +294,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -323,6 +339,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -331,18 +348,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -352,13 +368,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "3F5745DA43C55A164581CFB172DD8E49",
+            "Key": "CA9151BF482360FA3F80A28571A30C8F",
             "SourceString": "CUST_K01_PCharm001_NAME",
             "LocalizedString": "Iridescent Unnerving Presence Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "2EDB3B204FA941A80C69E1B35A4E87BA",
+            "Key": "52D9E8A44092A08BC560E58886867D15",
             "SourceString": "CUST_K01_PCharm001_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -366,6 +382,13 @@
             "UI/Icons/Customization/PerkCharms/K01_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -391,14 +414,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K01_PCharm001"
+        "CustomizationId": "K01_PCharm001",
+        "SearchTags": []
       },
       "K02_PCharm001": {
         "Category": "ECustomizationCategory::Charm",
@@ -408,11 +432,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -453,6 +477,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -461,18 +486,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -482,13 +506,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "598B97B44A951B3ED49EBCB9B9DE35B8",
+            "Key": "BCD658304022B02F468A7AA10B75BD14",
             "SourceString": "CUST_K02_PCharm001_NAME",
             "LocalizedString": "Iridescent Predator Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "7FA85F2A4DE8DB548BC9C68A4A3224CB",
+            "Key": "4A3C9FBD4BF513182EDAEFB3A5760D6C",
             "SourceString": "CUST_K02_PCharm001_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -496,6 +520,13 @@
             "UI/Icons/Customization/PerkCharms/K02_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -521,14 +552,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K02_PCharm001"
+        "CustomizationId": "K02_PCharm001",
+        "SearchTags": []
       },
       "K02_PCharm003": {
         "Category": "ECustomizationCategory::Charm",
@@ -538,11 +570,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -583,6 +615,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -591,18 +624,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -612,13 +644,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "F042032D496AE7B04F28CBA2D4FEDBC9",
+            "Key": "C927D0434B2A29A679EC018FAA94EED3",
             "SourceString": "CUST_K02_PCharm003_NAME",
             "LocalizedString": "Iridescent Shadowborn Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "929EB2614934B39DACC1919A4E0B19B8",
+            "Key": "CE634AB74840960ED79D708DEC2D7147",
             "SourceString": "CUST_K02_PCharm003_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -626,6 +658,13 @@
             "UI/Icons/Customization/PerkCharms/K02_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -651,14 +690,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K02_PCharm003"
+        "CustomizationId": "K02_PCharm003",
+        "SearchTags": []
       },
       "K02_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -668,11 +708,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -713,6 +753,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -721,18 +762,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -742,13 +782,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "9BBBA985444A070BB0EDAFBA0F1B523C",
+            "Key": "AEA99C414160A3037C2269B697CA7B88",
             "SourceString": "CUST_K02_PCharm002_NAME",
             "LocalizedString": "Iridescent Bloodhound Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "E388FF0B469BE73F89CD8D839036D9F4",
+            "Key": "5CC5B46245919BEB22289798EA95E4E1",
             "SourceString": "CUST_K02_PCharm002_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -756,6 +796,13 @@
             "UI/Icons/Customization/PerkCharms/K02_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -781,14 +828,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K02_PCharm002"
+        "CustomizationId": "K02_PCharm002",
+        "SearchTags": []
       },
       "K03_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -798,11 +846,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -843,6 +891,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -851,18 +900,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -872,13 +920,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "E7BE4A52450CBB0032F18099B29751E9",
+            "Key": "9F93206B420D07FB8070E78BF19109B8",
             "SourceString": "CUST_K03_PCharm002_NAME",
             "LocalizedString": "Iridescent Lightborn Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "8C717AF54BEA0898F1D5D3B09F09DFAD",
+            "Key": "D44470E5447ED7EC8193089C665AE5A4",
             "SourceString": "CUST_K03_PCharm002_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -886,6 +934,13 @@
             "UI/Icons/Customization/PerkCharms/K03_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -911,14 +966,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K03_PCharm002"
+        "CustomizationId": "K03_PCharm002",
+        "SearchTags": []
       },
       "K03_PCharm001": {
         "Category": "ECustomizationCategory::Charm",
@@ -928,11 +984,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -973,6 +1029,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -981,18 +1038,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -1002,13 +1058,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "3BD492D6443831DE5632C0877A831FD9",
+            "Key": "5E23C9FB47750886A9FFE68D1051D3C8",
             "SourceString": "CUST_K03_PCharm001_NAME",
             "LocalizedString": "Iridescent Enduring Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "FD987B7F4960AAEFBB7C05840F48BAC1",
+            "Key": "9DF5CFD749EE98B6E1CA3995FF6F9FA5",
             "SourceString": "CUST_K03_PCharm001_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -1016,6 +1072,13 @@
             "UI/Icons/Customization/PerkCharms/K03_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1041,14 +1104,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K03_PCharm001"
+        "CustomizationId": "K03_PCharm001",
+        "SearchTags": []
       },
       "K03_PCharm003": {
         "Category": "ECustomizationCategory::Charm",
@@ -1058,11 +1122,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1103,6 +1167,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1111,18 +1176,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -1132,13 +1196,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "E968DE47401247449E5DD1996CE67B81",
+            "Key": "4F8399C24CAA37112D60C4A6428610FD",
             "SourceString": "CUST_K03_PCharm003_NAME",
             "LocalizedString": "Iridescent Tinkerer Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "3E2FF572400A876292083D970A842421",
+            "Key": "A43B97B54765F95D1B70F6B58A1EB6C0",
             "SourceString": "CUST_K03_PCharm003_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -1146,6 +1210,13 @@
             "UI/Icons/Customization/PerkCharms/K03_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1171,14 +1242,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K03_PCharm003"
+        "CustomizationId": "K03_PCharm003",
+        "SearchTags": []
       },
       "S01_PCharm001": {
         "Category": "ECustomizationCategory::Charm",
@@ -1188,11 +1260,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1233,6 +1305,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1241,18 +1314,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -1262,13 +1334,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "E07F32F748F32AFF16D6B6A3E779BDBD",
+            "Key": "716CA3FC49D7CD6A3E15E6A9572B6BBB",
             "SourceString": "CUST_S01_PCharm001_NAME",
             "LocalizedString": "Iridescent Bond Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "21A8559340200D7B22E4E680238EB2B4",
+            "Key": "046B66D74A464BC31E697B92E2B75148",
             "SourceString": "CUST_S01_PCharm001_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -1276,6 +1348,13 @@
             "UI/Icons/Customization/PerkCharms/S01_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1301,14 +1380,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S01_PCharm001"
+        "CustomizationId": "S01_PCharm001",
+        "SearchTags": []
       },
       "S01_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -1318,11 +1398,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1363,6 +1443,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1371,18 +1452,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -1392,13 +1472,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "67F5DA5D442BB1F995A4959F01A8DDD9",
+            "Key": "18EC93FF4836EF7696BE4498299556B2",
             "SourceString": "CUST_S01_PCharm002_NAME",
             "LocalizedString": "Iridescent Prove Thyself Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "9D5E3C864906D5DFA1D73FB9DDCC0C57",
+            "Key": "C456D1A948D48B3CEBCCFFAF8B200340",
             "SourceString": "CUST_S01_PCharm002_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -1406,6 +1486,13 @@
             "UI/Icons/Customization/PerkCharms/S01_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1431,14 +1518,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S01_PCharm002"
+        "CustomizationId": "S01_PCharm002",
+        "SearchTags": []
       },
       "S01_PCharm003": {
         "Category": "ECustomizationCategory::Charm",
@@ -1448,11 +1536,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1493,6 +1581,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1501,18 +1590,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -1522,13 +1610,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "88F4C2674CF541A8AD2E868D15F66AE0",
+            "Key": "C02AC2AA42B938F1C0313DB42A367CD6",
             "SourceString": "CUST_S01_PCharm003_NAME",
             "LocalizedString": "Iridescent Leader Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "2B8AE5504AAF339B31C8708955F59460",
+            "Key": "CE7C2026458E7571DF3239822FA8AB82",
             "SourceString": "CUST_S01_PCharm003_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -1536,6 +1624,13 @@
             "UI/Icons/Customization/PerkCharms/S01_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1561,14 +1656,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S01_PCharm003"
+        "CustomizationId": "S01_PCharm003",
+        "SearchTags": []
       },
       "S04_PCharm003": {
         "Category": "ECustomizationCategory::Charm",
@@ -1578,11 +1674,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1623,6 +1719,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1631,18 +1728,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -1652,13 +1748,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "82BA6D6C4504C5189BDF3D860E8C759A",
+            "Key": "2EF8988F4A6F6408429FF1A47623543D",
             "SourceString": "CUST_S04_PCharm003_NAME",
             "LocalizedString": "Iridescent Saboteur Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "BAD8DCA64A4A11BDF38B3DB1D62C41B0",
+            "Key": "46F4BCE44E5BDC039B88A38FE21A77C3",
             "SourceString": "CUST_S04_PCharm003_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -1666,6 +1762,13 @@
             "UI/Icons/Customization/PerkCharms/S04_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1691,14 +1794,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S04_PCharm003"
+        "CustomizationId": "S04_PCharm003",
+        "SearchTags": []
       },
       "S04_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -1708,11 +1812,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1753,6 +1857,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1761,18 +1866,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -1782,13 +1886,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "7D74D7E043DD4F09D29F8B8F12C8A6C0",
+            "Key": "8932263842B55255B8B2FA949CE081FC",
             "SourceString": "CUST_S04_PCharm002_NAME",
             "LocalizedString": "Iridescent Calm Spirit Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "B91F3C5B49E2EBE460E0749A86DD163B",
+            "Key": "6CF78FE647615CB9252CAE8F6F30435B",
             "SourceString": "CUST_S04_PCharm002_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -1796,6 +1900,13 @@
             "UI/Icons/Customization/PerkCharms/S04_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1821,14 +1932,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S04_PCharm002"
+        "CustomizationId": "S04_PCharm002",
+        "SearchTags": []
       },
       "S04_PCharm001": {
         "Category": "ECustomizationCategory::Charm",
@@ -1838,11 +1950,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -1883,6 +1995,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -1891,18 +2004,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -1912,13 +2024,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "CE15D8944AA09E493FA9AD9617A0F196",
+            "Key": "B07D014C4E8EFFC0A673FD9C350DB117",
             "SourceString": "CUST_S04_PCharm001_NAME",
             "LocalizedString": "Iridescent Iron Will Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "0E7AFC48419A8276BF67F09543B1F02C",
+            "Key": "AC7D050347C3C1F046CA40B3E28633CD",
             "SourceString": "CUST_S04_PCharm001_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -1926,6 +2038,13 @@
             "UI/Icons/Customization/PerkCharms/S04_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1951,14 +2070,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S04_PCharm001"
+        "CustomizationId": "S04_PCharm001",
+        "SearchTags": []
       },
       "S02_PCharm003": {
         "Category": "ECustomizationCategory::Charm",
@@ -1968,11 +2088,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -2013,6 +2133,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2021,18 +2142,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -2042,13 +2162,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "3E1A415D4440578AEB33119AE6AD807F",
+            "Key": "85DF8DEB417C34F0FCC6CBB0ACA98713",
             "SourceString": "CUST_S02_PCharm003_NAME",
             "LocalizedString": "Iridescent Adrenaline Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "1160D60245BEA882DDF7B1B88C708490",
+            "Key": "34CAF94A4D503278D7B6F7BC3CA763EF",
             "SourceString": "CUST_S02_PCharm003_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -2056,6 +2176,13 @@
             "UI/Icons/Customization/PerkCharms/S02_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2081,14 +2208,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S02_PCharm003"
+        "CustomizationId": "S02_PCharm003",
+        "SearchTags": []
       },
       "S02_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -2098,11 +2226,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -2143,6 +2271,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2151,18 +2280,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -2172,13 +2300,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "BF4A81C4437EE3F73495038BD300AEB9",
+            "Key": "E4EE40BB48DB05E68A0B9D9AF910FAAB",
             "SourceString": "CUST_S02_PCharm002_NAME",
             "LocalizedString": "Iridescent Sprint Burst Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "B528E8D345DBF6F81B5E5CBD12154139",
+            "Key": "41F0AA0B4326D3A39CEB9FB228D2301E",
             "SourceString": "CUST_S02_PCharm002_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -2186,6 +2314,13 @@
             "UI/Icons/Customization/PerkCharms/S02_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2211,14 +2346,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S02_PCharm002"
+        "CustomizationId": "S02_PCharm002",
+        "SearchTags": []
       },
       "S02_PCharm001": {
         "Category": "ECustomizationCategory::Charm",
@@ -2228,11 +2364,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -2273,6 +2409,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2281,18 +2418,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -2302,13 +2438,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "A254417641CBC54CB3E8558829363D3C",
+            "Key": "C5DCC5084647C11A93059C93CB865B4E",
             "SourceString": "CUST_S02_PCharm001_NAME",
             "LocalizedString": "Iridescent Quick & Quiet Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "8AC550B04D7FD203B588DCA1D97CB657",
+            "Key": "B81A8C2B4EF5FDDCBA191C8CE60B6BF4",
             "SourceString": "CUST_S02_PCharm001_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -2316,6 +2452,13 @@
             "UI/Icons/Customization/PerkCharms/S02_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2341,14 +2484,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S02_PCharm001"
+        "CustomizationId": "S02_PCharm001",
+        "SearchTags": []
       },
       "S03_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -2358,11 +2502,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -2403,6 +2547,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2411,18 +2556,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -2432,13 +2576,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "F4FB951C42342BF9D85237BCA609EAAF",
+            "Key": "7B412ED94400B637C34E01AD3D0C1E72",
             "SourceString": "CUST_S03_PCharm002_NAME",
             "LocalizedString": "Iridescent Botany Knowledge Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "E55C99EA4021164A36E5C8ADB7DE5BFC",
+            "Key": "56521921435F0FD7E4A16E998B3BCEED",
             "SourceString": "CUST_S03_PCharm002_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -2446,6 +2590,13 @@
             "UI/Icons/Customization/PerkCharms/S03_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2471,14 +2622,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S03_PCharm002"
+        "CustomizationId": "S03_PCharm002",
+        "SearchTags": []
       },
       "S03_PCharm001": {
         "Category": "ECustomizationCategory::Charm",
@@ -2488,11 +2640,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -2533,6 +2685,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2541,18 +2694,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -2562,13 +2714,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "6ADAEB90493427DCEEE4CEAE32648979",
+            "Key": "23EA8B9F4449380F9058DEB069389D42",
             "SourceString": "CUST_S03_PCharm001_NAME",
             "LocalizedString": "Iridescent Empathy Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "4D58AB9746242A910B7FF2B3A5F211B8",
+            "Key": "464453D648BAA0FC711CED9A9446C94E",
             "SourceString": "CUST_S03_PCharm001_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -2576,6 +2728,13 @@
             "UI/Icons/Customization/PerkCharms/S03_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2601,14 +2760,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S03_PCharm001"
+        "CustomizationId": "S03_PCharm001",
+        "SearchTags": []
       },
       "S03_PCharm003": {
         "Category": "ECustomizationCategory::Charm",
@@ -2618,11 +2778,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -2663,6 +2823,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2671,18 +2832,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -2692,13 +2852,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "493E780B4DA03E79AC609AAFA7E34BAB",
+            "Key": "11FD4A9C4A7008EF0164FFB68E4C4959",
             "SourceString": "CUST_S03_PCharm003_NAME",
             "LocalizedString": "Iridescent Self-Care Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "073BB9A2402A2C2D7AAB14A04D1073AB",
+            "Key": "74ED5BC04D2998E8D6F7E9ABB2BDDE86",
             "SourceString": "CUST_S03_PCharm003_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -2706,6 +2866,13 @@
             "UI/Icons/Customization/PerkCharms/S03_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2731,14 +2898,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S03_PCharm003"
+        "CustomizationId": "S03_PCharm003",
+        "SearchTags": []
       },
       "S07_PCharm001": {
         "Category": "ECustomizationCategory::Charm",
@@ -2748,11 +2916,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -2793,6 +2961,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2801,18 +2970,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -2822,13 +2990,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "170860314E4A7B876A17EEB8BEE731DA",
+            "Key": "E5C2A89A4B7EA63E03B517AD9EB35DCA",
             "SourceString": "CUST_S07_PCharm001_NAME",
             "LocalizedString": "Iridescent Open-Handed Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "963797FE4D62ED12516C47A33503997B",
+            "Key": "B8D5E86E40610B9EDB11EAABB988AE6A",
             "SourceString": "CUST_S07_PCharm001_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -2836,6 +3004,13 @@
             "UI/Icons/Customization/PerkCharms/S07_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2861,14 +3036,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S07_PCharm001"
+        "CustomizationId": "S07_PCharm001",
+        "SearchTags": []
       },
       "S07_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -2878,11 +3054,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -2923,6 +3099,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -2931,18 +3108,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -2952,13 +3128,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "876FC70445C844245D8D0794EA679497",
+            "Key": "B53CB38B44A20862FB94289B0BEF0008",
             "SourceString": "CUST_S07_PCharm002_NAME",
             "LocalizedString": "Iridescent Up the Ante Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "0E614A7E490FC4D83BB47EB0625C3719",
+            "Key": "A7B5314A4B1E288A2BF1369156538363",
             "SourceString": "CUST_S07_PCharm002_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -2966,6 +3142,13 @@
             "UI/Icons/Customization/PerkCharms/S07_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -2991,14 +3174,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S07_PCharm002"
+        "CustomizationId": "S07_PCharm002",
+        "SearchTags": []
       },
       "S07_PCharm003": {
         "Category": "ECustomizationCategory::Charm",
@@ -3008,11 +3192,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -3053,6 +3237,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3061,18 +3246,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -3082,13 +3266,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "1DA8059B4C54346B178F67AD8464479C",
+            "Key": "CF020E22450F4BF6377FCCACA9F91EA4",
             "SourceString": "CUST_S07_PCharm003_NAME",
             "LocalizedString": "Iridescent Ace in the Hole Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "91E957BA43BFD5762762CDADD6C5C762",
+            "Key": "AD49F70245E1803EE290869D92EF2488",
             "SourceString": "CUST_S07_PCharm003_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -3096,6 +3280,13 @@
             "UI/Icons/Customization/PerkCharms/S07_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3121,14 +3312,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "S07_PCharm003"
+        "CustomizationId": "S07_PCharm003",
+        "SearchTags": []
       },
       "K05_PCharm001": {
         "Category": "ECustomizationCategory::Charm",
@@ -3138,11 +3330,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -3183,6 +3375,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3191,18 +3384,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -3212,13 +3404,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "70DD7ECD4F4AF9043127FB999364AADB",
+            "Key": "80B447C6498A5E7913F4A0ACAAD40A10",
             "SourceString": "CUST_K05_PCharm001_NAME",
             "LocalizedString": "Iridescent Hex: The Third Seal Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "539995D44C2CAAC1F5566DB8E6EB0A31",
+            "Key": "0052EF33404F27C872C03AB0C1A94658",
             "SourceString": "CUST_K05_PCharm001_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -3226,6 +3418,13 @@
             "UI/Icons/Customization/PerkCharms/K05_PCharm001.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3251,14 +3450,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K05_PCharm001"
+        "CustomizationId": "K05_PCharm001",
+        "SearchTags": []
       },
       "K05_PCharm002": {
         "Category": "ECustomizationCategory::Charm",
@@ -3268,11 +3468,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -3313,6 +3513,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3321,18 +3522,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -3342,13 +3542,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "9222E3CC4A6CD91AFEDB349B44B17D2F",
+            "Key": "5CFEC6254CF7941E849CD78EDFE61E37",
             "SourceString": "CUST_K05_PCharm002_NAME",
             "LocalizedString": "Iridescent Hex: Ruin Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "2D4065344B2997370EA1C6827733E50A",
+            "Key": "04B070224C6F969C814110A94AC03B34",
             "SourceString": "CUST_K05_PCharm002_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -3356,6 +3556,13 @@
             "UI/Icons/Customization/PerkCharms/K05_PCharm002.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3381,14 +3588,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K05_PCharm002"
+        "CustomizationId": "K05_PCharm002",
+        "SearchTags": []
       },
       "K05_PCharm003": {
         "Category": "ECustomizationCategory::Charm",
@@ -3398,11 +3606,11 @@
         },
         "AnimClass": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "MaterialsMap": [],
         "ConditionalMaterialReplacer": {
@@ -3443,6 +3651,7 @@
         "CollectionDescription": {
           "CultureInvariantString": null
         },
+        "AssociatedCharacterSearchTags": [],
         "PrestigeUlockLevel": -1,
         "PrestigeUnlockDate": "",
         "EventId": "None",
@@ -3451,18 +3660,17 @@
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
-        "IsAvailableInAtlantaBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "AssociatedCharacter": -1,
@@ -3472,13 +3680,13 @@
         "UIData": {
           "DisplayName": {
             "Namespace": "",
-            "Key": "116279C946E6985BA1352588B221294A",
+            "Key": "BB22722D43A978A9772940AAAC1E0004",
             "SourceString": "CUST_K05_PCharm003_NAME",
             "LocalizedString": "Iridescent Hex: Devour Hope Charm"
           },
           "Description": {
             "Namespace": "",
-            "Key": "55BB3126450A087F2FC33881DC76C82F",
+            "Key": "385045EB4602523FAFAF9A806953A2AD",
             "SourceString": "CUST_K05_PCharm003_DESC",
             "LocalizedString": "A keepsake gained upon mastery of a particular skill."
           },
@@ -3486,6 +3694,13 @@
             "UI/Icons/Customization/PerkCharms/K05_PCharm003.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -3511,14 +3726,15 @@
           "AssociatedCharacterIndex": -1
         },
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
           "CommunityId": "0"
         },
         "InclusionVersion": "6.1.0 PTB",
-        "CustomizationId": "K05_PCharm003"
+        "CustomizationId": "K05_PCharm003",
+        "SearchTags": []
       }
     }
   }

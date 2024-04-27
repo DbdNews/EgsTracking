@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "IsPlayerBeingPulledFromCloset_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'HasObjectState'",
+      "ObjectPath": "/Script/Competence"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "IsPlayerBeingPulledFromCloset_C'Default__IsPlayerBeingPulledFromCloset_C'",
+      "ObjectPath": "/Game/Blueprints/Perks/PerkConditions/IsPlayerBeingPulledFromCloset.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "IsPlayerBeingPulledFromCloset_C",
+    "Name": "Default__IsPlayerBeingPulledFromCloset_C",
+    "Class": "BlueprintGeneratedClass'/Game/Blueprints/Perks/PerkConditions/IsPlayerBeingPulledFromCloset.IsPlayerBeingPulledFromCloset_C'",
+    "Properties": {
+      "_state": {
+        "TagName": "State.GuidedAction.BeingPulledFromCloset"
+      }
+    }
+  }
+]

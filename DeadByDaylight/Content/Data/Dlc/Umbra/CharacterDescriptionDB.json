@@ -5,13 +5,14 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "268435487": {
         "CharacterIndex": 268435487,
+        "CharacterCodename": "K32",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Hard",
         "DisplayName": {
@@ -20,7 +21,7 @@
           "SourceString": "KILLER_32_NAME",
           "LocalizedString": "The Singularity"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "38E4DA544889CFF530CDE3B0004201B1",
           "SourceString": "KILLER_32_BIO",
@@ -30,12 +31,12 @@
           "Namespace": "",
           "Key": "1C49E0B24A92A81A52A35D84F7F9C9DE",
           "SourceString": "KILLER_32_TOOLTIP",
-          "LocalizedString": "The Singularity is a relentless Killer, able to launch Biopods to move quickly across the map.<br><br> His personal perks, <b>Genetic Limits</b>, <b>Forced Hesitation</b>, and <b>Machine Learning</b> allow him to Exhaust newly healed Survivors, Hinder anyone close to a newly injured Survivor, and compromise generators."
+          "LocalizedString": "The Singularity is a relentless Killer, able to launch Biopods to move quickly across the map.<br><br>His personal perks, <b>Genetic Limits</b>, <b>Forced Hesitation</b>, and <b>Machine Learning</b> allow him to Exhaust newly healed Survivors, Hinder anyone close to a newly injured Survivor, and compromise generators."
         },
         "IconFilePath": "UI/Icons/CharPortraits/Umbra/K32_TheSingularity_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'Missing'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraits/Missing.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraits/Missing.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Umbra/K32_storeBackground.png",
         "CustomizationDescription": [
@@ -77,6 +78,7 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher32.BP_Menu_Slasher32_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_K32Power",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Male",
@@ -102,11 +104,13 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "K32"
       },
       "36": {
         "CharacterIndex": 36,
+        "CharacterCodename": "S37",
         "Role": "EPlayerRole::VE_Camper",
         "Difficulty": "ECharacterDifficulty::VE_None",
         "DisplayName": {
@@ -115,7 +119,7 @@
           "SourceString": "SURVIVOR_37_NAME",
           "LocalizedString": "Gabriel Soma"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "677C59E04A50F4A26F285AA9D644459C",
           "SourceString": "SURVIVOR_37_BIO",
@@ -130,7 +134,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Umbra/S37_GabrielSoma_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'T_S37_charSelect_portraitHUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Umbra/T_S37_charSelect_portraitHUD.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Umbra/T_S37_charSelect_portraitHUD.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Umbra/S37_storeBackground.png",
         "CustomizationDescription": [
@@ -172,6 +176,7 @@
           "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperMale18.BP_Menu_CamperMale18_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "None",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Male",
@@ -179,7 +184,7 @@
         "TunableDB": {
           "AssetPtr": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "KillerHeight": "EKillerHeight::Average",
@@ -195,6 +200,7 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "S37"
       }

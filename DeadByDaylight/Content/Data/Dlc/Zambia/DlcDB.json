@@ -5,20 +5,31 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'PlatformDlcData'",
+        "ObjectName": "Class'PlatformDlcData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "Pulcinella": {
-        "ID": "Pulcinella",
-        "UnlockDescription": {
+        "Id": "Pulcinella",
+        "ContentDescription": {
           "CultureInvariantString": null
         },
-        "Description": "Pulcinella",
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "889CC28644CD83ED3101809DFA4D876C",
+          "SourceString": "DLC_Pulcinella_SHORT_NAME",
+          "LocalizedString": "Pulcinella Chapter"
+        },
+        "IsHeritagePack": false,
         "UISortOrder": 0,
-        "HeritageID": "",
-        "DlcIdSteam": "1",
+        "BannerImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": "Pulcinella",
+        "HeritageId": "",
+        "DlcIdSteam": "-1",
         "DlcIdEpic": "FFFFFFFFFFFFFFFF",
         "DlcIdPS4": "ffffffffffffffffffffffffffffffff",
         "DlcId_XB1_XSX_GDK": "9P9KL48N62C3",

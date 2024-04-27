@@ -5,13 +5,14 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "27": {
         "CharacterIndex": 27,
+        "CharacterCodename": "S28",
         "Role": "EPlayerRole::VE_Camper",
         "Difficulty": "ECharacterDifficulty::VE_None",
         "DisplayName": {
@@ -20,7 +21,7 @@
           "SourceString": "SURVIVOR_S28_NAME",
           "LocalizedString": "Mikaela Reid"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "A60A387F424B30CBB72981B7CD6E88FB",
           "SourceString": "SURVIVOR_S28_BIO",
@@ -35,7 +36,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Hubble/S28_MikaelaReid_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'S28_charSelect_portrait_HUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Hubble/S28_charSelect_portrait_HUD.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Hubble/S28_charSelect_portrait_HUD.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Hubble/S28_storeBackground.png",
         "CustomizationDescription": [
@@ -62,7 +63,9 @@
           }
         ],
         "ChapterDlcId": "Hubble",
-        "AdditionalDlcIds": [],
+        "AdditionalDlcIds": [
+          "EP2"
+        ],
         "AvailableIfDlcInstalled": true,
         "DebugName": "[S28] Mikaela Reid",
         "IsInChunk0": false,
@@ -77,6 +80,7 @@
           "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale15.BP_Menu_CamperFemale15_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "None",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Female",
@@ -84,7 +88,7 @@
         "TunableDB": {
           "AssetPtr": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "KillerHeight": "EKillerHeight::Average",
@@ -100,6 +104,7 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "S28"
       }

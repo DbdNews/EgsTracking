@@ -5,13 +5,14 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "268435481": {
         "CharacterIndex": 268435481,
+        "CharacterCodename": "K26",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Intermediate",
         "DisplayName": {
@@ -20,7 +21,7 @@
           "SourceString": "KILLER_K26_NAME",
           "LocalizedString": "The Artist"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "8906517F4A132A5B371DB69004A72D06",
           "SourceString": "KILLER_K26_BIO",
@@ -35,7 +36,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Ion/K26_TheArtist_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'Missing'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraits/Missing.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraits/Missing.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Ion/K26_storeBackground.png",
         "CustomizationDescription": [
@@ -77,11 +78,11 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher26.BP_Menu_Slasher26_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_K26Power",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Female",
         "KillerAbilities": [
-          "EKillerAbilities::VE_MAX",
           "EKillerAbilities::VE_K26Power"
         ],
         "TunableDB": {
@@ -103,11 +104,20 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "E120717A455D661785F1F89871F34B49",
+            "SourceString": "K26_TAG_01",
+            "LocalizedString": "Bird Lady"
+          }
+        ],
         "CustomizationCategories": [],
         "CharacterId": "K26"
       },
       "28": {
         "CharacterIndex": 28,
+        "CharacterCodename": "S29",
         "Role": "EPlayerRole::VE_Camper",
         "Difficulty": "ECharacterDifficulty::VE_Easy",
         "DisplayName": {
@@ -116,7 +126,7 @@
           "SourceString": "SURVIVOR_S29_NAME",
           "LocalizedString": "Jonah Vasquez"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "7BD01EDF47846C657103BCA121F0F342",
           "SourceString": "SURVIVOR_S29_BIO",
@@ -131,7 +141,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Ion/S29_JonahVasquez_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'T_S29_charSelect_portraitHUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Ion/T_S29_charSelect_portraitHUD.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Ion/T_S29_charSelect_portraitHUD.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Ion/S29_storeBackground.png",
         "CustomizationDescription": [
@@ -173,6 +183,7 @@
           "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperMale14.BP_Menu_CamperMale14_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "None",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Male",
@@ -180,7 +191,7 @@
         "TunableDB": {
           "AssetPtr": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "KillerHeight": "EKillerHeight::Average",
@@ -196,6 +207,7 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [],
         "CustomizationCategories": [],
         "CharacterId": "S29"
       }

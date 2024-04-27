@@ -15,9 +15,7 @@
 			"Name": "OnlineSubsystemEpic",
 			"Type": "Runtime",
 			"LoadingPhase": "PreDefault",
-			"WhitelistPlatforms": [
-				"EGS"
-			]
+			"PlatformAllowList": [ "EGS" ]
 		}
 	],
 

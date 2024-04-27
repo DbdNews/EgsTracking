@@ -5,7 +5,7 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'ItemData'",
+        "ObjectName": "Class'ItemData'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
@@ -22,7 +22,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -37,6 +37,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Toolbox",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -55,6 +56,13 @@
             "UI/Icons/Items/iconItems_toolboxAlexs.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -91,7 +99,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_AlexsToolbox"
       },
@@ -107,7 +115,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -122,6 +130,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Map",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -140,6 +149,13 @@
             "UI/Icons/Items/iconItems_map.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -176,7 +192,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_BeigeMap"
       },
@@ -192,7 +208,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -207,6 +223,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Key",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -225,6 +242,13 @@
             "UI/Icons/Items/iconItems_brokenKey.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -261,7 +285,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_BrokenKey"
       },
@@ -277,7 +301,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -292,6 +316,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Toolbox",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -310,6 +335,13 @@
             "UI/Icons/Items/iconItems_toolboxCommodious.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -346,7 +378,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_CommodiousToolbox"
       },
@@ -362,7 +394,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -377,6 +409,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Key",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -395,6 +428,13 @@
             "UI/Icons/Items/iconItems_dullKey.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -431,7 +471,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_DullKey"
       },
@@ -447,7 +487,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -462,6 +502,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Toolbox",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -480,6 +521,13 @@
             "UI/Icons/Items/iconItems_toolboxEngineers.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -516,7 +564,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_EngineerToolbox"
       },
@@ -532,7 +580,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -547,6 +595,7 @@
         "EventId": "Lunar2023",
         "CanUseAfterEventEnd": true,
         "ItemType": "ELoadoutItemType::Firecracker",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -565,6 +614,13 @@
             "UI/Icons/Items/iconItems_chineseFirecracker.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -601,7 +657,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_Firecracker_Chinese"
       },
@@ -617,7 +673,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -632,6 +688,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Flashlight",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -650,6 +707,13 @@
             "UI/Icons/Items/iconItems_flashlight.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -686,7 +750,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_Flashlight"
       },
@@ -702,7 +766,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -717,6 +781,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Flashlight",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -735,6 +800,13 @@
             "UI/Icons/Items/iconItems_flashlightSport.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -771,7 +843,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_Flashlight02"
       },
@@ -787,7 +859,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -802,6 +874,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Flashlight",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -820,6 +893,13 @@
             "UI/Icons/Items/iconItems_flashlightUtility.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -856,7 +936,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_Flashlight03"
       },
@@ -872,7 +952,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -887,6 +967,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Key",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -905,6 +986,13 @@
             "UI/Icons/Items/iconItems_key.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -941,7 +1029,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_Key"
       },
@@ -957,7 +1045,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -972,6 +1060,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Toolbox",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -990,6 +1079,13 @@
             "UI/Icons/Items/iconItems_toolboxMechanics.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1026,7 +1122,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_MechanicsToolbox"
       },
@@ -1042,7 +1138,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1057,6 +1153,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Medkit",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -1075,6 +1172,13 @@
             "UI/Icons/Items/iconItems_rundownAidKit.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1111,7 +1215,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_MedKit"
       },
@@ -1127,7 +1231,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1142,6 +1246,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Medkit",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -1160,6 +1265,13 @@
             "UI/Icons/Items/iconItems_firstAidKit.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1196,7 +1308,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_MedKit02"
       },
@@ -1212,7 +1324,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1227,6 +1339,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Medkit",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -1245,6 +1358,13 @@
             "UI/Icons/Items/iconItems_medkit.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1281,7 +1401,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_MedKit03"
       },
@@ -1297,7 +1417,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1312,6 +1432,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Medkit",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -1330,6 +1451,13 @@
             "UI/Icons/Items/iconItems_rangersAidKit.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1366,7 +1494,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_MedKit04"
       },
@@ -1382,7 +1510,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1397,6 +1525,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Map",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -1415,6 +1544,13 @@
             "UI/Icons/Items/iconItems_rainbowMap.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1451,7 +1587,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_RainbowMap"
       },
@@ -1467,7 +1603,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1482,6 +1618,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Toolbox",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -1500,6 +1637,13 @@
             "UI/Icons/Items/iconItems_toolbox.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1536,7 +1680,7 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_Toolbox"
       },
@@ -1552,7 +1696,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_None",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1567,6 +1711,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::Toolbox",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Item",
         "UIData": {
           "DisplayName": {
@@ -1585,6 +1730,13 @@
             "UI/Icons/Items/iconItems_toolboxWornOut.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1621,14 +1773,14 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Camper_WornoutToolbox"
       },
       "Item_Slasher_Beartrap": {
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1637,7 +1789,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_SpawnTraps",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1652,6 +1804,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Power",
         "UIData": {
           "DisplayName": {
@@ -1670,6 +1823,13 @@
             "UI/Icons/Powers/iconPowers_trap.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1706,14 +1866,14 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Slasher_Beartrap"
       },
       "Item_Slasher_Chainsaw": {
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1722,7 +1882,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Chainsaw",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1737,6 +1897,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Power",
         "UIData": {
           "DisplayName": {
@@ -1749,12 +1910,20 @@
             "Namespace": "",
             "Key": "94B00E4041A7A20E6436F6B5F53F1036",
             "SourceString": "POWER_Chainsaw_DESC",
-            "LocalizedString": "Press and hold the <i>Power button</i> to break into a Chainsaw Sprint. Survivors hit during a Chainsaw Sprint are put into the dying state.<br><li> Each Chainsaw action (starting the Chainsaw, revving the Chainsaw, and <b>Chainsaw Sprinting</b>) will cause the overheat meter to increase.</li><li> When the <b>overheat meter</b> is filled, the Chainsaw cannot be used until it fully cools down. Reaching the heat capacity will not interrupt an ongoing <b>Chainsaw Sprint</b>.</li><li>The <b>overheat meter</b> decreases when the Chainsaw is not in use.</li> "
+            "LocalizedString": "<i>The machine gave him a new life, one where the power was in his hands.</i><br><br>Press and hold the <i>Power button</i> to break into a <b>Chainsaw Sprint</b>. Survivors hit during a <b>Chainsaw Sprint</b> are put into the dying state. <br><br>Revving the chainsaw, and sprinting each cause the <b>Overdrive meter</b> to increase. The meter decreases when the chainsaw is not in use.<br><br>When the meter is full, the chainsaw goes into <b>Overdrive</b>.<br><br><b>SPECIAL STATE: OVERDRIVE</b><br>While in <b>Overdrive</b>, the chainsaw is enhanced. Chainsaw Charge and Sprint speeds are increased, and <b>Chainsaw Sprint</b> cooldowns are reduced.<br><br><b>Overdrive</b> lasts for <b>20 seconds</b>."
           },
           "IconFilePathList": [
-            "UI/Icons/Powers/iconPowers_chainsaw.png"
+            "UI/Icons/Powers/iconPowers_chainsaw.png",
+            "UI/Icons/Powers/iconPowers_chainsawCharge.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1791,14 +1960,14 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Slasher_Chainsaw"
       },
       "Item_Slasher_CloakBell": {
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1807,7 +1976,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Cloak",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1822,6 +1991,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Power",
         "UIData": {
           "DisplayName": {
@@ -1840,6 +2010,13 @@
             "UI/Icons/Powers/iconPowers_bell.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1876,14 +2053,14 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Slasher_CloakBell"
       },
       "Item_Slasher_PhantomTrap": {
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1892,7 +2069,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_PhantomTrap",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1907,6 +2084,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Power",
         "UIData": {
           "DisplayName": {
@@ -1919,12 +2097,19 @@
             "Namespace": "",
             "Key": "59A7E9524FFD282E948920BD5F04E788",
             "SourceString": "POWER_hag_DESC",
-            "LocalizedString": "The source of The Hag's power, a blackened finger used as a catalyst for her terrible power. The Hag bends and shapes mud to her will. With simple ritualistic drawings, she creates deceitful duplicates of herself made from mud and decay which she can use for various effects.<br><li>Grants the ability to create and maintain <b>10</b> Phantasm Traps.</li><li>Grants the ability to instantly travel to triggered Phantasm Traps when within a <b>40 meter</b> range.</li>"
+            "LocalizedString": "The source of The Hag's power, a blackened finger used as a catalyst for her terrible power. The Hag bends and shapes mud to her will. With simple ritualistic drawings, she creates deceitful duplicates of herself made from mud and decay which she can use for various effects.<br><li>Grants the ability to create and maintain <b>10</b> Phantasm Traps.</li><li>Grants the ability to instantly travel to triggered Phantasm Traps when within a <b>48 meter</b> range.</li>"
           },
           "IconFilePathList": [
             "UI/Icons/Powers/DLC3/iconPowers_blackenedCatalyst.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {
@@ -1961,14 +2146,14 @@
         },
         "AssetData": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "ItemId": "Item_Slasher_PhantomTrap"
       },
       "Item_Slasher_Stalker": {
         "ItemMesh": {
           "AssetPathName": "None",
-          "SubPathString": ""
+          "SubPathString": null
         },
         "HandPosition": "EItemHandPosition::None",
         "Role": "EPlayerRole::VE_Slasher",
@@ -1977,7 +2162,7 @@
         "Chest": true,
         "RequiredKillerAbility": "EKillerAbilities::VE_Stalker",
         "Availability": {
-          "itemAvailability": "EItemAvailability::Available",
+          "ItemAvailability": "EItemAvailability::Available",
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
@@ -1992,6 +2177,7 @@
         "EventId": "None",
         "CanUseAfterEventEnd": false,
         "ItemType": "ELoadoutItemType::None",
+        "SearchTags": [],
         "Type": "EInventoryItemType::Power",
         "UIData": {
           "DisplayName": {
@@ -2013,6 +2199,13 @@
             "UI/Icons/Powers/DLC2/iconPowers_stalker3a.png"
           ],
           "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
           "CustomTransformation": {
             "UseCustomTransformation": false,
             "CustomScale": {

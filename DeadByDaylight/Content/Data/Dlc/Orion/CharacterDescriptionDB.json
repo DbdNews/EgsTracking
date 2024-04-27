@@ -5,13 +5,14 @@
     "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
-        "ObjectName": "ScriptStruct'CharacterDescription'",
+        "ObjectName": "Class'CharacterDescription'",
         "ObjectPath": "/Script/DeadByDaylight"
       }
     },
     "Rows": {
       "268435484": {
         "CharacterIndex": 268435484,
+        "CharacterCodename": "K29",
         "Role": "EPlayerRole::VE_Slasher",
         "Difficulty": "ECharacterDifficulty::VE_Intermediate",
         "DisplayName": {
@@ -20,7 +21,7 @@
           "SourceString": "KILLER_29_NAME",
           "LocalizedString": "The Mastermind"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "AF6865DD4C4A01635B440E96C8CA7AB7",
           "SourceString": "KILLER_29_BIO",
@@ -35,7 +36,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Orion/K29_TheMasterMind_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'Missing'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraits/Missing.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraits/Missing.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Orion/K29_storeBackground.png",
         "CustomizationDescription": [
@@ -77,6 +78,7 @@
           "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/BP_Menu_Slasher29.BP_Menu_Slasher29_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "Item_Slasher_K29Power",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Male",
@@ -102,11 +104,32 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "847B208440F86EA197DEA7AA2C10599A",
+            "SourceString": "K29_TAG_01",
+            "LocalizedString": "Albert Wesker"
+          },
+          {
+            "Namespace": "",
+            "Key": "6D433E93469F6660F9BD0A9083535770",
+            "SourceString": "DLC_Eclipse_TAG_01",
+            "LocalizedString": "Resident Evil"
+          },
+          {
+            "Namespace": "",
+            "Key": "907727B7406BFD3809FCD088C8A19FE5",
+            "SourceString": "DLC_Eclipse_TAG_02",
+            "LocalizedString": "RE"
+          }
+        ],
         "CustomizationCategories": [],
         "CharacterId": "K29"
       },
       "31": {
         "CharacterIndex": 31,
+        "CharacterCodename": "S32",
         "Role": "EPlayerRole::VE_Camper",
         "Difficulty": "ECharacterDifficulty::VE_None",
         "DisplayName": {
@@ -115,7 +138,7 @@
           "SourceString": "SURVIVOR_32_NAME",
           "LocalizedString": "Ada Wong"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "9730A2D54C5E27A7CBB553AB72AA50B2",
           "SourceString": "SURVIVOR_32_BIO",
@@ -130,7 +153,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Orion/S32_AdaWong_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'S32_charSelect_portraitHUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Orion/S32_charSelect_portraitHUD.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Orion/S32_charSelect_portraitHUD.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Orion/S32_storeBackground.png",
         "CustomizationDescription": [
@@ -172,6 +195,7 @@
           "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale17.BP_Menu_CamperFemale17_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "None",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Female",
@@ -179,7 +203,7 @@
         "TunableDB": {
           "AssetPtr": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "KillerHeight": "EKillerHeight::Average",
@@ -195,11 +219,26 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "84AC816C41C76167DF5018A886463E5D",
+            "SourceString": "DLC_Eclipse_TAG_01",
+            "LocalizedString": "Resident Evil"
+          },
+          {
+            "Namespace": "",
+            "Key": "A1E3945047C0631CCCF4BDA4CD7E3F95",
+            "SourceString": "DLC_Eclipse_TAG_02",
+            "LocalizedString": "RE"
+          }
+        ],
         "CustomizationCategories": [],
         "CharacterId": "S32"
       },
       "32": {
         "CharacterIndex": 32,
+        "CharacterCodename": "S33",
         "Role": "EPlayerRole::VE_Camper",
         "Difficulty": "ECharacterDifficulty::VE_None",
         "DisplayName": {
@@ -208,7 +247,7 @@
           "SourceString": "SURVIVOR_33_NAME",
           "LocalizedString": "Rebecca Chambers"
         },
-        "BackStory": {
+        "Backstory": {
           "Namespace": "",
           "Key": "B3CC2DF1475984B213EB20A672AAEEE8",
           "SourceString": "SURVIVOR_33_BIO",
@@ -223,7 +262,7 @@
         "IconFilePath": "UI/Icons/CharPortraits/Orion/S33_RebeccaChambers_Portrait.png",
         "HudIcon": {
           "ObjectName": "Texture2D'S33_charSelect_portraitHUD'",
-          "ObjectPath": "DeadByDaylight/Content/UI/UMGAssets/Icons/CharPortraitsHUD/Orion/S33_charSelect_portraitHUD.0"
+          "ObjectPath": "/Game/UI/UMGAssets/Icons/CharPortraitsHUD/Orion/S33_charSelect_portraitHUD.0"
         },
         "BackgroundImagePath": "UI/Icons/StoreBackgrounds/Orion/S33_storeBackground.png",
         "CustomizationDescription": [
@@ -265,6 +304,7 @@
           "AssetPathName": "/Game/Characters/Campers/Blueprints/Menu/BP_Menu_CamperFemale18.BP_Menu_CamperFemale18_C",
           "SubPathString": ""
         },
+        "IsDefaultItemSpawnableInParadise": true,
         "DefaultItem": "None",
         "DefaultPerk": "None",
         "Gender": "EGender::VE_Female",
@@ -272,7 +312,7 @@
         "TunableDB": {
           "AssetPtr": {
             "AssetPathName": "None",
-            "SubPathString": ""
+            "SubPathString": null
           }
         },
         "KillerHeight": "EKillerHeight::Average",
@@ -288,6 +328,20 @@
           "PerkCategory": []
         },
         "HideStoreCustomizations": false,
+        "SearchTags": [
+          {
+            "Namespace": "",
+            "Key": "0280582A4566ED4859D32EAF51094C30",
+            "SourceString": "DLC_Eclipse_TAG_01",
+            "LocalizedString": "Resident Evil"
+          },
+          {
+            "Namespace": "",
+            "Key": "F0ACE60D49EBB2E8A8ED7D871CC089CE",
+            "SourceString": "DLC_Eclipse_TAG_02",
+            "LocalizedString": "RE"
+          }
+        ],
         "CustomizationCategories": [],
         "CharacterId": "S33"
       }
