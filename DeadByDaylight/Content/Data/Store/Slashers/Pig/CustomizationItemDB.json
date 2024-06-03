@@ -97,6 +97,9 @@
             "SourceString": "CUST_FK_Mask006_DESC",
             "LocalizedString": "Now, in this place, Amanda has another chance. She'll prove that her way is the right way."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_Mask006.png"
           ],
@@ -213,6 +216,9 @@
             "SourceString": "CUST_FK_Body006_DESC",
             "LocalizedString": "Red shirt with detached sleeves keeping her blade hidden as she reaches the final stages of her own, failed, game."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_Body006.png"
           ],
@@ -262,12 +268,12 @@
       "FK_W006": {
         "Category": "ECustomizationCategory::KillerWeapon",
         "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Slashers/Finland/Models/FK_DSkeleton_REF.FK_DSkeleton_REF",
+          "AssetPathName": "/Game/Characters/Slashers/Finland/Models/Weapons/FK_W006_REF.FK_W006_REF",
           "SubPathString": ""
         },
         "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": null
+          "AssetPathName": "/Game/Characters/Slashers/Finland/Models/Weapons/Blueprint/AB_FK_W006.AB_FK_W006_C",
+          "SubPathString": ""
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
@@ -295,24 +301,7 @@
         "PrestigeUnlockDate": "",
         "EventId": "None",
         "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [
-          {
-            "AccessoryBlueprint": {
-              "AssetPathName": "/Game/Characters/Slashers/Finland/Models/Weapons/Blueprint/BP_FK_W006.BP_FK_W006_C",
-              "SubPathString": ""
-            },
-            "SkeletalMesh": {
-              "AssetPathName": "None",
-              "SubPathString": null
-            },
-            "SocketName": "None",
-            "MaterialsMap": [],
-            "ConditionalMaterialReplacer": {
-              "ItemTag": "None",
-              "ConditionalMaterials": []
-            }
-          }
-        ],
+        "SocketAttachements": [],
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
@@ -350,6 +339,9 @@
             "Key": "72F47CE2419882A6FF015C9DDDA574EC",
             "SourceString": "CUST_FK_W006_DESC",
             "LocalizedString": "A rusted and jagged saw blade, crudely carved from steel. If the wound doesn't kill them, the tetanus will."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
           },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_W006.png"
@@ -484,6 +476,9 @@
             "SourceString": "CUST_FK_Mask007_DESC",
             "LocalizedString": "The skin of this pig's head has a translucent, waxy quality. It is well decomposed and rotten inside, like its wearer."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_Mask007.png"
           ],
@@ -600,6 +595,9 @@
             "SourceString": "CUST_FK_Body007_DESC",
             "LocalizedString": "Overall protection, for when the Test subjects fight back."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_Body007.png"
           ],
@@ -649,12 +647,12 @@
       "FK_W007": {
         "Category": "ECustomizationCategory::KillerWeapon",
         "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Slashers/Finland/Models/FK_DSkeleton_REF.FK_DSkeleton_REF",
+          "AssetPathName": "/Game/Characters/Slashers/Finland/Models/Weapons/FK_W007_REF.FK_W007_REF",
           "SubPathString": ""
         },
         "AnimClass": {
-          "AssetPathName": "None",
-          "SubPathString": null
+          "AssetPathName": "/Game/Characters/Slashers/Finland/Models/Weapons/Blueprint/AB_FK_W007.AB_FK_W007_C",
+          "SubPathString": ""
         },
         "ItemBlueprint": {
           "AssetPathName": "None",
@@ -682,24 +680,7 @@
         "PrestigeUnlockDate": "",
         "EventId": "None",
         "CharmCategory": "ECharmCategory::None",
-        "SocketAttachements": [
-          {
-            "AccessoryBlueprint": {
-              "AssetPathName": "/Game/Characters/Slashers/Finland/Models/Weapons/Blueprint/BP_FK_W007.BP_FK_W007_C",
-              "SubPathString": ""
-            },
-            "SkeletalMesh": {
-              "AssetPathName": "None",
-              "SubPathString": null
-            },
-            "SocketName": "None",
-            "MaterialsMap": [],
-            "ConditionalMaterialReplacer": {
-              "ItemTag": "None",
-              "ConditionalMaterials": []
-            }
-          }
-        ],
+        "SocketAttachements": [],
         "UnlockingConditions": [],
         "IsInStore": true,
         "IsInNonViolentBuild": false,
@@ -737,6 +718,9 @@
             "Key": "EEB0E8BA4374E732BB377FA9D1D779BA",
             "SourceString": "CUST_FK_W007_DESC",
             "LocalizedString": "An ornate design, combining three razor-sharp blades into one weapon."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
           },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_W007.png"
@@ -871,6 +855,9 @@
             "SourceString": "CUST_FK_Mask008_DESC",
             "LocalizedString": "Comfort comes in all styles and shapes. A freshly skinned pig head makes all the difference."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_Mask008.png"
           ],
@@ -987,6 +974,9 @@
             "SourceString": "CUST_FK_Body008_DESC",
             "LocalizedString": "A comfortable jacket to spend free time in or hunt down cops in the slaughterhouse."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_Body008.png"
           ],
@@ -1102,6 +1092,9 @@
             "Key": "7777FD72417A296F792F21AA5B356F58",
             "SourceString": "CUST_FK_W008_DESC",
             "LocalizedString": "A tactical blade salvaged and reworked into a highly effective eviscerating tool that straps around the arm."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
           },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_W008.png"
@@ -1236,6 +1229,9 @@
             "SourceString": "CUST_FK_Mask009_DESC",
             "LocalizedString": "If Amanda couldn’t find the will to live, this device could quickly help by ripping her jaw off."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_Mask009.png"
           ],
@@ -1369,6 +1365,9 @@
             "SourceString": "CUST_FK_Body009_DESC",
             "LocalizedString": "The clothes worn during Amanda’s epiphany, as she learned to cherish and fight for her life.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_Body009.png"
           ],
@@ -1484,6 +1483,9 @@
             "Key": "81345D154EB6A707C418339AD9B82077",
             "SourceString": "CUST_FK_W009_DESC",
             "LocalizedString": "A cruel blade that tears the flesh of its victim."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
           },
           "IconFilePathList": [
             "UI/Icons/Customization/Pig/FK_W009.png"
