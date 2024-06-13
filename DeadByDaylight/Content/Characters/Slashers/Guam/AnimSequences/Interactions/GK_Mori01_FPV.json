@@ -1,0 +1,1496 @@
+[
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_0",
+    "Outer": "GK_Mori01_FPV",
+    "Class": "BlueprintGeneratedClass'/Wwise/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "/Wwise/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'AudioEvent_K12_GRUNT_Throw'",
+        "ObjectPath": "/Game/Audio/AudioEvents/Killer/AudioEvent_K12_GRUNT_Throw.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_1",
+    "Outer": "GK_Mori01_FPV",
+    "Class": "BlueprintGeneratedClass'/Wwise/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "/Wwise/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'AudioEvent_K12_MORI_Lick'",
+        "ObjectPath": "/Game/Audio/AudioEvents/Killer/AudioEvent_K12_MORI_Lick.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_2",
+    "Outer": "GK_Mori01_FPV",
+    "Class": "BlueprintGeneratedClass'/Wwise/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "/Wwise/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'AudioEvent_K12_GRUNT_Laugh'",
+        "ObjectPath": "/Game/Audio/AudioEvents/Killer/AudioEvent_K12_GRUNT_Laugh.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_3",
+    "Outer": "GK_Mori01_FPV",
+    "Class": "BlueprintGeneratedClass'/Wwise/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "/Wwise/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'AudioEvent_Blood_Fall'",
+        "ObjectPath": "/Game/Audio/AudioEvents/Objects/AudioEvent_Blood_Fall.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_AkEvent_C",
+    "Name": "AnimNotify_AkEvent_C_5",
+    "Outer": "GK_Mori01_FPV",
+    "Class": "BlueprintGeneratedClass'/Wwise/AnimNotify_AkEvent.AnimNotify_AkEvent_C'",
+    "Template": {
+      "ObjectName": "AnimNotify_AkEvent_C'Default__AnimNotify_AkEvent_C'",
+      "ObjectPath": "/Wwise/AnimNotify_AkEvent.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "AkAudioEvent'AudioEvent_Blood_Fall'",
+        "ObjectPath": "/Game/Audio/AudioEvents/Objects/AudioEvent_Blood_Fall.0"
+      }
+    }
+  },
+  {
+    "Type": "AnimNotify_PlayParticleEffect",
+    "Name": "AnimNotify_PlayParticleEffect_0",
+    "Outer": "GK_Mori01_FPV",
+    "Class": "UScriptClass'AnimNotify_PlayParticleEffect'",
+    "Properties": {
+      "PSTemplate": {
+        "ObjectName": "ParticleSystem'P_GK_Mori_DustRing'",
+        "ObjectPath": "/Game/Effects/ParticleSystems/Animation/GK_Mori_01/P_GK_Mori_DustRing.17"
+      },
+      "SocketName": "LeftFootIKSocket"
+    }
+  },
+  {
+    "Type": "AnimNotify_PlayParticleEffect",
+    "Name": "AnimNotify_PlayParticleEffect_1",
+    "Outer": "GK_Mori01_FPV",
+    "Class": "UScriptClass'AnimNotify_PlayParticleEffect'",
+    "Properties": {
+      "PSTemplate": {
+        "ObjectName": "ParticleSystem'P_GK_Mori_DustRing'",
+        "ObjectPath": "/Game/Effects/ParticleSystems/Animation/GK_Mori_01/P_GK_Mori_DustRing.17"
+      },
+      "SocketName": "LeftFootIKSocket"
+    }
+  },
+  {
+    "Type": "AnimNotify_PlayParticleEffect",
+    "Name": "AnimNotify_PlayParticleEffect_2",
+    "Outer": "GK_Mori01_FPV",
+    "Class": "UScriptClass'AnimNotify_PlayParticleEffect'",
+    "Properties": {
+      "PSTemplate": {
+        "ObjectName": "ParticleSystem'P_GK_Mori_DustRing'",
+        "ObjectPath": "/Game/Effects/ParticleSystems/Animation/GK_Mori_01/P_GK_Mori_DustRing.17"
+      },
+      "SocketName": "LeftFootIKSocket"
+    }
+  },
+  {
+    "Type": "AnimNotifyState_Trail",
+    "Name": "AnimNotifyState_Trail_0",
+    "Outer": "GK_Mori01_FPV",
+    "Class": "UScriptClass'AnimNotifyState_Trail'",
+    "Properties": {
+      "PSTemplate": {
+        "ObjectName": "ParticleSystem'P_GK_KnifeTrail_FPV'",
+        "ObjectPath": "/Game/Effects/ParticleSystems/Killer12/P_GK_KnifeTrail_FPV.9"
+      },
+      "FirstSocketName": "FX_GK_BloodDrop_01",
+      "SecondSocketName": "FX_GK_W01_Trail"
+    }
+  },
+  {
+    "Type": "AnimSequence",
+    "Name": "GK_Mori01_FPV",
+    "Class": "UScriptClass'AnimSequence'",
+    "Properties": {
+      "BoneCompressionSettings": {
+        "ObjectName": "AnimBoneCompressionSettings'DefaultAnimBoneCompressionSettings'",
+        "ObjectPath": "/Game/Animation/DefaultAnimBoneCompressionSettings.1"
+      },
+      "CurveCompressionSettings": {
+        "ObjectName": "AnimCurveCompressionSettings'DefaultAnimCurveCompressionSettings'",
+        "ObjectPath": "/Game/Animation/DefaultAnimCurveCompressionSettings.2"
+      },
+      "bEnableRootMotion": true,
+      "RootMotionRootLock": "ERootMotionRootLock::AnimFirstFrame",
+      "TargetFrameRate": {
+        "Numerator": 30
+      },
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'GK_Mori01_FPV:AnimNotify_AkEvent_C_2'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.324467,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 0.324467,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Walk_Footstep_Right",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.413321,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 0.413321,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Body_Shuffle_Low",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.42440343,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 0.42440343,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Land_Footstep_Only",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.78199,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 0.78199,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Body_Shuffle",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.805706,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 0.805706,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "P_GK_Mori_DustRing",
+          "Notify": {
+            "ObjectName": "AnimNotify_PlayParticleEffect'GK_Mori01_FPV:AnimNotify_PlayParticleEffect_0'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 7.4E-43,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.0173814,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 4,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 1.0173814,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Land_Footstep_Only",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.670459,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 1.670459,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Body_Shuffle",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.7037488,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 1.7037488,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "P_GK_Mori_DustRing",
+          "Notify": {
+            "ObjectName": "AnimNotify_PlayParticleEffect'GK_Mori01_FPV:AnimNotify_PlayParticleEffect_1'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.7840567,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 4,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 1.7840567,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Land_Footstep_Only",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.281853,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 2.281853,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Body_Shuffle",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.343875,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 2.343875,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "P_GK_Mori_DustRing",
+          "Notify": {
+            "ObjectName": "AnimNotify_PlayParticleEffect'GK_Mori01_FPV:AnimNotify_PlayParticleEffect_2'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.4294946,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 4,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 2.4294946,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Walk_Footstep_Left",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.042686,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 3.042686,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Body_Shuffle_Low",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.0602736,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 3.0602736,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Body_Move",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.684434,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 3.684434,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Trail",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyState_Trail'GK_Mori01_FPV:AnimNotifyState_Trail_0'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.8"
+          },
+          "Duration": 0.53489256,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 13.933333,
+            "LinkValue": 6.9428024,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+              "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 3,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 6.40791,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Weapon_PullOut",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 6.615066,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 6.615066,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'GK_Mori01_FPV:AnimNotify_AkEvent_C_0'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.0"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 6.621121,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 6.621121,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "FX_AddOnlyBloodOnUI",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 5.62E-43,
+            "SegmentLength": 1E-45,
+            "LinkValue": 6.7107534,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 6.7107534,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "FX_AddOnlyBloodOnUI",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 6.883807,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 2,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 6.883807,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Body_Move",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 8.778273,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 8.778273,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'GK_Mori01_FPV:AnimNotify_AkEvent_C_3'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 8.886856,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 8.886856,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Walk_Footstep_Right",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 9.618679,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 9.618679,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Body_Shuffle_Low",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 9.628757,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 9.628757,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'GK_Mori01_FPV:AnimNotify_AkEvent_C_1'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 9.981653,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 9.981653,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AkEvent",
+          "Notify": {
+            "ObjectName": "AnimNotify_AkEvent_C'GK_Mori01_FPV:AnimNotify_AkEvent_C_5'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 11.136121,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 1,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 11.136121,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Audio_Killer_Body_Move",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 12.539415,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 13.933333,
+          "LinkValue": 12.539415,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'GK_Mori01_FPV'",
+            "ObjectPath": "/Game/Characters/Slashers/Guam/AnimSequences/Interactions/GK_Mori01_FPV.9"
+          }
+        }
+      ],
+      "SequenceLength": 13.933333,
+      "Skeleton": {
+        "ObjectName": "Skeleton'SlasherMale_REF_Skeleton'",
+        "ObjectPath": "/Game/Characters/Slashers/Models/SlasherMale_REF_Skeleton.576"
+      }
+    },
+    "SkeletonGuid": "6FF06C26-45D596FF-7235EB87-4281F64F",
+    "CompressedTrackToSkeletonMapTable": [
+      0,
+      1,
+      47,
+      71,
+      72,
+      73,
+      74,
+      184,
+      48,
+      49,
+      50,
+      51,
+      185,
+      2,
+      452,
+      3,
+      4,
+      5,
+      126,
+      127,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      117,
+      118,
+      119,
+      112,
+      113,
+      114,
+      107,
+      108,
+      109,
+      102,
+      103,
+      104,
+      122,
+      123,
+      124,
+      186,
+      6,
+      159,
+      160,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      151,
+      152,
+      153,
+      146,
+      147,
+      148,
+      141,
+      142,
+      143,
+      136,
+      137,
+      138,
+      455,
+      456,
+      457,
+      458,
+      158,
+      157,
+      187,
+      7,
+      8,
+      9,
+      16,
+      17,
+      30,
+      33,
+      34,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      10,
+      475,
+      476,
+      477,
+      478,
+      31,
+      37,
+      40,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      171,
+      176,
+      177,
+      172,
+      173,
+      174,
+      175,
+      179,
+      178
+    ],
+    "CompressedCurveNames": [
+      {
+        "DisplayName": "ArmLT"
+      },
+      {
+        "DisplayName": "ArmRT"
+      },
+      {
+        "DisplayName": "BackStrap"
+      },
+      {
+        "DisplayName": "Bucklet"
+      },
+      {
+        "DisplayName": "Cam"
+      },
+      {
+        "DisplayName": "CamOff"
+      },
+      {
+        "DisplayName": "CamOffLT"
+      },
+      {
+        "DisplayName": "CamperAttach"
+      },
+      {
+        "DisplayName": "Elbow_RollLT"
+      },
+      {
+        "DisplayName": "ElbowRollLT"
+      },
+      {
+        "DisplayName": "FootRollLT"
+      },
+      {
+        "DisplayName": "FrontStrap"
+      },
+      {
+        "DisplayName": "HandRollLT"
+      },
+      {
+        "DisplayName": "HandRollRT"
+      },
+      {
+        "DisplayName": "Head"
+      },
+      {
+        "DisplayName": "HookClav"
+      },
+      {
+        "DisplayName": "HookSkinNeck"
+      },
+      {
+        "DisplayName": "HookSkinNeckLT"
+      },
+      {
+        "DisplayName": "HookSkinNeckOff"
+      },
+      {
+        "DisplayName": "KneeRollLT"
+      },
+      {
+        "DisplayName": "KneeRollRT"
+      },
+      {
+        "DisplayName": "LegLT"
+      },
+      {
+        "DisplayName": "LegRT"
+      },
+      {
+        "DisplayName": "Neck"
+      },
+      {
+        "DisplayName": "ShoulderRollLT"
+      },
+      {
+        "DisplayName": "ShoulderRollOffLT"
+      },
+      {
+        "DisplayName": "ShoulderRollOffRT"
+      },
+      {
+        "DisplayName": "ShoulderRollRT"
+      },
+      {
+        "DisplayName": "Tail"
+      },
+      {
+        "DisplayName": "Torso"
+      }
+    ],
+    "CompressedDataStructure": {
+      "CompressedNumberOfFrames": 419
+    },
+    "BoneCompressionCodec": {
+      "ObjectName": "AnimBoneCompressionCodec_ACL'DefaultAnimBoneCompressionSettings:AnimBoneCompressionCodec_ACL_0'",
+      "ObjectPath": "/Game/Animation/DefaultAnimBoneCompressionSettings"
+    },
+    "CompressedRawDataSize": 1925624
+  }
+]
