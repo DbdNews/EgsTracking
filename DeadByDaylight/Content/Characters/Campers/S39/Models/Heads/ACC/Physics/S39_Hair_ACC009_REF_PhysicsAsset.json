@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "S39_Hair_ACC009_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'S39_Hair_ACC009_REF_PhysicsAsset:SkeletalBodySetup_0'",
+          "ObjectPath": "/Game/Characters/Campers/S39/Models/Heads/ACC/Physics/S39_Hair_ACC009_REF_PhysicsAsset.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_0",
+    "Outer": "S39_Hair_ACC009_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 2.900718,
+              "Y": -5.805488,
+              "Z": 0.12220527
+            },
+            "Rotation": {
+              "Pitch": -3.1805547E-15,
+              "Yaw": -40.57765,
+              "Roll": -88.5942
+            },
+            "Radius": 12.391531,
+            "Length": 15.325398,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Head_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "8DBE9F6940EBBF177B3623A5A3FF36F0"
+  }
+]

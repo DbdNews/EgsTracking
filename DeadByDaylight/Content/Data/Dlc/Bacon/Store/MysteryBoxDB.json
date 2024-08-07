@@ -30,6 +30,48 @@
           }
         ],
         "Id": "Donut_W1"
+      },
+      "Donut_W2": {
+        "Campaign": "StoreFeaturedWeekly",
+        "ActiveFromDate": {
+          "Ticks": 638573436000000000
+        },
+        "ActiveToDate": {
+          "Ticks": 638579484000000000
+        },
+        "PossibleRewards": [
+          {
+            "Type": "ERewardType::Currency",
+            "CurrencyType": "EMysteryBoxCurrencyType::BonusBloodPoints",
+            "ProgressionType": "EProgressionType::Stars",
+            "Amount": 200000,
+            "Weighting": 1,
+            "FallbackCurrencyType": "EMysteryBoxCurrencyType::BonusBloodPoints",
+            "FallbackAmount": 1
+          }
+        ],
+        "Id": "Donut_W2"
+      },
+      "Donut_W3": {
+        "Campaign": "StoreFeaturedWeekly",
+        "ActiveFromDate": {
+          "Ticks": 638579484000000000
+        },
+        "ActiveToDate": {
+          "Ticks": 638585532000000000
+        },
+        "PossibleRewards": [
+          {
+            "Type": "ERewardType::Currency",
+            "CurrencyType": "EMysteryBoxCurrencyType::BonusBloodPoints",
+            "ProgressionType": "EProgressionType::Stars",
+            "Amount": 200000,
+            "Weighting": 1,
+            "FallbackCurrencyType": "EMysteryBoxCurrencyType::BonusBloodPoints",
+            "FallbackAmount": 1
+          }
+        ],
+        "Id": "Donut_W3"
       }
     }
   }

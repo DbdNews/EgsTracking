@@ -1,0 +1,1080 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_0'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.14"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_1'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.15"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_2'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.20"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_3'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.21"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_4'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.22"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_5'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.23"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_6'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.24"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_7'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.25"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_8'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.26"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_9'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.27"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_10'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.16"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_11'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.17"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_12'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.18"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'K28_Skull_ACC014_REF_PhysicsAsset:SkeletalBodySetup_13'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.19"
+        }
+      ],
+      "ConstraintSetup": [
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_0'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.1"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_1'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.2"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_2'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.6"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_3'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.7"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_4'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.8"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_5'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.9"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_6'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.10"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_7'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.11"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_8'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.12"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_9'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.13"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_10'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.3"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_11'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.4"
+        },
+        {
+          "ObjectName": "PhysicsConstraintTemplate'K28_Skull_ACC014_REF_PhysicsAsset:PhysicsConstraintTemplate_12'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Physics/K28_Skull_ACC014_REF_PhysicsAsset.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_0",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Bucklet_01",
+        "ConstraintBone1": "joint_Bucklet_01",
+        "ConstraintBone2": "joint_TorsoC_01",
+        "Pos2": {
+          "X": 2.3841825E-08,
+          "Y": 6.970572,
+          "Z": 3.2803022E-15
+        },
+        "PriAxis2": {
+          "X": 1.0,
+          "Y": -6.1062266E-16,
+          "Z": 2.2963598E-16
+        },
+        "SecAxis2": {
+          "X": 6.1062266E-16,
+          "Y": 1.0,
+          "Z": 1.2312879E-16
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_1",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Cape34",
+        "ConstraintBone1": "joint_Cape34",
+        "ConstraintBone2": "joint_TorsoC_01",
+        "Pos2": {
+          "X": -15.668944,
+          "Y": 12.706432,
+          "Z": -2.1345224
+        },
+        "PriAxis2": {
+          "X": -0.64278764,
+          "Y": -0.76592773,
+          "Z": -0.01336932
+        },
+        "SecAxis2": {
+          "X": -0.76557773,
+          "Y": 0.6429073,
+          "Z": -0.023682825
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_10",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Physics_B_01",
+        "ConstraintBone1": "joint_Physics_B_01",
+        "ConstraintBone2": "joint_TorsoC_01",
+        "Pos2": {
+          "X": 28.780844,
+          "Y": -9.075041,
+          "Z": 13.874853
+        },
+        "PriAxis2": {
+          "X": 0.72488576,
+          "Y": -0.012338317,
+          "Z": 0.6887586
+        },
+        "SecAxis2": {
+          "X": -0.68865883,
+          "Y": 0.011721777,
+          "Z": 0.7249908
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_11",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Physics_H_01",
+        "ConstraintBone1": "joint_Physics_H_01",
+        "ConstraintBone2": "joint_TorsoC_01",
+        "Pos2": {
+          "X": 30.632225,
+          "Y": 8.336115,
+          "Z": 4.546691
+        },
+        "PriAxis2": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "SecAxis2": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_12",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Physics_H_02",
+        "ConstraintBone1": "joint_Physics_H_02",
+        "ConstraintBone2": "joint_Physics_H_01",
+        "Pos2": {
+          "X": 11.045242,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "PriAxis2": {
+          "X": 1.0,
+          "Y": 9.8607613E-32,
+          "Z": 0.0
+        },
+        "SecAxis2": {
+          "X": -9.8607613E-32,
+          "Y": 1.0,
+          "Z": 1.392591E-32
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_2",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Cape35",
+        "ConstraintBone1": "joint_Cape35",
+        "ConstraintBone2": "joint_Cape34",
+        "Pos2": {
+          "X": 17.68095,
+          "Y": 0.07503999,
+          "Z": 0.041327164
+        },
+        "PriAxis2": {
+          "X": 0.95062387,
+          "Y": -0.3095952,
+          "Z": -0.021566672
+        },
+        "SecAxis2": {
+          "X": 0.30807042,
+          "Y": 0.94977283,
+          "Z": -0.054992713
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_3",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Cape36",
+        "ConstraintBone1": "joint_Cape36",
+        "ConstraintBone2": "joint_Cape35",
+        "Pos2": {
+          "X": 15.255441,
+          "Y": 0.08679997,
+          "Z": 0.040268317
+        },
+        "PriAxis2": {
+          "X": 0.9890351,
+          "Y": -0.14036274,
+          "Z": 0.045910735
+        },
+        "SecAxis2": {
+          "X": 0.13252713,
+          "Y": 0.9807439,
+          "Z": 0.14345035
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_4",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Cape37",
+        "ConstraintBone1": "joint_Cape37",
+        "ConstraintBone2": "joint_Cape36",
+        "Pos2": {
+          "X": 16.26174,
+          "Y": -0.093777776,
+          "Z": -0.08679722
+        },
+        "PriAxis2": {
+          "X": 0.98972005,
+          "Y": 0.13432787,
+          "Z": -0.049094643
+        },
+        "SecAxis2": {
+          "X": -0.13952151,
+          "Y": 0.98229593,
+          "Z": -0.12501378
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_5",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Cape38",
+        "ConstraintBone1": "joint_Cape38",
+        "ConstraintBone2": "joint_Cape37",
+        "Pos2": {
+          "X": 14.282045,
+          "Y": -0.10904004,
+          "Z": -0.09677219
+        },
+        "PriAxis2": {
+          "X": 1.0,
+          "Y": -5.551115E-17,
+          "Z": -3.469447E-18
+        },
+        "SecAxis2": {
+          "X": 5.551115E-17,
+          "Y": 1.0,
+          "Z": -5.1174343E-17
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_6",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Physics_I_02",
+        "ConstraintBone1": "joint_Physics_I_02",
+        "ConstraintBone2": "joint_Cape38",
+        "Pos2": {
+          "X": 5.3133383,
+          "Y": 32.23295,
+          "Z": 38.023415
+        },
+        "PriAxis2": {
+          "X": -0.42893133,
+          "Y": 0.724712,
+          "Z": 0.5392684
+        },
+        "SecAxis2": {
+          "X": -0.26565707,
+          "Y": 0.46937644,
+          "Z": -0.8420879
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_7",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Physics_K_01",
+        "ConstraintBone1": "joint_Physics_K_01",
+        "ConstraintBone2": "joint_Cape38",
+        "Pos2": {
+          "X": 3.3191657,
+          "Y": 24.991581,
+          "Z": -19.226292
+        },
+        "PriAxis2": {
+          "X": -0.20884052,
+          "Y": 0.45395932,
+          "Z": -0.86620235
+        },
+        "SecAxis2": {
+          "X": 0.3756138,
+          "Y": -0.78056204,
+          "Z": -0.49963704
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_8",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Physics_K_03",
+        "ConstraintBone1": "joint_Physics_K_03",
+        "ConstraintBone2": "joint_Physics_K_01",
+        "Pos2": {
+          "X": 32.982296,
+          "Y": -7.3460793,
+          "Z": 5.299312
+        },
+        "PriAxis2": {
+          "X": 0.3551302,
+          "Y": -0.90941036,
+          "Z": 0.21646108
+        },
+        "SecAxis2": {
+          "X": 0.92877525,
+          "Y": 0.3695288,
+          "Z": 0.028721966
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "PhysicsConstraintTemplate",
+    "Name": "PhysicsConstraintTemplate_9",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsConstraintTemplate'",
+    "Properties": {
+      "DefaultInstance": {
+        "JointName": "joint_Physics_A_01",
+        "ConstraintBone1": "joint_Physics_A_01",
+        "ConstraintBone2": "joint_TorsoC_01",
+        "Pos2": {
+          "X": 18.690952,
+          "Y": -28.084875,
+          "Z": -2.650111
+        },
+        "PriAxis2": {
+          "X": 0.1269431,
+          "Y": -0.9899511,
+          "Z": 0.06230858
+        },
+        "SecAxis2": {
+          "X": -0.007924992,
+          "Y": 0.061802536,
+          "Z": 0.99805695
+        },
+        "ProfileInstance": {
+          "ConeLimit": {
+            "Swing1Motion": "EAngularConstraintMotion::ACM_Limited",
+            "Swing2Motion": "EAngularConstraintMotion::ACM_Limited"
+          },
+          "TwistLimit": {
+            "TwistMotion": "EAngularConstraintMotion::ACM_Limited"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_0",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 44.106968,
+              "Y": -15.932878,
+              "Z": 2.3624911
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 33.15412,
+              "Roll": -82.6879
+            },
+            "Radius": 29.714577,
+            "Length": 41.03824,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_TorsoC_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "1276522F4A05753A0BF472A27DAEF708"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_1",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 17.4347,
+              "Y": -19.577805,
+              "Z": -1.7104943
+            },
+            "Rotation": {
+              "Pitch": 3.1805547E-15,
+              "Yaw": 51.62019,
+              "Roll": -89.476425
+            },
+            "Radius": 19.690159,
+            "Length": 57.534744,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Bucklet_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "AC02155D4B8338195592C493EE3A93F5"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_10",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 11.131462,
+              "Y": -0.9234082,
+              "Z": 4.4240413
+            },
+            "Rotation": {
+              "Pitch": -11.821268,
+              "Yaw": -90.0,
+              "Roll": 41.24833
+            },
+            "Radius": 6.898223,
+            "Length": 13.277502,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Physics_A_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "9D94599840A0FABD9148059E216F1E2C"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_11",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 9.293965,
+              "Y": -0.9641596,
+              "Z": -8.486266
+            },
+            "Rotation": {
+              "Pitch": 6.276658,
+              "Yaw": -90.0,
+              "Roll": -11.241659
+            },
+            "Radius": 6.127043,
+            "Length": 12.607962,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Physics_B_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "FD9D1C044F6673D9592CABAD7614D85E"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_12",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 9.843435,
+              "Y": -1.5536071,
+              "Z": -7.4076595
+            },
+            "Rotation": {
+              "Pitch": -1.9878467E-16,
+              "Yaw": 1.6084808,
+              "Roll": -86.338135
+            },
+            "Radius": 8.974897,
+            "Length": 23.88715,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Physics_H_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "C531F412460CBFA74ED9CEB5E325C865"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_13",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 8.353087,
+              "Y": -3.05881,
+              "Z": -7.6596947
+            },
+            "Rotation": {
+              "Pitch": -5.96354E-16,
+              "Yaw": -177.12173,
+              "Roll": -89.29836
+            },
+            "Radius": 8.0652685,
+            "Length": 21.51072,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Physics_H_02",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "F5D5B3624B2BB0A16B3B5DB65ABE7F15"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_2",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 3.6565359,
+              "Y": 5.824106,
+              "Z": -0.15402874
+            },
+            "Rotation": {
+              "Pitch": -14.204291,
+              "Yaw": -90.0,
+              "Roll": 14.151514
+            },
+            "Radius": 16.941795,
+            "Length": 18.669542,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Cape34",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "A6A449164172F466070B8CA455107782"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_3",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 2.7342076,
+              "Y": 13.601428,
+              "Z": 2.2706914
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 53.367825,
+              "Roll": -67.53661
+            },
+            "Radius": 22.597372,
+            "Length": 27.619017,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Cape35",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "F9ED6FEA4C690954FF1132AD941DCC29"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_4",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 5.536572,
+              "Y": 10.992759,
+              "Z": -0.3016188
+            },
+            "Rotation": {
+              "Pitch": 3.1805547E-15,
+              "Yaw": -154.2835,
+              "Roll": -73.54665
+            },
+            "Radius": 18.58971,
+            "Length": 23.542309,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Cape36",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "6B3CADF64683D9989D6350A6434A3012"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_5",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 5.9952087,
+              "Y": 5.5044503,
+              "Z": -1.1054748
+            },
+            "Rotation": {
+              "Pitch": -38.84965,
+              "Yaw": -90.0,
+              "Roll": 11.443103
+            },
+            "Radius": 13.897093,
+            "Length": 18.191177,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Cape37",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "29C7D108421CA6B4F21601ACADB4C0B8"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_6",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 2.016579,
+              "Y": 40.381943,
+              "Z": 5.608377
+            },
+            "Rotation": {
+              "Pitch": 43.606964,
+              "Yaw": -90.0,
+              "Roll": -26.505442
+            },
+            "Radius": 43.650833,
+            "Length": 52.015255,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Cape38",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "2CA62F0E470D1503EADD869FC9E4FDF8"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_7",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 13.174478,
+              "Y": 3.13504,
+              "Z": 3.9227211
+            },
+            "Rotation": {
+              "Pitch": 3.1805547E-15,
+              "Yaw": 120.91441,
+              "Roll": -57.792496
+            },
+            "Radius": 7.015884,
+            "Length": 15.717003,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Physics_I_02",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "F83A7B2546989A76C04A0DB05E6993E0"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_8",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 18.133562,
+              "Y": -1.5417445,
+              "Z": 0.99209654
+            },
+            "Rotation": {
+              "Pitch": 3.1805547E-15,
+              "Yaw": 80.81579,
+              "Roll": -79.2043
+            },
+            "Radius": 10.877828,
+            "Length": 18.787775,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Physics_K_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "B26D661449D11A5BB4F2158B9CAA0572"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_9",
+    "Outer": "K28_Skull_ACC014_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 18.424105,
+              "Y": 0.3807669,
+              "Z": 0.59193796
+            },
+            "Rotation": {
+              "Pitch": 3.1805547E-15,
+              "Yaw": -105.12473,
+              "Roll": -78.89046
+            },
+            "Radius": 11.841052,
+            "Length": 23.846985,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Physics_K_03",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "D11390AD4F2C7E4AD6B6A5B20DDC66F1"
+  }
+]

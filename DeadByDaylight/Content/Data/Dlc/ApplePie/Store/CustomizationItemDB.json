@@ -97,8 +97,11 @@
             "SourceString": "CUST_AV_Head022_DESC",
             "LocalizedString": "He was no stranger to a dramatic change of style. A new look would often help him get back into casinos where he was no longer welcome. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/AV_Head022.png"
+            "UI/Icons/Customization/Ace/AV_Head022.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -137,7 +140,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "AV_Head022",
@@ -218,8 +222,11 @@
             "SourceString": "CUST_AV_Legs022_DESC",
             "LocalizedString": "Red or black, sometimes it felt like he could never get it wrong.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/AV_Legs022.png"
+            "UI/Icons/Customization/Ace/AV_Legs022.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -258,7 +265,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "AV_Legs022",
@@ -325,12 +333,7 @@
         "IsInNonViolentBuild": false,
         "IsEntitledByDefault": false,
         "PlatformExclusiveFlag": 0,
-        "CustomSFXs": [
-          {
-            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterClothes",
-            "SwitchState": "SVR_00_COMMON_Backpack"
-          }
-        ],
+        "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
             "AssetPathName": "None",
@@ -358,8 +361,11 @@
             "SourceString": "CUST_AV_Torso022_DESC",
             "LocalizedString": "This new coat was a more dramatic change of style than he was used to, but no look was too rich for his blood when he was on a roll.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/AV_Torso022.png"
+            "UI/Icons/Customization/Ace/AV_Torso022.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -398,7 +404,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "AV_Torso022",
@@ -491,6 +498,9 @@
             "SourceString": "CUST_DK_Head022_DESC",
             "LocalizedString": "A simple cap to shadow his eyes - he wasn't one to shy away from attention, but he never appreciated people trying to read him. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/David/DK_Head022.png"
           ],
@@ -531,7 +541,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "DK_Head022",
@@ -624,6 +635,9 @@
             "SourceString": "CUST_DK_Legs022_DESC",
             "LocalizedString": "The nimble shoes reminded David of someone he once fought in the ring, a gifted fighter who nearly beat him.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/David/DK_Legs022.png"
           ],
@@ -664,7 +678,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "DK_Legs022",
@@ -757,6 +772,9 @@
             "SourceString": "CUST_DK_Torso022_DESC",
             "LocalizedString": "Wearing these kinds of gloves back in his day would have been an invitation to jump into the middle of a chaotic, no-holds-barred brawl.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/David/DK_Torso022.png"
           ],
@@ -797,7 +815,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "DK_Torso022",
@@ -878,6 +897,9 @@
             "SourceString": "CUST_DO_Body020_DESC",
             "LocalizedString": "Medical science took a back seat as he tapped into something more intuitive and elemental.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/None/DO_Body020.png"
           ],
@@ -918,7 +940,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "DO_Body020",
@@ -1011,6 +1034,9 @@
             "SourceString": "CUST_DO_Head020_DESC",
             "LocalizedString": "Now he felt that old familiar rush in ways he never could have imagined.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/None/DO_Head020.png"
           ],
@@ -1051,7 +1077,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "DO_Head020",
@@ -1132,6 +1159,9 @@
             "SourceString": "CUST_DO_Head022_DESC",
             "LocalizedString": "A mask appeared on The Doctor’s disturbing face after the unsettling tones of a distant keyboard echoed through the realm."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/None/DO_Head022.png"
           ],
@@ -1172,7 +1202,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.1",
         "CustomizationId": "DO_Head022",
@@ -1248,6 +1279,9 @@
             "SourceString": "CUST_DO_W020_DESC",
             "LocalizedString": "The jolt was brief, but the pain was anything but.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/None/DO_W020.png"
           ],
@@ -1288,7 +1322,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "DO_W020",
@@ -1392,6 +1427,9 @@
             "SourceString": "CUST_FM_Head031_DESC",
             "LocalizedString": "She could create a character that truly reflected her personality, free from the rules and constraints her parents put on her. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Feng/FM_Head031.png"
           ],
@@ -1432,7 +1470,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "FM_Head031",
@@ -1530,6 +1569,9 @@
             "SourceString": "CUST_FM_Legs031_DESC",
             "LocalizedString": "She snapped out of her reverie when her father pulled the plug. She stared at the black screen, thinking of how her character would respond to such strict rules.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Feng/FM_Legs031.png"
           ],
@@ -1570,7 +1612,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "FM_Legs031",
@@ -1663,6 +1706,9 @@
             "SourceString": "CUST_FM_Torso031_DESC",
             "LocalizedString": "Min was so absorbed in picking the perfect vest for her character that she didn't notice her father had come home.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Feng/FM_Torso031.png"
           ],
@@ -1703,7 +1749,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "FM_Torso031",
@@ -1801,8 +1848,11 @@
             "SourceString": "CUST_GK_Head020_DESC",
             "LocalizedString": "From behind his new mask, The Clown cackled at the thunderous clanging that resounded through the realm."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/GK_Head020.png"
+            "UI/Icons/Customization/Clown/GK_Head020.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -1841,7 +1891,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.1",
         "CustomizationId": "GK_Head020",
@@ -1945,6 +1996,9 @@
             "SourceString": "CUST_GS_Head029_DESC",
             "LocalizedString": "She could almost make out her favorite song playing through the fake headphones. It was enough to strengthen her resolve. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Kate/GS_Head029.png"
           ],
@@ -1985,7 +2039,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "GS_Head029",
@@ -2083,6 +2138,9 @@
             "SourceString": "CUST_GS_Legs029_DESC",
             "LocalizedString": "She tapped her feet as she sang by the campfire, hoping to lift the heavy hearts sitting around her.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Kate/GS_Legs029.png"
           ],
@@ -2123,7 +2181,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "GS_Legs029",
@@ -2218,6 +2277,9 @@
             "SourceString": "CUST_GS_Torso029_DESC",
             "LocalizedString": "The keyboard was missing its batteries, but Kate still felt the music within her.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Kate/GS_Torso029.png"
           ],
@@ -2258,7 +2320,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "GS_Torso029",
@@ -2351,6 +2414,9 @@
             "SourceString": "CUST_JP_Head023_DESC",
             "LocalizedString": "He drank in the water and looked up to see a great beast drinking from the stream as well. Jake was struck with dizziness; the beast looked upon him and everything went black.   "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Jake/JP_Head023.png"
           ],
@@ -2391,7 +2457,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "JP_Head023",
@@ -2472,6 +2539,9 @@
             "SourceString": "CUST_JP_Legs023_DESC",
             "LocalizedString": "Jake woke up by the stream, surrounded by unfamiliar animal tracks. He blamed the dream on his sickness, but still he wondered what it all meant.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Jake/JP_Legs023.png"
           ],
@@ -2512,7 +2582,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "JP_Legs023",
@@ -2588,6 +2659,9 @@
             "SourceString": "CUST_JP_Torso023_DESC",
             "LocalizedString": "Floating through a dream, he felt his chest split open and his jaw snap open, as if a monstrous creature was tearing him apart from within.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Jake/JP_Torso023.png"
           ],
@@ -2628,7 +2702,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "JP_Torso023",
@@ -2726,8 +2801,11 @@
             "SourceString": "CUST_K21_Head017_DESC",
             "LocalizedString": "As a rapid-fire pounding echoed through the realm, a gruesome mask wrapped itself around The Blight’s face, serum gurgling from his maw."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/K21_Head017.png"
+            "UI/Icons/Customization/K21/K21_Head017.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -2766,7 +2844,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.1",
         "CustomizationId": "K21_Head017",
@@ -2859,6 +2938,9 @@
             "SourceString": "CUST_K23_Body021_DESC",
             "LocalizedString": "He found satisfaction in his new eye-catching looks. He always used his fashion sense to put his targets at ease before the real work would begin. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K23/K23_Body021.png"
           ],
@@ -2899,7 +2981,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "K23_Body021",
@@ -3003,6 +3086,9 @@
             "SourceString": "CUST_K23_Head021_DESC",
             "LocalizedString": "Eyes reveal truth while lips can deceive, and hats were always useful for hiding his true intentions.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K23/K23_Head021.png"
           ],
@@ -3043,7 +3129,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "K23_Head021",
@@ -3124,6 +3211,9 @@
             "SourceString": "CUST_K23_Weapon021_DESC",
             "LocalizedString": "He examined the blades embedded in the bat and imagined the sweet harmonies he could extract from his victims with his new toy.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K23/K23_Weapon021.png"
           ],
@@ -3164,7 +3254,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "K23_Weapon021",
@@ -3240,6 +3331,9 @@
             "SourceString": "CUST_K30_Head012_DESC",
             "LocalizedString": "He had no reason to believe in dragons. But he knew they struck fear in the hearts of gormless serfs. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K30/K30_Head012.png"
           ],
@@ -3280,7 +3374,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K30_Head012",
@@ -3373,6 +3468,9 @@
             "SourceString": "CUST_K31_Body012_DESC",
             "LocalizedString": "Innocence was no longer assumed. Proximity was tantamount to guilt.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K31/K31_Body012.png"
           ],
@@ -3413,7 +3511,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K31_Body012",
@@ -3506,6 +3605,9 @@
             "SourceString": "CUST_K31_Head012_DESC",
             "LocalizedString": "The time of law had long since passed. All that remained was a vile form of justice.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K31/K31_Head012.png"
           ],
@@ -3546,7 +3648,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K31_Head012",
@@ -3624,6 +3727,9 @@
             "SourceString": "CUST_K31_W012_DESC",
             "LocalizedString": "Her thirst for righteous crusade was slaked only by the corpses strewn in her wake.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K31/K31_W012.png"
           ],
@@ -3664,7 +3770,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K31_W012",
@@ -3740,6 +3847,9 @@
             "SourceString": "CUST_K35_Body006_DESC",
             "LocalizedString": "Witnesses wondered if she saw something at the far end of the parking lot that made her scream. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Body006.png"
           ],
@@ -3780,7 +3890,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Body006",
@@ -3887,6 +3998,9 @@
             "SourceString": "CUST_K35_Body01_01_DESC",
             "LocalizedString": "It walks among us, without our knowledge. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Body01_01.png"
           ],
@@ -3927,7 +4041,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Body01_01",
@@ -4034,6 +4149,9 @@
             "SourceString": "CUST_K35_Body01_02_DESC",
             "LocalizedString": "It walks among us, without our knowledge. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Body01_02.png"
           ],
@@ -4074,7 +4192,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Body01_02",
@@ -4181,6 +4300,9 @@
             "SourceString": "CUST_K35_Body01_03_DESC",
             "LocalizedString": "It walks among us, without our knowledge. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Body01_03.png"
           ],
@@ -4221,7 +4343,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Body01_03",
@@ -4328,6 +4451,9 @@
             "SourceString": "CUST_K35_Body01_CV01_DESC",
             "LocalizedString": "Someone thought they saw movement in the distance, but couldn’t make it out. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Body01_CV01.png"
           ],
@@ -4368,7 +4494,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Body01_CV01",
@@ -4475,6 +4602,9 @@
             "SourceString": "CUST_K35_Body01_CV02_DESC",
             "LocalizedString": "Someone thought they saw movement in the distance, but couldn’t make it out. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Body01_CV02.png"
           ],
@@ -4515,7 +4645,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Body01_CV02",
@@ -4622,6 +4753,9 @@
             "SourceString": "CUST_K35_Body01_CV03_DESC",
             "LocalizedString": "Someone thought they saw movement in the distance, but couldn’t make it out. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Body01_CV03.png"
           ],
@@ -4662,7 +4796,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Body01_CV03",
@@ -4769,6 +4904,9 @@
             "SourceString": "CUST_K35_Body01_CV04_DESC",
             "LocalizedString": "Someone thought they saw movement in the distance, but couldn’t make it out. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Body01_CV04.png"
           ],
@@ -4809,7 +4947,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Body01_CV04",
@@ -4885,6 +5024,9 @@
             "SourceString": "CUST_K35_Body02_DESC",
             "LocalizedString": "The quarterback was last seen that same night; was it a coincidence? "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Body02.png"
           ],
@@ -4925,7 +5067,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Body02",
@@ -5032,6 +5175,9 @@
             "SourceString": "CUST_K35_Body02_01_DESC",
             "LocalizedString": "The quarterback was last seen that same night; was it a coincidence? "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Body02_01.png"
           ],
@@ -5072,7 +5218,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Body02_01",
@@ -5167,6 +5314,9 @@
             "SourceString": "CUST_K35_Head006_DESC",
             "LocalizedString": "She dropped her grocery bags and screamed as some dark revelation took hold of her. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Head006.png"
           ],
@@ -5207,7 +5357,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Head006",
@@ -5324,6 +5475,9 @@
             "SourceString": "CUST_K35_Head01_01_DESC",
             "LocalizedString": "Its face would be the last you ever saw. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Head01_01.png"
           ],
@@ -5364,7 +5518,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Head01_01",
@@ -5481,6 +5636,9 @@
             "SourceString": "CUST_K35_Head01_02_DESC",
             "LocalizedString": "Its face would be the last you ever saw. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Head01_02.png"
           ],
@@ -5521,7 +5679,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Head01_02",
@@ -5638,6 +5797,9 @@
             "SourceString": "CUST_K35_Head01_03_DESC",
             "LocalizedString": "Its face would be the last you ever saw. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Head01_03.png"
           ],
@@ -5678,7 +5840,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Head01_03",
@@ -5773,6 +5936,9 @@
             "SourceString": "CUST_K35_Head02_DESC",
             "LocalizedString": "The whispers on the street were getting louder, and it seemed like everyone was on edge. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Head02.png"
           ],
@@ -5813,7 +5979,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Head02",
@@ -5929,6 +6096,9 @@
             "SourceString": "CUST_K35_Head02_01_DESC",
             "LocalizedString": "The whispers on the street were getting louder, and it seemed like everyone was on edge. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_Head02_01.png"
           ],
@@ -5969,7 +6139,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_Head02_01",
@@ -6064,6 +6235,9 @@
             "SourceString": "CUST_K35_W006_DESC",
             "LocalizedString": "These blades could cut more than just coupons. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_W006.png"
           ],
@@ -6104,7 +6278,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_W006",
@@ -6193,6 +6368,9 @@
             "SourceString": "CUST_K35_W01_01_DESC",
             "LocalizedString": "We may never know what drives it. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_W01_01.png"
           ],
@@ -6233,7 +6411,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_W01_01",
@@ -6322,6 +6501,9 @@
             "SourceString": "CUST_K35_W01_02_DESC",
             "LocalizedString": "We may never know what drives it. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_W01_02.png"
           ],
@@ -6362,7 +6544,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_W01_02",
@@ -6451,6 +6634,9 @@
             "SourceString": "CUST_K35_W01_03_DESC",
             "LocalizedString": "We may never know what drives it. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_W01_03.png"
           ],
@@ -6491,7 +6677,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_W01_03",
@@ -6580,6 +6767,9 @@
             "SourceString": "CUST_K35_W01_CV01_DESC",
             "LocalizedString": "The axe blade caught the sunlight as the mysterious figure disappeared into the forest. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_W01_CV01.png"
           ],
@@ -6620,7 +6810,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_W01_CV01",
@@ -6709,6 +6900,9 @@
             "SourceString": "CUST_K35_W01_CV02_DESC",
             "LocalizedString": "The axe blade caught the sunlight as the mysterious figure disappeared into the forest. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_W01_CV02.png"
           ],
@@ -6749,7 +6943,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_W01_CV02",
@@ -6838,6 +7033,9 @@
             "SourceString": "CUST_K35_W01_CV03_DESC",
             "LocalizedString": "The axe blade caught the sunlight as the mysterious figure disappeared into the forest. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_W01_CV03.png"
           ],
@@ -6878,7 +7076,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_W01_CV03",
@@ -6967,6 +7166,9 @@
             "SourceString": "CUST_K35_W01_CV04_DESC",
             "LocalizedString": "The axe blade caught the sunlight as the mysterious figure disappeared into the forest. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_W01_CV04.png"
           ],
@@ -7007,7 +7209,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_W01_CV04",
@@ -7085,6 +7288,9 @@
             "SourceString": "CUST_K35_W02_DESC",
             "LocalizedString": "A custodian notified police that something had been removed from the shed during the game. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_W02.png"
           ],
@@ -7125,7 +7331,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_W02",
@@ -7214,6 +7421,9 @@
             "SourceString": "CUST_K35_W02_01_DESC",
             "LocalizedString": "A custodian notified police that something had been removed from the shed during the game. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/K35/K35_W02_01.png"
           ],
@@ -7254,7 +7464,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "K35_W02_01",
@@ -7263,7 +7474,7 @@
       "KK_Body033": {
         "Category": "ECustomizationCategory::KillerBody",
         "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Slashers/Kenya/Models/Bodies/KK_Body033_REF.KK_Body033_REF",
+          "AssetPathName": "/K14/ArtAssets/Models/Bodies/KK_Body033_REF.KK_Body033_REF",
           "SubPathString": ""
         },
         "AnimClass": {
@@ -7330,6 +7541,9 @@
             "SourceString": "CUST_KK_Body033_DESC",
             "LocalizedString": "The cape sewed itself around Frank's body like a second skin, filling his head with devious thoughts. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Legion/KK_Body033.png"
           ],
@@ -7370,7 +7584,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.1",
         "CustomizationId": "KK_Body033",
@@ -7379,7 +7594,7 @@
       "KK_Mask033": {
         "Category": "ECustomizationCategory::KillerHead",
         "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Slashers/Kenya/Models/Masks/KK_Mask033_REF.KK_Mask033_REF",
+          "AssetPathName": "/K14/ArtAssets/Models/Masks/KK_Mask033_REF.KK_Mask033_REF",
           "SubPathString": ""
         },
         "AnimClass": {
@@ -7451,6 +7666,9 @@
             "SourceString": "CUST_KK_Head033_DESC",
             "LocalizedString": "The mouth of the mask was coated in dried blood, frozen in a scream that would never end."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Legion/KK_Mask033.png"
           ],
@@ -7491,7 +7709,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.1",
         "CustomizationId": "KK_Mask033",
@@ -7500,7 +7719,7 @@
       "KK_W033": {
         "Category": "ECustomizationCategory::KillerWeapon",
         "ItemMesh": {
-          "AssetPathName": "/Game/Characters/Slashers/Kenya/Weapons/Models/KK_W033_REF.KK_W033_REF",
+          "AssetPathName": "/K14/ArtAssets/Weapons/Models/KK_W033_REF.KK_W033_REF",
           "SubPathString": ""
         },
         "AnimClass": {
@@ -7567,6 +7786,9 @@
             "SourceString": "CUST_KK_W033_DESC",
             "LocalizedString": "Frank examined the knife in his hand and studied his reflection in the stainless steel. The face staring back at him renewed his desire for blood. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Legion/KK_W033.png"
           ],
@@ -7607,7 +7829,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.1",
         "CustomizationId": "KK_W033",
@@ -7683,8 +7906,11 @@
             "SourceString": "CUST_MK_Body015_DESC",
             "LocalizedString": "She grazed the ram's overgrown wool. Preparing for the sacrifice, she hoped this time they would hear her plea.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/MK_Body015.png"
+            "UI/Icons/Customization/Plague/MK_Body015.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -7723,7 +7949,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "MK_Body015",
@@ -7816,8 +8043,11 @@
             "SourceString": "CUST_MK_Mask015_DESC",
             "LocalizedString": "The pasture, once filled with life, was now a graveyard of decaying rams. Amidst the desolation, she heard the faint bleat of a starving animal.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/MK_Mask015.png"
+            "UI/Icons/Customization/Plague/MK_Mask015.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -7856,7 +8086,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "MK_Mask015",
@@ -7949,8 +8180,11 @@
             "SourceString": "CUST_MK_W015_DESC",
             "LocalizedString": "She swung the censer while praying and pleading, but the ram breathed its last before she could act — depriving her of an offering for her gods.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/MK_W015.png"
+            "UI/Icons/Customization/Plague/MK_W015.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -7989,7 +8223,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "MK_W015",
@@ -8082,6 +8317,9 @@
             "SourceString": "CUST_MS_Head023_DESC",
             "LocalizedString": "She closed her eyes and hoped for a good night’s sleep when she heard a faint voice calling out to her.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Jane/MS_Head023.png"
           ],
@@ -8122,7 +8360,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "MS_Head023",
@@ -8220,6 +8459,9 @@
             "SourceString": "CUST_MS_Legs023_DESC",
             "LocalizedString": "The woman glided down the hallway, the dim light catching her face. Jane wanted to scream at the sight of her mother when she awoke in her bed, tears running down her cheeks.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Jane/MS_Legs023.png"
           ],
@@ -8260,7 +8502,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "MS_Legs023",
@@ -8353,6 +8596,9 @@
             "SourceString": "CUST_MS_Torso023_DESC",
             "LocalizedString": "She looked out her door, down the dimly lit corridor. She spotted a woman in an elegant dress, her face hidden by shadows.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Jane/MS_Torso023.png"
           ],
@@ -8393,7 +8639,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "MS_Torso023",
@@ -8486,6 +8733,9 @@
             "SourceString": "CUST_NK_Head029_DESC",
             "LocalizedString": "Studying her reflection in a broken window, she caught a glimpse of the lock of blue hair draping her face and wondered where it came from. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Nea/NK_Head029.png"
           ],
@@ -8526,7 +8776,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "NK_Head029",
@@ -8607,6 +8858,9 @@
             "SourceString": "CUST_NK_Legs029_DESC",
             "LocalizedString": "She kicked at the rubble with her new boots and left the building feeling good about her new look.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Nea/NK_Legs029.png"
           ],
@@ -8647,7 +8901,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "NK_Legs029",
@@ -8725,6 +8980,9 @@
             "SourceString": "CUST_NK_Torso029_DESC",
             "LocalizedString": "She always wanted an outfit like this and wished she didn’t have to suffer in order to get it.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Nea/NK_Torso029.png"
           ],
@@ -8765,7 +9023,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "NK_Torso029",
@@ -8869,6 +9128,9 @@
             "SourceString": "CUST_S23_Head027_DESC",
             "LocalizedString": "The castle was a network of corridors with doors of all shapes on every side. Something flickered inside him and his thoughts began to swirl, to dream, to create.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S23/S23_Head027.png"
           ],
@@ -8909,7 +9171,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S23_Head027",
@@ -8990,6 +9253,9 @@
             "SourceString": "CUST_S23_Legs027_DESC",
             "LocalizedString": "After marveling at the castle’s winding halls, Felix found himself before a portrait of The Damned King. A gentle breeze gave him a shiver, as if someone was whispering in his ear.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S23/S23_Legs027.png"
           ],
@@ -9030,7 +9296,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S23_Legs027",
@@ -9125,6 +9392,9 @@
             "SourceString": "CUST_S23_Torso027_DESC",
             "LocalizedString": "Felix was enchanted by the tour guide’s story: the King claimed to hear whispers from invisible beings and locked himself away in the castle. He vowed never to leave, not even in death.    "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S23/S23_Torso027.png"
           ],
@@ -9165,7 +9435,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S23_Torso027",
@@ -9269,8 +9540,11 @@
             "SourceString": "CUST_S24_Head021_DESC",
             "LocalizedString": "Beads and trinkets adorned her hair, familiar in function but new in form.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/S24_Head021.png"
+            "UI/Icons/Customization/S24/S24_Head021.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -9309,7 +9583,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S24_Head021",
@@ -9385,8 +9660,11 @@
             "SourceString": "CUST_S24_Legs021_DESC",
             "LocalizedString": "The pants reminded her of a pair she wore when she went underground, but these were different. Almost as if they were a part of her.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/S24_Legs021.png"
+            "UI/Icons/Customization/S24/S24_Legs021.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -9425,7 +9703,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S24_Legs021",
@@ -9518,8 +9797,11 @@
             "SourceString": "CUST_S24_Torso021_DESC",
             "LocalizedString": "As she examined her new clothes, memories of discovering priceless artifacts made her heart pound in her chest.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/S24_Torso021.png"
+            "UI/Icons/Customization/S24/S24_Torso021.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -9558,7 +9840,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S24_Torso021",
@@ -9651,6 +9934,9 @@
             "SourceString": "CUST_S25_Head023_DESC",
             "LocalizedString": "The idol raised her captain's hat and winked at the cheering crowd. Yun-Jin felt jealous, wishing she was up there herself. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S25/S25_Head023.png"
           ],
@@ -9691,7 +9977,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S25_Head023",
@@ -9789,6 +10076,9 @@
             "SourceString": "CUST_S25_Legs023_DESC",
             "LocalizedString": "She lingered long after the band left and the crowd dissipated, dreading the thought of going home.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S25/S25_Legs023.png"
           ],
@@ -9829,7 +10119,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S25_Legs023",
@@ -9905,6 +10196,9 @@
             "SourceString": "CUST_S25_Torso023_DESC",
             "LocalizedString": "She leaned forward, studying their choreography while admiring the starry night pattern on the idol's jacket.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S25/S25_Torso023.png"
           ],
@@ -9945,7 +10239,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S25_Torso023",
@@ -10049,6 +10344,9 @@
             "SourceString": "CUST_S28_Head023_DESC",
             "LocalizedString": "She had an uneasy feeling that for something to be gained, something would have to be lost.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S28/S28_Head023.png"
           ],
@@ -10089,7 +10387,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S28_Head023",
@@ -10170,6 +10469,9 @@
             "SourceString": "CUST_S28_Legs023_DESC",
             "LocalizedString": "When she looked down, she could’ve sworn she saw the pattern on the skirt moving.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S28/S28_Legs023.png"
           ],
@@ -10210,7 +10512,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S28_Legs023",
@@ -10286,6 +10589,9 @@
             "SourceString": "CUST_S28_Torso023_DESC",
             "LocalizedString": "The corset tightened around her ribs, and she thought her heart would burst out of her chest.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S28/S28_Torso023.png"
           ],
@@ -10326,7 +10632,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S28_Torso023",
@@ -10419,6 +10726,9 @@
             "SourceString": "CUST_S29_Head017_DESC",
             "LocalizedString": "Not even tinted sunglasses could obscure his sight as he analyzed the patterns in his surroundings. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S29/S29_Head017.png"
           ],
@@ -10459,7 +10769,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S29_Head017",
@@ -10552,6 +10863,9 @@
             "SourceString": "CUST_S29_Legs017_DESC",
             "LocalizedString": "The shoes were comfortable and allowed his feet to breathe, a small consolation as he ran for his life.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S29/S29_Legs017.png"
           ],
@@ -10592,7 +10906,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S29_Legs017",
@@ -10690,6 +11005,9 @@
             "SourceString": "CUST_S29_Torso017_DESC",
             "LocalizedString": "Based on his past experiences in the field, he found the body harnesses intriguing, but impractical."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S29/S29_Torso017.png"
           ],
@@ -10730,7 +11048,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S29_Torso017",
@@ -10834,6 +11153,9 @@
             "SourceString": "CUST_S34_Head017_DESC",
             "LocalizedString": "The master of the castle gave him a warm welcome and locked the door. Vittorio stared into the master’s shining eyes and felt a strange sense of calm.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S34/S34_Head017.png"
           ],
@@ -10874,7 +11196,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S34_Head017",
@@ -10978,6 +11301,9 @@
             "SourceString": "CUST_S34_Head018_DESC",
             "LocalizedString": "NFA. Walk quiet, carry a big ol' slapstick. -Zzzzzzzzz "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S34/S34_Head018.png"
           ],
@@ -11018,7 +11344,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S34_Head018",
@@ -11099,6 +11426,9 @@
             "SourceString": "CUST_S34_Legs017_DESC",
             "LocalizedString": "Vittorio felt a sharp pain in his neck and tore himself away from the master. He quickly drew a symbol on the floor with the blood dripping from his neck and escaped.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S34/S34_Legs017.png"
           ],
@@ -11139,7 +11469,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S34_Legs017",
@@ -11215,6 +11546,9 @@
             "SourceString": "CUST_S34_Torso017_DESC",
             "LocalizedString": "Darkness followed the master. He loomed over Vittorio, getting closer and closer, his hot breath caressing Vittorio’s neck.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S34/S34_Torso017.png"
           ],
@@ -11255,7 +11589,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "S34_Torso017",
@@ -11359,6 +11694,9 @@
             "SourceString": "CUST_S41_Head006_DESC",
             "LocalizedString": "The lineup of old monster movies inspired Sable’s scary-cute headwear. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Head006.png"
           ],
@@ -11399,7 +11737,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Head006",
@@ -11514,6 +11853,9 @@
             "SourceString": "CUST_S41_Head006_01_DESC",
             "LocalizedString": "The lineup of old monster movies inspired Sable’s scary-cute headwear. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Head006_01.png"
           ],
@@ -11554,7 +11896,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Head006_01",
@@ -11679,6 +12022,9 @@
             "SourceString": "CUST_S41_Head01_01_DESC",
             "LocalizedString": "She had no trouble centering her bottom lip with or without a mirror. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Head01_01.png"
           ],
@@ -11719,7 +12065,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Head01_01",
@@ -11844,6 +12191,9 @@
             "SourceString": "CUST_S41_Head01_02_DESC",
             "LocalizedString": "She had no trouble centering her bottom lip with or without a mirror. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Head01_02.png"
           ],
@@ -11884,7 +12234,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Head01_02",
@@ -12009,6 +12360,9 @@
             "SourceString": "CUST_S41_Head01_03_DESC",
             "LocalizedString": "She had no trouble centering her bottom lip with or without a mirror. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Head01_03.png"
           ],
@@ -12049,7 +12403,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Head01_03",
@@ -12153,6 +12508,9 @@
             "SourceString": "CUST_S41_Head02_DESC",
             "LocalizedString": "Her hairstylist was a fellow goth and knew just what kind of cut to give her. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Head02.png"
           ],
@@ -12193,7 +12551,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Head02",
@@ -12308,6 +12667,9 @@
             "SourceString": "CUST_S41_Head02_01_DESC",
             "LocalizedString": "Her hairstylist was a fellow goth and knew just what kind of cut to give her. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Head02_01.png"
           ],
@@ -12348,7 +12710,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Head02_01",
@@ -12424,6 +12787,9 @@
             "SourceString": "CUST_S41_Legs006_DESC",
             "LocalizedString": "Buckling her boots, she felt at last like she was in touch with her inner monster. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs006.png"
           ],
@@ -12464,7 +12830,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs006",
@@ -12561,6 +12928,9 @@
             "SourceString": "CUST_S41_Legs006_01_DESC",
             "LocalizedString": "Buckling her boots, she felt at last like she was in touch with her inner monster. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs006_01.png"
           ],
@@ -12601,7 +12971,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs006_01",
@@ -12624,21 +12995,21 @@
         "MaterialsMap": [
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_01.MI_S41Bottom01_01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_01.MI_S41LegsAcc01_01",
               "SubPathString": ""
             }
           },
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_01.MI_S41Bottom01_01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_01.MI_S41LegsAcc01_01",
               "SubPathString": ""
             }
           },
@@ -12708,6 +13079,9 @@
             "SourceString": "CUST_S41_Legs01_01_DESC",
             "LocalizedString": "They provided just enough warmth on those late-summer nights. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs01_01.png"
           ],
@@ -12748,7 +13122,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs01_01",
@@ -12771,21 +13146,21 @@
         "MaterialsMap": [
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_02.MI_S41Bottom01_02",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_02.MI_S41LegsAcc01_02",
               "SubPathString": ""
             }
           },
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_02.MI_S41Bottom01_02",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_02.MI_S41LegsAcc01_02",
               "SubPathString": ""
             }
           },
@@ -12855,6 +13230,9 @@
             "SourceString": "CUST_S41_Legs01_02_DESC",
             "LocalizedString": "They provided just enough warmth on those late-summer nights. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs01_02.png"
           ],
@@ -12895,7 +13273,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs01_02",
@@ -12918,21 +13297,21 @@
         "MaterialsMap": [
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_03.MI_S41Bottom01_03",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_03.MI_S41LegsAcc01_03",
               "SubPathString": ""
             }
           },
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_03.MI_S41Bottom01_03",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_03.MI_S41LegsAcc01_03",
               "SubPathString": ""
             }
           },
@@ -13002,6 +13381,9 @@
             "SourceString": "CUST_S41_Legs01_03_DESC",
             "LocalizedString": "They provided just enough warmth on those late-summer nights. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs01_03.png"
           ],
@@ -13042,7 +13424,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs01_03",
@@ -13065,21 +13448,21 @@
         "MaterialsMap": [
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_CV01.MI_S41Bottom01_CV01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_CV01.MI_S41LegsAcc01_CV01",
               "SubPathString": ""
             }
           },
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_CV01.MI_S41Bottom01_CV01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_CV01.MI_S41LegsAcc01_CV01",
               "SubPathString": ""
             }
           }
@@ -13139,6 +13522,9 @@
             "SourceString": "CUST_S41_Legs01_CV01_DESC",
             "LocalizedString": "She walked through life with confidence, unwilling to conform to other people’s standards. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs01_CV01.png"
           ],
@@ -13179,7 +13565,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs01_CV01",
@@ -13202,21 +13589,21 @@
         "MaterialsMap": [
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_CV02.MI_S41Bottom01_CV02",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_CV02.MI_S41LegsAcc01_CV02",
               "SubPathString": ""
             }
           },
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_CV02.MI_S41Bottom01_CV02",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_CV02.MI_S41LegsAcc01_CV02",
               "SubPathString": ""
             }
           }
@@ -13276,6 +13663,9 @@
             "SourceString": "CUST_S41_Legs01_CV02_DESC",
             "LocalizedString": "She walked through life with confidence, unwilling to conform to other people’s standards. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs01_CV02.png"
           ],
@@ -13316,7 +13706,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs01_CV02",
@@ -13339,21 +13730,21 @@
         "MaterialsMap": [
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_CV03.MI_S41Bottom01_CV03",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_CV03.MI_S41LegsAcc01_CV03",
               "SubPathString": ""
             }
           },
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_CV03.MI_S41Bottom01_CV03",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_CV03.MI_S41LegsAcc01_CV03",
               "SubPathString": ""
             }
           }
@@ -13413,6 +13804,9 @@
             "SourceString": "CUST_S41_Legs01_CV03_DESC",
             "LocalizedString": "She walked through life with confidence, unwilling to conform to other people’s standards. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs01_CV03.png"
           ],
@@ -13453,7 +13847,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs01_CV03",
@@ -13476,21 +13871,21 @@
         "MaterialsMap": [
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_CV04.MI_S41Bottom01_CV04",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_CV04.MI_S41LegsAcc01_CV04",
               "SubPathString": ""
             }
           },
           {
             "From": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41Bottom01.MI_S41Bottom01",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/MI_S41LegsAcc01.MI_S41LegsAcc01",
               "SubPathString": ""
             },
             "To": {
-              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41Bottom01_CV04.MI_S41Bottom01_CV04",
+              "AssetPathName": "/Game/Characters/Campers/S41/Materials/Outfit01/Variants/MI_S41LegsAcc01_CV04.MI_S41LegsAcc01_CV04",
               "SubPathString": ""
             }
           }
@@ -13550,6 +13945,9 @@
             "SourceString": "CUST_S41_Legs01_CV04_DESC",
             "LocalizedString": "She walked through life with confidence, unwilling to conform to other people’s standards. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs01_CV04.png"
           ],
@@ -13590,7 +13988,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs01_CV04",
@@ -13666,6 +14065,9 @@
             "SourceString": "CUST_S41_Legs02_DESC",
             "LocalizedString": "The pants felt luxurious, and she ran her fingers along the stripes all the way back to Greenville. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs02.png"
           ],
@@ -13706,7 +14108,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs02",
@@ -13793,6 +14196,9 @@
             "SourceString": "CUST_S41_Legs02_01_DESC",
             "LocalizedString": "The pants felt luxurious, and she ran her fingers along the stripes all the way back to Greenville. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Legs02_01.png"
           ],
@@ -13833,7 +14239,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Legs02_01",
@@ -13911,6 +14318,9 @@
             "SourceString": "CUST_S41_Torso006_DESC",
             "LocalizedString": "She quickly zipped up her jacket and clipped the chains around her front. She didn’t want to miss the previews. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso006.png"
           ],
@@ -13951,7 +14361,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso006",
@@ -14070,6 +14481,9 @@
             "SourceString": "CUST_S41_Torso006_01_DESC",
             "LocalizedString": "She quickly zipped up her jacket and clipped the chains around her front. She didn’t want to miss the previews. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso006_01.png"
           ],
@@ -14110,7 +14524,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso006_01",
@@ -14186,6 +14601,9 @@
             "SourceString": "CUST_S41_Torso007_DESC",
             "LocalizedString": "Twitchy Sable is twitching. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso007.png"
           ],
@@ -14226,7 +14644,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso007",
@@ -14353,6 +14772,9 @@
             "SourceString": "CUST_S41_Torso01_01_DESC",
             "LocalizedString": "She felt safe and secure with her corset wrapped around her. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso01_01.png"
           ],
@@ -14393,7 +14815,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso01_01",
@@ -14520,6 +14943,9 @@
             "SourceString": "CUST_S41_Torso01_02_DESC",
             "LocalizedString": "She felt safe and secure with her corset wrapped around her. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso01_02.png"
           ],
@@ -14560,7 +14986,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso01_02",
@@ -14687,6 +15114,9 @@
             "SourceString": "CUST_S41_Torso01_03_DESC",
             "LocalizedString": "She felt safe and secure with her corset wrapped around her. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso01_03.png"
           ],
@@ -14727,7 +15157,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso01_03",
@@ -14867,6 +15298,9 @@
             "SourceString": "CUST_S41_Torso01_CV01_DESC",
             "LocalizedString": "Adults would look at her with judgmental eyes. But she didn’t dress up for them. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso01_CV01.png"
           ],
@@ -14907,7 +15341,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso01_CV01",
@@ -15034,6 +15469,9 @@
             "SourceString": "CUST_S41_Torso01_CV02_DESC",
             "LocalizedString": "Adults would look at her with judgmental eyes. But she didn’t dress up for them. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso01_CV02.png"
           ],
@@ -15074,7 +15512,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso01_CV02",
@@ -15201,6 +15640,9 @@
             "SourceString": "CUST_S41_Torso01_CV03_DESC",
             "LocalizedString": "Adults would look at her with judgmental eyes. But she didn’t dress up for them. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso01_CV03.png"
           ],
@@ -15241,7 +15683,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso01_CV03",
@@ -15368,6 +15811,9 @@
             "SourceString": "CUST_S41_Torso01_CV04_DESC",
             "LocalizedString": "Adults would look at her with judgmental eyes. But she didn’t dress up for them. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso01_CV04.png"
           ],
@@ -15408,7 +15854,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso01_CV04",
@@ -15484,6 +15931,9 @@
             "SourceString": "CUST_S41_Torso02_DESC",
             "LocalizedString": "She was the queen of death and the underworld – for Sable, it was love at first sight. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso02.png"
           ],
@@ -15524,7 +15974,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso02",
@@ -15621,6 +16072,9 @@
             "SourceString": "CUST_S41_Torso02_01_DESC",
             "LocalizedString": "She was the queen of death and the underworld – for Sable, it was love at first sight. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/S41/S41_Torso02_01.png"
           ],
@@ -15661,7 +16115,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "S41_Torso02_01",
@@ -15770,8 +16225,11 @@
             "SourceString": "CUST_SwedenKiller_Body021_DESC",
             "LocalizedString": "The symbols on his skin resembled neither his language nor that of the traders. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/SwedenKiller_Body021.png"
+            "UI/Icons/Customization/Oni/SwedenKiller_Body021.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -15810,7 +16268,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "SwedenKiller_Body021",
@@ -15903,8 +16362,11 @@
             "SourceString": "CUST_SwedenKiller_Mask021_DESC",
             "LocalizedString": "The fury did not simmer as it once had. It burned immediately and intensely, hotter than the sun.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/SwedenKiller_Mask021.png"
+            "UI/Icons/Customization/Oni/SwedenKiller_Mask021.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -15943,7 +16405,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "SwedenKiller_Mask021",
@@ -16019,8 +16482,11 @@
             "SourceString": "CUST_SwedenKiller_W021_DESC",
             "LocalizedString": "Even the greatest bloodshedding couldn’t soothe the feeling that flowed through him.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/SwedenKiller_W021.png"
+            "UI/Icons/Customization/Oni/SwedenKiller_W021.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -16059,7 +16525,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.0",
         "CustomizationId": "SwedenKiller_W021",
@@ -16140,6 +16607,9 @@
             "SourceString": "CUST_TC_Torso019_DESC",
             "LocalizedString": "Low-frequency vibrations reverberated through the realm, distracting The Hillbilly from his destructive frenzy. He stood in the middle of the cornfield, clutching the mask of flesh that spread across his disfigured face. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Hillbilly/TC_Torso019.png"
           ],
@@ -16180,7 +16650,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.1",
         "CustomizationId": "TC_Torso019",
@@ -16273,6 +16744,9 @@
             "SourceString": "CUST_TR_Body022_DESC",
             "LocalizedString": "Evan could hear his doorknob jiggle. His father was trying to get in. He drew the rest of the monster, imbuing it with primal rage as his father tried with all his might to break down the door. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Trapper/TR_Body022.png"
           ],
@@ -16313,7 +16787,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "TR_Body022",
@@ -16394,6 +16869,9 @@
             "SourceString": "CUST_TR_Mask021_DESC",
             "LocalizedString": "A spine-chilling growl echoed through the realm, and The Trapper found his predatory instincts concealed behind a new wicked grin."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Trapper/TR_Mask021.png"
           ],
@@ -16434,7 +16912,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.1",
         "CustomizationId": "TR_Mask021",
@@ -16510,6 +16989,9 @@
             "SourceString": "CUST_TR_Mask022_DESC",
             "LocalizedString": "He sketched a one-eyed monster with the same fury he saw in his father's eyes. He hated what he drew, just like he hated him.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Trapper/TR_Mask022.png"
           ],
@@ -16550,7 +17032,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "TR_Mask022",
@@ -16626,6 +17109,9 @@
             "SourceString": "CUST_TR_W022_DESC",
             "LocalizedString": "His father’s yelling ceased, and silence filled Evan’s room. He finished his drawing by giving the cyclops a blade that could tear anything apart.  "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Trapper/TR_W022.png"
           ],
@@ -16666,7 +17152,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "TR_W022",
@@ -16764,6 +17251,9 @@
             "SourceString": "CUST_TW_Head020_DESC",
             "LocalizedString": "The sound of staccato strings resonated through the realm. The Wraith emerged from the shadows, his fingers tracing the mask that now appeared on his face."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Wraith/TW_Head020.png"
           ],
@@ -16804,7 +17294,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.1",
         "CustomizationId": "TW_Head020",
@@ -16913,8 +17404,11 @@
             "SourceString": "CUST_UK_Head017_DESC",
             "LocalizedString": "The Deathslinger set his sights on his target as the raw sound of guitar strings erupted in the realm. He grinned and opened fire as an ominous mask manifested over his face."
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
-            "UI/Icons/Customization/None/UK_Head017.png"
+            "UI/Icons/Customization/Gunslinger/UK_Head017.png"
           ],
           "IconAssetList": [],
           "SecondaryIcon": "",
@@ -16953,7 +17447,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.1",
         "CustomizationId": "UK_Head017",
@@ -17057,6 +17552,9 @@
             "SourceString": "CUST_US_Head023_DESC",
             "LocalizedString": "She didn’t mind the glasses. She often wore fake ones like these during investigations to hide her eyes as she scanned her environment. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Zarina/US_Head023.png"
           ],
@@ -17097,7 +17595,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "US_Head023",
@@ -17190,6 +17689,9 @@
             "SourceString": "CUST_US_Legs023_DESC",
             "LocalizedString": "She once loved the thrill of sneaking where she wasn’t permitted to go, and fleeing the scene after uncovering long-hidden secrets. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Zarina/US_Legs023.png"
           ],
@@ -17230,7 +17732,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "US_Legs023",
@@ -17306,6 +17809,9 @@
             "SourceString": "CUST_US_Torso023_DESC",
             "LocalizedString": "It dawned on her that the walkie-talkie on her vest was merely for show - broken and sewn onto the fabric. "
           },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
           "IconFilePathList": [
             "UI/Icons/Customization/Zarina/US_Torso023.png"
           ],
@@ -17346,7 +17852,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "7.6.2",
         "CustomizationId": "US_Torso023",

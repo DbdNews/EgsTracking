@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "S29_Handcuffs_ACC018_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'S29_Handcuffs_ACC018_REF_PhysicsAsset:SkeletalBodySetup_0'",
+          "ObjectPath": "/Game/Characters/Campers/S29/Models/Legs/ACC/Physics/S29_Handcuffs_ACC018_REF_PhysicsAsset.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_0",
+    "Outer": "S29_Handcuffs_ACC018_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 5.035786,
+              "Y": 0.22676347,
+              "Z": 0.25567266
+            },
+            "Rotation": {
+              "Pitch": -2.4059048,
+              "Yaw": -90.00316,
+              "Roll": 0.4398672
+            },
+            "Radius": 6.883281,
+            "Length": 7.0906634,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Handcuffs_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "35D732B74C52858FCAECADB469BEEE4C"
+  }
+]

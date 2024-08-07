@@ -2945,7 +2945,7 @@
           "LocalizedString": "@#Domrebel_Bundle"
         },
         "Image": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_Domrebel.T_UI_SpecialPack_Domrebel",
           "SubPathString": ""
         },
         "InclusionVersion": "7.7.0",
@@ -2953,10 +2953,10 @@
         "AvailableCurrencies": [
           "ECurrencyType::Cells"
         ],
-        "Discount": 0.0,
+        "Discount": 0.5,
         "HiddenIfOwned": false,
         "MinNumberOfUnownedForPurchase": 1,
-        "SortOrder": 0,
+        "SortOrder": 96,
         "DLCId": "0",
         "Content": [
           {
@@ -3131,6 +3131,149 @@
         },
         "EndDate": {
           "Ticks": 0
+        },
+        "_isChapterPack": false
+      },
+      "ChristmasInJuly": {
+        "Id": "ChristmasInJuly",
+        "Title": {
+          "Namespace": "",
+          "Key": "B1E3B7F74C38C550F0301FAD4C6311F0",
+          "SourceString": "ChristmasInJuly_Bundle",
+          "LocalizedString": "Christmas in July Bundle"
+        },
+        "Image": {
+          "AssetPathName": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_ChristmasInJuly.T_UI_SpecialPack_ChristmasInJuly",
+          "SubPathString": ""
+        },
+        "InclusionVersion": "8.1.1",
+        "IsPurchasable": true,
+        "AvailableCurrencies": [
+          "ECurrencyType::Cells"
+        ],
+        "Discount": 0.3,
+        "HiddenIfOwned": false,
+        "MinNumberOfUnownedForPurchase": 1,
+        "SortOrder": 70,
+        "DLCId": "0",
+        "Content": [
+          {
+            "Type": "EStoreSpecialPackItemType::Outfit",
+            "CustomizationId": "",
+            "CharacterId": "",
+            "TomeId": "",
+            "OutfitId": "S24_outfit_006",
+            "CurrencyId": "ECurrencyType::Cells",
+            "Amount": 1,
+            "IncludeInOwnership": true,
+            "IncludeInPricing": true
+          },
+          {
+            "Type": "EStoreSpecialPackItemType::Outfit",
+            "CustomizationId": "",
+            "CharacterId": "",
+            "TomeId": "",
+            "OutfitId": "Clown_outfit_007",
+            "CurrencyId": "ECurrencyType::Cells",
+            "Amount": 1,
+            "IncludeInOwnership": true,
+            "IncludeInPricing": true
+          },
+          {
+            "Type": "EStoreSpecialPackItemType::Customization",
+            "CustomizationId": "TO_005",
+            "CharacterId": "",
+            "TomeId": "",
+            "OutfitId": "",
+            "CurrencyId": "ECurrencyType::Cells",
+            "Amount": 1,
+            "IncludeInOwnership": true,
+            "IncludeInPricing": true
+          },
+          {
+            "Type": "EStoreSpecialPackItemType::Customization",
+            "CustomizationId": "TO_016",
+            "CharacterId": "",
+            "TomeId": "",
+            "OutfitId": "",
+            "CurrencyId": "ECurrencyType::Cells",
+            "Amount": 1,
+            "IncludeInOwnership": true,
+            "IncludeInPricing": true
+          },
+          {
+            "Type": "EStoreSpecialPackItemType::Customization",
+            "CustomizationId": "TO_033",
+            "CharacterId": "",
+            "TomeId": "",
+            "OutfitId": "",
+            "CurrencyId": "ECurrencyType::Cells",
+            "Amount": 1,
+            "IncludeInOwnership": true,
+            "IncludeInPricing": true
+          }
+        ],
+        "AvailabilityDates": 3,
+        "StartDate": {
+          "Ticks": 638575164000000000
+        },
+        "EndDate": {
+          "Ticks": 638581212000000000
+        },
+        "_isChapterPack": false
+      },
+      "AlienRomulus": {
+        "Id": "AlienRomulus",
+        "Title": {
+          "Namespace": "",
+          "Key": "BB4A2C3B4F5D5F2EDC3C878AFE06108C",
+          "SourceString": "Alien_Summer_Bundle",
+          "LocalizedString": "Alien: Romulus Bundle"
+        },
+        "Image": {
+          "AssetPathName": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_Romulus.T_UI_SpecialPack_Romulus",
+          "SubPathString": ""
+        },
+        "InclusionVersion": "8.1.2",
+        "IsPurchasable": true,
+        "AvailableCurrencies": [
+          "ECurrencyType::Cells"
+        ],
+        "Discount": 0.15,
+        "HiddenIfOwned": true,
+        "MinNumberOfUnownedForPurchase": 2,
+        "SortOrder": 110,
+        "DLCId": "0",
+        "Content": [
+          {
+            "Type": "EStoreSpecialPackItemType::Character",
+            "CustomizationId": "",
+            "CharacterId": "S39",
+            "TomeId": "",
+            "OutfitId": "",
+            "CurrencyId": "ECurrencyType::Cells",
+            "Amount": 1,
+            "IncludeInOwnership": true,
+            "IncludeInPricing": true
+          },
+          {
+            "Type": "EStoreSpecialPackItemType::Outfit",
+            "CustomizationId": "",
+            "CharacterId": "",
+            "TomeId": "",
+            "OutfitId": "S39_outfit_009",
+            "CurrencyId": "ECurrencyType::Cells",
+            "Amount": 1,
+            "IncludeInOwnership": true,
+            "IncludeInPricing": true
+          }
+        ],
+        "AvailabilityDates": 3,
+        "StartDate": {
+          "Ticks": 638567388000000000
+        },
+        "EndDate": {
+          "Ticks": 638603676000000000
         },
         "_isChapterPack": false
       }

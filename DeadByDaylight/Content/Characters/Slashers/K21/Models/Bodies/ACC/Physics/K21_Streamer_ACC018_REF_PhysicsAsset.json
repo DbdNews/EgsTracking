@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "K21_Streamer_ACC018_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'K21_Streamer_ACC018_REF_PhysicsAsset:SkeletalBodySetup_0'",
+          "ObjectPath": "/Game/Characters/Slashers/K21/Models/Bodies/ACC/Physics/K21_Streamer_ACC018_REF_PhysicsAsset.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_0",
+    "Outer": "K21_Streamer_ACC018_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 62.640057,
+              "Y": -29.438223,
+              "Z": 11.643826
+            },
+            "Rotation": {
+              "Pitch": 16.113897,
+              "Yaw": -89.99995,
+              "Roll": 83.77352
+            },
+            "Radius": 38.778435,
+            "Length": 13.374706,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_TorsoC_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "915D04A842BA65032F8474A23718A118"
+  }
+]

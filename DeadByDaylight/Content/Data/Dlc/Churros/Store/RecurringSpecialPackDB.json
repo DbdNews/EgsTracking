@@ -29,21 +29,21 @@
         "HiddenIfOwned": false,
         "MinNumberOfUnownedForPurchase": 1,
         "StartDate": {
-          "Ticks": 638561340000000000
+          "Ticks": 638567388000000000
         },
         "Entries": [
           {
-            "Id": "Recurring_Charm_Bundle_240709",
+            "Id": "Recurring_Charm_Bundle_240716",
             "StartDate": {
-              "Ticks": 638561340000000000
+              "Ticks": 638567388000000000
             },
             "EndDate": {
-              "Ticks": 638567388000000000
+              "Ticks": 638573436000000000
             },
             "Content": [
               {
                 "Type": "EStoreSpecialPackItemType::Customization",
-                "CustomizationId": "HU_007",
+                "CustomizationId": "PL_008",
                 "CharacterId": "",
                 "TomeId": "",
                 "OutfitId": "",
@@ -54,7 +54,7 @@
               },
               {
                 "Type": "EStoreSpecialPackItemType::Customization",
-                "CustomizationId": "HU_021",
+                "CustomizationId": "PL_006",
                 "CharacterId": "",
                 "TomeId": "",
                 "OutfitId": "",
@@ -65,7 +65,55 @@
               },
               {
                 "Type": "EStoreSpecialPackItemType::Customization",
-                "CustomizationId": "HU_009",
+                "CustomizationId": "PL_005",
+                "CharacterId": "",
+                "TomeId": "",
+                "OutfitId": "",
+                "CurrencyId": "ECurrencyType::Cells",
+                "Amount": 1,
+                "IncludeInOwnership": true,
+                "IncludeInPricing": true
+              }
+            ],
+            "AvailableCurrencies": [
+              "ECurrencyType::Cells"
+            ],
+            "Discount": 0.0
+          },
+          {
+            "Id": "Recurring_Charm_Bundle_240723",
+            "StartDate": {
+              "Ticks": 638573436000000000
+            },
+            "EndDate": {
+              "Ticks": 638579484000000000
+            },
+            "Content": [
+              {
+                "Type": "EStoreSpecialPackItemType::Customization",
+                "CustomizationId": "VI_011",
+                "CharacterId": "",
+                "TomeId": "",
+                "OutfitId": "",
+                "CurrencyId": "ECurrencyType::Cells",
+                "Amount": 1,
+                "IncludeInOwnership": true,
+                "IncludeInPricing": true
+              },
+              {
+                "Type": "EStoreSpecialPackItemType::Customization",
+                "CustomizationId": "FL_020",
+                "CharacterId": "",
+                "TomeId": "",
+                "OutfitId": "",
+                "CurrencyId": "ECurrencyType::Cells",
+                "Amount": 1,
+                "IncludeInOwnership": true,
+                "IncludeInPricing": true
+              },
+              {
+                "Type": "EStoreSpecialPackItemType::Customization",
+                "CustomizationId": "FL_018",
                 "CharacterId": "",
                 "TomeId": "",
                 "OutfitId": "",
@@ -101,16 +149,16 @@
         "HiddenIfOwned": false,
         "MinNumberOfUnownedForPurchase": 1,
         "StartDate": {
-          "Ticks": 638561340000000000
+          "Ticks": 638567388000000000
         },
         "Entries": [
           {
-            "Id": "Recurring_Dev_Bundle_240709",
+            "Id": "Recurring_Dev_Bundle_240716",
             "StartDate": {
-              "Ticks": 638561340000000000
+              "Ticks": 638567388000000000
             },
             "EndDate": {
-              "Ticks": 638567388000000000
+              "Ticks": 638573436000000000
             },
             "Content": [
               {
@@ -118,7 +166,7 @@
                 "CustomizationId": "",
                 "CharacterId": "",
                 "TomeId": "",
-                "OutfitId": "KS_outfit_008_01",
+                "OutfitId": "S35_outfit_006",
                 "CurrencyId": "ECurrencyType::Cells",
                 "Amount": 1,
                 "IncludeInOwnership": true,
@@ -129,7 +177,7 @@
                 "CustomizationId": "",
                 "CharacterId": "",
                 "TomeId": "",
-                "OutfitId": "K22_outfit_008",
+                "OutfitId": "S36_outfit_006",
                 "CurrencyId": "ECurrencyType::Cells",
                 "Amount": 1,
                 "IncludeInOwnership": true,
@@ -137,8 +185,34 @@
               },
               {
                 "Type": "EStoreSpecialPackItemType::Customization",
-                "CustomizationId": "DR_034",
+                "CustomizationId": "TI_004",
                 "CharacterId": "",
+                "TomeId": "",
+                "OutfitId": "",
+                "CurrencyId": "ECurrencyType::Cells",
+                "Amount": 1,
+                "IncludeInOwnership": true,
+                "IncludeInPricing": true
+              }
+            ],
+            "AvailableCurrencies": [
+              "ECurrencyType::Cells"
+            ],
+            "Discount": 0.4
+          },
+          {
+            "Id": "Recurring_Dev_Bundle_240723",
+            "StartDate": {
+              "Ticks": 638573436000000000
+            },
+            "EndDate": {
+              "Ticks": 638579484000000000
+            },
+            "Content": [
+              {
+                "Type": "EStoreSpecialPackItemType::Character",
+                "CustomizationId": "",
+                "CharacterId": "Legion",
                 "TomeId": "",
                 "OutfitId": "",
                 "CurrencyId": "ECurrencyType::Cells",
@@ -147,11 +221,22 @@
                 "IncludeInPricing": true
               },
               {
-                "Type": "EStoreSpecialPackItemType::Customization",
-                "CustomizationId": "JU_007",
+                "Type": "EStoreSpecialPackItemType::Outfit",
+                "CustomizationId": "",
                 "CharacterId": "",
                 "TomeId": "",
-                "OutfitId": "",
+                "OutfitId": "Legion_Outfit_006",
+                "CurrencyId": "ECurrencyType::Cells",
+                "Amount": 1,
+                "IncludeInOwnership": true,
+                "IncludeInPricing": true
+              },
+              {
+                "Type": "EStoreSpecialPackItemType::Outfit",
+                "CustomizationId": "",
+                "CharacterId": "",
+                "TomeId": "",
+                "OutfitId": "KK_outfit_019",
                 "CurrencyId": "ECurrencyType::Cells",
                 "Amount": 1,
                 "IncludeInOwnership": true,

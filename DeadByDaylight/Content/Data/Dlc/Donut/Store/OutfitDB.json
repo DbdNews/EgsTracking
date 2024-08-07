@@ -10,6 +10,87 @@
       }
     },
     "Rows": {
+      "S39_outfit_009": {
+        "Id": "S39_outfit_009",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "BE3680504D5FBBAF144C38A804FFF2F2",
+            "SourceString": "OUTFIT_S39_009_NAME",
+            "LocalizedString": "Rain"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "A2E7897A4B2BFD34B2CDBDA09EE9785B",
+            "SourceString": "OUTFIT_S39_009_DESC",
+            "LocalizedString": "She left Jackson's Star, crossed paths with the Xenomorph, and was swallowed up by black fog just when escape was within her grasp."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S39/S39_outfit_009.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "OutfitItems": [
+          "S39_Head009",
+          "S39_Torso009",
+          "S39_Legs009"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "A1369C004A304FECBD6ADC8586BD3A20",
+          "SourceString": "COLLECTION_ALNRMLS_NAME",
+          "LocalizedString": "Alien: Romulus Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "8.1.2",
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S39_outfit_009"
+      },
       "FM_outfit_033": {
         "Id": "FM_outfit_033",
         "UIData": {
@@ -68,7 +149,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "FM_Head033",
@@ -89,6 +171,249 @@
         "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "FM_outfit_033"
+      },
+      "S38_outfit_014": {
+        "Id": "S38_outfit_014",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "BA1847A64F26E411627E13A8210EBEA1",
+            "SourceString": "OUTFIT_S38_014_NAME",
+            "LocalizedString": "Kaiju Fighter"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "6D1C471A47373D820286ED8C0A5A3AF2",
+            "SourceString": "OUTFIT_S38_014_DESC",
+            "LocalizedString": "The production company made Reign of Kaiju shirts for the cast and crew, but it turned out to be premature."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S38/S38_outfit_014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "OutfitItems": [
+          "S38_Head014",
+          "S38_Torso014",
+          "S38_Legs014"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "B70374E548E18BCF2AFF038A2EFB1D93",
+          "SourceString": "COLLECTION_S38ESS_NAME",
+          "LocalizedString": "Nicolas Cage Essentials"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "8.1.2",
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S38_outfit_014"
+      },
+      "K21_outfit_018": {
+        "Id": "K21_outfit_018",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "02F6EEFF422B350EAD263BBA8B4DE03F",
+            "SourceString": "OUTFIT_K21_018_NAME",
+            "LocalizedString": "Aquatic Anomaly"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "C52FE96044A24210E08B0B97E126F29E",
+            "SourceString": "OUTFIT_K21_018_DESC",
+            "LocalizedString": "The corpse had been pulled from the sea. He studied it with curiosity, taken by the creatures who made the body their home."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K21/K21_outfit_018.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "OutfitItems": [
+          "K21_Head018",
+          "K21_Body018",
+          "K21_W018"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "BE716D58431583B14EEFF59A24FA903B",
+          "SourceString": "COLLECTION_HRFRMDP_NAME",
+          "LocalizedString": "Horrors From The Deep"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "8.1.2",
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "K21_outfit_018"
+      },
+      "K28_outfit_014": {
+        "Id": "K28_outfit_014",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "E10978A9445361CDF1763BAE354AE280",
+            "SourceString": "OUTFIT_K28_014_NAME",
+            "LocalizedString": "Crustacean Threat"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "5453BBDD44691905F27C39BB18D928FF",
+            "SourceString": "OUTFIT_K28_014_DESC",
+            "LocalizedString": "Amidst the chaos and violence on that beach, the loyal follower attacked his neighbor as their leader looked on."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K28/K28_outfit_014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "OutfitItems": [
+          "K28_Head014",
+          "K28_Body014",
+          "K28_W014"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "BE716D58431583B14EEFF59A24FA903B",
+          "SourceString": "COLLECTION_HRFRMDP_NAME",
+          "LocalizedString": "Horrors From The Deep"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "8.1.2",
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "K28_outfit_014"
       },
       "DF_outfit_033": {
         "Id": "DF_outfit_033",
@@ -148,7 +473,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "DF_Head033",
@@ -228,7 +554,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "MT_Head030",
@@ -308,7 +635,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "CM_Head028",
@@ -388,7 +716,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "JP_Head025",
@@ -468,7 +797,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "NK_Head031",
@@ -548,7 +878,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "FM_Head034",
@@ -628,7 +959,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "S28_Head026",
@@ -708,7 +1040,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "DK_Head024",
@@ -788,7 +1121,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "TR_Mask024",
@@ -868,7 +1202,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "TC_Legs020",
@@ -948,7 +1283,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "TW_Head022",
@@ -1028,7 +1364,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "TN_Head020",
@@ -1108,7 +1445,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "BE_Mask025",
@@ -1129,6 +1467,249 @@
         "PlatformExclusiveFlag": 0,
         "CustomizedAudioStateCollection": "None",
         "_outfitId": "BE_outfit_025"
+      },
+      "S31_outfit_016": {
+        "Id": "S31_outfit_016",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "F952DBC04A9E3C8CD60FD48D42309C4F",
+            "SourceString": "OUTFIT_S31_016_NAME",
+            "LocalizedString": "Pub Scene"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "EA959F6A44A9245C2014208F7C9B231F",
+            "SourceString": "OUTFIT_S31_016_DESC",
+            "LocalizedString": "Haddie entered the basement, testing each rotting step on the way down. The bar had stood derelict for several decades."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_outfit_016.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "OutfitItems": [
+          "S31_Head016",
+          "S31_Torso016",
+          "S31_Legs016"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "BA156FA04A76EFAC1173F88D6914597F",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "8.1.2",
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S31_outfit_016"
+      },
+      "S29_outfit_018": {
+        "Id": "S29_outfit_018",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "47FB3BEE46DD8DF492B20691AAFFD7A2",
+            "SourceString": "OUTFIT_S29_018_NAME",
+            "LocalizedString": "Hardboiled"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "10E0E29748B2979A07AC749CDB3D9E30",
+            "SourceString": "OUTFIT_S29_018_DESC",
+            "LocalizedString": "He pulled the yellow paperback out of his suitcase and settled into the bed in his hotel room."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S29/S29_outfit_018.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "OutfitItems": [
+          "S29_Head018",
+          "S29_Torso018",
+          "S29_Legs018"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "BA156FA04A76EFAC1173F88D6914597F",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "8.1.2",
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "S29_outfit_018"
+      },
+      "MS_outfit_024": {
+        "Id": "MS_outfit_024",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "70E4EAC74039722780E6349FA69B4A5C",
+            "SourceString": "OUTFIT_MS_024_NAME",
+            "LocalizedString": "Brief Dishearten"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "14B94C8D429422F7308051BF04B556F7",
+            "SourceString": "OUTFIT_MS_024_DESC",
+            "LocalizedString": "Jane waited in the empty theater for the movie to start. She replayed the audition in her mind, cringing at the choices she had made."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/Jane/MS_outfit_024.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "OutfitItems": [
+          "MS_Head024",
+          "MS_Torso024",
+          "MS_Legs024"
+        ],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "BA156FA04A76EFAC1173F88D6914597F",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "InclusionVersion": "8.1.2",
+        "SearchTags": [],
+        "PlatformExclusiveFlag": 0,
+        "CustomizedAudioStateCollection": "None",
+        "_outfitId": "MS_outfit_024"
       },
       "HK_outfit_020": {
         "Id": "HK_outfit_020",
@@ -1188,7 +1769,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "HK_Head020",
@@ -1268,7 +1850,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "HK_Head020_01",
@@ -1348,7 +1931,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "SwedenSurvivor_Head025",
@@ -1428,7 +2012,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "SwedenSurvivor_Head025_01",
@@ -1508,7 +2093,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "S24_Head022",
@@ -1588,7 +2174,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "TW_Head021",
@@ -1668,7 +2255,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "DK_Head023",
@@ -1748,7 +2336,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "S41_Head011",
@@ -1828,7 +2417,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "S41_Head011_01",
@@ -1908,7 +2498,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "GK_Head022",
@@ -1988,7 +2579,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "K23_Head023",
@@ -2068,7 +2660,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "K23_Head023_01",
@@ -2148,7 +2741,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "S34_Head019",
@@ -2228,7 +2822,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "S35_Head006_01",
@@ -2308,7 +2903,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "S36_Head010_01",
@@ -2388,7 +2984,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "AV_Head010_02",
@@ -2468,7 +3065,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "GS_Head026_01",
@@ -2548,7 +3146,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "UK_Head013_01",
@@ -2628,7 +3227,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "K32_Head009_01",
@@ -2708,7 +3308,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "OutfitItems": [
           "Swedenkiller_Mask008_01",

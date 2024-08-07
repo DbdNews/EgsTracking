@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_S29_Chain_ACC018_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_S29_Nametag_ACC013_C'",
+      "ObjectPath": "/Game/Characters/Campers/S29/Models/Torsos/ACC/Blueprints/BP_S29_Nametag_ACC013.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_S29_Chain_ACC018_C'Default__BP_S29_Chain_ACC018_C'",
+      "ObjectPath": "/Game/Characters/Campers/S29/Models/Torsos/ACC/Blueprints/BP_S29_Chain_ACC018.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_S29_Chain_ACC018_C",
+    "Name": "Default__BP_S29_Chain_ACC018_C",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/Campers/S29/Models/Torsos/ACC/Blueprints/BP_S29_Chain_ACC018.BP_S29_Chain_ACC018_C'",
+    "Template": {
+      "ObjectName": "BP_S29_Nametag_ACC013_C'Default__BP_S29_Nametag_ACC013_C'",
+      "ObjectPath": "/Game/Characters/Campers/S29/Models/Torsos/ACC/Blueprints/BP_S29_Nametag_ACC013.1"
+    },
+    "Properties": {
+      "SkeletalMeshAsset": {
+        "ObjectName": "SkeletalMesh'S29_Chain_ACC018_REF'",
+        "ObjectPath": "/Game/Characters/Campers/S29/Models/Torsos/ACC/Models/S29_Chain_ACC018_REF.0"
+      },
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'AB_S29_Chain_ACC018_C'",
+        "ObjectPath": "/Game/Characters/Campers/S29/Models/Torsos/ACC/Blueprints/AB_S29_Chain_ACC018.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'S29_Chain_ACC018_REF'",
+        "ObjectPath": "/Game/Characters/Campers/S29/Models/Torsos/ACC/Models/S29_Chain_ACC018_REF.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'S29_Chain_ACC018_REF'",
+        "ObjectPath": "/Game/Characters/Campers/S29/Models/Torsos/ACC/Models/S29_Chain_ACC018_REF.0"
+      },
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseToChannels": {
+            "GameTraceChannel4": "ECollisionResponse::ECR_Ignore"
+          }
+        }
+      }
+    }
+  }
+]

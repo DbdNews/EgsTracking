@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "K21_Jaw_ACC018_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'K21_Jaw_ACC018_REF_PhysicsAsset:SkeletalBodySetup_1'",
+          "ObjectPath": "/Game/Characters/Slashers/K21/Models/Heads/ACC/Physics/K21_Jaw_ACC018_REF_PhysicsAsset.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_1",
+    "Outer": "K21_Jaw_ACC018_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 14.419325,
+              "Y": -3.0449646,
+              "Z": 2.0516214
+            },
+            "Rotation": {
+              "Pitch": 6.3611094E-15,
+              "Yaw": 90.58487,
+              "Roll": -83.81632
+            },
+            "Radius": 11.107887,
+            "Length": 27.064754,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_hjaw_02",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "13C891FC47EDCB405488508DE5FFDE99"
+  }
+]

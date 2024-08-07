@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "Texture2D",
+    "Name": "MS_Torso024",
+    "Class": "UScriptClass'Texture2D'",
+    "Properties": {
+      "ImportedSize": {
+        "X": 512,
+        "Y": 512
+      },
+      "LightingGuid": "16FC461F-47941CE4-7C1D7593-AD3996E3",
+      "LODGroup": "TextureGroup::TEXTUREGROUP_UI"
+    },
+    "SizeX": 512,
+    "SizeY": 512,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT5",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 262144,
+          "SizeOnDisk": 262144,
+          "OffsetInFile": "0x6F"
+        },
+        "SizeX": 512,
+        "SizeY": 512,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

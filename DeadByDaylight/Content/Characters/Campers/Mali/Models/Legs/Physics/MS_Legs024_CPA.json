@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "MS_Legs024_CPA",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0,
+        1
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'MS_Legs024_CPA:SkeletalBodySetup_0'",
+          "ObjectPath": "/Game/Characters/Campers/Mali/Models/Legs/Physics/MS_Legs024_CPA.1"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'MS_Legs024_CPA:SkeletalBodySetup_3'",
+          "ObjectPath": "/Game/Characters/Campers/Mali/Models/Legs/Physics/MS_Legs024_CPA.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_0",
+    "Outer": "MS_Legs024_CPA",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "TaperedCapsuleElems": [
+          {
+            "Center": {
+              "X": 1.8800646,
+              "Y": 18.201162,
+              "Z": -0.5925165
+            },
+            "Rotation": {
+              "Pitch": -9.671848,
+              "Yaw": -3.5572972,
+              "Roll": -91.34819
+            },
+            "Radius0": 10.912033,
+            "Radius1": 11.477019,
+            "Length": 25.658546,
+            "RestOffset": 0.0,
+            "Name": "joint_HipRT_01_tapered_capsule",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_HipRT_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "C18FC4E14CA4978034E418B2D8207BB1"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_3",
+    "Outer": "MS_Legs024_CPA",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "TaperedCapsuleElems": [
+          {
+            "Center": {
+              "X": -1.4041194,
+              "Y": -18.829243,
+              "Z": 0.6488238
+            },
+            "Rotation": {
+              "Pitch": -9.600616,
+              "Yaw": -0.7415976,
+              "Roll": -89.2535
+            },
+            "Radius0": 10.602527,
+            "Radius1": 11.512125,
+            "Length": 25.752052,
+            "RestOffset": 0.0,
+            "Name": "joint_HipLT_01_tapered_capsule",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_HipLT_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "DE9E0BA94D99D3D7ADBD5AA531C3D4C8"
+  }
+]

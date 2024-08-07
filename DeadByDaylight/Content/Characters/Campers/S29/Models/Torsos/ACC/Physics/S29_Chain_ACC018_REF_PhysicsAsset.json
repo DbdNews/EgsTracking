@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "S29_Chain_ACC018_REF_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0,
+        1
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'S29_Chain_ACC018_REF_PhysicsAsset:SkeletalBodySetup_1'",
+          "ObjectPath": "/Game/Characters/Campers/S29/Models/Torsos/ACC/Physics/S29_Chain_ACC018_REF_PhysicsAsset.1"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'S29_Chain_ACC018_REF_PhysicsAsset:SkeletalBodySetup_2'",
+          "ObjectPath": "/Game/Characters/Campers/S29/Models/Torsos/ACC/Physics/S29_Chain_ACC018_REF_PhysicsAsset.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_1",
+    "Outer": "S29_Chain_ACC018_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": -14.634472,
+              "Y": 0.581824,
+              "Z": 1.2253505
+            },
+            "Rotation": {
+              "Pitch": 3.9756934E-16,
+              "Yaw": 176.24086,
+              "Roll": -71.15181
+            },
+            "Radius": 2.8784845,
+            "Length": 6.8750925,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_TorsoB_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "9AC169D64620C150FE513CBB284AC317"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_2",
+    "Outer": "S29_Chain_ACC018_REF_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 7.6992702,
+              "Y": -4.165412,
+              "Z": -0.19433133
+            },
+            "Rotation": {
+              "Pitch": -6.3611094E-15,
+              "Yaw": -122.200714,
+              "Roll": -88.328835
+            },
+            "Radius": 4.226942,
+            "Length": 8.3901415,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "BoneName": "joint_Chain_01",
+      "CollisionTraceFlag": "ECollisionTraceFlag::CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "0ED516B74A9FA00F52892DBB24D70F9F"
+  }
+]

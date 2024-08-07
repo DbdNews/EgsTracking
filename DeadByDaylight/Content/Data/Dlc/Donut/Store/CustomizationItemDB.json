@@ -10,6 +10,385 @@
       }
     },
     "Rows": {
+      "S39_Head009": {
+        "Category": "ECustomizationCategory::SurvivorHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S39/Models/Heads/S39_Head009_REF.S39_Head009_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "6B55780B4FE905C8F8E4A6A5D4483945",
+          "SourceString": "COLLECTION_ALNRMLS_NAME",
+          "LocalizedString": "Alien: Romulus Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S39/Models/Heads/ACC/Blueprints/BP_S39_Hair_ACC009.BP_S39_Hair_ACC009_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "/Game/Characters/Campers/S39/Blueprints/AB_Menu_S39_009.AB_Menu_S39_009_C",
+            "SubPathString": ""
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "/Game/Characters/Campers/S39/Blueprints/AB_Survivor_S39_009.AB_Survivor_S39_009_C",
+            "SubPathString": ""
+          }
+        },
+        "AssociatedCharacter": 38,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::Legendary",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "6651ACA940AE61718C5CD2B6D42CD335",
+            "SourceString": "CUST_S39_Head009_NAME",
+            "LocalizedString": "Determined Brow"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "ABB409AE442BE699A175ACB44523D249",
+            "SourceString": "CUST_S39_Head009_DESC",
+            "LocalizedString": "She'd seen things growing up on Jackson's Star, things darker than the eternal night that engulfs it."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S39/S39_Head009.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S39_Head009",
+        "SearchTags": []
+      },
+      "S39_Torso009": {
+        "Category": "ECustomizationCategory::SurvivorTorso",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S39/Models/Torsos/S39_Torso009_REF.S39_Torso009_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [
+          "ThickPants"
+        ],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "5CAEE9C243EF7194F1C38EB7B19C2AB3",
+          "SourceString": "COLLECTION_ALNRMLS_NAME",
+          "LocalizedString": "Alien: Romulus Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 38,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::Legendary",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "79CE09094AB02CBBF71DC0AAFE97B8E0",
+            "SourceString": "CUST_S39_Torso009_NAME",
+            "LocalizedString": "Steely Resolve"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "394F41A844964CE7D364CBA5593654D1",
+            "SourceString": "CUST_S39_Torso009_DESC",
+            "LocalizedString": "The space station Renaissance was filled with shadowy, menacing corners, but Rain's determination to help her friends gave her the courage to press on."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S39/S39_Torso009.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S39_Torso009",
+        "SearchTags": []
+      },
+      "S39_Legs009": {
+        "Category": "ECustomizationCategory::SurvivorLegs",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S39/Models/Legs/S39_Legs009_REF.S39_Legs009_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "F306ACCB44A6B0DD5F98999A0289126F",
+          "SourceString": "COLLECTION_ALNRMLS_NAME",
+          "LocalizedString": "Alien: Romulus Collection"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 38,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::Legendary",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "8A645F3040D29613561B499062EE7F07",
+            "SourceString": "CUST_S39_Legs009_NAME",
+            "LocalizedString": "Rejuvenated Feet"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "69AE89524C3215060B40E3AF5C4D6035",
+            "SourceString": "CUST_S39_Legs009_DESC",
+            "LocalizedString": "Shrugging off her fatigue, she dug down into new reserves of stamina and kept running."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S39/S39_Legs009.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S39_Legs009",
+        "SearchTags": []
+      },
       "FM_Head033": {
         "Category": "ECustomizationCategory::SurvivorHead",
         "ItemMesh": {
@@ -140,7 +519,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.1",
         "CustomizationId": "FM_Head033",
@@ -264,7 +644,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.1",
         "CustomizationId": "FM_Torso033",
@@ -383,10 +764,1200 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.1",
         "CustomizationId": "FM_Legs033",
+        "SearchTags": []
+      },
+      "S38_Head014": {
+        "Category": "ECustomizationCategory::SurvivorHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S38/Models/Heads/S38_Head_00.S38_Head_00",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [
+          {
+            "From": {
+              "AssetPathName": "/Game/Characters/Campers/S38/Materials/Outfit00/MI_S38Head00.MI_S38Head00",
+              "SubPathString": ""
+            },
+            "To": {
+              "AssetPathName": "/Game/Characters/Campers/S38/Materials/Outfit01/MI_S38Head01.MI_S38Head01",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "7AE67A264C77E2BDF2E8E683CCDB5A16",
+          "SourceString": "COLLECTION_S38ESS_NAME",
+          "LocalizedString": "Nicolas Cage Essentials"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S38/Models/Heads/ACC/Blueprints/BP_S38_Hair_ACC014.BP_S38_Hair_ACC014_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 37,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "40B9F11146A1B8EC14B117B18DB19B27",
+            "SourceString": "CUST_S38_Head014_NAME",
+            "LocalizedString": "Big Bed-Head"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "319F0E4541FE69A2172F719A0CED2BD1",
+            "SourceString": "CUST_S38_Head014_DESC",
+            "LocalizedString": "He slept in that morning, still sad that the movie was officially canceled."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S38/S38_Head014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S38_Head014",
+        "SearchTags": []
+      },
+      "S38_Torso014": {
+        "Category": "ECustomizationCategory::SurvivorTorso",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S38/Models/Torso/S38_Torso014_REF.S38_Torso014_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "FE6F3E344ED9415F850254BABDE0599A",
+          "SourceString": "COLLECTION_S38ESS_NAME",
+          "LocalizedString": "Nicolas Cage Essentials"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 37,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "833698F146B10EEB0216C6922A4EA47E",
+            "SourceString": "CUST_S38_Torso014_NAME",
+            "LocalizedString": "Beaten-Up Shirt"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "755AA6A94C65E714619FDC91BA7CC698",
+            "SourceString": "CUST_S38_Torso014_DESC",
+            "LocalizedString": "He had been so excited to bring his favorite video game to the silver screen."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S38/S38_Torso014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S38_Torso014",
+        "SearchTags": []
+      },
+      "S38_Legs014": {
+        "Category": "ECustomizationCategory::SurvivorLegs",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S38/Models/Legs/S38_Legs014_REF.S38_Legs014_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "1328AFF84AC2ABAE82E10685B8E68A0B",
+          "SourceString": "COLLECTION_S38ESS_NAME",
+          "LocalizedString": "Nicolas Cage Essentials"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [
+          {
+            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterShoes",
+            "SwitchState": "FlipFlops"
+          }
+        ],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 37,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "16B29CEA47884AA8A5598FB8A7A746C5",
+            "SourceString": "CUST_S38_Legs014_NAME",
+            "LocalizedString": "Denim Capris"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "6F03F98343F30A50C6A1DC84A5E245B7",
+            "SourceString": "CUST_S38_Legs014_DESC",
+            "LocalizedString": "He dressed for a long, quiet day by the pool, flipping through a stack of scripts, knowing none of them would be as exciting as Reign of Kaiju."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S38/S38_Legs014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S38_Legs014",
+        "SearchTags": []
+      },
+      "K21_Head018": {
+        "Category": "ECustomizationCategory::KillerHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K21/Models/Heads/K21_Head018_REF.K21_Head018_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "DEB0F1024EECE4CB21FFD28A9C386EB9",
+          "SourceString": "COLLECTION_HRFRMDP_NAME",
+          "LocalizedString": "Horrors From The Deep"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Slashers/K21/Models/Heads/ACC/Blueprints/BP_K21_Jaw_ACC018.BP_K21_Jaw_ACC018_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 268435476,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "7ABEF26B408F7B37D2AE3AA7BEED4BD7",
+            "SourceString": "CUST_K21_Head018_NAME",
+            "LocalizedString": "Squid-like Stare"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "104B6275457023B433F0628C5181BA5D",
+            "SourceString": "CUST_K21_Head018_DESC",
+            "LocalizedString": "Tentacles hung from the corpse's mouth, still slithering even as the creature suffocated in the open air."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K21/K21_Head018.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "K21_Head018",
+        "SearchTags": []
+      },
+      "K21_Body018": {
+        "Category": "ECustomizationCategory::KillerBody",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K21/Models/Bodies/K21_Body018_REF.K21_Body018_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "012B3C4E498EC5E6CA4B5FAF4163058F",
+          "SourceString": "COLLECTION_HRFRMDP_NAME",
+          "LocalizedString": "Horrors From The Deep"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Slashers/K21/Models/Bodies/ACC/Blueprints/BP_K21_Streamer_ACC018.BP_K21_Streamer_ACC018_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [
+          {
+            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterShoes",
+            "SwitchState": "K21_SHOE_Outfit018_Barefoot"
+          }
+        ],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 268435476,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "379F5CDE4EEFE62092A6E293579B837F",
+            "SourceString": "CUST_K21_Body018_NAME",
+            "LocalizedString": "Translucent Skin"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "3E04839F407B59FC5C1B96901381415C",
+            "SourceString": "CUST_K21_Body018_DESC",
+            "LocalizedString": "The body was waterlogged, and Talbot thought he saw tiny creatures swimming just beneath the skin."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K21/K21_Body018.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "K21_Body018",
+        "SearchTags": []
+      },
+      "K21_W018": {
+        "Category": "ECustomizationCategory::KillerWeapon",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K21/Weapons/Models/K21_W018_REF.K21_W018_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "87D85FD947881A935FFF9BB9F253A762",
+          "SourceString": "COLLECTION_HRFRMDP_NAME",
+          "LocalizedString": "Horrors From The Deep"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 268435476,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "B948702946F4B7EBC3E5A88019036EBA",
+            "SourceString": "CUST_K21_W018_NAME",
+            "LocalizedString": "Shell Blade"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "79D4CB064BCD39F067A9BA8DCE1310A4",
+            "SourceString": "CUST_K21_W018_DESC",
+            "LocalizedString": "The potential for true genetic symbiosis sparked his imagination, a being neither human nor sea-creature, but something so much more."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K21/K21_W018.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "K21_W018",
+        "SearchTags": []
+      },
+      "K28_Head014": {
+        "Category": "ECustomizationCategory::KillerHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K28/Models/Heads/K28_Head014_REF.K28_Head014_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "DEB0F1024EECE4CB21FFD28A9C386EB9",
+          "SourceString": "COLLECTION_HRFRMDP_NAME",
+          "LocalizedString": "Horrors From The Deep"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 268435483,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "AD4C3F514C7B773E8903DF880E57C9F7",
+            "SourceString": "CUST_K28_Head014_NAME",
+            "LocalizedString": "Primitive Hold"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "295ACAF94A878C73521ABC9A057F1B19",
+            "SourceString": "CUST_K28_Head014_DESC",
+            "LocalizedString": "He grabbed a dead crab half-buried in the sand. The shell was cracked, and he used it to slice his neighbor's throat open."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K28/K28_Head014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "K28_Head014",
+        "SearchTags": []
+      },
+      "K28_Body014": {
+        "Category": "ECustomizationCategory::KillerBody",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K28/Models/Bodies/K28_Body014_REF.K28_Body014_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [
+          "BodyB"
+        ],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "012B3C4E498EC5E6CA4B5FAF4163058F",
+          "SourceString": "COLLECTION_HRFRMDP_NAME",
+          "LocalizedString": "Horrors From The Deep"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.BP_K28_Skull_ACC014_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          },
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Shadow_ACC.BP_K28_Shadow_ACC_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 268435483,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "8E7F435840319EDB325AB4BB8A73A5C2",
+            "SourceString": "CUST_K28_Body014_NAME",
+            "LocalizedString": "Rotten Shell"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "337DCAE8403A2A2203E3A09A5432C9A1",
+            "SourceString": "CUST_K28_Body014_DESC",
+            "LocalizedString": "The sand turned to black mud and the sight of what emerged made him cry out in terrified elation."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K28/K28_Body014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "K28_Body014",
+        "SearchTags": []
+      },
+      "K28_W014": {
+        "Category": "ECustomizationCategory::KillerWeapon",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Slashers/K28/Models/Weapon/K28_W014_REF.K28_W014_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [
+          "ArmRightA"
+        ],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "87D85FD947881A935FFF9BB9F253A762",
+          "SourceString": "COLLECTION_HRFRMDP_NAME",
+          "LocalizedString": "Horrors From The Deep"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 268435483,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "247A0E6E48A92626F5E00BB9A9E7E9F6",
+            "SourceString": "CUST_K28_W014_NAME",
+            "LocalizedString": "Depth Stake"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "96B9E9F141DD7B9E6ECA2CADEAEA5113",
+            "SourceString": "CUST_K28_W014_DESC",
+            "LocalizedString": "He closed his eyes and spread his arms, ready to receive whatever fate would befall him."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/K28/K28_W014.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "K28_W014",
         "SearchTags": []
       },
       "DF_Head033": {
@@ -519,7 +2090,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DF_Head033",
@@ -640,7 +2212,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DF_Torso033",
@@ -764,7 +2337,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DF_Legs033",
@@ -900,7 +2474,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "MT_Head030",
@@ -1019,7 +2594,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "MT_Torso030",
@@ -1143,7 +2719,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "MT_Legs030",
@@ -1279,7 +2856,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "CM_Head028",
@@ -1398,7 +2976,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "CM_Torso028",
@@ -1522,7 +3101,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "CM_Legs028",
@@ -1658,7 +3238,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "JP_Head025",
@@ -1777,7 +3358,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "JP_Torso025",
@@ -1918,7 +3500,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "JP_Legs025",
@@ -2054,7 +3637,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "NK_Head031",
@@ -2173,7 +3757,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "NK_Torso031",
@@ -2297,7 +3882,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "NK_Legs031",
@@ -2433,7 +4019,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "FM_Head034",
@@ -2552,7 +4139,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "FM_Torso034",
@@ -2676,7 +4264,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "FM_Legs034",
@@ -2812,7 +4401,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S28_Head026",
@@ -2933,7 +4523,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S28_Torso026",
@@ -3057,7 +4648,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S28_Legs026",
@@ -3193,7 +4785,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DK_Head024",
@@ -3312,7 +4905,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DK_Torso024",
@@ -3431,7 +5025,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DK_Legs024",
@@ -3567,7 +5162,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TR_Mask024",
@@ -3691,7 +5287,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TR_Body024",
@@ -3810,7 +5407,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TR_W024",
@@ -3929,7 +5527,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TC_Torso020",
@@ -4053,7 +5652,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TC_Legs020",
@@ -4172,7 +5772,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TC_W020",
@@ -4291,7 +5892,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TW_Head022",
@@ -4427,7 +6029,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TW_Body022",
@@ -4546,7 +6149,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TW_W022",
@@ -4665,7 +6269,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TN_Head020",
@@ -4784,7 +6389,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TN_Body020",
@@ -4903,7 +6509,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TN_W020",
@@ -5039,7 +6646,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "BE_Mask025",
@@ -5163,7 +6771,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "BE_Body025",
@@ -5282,10 +6891,1208 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "BE_W025",
+        "SearchTags": []
+      },
+      "S31_Head016": {
+        "Category": "ECustomizationCategory::SurvivorHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S31/Models/Heads/S31_Head01_REF.S31_Head01_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "9449C0C4481BDEFB7B9FD6998BA20558",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S31/Models/Heads/ACC/Blueprints/BP_S31_Hair_ACC016.BP_S31_Hair_ACC016_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 30,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "14A4ECF142CDB7C03DB06EBE4C1BD093",
+            "SourceString": "CUST_S31_Head016_NAME",
+            "LocalizedString": "Phantom Fedora"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "08F981CE46C4FCD4B58F6B81798458E6",
+            "SourceString": "CUST_S31_Head016_DESC",
+            "LocalizedString": "She believed the speakeasy in the basement was an Overlap, a place where two dimensions intersected."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_Head016.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S31_Head016",
+        "SearchTags": []
+      },
+      "S31_Torso016": {
+        "Category": "ECustomizationCategory::SurvivorTorso",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S31/Models/Torsos/S31_Torso016_REF.S31_Torso016_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "1B94810E47824B456D959FB8A682DF20",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 30,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "7235551745CF53370708ADBAFA932DBF",
+            "SourceString": "CUST_S31_Torso016_NAME",
+            "LocalizedString": "Turmoil-Cover Shirt"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "665EE1A24948748EA582B6A1012B4DB0",
+            "SourceString": "CUST_S31_Torso016_DESC",
+            "LocalizedString": "She found a spectral man standing behind the bar, trying to open a moldy barrel, a large gaping hole in his back."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_Torso016.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S31_Torso016",
+        "SearchTags": []
+      },
+      "S31_Legs016": {
+        "Category": "ECustomizationCategory::SurvivorLegs",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S31/Models/Legs/S31_Legs016_REF.S31_Legs016_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "E68BFE9D40016822C9B43D887F909DF5",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [
+          {
+            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterShoes",
+            "SwitchState": "Boots"
+          }
+        ],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 30,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "53DE049246DD40783EB5F0B74D00B499",
+            "SourceString": "CUST_S31_Legs016_NAME",
+            "LocalizedString": "Clouded Footprint"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "C0AB03D8493D85CFD24443B572E1AD9C",
+            "SourceString": "CUST_S31_Legs016_DESC",
+            "LocalizedString": "The man turned around and reached for Haddie. She fought back a scream and ran up the stairs."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S31/S31_Legs016.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S31_Legs016",
+        "SearchTags": []
+      },
+      "S29_Head018": {
+        "Category": "ECustomizationCategory::SurvivorHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S29/Models/Heads/S29_Head00_REF.S29_Head00_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "9449C0C4481BDEFB7B9FD6998BA20558",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S29/Models/Heads/ACC/Blueprints/BP_S29_Hair_ACC018.BP_S29_Hair_ACC018_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 28,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "96FAB9FE4CBFBE072E0B65BC4EA2BF6A",
+            "SourceString": "CUST_S29_Head018_NAME",
+            "LocalizedString": "Agent Shades"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "19E951454F48D10EC5E5A6A6CB8A8ABB",
+            "SourceString": "CUST_S29_Head018_DESC",
+            "LocalizedString": "It was this book's protagonist who made him want to be an agent when he was a young boy."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S29/S29_Head018.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S29_Head018",
+        "SearchTags": []
+      },
+      "S29_Torso018": {
+        "Category": "ECustomizationCategory::SurvivorTorso",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S29/Models/Torsos/S29_Torso018_REF.S29_Torso018_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "1B94810E47824B456D959FB8A682DF20",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S29/Models/Torsos/ACC/Blueprints/BP_S29_Chain_ACC018.BP_S29_Chain_ACC018_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 28,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "FD3C54AB444105CFB12B3AB75CA9BDDC",
+            "SourceString": "CUST_S29_Torso018_NAME",
+            "LocalizedString": "Furtive Leather Coat"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "45348D95419AFB687E8A0FAE4B79DAF2",
+            "SourceString": "CUST_S29_Torso018_DESC",
+            "LocalizedString": "Reading the book as an adult was a different experience altogether. The hero spy was an expert in fieldwork, able to get out of any situation."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S29/S29_Torso018.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S29_Torso018",
+        "SearchTags": []
+      },
+      "S29_Legs018": {
+        "Category": "ECustomizationCategory::SurvivorLegs",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/S29/Models/Legs/S29_Legs018_REF.S29_Legs018_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "E68BFE9D40016822C9B43D887F909DF5",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/S29/Models/Legs/ACC/Blueprints/BP_S29_Handcuffs_ACC018.BP_S29_Handcuffs_ACC018_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [
+          {
+            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterShoes",
+            "SwitchState": "Boots"
+          }
+        ],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 28,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "77A09EE84512969A03490CB5121E1386",
+            "SourceString": "CUST_S29_Legs018_NAME",
+            "LocalizedString": "Getaway Boots"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "42894E2540EBAFC7D7171E93BBDA828A",
+            "SourceString": "CUST_S29_Legs018_DESC",
+            "LocalizedString": "After everything he'd been through, Jonah still felt like a number-cruncher. He would never be as cool or capable as the hero who inspired him."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/S29/S29_Legs018.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "S29_Legs018",
+        "SearchTags": []
+      },
+      "MS_Head024": {
+        "Category": "ECustomizationCategory::SurvivorHead",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/Mali/Models/Heads/MS_Head00_REF.MS_Head00_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "9449C0C4481BDEFB7B9FD6998BA20558",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/Mali/Models/Heads/ACC/Top/Blueprints/BP_MS_Hair_ACC024.BP_MS_Hair_ACC024_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 15,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "3DEBD97E461B9C6A1587F881385A30AC",
+            "SourceString": "CUST_MS_Head024_NAME",
+            "LocalizedString": "Tied Chignon"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "777B06E846B6754A8AC9C68B2AA3D6AF",
+            "SourceString": "CUST_MS_Head024_DESC",
+            "LocalizedString": "The detective on the screen was funny, clever, and impeccably dressed. Jane watched her every move with admiration."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/Jane/MS_Head024.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "MS_Head024",
+        "SearchTags": []
+      },
+      "MS_Torso024": {
+        "Category": "ECustomizationCategory::SurvivorTorso",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/Mali/Models/Torsos/MS_Torso024_REF.MS_Torso024_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "1B94810E47824B456D959FB8A682DF20",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [
+          {
+            "AccessoryBlueprint": {
+              "AssetPathName": "/Game/Characters/Campers/Mali/Models/Torsos/ACC/Blueprints/BP_MS_Necklace_ACC024.BP_MS_Necklace_ACC024_C",
+              "SubPathString": ""
+            },
+            "SkeletalMesh": {
+              "AssetPathName": "None",
+              "SubPathString": null
+            },
+            "SocketName": "None",
+            "MaterialsMap": [],
+            "ConditionalMaterialReplacer": {
+              "ItemTag": "None",
+              "ConditionalMaterials": []
+            }
+          }
+        ],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 15,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "9008F0E041AED22D40D503AB943372F6",
+            "SourceString": "CUST_MS_Torso024_NAME",
+            "LocalizedString": "Power Suit"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "E36291174F504CB98E1F65AF26E8948C",
+            "SourceString": "CUST_MS_Torso024_DESC",
+            "LocalizedString": "At last came the detective's death scene. Jane reached for a pack of tissues, sad but also thankful to have gone on such an emotional journey."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/Jane/MS_Torso024.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "MS_Torso024",
+        "SearchTags": []
+      },
+      "MS_Legs024": {
+        "Category": "ECustomizationCategory::SurvivorLegs",
+        "ItemMesh": {
+          "AssetPathName": "/Game/Characters/Campers/Mali/Models/Legs/MS_Legs024_REF.MS_Legs024_REF",
+          "SubPathString": ""
+        },
+        "AnimClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "ItemBlueprint": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "MaterialsMap": [],
+        "ConditionalMaterialReplacer": {
+          "ItemTag": "None",
+          "ConditionalMaterials": []
+        },
+        "TexturesMap": [],
+        "SkeletalComponentTags": [],
+        "CosmeticOverrideSemanticTags": [],
+        "CollectionName": {
+          "Namespace": "",
+          "Key": "E68BFE9D40016822C9B43D887F909DF5",
+          "SourceString": "COLLECTION_NRCOLL_NAME",
+          "LocalizedString": "Noir"
+        },
+        "CollectionDescription": {
+          "CultureInvariantString": null
+        },
+        "AssociatedCharacterSearchTags": [],
+        "PrestigeUlockLevel": -1,
+        "PrestigeUnlockDate": "",
+        "EventId": "None",
+        "CharmCategory": "ECharmCategory::None",
+        "SocketAttachements": [],
+        "UnlockingConditions": [],
+        "IsInStore": true,
+        "IsInNonViolentBuild": false,
+        "IsEntitledByDefault": false,
+        "PlatformExclusiveFlag": 0,
+        "CustomSFXs": [
+          {
+            "AudioCategory": "EAudioCustomizationCategory::AudioCharacterShoes",
+            "SwitchState": "HighHeels"
+          }
+        ],
+        "AnimationData": {
+          "MenuAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "InGameAnimationBlueprint": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          }
+        },
+        "AssociatedCharacter": 15,
+        "AssociatedRole": "EPlayerRole::VE_None",
+        "Rarity": "EItemRarity::VeryRare",
+        "Prefix": "ECustomizationModifier::None",
+        "UIData": {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "EE7E10C2462DEBC94A4BAFB2CE4504A0",
+            "SourceString": "CUST_MS_Legs024_NAME",
+            "LocalizedString": "Tenacious Heels"
+          },
+          "Description": {
+            "Namespace": "",
+            "Key": "7EA44CF14BA446DCED7A6D996227EE88",
+            "SourceString": "CUST_MS_Legs024_DESC",
+            "LocalizedString": "The credits rolled and Jane left the theater feeling inspired. One day, she would connect with people the way the detective connected with her."
+          },
+          "InGameDescription": {
+            "CultureInvariantString": null
+          },
+          "IconFilePathList": [
+            "UI/Icons/Customization/Jane/MS_Legs024.png"
+          ],
+          "IconAssetList": [],
+          "SecondaryIcon": "",
+          "AnimatedWidgetRef": {
+            "AssetPathName": "None",
+            "SubPathString": null
+          },
+          "AnimationFilePath": "",
+          "AnimationLinkageId": "",
+          "CustomTransformation": {
+            "UseCustomTransformation": false,
+            "CustomScale": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "CustomTranslation": {
+              "X": 0.0,
+              "Y": 0.0
+            }
+          },
+          "PlatformsUnlicensedNameOverride": 0,
+          "PlatformsUnlicensedDescriptionOverride": 0,
+          "PlatformsForIconUnlicensedFilePathListOverride": 0,
+          "IconUnlicensedFilePathListOverride": [],
+          "LicenseExpirationOverride": false,
+          "DisplayNameUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "DescriptionUnlicensedOverride": {
+            "CultureInvariantString": null
+          },
+          "AssociatedCharacterIndex": -1
+        },
+        "Availability": {
+          "ItemAvailability": "EItemAvailability::Available",
+          "DLCId": "0",
+          "AdditionalDlcIds": [],
+          "CloudInventoryId": -1,
+          "CommunityId": "0",
+          "_isLicensed": false
+        },
+        "InclusionVersion": "8.1.2",
+        "CustomizationId": "MS_Legs024",
         "SearchTags": []
       },
       "TR_Mask025": {
@@ -5401,7 +8208,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TR_Mask025",
@@ -5537,7 +8345,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "HK_Head020",
@@ -5673,7 +8482,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "HK_Body020",
@@ -5825,7 +8635,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "HK_W020",
@@ -5992,7 +8803,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "HK_Head020_01",
@@ -6180,7 +8992,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "HK_Body020_01",
@@ -6365,7 +9178,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "HK_W020_01",
@@ -6512,7 +9326,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "SwedenSurvivor_Head025",
@@ -6648,7 +9463,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "SwedenSurvivor_Torso025",
@@ -6789,7 +9605,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "SwedenSurvivor_Legs025",
@@ -6947,7 +9764,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "SwedenSurvivor_Head025_01",
@@ -7094,7 +9912,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "SwedenSurvivor_Torso025_01",
@@ -7241,7 +10060,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "SwedenSurvivor_Legs025_01",
@@ -7377,7 +10197,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S24_Head022",
@@ -7513,7 +10334,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S24_Torso022",
@@ -7637,7 +10459,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S24_Legs022",
@@ -7773,7 +10596,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TW_Head021",
@@ -7892,7 +10716,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TW_Body021",
@@ -8028,7 +10853,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "TW_W021",
@@ -8164,7 +10990,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DK_Head023",
@@ -8300,7 +11127,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DK_Torso023",
@@ -8424,7 +11252,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DK_Legs023",
@@ -8571,7 +11400,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S41_Head011",
@@ -8707,7 +11537,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S41_Torso011",
@@ -8831,7 +11662,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S41_Legs011",
@@ -8989,7 +11821,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S41_Head011_01",
@@ -9157,7 +11990,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S41_Torso011_01",
@@ -9292,7 +12126,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S41_Legs011_01",
@@ -9428,7 +12263,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "GK_Head022",
@@ -9569,7 +12405,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "GK_Body022",
@@ -9688,7 +12525,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "GK_W022",
@@ -9835,7 +12673,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "K23_Head023",
@@ -9976,7 +12815,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "K23_Body023",
@@ -10095,7 +12935,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "K23_Weapon023",
@@ -10253,7 +13094,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "K23_Head023_01",
@@ -10426,7 +13268,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "K23_Body023_01",
@@ -10556,7 +13399,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "K23_Weapon023_01",
@@ -10703,7 +13547,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S34_Head019",
@@ -10857,7 +13702,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S34_Torso019",
@@ -10981,7 +13827,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S34_Legs019",
@@ -11053,7 +13900,7 @@
         },
         "AssociatedCharacter": 0,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -11111,7 +13958,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DF_Torso030_01",
@@ -11183,7 +14031,7 @@
         },
         "AssociatedCharacter": 1,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -11241,7 +14089,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "MT_Torso028_01",
@@ -11313,7 +14162,7 @@
         },
         "AssociatedCharacter": 2,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -11371,7 +14220,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "CM_Torso027_01",
@@ -11443,7 +14293,7 @@
         },
         "AssociatedCharacter": 3,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -11501,7 +14351,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "JP_Torso022_01",
@@ -11573,7 +14424,7 @@
         },
         "AssociatedCharacter": 4,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -11631,7 +14482,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "NK_Torso028_01",
@@ -11703,7 +14555,7 @@
         },
         "AssociatedCharacter": 6,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -11761,7 +14613,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "AV_Torso021_01",
@@ -11833,7 +14686,7 @@
         },
         "AssociatedCharacter": 8,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -11891,7 +14744,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "FM_Torso030_01",
@@ -11963,7 +14817,7 @@
         },
         "AssociatedCharacter": 9,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -12021,7 +14875,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "DK_Torso021_01",
@@ -12093,7 +14948,7 @@
         },
         "AssociatedCharacter": 10,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -12151,7 +15006,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "GS_Torso028_01",
@@ -12223,7 +15079,7 @@
         },
         "AssociatedCharacter": 13,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -12281,7 +15137,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "HS_Torso022_01",
@@ -12353,7 +15210,7 @@
         },
         "AssociatedCharacter": 14,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -12411,7 +15268,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "KS_Torso021_01",
@@ -12483,7 +15341,7 @@
         },
         "AssociatedCharacter": 15,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -12541,7 +15399,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "MS_Torso022_01",
@@ -12613,7 +15472,7 @@
         },
         "AssociatedCharacter": 19,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -12671,7 +15530,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "SwedenSurvivor_Torso023_01",
@@ -12743,7 +15603,7 @@
         },
         "AssociatedCharacter": 20,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -12801,7 +15661,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "US_Torso022_01",
@@ -12873,7 +15734,7 @@
         },
         "AssociatedCharacter": 22,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -12931,7 +15792,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S23_Torso026_01",
@@ -13003,7 +15865,7 @@
         },
         "AssociatedCharacter": 23,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -13061,7 +15923,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S24_Torso020_01",
@@ -13133,7 +15996,7 @@
         },
         "AssociatedCharacter": 24,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -13191,7 +16054,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S25_Torso022_01",
@@ -13263,7 +16127,7 @@
         },
         "AssociatedCharacter": 27,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -13321,7 +16185,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S28_Torso022_01",
@@ -13393,7 +16258,7 @@
         },
         "AssociatedCharacter": 28,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -13451,7 +16316,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S29_Torso016_01",
@@ -13523,7 +16389,7 @@
         },
         "AssociatedCharacter": 30,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -13581,7 +16447,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S31_Torso015_01",
@@ -13653,7 +16520,7 @@
         },
         "AssociatedCharacter": 33,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -13711,7 +16578,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S34_Torso016_01",
@@ -13783,7 +16651,7 @@
         },
         "AssociatedCharacter": 34,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -13841,7 +16709,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S35_Torso014_01",
@@ -13913,7 +16782,7 @@
         },
         "AssociatedCharacter": 35,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -13971,7 +16840,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S36_Torso015_01",
@@ -14043,7 +16913,7 @@
         },
         "AssociatedCharacter": 36,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -14101,7 +16971,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S37_Torso014_01",
@@ -14162,7 +17033,7 @@
         },
         "AssociatedCharacter": 40,
         "AssociatedRole": "EPlayerRole::VE_None",
-        "Rarity": "EItemRarity::UltraRare",
+        "Rarity": "EItemRarity::Rare",
         "Prefix": "ECustomizationModifier::None",
         "UIData": {
           "DisplayName": {
@@ -14220,7 +17091,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S41_Torso010",
@@ -14367,7 +17239,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S35_Head006_01",
@@ -14525,7 +17398,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S35_Torso006_01",
@@ -14660,7 +17534,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S35_Legs006_01",
@@ -14817,7 +17692,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S36_Head010_01",
@@ -14964,7 +17840,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S36_Torso007_02",
@@ -15094,7 +17971,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "S36_Legs011_01",
@@ -15267,7 +18145,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "AV_Head010_02",
@@ -15416,7 +18295,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "AV_Torso011_01",
@@ -15556,7 +18436,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "AV_Legs009_01",
@@ -15713,7 +18594,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "GS_Head026_01",
@@ -15843,7 +18725,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "GS_Torso025_01",
@@ -15978,7 +18861,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "GS_Legs006_01",
@@ -16125,7 +19009,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "UK_Head013_01",
@@ -16292,7 +19177,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "UK_Body013_01",
@@ -16439,7 +19325,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "UK_W013_01",
@@ -16569,7 +19456,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "K32_Head009_01",
@@ -16746,7 +19634,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "K32_Body009_01",
@@ -16876,7 +19765,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "K32_W009_01",
@@ -17063,7 +19953,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "Swedenkiller_Mask008_01",
@@ -17209,8 +20100,8 @@
         "CustomSFXs": [],
         "AnimationData": {
           "MenuAnimationBlueprint": {
-            "AssetPathName": "/Game/Characters/Slashers/Blueprints/Menu/AB_Menu_Slasher18_010.AB_Menu_Slasher18_010_C",
-            "SubPathString": ""
+            "AssetPathName": "None",
+            "SubPathString": null
           },
           "InGameAnimationBlueprint": {
             "AssetPathName": "None",
@@ -17277,7 +20168,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "Swedenkiller_Body010_01",
@@ -17407,7 +20299,8 @@
           "DLCId": "0",
           "AdditionalDlcIds": [],
           "CloudInventoryId": -1,
-          "CommunityId": "0"
+          "CommunityId": "0",
+          "_isLicensed": false
         },
         "InclusionVersion": "8.1.0",
         "CustomizationId": "Swedenkiller_W010_01",

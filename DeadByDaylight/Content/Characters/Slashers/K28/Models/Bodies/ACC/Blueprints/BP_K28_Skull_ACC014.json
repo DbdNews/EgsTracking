@@ -1,0 +1,887 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_K28_Skull_ACC014_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Accessory'",
+      "ObjectPath": "/Script/Customization"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_K28_Skull_ACC014_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.3"
+      },
+      {
+        "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Attach to Component",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_K28_Skull_ACC014": {
+        "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_K28_Skull_ACC014_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_K28_Skull_ACC014_C'Default__BP_K28_Skull_ACC014_C'",
+      "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_K28_Skull_ACC014_C",
+    "Name": "Default__BP_K28_Skull_ACC014_C",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.BP_K28_Skull_ACC014_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "SkeletalMeshAsset": {
+        "ObjectName": "SkeletalMesh'K28_Skull_ACC014_REF'",
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Models/K28_Skull_ACC014_REF.0"
+      },
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'AB_K28_Skull_ACC014_C'",
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/AB_K28_Skull_ACC014.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'K28_Skull_ACC014_REF'",
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Models/K28_Skull_ACC014_REF.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'K28_Skull_ACC014_REF'",
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Models/K28_Skull_ACC014_REF.0"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::AlwaysTickPose",
+      "DetailLevelBeforeCastShadows": "EDetailMode::DM_MAX",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "PhysicsActor",
+        "CollisionResponses": {
+          "ResponseToChannels": {
+            "WorldStatic": "ECollisionResponse::ECR_Block",
+            "WorldDynamic": "ECollisionResponse::ECR_Block",
+            "Pawn": "ECollisionResponse::ECR_Block",
+            "Visibility": "ECollisionResponse::ECR_Block",
+            "Camera": "ECollisionResponse::ECR_Block",
+            "PhysicsBody": "ECollisionResponse::ECR_Block",
+            "Vehicle": "ECollisionResponse::ECR_Block",
+            "Destructible": "ECollisionResponse::ECR_Block",
+            "EngineTraceChannel2": "ECollisionResponse::ECR_Block",
+            "EngineTraceChannel3": "ECollisionResponse::ECR_Block",
+            "EngineTraceChannel4": "ECollisionResponse::ECR_Block",
+            "EngineTraceChannel5": "ECollisionResponse::ECR_Block",
+            "EngineTraceChannel6": "ECollisionResponse::ECR_Block",
+            "GameTraceChannel1": "ECollisionResponse::ECR_Block",
+            "GameTraceChannel2": "ECollisionResponse::ECR_Block",
+            "GameTraceChannel3": "ECollisionResponse::ECR_Block",
+            "GameTraceChannel5": "ECollisionResponse::ECR_Block",
+            "GameTraceChannel14": "ECollisionResponse::ECR_Overlap",
+            "GameTraceChannel15": "ECollisionResponse::ECR_Block"
+          },
+          "ResponseArray": [
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Slasher",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "InteractionDetector",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_K28_Skull_ACC014",
+    "Outer": "BP_K28_Skull_ACC014_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ParticleSystemComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ParticleSystemComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ParticleSystemComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ParticleSystemComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "Class'Default__GameplayStatics'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 114,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'GameplayStatics:SpawnEmitterAttached'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_ObjectConst",
+                "Value": {
+                  "ObjectName": "ParticleSystem'P_K28_BloodDrip_001'",
+                  "ObjectPath": "/Game/Effects/ParticleSystems/Killer28/P_K28_BloodDrip_001.87"
+                }
+              },
+              {
+                "Inst": "EX_Self"
+              },
+              {
+                "Inst": "EX_NameConst",
+                "Value": "joint_Arm04_02"
+              },
+              {
+                "Inst": "EX_VectorConst",
+                "Value": {
+                  "X": -65.0,
+                  "Y": -18.0,
+                  "Z": -20.0
+                }
+              },
+              {
+                "Inst": "EX_RotationConst",
+                "Value": {
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 90.0
+                }
+              },
+              {
+                "Inst": "EX_VectorConst",
+                "Value": {
+                  "X": 1.2,
+                  "Y": 1.2,
+                  "Z": 1.2
+                }
+              },
+              {
+                "Inst": "EX_ByteConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_True"
+              },
+              {
+                "Inst": "EX_ByteConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_True"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 156,
+        "CodeOffset": 740,
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.ExecuteUbergraph_BP_K28_Skull_ACC014[740]"
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 161,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "Class'Default__GameplayStatics'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 114,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'GameplayStatics:SpawnEmitterAttached'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_ObjectConst",
+                "Value": {
+                  "ObjectName": "ParticleSystem'P_K28_BloodDrip_001'",
+                  "ObjectPath": "/Game/Effects/ParticleSystems/Killer28/P_K28_BloodDrip_001.87"
+                }
+              },
+              {
+                "Inst": "EX_Self"
+              },
+              {
+                "Inst": "EX_NameConst",
+                "Value": "joint_Arm04_02"
+              },
+              {
+                "Inst": "EX_VectorConst",
+                "Value": {
+                  "X": -50.0,
+                  "Y": 10.0,
+                  "Z": -18.0
+                }
+              },
+              {
+                "Inst": "EX_RotationConst",
+                "Value": {
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 90.0
+                }
+              },
+              {
+                "Inst": "EX_VectorConst",
+                "Value": {
+                  "X": 1.2,
+                  "Y": 1.2,
+                  "Z": 1.2
+                }
+              },
+              {
+                "Inst": "EX_ByteConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_True"
+              },
+              {
+                "Inst": "EX_ByteConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_True"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 307,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 15,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'PrimitiveComponent:SetTranslucentSortPriority'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_IntConst",
+              "Value": 2222
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 344,
+        "CodeOffset": 10,
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.ExecuteUbergraph_BP_K28_Skull_ACC014[10]"
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 349,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "Class'Default__GameplayStatics'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 114,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'GameplayStatics:SpawnEmitterAttached'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_ObjectConst",
+                "Value": {
+                  "ObjectName": "ParticleSystem'P_K28_BloodDrip_001'",
+                  "ObjectPath": "/Game/Effects/ParticleSystems/Killer28/P_K28_BloodDrip_001.87"
+                }
+              },
+              {
+                "Inst": "EX_Self"
+              },
+              {
+                "Inst": "EX_NameConst",
+                "Value": "joint_branch_03"
+              },
+              {
+                "Inst": "EX_VectorConst",
+                "Value": {
+                  "X": -21.0,
+                  "Y": 14.0,
+                  "Z": 14.0
+                }
+              },
+              {
+                "Inst": "EX_RotationConst",
+                "Value": {
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 90.0
+                }
+              },
+              {
+                "Inst": "EX_VectorConst",
+                "Value": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              {
+                "Inst": "EX_ByteConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_True"
+              },
+              {
+                "Inst": "EX_ByteConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_True"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 495,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 15,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'PrimitiveComponent:SetTranslucentSortPriority'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_IntConst",
+              "Value": 2222
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 532,
+        "CodeOffset": 161,
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.ExecuteUbergraph_BP_K28_Skull_ACC014[161]"
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 537,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_3",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "Class'Default__GameplayStatics'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 114,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_3",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'GameplayStatics:SpawnEmitterAttached'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_ObjectConst",
+                "Value": {
+                  "ObjectName": "ParticleSystem'P_K28_BloodDrip_001'",
+                  "ObjectPath": "/Game/Effects/ParticleSystems/Killer28/P_K28_BloodDrip_001.87"
+                }
+              },
+              {
+                "Inst": "EX_Self"
+              },
+              {
+                "Inst": "EX_NameConst",
+                "Value": "joint_branch_03"
+              },
+              {
+                "Inst": "EX_VectorConst",
+                "Value": {
+                  "X": 2.0,
+                  "Y": 6.0,
+                  "Z": 22.0
+                }
+              },
+              {
+                "Inst": "EX_RotationConst",
+                "Value": {
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 90.0
+                }
+              },
+              {
+                "Inst": "EX_VectorConst",
+                "Value": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              {
+                "Inst": "EX_ByteConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_True"
+              },
+              {
+                "Inst": "EX_ByteConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_True"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 683,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+              "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnEmitterAttached_ReturnValue_3",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'ParticleSystemComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 15,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'PrimitiveComponent:SetTranslucentSortPriority'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_IntConst",
+              "Value": 2222
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 720,
+        "CodeOffset": 349,
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.ExecuteUbergraph_BP_K28_Skull_ACC014[349]"
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 725,
+        "Function": {
+          "ObjectName": "Class'ActorComponent:ReceiveBeginPlay'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 735,
+        "CodeOffset": 537,
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.ExecuteUbergraph_BP_K28_Skull_ACC014[537]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 740,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 742
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_K28_Skull_ACC014_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Class'ActorComponent:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'BP_K28_Skull_ACC014_C:ExecuteUbergraph_BP_K28_Skull_ACC014'",
+          "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 725
+          }
+        ],
+        "ObjectPath": "/Game/Characters/Slashers/K28/Models/Bodies/ACC/Blueprints/BP_K28_Skull_ACC014.ExecuteUbergraph_BP_K28_Skull_ACC014[725]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  }
+]

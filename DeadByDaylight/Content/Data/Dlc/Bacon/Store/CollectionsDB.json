@@ -3541,6 +3541,141 @@
           "K34_outfit_006",
           "K34_outfit_007"
         ]
+      },
+      "ForgottenMemory": {
+        "CollectionId": "ForgottenMemory",
+        "InclusionVersion": "8.1.1",
+        "CollectionTitle": {
+          "Namespace": "",
+          "Key": "4CC32C0A46BB082E30A610AA3F45B034",
+          "SourceString": "UMG_STORE_COLLECTION_FORGOTTENMEMORIES",
+          "LocalizedString": "Forgotten Memory"
+        },
+        "CollectionSubtitle": {
+          "CultureInvariantString": null
+        },
+        "DateUpdated": {
+          "Ticks": 638568180304780000
+        },
+        "IsEnabled": false,
+        "HasLimitedAvailabilityStartDate": false,
+        "LimitedAvailabilityStart": {
+          "Date": {
+            "Ticks": 0
+          },
+          "VisibleBeforeStartDate": true
+        },
+        "HasLimitedAvailabilityEndDate": false,
+        "LimitedAvailabilityEnd": {
+          "Date": {
+            "Ticks": 0
+          },
+          "VisibleAfterEndDate": true
+        },
+        "SortOrder": -63,
+        "HeroImage": {
+          "AssetPathName": "/Game/UI/UMGAssets/Icons/Banners/CollectionBanners/T_UI_CollectionBanner_ForgottenMemory.T_UI_CollectionBanner_ForgottenMemory",
+          "SubPathString": ""
+        },
+        "HeroVideo": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AdditionalImages": [],
+        "Items": [
+          "FM_outfit_033"
+        ]
+      },
+      "HorrorsFromTheDeep": {
+        "CollectionId": "HorrorsFromTheDeep",
+        "InclusionVersion": "8.1.2",
+        "CollectionTitle": {
+          "Namespace": "",
+          "Key": "1CE6543C4356909F46AA9FB93B2AA408",
+          "SourceString": "UMG_STORE_COLLECTION_HorrorsFromTheDeep",
+          "LocalizedString": "Horrors From The Deep"
+        },
+        "CollectionSubtitle": {
+          "CultureInvariantString": null
+        },
+        "DateUpdated": {
+          "Ticks": 638573635147720000
+        },
+        "IsEnabled": false,
+        "HasLimitedAvailabilityStartDate": false,
+        "LimitedAvailabilityStart": {
+          "Date": {
+            "Ticks": 0
+          },
+          "VisibleBeforeStartDate": true
+        },
+        "HasLimitedAvailabilityEndDate": false,
+        "LimitedAvailabilityEnd": {
+          "Date": {
+            "Ticks": 0
+          },
+          "VisibleAfterEndDate": true
+        },
+        "SortOrder": -64,
+        "HeroImage": {
+          "AssetPathName": "/Game/UI/UMGAssets/Icons/Banners/CollectionBanners/T_UI_CollectionBanner_HorrorsFromTheDeep.T_UI_CollectionBanner_HorrorsFromTheDeep",
+          "SubPathString": ""
+        },
+        "HeroVideo": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AdditionalImages": [],
+        "Items": [
+          "K28_outfit_014",
+          "K21_outfit_018"
+        ]
+      },
+      "Noir": {
+        "CollectionId": "Noir",
+        "InclusionVersion": "8.1.2",
+        "CollectionTitle": {
+          "Namespace": "",
+          "Key": "853C27C54C5805F85C460C928E0EB208",
+          "SourceString": "UMG_STORE_COLLECTION_Noir",
+          "LocalizedString": "Noir"
+        },
+        "CollectionSubtitle": {
+          "CultureInvariantString": null
+        },
+        "DateUpdated": {
+          "Ticks": 638573636147010000
+        },
+        "IsEnabled": false,
+        "HasLimitedAvailabilityStartDate": false,
+        "LimitedAvailabilityStart": {
+          "Date": {
+            "Ticks": 0
+          },
+          "VisibleBeforeStartDate": true
+        },
+        "HasLimitedAvailabilityEndDate": false,
+        "LimitedAvailabilityEnd": {
+          "Date": {
+            "Ticks": 0
+          },
+          "VisibleAfterEndDate": true
+        },
+        "SortOrder": -65,
+        "HeroImage": {
+          "AssetPathName": "/Game/UI/UMGAssets/Icons/Banners/CollectionBanners/T_UI_CollectionBanner_Noir.T_UI_CollectionBanner_Noir",
+          "SubPathString": ""
+        },
+        "HeroVideo": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AdditionalImages": [],
+        "Items": [
+          "S29_outfit_018",
+          "S31_outfit_016",
+          "MS_outfit_024"
+        ]
       }
     }
   }
